@@ -6,8 +6,11 @@ const initialState = {
 
 const stateReducer = (state = initialState, action) => {
     if (action.type === "UPDATE_STATE") {
-        state = action.payload
+        return {
+            state: action.payload
+        }
     }
+
     return state
 }
 
