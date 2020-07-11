@@ -1,9 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {connect} from 'react-redux'
+import {updateState} from '../actions'
 
-function App() {
+const App = (props) => {
+  useEffect(()=>{
+    console.log(props)
+  },[])
   return (
-    <div> App </div>
+    <div
+      onClick={()=>{
+        props.updateState("goodbye")
+        console.log(props)
+      }}
+    > App </div>
   );
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return state
+}
+
+export default connect(mapStateToProps, {updateState})(App);
