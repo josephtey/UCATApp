@@ -10,7 +10,6 @@ const App = (props) => {
     <div
       onClick={()=>{
         props.updateState("goodbye")
-        console.log(props)
       }}
     > App </div>
   );
