@@ -10,7 +10,7 @@ var sectionsRouter = require('./routes/sections');
 var structuresRouter = require('./routes/structures');
 
 var app = express();
-var cors = require('cors')
+app.use(cors())
 
 var port = 3000;
 // view engine setup

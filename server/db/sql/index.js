@@ -23,7 +23,8 @@ module.exports = {
     detail: sql('structures/detail.sql'),
     add: sql('structures/add.sql'),
     delete: sql('structures/delete.sql'),
-    update: sql('structures/update.sql')
+    update: sql('structures/update.sql'),
+    find: sql('structures/find.sql')
   }
 };
 

@@ -43,7 +43,10 @@ class StructuresRespository {
   }
 
   async detail(structure_id) {
-    return this.db.many(sql.detail, { structure_id });
+    return {
+      details: await this.db.one(sql.find, { structure_id }),
+      sections: await this.db.many(sql.detail, { structure_id })
+    }
   }
 
   async delete(structure_id) {

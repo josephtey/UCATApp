@@ -2,12 +2,16 @@ import {
   GET_ALL_EXAMS_REQUEST,
   GET_ALL_EXAMS_SUCCESS,
   GET_ALL_EXAMS_ERROR,
+  GET_EXAM_DETAIL_REQUEST,
+  GET_EXAM_DETAIL_SUCCESS,
+  GET_EXAM_DETAIL_ERROR,
 } from '../actions/content'
 
 const initialState = {
   isLoading: false,
   error: null,
-  allExams: []
+  allExams: [],
+  examDetail: null
 }
 
 export default (state = initialState, action) => {
@@ -17,6 +21,12 @@ export default (state = initialState, action) => {
     case GET_ALL_EXAMS_SUCCESS:
       return { ...state, isLoading: false, allExams: action.allExams }
     case GET_ALL_EXAMS_ERROR:
+      return { ...state, isLoading: false, error: action.error }
+    case GET_EXAM_DETAIL_REQUEST:
+      return { ...state, isLoading: true }
+    case GET_EXAM_DETAIL_SUCCESS:
+      return { ...state, isLoading: false, examDetail: action.examDetail }
+    case GET_EXAM_DETAIL_ERROR:
       return { ...state, isLoading: false, error: action.error }
     default:
       return state

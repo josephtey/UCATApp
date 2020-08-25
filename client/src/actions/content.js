@@ -1,4 +1,4 @@
-import { db_getAllExams } from '../api/db';
+import { db_getAllExams, db_getExamDetail } from '../api/db';
 
 export const GET_ALL_EXAMS_REQUEST = 'GET_ALL_EXAMS_REQUEST';
 export const GET_ALL_EXAMS_SUCCESS = 'GET_ALL_EXAMS_SUCCESS';
@@ -16,5 +16,25 @@ export const getAllExams = () => async dispatch => {
 
   } catch (error) {
     dispatch(getAllExamsError(error));
+  }
+};
+
+
+export const GET_EXAM_DETAIL_REQUEST = 'GET_EXAM_DETAIL_REQUEST';
+export const GET_EXAM_DETAIL_SUCCESS = 'GET_EXAM_DETAIL_SUCCESS';
+export const GET_EXAM_DETAIL_ERROR = 'GET_EXAM_DETAIL_ERROR';
+
+const getExamDetailRequest = { type: GET_EXAM_DETAIL_REQUEST };
+const getExamDetailSuccess = (examDetail) => ({ type: GET_EXAM_DETAIL_SUCCESS, examDetail });
+const getExamDetailError = error => ({ type: GET_EXAM_DETAIL_ERROR, error });
+
+export const getExamDetail = (structure_id) => async dispatch => {
+  dispatch(getExamDetailRequest);
+  try {
+    const examDetail = await db_getExamDetail(structure_id)
+    dispatch(getExamDetailSuccess(examDetail))
+
+  } catch (error) {
+    dispatch(getExamDetailError(error));
   }
 };
