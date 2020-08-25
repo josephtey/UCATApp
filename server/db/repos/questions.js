@@ -31,6 +31,25 @@ class QuestionsRepository {
       category_id: values.category_id
     });
   }
+
+  async update(question_id, values) {
+    return this.db.one(sql.update, {
+      question_id,
+      ...values
+    });
+  }
+
+  async delete(question_id) {
+    return this.db.one(sql.delete, {
+      question_id
+    })
+  }
+
+  async detail(question_id) {
+    return this.db.one(sql.detail, {
+      question_id
+    })
+  }
 }
 
 module.exports = QuestionsRepository;

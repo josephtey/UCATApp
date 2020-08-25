@@ -1,0 +1,54 @@
+const { structures: sql } = require('../sql');
+
+class StructuresRespository {
+  constructor(db, pgp) {
+    this.db = db;
+    this.pgp = pgp;
+  }
+  // Returns all structures
+  async total(type) {
+    return this.db.many(sql.total, {
+      type
+    });
+  }
+
+  async add(values) {
+    return this.db.one(sql.add, {
+      name: values.name,
+      description: values.description,
+      type: values.type,
+      section_order: []
+    });
+  }
+
+  async update(structure_id, values) {
+    return this.db.one(sql.update, {
+      structure_id,
+      ...values
+    });
+  }
+
+  async populate(structure_id, section_ids) {
+    let addedSections = []
+    for (let i = 0; i < section_ids.length; i++) {
+      const section = await this.db.one(sql.populate, {
+        section_id: section_ids[i],
+        structure_id
+      })
+
+      addedSections.push(section)
+    }
+
+    return addedSections
+  }
+
+  async detail(structure_id) {
+    return this.db.many(sql.detail, { structure_id });
+  }
+
+  async delete(structure_id) {
+    return this.db.one(sql.delete, { structure_id });
+  }
+}
+
+module.exports = StructuresRespository;

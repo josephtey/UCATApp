@@ -4,7 +4,7 @@ const { db } = require('../db');
 
 const router = express.Router()
 
-
+// Get all sections
 router.get('/', async function (req, res, next) {
   try {
     let result = await db.sections.total()
@@ -16,7 +16,8 @@ router.get('/', async function (req, res, next) {
   }
 });
 
-router.post('/', async function (req, res, next) {
+// Create new section
+router.put('/', async function (req, res, next) {
   try {
     let result = await db.sections.add(req.body)
     res.send(result)
@@ -27,9 +28,10 @@ router.post('/', async function (req, res, next) {
   }
 });
 
-router.post('/populate', async function (req, res, next) {
+// Update section
+router.post('/:section_id', async function (req, res, next) {
   try {
-    let result = await db.sections.populate(req.body)
+    let result = await db.sections.update(req.params.section_id, req.body)
     res.send(result)
 
   } catch (err) {
@@ -38,9 +40,34 @@ router.post('/populate', async function (req, res, next) {
   }
 });
 
-router.get('/:section_id/questions', async function (req, res, next) {
+// Delete a section
+router.delete('/:section_id', async function (req, res, next) {
   try {
-    let questions = await db.sections.getQuestions(req.params.section_id)
+    let result = await db.sections.delete(req.params.section_id)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
+// Add questions to a section
+router.post('/:section_id/populate', async function (req, res, next) {
+  try {
+    let result = await db.sections.populate(req.params.section_id, req.body.question_ids)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
+// Get the details for a single section, including all of its questions
+router.get('/:section_id', async function (req, res, next) {
+  try {
+    let questions = await db.sections.detail(req.params.section_id)
     res.send(questions)
 
   } catch (err) {

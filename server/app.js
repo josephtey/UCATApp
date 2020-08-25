@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var questionsRouter = require('./routes/questions');
 var sectionsRouter = require('./routes/sections');
+var structuresRouter = require('./routes/structures');
 
 var app = express();
 var port = 3000;
@@ -21,6 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/questions', questionsRouter);
 app.use('/sections', sectionsRouter);
+app.use('/structures', structuresRouter);
 
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`)

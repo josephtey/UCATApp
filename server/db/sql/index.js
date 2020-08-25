@@ -4,13 +4,26 @@ const { join: joinPath } = require('path');
 module.exports = {
   questions: {
     total: sql('questions/total.sql'),
-    add: sql('questions/add.sql')
+    add: sql('questions/add.sql'),
+    delete: sql('questions/delete.sql'),
+    detail: sql('questions/detail.sql'),
+    update: sql('questions/update.sql')
   },
   sections: {
     total: sql('sections/total.sql'),
     add: sql('sections/add.sql'),
     populate: sql('sections/populate.sql'),
-    getQuestions: sql('sections/getQuestions.sql')
+    detail: sql('sections/detail.sql'),
+    update: sql('sections/update.sql'),
+    delete: sql('sections/delete.sql')
+  },
+  structures: {
+    total: sql('structures/total.sql'),
+    populate: sql('structures/populate.sql'),
+    detail: sql('structures/detail.sql'),
+    add: sql('structures/add.sql'),
+    delete: sql('structures/delete.sql'),
+    update: sql('structures/update.sql')
   }
 };
 
