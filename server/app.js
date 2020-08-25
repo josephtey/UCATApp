@@ -4,7 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
+var questionsRouter = require('./routes/questions');
+var sectionsRouter = require('./routes/sections');
 
 var app = express();
 var port = 3000;
@@ -18,7 +19,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(indexRouter);
+app.use('/questions', questionsRouter);
+app.use('/sections', sectionsRouter);
 
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`)

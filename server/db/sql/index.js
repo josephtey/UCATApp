@@ -3,7 +3,14 @@ const { join: joinPath } = require('path');
 
 module.exports = {
   questions: {
+    total: sql('questions/total.sql'),
     add: sql('questions/add.sql')
+  },
+  sections: {
+    total: sql('sections/total.sql'),
+    add: sql('sections/add.sql'),
+    populate: sql('sections/populate.sql'),
+    getQuestions: sql('sections/getQuestions.sql')
   }
 };
 
