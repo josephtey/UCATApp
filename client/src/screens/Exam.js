@@ -20,7 +20,6 @@ const Exam = (props) => {
 
   useEffect(() => {
     props.getExamDetail(props.match.params.structure_id)
-
     return () => {
       props.resetExamDetail()
     }
@@ -33,7 +32,11 @@ const Exam = (props) => {
       </Heading>
 
       <ActionBar>
-        <Button>Start Exam</Button>
+        <Button
+          onClick={() => {
+            props.history.push('/exam/' + props.match.params.structure_id + '/' + props.content.examDetail.sections[0].section_id.toString())
+          }}
+        >Start Exam</Button>
       </ActionBar>
 
       <Sections>

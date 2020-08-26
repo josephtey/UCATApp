@@ -1,4 +1,4 @@
-import { db_getAllExams, db_getExamDetail } from '../api/db';
+import { db_getAllExams, db_getExamDetail, db_getSectionDetail } from '../api/db';
 
 export const GET_ALL_EXAMS_REQUEST = 'GET_ALL_EXAMS_REQUEST';
 export const GET_ALL_EXAMS_SUCCESS = 'GET_ALL_EXAMS_SUCCESS';
@@ -43,5 +43,31 @@ export const getExamDetail = (structure_id) => async dispatch => {
 export const resetExamDetail = () => {
   return {
     type: RESET_EXAM_DETAIL
+  }
+}
+
+export const GET_SECTION_DETAIL_REQUEST = 'GET_SECTION_DETAIL_REQUEST';
+export const GET_SECTION_DETAIL_SUCCESS = 'GET_SECTION_DETAIL_SUCCESS';
+export const GET_SECTION_DETAIL_ERROR = 'GET_SECTION_DETAIL_ERROR';
+export const RESET_SECTION_DETAIL = 'RESET_SECTION_DETAIL';
+
+const getSectionDetailRequest = { type: GET_SECTION_DETAIL_REQUEST };
+const getSectionDetailSuccess = (sectionDetail) => ({ type: GET_SECTION_DETAIL_SUCCESS, sectionDetail });
+const getSectionDetailError = error => ({ type: GET_SECTION_DETAIL_ERROR, error });
+
+export const getSectionDetail = (section_id) => async dispatch => {
+  dispatch(getSectionDetailRequest);
+  try {
+    const sectionDetail = await db_getSectionDetail(section_id)
+    dispatch(getSectionDetailSuccess(sectionDetail))
+
+  } catch (error) {
+    dispatch(getSectionDetailError(error));
+  }
+};
+
+export const resetSectionDetail = () => {
+  return {
+    type: RESET_SECTION_DETAIL
   }
 }

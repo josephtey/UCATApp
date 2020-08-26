@@ -15,7 +15,8 @@ module.exports = {
     populate: sql('sections/populate.sql'),
     detail: sql('sections/detail.sql'),
     update: sql('sections/update.sql'),
-    delete: sql('sections/delete.sql')
+    delete: sql('sections/delete.sql'),
+    find: sql('sections/find.sql')
   },
   structures: {
     total: sql('structures/total.sql'),

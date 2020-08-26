@@ -50,9 +50,12 @@ class SectionsRepository {
   }
 
   async detail(section_id) {
-    return this.db.many(sql.detail, {
-      section_id
-    })
+    return {
+      details: await this.db.one(sql.find, { section_id }),
+      questions: await this.db.many(sql.detail, {
+        section_id
+      })
+    }
   }
 
 }
