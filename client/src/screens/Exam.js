@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getExamDetail } from '../actions/content'
+import { getExamDetail, resetExamDetail } from '../actions/content'
 import styled from 'styled-components'
 import {
   Heading,
@@ -10,7 +10,7 @@ import {
   Button
 } from 'rebass'
 
-const mapDispatchToProps = { getExamDetail }
+const mapDispatchToProps = { getExamDetail, resetExamDetail }
 
 const mapStateToProps = (state) => {
   return state
@@ -20,12 +20,16 @@ const Exam = (props) => {
 
   useEffect(() => {
     props.getExamDetail(props.match.params.structure_id)
+
+    return () => {
+      props.resetExamDetail()
+    }
   }, [])
 
   return (
     <Container>
       <Heading>
-
+        {props.content.examDetail ? props.content.examDetail.details.name : null}
       </Heading>
 
       <ActionBar>

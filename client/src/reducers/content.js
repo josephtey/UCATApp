@@ -5,6 +5,7 @@ import {
   GET_EXAM_DETAIL_REQUEST,
   GET_EXAM_DETAIL_SUCCESS,
   GET_EXAM_DETAIL_ERROR,
+  RESET_EXAM_DETAIL
 } from '../actions/content'
 
 const initialState = {
@@ -28,6 +29,8 @@ export default (state = initialState, action) => {
       return { ...state, isLoading: false, examDetail: action.examDetail }
     case GET_EXAM_DETAIL_ERROR:
       return { ...state, isLoading: false, error: action.error }
+    case RESET_EXAM_DETAIL:
+      return { ...state, examDetail: null }
     default:
       return state
   }

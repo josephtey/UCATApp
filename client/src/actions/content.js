@@ -23,6 +23,7 @@ export const getAllExams = () => async dispatch => {
 export const GET_EXAM_DETAIL_REQUEST = 'GET_EXAM_DETAIL_REQUEST';
 export const GET_EXAM_DETAIL_SUCCESS = 'GET_EXAM_DETAIL_SUCCESS';
 export const GET_EXAM_DETAIL_ERROR = 'GET_EXAM_DETAIL_ERROR';
+export const RESET_EXAM_DETAIL = 'RESET_EXAM_DETAIL';
 
 const getExamDetailRequest = { type: GET_EXAM_DETAIL_REQUEST };
 const getExamDetailSuccess = (examDetail) => ({ type: GET_EXAM_DETAIL_SUCCESS, examDetail });
@@ -38,3 +39,9 @@ export const getExamDetail = (structure_id) => async dispatch => {
     dispatch(getExamDetailError(error));
   }
 };
+
+export const resetExamDetail = () => {
+  return {
+    type: RESET_EXAM_DETAIL
+  }
+}
