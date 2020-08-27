@@ -9,7 +9,11 @@ import {
   GET_SECTION_DETAIL_REQUEST,
   GET_SECTION_DETAIL_SUCCESS,
   GET_SECTION_DETAIL_ERROR,
-  RESET_SECTION_DETAIL
+  RESET_SECTION_DETAIL,
+  GET_QUESTION_DETAIL_REQUEST,
+  GET_QUESTION_DETAIL_SUCCESS,
+  GET_QUESTION_DETAIL_ERROR,
+  RESET_QUESTION_DETAIL
 } from '../actions/content'
 
 const initialState = {
@@ -17,7 +21,8 @@ const initialState = {
   error: null,
   allExams: [],
   examDetail: null,
-  sectionDetail: null
+  sectionDetail: null,
+  questionDetail: null
 }
 
 export default (state = initialState, action) => {
@@ -44,6 +49,14 @@ export default (state = initialState, action) => {
       return { ...state, isLoading: false, error: action.error }
     case RESET_SECTION_DETAIL:
       return { ...state, sectionDetail: null }
+    case GET_QUESTION_DETAIL_REQUEST:
+      return { ...state, isLoading: true }
+    case GET_QUESTION_DETAIL_SUCCESS:
+      return { ...state, isLoading: false, questionDetail: action.questionDetail }
+    case GET_QUESTION_DETAIL_ERROR:
+      return { ...state, isLoading: false, error: action.error }
+    case RESET_QUESTION_DETAIL:
+      return { ...state, questionDetail: null }
     default:
       return state
   }

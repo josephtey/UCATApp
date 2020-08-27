@@ -28,3 +28,9 @@ export const db_getSectionDetail = async (section_id) => {
 
   return response.data
 }
+
+export const db_getQuestionDetail = async (question_id) => {
+  const response = await db.get('/questions/' + question_id.toString())
+
+  return response.data
+}
