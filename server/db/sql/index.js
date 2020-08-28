@@ -26,6 +26,20 @@ module.exports = {
     delete: sql('structures/delete.sql'),
     update: sql('structures/update.sql'),
     find: sql('structures/find.sql')
+  },
+  sessions: {
+    total: sql('sessions/total.sql'),
+    total_structure: sql('sessions/total_structure.sql'),
+    add: sql('sessions/add.sql'),
+    delete: sql('sessions/delete.sql'),
+    update: sql('sessions/update.sql'),
+    find: sql('sessions/find.sql')
+  },
+  responses: {
+    total_session: sql('responses/total_session.sql'),
+    total_section: sql('responses/total_section.sql'),
+    update: sql('responses/update.sql'),
+    add: sql('responses/add.sql')
   }
 };
 

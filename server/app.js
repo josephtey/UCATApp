@@ -8,6 +8,8 @@ var cors = require('cors')
 var questionsRouter = require('./routes/questions');
 var sectionsRouter = require('./routes/sections');
 var structuresRouter = require('./routes/structures');
+var sessionsRouter = require('./routes/sessions');
+var responsesRouter = require('./routes/responses');
 
 var app = express();
 app.use(cors())
@@ -26,6 +28,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/questions', questionsRouter);
 app.use('/sections', sectionsRouter);
 app.use('/structures', structuresRouter);
+app.use('/responses', responsesRouter);
+app.use('/sessions', sessionsRouter);
 
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`)

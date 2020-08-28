@@ -3,6 +3,8 @@ const dbConfig = require('../db-config.json');
 const { Questions } = require('./repos');
 const { Sections } = require('./repos');
 const { Structures } = require('./repos');
+const { Sessions } = require('./repos');
+const { Responses } = require('./repos');
 
 const initOptions = {
 
@@ -10,6 +12,8 @@ const initOptions = {
     obj.questions = new Questions(obj, pgp);
     obj.sections = new Sections(obj, pgp);
     obj.structures = new Structures(obj, pgp);
+    obj.sessions = new Sessions(obj, pgp);
+    obj.responses = new Responses(obj, pgp);
   }
 };
 

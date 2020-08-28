@@ -4,7 +4,6 @@ import { getQuestionDetail, resetQuestionDetail, getSectionDetail } from '../act
 import styled from 'styled-components'
 import {
   Heading,
-  Text,
   Button
 } from 'rebass'
 
