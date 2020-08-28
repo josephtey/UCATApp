@@ -4,10 +4,10 @@ const { db } = require('../db');
 
 const router = express.Router()
 
-// Get all sections
-router.get('/', async function (req, res, next) {
+// Get all responses
+router.post('/session/:session_id', async function (req, res, next) {
   try {
-    let result = await db.responses.total()
+    let result = await db.responses.total(req.body.type, req.params.session_id, req.body.group_id)
     res.send(result)
 
   } catch (err) {
@@ -15,5 +15,28 @@ router.get('/', async function (req, res, next) {
     res.send(err)
   }
 });
+
+router.post('/:response_id', async function (req, res, next) {
+  try {
+    let result = await db.responses.update(req.params.response_id, req.body)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
+router.put('/', async function (req, res, next) {
+  try {
+    let result = await db.responses.add(req.body)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
 
 module.exports = router;

@@ -7,11 +7,11 @@ class SessionsRepository {
   }
 
   async total() {
-    return this.db.many(sql.total);
+    return this.db.manyOrNone(sql.total);
   }
 
   async total_structure(structure_id) {
-    return this.db.many(sql.total_structure, {
+    return this.db.manyOrNone(sql.total_structure, {
       structure_id
     });
   }
@@ -26,8 +26,11 @@ class SessionsRepository {
     });
   }
 
-  async update(values) {
-    return this.db.one(sql.update, values);
+  async update(session_id, values) {
+    return this.db.one(sql.update, {
+      session_id,
+      ...values
+    });
   }
 
   async find(structure_id) {

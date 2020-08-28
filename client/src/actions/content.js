@@ -1,4 +1,4 @@
-import { db_getAllExams, db_getExamDetail, db_getSectionDetail, db_getQuestionDetail } from '../api/db';
+import { db_getAllExams, db_getExamDetail, db_getSectionDetail, db_getQuestionDetail, db_createSession, db_getAllStructureSessions } from '../api/db';
 
 export const GET_ALL_EXAMS_REQUEST = 'GET_ALL_EXAMS_REQUEST';
 export const GET_ALL_EXAMS_SUCCESS = 'GET_ALL_EXAMS_SUCCESS';
@@ -97,3 +97,43 @@ export const resetQuestionDetail = () => {
     type: RESET_SECTION_DETAIL
   }
 }
+
+
+export const CREATE_SESSION_REQUEST = 'CREATE_SESSION_REQUEST';
+export const CREATE_SESSION_SUCCESS = 'CREATE_SESSION_SUCCESS';
+export const CREATE_SESSION_ERROR = 'CREATE_SESSION_ERROR';
+
+const createSessionRequest = { type: CREATE_SESSION_REQUEST };
+const createSessionSuccess = (currentSession) => ({ type: CREATE_SESSION_SUCCESS, currentSession });
+const createSessionError = error => ({ type: CREATE_SESSION_ERROR, error });
+
+export const createSession = (structure_id, student_id) => async dispatch => {
+  dispatch(createSessionRequest);
+  try {
+    const questionDetail = await db_createSession(structure_id, student_id)
+    dispatch(createSessionSuccess(questionDetail))
+
+  } catch (error) {
+    dispatch(createSessionError(error));
+  }
+};
+
+
+export const GET_STRUCTURE_SESSIONS_REQUEST = 'GET_STRUCTURE_SESSIONS_REQUEST';
+export const GET_STRUCTURE_SESSIONS_SUCCESS = 'GET_STRUCTURE_SESSIONS_SUCCESS';
+export const GET_STRUCTURE_SESSIONS_ERROR = 'GET_STRUCTURE_SESSIONS_ERROR';
+
+const getStructureSessionsRequest = { type: GET_STRUCTURE_SESSIONS_REQUEST };
+const getStructureSessionsSuccess = (structureSessions) => ({ type: GET_STRUCTURE_SESSIONS_SUCCESS, structureSessions });
+const getStructureSessionsError = error => ({ type: GET_STRUCTURE_SESSIONS_ERROR, error });
+
+export const getStructureSessions = (structure_id, student_id) => async dispatch => {
+  dispatch(getStructureSessionsRequest);
+  try {
+    const sessions = await db_getAllStructureSessions(structure_id, student_id)
+    dispatch(getStructureSessionsSuccess(sessions))
+
+  } catch (error) {
+    dispatch(getStructureSessionsError(error));
+  }
+};

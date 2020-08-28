@@ -13,7 +13,13 @@ import {
   GET_QUESTION_DETAIL_REQUEST,
   GET_QUESTION_DETAIL_SUCCESS,
   GET_QUESTION_DETAIL_ERROR,
-  RESET_QUESTION_DETAIL
+  RESET_QUESTION_DETAIL,
+  CREATE_SESSION_REQUEST,
+  CREATE_SESSION_SUCCESS,
+  CREATE_SESSION_ERROR,
+  GET_STRUCTURE_SESSIONS_REQUEST,
+  GET_STRUCTURE_SESSIONS_SUCCESS,
+  GET_STRUCTURE_SESSIONS_ERROR
 } from '../actions/content'
 
 const initialState = {
@@ -22,7 +28,9 @@ const initialState = {
   allExams: [],
   examDetail: null,
   sectionDetail: null,
-  questionDetail: null
+  questionDetail: null,
+  currentSession: null,
+  structureSessions: []
 }
 
 export default (state = initialState, action) => {
@@ -57,6 +65,18 @@ export default (state = initialState, action) => {
       return { ...state, isLoading: false, error: action.error }
     case RESET_QUESTION_DETAIL:
       return { ...state, questionDetail: null }
+    case CREATE_SESSION_REQUEST:
+      return { ...state, isLoading: true }
+    case CREATE_SESSION_SUCCESS:
+      return { ...state, isLoading: false, currentSession: action.currentSession }
+    case CREATE_SESSION_ERROR:
+      return { ...state, isLoading: false, error: action.error }
+    case GET_STRUCTURE_SESSIONS_REQUEST:
+      return { ...state, isLoading: true }
+    case GET_STRUCTURE_SESSIONS_SUCCESS:
+      return { ...state, isLoading: false, structureSessions: action.structureSessions }
+    case GET_STRUCTURE_SESSIONS_ERROR:
+      return { ...state, isLoading: false, error: action.error }
     default:
       return state
   }
