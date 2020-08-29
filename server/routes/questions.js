@@ -5,7 +5,7 @@ const { db } = require('../db');
 const router = express.Router()
 
 
-router.post('/', async function (req, res, next) {
+router.put('/', async function (req, res, next) {
 
   try {
     const result = await db.questions.add(req.body)

@@ -26,12 +26,20 @@ const Exam = (props) => {
 
   return (
     <Container>
-      <Heading>
-        {props.content.sectionDetail ? props.content.sectionDetail.details.name : null}
-      </Heading>
-      <Text>
-        {props.content.sectionDetail ? props.content.sectionDetail.details.description : null}
-      </Text>
+      {props.content.sectionDetail ?
+        <>
+          <Heading>
+            {props.content.sectionDetail.details.name}
+          </Heading>
+          <Text>
+            {props.content.sectionDetail.details.description}
+          </Text>
+          <Text>
+            {props.content.sectionDetail.details.question_order.length} Questions
+          </Text>
+        </>
+        : null}
+
       <Button
         onClick={() => {
           props.history.push(
