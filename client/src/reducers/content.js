@@ -19,7 +19,14 @@ import {
   CREATE_SESSION_ERROR,
   GET_STRUCTURE_SESSIONS_REQUEST,
   GET_STRUCTURE_SESSIONS_SUCCESS,
-  GET_STRUCTURE_SESSIONS_ERROR
+  GET_STRUCTURE_SESSIONS_ERROR,
+  GET_SESSION_RESPONSES_REQUEST,
+  GET_SESSION_RESPONSES_SUCCESS,
+  GET_SESSION_RESPONSES_ERROR,
+  CREATE_RESPONSE_REQUEST,
+  CREATE_RESPONSE_SUCCESS,
+  CREATE_RESPONSE_ERROR,
+
 } from '../actions/content'
 
 const initialState = {
@@ -30,7 +37,9 @@ const initialState = {
   sectionDetail: null,
   questionDetail: null,
   currentSession: null,
-  structureSessions: []
+  sessionResponses: [],
+  structureSessions: [],
+  newResponse: null
 }
 
 export default (state = initialState, action) => {
@@ -76,6 +85,18 @@ export default (state = initialState, action) => {
     case GET_STRUCTURE_SESSIONS_SUCCESS:
       return { ...state, isLoading: false, structureSessions: action.structureSessions }
     case GET_STRUCTURE_SESSIONS_ERROR:
+      return { ...state, isLoading: false, error: action.error }
+    case GET_SESSION_RESPONSES_REQUEST:
+      return { ...state, isLoading: true }
+    case GET_SESSION_RESPONSES_SUCCESS:
+      return { ...state, isLoading: false, sessionResponses: action.sessionResponses }
+    case GET_SESSION_RESPONSES_ERROR:
+      return { ...state, isLoading: false, error: action.error }
+    case CREATE_RESPONSE_REQUEST:
+      return { ...state, isLoading: true }
+    case CREATE_RESPONSE_SUCCESS:
+      return { ...state, isLoading: false, newResponse: action.newResponse }
+    case CREATE_RESPONSE_ERROR:
       return { ...state, isLoading: false, error: action.error }
     default:
       return state

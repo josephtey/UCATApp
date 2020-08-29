@@ -8,12 +8,12 @@ class ResponsesRepository {
 
   async total(type, session_id, group_id) {
     if (type === "structure") {
-      return this.db.many(sql.total_session, {
+      return this.db.manyOrNone(sql.total_structure, {
         session_id,
         structure_id: group_id
       });
     } else if (type === "section") {
-      return this.db.many(sql.total_section, {
+      return this.db.manyOrNone(sql.total_section, {
         session_id,
         section_id: group_id
       });

@@ -36,7 +36,7 @@ module.exports = {
     find: sql('sessions/find.sql')
   },
   responses: {
-    total_session: sql('responses/total_session.sql'),
+    total_structure: sql('responses/total_structure.sql'),
     total_section: sql('responses/total_section.sql'),
     update: sql('responses/update.sql'),
     add: sql('responses/add.sql')

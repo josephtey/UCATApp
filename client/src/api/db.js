@@ -59,11 +59,12 @@ export const db_getAllStructureSessions = async (structure_id) => {
 }
 
 
-export const db_createResponse = async (session_id, question_id, student_id, value) => {
+export const db_createResponse = async (session_id, question_id, student_id, section_id, value) => {
   const response = await db.put('/responses/', {
     session_id,
     student_id,
     question_id,
+    section_id,
     value
   })
 
@@ -81,7 +82,7 @@ export const db_updateResponse = async (response_id, value, flagged, committed) 
 }
 
 export const db_getAllSectionResponses = async (session_id, section_id) => {
-  const response = await db.put('/responses/session/' + session_id.toString(), {
+  const response = await db.post('/responses/session/' + session_id.toString(), {
     type: "section",
     group_id: section_id
   })
@@ -90,7 +91,7 @@ export const db_getAllSectionResponses = async (session_id, section_id) => {
 }
 
 export const db_getAllStructureResponses = async (session_id, structure_id) => {
-  const response = await db.put('/responses/session/' + session_id.toString(), {
+  const response = await db.post('/responses/session/' + session_id.toString(), {
     type: "structure",
     group_id: structure_id
   })
