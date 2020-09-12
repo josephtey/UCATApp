@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
-import { getQuestionDetail, resetQuestionDetail, getSectionDetail } from '../actions/content'
-import { getSessionResponses, createResponse } from '../actions/session'
+import { getSessionDetails, resetSessionDetail } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import {
@@ -14,36 +13,34 @@ import {
 import { Label, Radio } from '@rebass/forms'
 
 
-const mapDispatchToProps = { getQuestionDetail, getSectionDetail, resetQuestionDetail, getSessionResponses, createResponse }
+const mapDispatchToProps = { getSessionDetails, resetSessionDetail }
 
 const mapStateToProps = (state) => {
   return state
 }
 
-const Question = (props) => {
-
-  const [selectedAnswer, setSelectedAnswer] = useState(null)
+const Session = (props) => {
 
   useEffect(() => {
-    setSelectedAnswer(null)
-    props.getSectionDetail(parseInt(props.match.params.section_id))
-    props.getQuestionDetail(parseInt(props.match.params.question_id))
-    props.getSessionResponses(parseInt(props.session.currentSession.session_id), "section", parseInt(props.match.params.section_id))
+    // Get Session Details if it doesn't already exist
+    if (!props.session.currentSession || props.session.currentSession.session_id.toString() !== props.match.params.session_id) {
+      props.getSessionDetails(props.match.params.session_id)
+    }
 
     return () => {
-      props.resetQuestionDetail()
+      props.resetSessionDetail()
     }
-  }, [props.match.params.question_id])
+  }, [])
 
-  if (props.content.isFetchingQuestionDetail) return <Loading />
-  if (!props.content.questionDetail) return null
+  if (props.session.isFetchingSessionDetail) return <Loading />
+  if (!props.session.currentSession) return null
 
   return (
     <Container>
       <Text>
-        Current Session ID: {props.session.currentSession.session_id}
+        Current Session ID: {props.match.params.session_id}
       </Text>
-      <Heading>
+      {/* <Heading>
         {props.content.questionDetail ? props.content.questionDetail.question : null}
       </Heading>
 
@@ -60,7 +57,7 @@ const Question = (props) => {
                 name='question'
                 value={option}
                 onClick={(e) => {
-                  setSelectedAnswer(e.target.value)
+                  // setSelectedAnswer(e.target.value)
                 }}
               />
               {option}
@@ -102,7 +99,7 @@ const Question = (props) => {
             })}
           </ul>
         </Text>
-      </Status>
+      </Status> */}
     </Container >
   )
 }
@@ -115,4 +112,4 @@ const Container = styled.div`
 `
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(Question)
+export default connect(mapStateToProps, mapDispatchToProps)(Session)

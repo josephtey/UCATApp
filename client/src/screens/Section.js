@@ -19,6 +19,10 @@ const Exam = (props) => {
 
   useEffect(() => {
     props.getSectionDetail(props.match.params.section_id)
+
+    return () => {
+      props.resetSectionDetail()
+    }
   }, [])
 
   if (props.content.isFetchingSectionDetail) return <Loading />

@@ -11,6 +11,7 @@ import {
   Button
 } from 'rebass'
 import Loading from '../components/Shared/Loading'
+import { useDidMountEffect } from '../utils/helpers'
 
 const mapDispatchToProps = { getExamDetail, resetExamDetail, createSession, getStructureSessions }
 
@@ -30,6 +31,10 @@ const Exam = (props) => {
 
   }, [])
 
+  useDidMountEffect(() => {
+    props.history.push('/session/' + props.session.currentSession.session_id)
+  }, [props.session.currentSession])
+
   if (props.content.isFetchingExamDetail) return <Loading />
   if (!props.content.examDetail) return null
 
@@ -43,7 +48,6 @@ const Exam = (props) => {
         <Button
           onClick={() => {
             props.createSession(props.content.examDetail.details.structure_id, 1)
-            props.history.push('/exam/' + props.match.params.structure_id + '/' + props.content.examDetail.sections[0].section_id.toString())
           }}
         >Start Exam</Button>
       </ActionBar>

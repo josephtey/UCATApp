@@ -90,10 +90,9 @@ export const db_getAllSectionResponses = async (session_id, section_id) => {
   return response.data
 }
 
-export const db_getAllStructureResponses = async (session_id, structure_id) => {
+export const db_getAllSessionResponses = async (session_id) => {
   const response = await db.post('/responses/session/' + session_id.toString(), {
-    type: "structure",
-    group_id: structure_id
+    type: "structure"
   })
 
   return response.data

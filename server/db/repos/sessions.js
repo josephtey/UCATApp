@@ -33,9 +33,9 @@ class SessionsRepository {
     });
   }
 
-  async find(structure_id) {
+  async find(session_id) {
     return this.db.one(sql.find, {
-      structure_id
+      session_id
     });
   }
 
