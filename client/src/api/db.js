@@ -65,7 +65,8 @@ export const db_createResponse = async (session_id, question_id, student_id, sec
     student_id,
     question_id,
     section_id,
-    value
+    value,
+    timestamp: new Date().getTime()
   })
 
   return response.data

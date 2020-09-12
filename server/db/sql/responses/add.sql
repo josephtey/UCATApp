@@ -1,5 +1,5 @@
 INSERT INTO "Responses"
-  (value, flagged, committed, session_id, student_id, question_id, section_id)
+  (value, flagged, committed, session_id, student_id, question_id, section_id, timestamp)
 VALUES
-  (${value}, false, false, ${session_id}, ${student_id}, ${question_id}, ${section_id}) 
+  (${value}, false, false, ${session_id}, ${student_id}, ${question_id}, ${section_id}, ${timestamp}) 
 RETURNING *

@@ -78,32 +78,6 @@ export const resetSectionDetail = () => {
   }
 }
 
-export const GET_QUESTION_DETAIL_REQUEST = 'GET_QUESTION_DETAIL_REQUEST';
-export const GET_QUESTION_DETAIL_SUCCESS = 'GET_QUESTION_DETAIL_SUCCESS';
-export const GET_QUESTION_DETAIL_ERROR = 'GET_QUESTION_DETAIL_ERROR';
-export const RESET_QUESTION_DETAIL = 'RESET_QUESTION_DETAIL';
-
-const getQuestionDetailRequest = { type: GET_QUESTION_DETAIL_REQUEST };
-const getQuestionDetailSuccess = (questionDetail) => ({ type: GET_QUESTION_DETAIL_SUCCESS, questionDetail });
-const getQuestionDetailError = error => ({ type: GET_QUESTION_DETAIL_ERROR, error });
-
-export const getQuestionDetail = (question_id) => async dispatch => {
-  dispatch(getQuestionDetailRequest);
-  try {
-    const questionDetail = await db_getQuestionDetail(question_id)
-    dispatch(getQuestionDetailSuccess(questionDetail))
-
-  } catch (error) {
-    dispatch(getQuestionDetailError(error));
-  }
-};
-
-export const resetQuestionDetail = () => {
-  return {
-    type: RESET_SECTION_DETAIL
-  }
-}
-
 export const GET_STRUCTURE_SESSIONS_REQUEST = 'GET_STRUCTURE_SESSIONS_REQUEST';
 export const GET_STRUCTURE_SESSIONS_SUCCESS = 'GET_STRUCTURE_SESSIONS_SUCCESS';
 export const GET_STRUCTURE_SESSIONS_ERROR = 'GET_STRUCTURE_SESSIONS_ERROR';

@@ -14,7 +14,11 @@ import {
   GET_SESSION_DETAIL_REQUEST,
   GET_SESSION_DETAIL_SUCCESS,
   GET_SESSION_DETAIL_ERROR,
-  RESET_SESSION_DETAIL
+  RESET_SESSION_DETAIL,
+
+  GET_QUESTION_REQUEST,
+  GET_QUESTION_SUCCESS,
+  GET_QUESTION_ERROR
 } from '../actions/session'
 
 const initialState = {
@@ -22,8 +26,12 @@ const initialState = {
   isFetchingResponses: false,
   isCreatingResponse: false,
   isFetchingSession: false,
+  isFetchingQuestionDetail: false,
   error: null,
   currentSession: null,
+  currentQuestion: null,
+  currentStructure: null,
+  currentSection: null,
   sessionResponses: [],
   newResponse: null
 }
@@ -51,10 +59,17 @@ export default (state = initialState, action) => {
     case CREATE_RESPONSE_ERROR:
       return { ...state, isCreatingResponse: false, error: action.error }
 
+    case GET_QUESTION_REQUEST:
+      return { ...state, isFetchingQuestionDetail: true }
+    case GET_QUESTION_SUCCESS:
+      return { ...state, isFetchingQuestionDetail: false, currentQuestion: action.questionDetail }
+    case GET_QUESTION_ERROR:
+      return { ...state, isFetchingQuestionDetail: false, error: action.error }
+
     case GET_SESSION_DETAIL_REQUEST:
       return { ...state, isFetchingSession: true }
     case GET_SESSION_DETAIL_SUCCESS:
-      return { ...state, isFetchingSession: false, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses }
+      return { ...state, isFetchingSession: false, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection }
     case GET_SESSION_DETAIL_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
     case RESET_SESSION_DETAIL:

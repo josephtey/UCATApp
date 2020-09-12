@@ -13,11 +13,6 @@ import {
   GET_SECTION_DETAIL_ERROR,
   RESET_SECTION_DETAIL,
 
-  GET_QUESTION_DETAIL_REQUEST,
-  GET_QUESTION_DETAIL_SUCCESS,
-  GET_QUESTION_DETAIL_ERROR,
-  RESET_QUESTION_DETAIL,
-
   GET_STRUCTURE_SESSIONS_REQUEST,
   GET_STRUCTURE_SESSIONS_SUCCESS,
   GET_STRUCTURE_SESSIONS_ERROR,
@@ -34,7 +29,6 @@ const initialState = {
   allExams: [],
   examDetail: null,
   sectionDetail: null,
-  questionDetail: null,
   structureSessions: []
 }
 
@@ -64,15 +58,6 @@ export default (state = initialState, action) => {
       return { ...state, isFetchingSectionDetail: false, error: action.error }
     case RESET_SECTION_DETAIL:
       return { ...state, sectionDetail: null }
-
-    case GET_QUESTION_DETAIL_REQUEST:
-      return { ...state, isFetchingQuestionDetail: true }
-    case GET_QUESTION_DETAIL_SUCCESS:
-      return { ...state, isFetchingQuestionDetail: false, questionDetail: action.questionDetail }
-    case GET_QUESTION_DETAIL_ERROR:
-      return { ...state, isFetchingQuestionDetail: false, error: action.error }
-    case RESET_QUESTION_DETAIL:
-      return { ...state, questionDetail: null }
 
     case GET_STRUCTURE_SESSIONS_REQUEST:
       return { ...state, isFetchingSessions: true }

@@ -10,7 +10,7 @@ import {
   Box
 } from 'rebass'
 
-import { Label, Radio } from '@rebass/forms'
+import Question from '../components/Session/Question'
 
 
 const mapDispatchToProps = { getSessionDetails, resetSessionDetail }
@@ -40,6 +40,8 @@ const Session = (props) => {
       <Text>
         Current Session ID: {props.match.params.session_id}
       </Text>
+
+      <Question />
       {/* <Heading>
         {props.content.questionDetail ? props.content.questionDetail.question : null}
       </Heading>

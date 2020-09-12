@@ -3,7 +3,10 @@ import {
   db_getAllSectionResponses,
   db_getAllSessionResponses,
   db_createResponse,
-  db_findSession
+  db_findSession,
+  db_getSectionDetail,
+  db_getExamDetail,
+  db_getQuestionDetail
 } from '../api/db';
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
@@ -31,7 +34,7 @@ export const GET_SESSION_DETAIL_ERROR = 'GET_SESSION_DETAIL_ERROR';
 export const RESET_SESSION_DETAIL = 'RESET_SESSION_DETAIL';
 
 const getSessionDetailsRequest = { type: GET_SESSION_DETAIL_REQUEST };
-const getSessionDetailsSuccess = (sessionDetails, sessionResponses) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses });
+const getSessionDetailsSuccess = (sessionDetails, sessionResponses, currentSection, currentStructure) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses, currentSection, currentStructure });
 const getSessionDetailsError = error => ({ type: GET_SESSION_DETAIL_ERROR, error });
 
 export const getSessionDetails = (session_id) => async dispatch => {
@@ -39,8 +42,16 @@ export const getSessionDetails = (session_id) => async dispatch => {
   try {
     const sessionDetails = await db_findSession(session_id)
     const sessionResponses = await db_getAllSessionResponses(session_id)
+    const currentStructure = await db_getExamDetail(sessionDetails.structure_id)
 
-    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses))
+    let currentSection;
+    if (sessionResponses.length > 0) {
+      currentSection = await db_getSectionDetail(sessionResponses[0].section_id)
+    } else {
+      currentSection = currentStructure.sections[0]
+    }
+
+    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure))
 
   } catch (error) {
     dispatch(getSessionDetailsError(error));
@@ -95,5 +106,24 @@ export const createSession = (structure_id, student_id) => async dispatch => {
 
   } catch (error) {
     dispatch(createSessionError(error));
+  }
+};
+
+export const GET_QUESTION_REQUEST = 'GET_QUESTION_REQUEST';
+export const GET_QUESTION_SUCCESS = 'GET_QUESTION_SUCCESS';
+export const GET_QUESTION_ERROR = 'GET_QUESTION_ERROR';
+
+const getQuestionDetailRequest = { type: GET_QUESTION_REQUEST };
+const getQuestionDetailSuccess = (questionDetail) => ({ type: GET_QUESTION_SUCCESS, questionDetail });
+const getQuestionDetailError = error => ({ type: GET_QUESTION_ERROR, error });
+
+export const getQuestionDetail = (question_id) => async dispatch => {
+  dispatch(getQuestionDetailRequest);
+  try {
+    const questionDetail = await db_getQuestionDetail(question_id)
+    dispatch(getQuestionDetailSuccess(questionDetail))
+
+  } catch (error) {
+    dispatch(getQuestionDetailError(error));
   }
 };
