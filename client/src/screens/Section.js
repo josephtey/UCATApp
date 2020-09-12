@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
 import { getSectionDetail, resetSectionDetail } from '../actions/content'
 import styled from 'styled-components'
+import Loading from '../components/Shared/Loading'
 import {
   Heading,
   Text,
@@ -18,11 +19,10 @@ const Exam = (props) => {
 
   useEffect(() => {
     props.getSectionDetail(props.match.params.section_id)
-
-    return () => {
-      props.resetSectionDetail()
-    }
   }, [])
+
+  if (props.content.isFetchingSectionDetail) return <Loading />
+  if (!props.content.sectionDetail) return null
 
   return (
     <Container>

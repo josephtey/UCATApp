@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
 import { getAllExams } from '../actions/content'
+import Loading from '../components/Shared/Loading'
+
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import {
@@ -15,19 +17,19 @@ const mapStateToProps = (state) => {
   return state
 }
 
-const Home = ({
-  content,
-  getAllExams
-}) => {
+const Home = (props) => {
 
   useEffect(() => {
-    getAllExams()
+    props.getAllExams()
   }, [])
+
+  if (props.content.isFetchingExams) return <Loading />
+  if (!props.content.allExams) return null
 
   return (
     <Container>
       <Heading>Exams</Heading>
-      {content.allExams.map((exam, i) => {
+      {props.content.allExams.map((exam, i) => {
         return (
           <Card style={{ margin: '20px 0' }} key={i}>
             <Link to={"/exam/" + exam.structure_id.toString()}>{exam.name}</Link>

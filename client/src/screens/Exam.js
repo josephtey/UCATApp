@@ -1,14 +1,16 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getExamDetail, resetExamDetail, createSession, getStructureSessions } from '../actions/content'
+import Sessions from '../components/Exam/Sessions'
+import { getExamDetail, getStructureSessions, resetExamDetail } from '../actions/content'
+import { createSession } from '../actions/session'
 import styled from 'styled-components'
 import {
   Heading,
   Card,
-  Link,
   Text,
   Button
 } from 'rebass'
+import Loading from '../components/Shared/Loading'
 
 const mapDispatchToProps = { getExamDetail, resetExamDetail, createSession, getStructureSessions }
 
@@ -25,7 +27,11 @@ const Exam = (props) => {
     return () => {
       props.resetExamDetail()
     }
+
   }, [])
+
+  if (props.content.isFetchingExamDetail) return <Loading />
+  if (!props.content.examDetail) return null
 
   return (
     <Container>
@@ -55,18 +61,7 @@ const Exam = (props) => {
         ))}
       </Sections>
 
-      <Sessions>
-        <Heading>
-          Sessions
-        </Heading>
-        {props.content.structureSessions && props.content.structureSessions.map((session, i) => (
-          <Card style={{ marginBottom: '20px' }} key={i}>
-            <Text>{session.session_id}</Text>
-          </Card>
-        ))}
-      </Sessions>
-
-
+      <Sessions />
     </Container>
   )
 }
@@ -76,10 +71,6 @@ const Container = styled.div`
 `
 
 const Sections = styled.div`
-  padding: 20px 0;
-`
-
-const Sessions = styled.div`
   padding: 20px 0;
 `
 

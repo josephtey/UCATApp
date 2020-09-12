@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
-import { getQuestionDetail, resetQuestionDetail, getSectionDetail, getSessionResponses, createResponse } from '../actions/content'
+import { getQuestionDetail, resetQuestionDetail, getSectionDetail } from '../actions/content'
+import { getSessionResponses, createResponse } from '../actions/session'
+import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import {
   Heading,
@@ -24,19 +26,21 @@ const Question = (props) => {
 
   useEffect(() => {
     setSelectedAnswer(null)
-    props.getSectionDetail(parseInt(props.match.params.section_id))
     props.getQuestionDetail(parseInt(props.match.params.question_id))
-    props.getSessionResponses(parseInt(props.content.currentSession.session_id), "section", parseInt(props.match.params.section_id))
+    props.getSessionResponses(parseInt(props.session.currentSession.session_id), "section", parseInt(props.match.params.section_id))
 
     return () => {
       props.resetQuestionDetail()
     }
   }, [props.match.params.question_id])
 
+  if (props.content.isFetchingQuestionDetail) return <Loading />
+  if (!props.content.questionDetail) return null
+
   return (
     <Container>
       <Text>
-        Current Session ID: {props.content.currentSession.session_id}
+        Current Session ID: {props.session.currentSession.session_id}
       </Text>
       <Heading>
         {props.content.questionDetail ? props.content.questionDetail.question : null}
@@ -70,7 +74,7 @@ const Question = (props) => {
           const currentQuestionIndex = props.content.sectionDetail.details.question_order.indexOf(parseInt(props.match.params.question_id))
           const nextQuestion = props.content.sectionDetail.details.question_order[currentQuestionIndex + 1]
 
-          props.createResponse(props.content.currentSession.session_id, parseInt(props.match.params.question_id), 1, parseInt(props.match.params.section_id), selectedAnswer)
+          props.createResponse(props.session.currentSession.session_id, parseInt(props.match.params.question_id), 1, parseInt(props.match.params.section_id), selectedAnswer)
 
           props.history.push(
             '/exam/' +

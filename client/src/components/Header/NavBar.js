@@ -1,20 +1,12 @@
 import React, { useEffect } from 'react';
-import styled from 'styled-components'
 import {
   Flex,
   Text,
   Box,
   Link,
-  Button
 } from 'rebass'
-import { ThemeProvider } from 'emotion-theming'
-import theme from '@rebass/preset'
 
 const NavBar = (props) => {
-
-  useEffect(() => {
-    console.log(props)
-  }, [])
 
   return (
     <Flex

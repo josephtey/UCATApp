@@ -1,10 +1,10 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import learning from './reducers/learning';
+import session from './reducers/session';
 import content from './reducers/content';
 import logger from 'redux-logger'
 
 export default createStore(
-  combineReducers({ content }),
+  combineReducers({ content, session }),
   applyMiddleware(thunk, logger)
 );
