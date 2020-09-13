@@ -4,14 +4,10 @@ import { getSessionDetails, resetSessionDetail } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import {
-  Heading,
-  Button,
-  Text,
-  Box
+  Text
 } from 'rebass'
 
 import Question from '../components/Session/Question'
-import ResponseStatus from '../components/Session/ResponseStatus'
 
 
 const mapDispatchToProps = { getSessionDetails, resetSessionDetail }
@@ -41,8 +37,6 @@ const Session = (props) => {
       </Text>
 
       <Question />
-
-      <ResponseStatus />
     </Container >
   )
 }

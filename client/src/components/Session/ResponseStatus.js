@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { connect } from 'react-redux'
-import { getSessionResponses } from '../../actions/session'
+import { getSessionResponses, getQuestionDetail } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import {
@@ -11,7 +11,7 @@ import {
 } from 'rebass'
 import { useDidMountEffect } from '../../utils/helpers';
 
-const mapDispatchToProps = { getSessionResponses }
+const mapDispatchToProps = { getSessionResponses, getQuestionDetail }
 
 const mapStateToProps = (state) => {
   return state
@@ -27,24 +27,35 @@ const ResponseStatus = (props) => {
     )
   }, [props.session.newResponse])
 
-  if (props.session.isFetchingResponses || props.session.isFetchingSession) return <Loading />
-  if (!props.session.sessionResponses || !props.session.currentSection) return null
-
   return (
     <Status>
-      <Heading fontSize={2}>
-        Status
-      </Heading>
       <Text>
-        <ul>
+        <Bar>
           {props.session.currentSection.question_order.map((question_id, i) => {
-            return (
-              <li>
-                Question {i + 1}
-              </li>
-            )
+
+            const answered = props.session.sessionResponses.find(item => item.question_id === question_id)
+
+            if (question_id === props.session.currentQuestion.question_id) {
+              return (
+                <CurrentQuestion>
+                  {i + 1}
+                </CurrentQuestion>
+              )
+            } else {
+              return (
+                <QuestionBlock
+                  answered={answered}
+                  onClick={() => {
+                    props.getQuestionDetail(question_id)
+                  }}
+                >
+                  {i + 1}
+                </QuestionBlock>
+              )
+            }
+
           })}
-        </ul>
+        </Bar>
       </Text>
     </Status>
   )
@@ -54,6 +65,28 @@ const Status = styled.div`
   padding: 30px 0;
 `
 
+const Bar = styled.div`
+  margin: 10px 0;
+`
+
+const QuestionBlock = styled.div`
+  border-radius: 2px;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 5px;
+  background: ${props => props.answered ? 'black' : 'white'};
+  color: ${props => props.answered ? 'white' : 'black'};
+  cursor: pointer;
+`
+
+const CurrentQuestion = styled.div`
+  border-radius: 2px;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 5px;
+  background: #0077CC;
+  color: white;
+`
 
 export default connect(mapStateToProps, mapDispatchToProps)(ResponseStatus)
 
