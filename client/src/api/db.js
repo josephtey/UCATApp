@@ -66,17 +66,26 @@ export const db_createResponse = async (session_id, question_id, student_id, sec
     question_id,
     section_id,
     value,
-    timestamp: new Date().getTime()
+    timestamp: new Date().getTime().toString()
   })
 
   return response.data
 }
 export const db_updateResponse = async (response_id, value, flagged, committed) => {
-  const response = await db.put('/responses/' + response_id.toString(), {
+  const response = await db.post('/responses/' + response_id.toString(), {
     value,
     flagged,
     committed,
     value
+  })
+
+  return response.data
+}
+
+export const db_findResponse = async (session_id, question_id) => {
+  const response = await db.post('/responses/find', {
+    session_id,
+    question_id
   })
 
   return response.data

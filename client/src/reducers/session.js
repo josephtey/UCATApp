@@ -69,11 +69,11 @@ export default (state = initialState, action) => {
     case GET_SESSION_DETAIL_REQUEST:
       return { ...state, isFetchingSession: true }
     case GET_SESSION_DETAIL_SUCCESS:
-      return { ...state, isFetchingSession: false, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection }
+      return { ...state, isFetchingSession: false, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestion: action.currentQuestion }
     case GET_SESSION_DETAIL_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
     case RESET_SESSION_DETAIL:
-      return { ...state, sessionResponses: [], currentSession: null }
+      return { ...state, sessionResponses: [], currentSession: null, currentStructure: null, currentSection: null, currentQuestion: null }
 
     default:
       return state

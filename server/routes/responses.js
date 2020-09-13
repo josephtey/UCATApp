@@ -4,6 +4,17 @@ const { db } = require('../db');
 
 const router = express.Router()
 
+router.post('/find', async function (req, res, next) {
+  try {
+    let result = await db.responses.find(req.body)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
 // Get all responses
 router.post('/session/:session_id', async function (req, res, next) {
   try {
@@ -37,6 +48,7 @@ router.put('/', async function (req, res, next) {
     res.send(err)
   }
 });
+
 
 
 module.exports = router;

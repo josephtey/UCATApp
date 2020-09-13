@@ -25,7 +25,8 @@ module.exports = {
     add: sql('structures/add.sql'),
     delete: sql('structures/delete.sql'),
     update: sql('structures/update.sql'),
-    find: sql('structures/find.sql')
+    find: sql('structures/find.sql'),
+    add_structure_section: sql('structures/add_structure_section.sql'),
   },
   sessions: {
     total: sql('sessions/total.sql'),
@@ -39,7 +40,8 @@ module.exports = {
     total_structure: sql('responses/total_structure.sql'),
     total_section: sql('responses/total_section.sql'),
     update: sql('responses/update.sql'),
-    add: sql('responses/add.sql')
+    add: sql('responses/add.sql'),
+    find: sql('responses/find.sql')
   }
 };
 

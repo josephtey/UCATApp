@@ -11,6 +11,7 @@ import {
 } from 'rebass'
 
 import { Label, Radio } from '@rebass/forms'
+import { useDidMountEffect } from '../../utils/helpers'
 
 
 const mapDispatchToProps = { getQuestionDetail, createResponse }
@@ -23,13 +24,15 @@ const Question = (props) => {
 
   const [selectedAnswer, setSelectedAnswer] = useState(null)
 
-  useEffect(() => {
+  useDidMountEffect(() => {
     setSelectedAnswer(null)
+    const currentQuestionId = props.session.currentQuestion.question_id
+    const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
+    const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex + 1]
 
+    props.getQuestionDetail(nextQuestion)
 
-    props.getQuestionDetail(props.session.currentSection.question_order[0])
-
-  }, [])
+  }, [props.session.newResponse])
 
   if (props.session.isFetchingQuestionDetail) return <Loading />
   if (!props.session.currentQuestion) return null
@@ -48,7 +51,9 @@ const Question = (props) => {
       >
         {props.session.currentQuestion.options.map((option, i) => {
           return (
-            <Label>
+            <Label
+              key={i}
+            >
               <Radio
                 name='question'
                 value={option}
@@ -65,37 +70,22 @@ const Question = (props) => {
 
       <Button
         onClick={() => {
-          // const currentQuestionIndex = props.content.sectionDetail.details.question_order.indexOf(parseInt(props.match.params.question_id))
-          // const nextQuestion = props.content.sectionDetail.details.question_order[currentQuestionIndex + 1]
-
-          // props.createResponse(props.session.currentSession.session_id, parseInt(props.match.params.question_id), 1, parseInt(props.match.params.section_id), selectedAnswer)
+          props.createResponse(
+            props.session.currentSession.session_id,
+            props.session.currentQuestion.question_id,
+            1,
+            props.session.currentSection.section_id,
+            selectedAnswer
+          )
         }}
       >
         Next Question
       </Button>
 
-      <Status>
-        <Heading fontSize={2}>
-          Status
-        </Heading>
-        <Text>
-          <ul>
-            {props.content.sectionDetail && props.content.sectionDetail.details.question_order.map((question_id, i) => {
-
-              return (
-                <li>Question {i}</li>
-              )
-            })}
-          </ul>
-        </Text>
-      </Status>
     </Container >
   )
 }
 
-const Status = styled.div`
-  padding: 30px 0;
-`
 const Container = styled.div`
   padding: 30px 0;
 `

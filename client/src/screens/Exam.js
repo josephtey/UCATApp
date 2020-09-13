@@ -41,7 +41,7 @@ const Exam = (props) => {
   return (
     <Container>
       <Heading>
-        {props.content.examDetail ? props.content.examDetail.details.name : null}
+        {props.content.examDetail.details.name}
       </Heading>
 
       <ActionBar>
@@ -56,7 +56,7 @@ const Exam = (props) => {
         <Heading>
           Sections
         </Heading>
-        {props.content.examDetail && props.content.examDetail.sections.map((section, i) => (
+        {props.content.examDetail.sections.map((section, i) => (
           <Card style={{ marginBottom: '20px' }} key={i}>
             <Text>{section.name}</Text>
             <Text>{section.description}</Text>
@@ -65,7 +65,11 @@ const Exam = (props) => {
         ))}
       </Sections>
 
-      <Sessions />
+      <Sessions
+        resumeSession={(session_id) => {
+          props.history.push('/session/' + session_id)
+        }}
+      />
     </Container>
   )
 }

@@ -30,6 +30,10 @@ class ResponsesRepository {
     return this.db.one(sql.add, values)
   }
 
+  async find(values) {
+    return this.db.oneOrNone(sql.find, values)
+  }
+
 }
 
 module.exports = ResponsesRepository;

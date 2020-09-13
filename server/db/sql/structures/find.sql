@@ -1,1 +1,2 @@
-SELECT * FROM "Structure" WHERE structure_id = ${structure_id}
+SELECT * FROM "Structure" 
+WHERE structure_id = ${structure_id}

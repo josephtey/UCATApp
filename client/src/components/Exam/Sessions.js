@@ -3,7 +3,8 @@ import { connect } from 'react-redux'
 import {
   Heading,
   Card,
-  Text
+  Text,
+  Button
 } from 'rebass'
 import { getStructureSessions } from '../../actions/content'
 import Loading from '../Shared/Loading'
@@ -23,9 +24,16 @@ const Sessions = (props) => {
       <Heading>
         Sessions
       </Heading>
-      {props.content.structureSessions && props.content.structureSessions.map((session, i) => (
+      {props.content.structureSessions.map((session, i) => (
         <Card style={{ marginBottom: '20px' }} key={i}>
           <Text>{session.session_id}</Text>
+          <Button
+            onClick={() => {
+              props.resumeSession(session.session_id.toString())
+            }}
+          >
+            Resume
+          </Button>
         </Card>
       ))}
     </>

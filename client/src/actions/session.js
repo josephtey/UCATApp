@@ -6,7 +6,9 @@ import {
   db_findSession,
   db_getSectionDetail,
   db_getExamDetail,
-  db_getQuestionDetail
+  db_getQuestionDetail,
+  db_findResponse,
+  db_updateResponse
 } from '../api/db';
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
@@ -20,7 +22,15 @@ const createResponseError = error => ({ type: CREATE_RESPONSE_ERROR, error });
 export const createResponse = (session_id, question_id, student_id, section_id, value) => async dispatch => {
   dispatch(createResponseRequest);
   try {
-    const newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value)
+
+    const response = await db_findResponse(session_id, question_id)
+    let newResponse;
+    if (response) {
+      newResponse = await db_updateResponse(response.response_id, value, false, false)
+    } else {
+      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value)
+    }
+
     dispatch(createResponseSuccess(newResponse))
 
   } catch (error) {
@@ -34,7 +44,7 @@ export const GET_SESSION_DETAIL_ERROR = 'GET_SESSION_DETAIL_ERROR';
 export const RESET_SESSION_DETAIL = 'RESET_SESSION_DETAIL';
 
 const getSessionDetailsRequest = { type: GET_SESSION_DETAIL_REQUEST };
-const getSessionDetailsSuccess = (sessionDetails, sessionResponses, currentSection, currentStructure) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses, currentSection, currentStructure });
+const getSessionDetailsSuccess = (sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion });
 const getSessionDetailsError = error => ({ type: GET_SESSION_DETAIL_ERROR, error });
 
 export const getSessionDetails = (session_id) => async dispatch => {
@@ -44,14 +54,20 @@ export const getSessionDetails = (session_id) => async dispatch => {
     const sessionResponses = await db_getAllSessionResponses(session_id)
     const currentStructure = await db_getExamDetail(sessionDetails.structure_id)
 
-    let currentSection;
+    let currentSection, currentQuestion;
+
+    // Resuming progress
     if (sessionResponses.length > 0) {
-      currentSection = await db_getSectionDetail(sessionResponses[0].section_id)
+      currentSection = currentStructure.sections.find(item => item.section_id === sessionResponses[0].section_id)
+      currentQuestion = await db_getQuestionDetail(sessionResponses[0].question_id)
+
+      // Starting a new session!
     } else {
       currentSection = currentStructure.sections[0]
+      currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
     }
 
-    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure))
+    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion))
 
   } catch (error) {
     dispatch(getSessionDetailsError(error));

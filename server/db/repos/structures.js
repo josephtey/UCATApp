@@ -13,12 +13,22 @@ class StructuresRespository {
   }
 
   async add(values) {
-    return this.db.one(sql.add, {
+
+    const newStructure = await this.db.one(sql.add, {
       name: values.name,
       description: values.description,
       type: values.type,
-      section_order: []
+      section_order: values.section_order
     });
+
+    for (let i = 0; i < values.section_order.length; i++) {
+      this.db.one(sql.add_structure_section, {
+        structure_id: newStructure.structure_id,
+        section_id: values.section_order[i]
+      })
+    }
+
+    return newStructure
   }
 
   async update(structure_id, values) {
