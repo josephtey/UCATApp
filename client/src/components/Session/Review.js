@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getSessionResponses, stopReview, getQuestionDetail } from '../../actions/session'
+import { getSessionResponses, stopReview, getQuestionDetail, nextSection } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import {
@@ -10,7 +10,7 @@ import {
   Button
 } from 'rebass'
 
-const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail }
+const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection }
 
 const mapStateToProps = (state) => {
   return state
@@ -50,9 +50,23 @@ const Review = (props) => {
         )
       })}
 
-      <Button>
-        Next Section
-      </Button>
+      {props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]
+        ?
+        <Button
+          onClick={() => {
+            const currentSectionId = props.session.currentSection.section_id
+            const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
+            props.nextSection(
+              props.session.currentSession.session_id,
+              props.session.currentStructure.section_order[currentSectionIndex + 1]
+            )
+          }}
+        >
+          Next Section
+        </Button>
+        : null
+      }
+
     </Container >
   )
 }

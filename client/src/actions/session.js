@@ -38,6 +38,7 @@ export const createResponse = (session_id, question_id, student_id, section_id, 
   }
 };
 
+
 export const GET_SESSION_DETAIL_REQUEST = 'GET_SESSION_DETAIL_REQUEST';
 export const GET_SESSION_DETAIL_SUCCESS = 'GET_SESSION_DETAIL_SUCCESS';
 export const GET_SESSION_DETAIL_ERROR = 'GET_SESSION_DETAIL_ERROR';
@@ -61,13 +62,15 @@ export const getSessionDetails = (session_id) => async dispatch => {
       currentSection = currentStructure.sections.find(item => item.section_id === sessionResponses[0].section_id)
       currentQuestion = await db_getQuestionDetail(sessionResponses[0].question_id)
 
-      // Starting a new session!
+
     } else {
+
+      // Starting a new session!
       currentSection = currentStructure.sections[0]
       currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
     }
 
-    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion))
+    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure.details, currentQuestion))
 
   } catch (error) {
     dispatch(getSessionDetailsError(error));
@@ -80,6 +83,27 @@ export const resetSessionDetail = () => {
   }
 }
 
+export const NEXT_SECTION_REQUEST = 'NEXT_SECTION_REQUEST';
+export const NEXT_SECTION_SUCCESS = 'NEXT_SECTION_SUCCESS';
+export const NEXT_SECTION_ERROR = 'NEXT_SECTION_ERROR';
+
+const nextSectionRequest = { type: NEXT_SECTION_REQUEST };
+const nextSectionSuccess = (sessionResponses, currentSection, currentQuestion) => ({ type: NEXT_SECTION_SUCCESS, sessionResponses, currentSection, currentQuestion });
+const nextSectionError = error => ({ type: NEXT_SECTION_ERROR, error });
+
+export const nextSection = (session_id, section_id) => async dispatch => {
+  dispatch(nextSectionRequest);
+  try {
+    const sessionResponses = await db_getAllSectionResponses(session_id, section_id)
+    const currentSection = await db_getSectionDetail(section_id)
+    const currentQuestion = await db_getQuestionDetail(currentSection.details.question_order[0])
+
+    dispatch(nextSectionSuccess(sessionResponses, currentSection.details, currentQuestion))
+
+  } catch (error) {
+    dispatch(nextSectionError(error));
+  }
+};
 
 export const GET_SESSION_RESPONSES_REQUEST = 'GET_SESSION_RESPONSES_REQUEST';
 export const GET_SESSION_RESPONSES_SUCCESS = 'GET_SESSION_RESPONSES_SUCCESS';

@@ -33,7 +33,8 @@ const Session = (props) => {
   return (
     <Container>
       <Text>
-        Current Session ID: {props.match.params.session_id}
+        <b>Current Session ID:</b> {props.match.params.session_id}<br />
+        <b>Current Section ID:</b> {props.session.currentSection.section_id}
       </Text>
 
       {props.session.reviewMode
