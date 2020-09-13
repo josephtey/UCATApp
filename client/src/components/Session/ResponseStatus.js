@@ -33,7 +33,9 @@ const ResponseStatus = (props) => {
 
             if (question_id === props.session.currentQuestion.question_id) {
               return (
-                <CurrentQuestion>
+                <CurrentQuestion
+                  key={i}
+                >
                   {i + 1}
                 </CurrentQuestion>
               )
@@ -44,6 +46,7 @@ const ResponseStatus = (props) => {
                   onClick={() => {
                     props.getQuestionDetail(question_id)
                   }}
+                  key={i}
                 >
                   {i + 1}
                 </QuestionBlock>

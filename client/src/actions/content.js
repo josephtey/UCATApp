@@ -2,7 +2,6 @@ import {
   db_getAllExams,
   db_getExamDetail,
   db_getSectionDetail,
-  db_getQuestionDetail,
   db_getAllStructureSessions,
 } from '../api/db';
 

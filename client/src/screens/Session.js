@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
 import { getSessionDetails, resetSessionDetail } from '../actions/session'
 import Loading from '../components/Shared/Loading'
@@ -28,7 +28,7 @@ const Session = (props) => {
   }, [])
 
   if (props.session.isFetchingSession) return <Loading />
-  if (!props.session.currentSession) return null
+  if (!props.session.currentSession || !props.session.currentSection) return null
 
   return (
     <Container>
@@ -38,7 +38,11 @@ const Session = (props) => {
       </Text>
 
       {props.session.reviewMode
-        ? <Review />
+        ? <Review
+          returnHome={() => {
+            props.history.push('/')
+          }}
+        />
         : <Question />
       }
 

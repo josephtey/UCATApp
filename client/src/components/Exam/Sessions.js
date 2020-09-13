@@ -27,13 +27,19 @@ const Sessions = (props) => {
       {props.content.structureSessions.map((session, i) => (
         <Card style={{ marginBottom: '20px' }} key={i}>
           <Text>{session.session_id}</Text>
-          <Button
-            onClick={() => {
-              props.resumeSession(session.session_id.toString())
-            }}
-          >
-            Resume
-          </Button>
+
+          {session.completed === false ?
+            <Button
+              onClick={() => {
+                props.resumeSession(session.session_id.toString())
+              }}
+            >
+              Resume
+            </Button>
+            : <div>
+              You have completed this exam. <br />
+              <Button>View your results</Button>
+            </div>}
         </Card>
       ))}
     </>

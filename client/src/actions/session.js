@@ -8,7 +8,8 @@ import {
   db_getExamDetail,
   db_getQuestionDetail,
   db_findResponse,
-  db_updateResponse
+  db_updateResponse,
+  db_updateSession
 } from '../api/db';
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
@@ -182,3 +183,22 @@ export const STOP_REVIEW = 'STOP_REVIEW';
 export const stopReview = () => {
   return { type: STOP_REVIEW };
 }
+
+export const FINISH_SESSION_REQUEST = 'FINISH_SESSION_REQUEST';
+export const FINISH_SESSION_SUCCESS = 'FINISH_SESSION_SUCCESS';
+export const FINISH_SESSION_ERROR = 'FINISH_SESSION_ERROR';
+
+const finishSessionRequest = { type: FINISH_SESSION_REQUEST };
+const finishSessionSuccess = (finishedSession) => ({ type: FINISH_SESSION_SUCCESS, finishedSession });
+const finishSessionError = error => ({ type: FINISH_SESSION_ERROR, error });
+
+export const finishSession = (session_id) => async dispatch => {
+  dispatch(finishSessionRequest);
+  try {
+    const finishedSession = await db_updateSession(session_id, 50, true)
+    dispatch(finishSessionSuccess(finishedSession))
+
+  } catch (error) {
+    dispatch(finishSessionError(error));
+  }
+};

@@ -25,6 +25,10 @@ import {
   NEXT_SECTION_SUCCESS,
   NEXT_SECTION_ERROR,
 
+  FINISH_SESSION_REQUEST,
+  FINISH_SESSION_SUCCESS,
+  FINISH_SESSION_ERROR,
+
   REVIEW_SECTION,
   STOP_REVIEW
 } from '../actions/session'
@@ -35,6 +39,7 @@ const initialState = {
   isCreatingResponse: false,
   isFetchingSession: false,
   isFetchingQuestionDetail: false,
+  isFinishingSession: false,
   reviewMode: false,
   error: null,
   currentSession: null,
@@ -42,7 +47,8 @@ const initialState = {
   currentStructure: null,
   currentSection: null,
   sessionResponses: [],
-  newResponse: null
+  newResponse: null,
+  finishedSession: null
 }
 
 export default (state = initialState, action) => {
@@ -92,6 +98,13 @@ export default (state = initialState, action) => {
       return { ...state, isFetchingSession: false, reviewMode: false, sessionResponses: action.sessionResponses, currentSection: action.currentSection, currentQuestion: action.currentQuestion }
     case NEXT_SECTION_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
+
+    case FINISH_SESSION_REQUEST:
+      return { ...state, isFinishingSession: true }
+    case FINISH_SESSION_SUCCESS:
+      return { ...state, isFinishingSession: false, finishedSession: action.finishedSession }
+    case FINISH_SESSION_ERROR:
+      return { ...state, isFinishingSession: false, error: action.error }
 
     case REVIEW_SECTION:
       return { ...state, reviewMode: true }

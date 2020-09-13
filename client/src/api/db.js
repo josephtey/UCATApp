@@ -45,6 +45,15 @@ export const db_createSession = async (structure_id, student_id) => {
   return response.data
 }
 
+export const db_updateSession = async (session_id, score, completed) => {
+  const response = await db.post('/sessions/' + session_id.toString(), {
+    score,
+    completed
+  })
+
+  return response.data
+}
+
 export const db_findSession = async (session_id) => {
   const response = await db.get('/sessions/' + session_id.toString())
 
