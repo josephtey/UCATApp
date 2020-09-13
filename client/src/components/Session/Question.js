@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getQuestionDetail, createResponse } from '../../actions/session'
+import { getQuestionDetail, createResponse, reviewSection } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import {
@@ -14,7 +14,7 @@ import { Label, Radio } from '@rebass/forms'
 import ResponseStatus from './ResponseStatus';
 
 
-const mapDispatchToProps = { getQuestionDetail, createResponse }
+const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection }
 
 const mapStateToProps = (state) => {
   return state
@@ -66,16 +66,27 @@ const Question = (props) => {
       </Box>
 
 
+      {props.session.currentQuestion.question_id !== props.session.currentSection.question_order.slice(-1)[0] ?
+        <Button
+          onClick={() => {
+            const currentQuestionId = props.session.currentQuestion.question_id
+            const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
+            const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex + 1]
+            props.getQuestionDetail(nextQuestion)
+          }}
+        >
+          Next Question
+        </Button>
+        : null}
+
       <Button
         onClick={() => {
-          const currentQuestionId = props.session.currentQuestion.question_id
-          const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
-          const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex + 1]
-
-          props.getQuestionDetail(nextQuestion)
+          props.reviewSection()
         }}
+        variant="secondary"
+
       >
-        Next Question
+        Review Section
       </Button>
 
       <ResponseStatus />

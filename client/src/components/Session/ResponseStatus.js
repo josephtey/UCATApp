@@ -1,13 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux'
 import { getSessionResponses, getQuestionDetail } from '../../actions/session'
-import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import {
-  Heading,
-  Button,
-  Text,
-  Box
+  Text
 } from 'rebass'
 import { useDidMountEffect } from '../../utils/helpers';
 

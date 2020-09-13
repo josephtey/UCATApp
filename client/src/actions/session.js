@@ -84,6 +84,7 @@ export const resetSessionDetail = () => {
 export const GET_SESSION_RESPONSES_REQUEST = 'GET_SESSION_RESPONSES_REQUEST';
 export const GET_SESSION_RESPONSES_SUCCESS = 'GET_SESSION_RESPONSES_SUCCESS';
 export const GET_SESSION_RESPONSES_ERROR = 'GET_SESSION_RESPONSES_ERROR';
+export const RESET_SESSION_RESPONSES = 'RESET_SESSION_RESPONSES';
 
 const getSessionResponsesRequest = { type: GET_SESSION_RESPONSES_REQUEST };
 const getSessionResponsesSuccess = (sessionResponses) => ({ type: GET_SESSION_RESPONSES_SUCCESS, sessionResponses });
@@ -105,6 +106,10 @@ export const getSessionResponses = (session_id, type, group_id) => async dispatc
     dispatch(getSessionResponsesError(error));
   }
 };
+
+export const resetSessionResponses = () => {
+  return { type: RESET_SESSION_RESPONSES }
+}
 
 export const CREATE_SESSION_REQUEST = 'CREATE_SESSION_REQUEST';
 export const CREATE_SESSION_SUCCESS = 'CREATE_SESSION_SUCCESS';
@@ -143,3 +148,13 @@ export const getQuestionDetail = (question_id) => async dispatch => {
     dispatch(getQuestionDetailError(error));
   }
 };
+
+export const REVIEW_SECTION = 'REVIEW_SECTION';
+export const reviewSection = () => {
+  return { type: REVIEW_SECTION };
+}
+
+export const STOP_REVIEW = 'STOP_REVIEW';
+export const stopReview = () => {
+  return { type: STOP_REVIEW };
+}

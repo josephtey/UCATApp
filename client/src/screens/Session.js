@@ -8,6 +8,7 @@ import {
 } from 'rebass'
 
 import Question from '../components/Session/Question'
+import Review from '../components/Session/Review';
 
 
 const mapDispatchToProps = { getSessionDetails, resetSessionDetail }
@@ -19,7 +20,6 @@ const mapStateToProps = (state) => {
 const Session = (props) => {
 
   useEffect(() => {
-    // Get Session Details if it doesn't already exist
     props.getSessionDetails(props.match.params.session_id)
 
     return () => {
@@ -36,7 +36,13 @@ const Session = (props) => {
         Current Session ID: {props.match.params.session_id}
       </Text>
 
-      <Question />
+      {props.session.reviewMode
+        ? <Review />
+        : <Question />
+      }
+
+
+
     </Container >
   )
 }
