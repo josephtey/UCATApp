@@ -38,7 +38,11 @@ const Sessions = (props) => {
             </Button>
             : <div>
               You have completed this exam. <br />
-              <Button>View your results</Button>
+              <Button
+                onClick={() => {
+                  props.resumeSession(session.session_id.toString())
+                }}
+              >View your results</Button>
             </div>}
         </Card>
       ))}

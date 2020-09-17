@@ -46,7 +46,7 @@ export const GET_SESSION_DETAIL_ERROR = 'GET_SESSION_DETAIL_ERROR';
 export const RESET_SESSION_DETAIL = 'RESET_SESSION_DETAIL';
 
 const getSessionDetailsRequest = { type: GET_SESSION_DETAIL_REQUEST };
-const getSessionDetailsSuccess = (sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion });
+const getSessionDetailsSuccess = (sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion, mode, allSections) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion, mode, allSections });
 const getSessionDetailsError = error => ({ type: GET_SESSION_DETAIL_ERROR, error });
 
 export const getSessionDetails = (session_id) => async dispatch => {
@@ -56,22 +56,31 @@ export const getSessionDetails = (session_id) => async dispatch => {
     const sessionResponses = await db_getAllSessionResponses(session_id)
     const currentStructure = await db_getExamDetail(sessionDetails.structure_id)
 
-    let currentSection, currentQuestion;
+    let currentSection, currentQuestion, mode;
 
-    // Resuming progress
-    if (sessionResponses.length > 0) {
+
+    if (sessionDetails.completed === true) {
+
+      // Results mode
+      mode = "results"
+
+    } else if (sessionResponses.length > 0) {
+
+      // Resuming progress
       currentSection = currentStructure.sections.find(item => item.section_id === sessionResponses[0].section_id)
       currentQuestion = await db_getQuestionDetail(sessionResponses[0].question_id)
-
+      mode = "question"
 
     } else {
 
       // Starting a new session!
       currentSection = currentStructure.sections[0]
       currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
+      mode = "start"
+
     }
 
-    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure.details, currentQuestion))
+    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure.details, currentQuestion, mode, currentStructure.sections))
 
   } catch (error) {
     dispatch(getSessionDetailsError(error));
@@ -213,3 +222,4 @@ export const finishSession = (session_id) => async dispatch => {
     dispatch(finishSessionError(error));
   }
 };
+

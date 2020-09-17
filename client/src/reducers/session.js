@@ -51,7 +51,8 @@ const initialState = {
   currentSection: null,
   sessionResponses: [],
   newResponse: null,
-  finishedSession: null
+  finishedSession: null,
+  allSections: []
 }
 
 export default (state = initialState, action) => {
@@ -89,11 +90,11 @@ export default (state = initialState, action) => {
     case GET_SESSION_DETAIL_REQUEST:
       return { ...state, isFetchingSession: true }
     case GET_SESSION_DETAIL_SUCCESS:
-      return { ...state, isFetchingSession: false, mode: "start", currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestion: action.currentQuestion }
+      return { ...state, isFetchingSession: false, mode: action.mode, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestion: action.currentQuestion, allSections: action.allSections }
     case GET_SESSION_DETAIL_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
     case RESET_SESSION_DETAIL:
-      return { ...state, sessionResponses: [], currentSession: null, currentStructure: null, currentSection: null, currentQuestion: null }
+      return { ...state, sessionResponses: [], currentSession: null, currentStructure: null, currentSection: null, currentQuestion: null, finishedSession: null, mode: "question" }
 
     case NEXT_SECTION_REQUEST:
       return { ...state, isFetchingSession: true }
@@ -105,7 +106,7 @@ export default (state = initialState, action) => {
     case FINISH_SESSION_REQUEST:
       return { ...state, isFinishingSession: true }
     case FINISH_SESSION_SUCCESS:
-      return { ...state, isFinishingSession: false, finishedSession: action.finishedSession }
+      return { ...state, isFinishingSession: false, mode: "results", finishedSession: action.finishedSession }
     case FINISH_SESSION_ERROR:
       return { ...state, isFinishingSession: false, error: action.error }
 

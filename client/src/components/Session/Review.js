@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
 import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession } from '../../actions/session'
 import Loading from '../Shared/Loading'
@@ -24,10 +24,6 @@ const Review = (props) => {
       "section",
       props.session.currentSection.section_id
     )
-
-    return () => {
-      props.stopReview()
-    }
   }, [])
 
   return (
@@ -69,7 +65,6 @@ const Review = (props) => {
         <Button
           onClick={() => {
             props.finishSession(props.session.currentSession.session_id)
-            props.returnHome()
           }}
         >
           Finish Exam

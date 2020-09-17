@@ -4,7 +4,6 @@ import { ThemeProvider } from 'emotion-theming'
 import theme from '@rebass/preset'
 
 import Home from './screens/Home'
-import Results from './screens/Results'
 import Exam from './screens/Exam'
 import Session from './screens/Session'
 import NavBar from './components/Header/NavBar'

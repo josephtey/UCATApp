@@ -10,6 +10,7 @@ import {
 import Question from '../components/Session/Question'
 import Review from '../components/Session/Review';
 import Start from '../components/Session/Start';
+import Results from '../components/Session/Results';
 
 
 const mapDispatchToProps = { getSessionDetails, resetSessionDetail, stopSection }
@@ -29,26 +30,22 @@ const Session = (props) => {
   }, [])
 
   if (props.session.isFetchingSession) return <Loading />
-  if (!props.session.currentSession || !props.session.currentSection) return null
+  if (!props.session.currentSession) return null
 
   return (
     <Container>
       <Text>
         <b>Current Session ID:</b> {props.match.params.session_id}<br />
-        <b>Current Section ID:</b> {props.session.currentSection.section_id}
       </Text>
 
-      {props.session.mode === "review"
-        ? <Review
-          returnHome={() => {
-            props.history.push('/')
-          }}
-        />
+      {props.session.mode === "review" ? <Review />
         : props.session.mode === "question" ?
           <Question />
           : props.session.mode === "start" ?
             <Start />
-            : null
+            : props.session.mode === "results" ?
+              <Results />
+              : null
       }
 
 

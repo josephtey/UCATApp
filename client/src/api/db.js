@@ -15,16 +15,11 @@ export const db_getAllExams = async () => {
 
 export const db_getExamDetail = async (structure_id) => {
   const response = await db.get('/structures/' + structure_id.toString())
-
-  console.log(response.data)
-
   return response.data
 }
 
 export const db_getSectionDetail = async (section_id) => {
   const response = await db.get('/sections/' + section_id.toString())
-
-  console.log(response.data)
 
   return response.data
 }
