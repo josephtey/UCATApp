@@ -51,8 +51,15 @@ const Results = (props) => {
                     <Text>Question {j + 1} (id: {question_id})</Text>
                     <br />
                     {response ?
-                      <Text><b>Your answer: </b>{response.value}</Text>
+                      <>
+                        <Text><b>Your answer: </b>{response.value}</Text>
+                        {response.correct ?
+                          <Text color="green">Correct!</Text>
+                          : <Text color="red">Wrong!</Text>
+                        }
+                      </>
                       : null}
+
 
                   </Card>
                   <br />

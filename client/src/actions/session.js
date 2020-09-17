@@ -20,16 +20,18 @@ const createResponseRequest = { type: CREATE_RESPONSE_REQUEST };
 const createResponseSuccess = (newResponse) => ({ type: CREATE_RESPONSE_SUCCESS, newResponse });
 const createResponseError = error => ({ type: CREATE_RESPONSE_ERROR, error });
 
-export const createResponse = (session_id, question_id, student_id, section_id, value) => async dispatch => {
+export const createResponse = (session_id, question_id, student_id, section_id, value, answer) => async dispatch => {
   dispatch(createResponseRequest);
   try {
 
     const response = await db_findResponse(session_id, question_id)
+    const correct = value === answer ? true : false
+
     let newResponse;
     if (response) {
-      newResponse = await db_updateResponse(response.response_id, value, false, false)
+      newResponse = await db_updateResponse(response.response_id, value, false, false, correct)
     } else {
-      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value)
+      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value, correct)
     }
 
     dispatch(createResponseSuccess(newResponse))

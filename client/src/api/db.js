@@ -63,24 +63,26 @@ export const db_getAllStructureSessions = async (structure_id) => {
 }
 
 
-export const db_createResponse = async (session_id, question_id, student_id, section_id, value) => {
+export const db_createResponse = async (session_id, question_id, student_id, section_id, value, correct) => {
   const response = await db.put('/responses/', {
     session_id,
     student_id,
     question_id,
     section_id,
     value,
-    timestamp: new Date().getTime().toString()
+    timestamp: new Date().getTime().toString(),
+    correct
   })
 
   return response.data
 }
-export const db_updateResponse = async (response_id, value, flagged, committed) => {
+export const db_updateResponse = async (response_id, value, flagged, committed, correct) => {
   const response = await db.post('/responses/' + response_id.toString(), {
     value,
     flagged,
     committed,
-    value
+    value,
+    correct
   })
 
   return response.data

@@ -54,7 +54,8 @@ const Question = (props) => {
                     props.session.currentQuestion.question_id,
                     1,
                     props.session.currentSection.section_id,
-                    e.target.value
+                    e.target.value,
+                    props.session.currentQuestion.answer
                   )
                 }}
                 defaultChecked={response && response.value === option ? true : false}
