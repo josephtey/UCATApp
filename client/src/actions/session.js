@@ -184,6 +184,17 @@ export const stopReview = () => {
   return { type: STOP_REVIEW };
 }
 
+export const START_SECTION = 'START_SECTION';
+export const startSection = () => {
+  return { type: START_SECTION };
+}
+
+export const STOP_SECTION = 'STOP_SECTION';
+export const stopSection = () => {
+  return { type: STOP_SECTION };
+}
+
+
 export const FINISH_SESSION_REQUEST = 'FINISH_SESSION_REQUEST';
 export const FINISH_SESSION_SUCCESS = 'FINISH_SESSION_SUCCESS';
 export const FINISH_SESSION_ERROR = 'FINISH_SESSION_ERROR';

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getSessionDetails, resetSessionDetail } from '../actions/session'
+import { getSessionDetails, resetSessionDetail, startSection, stopSection } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import {
@@ -9,9 +9,10 @@ import {
 
 import Question from '../components/Session/Question'
 import Review from '../components/Session/Review';
+import Start from '../components/Session/Start';
 
 
-const mapDispatchToProps = { getSessionDetails, resetSessionDetail }
+const mapDispatchToProps = { getSessionDetails, resetSessionDetail, stopSection }
 
 const mapStateToProps = (state) => {
   return state
@@ -37,13 +38,17 @@ const Session = (props) => {
         <b>Current Section ID:</b> {props.session.currentSection.section_id}
       </Text>
 
-      {props.session.reviewMode
+      {props.session.mode === "review"
         ? <Review
           returnHome={() => {
             props.history.push('/')
           }}
         />
-        : <Question />
+        : props.session.mode === "question" ?
+          <Question />
+          : props.session.mode === "start" ?
+            <Start />
+            : null
       }
 
 

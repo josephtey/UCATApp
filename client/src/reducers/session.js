@@ -30,7 +30,10 @@ import {
   FINISH_SESSION_ERROR,
 
   REVIEW_SECTION,
-  STOP_REVIEW
+  STOP_REVIEW,
+
+  STOP_SECTION,
+  START_SECTION
 } from '../actions/session'
 
 const initialState = {
@@ -40,7 +43,7 @@ const initialState = {
   isFetchingSession: false,
   isFetchingQuestionDetail: false,
   isFinishingSession: false,
-  reviewMode: false,
+  mode: "question",
   error: null,
   currentSession: null,
   currentQuestion: null,
@@ -77,7 +80,7 @@ export default (state = initialState, action) => {
       return { ...state, isCreatingResponse: false, error: action.error }
 
     case GET_QUESTION_REQUEST:
-      return { ...state, isFetchingQuestionDetail: true, reviewMode: false }
+      return { ...state, isFetchingQuestionDetail: true, mode: "question" }
     case GET_QUESTION_SUCCESS:
       return { ...state, isFetchingQuestionDetail: false, currentQuestion: action.questionDetail }
     case GET_QUESTION_ERROR:
@@ -86,7 +89,7 @@ export default (state = initialState, action) => {
     case GET_SESSION_DETAIL_REQUEST:
       return { ...state, isFetchingSession: true }
     case GET_SESSION_DETAIL_SUCCESS:
-      return { ...state, isFetchingSession: false, reviewMode: false, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestion: action.currentQuestion }
+      return { ...state, isFetchingSession: false, mode: "start", currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestion: action.currentQuestion }
     case GET_SESSION_DETAIL_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
     case RESET_SESSION_DETAIL:
@@ -95,7 +98,7 @@ export default (state = initialState, action) => {
     case NEXT_SECTION_REQUEST:
       return { ...state, isFetchingSession: true }
     case NEXT_SECTION_SUCCESS:
-      return { ...state, isFetchingSession: false, reviewMode: false, sessionResponses: action.sessionResponses, currentSection: action.currentSection, currentQuestion: action.currentQuestion }
+      return { ...state, isFetchingSession: false, mode: "start", sessionResponses: action.sessionResponses, currentSection: action.currentSection, currentQuestion: action.currentQuestion }
     case NEXT_SECTION_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
 
@@ -107,9 +110,14 @@ export default (state = initialState, action) => {
       return { ...state, isFinishingSession: false, error: action.error }
 
     case REVIEW_SECTION:
-      return { ...state, reviewMode: true }
+      return { ...state, mode: "review" }
     case STOP_REVIEW:
-      return { ...state, reviewMode: false }
+      return { ...state, mode: "question" }
+
+    case STOP_SECTION:
+      return { ...state, mode: "question" }
+    case START_SECTION:
+      return { ...state, mode: "start" }
 
     default:
       return state
