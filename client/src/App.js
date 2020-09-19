@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { ThemeProvider } from 'emotion-theming'
 import theme from '@rebass/preset'
+import styled from 'styled-components'
 
 import Home from './screens/Home'
 import Exam from './screens/Exam'
@@ -13,14 +14,21 @@ const App = (props) => {
     <ThemeProvider theme={theme}>
       <Router>
         <Route component={NavBar} />
-        <Switch>
-          <Route path={'/session/:session_id'} component={Session} />
-          <Route path={'/exam/:structure_id'} component={Exam} />
-          <Route path='/' component={Home} />
-        </Switch>
+
+        <Content>
+          <Switch>
+            <Route path={'/session/:session_id'} component={Session} />
+            <Route path={'/exam/:structure_id'} component={Exam} />
+            <Route path='/' component={Home} />
+          </Switch>
+        </Content>
       </Router>
     </ThemeProvider>
   )
 }
+
+const Content = styled.div`
+  margin-left: 340px;
+`
 
 export default App

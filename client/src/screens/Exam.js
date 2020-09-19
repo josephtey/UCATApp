@@ -6,9 +6,7 @@ import { createSession } from '../actions/session'
 import styled from 'styled-components'
 import {
   Heading,
-  Card,
-  Text,
-  Button
+  Text
 } from 'rebass'
 import Loading from '../components/Shared/Loading'
 import { useDidMountEffect } from '../utils/helpers'
@@ -40,50 +38,98 @@ const Exam = (props) => {
 
   return (
     <Container>
-      <Heading>
-        {props.content.examDetail.details.name}
-      </Heading>
+      <PreHeading>Exam Details</PreHeading>
 
-      <ActionBar>
-        <Button
-          onClick={() => {
-            props.createSession(props.content.examDetail.details.structure_id, 1)
-          }}
-        >Start Exam</Button>
-      </ActionBar>
+      <Header>
+        <HeaderLeft>
+          <Title>
+            {props.content.examDetail.details.name}
+          </Title>
+          <Text>
+            {props.content.examDetail.details.description}
+          </Text>
+        </HeaderLeft>
+
+        <HeaderRight>
+          <Button
+            onClick={() => {
+              props.createSession(props.content.examDetail.details.structure_id, 1)
+            }}
+          >Start!</Button>
+        </HeaderRight>
+      </Header>
 
       <Sections>
-        <Heading>
-          Sections
-        </Heading>
         {props.content.examDetail.sections.map((section, i) => (
-          <Card style={{ marginBottom: '20px' }} key={i}>
-            <Text>{section.name}</Text>
+          <Card key={i} >
+            <CardTitle>{section.name}</CardTitle>
             <Text>{section.description}</Text>
             <Text>Number of questions: {section.question_order.length}</Text>
           </Card>
         ))}
       </Sections>
 
-      <Sessions
+      {/* <Sessions
         resumeSession={(session_id) => {
           props.history.push('/session/' + session_id)
         }}
-      />
-    </Container>
+      /> */}
+    </Container >
   )
 }
 
+const CardTitle = styled.div`
+  font-family: Gilroy-SemiBold;
+  font-size: 20px;
+`
+
+const Card = styled.div`
+  background: white;
+  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  max-width: 100%;
+`
+
 const Container = styled.div`
-  padding: 30px;
+  padding: 40px;
 `
 
 const Sections = styled.div`
   padding: 20px 0;
 `
 
-const ActionBar = styled.div`
-  padding: 20px 0;
+const Title = styled.div`
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+`
+
+const PreHeading = styled(Text)`
+  color: rgba(0,0,0,0.3);
+  padding-bottom: 40px;
+  font-family: Gilroy-Regular;
+`
+
+const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+`
+
+const HeaderLeft = styled.div`
+`
+
+const HeaderRight = styled.div`
+`
+
+const Button = styled.div`
+  background: #5843BE;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  cursor: pointer;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Exam)

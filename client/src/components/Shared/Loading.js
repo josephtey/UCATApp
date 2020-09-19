@@ -2,12 +2,19 @@ import React from 'react';
 import { Box } from 'rebass'
 import styled from 'styled-components'
 import LoadingGif from '../../assets/loading.gif'
+import Loader from 'react-loader-spinner'
 
 
 const Loading = (props) => {
   return (
     <CenteredDiv>
-      <img src={LoadingGif} />
+      <Loader
+        type="TailSpin"
+        color="#5843BE"
+        height={100}
+        width={100}
+        timeout={3000} //3 secs
+      />
     </CenteredDiv>
   )
 }
@@ -17,7 +24,7 @@ const CenteredDiv = styled.div`
   top: 50%;
   left: 50%;
   margin-top: -50px;
-  margin-left: -100px;  
+  margin-left: 50px;  
 `
 
 export default Loading
