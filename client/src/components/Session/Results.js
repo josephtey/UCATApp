@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { stopSection } from '../../actions/session'
+import { stopSection, getSessionResponses } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import {
@@ -10,7 +10,7 @@ import {
   Button
 } from 'rebass'
 
-const mapDispatchToProps = { stopSection }
+const mapDispatchToProps = { stopSection, getSessionResponses }
 
 const mapStateToProps = (state) => {
   return state
@@ -19,10 +19,12 @@ const mapStateToProps = (state) => {
 const Results = (props) => {
 
   useEffect(() => {
+    props.getSessionResponses(props.session.currentSession.session_id, "structure")
+
     return () => {
       props.stopSection()
     }
-  })
+  }, [])
 
   if (props.session.isFetchingSession) return <Loading />
   if (!props.session.allSections || !props.session.currentSession || !props.session.sessionResponses) return null
