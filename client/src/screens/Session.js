@@ -33,29 +33,49 @@ const Session = (props) => {
   if (!props.session.currentSession) return null
 
   return (
-    <Container>
-      <Text>
-        <b>Current Session ID:</b> {props.match.params.session_id}<br />
-      </Text>
+    <>
 
-      {props.session.mode === "review" ? <Review />
-        : props.session.mode === "question" ?
-          <Question />
-          : props.session.mode === "start" ?
-            <Start />
-            : props.session.mode === "results" ?
-              <Results />
-              : null
-      }
+      <TopBar>
+
+      </TopBar>
+
+      <Container>
+
+        {props.session.mode === "review" ? <Review />
+          : props.session.mode === "question" ?
+            <Question />
+            : props.session.mode === "start" ?
+              <Start />
+              : props.session.mode === "results" ?
+                <Results />
+                : null
+        }
+      </Container>
+
+      <BottomBar>
+
+      </BottomBar>
 
 
 
-    </Container >
+    </>
   )
 }
 const Container = styled.div`
   padding: 30px;
 `
+const TopBar = styled.div`
+  background: #2ecfb0;
+  height: 50px;
+`
 
+const BottomBar = styled.div`
+  background: #2ecfb0;
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+`
 
 export default connect(mapStateToProps, mapDispatchToProps)(Session)

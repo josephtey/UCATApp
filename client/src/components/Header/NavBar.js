@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components'
+import LogoImage from '../../assets/in2medlogo.png'
 
 const NavBar = (props) => {
+
+  const [visible, setVisible] = useState(true)
+
+  useEffect(() => {
+    if (props.location.pathname.includes("session")) {
+      setVisible(false)
+    }
+  }, [props.location.pathname])
+
+  if (!visible) return null
 
   return (
     <Container>
       <Logo>
-        In2Med
+        <img src={LogoImage} width={150} />
       </Logo>
 
       <Nav>
@@ -30,7 +41,7 @@ const NavBar = (props) => {
 
 const NavItem = styled.div`
   border-radius: 15px;
-  background: ${props => props.active ? '#5843BE' : 'white'};
+  background: ${props => props.active ? '#2ecfb0' : 'white'};
   color: ${props => props.active ? 'white' : 'rgba(0, 0, 0, 0.5)'};
   padding: 13px 20px;
   margin-bottom: 15px;
@@ -42,9 +53,7 @@ const Nav = styled.div`
 
 `
 const Logo = styled.div`
-  font-weight: bold;
-  font-size: 25px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: center;
   font-family: Gilroy-Bold;
 `

@@ -25,7 +25,7 @@ const Home = (props) => {
 
   return (
     <Container>
-      <Heading>Exams</Heading>
+      <Title>Exams</Title>
       <ExamList>
         {props.content.allExams.map((exam, i) => {
           return (
@@ -44,7 +44,7 @@ const Home = (props) => {
                   90 min
                 </CardLength>
                 <Button>
-                  <AiOutlineArrowRight color="#5843BE" size={25} />
+                  <AiOutlineArrowRight color="#f89800" size={25} />
                 </Button>
               </CardBottom>
 
@@ -56,8 +56,15 @@ const Home = (props) => {
   )
 }
 
+const Title = styled.div`
+  color: rgba(0,0,0,0.25);
+  font-family: Gilroy-Regular;
+  font-size: 17px;
+  padding: 15px 0;
+`
 const Container = styled.div`
   padding: 30px;
+  margin-left: 340px;
 `
 
 const ExamList = styled.div`

@@ -14,12 +14,16 @@
   font-family: 'Gilroy-SemiBold';
   src: local('Gilroy-SemiBold'), url(./assets/fonts/Gilroy-SemiBold.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: local('Gilroy-Light'), url(./assets/fonts/Gilroy-Light.ttf) format('truetype');
+}
 
 
 
 body {
   margin: 0;
   font-family: 'Gilroy-Medium';
-  background: rgba(247, 244, 255, 0.5)
+  background: rgba(0, 0, 0, 0.02)
 }
 

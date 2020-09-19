@@ -14,21 +14,14 @@ const App = (props) => {
     <ThemeProvider theme={theme}>
       <Router>
         <Route component={NavBar} />
-
-        <Content>
-          <Switch>
-            <Route path={'/session/:session_id'} component={Session} />
-            <Route path={'/exam/:structure_id'} component={Exam} />
-            <Route path='/' component={Home} />
-          </Switch>
-        </Content>
+        <Switch>
+          <Route path={'/session/:session_id'} component={Session} />
+          <Route path={'/exam/:structure_id'} component={Exam} />
+          <Route path='/' component={Home} />
+        </Switch>
       </Router>
     </ThemeProvider>
   )
 }
-
-const Content = styled.div`
-  margin-left: 340px;
-`
 
 export default App

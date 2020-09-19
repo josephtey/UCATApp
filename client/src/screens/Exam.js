@@ -62,9 +62,16 @@ const Exam = (props) => {
       <Sections>
         {props.content.examDetail.sections.map((section, i) => (
           <Card key={i} >
-            <CardTitle>{section.name}</CardTitle>
-            <Text>{section.description}</Text>
-            <Text>Number of questions: {section.question_order.length}</Text>
+            <CardTime>
+              50 <br /> min
+            </CardTime>
+
+            <CardInfo>
+              <CardTitle>{section.name}</CardTitle>
+              <Caption>{section.question_order.length} questions</Caption>
+
+              {/* <Text>{section.description}</Text> */}
+            </CardInfo>
           </Card>
         ))}
       </Sections>
@@ -77,6 +84,24 @@ const Exam = (props) => {
     </Container >
   )
 }
+const Caption = styled(Text)`
+  color: rgba(0,0,0,0.5)
+`
+const CardTime = styled.div`
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  border: 2px solid #f89800;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #f89800
+`
+
+const CardInfo = styled.div`
+  margin-left: 20px;
+`
 
 const CardTitle = styled.div`
   font-family: Gilroy-SemiBold;
@@ -90,10 +115,13 @@ const Card = styled.div`
   border-radius: 15px;
   margin-bottom: 20px;
   max-width: 100%;
+  display: flex;
+  align-items: center;
 `
 
 const Container = styled.div`
-  padding: 40px;
+  padding: 30px;
+  margin-left: 340px;
 `
 
 const Sections = styled.div`
@@ -125,7 +153,7 @@ const HeaderRight = styled.div`
 `
 
 const Button = styled.div`
-  background: #5843BE;
+  background: #f89800;
   color: white;
   padding: 15px 20px;
   border-radius: 12px;
