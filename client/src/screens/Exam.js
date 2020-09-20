@@ -30,7 +30,9 @@ const Exam = (props) => {
   }, [])
 
   useDidMountEffect(() => {
-    props.history.push('/session/' + props.session.currentSession.session_id)
+    if (props.session.currentSession) {
+      props.history.push('/session/' + props.session.currentSession.session_id)
+    }
   }, [props.session.currentSession])
 
   if (props.content.isFetchingExamDetail) return <Loading />

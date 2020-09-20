@@ -9,6 +9,8 @@ const NavBar = (props) => {
   useEffect(() => {
     if (props.location.pathname.includes("session")) {
       setVisible(false)
+    } else {
+      setVisible(true)
     }
   }, [props.location.pathname])
 

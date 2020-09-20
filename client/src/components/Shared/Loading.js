@@ -24,7 +24,7 @@ const CenteredDiv = styled.div`
   top: 50%;
   left: 50%;
   margin-top: -50px;
-  margin-left: ${props => props.duringSession ? '-100px' : '50px'};
+  margin-left: ${props => props.duringSession ? '-50px' : '50px'};
 `
 
 export default Loading

@@ -3,9 +3,7 @@ import { connect } from 'react-redux'
 import { getSessionDetails, resetSessionDetail, startSection, stopSection } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
-import {
-  Text
-} from 'rebass'
+import LogoImage from '../assets/in2medlogo.png'
 
 import Question from '../components/Session/Question'
 import Review from '../components/Session/Review';
@@ -29,14 +27,22 @@ const Session = (props) => {
     }
   }, [])
 
-  if (props.session.isFetchingSession) return <Loading />
+  if (props.session.isFetchingSession) return <Loading duringSession={true} />
   if (!props.session.currentSession) return null
 
   return (
     <>
 
       <TopBar>
-
+        <TopBarInner>
+          <TopBarLeft>
+            {props.session.currentSection ? props.session.currentSection.name : null}
+          </TopBarLeft>
+          <img src={LogoImage} width="100" />
+          <TopBarRight>
+            30 minutes left
+          </TopBarRight>
+        </TopBarInner>
       </TopBar>
 
       <Container>
@@ -45,37 +51,41 @@ const Session = (props) => {
           : props.session.mode === "question" ?
             <Question />
             : props.session.mode === "start" ?
-              <Start />
+              <Start
+                returnHome={() => props.history.push('/')}
+              />
               : props.session.mode === "results" ?
-                <Results />
+                <Results
+                  returnHome={() => props.history.push('/')}
+                />
                 : null
         }
       </Container>
-
-      <BottomBar>
-
-      </BottomBar>
-
-
-
     </>
   )
 }
 const Container = styled.div`
   padding: 30px;
+  width: 1000px;
+  margin: 0 auto;
 `
 const TopBar = styled.div`
-  background: #2ecfb0;
-  height: 50px;
-`
-
-const BottomBar = styled.div`
-  background: #2ecfb0;
-  height: 50px;
-  position: absolute;
+  box-shadow: 10px 10px 20px rgba(0,0,0, 0.02);
+  background: white;
+  height: 70px;
   width: 100%;
-  bottom: 0;
-  left: 0;
 `
 
+const TopBarInner = styled.div`
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`
+const TopBarLeft = styled.div`
+`
+const TopBarRight = styled.div`
+`
 export default connect(mapStateToProps, mapDispatchToProps)(Session)

@@ -1,20 +1,14 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getQuestionDetail, createResponse, reviewSection } from '../../actions/session'
+import { getQuestionDetail, createResponse, reviewSection, getSessionResponses } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
-import {
-  Heading,
-  Button,
-  Text,
-  Box
-} from 'rebass'
-
-import { Label, Radio } from '@rebass/forms'
-import ResponseStatus from './ResponseStatus';
+import BottomBar from '../Session/BottomBar'
+import { Button, LinkItem, RadioBox } from '../Shared/Elements'
+import { useDidMountEffect } from '../../utils/helpers';
 
 
-const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection }
+const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses }
 
 const mapStateToProps = (state) => {
   return state
@@ -22,82 +16,130 @@ const mapStateToProps = (state) => {
 
 const Question = (props) => {
 
-  if (props.session.isFetchingQuestionDetail) return <Loading />
+  useDidMountEffect(() => {
+    props.getSessionResponses(
+      props.session.currentSession.session_id,
+      "section",
+      props.session.currentSection.section_id
+    )
+  }, [props.session.newResponse])
+
+  if (props.session.isFetchingQuestionDetail) return <Loading duringSession={true} />
   if (!props.session.currentQuestion) return null
 
   return (
-    <Container>
-      <Heading>
-        {props.session.currentQuestion.question}
-      </Heading>
+    <>
+      <Container>
+        <PreHeading>
+          Question {props.session.currentSection.question_order.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentSection.question_order.length}
+        </PreHeading>
+        <Title>
+          {props.session.currentQuestion.question}
+        </Title>
 
-      <Box
-        as='form'
-        onSubmit={(e) => {
-          e.preventDefault()
-        }}
-      >
-        {props.session.currentQuestion.options.map((option, i) => {
-          const response = props.session.sessionResponses.find(
-            item => item.question_id === props.session.currentQuestion.question_id
-          )
-          return (
-            <Label
-              key={i}
-            >
-              <Radio
-                name='question'
-                value={option}
-                onClick={(e) => {
-                  props.createResponse(
-                    props.session.currentSession.session_id,
-                    props.session.currentQuestion.question_id,
-                    1,
-                    props.session.currentSection.section_id,
-                    e.target.value,
-                    props.session.currentQuestion.answer
-                  )
-                }}
-                defaultChecked={response && response.value === option ? true : false}
-              />
-              {option}
-            </Label>
-          )
-        })}
-      </Box>
-
-
-      {props.session.currentQuestion.question_id !== props.session.currentSection.question_order.slice(-1)[0] ?
-        <Button
-          onClick={() => {
-            const currentQuestionId = props.session.currentQuestion.question_id
-            const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
-            const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex + 1]
-            props.getQuestionDetail(nextQuestion)
+        <RadioBox
+          options={props.session.currentQuestion.options}
+          onClick={(item) => {
+            props.createResponse(
+              props.session.currentSession.session_id,
+              props.session.currentQuestion.question_id,
+              1,
+              props.session.currentSection.section_id,
+              item,
+              props.session.currentQuestion.answer
+            )
           }}
-        >
-          Next Question
-        </Button>
-        : null}
+          defaultValue={() => {
+            const response = props.session.sessionResponses.find(
+              item => item.question_id === props.session.currentQuestion.question_id
+            )
 
-      <Button
-        onClick={() => {
-          props.reviewSection()
-        }}
-        variant="secondary"
+            if (response) {
+              return response.value
+            } else {
+              return null
+            }
 
-      >
-        Review Section
-      </Button>
+          }}
+        />
 
-      <ResponseStatus />
+      </Container >
+      <BottomBar
+        leftContent={() => (
+          <>
+            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order.slice(-1)[0] ?
+              <Button
+                onClick={() => {
+                  props.reviewSection()
+                }}
+                type="secondary"
+                label="Review"
+                color="orange"
+              />
+              : null}
+          </>
+        )}
 
-    </Container >
+        rightContent={() => (
+          <>
+            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order[0] ?
+              <LinkItem
+                color="teal"
+                onClick={() => {
+                  const currentQuestionId = props.session.currentQuestion.question_id
+                  const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
+                  const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex - 1]
+                  props.getQuestionDetail(nextQuestion)
+                }}
+              >
+                Previous Question
+              </LinkItem>
+              : null}
+
+            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order.slice(-1)[0] ?
+              <Button
+                type="primary"
+                label="Next Question"
+                color="teal"
+                onClick={() => {
+                  const currentQuestionId = props.session.currentQuestion.question_id
+                  const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
+                  const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex + 1]
+                  props.getQuestionDetail(nextQuestion)
+                }}
+              />
+              :
+              <Button
+                onClick={() => {
+                  props.reviewSection()
+                }}
+                type="secondary"
+                label="Review"
+                color="orange"
+              />}
+          </>
+        )}
+      />
+
+    </>
   )
 }
 
+
 const Container = styled.div`
   padding: 30px 0;
+`
+
+const Title = styled.div`
+  font-family: Gilroy-Bold;
+  font-size: 25px;
+  padding-bottom: 30px;
+`
+
+const PreHeading = styled.div`
+  font-family: Gilroy-Regular;
+  color: rgba(0,0,0,0.3);
+  padding-bottom: 10px;
 `
 
 
