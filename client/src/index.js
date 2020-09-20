@@ -5,6 +5,7 @@ import { Provider } from 'react-redux'
 import store from './store'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import './App.css'
+import './assets/hover-min.css'
 import App from './App';
 
 ReactDOM.render(

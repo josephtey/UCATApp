@@ -56,6 +56,7 @@ export const RadioBox = ({
             }}
             key={i}
             selected={selectedOption === item ? true : false}
+            className="hvr-forward"
           >
             {item}
           </RadioOption>
@@ -75,6 +76,7 @@ const RadioOption = styled.div`
   max-width: 100%;
   display: flex;
   align-items: center;  
+  cursor: pointer;
 `
 
 const Link = styled.div`

@@ -24,46 +24,48 @@ const Question = (props) => {
     )
   }, [props.session.newResponse])
 
-  if (props.session.isFetchingQuestionDetail) return <Loading duringSession={true} />
   if (!props.session.currentQuestion) return null
 
   return (
     <>
-      <Container>
-        <PreHeading>
-          Question {props.session.currentSection.question_order.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentSection.question_order.length}
-        </PreHeading>
-        <Title>
-          {props.session.currentQuestion.question}
-        </Title>
+      {!props.session.isFetchingQuestionDetail ?
+        <Container>
+          <PreHeading>
+            Question {props.session.currentSection.question_order.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentSection.question_order.length}
+          </PreHeading>
+          <Title>
+            {props.session.currentQuestion.question}
+          </Title>
 
-        <RadioBox
-          options={props.session.currentQuestion.options}
-          onClick={(item) => {
-            props.createResponse(
-              props.session.currentSession.session_id,
-              props.session.currentQuestion.question_id,
-              1,
-              props.session.currentSection.section_id,
-              item,
-              props.session.currentQuestion.answer
-            )
-          }}
-          defaultValue={() => {
-            const response = props.session.sessionResponses.find(
-              item => item.question_id === props.session.currentQuestion.question_id
-            )
+          <RadioBox
+            options={props.session.currentQuestion.options}
+            onClick={(item) => {
+              props.createResponse(
+                props.session.currentSession.session_id,
+                props.session.currentQuestion.question_id,
+                1,
+                props.session.currentSection.section_id,
+                item,
+                props.session.currentQuestion.answer
+              )
+            }}
+            defaultValue={() => {
+              const response = props.session.sessionResponses.find(
+                item => item.question_id === props.session.currentQuestion.question_id
+              )
 
-            if (response) {
-              return response.value
-            } else {
-              return null
-            }
+              if (response) {
+                return response.value
+              } else {
+                return null
+              }
 
-          }}
-        />
+            }}
+          />
 
-      </Container >
+        </Container >
+        : <Loading duringSession={true} />
+      }
       <BottomBar
         leftContent={() => (
           <>

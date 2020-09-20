@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { connect } from 'react-redux'
 import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession } from '../../actions/session'
 import BottomBar from '../Session/BottomBar'
 import { Button } from '../Shared/Elements'
-import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import {
   Text
@@ -18,16 +17,6 @@ const mapStateToProps = (state) => {
 
 const Review = (props) => {
 
-  useEffect(() => {
-    props.getSessionResponses(
-      props.session.currentSession.session_id,
-      "section",
-      props.session.currentSection.section_id
-    )
-  }, [])
-
-  if (props.session.isFetchingResponses) return <Loading duringSession={true} />
-  if (!props.session.sessionResponses) return null
 
   return (
     <>
@@ -41,7 +30,10 @@ const Review = (props) => {
             return (
               <Card key={i} onClick={() => {
                 props.getQuestionDetail(question_id)
-              }}>
+              }}
+                answered={answered}
+                className="hvr-float"
+              >
                 <Text>Question {i + 1}</Text>
                 {!answered ? <AiOutlineWarning color="#f89800" size={20} /> : null}
               </Card>
@@ -102,7 +94,9 @@ const QuestionCards = styled.div`
   flex-wrap: wrap;
 `
 const Card = styled.div`
-  background: white;
+  background: ${props => props.answered ? '#2ecfb0' : 'white'};
+  color: ${props => props.answered ? 'white' : 'black'};
+
   box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
   padding: 20px;
   border-radius: 15px;

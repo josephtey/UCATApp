@@ -65,7 +65,7 @@ const Exam = (props) => {
         {props.content.examDetail.sections.map((section, i) => (
           <Card key={i} >
             <CardTime>
-              50 <br /> min
+              {section.time} <br /> min
             </CardTime>
 
             <CardInfo>

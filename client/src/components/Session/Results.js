@@ -26,44 +26,45 @@ const Results = (props) => {
     }
   }, [])
 
-  if (props.session.isFetchingResponses) return <Loading duringSession={true} />
   if (!props.session.allSections || !props.session.currentSession || !props.session.sessionResponses) return null
 
   return (
     <>
-      <Container>
-        <PreHeading>Results</PreHeading>
-        {props.session.allSections.map((section, i) => {
-          return (
-            <>
-              <SectionTitle
-                key={i}
-              >
-                {section.name}
-              </SectionTitle>
+      {!props.session.isFetchingResponses ?
+        <Container>
+          <PreHeading>Results</PreHeading>
+          {props.session.allSections.map((section, i) => {
+            return (
+              <>
+                <SectionTitle
+                  key={i}
+                >
+                  {section.name}
+                </SectionTitle>
 
-              <SectionCards>
-                {section.question_order.map((question_id, j) => {
-                  const response = props.session.sessionResponses.find(item => item.question_id === question_id)
+                <SectionCards>
+                  {section.question_order.map((question_id, j) => {
+                    const response = props.session.sessionResponses.find(item => item.question_id === question_id)
 
-                  return (
-                    <Card
-                      key={j}
-                      correct={response && response.correct ? true : false}
-                    >
-                      <Text>Question {j + 1}</Text>
-                      {response && response.correct ?
-                        <TiTick color="white" size={30} />
-                        : <TiTimes color="#f89800" size={30} />
-                      }
-                    </Card>
-                  )
-                })}
-              </SectionCards>
-            </>
-          )
-        })}
-      </Container>
+                    return (
+                      <Card
+                        key={j}
+                        correct={response && response.correct ? true : false}
+                      >
+                        <Text>Question {j + 1}</Text>
+                        {response && response.correct ?
+                          <TiTick color="white" size={30} />
+                          : <TiTimes color="#f89800" size={30} />
+                        }
+                      </Card>
+                    )
+                  })}
+                </SectionCards>
+              </>
+            )
+          })}
+        </Container>
+        : <Loading duringSession={true} />}
       <BottomBar
         rightContent={() => (
           <Button

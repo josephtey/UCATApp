@@ -24,7 +24,7 @@ const Start = (props) => {
         </WelcomeMessage>
 
         <Info>
-          This section has <b>{props.session.currentSection.question_order.length}</b> questions and is <b>25</b> minutes in total.
+          This section has <b>{props.session.currentSection.question_order.length}</b> questions and is <b>{props.session.currentSection.time}</b> minutes in total.
         </Info>
 
         <Warning>
@@ -38,7 +38,7 @@ const Start = (props) => {
               onClick={() => {
                 props.returnHome();
               }}
-            >I don't want to start this exam now</Link>
+            >I don't want to start this section now</Link>
         )}
         
         rightContent={()=>(
