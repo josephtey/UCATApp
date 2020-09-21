@@ -34,6 +34,7 @@ module.exports = {
     add: sql('sessions/add.sql'),
     delete: sql('sessions/delete.sql'),
     update: sql('sessions/update.sql'),
+    update_time: sql('sessions/update_time.sql'),
     find: sql('sessions/find.sql')
   },
   responses: {

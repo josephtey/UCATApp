@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
-import { getSessionDetails, resetSessionDetail, startSection, stopSection } from '../actions/session'
+import { getSessionDetails, resetSessionDetail } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import LogoImage from '../assets/in2medlogo.png'
@@ -11,10 +11,43 @@ import Start from '../components/Session/Start';
 import Results from '../components/Session/Results';
 
 
-const mapDispatchToProps = { getSessionDetails, resetSessionDetail, stopSection }
+const mapDispatchToProps = { getSessionDetails, resetSessionDetail }
 
 const mapStateToProps = (state) => {
   return state
+}
+
+const Timer = ({
+  startTimestamp,
+  sectionTimeLength
+}) => {
+
+  const calculateTimeLeft = () => {
+    const totalTime = (sectionTimeLength * 60000)
+    const currentTime = new Date().getTime()
+    const startTime = new Date(startTimestamp).getTime()
+    const timeRemaining = (totalTime - (currentTime - startTime)) / 60000
+
+    return timeRemaining.toFixed(2)
+  }
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
+
+  useEffect(() => {
+
+    setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+  })
+
+  if (!startTimestamp) return null
+
+  return (
+    <>
+      {timeLeft} minutes left
+    </>
+  )
 }
 
 const Session = (props) => {
@@ -40,7 +73,12 @@ const Session = (props) => {
           </TopBarLeft>
           <img src={LogoImage} width="100" />
           <TopBarRight>
-            30 minutes left
+            {props.session.currentSession.time.length > 0
+              ? <Timer
+                startTimestamp={props.session.currentSession.time[props.session.currentStructure.section_order.indexOf(props.session.currentSection.section_id)]}
+                sectionTimeLength={props.session.currentSection.time}
+              />
+              : null}
           </TopBarRight>
         </TopBarInner>
       </TopBar>

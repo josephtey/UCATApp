@@ -39,6 +39,12 @@ class SessionsRepository {
     });
   }
 
+  async update_time(session_id) {
+    return this.db.one(sql.update_time, {
+      session_id
+    });
+  }
+
 }
 
 module.exports = SessionsRepository;

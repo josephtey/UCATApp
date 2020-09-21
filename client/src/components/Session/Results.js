@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { stopSection, getSessionResponses } from '../../actions/session'
+import { getSessionResponses } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import { Button } from '../Shared/Elements'
 import styled from 'styled-components'
@@ -10,7 +10,7 @@ import {
 import { TiTick, TiTimes } from "react-icons/ti";
 import BottomBar from './BottomBar'
 
-const mapDispatchToProps = { stopSection, getSessionResponses }
+const mapDispatchToProps = { getSessionResponses }
 
 const mapStateToProps = (state) => {
   return state
@@ -21,9 +21,9 @@ const Results = (props) => {
   useEffect(() => {
     props.getSessionResponses(props.session.currentSession.session_id, "structure")
 
-    return () => {
-      props.stopSection()
-    }
+    // return () => {
+    //   props.stopSection()
+    // }
   }, [])
 
   if (!props.session.allSections || !props.session.currentSession || !props.session.sessionResponses) return null

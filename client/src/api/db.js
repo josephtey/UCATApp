@@ -33,18 +33,20 @@ export const db_getQuestionDetail = async (question_id) => {
 export const db_createSession = async (structure_id, student_id) => {
   const response = await db.put('/sessions/', {
     structure_id,
-    student_id,
-    time: 120
+    student_id
   })
 
   return response.data
 }
 
-export const db_updateSession = async (session_id, score, completed) => {
-  const response = await db.post('/sessions/' + session_id.toString(), {
-    score,
-    completed
-  })
+export const db_updateSession = async (session_id, fields) => {
+  const response = await db.post('/sessions/' + session_id.toString(), fields)
+
+  return response.data
+}
+
+export const db_updateSessionTime = async (session_id) => {
+  const response = await db.post('/sessions/' + session_id.toString() + '/time', {})
 
   return response.data
 }

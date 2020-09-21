@@ -9,7 +9,8 @@ import {
   db_getQuestionDetail,
   db_findResponse,
   db_updateResponse,
-  db_updateSession
+  db_updateSession,
+  db_updateSessionTime
 } from '../api/db';
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
@@ -200,11 +201,24 @@ export const startSection = () => {
   return { type: START_SECTION };
 }
 
-export const STOP_SECTION = 'STOP_SECTION';
-export const stopSection = () => {
-  return { type: STOP_SECTION };
-}
+export const STOP_SECTION_START_REQUEST = 'STOP_SECTION_START_REQUEST';
+export const STOP_SECTION_START_SUCCESS = 'STOP_SECTION_START_SUCCESS';
+export const STOP_SECTION_START_ERROR = 'STOP_SECTION_START_ERROR';
 
+const stopSectionStartRequest = { type: STOP_SECTION_START_REQUEST };
+const stopSectionStartSuccess = (updatedSession) => ({ type: STOP_SECTION_START_SUCCESS, updatedSession });
+const stopSectionStartError = error => ({ type: STOP_SECTION_START_ERROR, error });
+
+export const stopSectionStart = (session_id) => async dispatch => {
+  dispatch(stopSectionStartRequest);
+  try {
+    const updatedSession = await db_updateSessionTime(session_id)
+    dispatch(stopSectionStartSuccess(updatedSession))
+
+  } catch (error) {
+    dispatch(stopSectionStartError(error));
+  }
+};
 
 export const FINISH_SESSION_REQUEST = 'FINISH_SESSION_REQUEST';
 export const FINISH_SESSION_SUCCESS = 'FINISH_SESSION_SUCCESS';
@@ -217,7 +231,10 @@ const finishSessionError = error => ({ type: FINISH_SESSION_ERROR, error });
 export const finishSession = (session_id) => async dispatch => {
   dispatch(finishSessionRequest);
   try {
-    const finishedSession = await db_updateSession(session_id, 50, true)
+    const finishedSession = await db_updateSession(session_id, {
+      completed: true,
+      score: 50
+    })
     dispatch(finishSessionSuccess(finishedSession))
 
   } catch (error) {

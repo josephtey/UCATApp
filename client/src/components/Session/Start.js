@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { stopSection } from '../../actions/session'
+import { stopSectionStart } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import BottomBar from '../Session/BottomBar'
 import styled from 'styled-components'
 
-const mapDispatchToProps = { stopSection }
+const mapDispatchToProps = { stopSectionStart }
 
 const mapStateToProps = (state) => {
   return state
@@ -44,7 +44,7 @@ const Start = (props) => {
         rightContent={()=>(
           <Button
               onClick={() => {
-                props.stopSection()
+                props.stopSectionStart(props.session.currentSession.session_id)
               }}
             >
           Start Section!

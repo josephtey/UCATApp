@@ -51,7 +51,20 @@ router.delete('/:session_id', async function (req, res, next) {
 
 router.post('/:session_id', async function (req, res, next) {
   try {
+    console.log(req.body)
     let result = await db.sessions.update(req.params.session_id, req.body)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
+router.post('/:session_id/time', async function (req, res, next) {
+  try {
+    console.log(req.body)
+    let result = await db.sessions.update_time(req.params.session_id)
     res.send(result)
 
   } catch (err) {

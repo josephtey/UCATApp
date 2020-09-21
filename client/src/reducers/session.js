@@ -32,7 +32,10 @@ import {
   REVIEW_SECTION,
   STOP_REVIEW,
 
-  STOP_SECTION,
+  STOP_SECTION_START_REQUEST,
+  STOP_SECTION_START_SUCCESS,
+  STOP_SECTION_START_ERROR,
+
   START_SECTION
 } from '../actions/session'
 
@@ -43,6 +46,7 @@ const initialState = {
   isFetchingSession: false,
   isFetchingQuestionDetail: false,
   isFinishingSession: false,
+  isUpdatingSession: false,
   mode: "question",
   error: null,
   currentSession: null,
@@ -115,8 +119,13 @@ export default (state = initialState, action) => {
     case STOP_REVIEW:
       return { ...state, mode: "question" }
 
-    case STOP_SECTION:
-      return { ...state, mode: "question" }
+    case STOP_SECTION_START_REQUEST:
+      return { ...state, isUpdatingSession: true }
+    case STOP_SECTION_START_SUCCESS:
+      return { ...state, isUpdatingSession: false, mode: "question", currentSession: action.updatedSession }
+    case STOP_SECTION_START_ERROR:
+      return { ...state, isUpdatingSession: false, error: action.error }
+
     case START_SECTION:
       return { ...state, mode: "start" }
 
