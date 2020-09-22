@@ -94,11 +94,11 @@ const Session = (props) => {
             <Question />
             : props.session.mode === "start" ?
               <Start
-                returnHome={() => props.history.push('/')}
+                returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
               />
               : props.session.mode === "results" ?
                 <Results
-                  returnHome={() => props.history.push('/')}
+                  returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
                 />
                 : null
         }

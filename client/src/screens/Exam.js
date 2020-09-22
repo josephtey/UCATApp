@@ -7,6 +7,7 @@ import {
   Text
 } from 'rebass'
 import Loading from '../components/Shared/Loading'
+import { Button } from '../components/Shared/Elements'
 import { AiOutlineArrowRight } from "react-icons/ai"
 import { useDidMountEffect } from '../utils/helpers'
 import { TiTick } from "react-icons/ti";
@@ -107,11 +108,39 @@ const Exam = (props) => {
         </HeaderLeft>
 
         <HeaderRight>
-          <Button
-            onClick={() => {
-              props.createSession(props.content.examDetail.details.structure_id, 1)
-            }}
-          >Start!</Button>
+          {props.content.structureSessions.length === 0 ?
+            <OrangeLink
+              onClick={() => {
+                props.createSession(props.content.examDetail.details.structure_id, 1)
+              }}
+            >
+              Start Exam
+          </OrangeLink>
+            : <>
+
+              {props.content.structureSessions[0].completed ?
+                <OrangeLink
+                  onClick={() => {
+                    props.createSession(props.content.examDetail.details.structure_id, 1)
+                  }}
+                >
+                  Re-attempt Exam
+              </OrangeLink>
+                : null}
+
+              <Button
+                label={props.content.structureSessions[0].completed ? "View Results" : "Resume Exam"}
+                type="primary"
+                color="orange"
+                onClick={() => {
+                  props.history.push("/session/" + props.content.structureSessions[0].session_id)
+                }}
+              />
+
+            </>}
+
+
+
         </HeaderRight>
       </Header>
 
@@ -254,14 +283,12 @@ const HeaderLeft = styled.div`
 `
 
 const HeaderRight = styled.div`
-`
-
-const Button = styled.div`
-  background: #f89800;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 12px;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  
+  div {
+    margin-left: 10px;
+  }
 `
 
 const CardLeft = styled.div`
@@ -271,6 +298,12 @@ const CardLeft = styled.div`
 
 const CardRight = styled.div`
   padding-right: 20px;
+  cursor: pointer;
+`
+
+const OrangeLink = styled.div`
+  color: #f89800;
+  opacity: 0.5;
   cursor: pointer;
 `
 
