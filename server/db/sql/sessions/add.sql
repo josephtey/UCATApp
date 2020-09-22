@@ -1,5 +1,5 @@
 INSERT INTO "Sessions"
-  (time, completed, structure_id, student_id)
+  (start_time, end_time, completed, structure_id, student_id)
 VALUES
-  ('{}', false, ${structure_id}, ${student_id})
+  ('{}', '{}', false, ${structure_id}, ${student_id})
 RETURNING *

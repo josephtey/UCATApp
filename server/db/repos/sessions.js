@@ -39,10 +39,17 @@ class SessionsRepository {
     });
   }
 
-  async update_time(session_id) {
-    return this.db.one(sql.update_time, {
-      session_id
-    });
+  async update_time(session_id, type) {
+    if (type == "start") {
+      return this.db.one(sql.update_time_start, {
+        session_id
+      });
+    } else {
+      return this.db.one(sql.update_time_end, {
+        session_id
+      });
+    }
+
   }
 
 }

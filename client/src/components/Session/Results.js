@@ -35,10 +35,10 @@ const Results = (props) => {
           <PreHeading>Results</PreHeading>
           {props.session.allSections.map((section, i) => {
             return (
-              <>
-                <SectionTitle
-                  key={i}
-                >
+              <SectionBox
+                key={i}
+              >
+                <SectionTitle>
                   {section.name}
                 </SectionTitle>
 
@@ -60,7 +60,7 @@ const Results = (props) => {
                     )
                   })}
                 </SectionCards>
-              </>
+              </SectionBox>
             )
           })}
         </Container>
@@ -117,6 +117,9 @@ const Card = styled.div`
   &:nth-child(3n) {
     margin-right: 0;
   }
+`
+
+const SectionBox = styled.div`
 `
 
 

@@ -1,4 +1,4 @@
 UPDATE "Sessions"
-SET time = time || NOW()::timestamp
+SET end_time = end_time || NOW()::timestamp
 WHERE session_id = ${session_id}
 RETURNING *

@@ -55,7 +55,6 @@ const initialState = {
   currentSection: null,
   sessionResponses: [],
   newResponse: null,
-  finishedSession: null,
   allSections: []
 }
 
@@ -103,14 +102,14 @@ export default (state = initialState, action) => {
     case NEXT_SECTION_REQUEST:
       return { ...state, isFetchingSession: true }
     case NEXT_SECTION_SUCCESS:
-      return { ...state, isFetchingSession: false, mode: "start", sessionResponses: action.sessionResponses, currentSection: action.currentSection, currentQuestion: action.currentQuestion }
+      return { ...state, isFetchingSession: false, mode: "start", sessionResponses: action.sessionResponses, currentSection: action.currentSection, currentQuestion: action.currentQuestion, currentSession: action.updatedSession }
     case NEXT_SECTION_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
 
     case FINISH_SESSION_REQUEST:
       return { ...state, isFinishingSession: true }
     case FINISH_SESSION_SUCCESS:
-      return { ...state, isFinishingSession: false, mode: "results", finishedSession: action.finishedSession }
+      return { ...state, isFinishingSession: false, mode: "results", currentSession: action.finishedSession }
     case FINISH_SESSION_ERROR:
       return { ...state, isFinishingSession: false, error: action.error }
 

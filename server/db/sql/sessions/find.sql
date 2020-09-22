@@ -1,1 +1,2 @@
-SELECT * FROM "Sessions" WHERE session_id = ${session_id}
+SELECT * FROM "Sessions" 
+WHERE session_id = ${session_id}

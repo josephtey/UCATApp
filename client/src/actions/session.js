@@ -56,28 +56,47 @@ export const getSessionDetails = (session_id) => async dispatch => {
   dispatch(getSessionDetailsRequest);
   try {
     const sessionDetails = await db_findSession(session_id)
-    const sessionResponses = await db_getAllSessionResponses(session_id)
     const currentStructure = await db_getExamDetail(sessionDetails.structure_id)
 
-    let currentSection, currentQuestion, mode;
+    let currentSection, currentQuestion, mode, sessionResponses;
 
 
     if (sessionDetails.completed === true) {
 
       // Results mode
       mode = "results"
+      sessionResponses = await db_getAllSessionResponses(session_id)
 
-    } else if (sessionResponses.length > 0) {
+    } else if (sessionDetails.start_time.length > 0) {
 
       // Resuming progress
-      currentSection = currentStructure.sections.find(item => item.section_id === sessionResponses[0].section_id)
-      currentQuestion = await db_getQuestionDetail(sessionResponses[0].question_id)
-      mode = "question"
+      currentSection = currentStructure.sections.find(item => item.section_id === currentStructure.details.section_order[sessionDetails.end_time.length])
+      sessionResponses = await db_getAllSectionResponses(sessionDetails.session_id, currentSection.section_id)
+
+      if (sessionResponses.length > 0) {
+        if (sessionResponses[0].question_id == currentSection.question_order.slice(-1)[0]) {
+          currentQuestion = await db_getQuestionDetail(sessionResponses[0].question_id)
+        } else {
+          const currentIndex = currentSection.question_order.indexOf(sessionResponses[0].question_id)
+          currentQuestion = await db_getQuestionDetail(currentSection.question_order[currentIndex + 1])
+        }
+
+        mode = "question"
+      } else {
+        currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
+
+        if (sessionDetails.start_time.length == sessionDetails.end_time.length) {
+          mode = "start"
+        } else {
+          mode = "question"
+        }
+      }
 
     } else {
 
       // Starting a new session!
       currentSection = currentStructure.sections[0]
+      sessionResponses = await db_getAllSectionResponses(sessionDetails.session_id, currentSection.section_id)
       currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
       mode = "start"
 
@@ -101,7 +120,7 @@ export const NEXT_SECTION_SUCCESS = 'NEXT_SECTION_SUCCESS';
 export const NEXT_SECTION_ERROR = 'NEXT_SECTION_ERROR';
 
 const nextSectionRequest = { type: NEXT_SECTION_REQUEST };
-const nextSectionSuccess = (sessionResponses, currentSection, currentQuestion) => ({ type: NEXT_SECTION_SUCCESS, sessionResponses, currentSection, currentQuestion });
+const nextSectionSuccess = (sessionResponses, currentSection, currentQuestion, updatedSession) => ({ type: NEXT_SECTION_SUCCESS, sessionResponses, currentSection, currentQuestion, updatedSession });
 const nextSectionError = error => ({ type: NEXT_SECTION_ERROR, error });
 
 export const nextSection = (session_id, section_id) => async dispatch => {
@@ -110,8 +129,9 @@ export const nextSection = (session_id, section_id) => async dispatch => {
     const sessionResponses = await db_getAllSectionResponses(session_id, section_id)
     const currentSection = await db_getSectionDetail(section_id)
     const currentQuestion = await db_getQuestionDetail(currentSection.details.question_order[0])
+    const updatedSession = await db_updateSessionTime(session_id, "end")
 
-    dispatch(nextSectionSuccess(sessionResponses, currentSection.details, currentQuestion))
+    dispatch(nextSectionSuccess(sessionResponses, currentSection.details, currentQuestion, updatedSession))
 
   } catch (error) {
     dispatch(nextSectionError(error));
@@ -212,7 +232,7 @@ const stopSectionStartError = error => ({ type: STOP_SECTION_START_ERROR, error 
 export const stopSectionStart = (session_id) => async dispatch => {
   dispatch(stopSectionStartRequest);
   try {
-    const updatedSession = await db_updateSessionTime(session_id)
+    const updatedSession = await db_updateSessionTime(session_id, "start")
     dispatch(stopSectionStartSuccess(updatedSession))
 
   } catch (error) {
@@ -231,6 +251,7 @@ const finishSessionError = error => ({ type: FINISH_SESSION_ERROR, error });
 export const finishSession = (session_id) => async dispatch => {
   dispatch(finishSessionRequest);
   try {
+    await db_updateSessionTime(session_id, "end")
     const finishedSession = await db_updateSession(session_id, {
       completed: true,
       score: 50

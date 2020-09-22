@@ -45,8 +45,10 @@ export const db_updateSession = async (session_id, fields) => {
   return response.data
 }
 
-export const db_updateSessionTime = async (session_id) => {
-  const response = await db.post('/sessions/' + session_id.toString() + '/time', {})
+export const db_updateSessionTime = async (session_id, type) => {
+  const response = await db.post('/sessions/' + session_id.toString() + '/time', {
+    type
+  })
 
   return response.data
 }

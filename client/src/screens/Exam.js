@@ -1,20 +1,74 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import Sessions from '../components/Exam/Sessions'
 import { getExamDetail, getStructureSessions, resetExamDetail } from '../actions/content'
 import { createSession } from '../actions/session'
 import styled from 'styled-components'
 import {
-  Heading,
   Text
 } from 'rebass'
 import Loading from '../components/Shared/Loading'
+import { AiOutlineArrowRight } from "react-icons/ai"
 import { useDidMountEffect } from '../utils/helpers'
+import { TiTick } from "react-icons/ti";
 
 const mapDispatchToProps = { getExamDetail, resetExamDetail, createSession, getStructureSessions }
 
 const mapStateToProps = (state) => {
   return state
+}
+
+const calculateTimeLeft = (sectionTime, startTime) => {
+  const timeElapsed = (new Date().getTime() - new Date(startTime).getTime()) / 60000
+  const timeLeft = sectionTime - timeElapsed
+
+  if (timeLeft > 0) {
+    return Math.round(timeLeft)
+  } else {
+    return 0
+  }
+}
+
+const SectionCard = ({
+  sectionName,
+  questionCount,
+  time,
+  status,
+  action
+}) => {
+  return (
+
+    <Card
+      status={status}
+      className="hvr-float"
+    >
+      <CardLeft>
+        <CardTime className="time">
+          {status === "ongoing" || status === "future" ?
+            <>
+              {time} <br /> min
+            </>
+            :
+            <>
+              <TiTick color="#f89800" size={32} />
+            </>
+          }
+
+        </CardTime>
+
+        <CardInfo>
+          <CardTitle>{sectionName}</CardTitle>
+          <Caption>{questionCount} questions</Caption>
+        </CardInfo>
+      </CardLeft>
+
+      {action ?
+        <CardRight>
+          {action()}
+        </CardRight>
+        : null}
+
+    </Card>
+  )
 }
 
 const Exam = (props) => {
@@ -35,8 +89,8 @@ const Exam = (props) => {
     }
   }, [props.session.currentSession])
 
-  if (props.content.isFetchingExamDetail) return <Loading />
-  if (!props.content.examDetail) return null
+  if (props.content.isFetchingExamDetail || props.content.isFetchingSessions) return <Loading />
+  if (!props.content.examDetail || !props.content.structureSessions) return null
 
   return (
     <Container>
@@ -62,32 +116,75 @@ const Exam = (props) => {
       </Header>
 
       <Sections>
-        {props.content.examDetail.sections.map((section, i) => (
-          <Card key={i} >
-            <CardTime>
-              {section.time} <br /> min
-            </CardTime>
+        {props.content.examDetail.sections.map((section, i) => {
+          const started = props.content.structureSessions.length > 0
+          let sectionStartTime = null, sectionEndTime = null
 
-            <CardInfo>
-              <CardTitle>{section.name}</CardTitle>
-              <Caption>{section.question_order.length} questions</Caption>
+          if (started) {
+            sectionStartTime = props.content.structureSessions[0].start_time[i] ? props.content.structureSessions[0].start_time[i] : null
+            sectionEndTime = props.content.structureSessions[0].end_time[i] ? props.content.structureSessions[0].end_time[i] : null
+          }
 
-              {/* <Text>{section.description}</Text> */}
-            </CardInfo>
-          </Card>
-        ))}
+          if (sectionEndTime && sectionStartTime) {
+
+            // If the section is finished!
+
+            return (
+              <SectionCard
+                key={i}
+                sectionName={section.name}
+                questionCount={section.question_order.length}
+                status="finished"
+                time={null}
+                action={null}
+              />
+            )
+          } else if (sectionStartTime && !sectionEndTime) {
+
+            // If the section is currently ongoing!
+
+            const timeLeft = calculateTimeLeft(section.time, sectionStartTime)
+
+            return (
+              <SectionCard
+                key={i}
+                sectionName={section.name}
+                questionCount={section.question_order.length}
+                status="ongoing"
+                time={timeLeft}
+                action={() => {
+                  return (
+                    <div onClick={() => {
+                      props.history.push('/session/' + props.content.structureSessions[0].session_id)
+                    }}>
+                      <AiOutlineArrowRight color="white" size={32} />
+                    </div>
+                  )
+                }
+                }
+              />
+            )
+          } else {
+            return (
+              <SectionCard
+                key={i}
+                sectionName={section.name}
+                questionCount={section.question_order.length}
+                status="future"
+                time={section.time}
+                action={null}
+              />
+            )
+          }
+
+        })}
       </Sections>
 
-      {/* <Sessions
-        resumeSession={(session_id) => {
-          props.history.push('/session/' + session_id)
-        }}
-      /> */}
     </Container >
   )
 }
 const Caption = styled(Text)`
-  color: rgba(0,0,0,0.5)
+  opacity: 0.6;
 `
 const CardTime = styled.div`
   height: 70px;
@@ -97,8 +194,7 @@ const CardTime = styled.div`
   align-items: center;
   justify-content: center;
   display: flex;
-  text-align: center;
-  color: #f89800
+  text-align: center
 `
 
 const CardInfo = styled.div`
@@ -111,14 +207,20 @@ const CardTitle = styled.div`
 `
 
 const Card = styled.div`
-  background: white;
+  background: ${props => props.status === "ongoing" ? '#f89800' : 'white'};
+  color: ${props => props.status === "ongoing" ? 'white' : 'black'};
   box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  padding: 20px;
+  padding: 15px 20px;
   border-radius: 15px;
   margin-bottom: 20px;
   max-width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
+  .time {
+    color: ${props => props.status === "ongoing" ? 'white' : '#f89800'};
+  }
 `
 
 const Container = styled.div`
@@ -159,6 +261,16 @@ const Button = styled.div`
   color: white;
   padding: 15px 20px;
   border-radius: 12px;
+  cursor: pointer;
+`
+
+const CardLeft = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+const CardRight = styled.div`
+  padding-right: 20px;
   cursor: pointer;
 `
 
