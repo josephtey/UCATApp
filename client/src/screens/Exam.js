@@ -50,7 +50,7 @@ const SectionCard = ({
             </>
             :
             <>
-              <TiTick color="#f89800" size={32} />
+              <TiTick color="#f89800" size={40} />
             </>
           }
 

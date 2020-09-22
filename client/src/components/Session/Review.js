@@ -7,7 +7,7 @@ import styled from 'styled-components'
 import {
   Text
 } from 'rebass'
-import { AiOutlineWarning } from "react-icons/ai"
+import { RiFlag2Fill } from "react-icons/ri";
 
 const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession }
 
@@ -31,11 +31,21 @@ const Review = (props) => {
               <Card key={i} onClick={() => {
                 props.getQuestionDetail(question_id)
               }}
-                answered={answered}
+                answered={answered && answered.value ? true : false}
                 className="hvr-float"
               >
                 <Text>Question {i + 1}</Text>
-                {!answered ? <AiOutlineWarning color="#f89800" size={20} /> : null}
+                {!answered ? null :
+                  <>
+                    {answered.flagged ?
+                      <RiFlag2Fill color={
+                        answered.value ? 'white' : '#f89800'
+                      } size={20} />
+                      :
+                      null
+                    }
+                  </>
+                }
               </Card>
             )
           })}

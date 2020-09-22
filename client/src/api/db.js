@@ -67,7 +67,7 @@ export const db_getAllStructureSessions = async (structure_id) => {
 }
 
 
-export const db_createResponse = async (session_id, question_id, student_id, section_id, value, correct) => {
+export const db_createResponse = async (session_id, question_id, student_id, section_id, value, correct, flagged) => {
   const response = await db.put('/responses/', {
     session_id,
     student_id,
@@ -75,18 +75,38 @@ export const db_createResponse = async (session_id, question_id, student_id, sec
     section_id,
     value,
     timestamp: new Date().getTime().toString(),
+    correct,
+    flagged
+  })
+
+  return response.data
+}
+export const db_updateResponse = async (response_id, value, correct) => {
+  const response = await db.post('/responses/' + response_id.toString(), {
+    value,
     correct
   })
 
   return response.data
 }
-export const db_updateResponse = async (response_id, value, flagged, committed, correct) => {
-  const response = await db.post('/responses/' + response_id.toString(), {
-    value,
-    flagged,
-    committed,
-    value,
-    correct
+
+export const db_createBareResponse = async (session_id, question_id, student_id, section_id, flagged) => {
+  const response = await db.put('/responses/bare', {
+    session_id,
+    student_id,
+    question_id,
+    section_id,
+    timestamp: new Date().getTime().toString(),
+    flagged
+  })
+
+  return response.data
+
+}
+
+export const db_flagResponse = async (response_id, flagged) => {
+  const response = await db.post('/responses/' + response_id.toString() + '/flag', {
+    flagged
   })
 
   return response.data

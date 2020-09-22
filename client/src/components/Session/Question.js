@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getQuestionDetail, createResponse, reviewSection, getSessionResponses } from '../../actions/session'
+import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from '../Session/BottomBar'
-import { Button, LinkItem, RadioBox } from '../Shared/Elements'
+import { Button, LinkItem, RadioBox, FlagButton } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 
 
-const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses }
+const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
 
 const mapStateToProps = (state) => {
   return state
@@ -31,7 +31,27 @@ const Question = (props) => {
       {!props.session.isFetchingQuestionDetail ?
         <Container>
           <PreHeading>
-            Question {props.session.currentSection.question_order.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentSection.question_order.length}
+            <PreHeadingLeft>
+              Question {props.session.currentSection.question_order.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentSection.question_order.length}
+            </PreHeadingLeft>
+            <PreHeadingRight>
+              <FlagButton
+                flagged={
+                  props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id) ?
+                    props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id).flagged
+                    : false}
+
+                action={(flagged) => {
+                  props.flagResponse(
+                    props.session.currentSession.session_id,
+                    props.session.currentQuestion.question_id,
+                    1,
+                    props.session.currentSection.section_id,
+                    flagged
+                  )
+                }}
+              />
+            </PreHeadingRight>
           </PreHeading>
           <Title>
             {props.session.currentQuestion.question}
@@ -142,7 +162,16 @@ const PreHeading = styled.div`
   font-family: Gilroy-Regular;
   color: rgba(0,0,0,0.3);
   padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
 `
 
+const PreHeadingRight = styled.div`
+
+`
+const PreHeadingLeft = styled.div`
+
+`
 
 export default connect(mapStateToProps, mapDispatchToProps)(Question)

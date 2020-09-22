@@ -42,7 +42,9 @@ module.exports = {
     total_structure: sql('responses/total_structure.sql'),
     total_section: sql('responses/total_section.sql'),
     update: sql('responses/update.sql'),
+    flag: sql('responses/flag.sql'),
     add: sql('responses/add.sql'),
+    add_bare: sql('responses/add_bare.sql'),
     find: sql('responses/find.sql')
   }
 };

@@ -36,6 +36,10 @@ import {
   STOP_SECTION_START_SUCCESS,
   STOP_SECTION_START_ERROR,
 
+  FLAG_RESPONSE_REQUEST,
+  FLAG_RESPONSE_SUCCESS,
+  FLAG_RESPONSE_ERROR,
+
   START_SECTION
 } from '../actions/session'
 
@@ -47,6 +51,7 @@ const initialState = {
   isFetchingQuestionDetail: false,
   isFinishingSession: false,
   isUpdatingSession: false,
+  isFlagging: false,
   mode: "question",
   error: null,
   currentSession: null,
@@ -82,6 +87,13 @@ export default (state = initialState, action) => {
       return { ...state, isCreatingResponse: false, newResponse: action.newResponse }
     case CREATE_RESPONSE_ERROR:
       return { ...state, isCreatingResponse: false, error: action.error }
+
+    case FLAG_RESPONSE_REQUEST:
+      return { ...state, isFlagging: true }
+    case FLAG_RESPONSE_SUCCESS:
+      return { ...state, isFlagging: false, newResponse: action.newResponse }
+    case FLAG_RESPONSE_ERROR:
+      return { ...state, isFlagging: false, error: action.error }
 
     case GET_QUESTION_REQUEST:
       return { ...state, isFetchingQuestionDetail: true, mode: "question" }

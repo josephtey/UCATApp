@@ -41,7 +41,12 @@ const BottomBarInner = styled.div`
 `
 
 const BottomBarLeft = styled.div`
+  display: flex;
+  align-items: center;
 
+  div {
+    margin: 0 10px;
+  }
 `
 
 const BottomBarRight = styled.div`

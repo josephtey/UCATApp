@@ -26,8 +26,19 @@ class ResponsesRepository {
     })
   }
 
+  async flag(response_id, flagged) {
+    return this.db.one(sql.flag, {
+      response_id,
+      flagged
+    })
+  }
+
   async add(values) {
     return this.db.one(sql.add, values)
+  }
+
+  async add_bare(values) {
+    return this.db.one(sql.add_bare, values)
   }
 
   async find(values) {

@@ -10,7 +10,9 @@ import {
   db_findResponse,
   db_updateResponse,
   db_updateSession,
-  db_updateSessionTime
+  db_updateSessionTime,
+  db_flagResponse,
+  db_createBareResponse
 } from '../api/db';
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
@@ -30,9 +32,9 @@ export const createResponse = (session_id, question_id, student_id, section_id, 
 
     let newResponse;
     if (response) {
-      newResponse = await db_updateResponse(response.response_id, value, false, false, correct)
+      newResponse = await db_updateResponse(response.response_id, value, correct)
     } else {
-      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value, correct)
+      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value, correct, false)
     }
 
     dispatch(createResponseSuccess(newResponse))
@@ -41,6 +43,35 @@ export const createResponse = (session_id, question_id, student_id, section_id, 
     dispatch(createResponseError(error));
   }
 };
+
+export const FLAG_RESPONSE_REQUEST = 'FLAG_RESPONSE_REQUEST';
+export const FLAG_RESPONSE_SUCCESS = 'FLAG_RESPONSE_SUCCESS';
+export const FLAG_RESPONSE_ERROR = 'FLAG_RESPONSE_ERROR';
+
+const flagResponseRequest = { type: FLAG_RESPONSE_REQUEST };
+const flagResponseSuccess = (newResponse) => ({ type: FLAG_RESPONSE_SUCCESS, newResponse });
+const flagResponseError = error => ({ type: FLAG_RESPONSE_ERROR, error });
+
+export const flagResponse = (session_id, question_id, student_id, section_id, flagged) => async dispatch => {
+  dispatch(flagResponseRequest);
+  try {
+
+    const response = await db_findResponse(session_id, question_id)
+
+    let newResponse;
+    if (response) {
+      newResponse = await db_flagResponse(response.response_id, flagged)
+    } else {
+      newResponse = await db_createBareResponse(session_id, question_id, student_id, section_id, flagged)
+    }
+
+    dispatch(flagResponseSuccess(newResponse))
+
+  } catch (error) {
+    dispatch(flagResponseError(error));
+  }
+};
+
 
 
 export const GET_SESSION_DETAIL_REQUEST = 'GET_SESSION_DETAIL_REQUEST';

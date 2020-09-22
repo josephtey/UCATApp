@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
+import { RiFlag2Fill, RiFlag2Line } from "react-icons/ri";
 
 export const Button = ({ type, label, color, onClick }) => {
   return (
@@ -65,6 +66,34 @@ export const RadioBox = ({
     </>
   )
 }
+
+export const FlagButton = ({
+  flagged,
+  action
+}) => {
+
+  const [isFlagged, setFlagged] = useState(flagged)
+
+  return (
+    <FlagContainer
+      onClick={() => {
+        action(!isFlagged)
+        setFlagged(!isFlagged)
+      }}
+    >
+      {isFlagged ?
+        <RiFlag2Fill color="#f89800" size={32} />
+        :
+        <RiFlag2Line color="#f89800" size={32} />
+      }
+    </FlagContainer>
+  )
+}
+
+const FlagContainer = styled.div`
+  cursor: pointer;
+`
+
 
 const RadioOption = styled.div`
   background: ${props => props.selected ? '#2ecfb0' : 'white'};

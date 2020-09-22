@@ -38,9 +38,31 @@ router.post('/:response_id', async function (req, res, next) {
   }
 });
 
+router.post('/:response_id/flag', async function (req, res, next) {
+  try {
+    let result = await db.responses.flag(req.params.response_id, req.body.flagged)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
 router.put('/', async function (req, res, next) {
   try {
     let result = await db.responses.add(req.body)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
+router.put('/bare', async function (req, res, next) {
+  try {
+    let result = await db.responses.add_bare(req.body)
     res.send(result)
 
   } catch (err) {

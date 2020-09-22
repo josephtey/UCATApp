@@ -1,4 +1,4 @@
 UPDATE "Responses"
-SET value = ${value}, correct=${correct}
+SET flagged = ${flagged}
 WHERE response_id = ${response_id}
 RETURNING *
