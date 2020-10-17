@@ -109,13 +109,14 @@ const Exam = (props) => {
 
         <HeaderRight>
           {props.content.structureSessions.length === 0 ?
-            <OrangeLink
+            <Button
+              type="primary"
+              color="orange"
+              label="Start Exam"
               onClick={() => {
                 props.createSession(props.content.examDetail.details.structure_id, 1)
               }}
-            >
-              Start Exam
-          </OrangeLink>
+            />
             : <>
 
               {props.content.structureSessions[0].completed ?

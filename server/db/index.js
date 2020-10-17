@@ -5,6 +5,7 @@ const { Sections } = require('./repos');
 const { Structures } = require('./repos');
 const { Sessions } = require('./repos');
 const { Responses } = require('./repos');
+const { Stems } = require('./repos');
 
 const initOptions = {
 
@@ -14,6 +15,7 @@ const initOptions = {
     obj.structures = new Structures(obj, pgp);
     obj.sessions = new Sessions(obj, pgp);
     obj.responses = new Responses(obj, pgp);
+    obj.stems = new Stems(obj, pgp);
   }
 };
 

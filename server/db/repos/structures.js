@@ -18,7 +18,8 @@ class StructuresRespository {
       name: values.name,
       description: values.description,
       type: values.type,
-      section_order: values.section_order
+      section_order: values.section_order,
+      time: values.time
     });
 
     for (let i = 0; i < values.section_order.length; i++) {

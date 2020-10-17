@@ -58,6 +58,7 @@ const initialState = {
   currentQuestion: null,
   currentStructure: null,
   currentSection: null,
+  currentStem: null,
   sessionResponses: [],
   newResponse: null,
   allSections: []
@@ -98,14 +99,14 @@ export default (state = initialState, action) => {
     case GET_QUESTION_REQUEST:
       return { ...state, isFetchingQuestionDetail: true, mode: "question" }
     case GET_QUESTION_SUCCESS:
-      return { ...state, isFetchingQuestionDetail: false, currentQuestion: action.questionDetail }
+      return { ...state, isFetchingQuestionDetail: false, currentQuestion: action.questionDetail, currentStem: action.currentStem }
     case GET_QUESTION_ERROR:
       return { ...state, isFetchingQuestionDetail: false, error: action.error }
 
     case GET_SESSION_DETAIL_REQUEST:
       return { ...state, isFetchingSession: true }
     case GET_SESSION_DETAIL_SUCCESS:
-      return { ...state, isFetchingSession: false, mode: action.mode, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestion: action.currentQuestion, allSections: action.allSections }
+      return { ...state, isFetchingSession: false, mode: action.mode, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestion: action.currentQuestion, allSections: action.allSections, currentStem: action.currentStem }
     case GET_SESSION_DETAIL_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
     case RESET_SESSION_DETAIL:

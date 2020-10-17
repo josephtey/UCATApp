@@ -4,4 +4,5 @@ module.exports = {
   Structures: require('./structures'),
   Sessions: require('./sessions'),
   Responses: require('./responses'),
+  Stems: require('./stems')
 };

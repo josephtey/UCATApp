@@ -46,6 +46,9 @@ module.exports = {
     add: sql('responses/add.sql'),
     add_bare: sql('responses/add_bare.sql'),
     find: sql('responses/find.sql')
+  },
+  stems: {
+    find: sql('stems/find.sql')
   }
 };
 

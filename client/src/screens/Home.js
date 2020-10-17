@@ -41,7 +41,7 @@ const Home = (props) => {
 
               <CardBottom>
                 <CardLength>
-                  90 min
+                  {exam.time} min
                 </CardLength>
                 <Button>
                   <AiOutlineArrowRight color="#f89800" size={25} />

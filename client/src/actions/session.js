@@ -12,7 +12,8 @@ import {
   db_updateSession,
   db_updateSessionTime,
   db_flagResponse,
-  db_createBareResponse
+  db_createBareResponse,
+  db_findStem
 } from '../api/db';
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
@@ -80,7 +81,7 @@ export const GET_SESSION_DETAIL_ERROR = 'GET_SESSION_DETAIL_ERROR';
 export const RESET_SESSION_DETAIL = 'RESET_SESSION_DETAIL';
 
 const getSessionDetailsRequest = { type: GET_SESSION_DETAIL_REQUEST };
-const getSessionDetailsSuccess = (sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion, mode, allSections) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion, mode, allSections });
+const getSessionDetailsSuccess = (sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion, mode, allSections, currentStem) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion, mode, allSections, currentStem });
 const getSessionDetailsError = error => ({ type: GET_SESSION_DETAIL_ERROR, error });
 
 export const getSessionDetails = (session_id) => async dispatch => {
@@ -89,7 +90,7 @@ export const getSessionDetails = (session_id) => async dispatch => {
     const sessionDetails = await db_findSession(session_id)
     const currentStructure = await db_getExamDetail(sessionDetails.structure_id)
 
-    let currentSection, currentQuestion, mode, sessionResponses;
+    let currentSection, currentQuestion, mode, sessionResponses, currentStem;
 
 
     if (sessionDetails.completed === true) {
@@ -133,7 +134,12 @@ export const getSessionDetails = (session_id) => async dispatch => {
 
     }
 
-    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure.details, currentQuestion, mode, currentStructure.sections))
+    // Getting question stem
+    if (currentQuestion.stem_id) {
+      currentStem = await db_findStem(currentQuestion.stem_id)
+    }
+
+    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure.details, currentQuestion, mode, currentStructure.sections, currentStem))
 
   } catch (error) {
     dispatch(getSessionDetailsError(error));
@@ -223,14 +229,20 @@ export const GET_QUESTION_SUCCESS = 'GET_QUESTION_SUCCESS';
 export const GET_QUESTION_ERROR = 'GET_QUESTION_ERROR';
 
 const getQuestionDetailRequest = { type: GET_QUESTION_REQUEST };
-const getQuestionDetailSuccess = (questionDetail) => ({ type: GET_QUESTION_SUCCESS, questionDetail });
+const getQuestionDetailSuccess = (questionDetail, currentStem) => ({ type: GET_QUESTION_SUCCESS, questionDetail, currentStem });
 const getQuestionDetailError = error => ({ type: GET_QUESTION_ERROR, error });
 
 export const getQuestionDetail = (question_id) => async dispatch => {
   dispatch(getQuestionDetailRequest);
   try {
     const questionDetail = await db_getQuestionDetail(question_id)
-    dispatch(getQuestionDetailSuccess(questionDetail))
+
+    let currentStem
+    if (questionDetail.stem_id) {
+      currentStem = await db_findStem(questionDetail.stem_id)
+    }
+
+    dispatch(getQuestionDetailSuccess(questionDetail, currentStem))
 
   } catch (error) {
     dispatch(getQuestionDetailError(error));

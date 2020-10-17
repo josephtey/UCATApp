@@ -53,35 +53,45 @@ const Question = (props) => {
               />
             </PreHeadingRight>
           </PreHeading>
-          <Title>
-            {props.session.currentQuestion.question}
-          </Title>
 
-          <RadioBox
-            options={props.session.currentQuestion.options}
-            onClick={(item) => {
-              props.createResponse(
-                props.session.currentSession.session_id,
-                props.session.currentQuestion.question_id,
-                1,
-                props.session.currentSection.section_id,
-                item,
-                props.session.currentQuestion.answer
-              )
-            }}
-            defaultValue={() => {
-              const response = props.session.sessionResponses.find(
-                item => item.question_id === props.session.currentQuestion.question_id
-              )
+          <MainContent>
+            {props.session.currentStem ?
+              <QuestionStem>
+                {props.session.currentStem.text}
+              </QuestionStem>
+              : null}
+            <QuestionContent>
+              <Title>
+                {props.session.currentQuestion.question}
+              </Title>
 
-              if (response) {
-                return response.value
-              } else {
-                return null
-              }
+              <RadioBox
+                options={props.session.currentQuestion.options}
+                onClick={(item) => {
+                  props.createResponse(
+                    props.session.currentSession.session_id,
+                    props.session.currentQuestion.question_id,
+                    1,
+                    props.session.currentSection.section_id,
+                    item,
+                    props.session.currentQuestion.answer
+                  )
+                }}
+                defaultValue={() => {
+                  const response = props.session.sessionResponses.find(
+                    item => item.question_id === props.session.currentQuestion.question_id
+                  )
 
-            }}
-          />
+                  if (response) {
+                    return response.value
+                  } else {
+                    return null
+                  }
+
+                }}
+              />
+            </QuestionContent>
+          </MainContent>
 
         </Container >
         : <Loading duringSession={true} />
@@ -172,6 +182,29 @@ const PreHeadingRight = styled.div`
 `
 const PreHeadingLeft = styled.div`
 
+`
+
+const MainContent = styled.div`
+  display: flex;
+  align-items: flex-start;
+
+`
+
+const QuestionContent = styled.div`
+  flex: 1;
+`
+
+const QuestionStem = styled.div`
+  flex: 1;
+  margin-right: 40px;
+  opacity: 0.7;
+  font-family: Gilroy-Regular;
+  text-align: justify;
+  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  font-size: 13px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Question)

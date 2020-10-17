@@ -121,6 +121,12 @@ export const db_findResponse = async (session_id, question_id) => {
   return response.data
 }
 
+export const db_findStem = async (stem_id) => {
+  const response = await db.get('/stems/' + stem_id.toString())
+
+  return response.data
+}
+
 export const db_getAllSectionResponses = async (session_id, section_id) => {
   const response = await db.post('/responses/session/' + session_id.toString(), {
     type: "section",
