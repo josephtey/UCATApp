@@ -244,7 +244,7 @@ export const getQuestionDetail = (question_id, mode = "question") => async dispa
   try {
     const questionDetail = await db_getQuestionDetail(question_id)
 
-    let currentStem
+    let currentStem, currentSection
     if (questionDetail.stem_id) {
       currentStem = await db_findStem(questionDetail.stem_id)
     }
@@ -301,7 +301,6 @@ const reviewQuestionsError = error => ({ type: REVIEW_QUESTIONS_ERROR, error });
 export const reviewQuestions = (questions) => async dispatch => {
   dispatch(reviewQuestionsRequest);
   try {
-
     dispatch(reviewQuestionsSuccess(questions))
 
   } catch (error) {
@@ -331,4 +330,12 @@ export const finishSession = (session_id) => async dispatch => {
     dispatch(finishSessionError(error));
   }
 };
+
+export const CHANGE_MODE = 'CHANGE_MODE';
+export const changeMode = (mode) => {
+  return {
+    type: CHANGE_MODE,
+    mode
+  }
+}
 

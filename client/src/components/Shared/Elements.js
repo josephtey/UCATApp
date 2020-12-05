@@ -67,6 +67,50 @@ export const RadioBox = ({
   )
 }
 
+export const RadioBoxAnswer = ({
+  options,
+  correctValue,
+  selectedValue
+}) => {
+  const [selectedOption, setSelectedOption] = useState(selectedValue ? selectedValue : null)
+
+  return (
+    <>
+      {options.map((item, i) => {
+        return (
+          <RadioOption
+            key={i}
+            selected={item === correctValue ? true : false}
+            wrong={item === selectedOption && correctValue !== selectedOption ? true : false}
+            className="hvr-forward"
+          >
+            <OptionLeft>
+              {item}
+            </OptionLeft>
+            <OptionRight>
+              {item === selectedOption && correctValue !== selectedOption ?
+                "Your answer: Wrong!"
+                : item === correctValue && correctValue !== selectedOption ?
+                  "Correct Answer"
+                  : item === selectedOption && correctValue === selectedOption ?
+                    "Your answer: Correct!"
+                    : null
+              }
+            </OptionRight>
+          </RadioOption>
+        )
+      })}
+
+      {!selectedOption ?
+        <NoSelectionText>
+          You didn't select an option.
+        </NoSelectionText>
+        : null}
+
+    </>
+  )
+}
+
 export const FlagButton = ({
   flagged,
   action
@@ -94,10 +138,17 @@ const FlagContainer = styled.div`
   cursor: pointer;
 `
 
+const OptionLeft = styled.div`
+
+`
+
+const OptionRight = styled.div`
+
+`
 
 const RadioOption = styled.div`
-  background: ${props => props.selected ? '#2ecfb0' : 'white'};
-  color: ${props => props.selected ? 'white' : 'black'};
+  background: ${props => props.wrong ? 'red' : props.selected ? '#2ecfb0' : 'white'};
+  color: ${props => props.selected || props.wrong ? 'white' : 'black'};
   box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
   padding: 20px;
   border-radius: 15px;
@@ -106,6 +157,7 @@ const RadioOption = styled.div`
   display: flex;
   align-items: center;  
   cursor: pointer;
+  justify-content: space-between;
 `
 
 const Link = styled.div`
@@ -145,4 +197,10 @@ const ButtonSecondary = styled.div`
   padding: 10px 15px;
   font-family: Gilroy-SemiBold;
   cursor: pointer;
+`
+
+const NoSelectionText = styled.div`
+  color: #f89800;
+  margin-top: 40px;
+  text-align: right;
 `

@@ -44,7 +44,8 @@ import {
   FLAG_RESPONSE_SUCCESS,
   FLAG_RESPONSE_ERROR,
 
-  START_SECTION
+  START_SECTION,
+  CHANGE_MODE
 } from '../actions/session'
 
 const initialState = {
@@ -152,6 +153,9 @@ export default (state = initialState, action) => {
 
     case START_SECTION:
       return { ...state, mode: "start" }
+
+    case CHANGE_MODE:
+      return { ...state, mode: action.mode }
 
     default:
       return state

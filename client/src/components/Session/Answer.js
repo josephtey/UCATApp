@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, finishSession } from '../../actions/session'
+import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, changeMode } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from './BottomBar'
-import { Button, LinkItem, RadioBox, FlagButton } from '../Shared/Elements'
+import { Button, LinkItem, RadioBoxAnswer, FlagButton } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 
 
-const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, finishSession }
+const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, changeMode }
 
 const mapStateToProps = (state) => {
   return state
@@ -32,7 +32,6 @@ const Answer = (props) => {
         <Container>
           <PreHeading>
             <PreHeadingLeft>
-              Question 1
             </PreHeadingLeft>
           </PreHeading>
 
@@ -47,33 +46,36 @@ const Answer = (props) => {
                 {props.session.currentQuestion.question}
               </Title>
 
-              <RadioBox
+              <RadioBoxAnswer
                 options={props.session.currentQuestion.options}
-                onClick={(item) => {
-                  props.createResponse(
-                    props.session.currentSession.session_id,
-                    props.session.currentQuestion.question_id,
-                    1,
-                    props.session.currentSection.section_id,
-                    item,
-                    props.session.currentQuestion.answer
-                  )
-                }}
-                defaultValue={() => {
+                correctValue={props.session.currentQuestion.answer}
+                selectedValue={() => {
                   const response = props.session.sessionResponses.find(
                     item => item.question_id === props.session.currentQuestion.question_id
                   )
-
                   if (response) {
                     return response.value
                   } else {
                     return null
                   }
-
                 }}
               />
             </QuestionContent>
           </MainContent>
+
+          <ExplanationContent>
+            <PreHeading>Explanation</PreHeading>
+            {props.session.currentQuestion.explanation ?
+              <ExplanationText>
+                {props.session.currentQuestion.explanation}
+              </ExplanationText>
+              :
+              <ExplanationText>
+                There is no explanation for this question.
+                </ExplanationText>
+
+            }
+          </ExplanationContent>
 
         </Container >
         : <Loading duringSession={true} />
@@ -89,6 +91,7 @@ const Answer = (props) => {
           <>
             <Button
               onClick={() => {
+                props.changeMode("results")
               }}
               type="secondary"
               label="Return to Results"
@@ -102,6 +105,13 @@ const Answer = (props) => {
   )
 }
 
+const ExplanationContent = styled.div`
+  margin: 25px 0;
+`
+
+const ExplanationText = styled.div`
+
+`
 
 const Container = styled.div`
   padding: 30px 0;
