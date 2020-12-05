@@ -22,6 +22,12 @@ const NavBar = (props) => {
         <img src={LogoImage} width={150} />
       </Logo>
 
+      <UserInfo>
+        <span style={{ 'opacity': '0.7' }}>Welcome,</span>
+        <br />
+        <span style={{ 'font-size': '20px', 'font-weight': 'bold' }}>Joseph Tey</span>
+      </UserInfo>
+
       <Nav>
         <NavItem
           active={true}
@@ -52,20 +58,25 @@ const NavItem = styled.div`
 
 `
 const Nav = styled.div`
-
+  padding: 40px;
 `
 const Logo = styled.div`
-  margin-bottom: 30px;
+  margin: 20px 0;
   text-align: center;
   font-family: Gilroy-Bold;
 `
 
 const Container = styled.div`
-  padding: 40px;
   position: fixed;
   height: 100%;
   background: white;
-  width: 250px;
+  width: 320px;
+`
+
+const UserInfo = styled.div`
+  background: #2ECFAF;
+  padding: 40px;
+  color: white;
 `
 
 export default NavBar
