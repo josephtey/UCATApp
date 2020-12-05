@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getSessionResponses } from '../../actions/session'
+import { getSessionResponses, getQuestionDetail } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import { Button } from '../Shared/Elements'
 import styled from 'styled-components'
@@ -10,7 +10,7 @@ import {
 import { TiTick, TiTimes } from "react-icons/ti";
 import BottomBar from './BottomBar'
 
-const mapDispatchToProps = { getSessionResponses }
+const mapDispatchToProps = { getSessionResponses, getQuestionDetail }
 
 const mapStateToProps = (state) => {
   return state
@@ -50,6 +50,9 @@ const Results = (props) => {
                       <Card
                         key={j}
                         correct={response && response.correct ? true : false}
+                        onClick={() => {
+                          props.getQuestionDetail(question_id, "answer")
+                        }}
                       >
                         <Text>Question {j + 1}</Text>
                         {response && response.correct ?

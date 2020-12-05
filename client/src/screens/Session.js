@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import LogoImage from '../assets/in2medlogo.png'
 
 import Question from '../components/Session/Question'
+import Answer from '../components/Session/Answer'
 import Review from '../components/Session/Review';
 import Start from '../components/Session/Start';
 import Results from '../components/Session/Results';
@@ -92,15 +93,17 @@ const Session = (props) => {
         {props.session.mode === "review" ? <Review />
           : props.session.mode === "question" ?
             <Question />
-            : props.session.mode === "start" ?
-              <Start
-                returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
-              />
-              : props.session.mode === "results" ?
-                <Results
+            : props.session.mode === "answer" ?
+              <Answer />
+              : props.session.mode === "start" ?
+                <Start
                   returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
                 />
-                : null
+                : props.session.mode === "results" ?
+                  <Results
+                    returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
+                  />
+                  : null
         }
       </Container>
     </>

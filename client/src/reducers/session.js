@@ -102,16 +102,16 @@ export default (state = initialState, action) => {
       return { ...state, isFlagging: false, error: action.error }
 
     case GET_QUESTION_REQUEST:
-      return { ...state, isFetchingQuestionDetail: true, mode: "question" }
+      return { ...state, isFetchingQuestionDetail: true }
     case GET_QUESTION_SUCCESS:
-      return { ...state, isFetchingQuestionDetail: false, currentQuestion: action.questionDetail, currentStem: action.currentStem }
+      return { ...state, isFetchingQuestionDetail: false, currentQuestion: action.questionDetail, currentStem: action.currentStem, mode: action.mode }
     case GET_QUESTION_ERROR:
       return { ...state, isFetchingQuestionDetail: false, error: action.error }
 
     case GET_SESSION_DETAIL_REQUEST:
       return { ...state, isFetchingSession: true }
     case GET_SESSION_DETAIL_SUCCESS:
-      return { ...state, isFetchingSession: false, mode: action.mode, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestionOrder: action.currentSection.question_order, currentQuestion: action.currentQuestion, allSections: action.allSections, currentStem: action.currentStem }
+      return { ...state, isFetchingSession: false, mode: action.mode, currentSession: action.sessionDetails, sessionResponses: action.sessionResponses, currentStructure: action.currentStructure, currentSection: action.currentSection, currentQuestionOrder: action.currentQuestionOrder, currentQuestion: action.currentQuestion, allSections: action.allSections, currentStem: action.currentStem }
     case GET_SESSION_DETAIL_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
     case RESET_SESSION_DETAIL:
