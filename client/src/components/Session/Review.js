@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession } from '../../actions/session'
+import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions } from '../../actions/session'
 import BottomBar from '../Session/BottomBar'
 import { Button } from '../Shared/Elements'
 import styled from 'styled-components'
@@ -9,14 +9,50 @@ import {
 } from 'rebass'
 import { RiFlag2Fill } from "react-icons/ri";
 
-const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession }
+const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions }
 
 const mapStateToProps = (state) => {
   return state
 }
 
-const Review = (props) => {
+const getIncompleteQuestions = (questions, responses) => {
+  let incompleteQuestions = []
 
+  for (let i = 0; i < questions.length; i++) {
+    let questionExists = false
+    for (let j = 0; j < responses.length; j++) {
+      if (responses[j].question_id === questions[i]) {
+        questionExists = true
+        break
+      }
+    }
+    if (!questionExists) {
+      incompleteQuestions.push(questions[i])
+    }
+  }
+
+  return incompleteQuestions
+}
+
+const getFlaggedQuestions = (responses) => {
+  let flaggedQuestions = []
+
+  for (let i = 0; i < responses.length; i++) {
+    if (responses[i].flagged) {
+      flaggedQuestions.push(responses[i].question_id)
+    }
+  }
+
+  return flaggedQuestions
+}
+
+const Review = (props) => {
+  const incompleteQuestions = getIncompleteQuestions(props.session.currentSection.question_order, props.session.sessionResponses)
+  const flaggedQuestions = getFlaggedQuestions(props.session.sessionResponses)
+
+  useEffect(() => {
+    props.reviewQuestions(props.session.currentSection.question_order)
+  }, [])
 
   return (
     <>
@@ -53,7 +89,40 @@ const Review = (props) => {
       </Container >
       <BottomBar
         leftContent={() => (
-          <></>
+          <>
+            {incompleteQuestions.length > 0 ?
+              <Button
+                type="secondary"
+                color="orange"
+                label="Review Incomplete"
+                onClick={() => {
+                  props.reviewQuestions(incompleteQuestions)
+                  props.getQuestionDetail(incompleteQuestions[0])
+                }}
+              />
+              : null}
+
+            {flaggedQuestions.length > 0 ?
+              <Button
+                type="secondary"
+                color="orange"
+                label="Review Flagged"
+                onClick={() => {
+                  props.reviewQuestions(flaggedQuestions)
+                  props.getQuestionDetail(flaggedQuestions[0])
+                }}
+              />
+              : null}
+
+            <Button
+              type="secondary"
+              color="orange"
+              label="Review All"
+              onClick={() => {
+                props.getQuestionDetail(props.session.currentSection.question_order[0])
+              }}
+            />
+          </>
         )}
 
         rightContent={() => (

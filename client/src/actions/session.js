@@ -124,19 +124,24 @@ export const getSessionDetails = (session_id) => async dispatch => {
         }
       }
 
+      // Getting question stem
+      if (currentQuestion.stem_id) {
+        currentStem = await db_findStem(currentQuestion.stem_id)
+      }
+
     } else {
 
       // Starting a new session!
       currentSection = currentStructure.sections[0]
       sessionResponses = await db_getAllSectionResponses(sessionDetails.session_id, currentSection.section_id)
       currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
+
+      // Getting question stem
+      if (currentQuestion.stem_id) {
+        currentStem = await db_findStem(currentQuestion.stem_id)
+      }
       mode = "start"
 
-    }
-
-    // Getting question stem
-    if (currentQuestion.stem_id) {
-      currentStem = await db_findStem(currentQuestion.stem_id)
     }
 
     dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure.details, currentQuestion, mode, currentStructure.sections, currentStem))
@@ -280,6 +285,25 @@ export const stopSectionStart = (session_id) => async dispatch => {
 
   } catch (error) {
     dispatch(stopSectionStartError(error));
+  }
+};
+
+export const REVIEW_QUESTIONS_REQUEST = 'REVIEW_QUESTIONS_REQUEST';
+export const REVIEW_QUESTIONS_SUCCESS = 'REVIEW_QUESTIONS_SUCCESS';
+export const REVIEW_QUESTIONS_ERROR = 'REVIEW_QUESTIONS_ERROR';
+
+const reviewQuestionsRequest = { type: REVIEW_QUESTIONS_REQUEST };
+const reviewQuestionsSuccess = (updatedQuestionOrder) => ({ type: REVIEW_QUESTIONS_SUCCESS, updatedQuestionOrder });
+const reviewQuestionsError = error => ({ type: REVIEW_QUESTIONS_ERROR, error });
+
+export const reviewQuestions = (questions) => async dispatch => {
+  dispatch(reviewQuestionsRequest);
+  try {
+
+    dispatch(reviewQuestionsSuccess(questions))
+
+  } catch (error) {
+    dispatch(reviewQuestionsError(error));
   }
 };
 

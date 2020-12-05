@@ -32,7 +32,7 @@ const Question = (props) => {
         <Container>
           <PreHeading>
             <PreHeadingLeft>
-              Question {props.session.currentSection.question_order.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentSection.question_order.length}
+              Question {props.session.currentQuestionOrder.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentQuestionOrder.length}
             </PreHeadingLeft>
             <PreHeadingRight>
               <FlagButton
@@ -99,7 +99,7 @@ const Question = (props) => {
       <BottomBar
         leftContent={() => (
           <>
-            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order.slice(-1)[0] ?
+            {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] ?
               <Button
                 onClick={() => {
                   props.reviewSection()
@@ -114,13 +114,13 @@ const Question = (props) => {
 
         rightContent={() => (
           <>
-            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order[0] ?
+            {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0] ?
               <LinkItem
                 color="teal"
                 onClick={() => {
                   const currentQuestionId = props.session.currentQuestion.question_id
-                  const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
-                  const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex - 1]
+                  const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
+                  const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex - 1]
                   props.getQuestionDetail(nextQuestion)
                 }}
               >
@@ -128,15 +128,15 @@ const Question = (props) => {
               </LinkItem>
               : null}
 
-            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order.slice(-1)[0] ?
+            {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] ?
               <Button
                 type="primary"
                 label="Next Question"
                 color="teal"
                 onClick={() => {
                   const currentQuestionId = props.session.currentQuestion.question_id
-                  const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
-                  const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex + 1]
+                  const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
+                  const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
                   props.getQuestionDetail(nextQuestion)
                 }}
               />
