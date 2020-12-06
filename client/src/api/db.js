@@ -143,3 +143,24 @@ export const db_getAllSessionResponses = async (session_id) => {
 
   return response.data
 }
+
+
+export const db_userExists = async (username) => {
+  const response = await db.get('/users/' + username)
+
+  return response.data
+}
+
+export const db_createUser = async (username) => {
+  const response = await db.post('/users', {
+    username
+  })
+
+  return response.data
+}
+
+export const wp_authenticate = async (username, password) => {
+  const response = await db.post(`https://in2med.com.au/?rest_route=/simple-jwt-login/v1/auth&username=${username}&password=${password}`)
+
+  return response.data
+}

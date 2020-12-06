@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components'
 import LogoImage from '../../assets/in2medlogo.png'
+import { connect } from 'react-redux'
+
+const mapDispatchToProps = {}
+
+const mapStateToProps = (state) => {
+  return state
+}
 
 const NavBar = (props) => {
 
@@ -14,7 +21,7 @@ const NavBar = (props) => {
     }
   }, [props.location.pathname])
 
-  if (!visible) return null
+  if (!visible || !props.auth.userData) return null
 
   return (
     <Container>
@@ -25,7 +32,7 @@ const NavBar = (props) => {
       <UserInfo>
         <span style={{ 'opacity': '0.7' }}>Welcome,</span>
         <br />
-        <span style={{ 'font-size': '20px', 'font-weight': 'bold' }}>Joseph Tey</span>
+        <span style={{ 'font-size': '20px', 'font-weight': 'bold' }}>{props.auth.userData.username}</span>
       </UserInfo>
 
       <Nav>
@@ -79,4 +86,4 @@ const UserInfo = styled.div`
   color: white;
 `
 
-export default NavBar
+export default connect(mapStateToProps, mapDispatchToProps)(NavBar)
