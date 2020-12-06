@@ -17,8 +17,9 @@ router.get('/', async function (req, res, next) {
 });
 
 router.get('/structure/:structure_id', async function (req, res, next) {
+
   try {
-    let result = await db.sessions.total_structure(req.params.structure_id)
+    let result = await db.sessions.total_structure(req.params.structure_id, req.headers.student_id)
     res.send(result)
 
   } catch (err) {

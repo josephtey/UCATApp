@@ -3,7 +3,9 @@ import {
   INIT_USER_SUCCESS,
   INIT_USER_ERROR,
 
-  GET_USER
+  GET_USER,
+
+  LOGOUT_USER
 } from '../actions/auth'
 
 const initialState = {
@@ -23,6 +25,9 @@ export default (state = initialState, action) => {
 
     case GET_USER:
       return { ...state, userData: action.userData }
+
+    case LOGOUT_USER:
+      return { ...state, userData: null }
 
     default:
       return state

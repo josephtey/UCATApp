@@ -76,7 +76,8 @@ const Exam = (props) => {
 
   useEffect(() => {
     props.getExamDetail(props.match.params.structure_id)
-    props.getStructureSessions(props.match.params.structure_id)
+    console.log(props.auth.userData)
+    props.getStructureSessions(props.match.params.structure_id, props.auth.userData.student_id)
 
     return () => {
       props.resetExamDetail()
@@ -114,7 +115,7 @@ const Exam = (props) => {
               color="orange"
               label="Start Exam"
               onClick={() => {
-                props.createSession(props.content.examDetail.details.structure_id, 1)
+                props.createSession(props.content.examDetail.details.structure_id, props.auth.userData.student_id)
               }}
             />
             : <>
@@ -122,7 +123,7 @@ const Exam = (props) => {
               {props.content.structureSessions[0].completed ?
                 <OrangeLink
                   onClick={() => {
-                    props.createSession(props.content.examDetail.details.structure_id, 1)
+                    props.createSession(props.content.examDetail.details.structure_id, props.auth.userData.student_id)
                   }}
                 >
                   Re-attempt Exam
@@ -213,9 +214,12 @@ const Exam = (props) => {
       </Sections>
 
       <PastSessions>
-        <PreHeading
-          style={{ 'padding-bottom': 10 }}
-        >Past Sessions</PreHeading>
+        {props.content.structureSessions.length > 0 ?
+          <PreHeading
+            style={{ 'padding-bottom': 10 }}
+          >Past Sessions</PreHeading>
+          : null
+        }
 
         {props.content.structureSessions.map((session) => {
           if (session.completed) {

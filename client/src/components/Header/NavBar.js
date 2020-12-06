@@ -2,8 +2,10 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components'
 import LogoImage from '../../assets/in2medlogo.png'
 import { connect } from 'react-redux'
+import { eraseCookie } from '../../utils/helpers'
+import { logoutUser } from '../../actions/auth'
 
-const mapDispatchToProps = {}
+const mapDispatchToProps = { logoutUser }
 
 const mapStateToProps = (state) => {
   return state
@@ -31,8 +33,16 @@ const NavBar = (props) => {
 
       <UserInfo>
         <span style={{ 'opacity': '0.7' }}>Welcome,</span>
-        <br />
         <span style={{ 'font-size': '20px', 'font-weight': 'bold' }}>{props.auth.userData.username}</span>
+        <span
+          style={{ 'opacity': '0.7', 'text-align': 'right', 'width': '100%', 'cursor': 'pointer' }}
+          onClick={() => {
+            props.logoutUser()
+            props.setAuthenticated(false)
+          }}
+        >
+          Log Out
+        </span>
       </UserInfo>
 
       <Nav>
@@ -84,6 +94,8 @@ const UserInfo = styled.div`
   background: #2ECFAF;
   padding: 40px;
   color: white;
+  display: flex;
+  flex-direction: column
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(NavBar)

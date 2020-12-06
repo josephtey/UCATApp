@@ -10,9 +10,10 @@ class SessionsRepository {
     return this.db.manyOrNone(sql.total);
   }
 
-  async total_structure(structure_id) {
+  async total_structure(structure_id, student_id) {
     return this.db.manyOrNone(sql.total_structure, {
-      structure_id
+      structure_id,
+      student_id
     });
   }
 

@@ -45,7 +45,7 @@ const App = (props) => {
       <Router>
         {authenticated ?
           <>
-            <Route component={NavBar} />
+            <Route render={(props) => <NavBar {...props} setAuthenticated={setAuthenticated} />} />
             <Switch>
               <Route path={'/session/:session_id'} component={Session} />
               <Route path={'/exam/:structure_id'} component={Exam} />

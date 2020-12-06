@@ -10,6 +10,7 @@ export const INIT_USER_REQUEST = 'INIT_USER_REQUEST';
 export const INIT_USER_SUCCESS = 'INIT_USER_SUCCESS';
 export const INIT_USER_ERROR = 'INIT_USER_ERROR';
 export const GET_USER = 'GET_USER';
+export const LOGOUT_USER = 'LOGOUT_USER';
 
 const initUserRequest = { type: INIT_USER_REQUEST };
 const initUserSuccess = (userData) => ({ type: INIT_USER_SUCCESS, userData });
@@ -23,8 +24,7 @@ export const initUser = (username, password) => async dispatch => {
     let userData
 
     if (response.success) {
-      const token = response.data.jwt
-      setCookie("jwt", token, 1)
+      // const token = response.data.jwt
 
       const userExists = await db_userExists(username)
       if (userExists == "") {
@@ -32,6 +32,9 @@ export const initUser = (username, password) => async dispatch => {
       } else {
         userData = userExists
       }
+
+      const token = jwt.sign(userData, 'secret')
+      setCookie("jwt", token, 1)
     }
 
     dispatch(initUserSuccess(userData))
@@ -49,4 +52,13 @@ export const getUser = () => {
     userData
   }
 }
+
+export const logoutUser = () => {
+  eraseCookie("jwt")
+
+  return {
+    type: LOGOUT_USER
+  }
+}
+
 

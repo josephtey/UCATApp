@@ -60,8 +60,12 @@ export const db_findSession = async (session_id) => {
 }
 
 
-export const db_getAllStructureSessions = async (structure_id) => {
-  const response = await db.get('/sessions/structure/' + structure_id.toString())
+export const db_getAllStructureSessions = async (structure_id, student_id) => {
+  const response = await db.get('/sessions/structure/' + structure_id.toString(), {
+    headers: {
+      student_id
+    }
+  })
 
   return response.data
 }
