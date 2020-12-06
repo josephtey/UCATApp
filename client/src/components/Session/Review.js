@@ -116,7 +116,7 @@ const Review = (props) => {
 
               <Button
                 onClick={() => {
-                  props.finishSession(props.session.currentSession.session_id)
+                  props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
                 }}
                 type="primary"
                 color="teal"

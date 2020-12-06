@@ -15,6 +15,7 @@ import {
   db_createBareResponse,
   db_findStem
 } from '../api/db';
+import { filterResponses } from '../utils/helpers'
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
 export const CREATE_RESPONSE_SUCCESS = 'CREATE_RESPONSE_SUCCESS';
@@ -345,14 +346,30 @@ const finishSessionRequest = { type: FINISH_SESSION_REQUEST };
 const finishSessionSuccess = (finishedSession) => ({ type: FINISH_SESSION_SUCCESS, finishedSession });
 const finishSessionError = error => ({ type: FINISH_SESSION_ERROR, error });
 
-export const finishSession = (session_id) => async dispatch => {
+export const finishSession = (session_id, examDetail) => async dispatch => {
   dispatch(finishSessionRequest);
   try {
+
+    // Time
     await db_updateSessionTime(session_id, "end")
+
+    // Score
+    let scoreBreakdown = {}
+    let score = 0
+    const allSessionResponses = await db_getAllSessionResponses(session_id)
+
+    for (let i = 0; i < examDetail.section_order.length; i++) {
+      let numCorrect = filterResponses(allSessionResponses.filter(item => item.section_id === examDetail.section_order[i]), 'correct').length
+      scoreBreakdown[examDetail.section_order[i]] = numCorrect
+      score += numCorrect
+    }
+
     const finishedSession = await db_updateSession(session_id, {
       completed: true,
-      score: 50
+      score,
+      score_breakdown: scoreBreakdown
     })
+
     dispatch(finishSessionSuccess(finishedSession))
 
   } catch (error) {

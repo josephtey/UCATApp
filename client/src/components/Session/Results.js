@@ -39,9 +39,16 @@ const Results = (props) => {
               <SectionBox
                 key={i}
               >
-                <SectionTitle>
-                  {section.name}
-                </SectionTitle>
+                <SectionHeader>
+                  <SectionTitle>
+                    {section.name}
+                  </SectionTitle>
+
+                  <SectionScore>
+                    {props.session.currentSession.score_breakdown[section.section_id.toString()]} Correct <br />
+                    {section.question_order.length - props.session.currentSession.score_breakdown[section.section_id.toString()]} Incorrect
+                  </SectionScore>
+                </SectionHeader>
 
                 <SectionCards>
                   {section.question_order.map((question_id, j) => {
@@ -146,6 +153,18 @@ const Card = styled.div`
   &:nth-child(3n) {
     margin-right: 0;
   }
+`
+
+const SectionHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+`
+
+const SectionScore = styled.div`
+  opacity: 0.3;
+  padding-bottom: 10px;
 `
 
 const SectionBox = styled.div`
