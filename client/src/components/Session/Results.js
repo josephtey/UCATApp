@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getSessionResponses, getQuestionDetail } from '../../actions/session'
+import { getSessionResponses, getQuestionDetail, getSection, resetSection } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import { Button } from '../Shared/Elements'
 import styled from 'styled-components'
@@ -9,8 +9,9 @@ import {
 } from 'rebass'
 import { TiTick, TiTimes } from "react-icons/ti";
 import BottomBar from './BottomBar'
+import { getIncompleteQuestions, filterResponses } from '../../utils/helpers'
 
-const mapDispatchToProps = { getSessionResponses, getQuestionDetail }
+const mapDispatchToProps = { getSessionResponses, getQuestionDetail, getSection, resetSection }
 
 const mapStateToProps = (state) => {
   return state
@@ -20,7 +21,7 @@ const Results = (props) => {
 
   useEffect(() => {
     props.getSessionResponses(props.session.currentSession.session_id, "structure")
-
+    props.resetSection()
     // return () => {
     //   props.stopSection()
     // }
@@ -51,7 +52,7 @@ const Results = (props) => {
                         key={j}
                         correct={response && response.correct ? true : false}
                         onClick={() => {
-                          props.getQuestionDetail(question_id, "answer")
+                          props.getSection(section.section_id, section.question_order, question_id)
                         }}
                       >
                         <Text>Question {j + 1}</Text>
@@ -70,15 +71,40 @@ const Results = (props) => {
         : <Loading duringSession={true} />}
       <BottomBar
         rightContent={() => (
-          <Button
-            label="Return Home"
-            type="secondary"
-            color="orange"
-            onClick={props.returnHome}
-          />
+          <>
+            {/*
+            <Button
+              label="Review Incorrect"
+              type="secondary"
+              color="orange"
+              onClick={props.returnHome}
+            />
+            <Button
+              label="Review Flagged"
+              type="secondary"
+              color="orange"
+              onClick={props.returnHome}
+            />
+            <Button
+              label="Review All"
+              type="secondary"
+              color="orange"
+              onClick={props.returnHome}
+            />
+            */}
+          </>
         )}
 
-        leftContent={() => (null)}
+        leftContent={() => (
+          <>
+            <Button
+              label="Return Home"
+              type="secondary"
+              color="orange"
+              onClick={props.returnHome}
+            />
+          </>
+        )}
       />
     </>
   )

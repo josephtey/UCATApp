@@ -182,6 +182,35 @@ export const nextSection = (session_id, section_id) => async dispatch => {
   }
 };
 
+export const GET_SECTION_REQUEST = 'GET_SECTION_REQUEST';
+export const GET_SECTION_SUCCESS = 'GET_SECTION_SUCCESS';
+export const GET_SECTION_ERROR = 'GET_SECTION_ERROR';
+export const RESET_SECTION = 'RESET_SECTION';
+
+const getSectionRequest = { type: GET_SECTION_REQUEST };
+const getSectionSuccess = (currentSection, currentQuestionOrder, currentQuestion, mode) => ({ type: GET_SECTION_SUCCESS, currentSection, currentQuestionOrder, currentQuestion, mode });
+const getSectionError = error => ({ type: GET_SECTION_ERROR, error });
+
+export const getSection = (section_id, questions, question_id) => async dispatch => {
+  dispatch(getSectionRequest);
+  try {
+    const currentSection = await db_getSectionDetail(section_id)
+    const currentQuestion = await db_getQuestionDetail(question_id)
+
+    dispatch(getSectionSuccess(currentSection.details, questions, currentQuestion, "answer"))
+
+  } catch (error) {
+    dispatch(getSectionError(error));
+  }
+};
+
+export const resetSection = () => {
+  return {
+    type: RESET_SECTION
+  }
+}
+
+
 export const GET_SESSION_RESPONSES_REQUEST = 'GET_SESSION_RESPONSES_REQUEST';
 export const GET_SESSION_RESPONSES_SUCCESS = 'GET_SESSION_RESPONSES_SUCCESS';
 export const GET_SESSION_RESPONSES_ERROR = 'GET_SESSION_RESPONSES_ERROR';
@@ -244,7 +273,7 @@ export const getQuestionDetail = (question_id, mode = "question") => async dispa
   try {
     const questionDetail = await db_getQuestionDetail(question_id)
 
-    let currentStem, currentSection
+    let currentStem
     if (questionDetail.stem_id) {
       currentStem = await db_findStem(questionDetail.stem_id)
     }

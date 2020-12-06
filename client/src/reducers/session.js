@@ -17,6 +17,11 @@ import {
   GET_SESSION_DETAIL_ERROR,
   RESET_SESSION_DETAIL,
 
+  GET_SECTION_REQUEST,
+  GET_SECTION_SUCCESS,
+  GET_SECTION_ERROR,
+  RESET_SECTION,
+
   GET_QUESTION_REQUEST,
   GET_QUESTION_SUCCESS,
   GET_QUESTION_ERROR,
@@ -124,6 +129,15 @@ export default (state = initialState, action) => {
       return { ...state, isFetchingSession: false, mode: "start", sessionResponses: action.sessionResponses, currentSection: action.currentSection, currentQuestionOrder: action.currentSection.question_order, currentQuestion: action.currentQuestion, currentSession: action.updatedSession }
     case NEXT_SECTION_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
+
+    case GET_SECTION_REQUEST:
+      return { ...state, isFetchingSession: true }
+    case GET_SECTION_SUCCESS:
+      return { ...state, isFetchingSession: false, currentSection: action.currentSection, currentQuestionOrder: action.currentQuestionOrder, currentQuestion: action.currentQuestion, mode: action.mode }
+    case GET_SECTION_ERROR:
+      return { ...state, isFetchingSession: false, error: action.error }
+    case RESET_SECTION:
+      return { ...state, currentSection: null, currentQuestionOrder: null }
 
     case FINISH_SESSION_REQUEST:
       return { ...state, isFinishingSession: true }

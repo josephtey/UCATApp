@@ -32,6 +32,7 @@ const Answer = (props) => {
         <Container>
           <PreHeading>
             <PreHeadingLeft>
+              Question {props.session.currentQuestionOrder.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentQuestionOrder.length}
             </PreHeadingLeft>
           </PreHeading>
 
@@ -80,14 +81,9 @@ const Answer = (props) => {
         </Container >
         : <Loading duringSession={true} />
       }
+
       <BottomBar
         leftContent={() => (
-          <>
-
-          </>
-        )}
-
-        rightContent={() => (
           <>
             <Button
               onClick={() => {
@@ -97,6 +93,39 @@ const Answer = (props) => {
               label="Return to Results"
               color="orange"
             />
+          </>
+        )}
+
+        rightContent={() => (
+          <>
+            {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0] ?
+              <LinkItem
+                color="teal"
+                onClick={() => {
+                  const currentQuestionId = props.session.currentQuestion.question_id
+                  const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
+                  const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex - 1]
+                  props.getQuestionDetail(nextQuestion, "answer")
+                }}
+              >
+                Previous Question
+              </LinkItem>
+              : null}
+
+            {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] ?
+              <Button
+                type="primary"
+                label="Next Question"
+                color="teal"
+                onClick={() => {
+                  const currentQuestionId = props.session.currentQuestion.question_id
+                  const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
+                  const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
+                  props.getQuestionDetail(nextQuestion, "answer")
+                }}
+              />
+              :
+              null}
           </>
         )}
       />
