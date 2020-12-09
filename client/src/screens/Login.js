@@ -23,10 +23,6 @@ const Login = (props) => {
     }
   }, [props.auth.userData])
 
-  useEffect(() => {
-    setLoading(false)
-  }, [props.auth.error])
-
   return (
     <Container>
       <LoginLogo src={Logo} />
@@ -62,9 +58,10 @@ const Login = (props) => {
                 type="primary"
                 color="orange"
                 label="Login"
-                onClick={() => {
+                onClick={async () => {
                   setLoading(true)
-                  props.initUser(username, password)
+                  await props.initUser(username, password)
+                  setLoading(false)
                 }}
               />
             </span>
