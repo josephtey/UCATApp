@@ -163,8 +163,11 @@ export const db_createUser = async (username) => {
   return response.data
 }
 
-export const wp_authenticate = async (username, password) => {
-  const response = await db.post(`https://in2med.com.au/?rest_route=/simple-jwt-login/v1/auth&username=${username}&password=${password}`)
+export const wp_authenticate = async (email, password) => {
+  const response = await db.post(`https://in2med.com.au/?rest_route=/simple-jwt-login/v1/auth`, {
+    email,
+    password
+  })
 
   return response.data
 }

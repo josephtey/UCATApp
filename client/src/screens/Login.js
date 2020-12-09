@@ -41,13 +41,13 @@ const Login = (props) => {
           {
             props.auth.error ?
               <ErrorMessage>
-                Failed to login. Try again.
-          </ErrorMessage>
+                {props.auth.error}
+              </ErrorMessage>
               : null
           }
 
           <LoginBox>
-            <input type="text" placeholder='Username' onChange={e => {
+            <input type="text" placeholder='Email' onChange={e => {
               setUsername(e.target.value)
             }} />
             <input type="password" placeholder='Password' onChange={e => {

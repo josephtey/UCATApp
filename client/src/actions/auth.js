@@ -24,23 +24,27 @@ export const initUser = (username, password) => async dispatch => {
     let userData
 
     if (response.success) {
-      // const token = response.data.jwt
+      const userInfo = jwt.decode(response.data.jwt)
 
-      const userExists = await db_userExists(username)
-      if (userExists == "") {
-        userData = await db_createUser(username)
+      if (userInfo.roles.includes("ucat_content_subscriber")) {
+
+        const userExists = await db_userExists(userInfo.username)
+        if (userExists == "") {
+          userData = await db_createUser(userInfo.username)
+        } else {
+          userData = userExists
+        }
+
+        const token = jwt.sign(userData, 'secret')
+        setCookie("jwt", token, 1)
+
+        dispatch(initUserSuccess(userData))
       } else {
-        userData = userExists
+        dispatch(initUserError("You have not purchased the UCAT plan."));
       }
-
-      const token = jwt.sign(userData, 'secret')
-      setCookie("jwt", token, 1)
     }
-
-    dispatch(initUserSuccess(userData))
-
   } catch (error) {
-    dispatch(initUserError(error));
+    dispatch(initUserError("Wrong credentials. Try again."));
   }
 };
 
