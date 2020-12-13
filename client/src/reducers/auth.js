@@ -27,7 +27,7 @@ export default (state = initialState, action) => {
       return { ...state, userData: action.userData }
 
     case LOGOUT_USER:
-      return { ...state, userData: null }
+      return { ...state, userData: null, error: null }
 
     default:
       return state
