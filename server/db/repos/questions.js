@@ -17,7 +17,7 @@ class QuestionsRepository {
   }
 
   async total() {
-    return this.db.many(sql.total);
+    return this.db.query(sql.total);
   }
 
   async add(values) {
