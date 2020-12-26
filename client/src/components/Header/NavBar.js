@@ -57,7 +57,7 @@ const NavBar = (props) => {
         <NavItem
           active={false}
         >
-          Statistics
+          Practice
         </NavItem>
       </Nav>
     </Container>

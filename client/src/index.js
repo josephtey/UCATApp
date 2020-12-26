@@ -7,10 +7,14 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import './App.css'
 import './assets/hover-min.css'
 import App from './App';
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <DndProvider backend={HTML5Backend}>
+      <App />
+    </DndProvider>
   </Provider>,
   document.getElementById('root')
 );

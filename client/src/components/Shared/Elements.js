@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useCallback } from 'react'
 import styled from 'styled-components'
 import { RiFlag2Fill, RiFlag2Line } from "react-icons/ri";
+import { useDrag, useDrop } from 'react-dnd';
+import update from "immutability-helper";
 
 export const Button = ({ type, label, color, onClick }) => {
   return (
@@ -63,6 +65,115 @@ export const RadioBox = ({
           </RadioOption>
         )
       })}
+    </>
+  )
+}
+
+export const Box = ({ name }) => {
+  const [{ isDragging }, drag] = useDrag({
+    item: { name, type: 'box' },
+    collect: (monitor) => ({
+      isDragging: monitor.isDragging(),
+    }),
+  });
+  const opacity = isDragging ? 0.4 : 1;
+  return (<DraggableItem ref={drag} style={{ opacity }}>
+    {name}
+  </DraggableItem>);
+};
+
+export const Dustbin = ({
+  lastDroppedItem,
+  onDrop
+}) => {
+  const [{ canDrop, isOver }, drop] = useDrop({
+    accept: 'box',
+    drop: onDrop,
+    collect: (monitor) => ({
+      isOver: monitor.isOver(),
+      canDrop: monitor.canDrop(),
+    }),
+  });
+  return (<DragAndDropAnswer ref={drop}>
+    {lastDroppedItem ? (lastDroppedItem) : null}
+  </DragAndDropAnswer>
+  );
+};
+
+
+
+export const DragAndDrop = ({
+  options,
+  defaultValue,
+  onClick
+}) => {
+  const generateDustbins = (options, defaultValue) => {
+    let dustbins = []
+
+    for (let i = 0; i < options.length; i++) {
+      dustbins.push({ lastDroppedItem: defaultValue[i] ? defaultValue[i] : null })
+    }
+
+    return dustbins
+  }
+
+  const convertDustbinsToString = (dustbins) => {
+    let dustbinArr = []
+    for (let i = 0; i < dustbins.length; i++) {
+      if (dustbins[i]) {
+        dustbinArr.push(dustbins[i].lastDroppedItem)
+      } else {
+        dustbinArr.push(null)
+      }
+    }
+    return dustbinArr.join(";")
+  }
+  const [dustbins, setDustbins] = useState(generateDustbins(options, defaultValue()));
+
+  const handleDrop = useCallback(
+    (index, item) => {
+      const updatedDustbins = update(dustbins, {
+        [index]: {
+          lastDroppedItem: {
+            $set: item.name
+          }
+        }
+      })
+
+      onClick(convertDustbinsToString(updatedDustbins))
+
+      setDustbins(
+        updatedDustbins
+      );
+    },
+    [dustbins]
+  );
+
+  return (
+    <>
+      <DragAndDropBigContainer>
+        <DragAndDropOptions>
+          {options.map((item, i) => {
+            return (
+              <DragAndDropContainer
+                key={i}
+              >
+                <DragAndDropOption>
+                  {item}
+                </DragAndDropOption>
+                <Dustbin
+                  lastDroppedItem={dustbins[i].lastDroppedItem}
+                  onDrop={(item) => handleDrop(i, item)}
+                />
+              </DragAndDropContainer>
+            )
+          })}
+        </DragAndDropOptions>
+        <DraggableItems>
+          <Box name="Yes" />
+          <Box name="No" />
+        </DraggableItems>
+      </DragAndDropBigContainer>
     </>
   )
 }
@@ -160,6 +271,8 @@ const RadioOption = styled.div`
   justify-content: space-between;
 `
 
+
+
 const Link = styled.div`
   color: ${props => props.color};
   font-family: Gilroy-Medium;
@@ -203,4 +316,62 @@ const NoSelectionText = styled.div`
   color: #f89800;
   margin-top: 40px;
   text-align: right;
+`
+const DragAndDropOption = styled.div`
+  background: white;
+  color: black;
+  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;  
+  cursor: pointer;
+  justify-content: space-between;
+`
+
+const DragAndDropContainer = styled.div`
+  display: flex;
+`
+const DragAndDropAnswer = styled.div`
+  display: flex;
+  background: white;
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 30px;
+`
+
+const DraggableItem = styled.div`
+  background: white;
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 30px; 
+  text-align: center;
+  cursor: move;
+  float: left
+`
+
+const DragAndDropOptions = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+`
+
+const DraggableItems = styled.div`
+  flex: 1;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+`
+
+const DragAndDropBigContainer = styled.div`
+  display: flex;
 `

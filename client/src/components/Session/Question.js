@@ -4,7 +4,7 @@ import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, 
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from '../Session/BottomBar'
-import { Button, LinkItem, RadioBox, FlagButton } from '../Shared/Elements'
+import { Button, LinkItem, RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 
 
@@ -65,31 +65,57 @@ const Question = (props) => {
                 {props.session.currentQuestion.question}
               </Title>
 
-              <RadioBox
-                options={props.session.currentQuestion.options}
-                onClick={(item) => {
-                  props.createResponse(
-                    props.session.currentSession.session_id,
-                    props.session.currentQuestion.question_id,
-                    props.auth.userData.student_id,
-                    props.session.currentSection.section_id,
-                    item,
-                    props.session.currentQuestion.answer
-                  )
-                }}
-                defaultValue={() => {
-                  const response = props.session.sessionResponses.find(
-                    item => item.question_id === props.session.currentQuestion.question_id
-                  )
+              {props.session.currentQuestion.type === "MC" ?
+                <RadioBox
+                  options={props.session.currentQuestion.options}
+                  onClick={(item) => {
+                    props.createResponse(
+                      props.session.currentSession.session_id,
+                      props.session.currentQuestion.question_id,
+                      props.auth.userData.student_id,
+                      props.session.currentSection.section_id,
+                      item,
+                      props.session.currentQuestion.answer
+                    )
+                  }}
+                  defaultValue={() => {
+                    const response = props.session.sessionResponses.find(
+                      item => item.question_id === props.session.currentQuestion.question_id
+                    )
 
-                  if (response) {
-                    return response.value
-                  } else {
-                    return null
-                  }
+                    if (response) {
+                      return response.value
+                    } else {
+                      return null
+                    }
 
-                }}
-              />
+                  }}
+                />
+                : props.session.currentQuestion.type === "DD" ?
+                  <DragAndDrop
+                    options={props.session.currentQuestion.options}
+                    onClick={(item) => {
+                      props.createResponse(
+                        props.session.currentSession.session_id,
+                        props.session.currentQuestion.question_id,
+                        props.auth.userData.student_id,
+                        props.session.currentSection.section_id,
+                        item,
+                        props.session.currentQuestion.answer
+                      )
+                    }}
+                    defaultValue={() => {
+                      const response = props.session.sessionResponses.find(
+                        item => item.question_id === props.session.currentQuestion.question_id
+                      )
+                      if (response && response.value.split(";").length > 0) {
+                        return response.value.split(";")
+                      } else {
+                        return null
+                      }
+                    }}
+                  />
+                  : null}
             </QuestionContent>
           </MainContent>
 
