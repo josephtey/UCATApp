@@ -111,7 +111,7 @@ export const DragAndDrop = ({
     let dustbins = []
 
     for (let i = 0; i < options.length; i++) {
-      dustbins.push({ lastDroppedItem: defaultValue[i] ? defaultValue[i] : null })
+      dustbins.push({ lastDroppedItem: defaultValue && defaultValue[i] ? defaultValue[i] : null })
     }
 
     return dustbins
