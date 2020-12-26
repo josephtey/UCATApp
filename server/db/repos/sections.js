@@ -14,7 +14,7 @@ class SectionsRepository {
     return this.db.one(sql.add, {
       name: values.name,
       description: values.description,
-      question_order: [],
+      question_order: values.question_order,
       time: values.time
     })
   }
