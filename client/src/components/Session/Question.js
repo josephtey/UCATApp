@@ -75,6 +75,7 @@ const Question = (props) => {
               {props.session.currentQuestion.type === "MC" ?
                 <RadioBox
                   options={props.session.currentQuestion.options}
+                  images={props.session.currentQuestion.option_images}
                   onClick={(item) => {
                     props.createResponse(
                       props.session.currentSession.session_id,

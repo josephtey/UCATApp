@@ -39,7 +39,10 @@ const Answer = (props) => {
           <MainContent>
             {props.session.currentStem ?
               <QuestionStem>
-                {props.session.currentStem.text}
+                <QuestionStemText>
+                  {props.session.currentStem.text}
+                </QuestionStemText>
+                <QuestionStemImage src={props.session.currentStem.image} />
               </QuestionStem>
               : null}
             <QuestionContent>
@@ -47,9 +50,14 @@ const Answer = (props) => {
                 {props.session.currentQuestion.question}
               </Title>
 
+              {props.session.currentQuestion.image ?
+                <QuestionImage src={props.session.currentQuestion.image} />
+                : null}
+
               {props.session.currentQuestion.type === "MC" ?
                 <RadioBoxAnswer
                   options={props.session.currentQuestion.options}
+                  images={props.session.currentQuestion.option_images}
                   correctValue={props.session.currentQuestion.answer}
                   selectedValue={() => {
                     const response = props.session.sessionResponses.find(
@@ -177,10 +185,6 @@ const PreHeading = styled.div`
   align-items: center;
   justify-content: space-between
 `
-
-const PreHeadingRight = styled.div`
-
-`
 const PreHeadingLeft = styled.div`
 
 `
@@ -206,6 +210,18 @@ const QuestionStem = styled.div`
   background: white;
   border-radius: 12px;
   font-size: 13px;
+`
+const QuestionStemText = styled.div`
+  margin-bottom: 25px;
+`
+
+const QuestionStemImage = styled.img`
+
+`
+
+const QuestionImage = styled.img`
+  width: 100%;
+  margin-bottom: 20px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Answer)

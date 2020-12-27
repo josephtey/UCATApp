@@ -59,6 +59,7 @@ const Results = (props) => {
                         key={j}
                         correct={response && response.correct ? true : false}
                         onClick={() => {
+                          props.getQuestionDetail(question_id)
                           props.getSection(section.section_id, section.question_order, question_id)
                         }}
                       >

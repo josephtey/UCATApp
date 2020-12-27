@@ -46,7 +46,8 @@ export const LinkItem = ({
 export const RadioBox = ({
   options,
   defaultValue,
-  onClick
+  onClick,
+  images
 }) => {
   const [selectedOption, setSelectedOption] = useState(defaultValue ? defaultValue : null)
   return (
@@ -63,6 +64,9 @@ export const RadioBox = ({
             className="hvr-forward"
           >
             {item}
+
+            {images && images[i] ? <RadioBoxImage src={images[i]} /> : null}
+
           </RadioOption>
         )
       })}
@@ -218,7 +222,8 @@ export const DragAndDropReview = ({
 export const RadioBoxAnswer = ({
   options,
   correctValue,
-  selectedValue
+  selectedValue,
+  images
 }) => {
   const [selectedOption, setSelectedOption] = useState(selectedValue ? selectedValue : null)
 
@@ -234,6 +239,7 @@ export const RadioBoxAnswer = ({
           >
             <OptionLeft>
               {item}
+              {images && images[i] ? <RadioBoxImage src={images[i]} /> : null}
             </OptionLeft>
             <OptionRight>
               {item === selectedOption && correctValue !== selectedOption ?
@@ -287,11 +293,11 @@ const FlagContainer = styled.div`
 `
 
 const OptionLeft = styled.div`
-
+  display: flex;
+  flex-direction: column;
 `
 
 const OptionRight = styled.div`
-
 `
 
 const RadioOption = styled.div`
@@ -418,4 +424,8 @@ const DragAndDropResult = styled.div`
   justify-content: center;
   align-items: center;
   padding: 20px;
+`
+
+const RadioBoxImage = styled.img`
+  
 `
