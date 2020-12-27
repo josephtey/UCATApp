@@ -25,7 +25,7 @@ const Container = styled.div`
   box-shadow: -10px -10px 20px rgba(0,0,0, 0.02);
   background: white;
   height: 70px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;

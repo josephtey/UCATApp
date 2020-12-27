@@ -196,15 +196,17 @@ export const DragAndDropReview = ({
                 {item}
               </DragAndDropOption>
               <DragAndDropAnswer>
-                {selectedValue()[i]}
+                {selectedValue() && selectedValue()[i]}
               </DragAndDropAnswer>
-              <DragAndDropResult>
-                {correctValue[i] === selectedValue()[i] ?
-                  <TiTick color="#2ecfaf" size={30} />
-                  :
-                  <TiTimes color="#f89800" size={30} />
-                }
-              </DragAndDropResult>
+              {selectedValue() ?
+                <DragAndDropResult>
+                  {correctValue[i] === selectedValue()[i] ?
+                    <TiTick color="#2ecfaf" size={30} />
+                    :
+                    <TiTimes color="#f89800" size={30} />
+                  }
+                </DragAndDropResult>
+                : null}
             </DragAndDropContainer>
           )
         })}

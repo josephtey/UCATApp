@@ -57,13 +57,20 @@ const Question = (props) => {
           <MainContent>
             {props.session.currentStem ?
               <QuestionStem>
-                {props.session.currentStem.text}
+                <QuestionStemText>
+                  {props.session.currentStem.text}
+                </QuestionStemText>
+                <QuestionStemImage src={props.session.currentStem.image} />
               </QuestionStem>
               : null}
             <QuestionContent>
               <Title>
                 {props.session.currentQuestion.question}
               </Title>
+
+              {props.session.currentQuestion.image ?
+                <QuestionImage src={props.session.currentQuestion.image} />
+                : null}
 
               {props.session.currentQuestion.type === "MC" ?
                 <RadioBox
@@ -185,7 +192,7 @@ const Question = (props) => {
 
 
 const Container = styled.div`
-  padding: 30px 0;
+  padding: 30px 0 100px 0;;
 `
 
 const Title = styled.div`
@@ -231,6 +238,22 @@ const QuestionStem = styled.div`
   background: white;
   border-radius: 12px;
   font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+const QuestionStemText = styled.div`
+  margin-bottom: 25px;
+`
+
+const QuestionStemImage = styled.img`
+
+`
+
+const QuestionImage = styled.img`
+  width: 100%;
+  margin-bottom: 20px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Question)
