@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { RiFlag2Fill, RiFlag2Line } from "react-icons/ri";
 import { useDrag, useDrop } from 'react-dnd';
 import update from "immutability-helper";
+import { TiTick, TiTimes } from "react-icons/ti";
 
 export const Button = ({ type, label, color, onClick }) => {
   return (
@@ -175,6 +176,40 @@ export const DragAndDrop = ({
         </DraggableItems>
       </DragAndDropBigContainer>
     </>
+  )
+}
+
+export const DragAndDropReview = ({
+  options,
+  correctValue,
+  selectedValue
+}) => {
+  return (
+    <DragAndDropBigContainer>
+      <DragAndDropOptions>
+        {options.map((item, i) => {
+          return (
+            <DragAndDropContainer
+              key={i}
+            >
+              <DragAndDropOption>
+                {item}
+              </DragAndDropOption>
+              <DragAndDropAnswer>
+                {selectedValue()[i]}
+              </DragAndDropAnswer>
+              <DragAndDropResult>
+                {correctValue[i] === selectedValue()[i] ?
+                  <TiTick color="#2ecfaf" size={30} />
+                  :
+                  <TiTimes color="#f89800" size={30} />
+                }
+              </DragAndDropResult>
+            </DragAndDropContainer>
+          )
+        })}
+      </DragAndDropOptions>
+    </DragAndDropBigContainer>
   )
 }
 
@@ -374,4 +409,11 @@ const DraggableItems = styled.div`
 
 const DragAndDropBigContainer = styled.div`
   display: flex;
+`
+
+const DragAndDropResult = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 `

@@ -4,7 +4,7 @@ import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, 
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from './BottomBar'
-import { Button, LinkItem, RadioBoxAnswer, FlagButton } from '../Shared/Elements'
+import { Button, LinkItem, RadioBoxAnswer, DragAndDropReview } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 
 
@@ -47,20 +47,37 @@ const Answer = (props) => {
                 {props.session.currentQuestion.question}
               </Title>
 
-              <RadioBoxAnswer
-                options={props.session.currentQuestion.options}
-                correctValue={props.session.currentQuestion.answer}
-                selectedValue={() => {
-                  const response = props.session.sessionResponses.find(
-                    item => item.question_id === props.session.currentQuestion.question_id
-                  )
-                  if (response) {
-                    return response.value
-                  } else {
-                    return null
-                  }
-                }}
-              />
+              {props.session.currentQuestion.type === "MC" ?
+                <RadioBoxAnswer
+                  options={props.session.currentQuestion.options}
+                  correctValue={props.session.currentQuestion.answer}
+                  selectedValue={() => {
+                    const response = props.session.sessionResponses.find(
+                      item => item.question_id === props.session.currentQuestion.question_id
+                    )
+                    if (response) {
+                      return response.value
+                    } else {
+                      return null
+                    }
+                  }}
+                />
+                : props.session.currentQuestion.type === "DD" ?
+                  <DragAndDropReview
+                    options={props.session.currentQuestion.options}
+                    correctValue={props.session.currentQuestion.answer.split(";")}
+                    selectedValue={() => {
+                      const response = props.session.sessionResponses.find(
+                        item => item.question_id === props.session.currentQuestion.question_id
+                      )
+                      if (response && response.value.split(";").length > 0) {
+                        return response.value.split(";")
+                      } else {
+                        return null
+                      }
+                    }}
+                  />
+                  : null}
             </QuestionContent>
           </MainContent>
 
