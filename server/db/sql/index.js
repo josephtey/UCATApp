@@ -52,7 +52,8 @@ module.exports = {
     find: sql('users/find.sql')
   },
   stems: {
-    find: sql('stems/find.sql')
+    find: sql('stems/find.sql'),
+    add: sql('stems/add.sql')
   }
 };
 

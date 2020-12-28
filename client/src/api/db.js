@@ -1,4 +1,5 @@
 import axios from 'axios'
+import ExampleExam from '../constants/example_exam.json'
 
 const db = axios.create({
   baseURL: 'http://localhost:3000'
@@ -172,4 +173,28 @@ export const wp_authenticate = async (email, password) => {
   })
 
   return response.data
+}
+
+export const import_exam = async (data) => {
+
+  let sectionOrder = []
+  ExampleExam.sections.forEach((section, sectionIndex, sectionArr) => {
+    let sectionQuestionOrder = []
+    section.stems.forEach((stem, stemIndex, stemArr) => {
+      let stemQuestionOrder = []
+      stem.questions.forEach((question, questionIndex, questionArr) => {
+        // Create questions
+
+        // Append question id to question_order
+      })
+
+      // Create stem
+    })
+
+    // Create Section
+
+    // Append section orders
+  })
+
+  // Create Exam!
 }

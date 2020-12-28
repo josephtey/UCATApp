@@ -14,6 +14,8 @@ import Loading from './components/Shared/Loading'
 
 import { getUser } from './actions/auth'
 
+import { import_exam } from './api/db'
+
 const mapDispatchToProps = { getUser }
 
 const mapStateToProps = (state) => {
@@ -25,6 +27,13 @@ const App = (props) => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+
+    const importFile = async () => {
+      await import_exam()
+    }
+
+    importFile()
+
     const token = getCookie("jwt")
 
     if (token) {

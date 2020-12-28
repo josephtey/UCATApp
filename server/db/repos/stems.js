@@ -12,6 +12,10 @@ class StemsRepository {
     });
   }
 
+  async add(fields) {
+    return this.db.one(sql.add, fields);
+  }
+
 }
 
 module.exports = StemsRepository;
