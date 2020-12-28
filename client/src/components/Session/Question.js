@@ -83,7 +83,8 @@ const Question = (props) => {
                       props.auth.userData.student_id,
                       props.session.currentSection.section_id,
                       item,
-                      props.session.currentQuestion.answer
+                      props.session.currentQuestion.answer,
+                      props.session.currentQuestion.type
                     )
                   }}
                   defaultValue={() => {
@@ -109,7 +110,8 @@ const Question = (props) => {
                         props.auth.userData.student_id,
                         props.session.currentSection.section_id,
                         item,
-                        props.session.currentQuestion.answer
+                        props.session.currentQuestion.answer,
+                        props.session.currentQuestion.type
                       )
                     }}
                     defaultValue={() => {

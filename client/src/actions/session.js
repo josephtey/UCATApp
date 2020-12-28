@@ -16,6 +16,16 @@ import {
   db_findStem
 } from '../api/db';
 import { filterResponses } from '../utils/helpers'
+import {
+  quantitative_reasoning_section_name,
+  quantitative_reasoning_scheme,
+  abstract_reasoning_section_name,
+  abstract_reasoning_scheme,
+  verbal_reasoning_section_name,
+  verbal_reasoning_scheme,
+  decision_making_section_name,
+  decision_making_scheme
+} from '../constants/marking_scheme'
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
 export const CREATE_RESPONSE_SUCCESS = 'CREATE_RESPONSE_SUCCESS';
@@ -25,18 +35,41 @@ const createResponseRequest = { type: CREATE_RESPONSE_REQUEST };
 const createResponseSuccess = (newResponse) => ({ type: CREATE_RESPONSE_SUCCESS, newResponse });
 const createResponseError = error => ({ type: CREATE_RESPONSE_ERROR, error });
 
-export const createResponse = (session_id, question_id, student_id, section_id, value, answer) => async dispatch => {
+export const createResponse = (session_id, question_id, student_id, section_id, value, answer, type) => async dispatch => {
   dispatch(createResponseRequest);
   try {
 
     const response = await db_findResponse(session_id, question_id)
     const correct = value === answer ? true : false
 
+    let points
+    if (type == "MC") {
+      points = value === answer ? 1 : 0
+
+    } else if (type == "DD") {
+      let selectedOptions = value.split(";")
+      let correctOptions = answer.split(";")
+      let count = 0
+      for (let i = 0; i < selectedOptions.length; i++) {
+        if (selectedOptions[i] == correctOptions[i]) {
+          count += 1
+        }
+      }
+      if (count === 4) {
+        points = 0.5
+      } else if (count === 5) {
+        points = 1
+      } else {
+        points = 0
+      }
+    }
+
+
     let newResponse;
     if (response) {
-      newResponse = await db_updateResponse(response.response_id, value, correct)
+      newResponse = await db_updateResponse(response.response_id, value, correct, points)
     } else {
-      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value, correct, false)
+      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value, correct, false, points)
     }
 
     dispatch(createResponseSuccess(newResponse))
@@ -359,9 +392,37 @@ export const finishSession = (session_id, examDetail) => async dispatch => {
     const allSessionResponses = await db_getAllSessionResponses(session_id)
 
     for (let i = 0; i < examDetail.section_order.length; i++) {
-      let numCorrect = filterResponses(allSessionResponses.filter(item => item.section_id === examDetail.section_order[i]), 'correct').length
+      let sectionResponses = allSessionResponses.filter(item => item.section_id === examDetail.section_order[i])
+      let numCorrect = filterResponses(sectionResponses, 'correct').length
+      let scoreSum = sectionResponses.reduce(function (prev, cur) {
+        return prev + cur.points;
+      }, 0);
+
       scoreBreakdown[examDetail.section_order[i]] = numCorrect
-      score += numCorrect
+      scoreBreakdown[examDetail.section_order[i].toString() + '_score'] = scoreSum
+
+      // Scaling stuff
+      let sectionDetail = await db_getSectionDetail(examDetail.section_order[i])
+
+      switch (sectionDetail.details.name) {
+        case quantitative_reasoning_section_name:
+          scoreBreakdown[examDetail.section_order[i].toString() + '_scaled'] = quantitative_reasoning_scheme[scoreSum]
+          break;
+        case abstract_reasoning_section_name:
+          scoreBreakdown[examDetail.section_order[i].toString() + '_scaled'] = abstract_reasoning_scheme[scoreSum]
+          break;
+        case decision_making_section_name:
+          scoreBreakdown[examDetail.section_order[i].toString() + '_scaled'] = decision_making_scheme[scoreSum]
+          break;
+        case verbal_reasoning_section_name:
+          scoreBreakdown[examDetail.section_order[i].toString() + '_scaled'] = verbal_reasoning_scheme[scoreSum]
+          break;
+        default:
+          scoreBreakdown[examDetail.section_order[i].toString() + '_scaled'] = scoreSum
+          break;
+      }
+
+      score += scoreBreakdown[examDetail.section_order[i].toString() + '_scaled']
     }
 
     const finishedSession = await db_updateSession(session_id, {

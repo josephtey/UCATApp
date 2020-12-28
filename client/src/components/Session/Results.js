@@ -45,8 +45,10 @@ const Results = (props) => {
                   </SectionTitle>
 
                   <SectionScore>
-                    {props.session.currentSession.score_breakdown[section.section_id.toString()]} Correct <br />
-                    {section.question_order.length - props.session.currentSession.score_breakdown[section.section_id.toString()]} Incorrect
+                    {props.session.currentSession.score_breakdown[section.section_id.toString()]} Correct | {section.question_order.length - props.session.currentSession.score_breakdown[section.section_id.toString()]} Incorrect <br />
+                    <br />
+                    Raw Score: {props.session.currentSession.score_breakdown[section.section_id.toString() + "_score"]}  <br />
+                    Scaled Score: {props.session.currentSession.score_breakdown[section.section_id.toString() + "_scaled"]}
                   </SectionScore>
                 </SectionHeader>
 
@@ -59,7 +61,7 @@ const Results = (props) => {
                         key={j}
                         correct={response && response.correct ? true : false}
                         onClick={() => {
-                          props.getQuestionDetail(question_id)
+                          props.getQuestionDetail(question_id, "answer")
                           props.getSection(section.section_id, section.question_order, question_id)
                         }}
                       >

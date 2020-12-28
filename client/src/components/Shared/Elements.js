@@ -99,9 +99,14 @@ export const Dustbin = ({
       canDrop: monitor.canDrop(),
     }),
   });
-  return (<DragAndDropAnswer ref={drop}>
-    {lastDroppedItem ? (lastDroppedItem) : null}
-  </DragAndDropAnswer>
+  return (
+    <DragAndDropAnswer ref={drop}>
+      {lastDroppedItem ? (
+        <>
+          {lastDroppedItem}
+        </>
+      ) : null}
+    </DragAndDropAnswer>
   );
 };
 
@@ -202,15 +207,13 @@ export const DragAndDropReview = ({
               <DragAndDropAnswer>
                 {selectedValue() && selectedValue()[i]}
               </DragAndDropAnswer>
-              {selectedValue() ?
-                <DragAndDropResult>
-                  {correctValue[i] === selectedValue()[i] ?
-                    <TiTick color="#2ecfaf" size={30} />
-                    :
-                    <TiTimes color="#f89800" size={30} />
-                  }
-                </DragAndDropResult>
-                : null}
+              <DragAndDropResult>
+                {selectedValue() && correctValue[i] === selectedValue()[i] ?
+                  <TiTick color="#2ecfaf" size={30} />
+                  :
+                  <TiTimes color="#f89800" size={30} />
+                }
+              </DragAndDropResult>
             </DragAndDropContainer>
           )
         })}
