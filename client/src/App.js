@@ -9,6 +9,8 @@ import Home from './screens/Home'
 import Exam from './screens/Exam'
 import Session from './screens/Session'
 import Login from './screens/Login'
+import Practice from './screens/Practice'
+
 import NavBar from './components/Header/NavBar'
 import Loading from './components/Shared/Loading'
 
@@ -58,6 +60,7 @@ const App = (props) => {
             <Switch>
               <Route path={'/session/:session_id'} component={Session} />
               <Route path={'/exam/:structure_id'} component={Exam} />
+              <Route path='/practice' component={Practice} />
               <Route path='/' component={Home} />
             </Switch>
           </>
