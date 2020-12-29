@@ -126,7 +126,7 @@ export default (state = initialState, action) => {
     case NEXT_SECTION_REQUEST:
       return { ...state, isFetchingSession: true }
     case NEXT_SECTION_SUCCESS:
-      return { ...state, isFetchingSession: false, mode: "start", sessionResponses: action.sessionResponses, currentSection: action.currentSection, currentQuestionOrder: action.currentSection.question_order, currentQuestion: action.currentQuestion, currentSession: action.updatedSession }
+      return { ...state, isFetchingSession: false, mode: "start", sessionResponses: action.sessionResponses, currentSection: action.currentSection, currentQuestionOrder: action.currentSection.question_order, currentQuestion: action.currentQuestion, currentSession: action.updatedSession, currentStem: action.currentStem }
     case NEXT_SECTION_ERROR:
       return { ...state, isFetchingSession: false, error: action.error }
 

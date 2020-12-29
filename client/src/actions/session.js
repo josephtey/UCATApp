@@ -198,7 +198,7 @@ export const NEXT_SECTION_SUCCESS = 'NEXT_SECTION_SUCCESS';
 export const NEXT_SECTION_ERROR = 'NEXT_SECTION_ERROR';
 
 const nextSectionRequest = { type: NEXT_SECTION_REQUEST };
-const nextSectionSuccess = (sessionResponses, currentSection, currentQuestion, updatedSession) => ({ type: NEXT_SECTION_SUCCESS, sessionResponses, currentSection, currentQuestion, updatedSession });
+const nextSectionSuccess = (sessionResponses, currentSection, currentQuestion, updatedSession, currentStem) => ({ type: NEXT_SECTION_SUCCESS, sessionResponses, currentSection, currentQuestion, updatedSession, currentStem });
 const nextSectionError = error => ({ type: NEXT_SECTION_ERROR, error });
 
 export const nextSection = (session_id, section_id) => async dispatch => {
@@ -207,9 +207,13 @@ export const nextSection = (session_id, section_id) => async dispatch => {
     const sessionResponses = await db_getAllSectionResponses(session_id, section_id)
     const currentSection = await db_getSectionDetail(section_id)
     const currentQuestion = await db_getQuestionDetail(currentSection.details.question_order[0])
+    let currentStem
+    if (currentQuestion.stem_id) {
+      currentStem = await db_findStem(currentQuestion.stem_id)
+    }
     const updatedSession = await db_updateSessionTime(session_id, "end")
 
-    dispatch(nextSectionSuccess(sessionResponses, currentSection.details, currentQuestion, updatedSession))
+    dispatch(nextSectionSuccess(sessionResponses, currentSection.details, currentQuestion, updatedSession, currentStem))
 
   } catch (error) {
     dispatch(nextSectionError(error));

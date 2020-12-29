@@ -179,7 +179,6 @@ export const db_createQuestion = async (type,
   answer,
   explanation,
   difficulty,
-  category_id,
   image,
   option_images,
   stem_id) => {
@@ -192,7 +191,6 @@ export const db_createQuestion = async (type,
     answer,
     explanation,
     difficulty,
-    category_id,
     image,
     option_images,
     stem_id
@@ -201,10 +199,10 @@ export const db_createQuestion = async (type,
   return response.data
 }
 
-export const db_createStem = async (text, question_order, image) => {
+export const db_createStem = async (text, question_order, image, category_id, type) => {
 
   const response = await db.put(`/stems`, {
-    text, question_order, image
+    text, question_order, image, category_id, type
   })
 
   return response.data
@@ -269,7 +267,9 @@ export const import_exam = async (data) => {
         let createdStem = await db_createStem(
           stem.text ? stem.text : null,
           null,
-          stem.image ? stem.image : null
+          stem.image ? stem.image : null,
+          stem.category_id ? stem.category_id : null,
+          "Exam"
         )
 
         for (const question of stem.questions) {
@@ -282,7 +282,6 @@ export const import_exam = async (data) => {
             question.type == "Multiple Choice" ? question.answer : question.answer.join(";"),
             question.explanation ? question.explanation : null,
             question.difficulty ? question.difficulty : null,
-            question.category_id ? question.category_id : null,
             question.image ? question.image : null,
             question.option_images ? question.option_images : null,
             createdStem.stem_id
