@@ -70,6 +70,7 @@ const Container = styled.div`
 const ExamList = styled.div`
   display: flex;
   margin-top: 20px;
+  flex-wrap: wrap;
 `
 
 const CardHeading = styled.div`
@@ -111,6 +112,7 @@ const Card = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 20px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)

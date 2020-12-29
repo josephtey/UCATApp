@@ -8,8 +8,6 @@ const db = axios.create({
 export const db_getAllExams = async () => {
   const response = await db.get('/structures/type/Exam')
 
-  console.log(response.data)
-
   return response.data
 }
 
@@ -175,26 +173,154 @@ export const wp_authenticate = async (email, password) => {
   return response.data
 }
 
-export const import_exam = async (data) => {
+export const db_createQuestion = async (type,
+  options,
+  question,
+  answer,
+  explanation,
+  difficulty,
+  category_id,
+  image,
+  option_images,
+  stem_id) => {
 
-  let sectionOrder = []
-  ExampleExam.sections.forEach((section, sectionIndex, sectionArr) => {
-    let sectionQuestionOrder = []
-    section.stems.forEach((stem, stemIndex, stemArr) => {
-      let stemQuestionOrder = []
-      stem.questions.forEach((question, questionIndex, questionArr) => {
-        // Create questions
 
-        // Append question id to question_order
-      })
-
-      // Create stem
-    })
-
-    // Create Section
-
-    // Append section orders
+  const response = await db.put(`/questions`, {
+    type,
+    options,
+    question,
+    answer,
+    explanation,
+    difficulty,
+    category_id,
+    image,
+    option_images,
+    stem_id
   })
 
-  // Create Exam!
+  return response.data
+}
+
+export const db_createStem = async (text, question_order, image) => {
+
+  const response = await db.put(`/stems`, {
+    text, question_order, image
+  })
+
+  return response.data
+}
+
+export const db_updateStem = async (stem_id, question_order) => {
+  const response = await db.post(`/stems/` + stem_id.toString(), {
+    question_order
+  })
+
+  return response.data
+}
+
+export const db_createSection = async (
+  name,
+  description,
+  question_order,
+  time
+) => {
+
+  const response = await db.put(`/sections`, {
+    name,
+    description,
+    question_order,
+    time
+  })
+
+  return response.data
+}
+
+export const db_createExam = async (
+  name,
+  description,
+  type,
+  section_order,
+  time
+) => {
+
+  const response = await db.put(`/structures`, {
+    name,
+    description,
+    type,
+    section_order,
+    time
+  })
+
+  return response.data
+}
+
+
+export const import_exam = async (data) => {
+
+  try {
+    let sectionOrder = []
+    for (const section of ExampleExam.sections) {
+      let sectionQuestionOrder = []
+
+      for (const stem of section.stems) {
+        let stemQuestionOrder = []
+
+        // Create stem
+        let createdStem = await db_createStem(
+          stem.text ? stem.text : null,
+          null,
+          stem.image ? stem.image : null
+        )
+
+        for (const question of stem.questions) {
+
+          // Create questions
+          let createdQuestion = await db_createQuestion(
+            question.type == "Multiple Choice" ? "MC" : "DD",
+            question.options,
+            question.text ? question.text : null,
+            question.type == "Multiple Choice" ? question.answer : question.answer.join(";"),
+            question.explanation ? question.explanation : null,
+            question.difficulty ? question.difficulty : null,
+            question.category_id ? question.category_id : null,
+            question.image ? question.image : null,
+            question.option_images ? question.option_images : null,
+            createdStem.stem_id
+          )
+
+          console.log(createdQuestion.options)
+
+          // Append question id to question_order
+          stemQuestionOrder.push(createdQuestion.question_id)
+          sectionQuestionOrder.push(createdQuestion.question_id)
+        }
+        let updatedStem = await db_updateStem(createdStem.stem_id, stemQuestionOrder)
+      }
+
+      // Create Section
+      let createdSection = await db_createSection(
+        section.name,
+        section.description ? section.description : null,
+        sectionQuestionOrder,
+        section.time ? section.time : null,
+      )
+
+      // Append section orders
+      sectionOrder.push(createdSection.section_id)
+    }
+
+    // Create Exam!
+    let createdExam = await db_createExam(
+      ExampleExam.exam.name,
+      ExampleExam.exam.description ? ExampleExam.exam.description : null,
+      "Exam",
+      sectionOrder,
+      ExampleExam.exam.time ? ExampleExam.exam.time : null
+    )
+
+    console.log(createdExam)
+
+  } catch (err) {
+    console.log(err)
+  }
 }

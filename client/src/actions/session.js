@@ -403,6 +403,7 @@ export const finishSession = (session_id, examDetail) => async dispatch => {
 
       // Scaling stuff
       let sectionDetail = await db_getSectionDetail(examDetail.section_order[i])
+      console.log(sectionDetail)
 
       switch (sectionDetail.details.name) {
         case quantitative_reasoning_section_name:

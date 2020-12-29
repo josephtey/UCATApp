@@ -12,6 +12,7 @@ module.exports = {
   sections: {
     total: sql('sections/total.sql'),
     add: sql('sections/add.sql'),
+    add_section_questions: sql('sections/add_section_questions.sql'),
     populate: sql('sections/populate.sql'),
     detail: sql('sections/detail.sql'),
     update: sql('sections/update.sql'),
@@ -53,7 +54,8 @@ module.exports = {
   },
   stems: {
     find: sql('stems/find.sql'),
-    add: sql('stems/add.sql')
+    add: sql('stems/add.sql'),
+    update: sql('stems/update.sql')
   }
 };
 

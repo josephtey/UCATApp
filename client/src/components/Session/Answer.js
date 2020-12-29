@@ -39,16 +39,26 @@ const Answer = (props) => {
           <MainContent>
             {props.session.currentStem ?
               <QuestionStem>
-                <QuestionStemText>
-                  {props.session.currentStem.text}
-                </QuestionStemText>
+                {props.session.currentStem.text ?
+                  <QuestionStemText>
+                    {props.session.currentStem.text.split("<br/>").map((para) => {
+                      return (
+                        <>
+                          {para} <br />
+                        </>
+                      )
+                    })}
+                  </QuestionStemText>
+                  : null}
                 <QuestionStemImage src={props.session.currentStem.image} />
               </QuestionStem>
               : null}
             <QuestionContent>
-              <Title>
-                {props.session.currentQuestion.question}
-              </Title>
+              {props.session.currentQuestion.question ?
+                <Title>
+                  {props.session.currentQuestion.question}
+                </Title>
+                : null}
 
               {props.session.currentQuestion.image ?
                 <QuestionImage src={props.session.currentQuestion.image} />
@@ -197,10 +207,12 @@ const MainContent = styled.div`
 
 const QuestionContent = styled.div`
   flex: 1;
+  width: 0;
 `
 
 const QuestionStem = styled.div`
   flex: 1;
+  width: 0;
   margin-right: 40px;
   opacity: 0.7;
   font-family: Gilroy-Regular;
@@ -216,11 +228,11 @@ const QuestionStemText = styled.div`
 `
 
 const QuestionStemImage = styled.img`
-
+  max-width: 100%;
 `
 
 const QuestionImage = styled.img`
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 20px;
 `
 

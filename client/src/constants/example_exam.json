@@ -32,12 +32,12 @@
               ],
               "explanation": "Passport holders must always be in Country B regardless of circumstance.",
               "difficulty": 1,
-              "category": ""
+              "category_id": 1
             }
           ]
         },
         {
-          "text": "There are eight apartments on a floor; each apartment has either one, two, three or four rooms, as shown in the figure. Each apartment is owned by one of four owners: Adam, Flora, Gary or Rose. Each owner owns two apartments.<br /><br/>Both of Adam's apartments are in the same horizontal row but do not share a wall.<br/>Either Rose or Flora, have the same number of rooms in their two apartments.<br />Gary's two apartments share one dividing wall and neither Gary nor Flora have a 3-room apartment.",
+          "text": "There are eight apartments on a floor; each apartment has either one, two, three or four rooms, as shown in the figure. Each apartment is owned by one of four owners: Adam, Flora, Gary or Rose. Each owner owns two apartments.<br/><br/>Both of Adam's apartments are in the same horizontal row but do not share a wall.<br/>Either Rose or Flora, have the same number of rooms in their two apartments.<br/>Gary's two apartments share one dividing wall and neither Gary nor Flora have a 3-room apartment.",
           "image": "https://practice.ucat.ac.uk/uploads/content/exam_42/rsz_DM_2015_logic_EW_11%20VF%20edit.jpg",
           "questions": [
             {
@@ -52,7 +52,7 @@
               "answer": "Flora and Adam",
               "explanation": "Gary also owns the 1 room apartments. Is that even a question?",
               "difficulty": 1,
-              "category": ""
+              "category_id": 1
             }
           ]
         },
@@ -70,7 +70,7 @@
               "answer": "Set A",
               "explanation": "Just cos.",
               "difficulty": 1,
-              "category": ""
+              "category_id": 1
             },
             {
               "image": "https://practice.ucat.ac.uk/uploads/content/exam_12/Set%2001%20Q2.jpg",
@@ -83,7 +83,7 @@
               "answer": "Set B",
               "explanation": "Just cos.",
               "difficulty": 1,
-              "category": ""
+              "category_id": 1
             }
           ]
         },
@@ -108,7 +108,7 @@
               "answer": "Option 1",
               "explanation": "Just cos.",
               "difficulty": 1,
-              "category": ""
+              "category_id": 1
             }
           ]
         }

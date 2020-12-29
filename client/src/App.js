@@ -32,7 +32,7 @@ const App = (props) => {
       await import_exam()
     }
 
-    importFile()
+    // importFile()
 
     const token = getCookie("jwt")
 

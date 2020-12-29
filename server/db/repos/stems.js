@@ -16,6 +16,13 @@ class StemsRepository {
     return this.db.one(sql.add, fields);
   }
 
+  async update(stem_id, question_order) {
+    return this.db.one(sql.update, {
+      stem_id,
+      question_order
+    });
+  }
+
 }
 
 module.exports = StemsRepository;
