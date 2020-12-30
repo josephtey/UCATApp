@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getCategoryDetail } from '../actions/content'
+import { getCategoryDetail, resetCategoryDetail } from '../actions/content'
 import { startPractice } from '../actions/session'
 import styled from 'styled-components'
 import {
@@ -9,9 +9,8 @@ import {
 import Loading from '../components/Shared/Loading'
 import { Button } from '../components/Shared/Elements'
 import { useDidMountEffect } from '../utils/helpers'
-import { TiTick } from "react-icons/ti";
 
-const mapDispatchToProps = { getCategoryDetail, startPractice }
+const mapDispatchToProps = { getCategoryDetail, startPractice, resetCategoryDetail }
 
 const mapStateToProps = (state) => {
   return state
@@ -22,9 +21,9 @@ const PracticeTopic = (props) => {
   useEffect(() => {
     props.getCategoryDetail(props.match.params.category_id, props.auth.userData.student_id)
 
-    // return () => {
-    //   props.resetExamDetail()
-    // }
+    return () => {
+      props.resetCategoryDetail()
+    }
 
   }, [])
 

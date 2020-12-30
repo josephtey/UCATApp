@@ -24,6 +24,7 @@ import {
   GET_CATEGORY_DETAIL_REQUEST,
   GET_CATEGORY_DETAIL_SUCCESS,
   GET_CATEGORY_DETAIL_ERROR,
+  RESET_CATEGORY_DETAIL,
 
 } from '../actions/content'
 
@@ -83,6 +84,8 @@ export default (state = initialState, action) => {
       return { ...state, isFetchingCategories: false, categories: action.categories }
     case GET_CATEGORIES_ERROR:
       return { ...state, isFetchingCategories: false, error: action.error }
+    case RESET_CATEGORY_DETAIL:
+      return { ...state, categoryDetail: null }
 
     case GET_CATEGORY_DETAIL_REQUEST:
       return { ...state, isFetchingCategoryDetail: true }

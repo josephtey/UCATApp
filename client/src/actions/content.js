@@ -122,6 +122,7 @@ export const getCategories = () => async dispatch => {
 export const GET_CATEGORY_DETAIL_REQUEST = 'GET_CATEGORY_DETAIL_REQUEST';
 export const GET_CATEGORY_DETAIL_SUCCESS = 'GET_CATEGORY_DETAIL_SUCCESS';
 export const GET_CATEGORY_DETAIL_ERROR = 'GET_CATEGORY_DETAIL_ERROR';
+export const RESET_CATEGORY_DETAIL = 'RESET_CATEGORY_DETAIL';
 
 const getCategoryDetailRequest = { type: GET_CATEGORY_DETAIL_REQUEST };
 const getCategoryDetailSuccess = (categoryDetail) => ({ type: GET_CATEGORY_DETAIL_SUCCESS, categoryDetail });
@@ -143,6 +144,11 @@ export const getCategoryDetail = (category_id, student_id) => async dispatch => 
   }
 };
 
+export const resetCategoryDetail = () => {
+  return {
+    type: RESET_CATEGORY_DETAIL
+  }
+}
 
 
 
