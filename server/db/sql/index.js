@@ -46,7 +46,8 @@ module.exports = {
     flag: sql('responses/flag.sql'),
     add: sql('responses/add.sql'),
     add_bare: sql('responses/add_bare.sql'),
-    find: sql('responses/find.sql')
+    find: sql('responses/find.sql'),
+    find_completed: sql('responses/find_completed.sql')
   },
   users: {
     add: sql('users/add.sql'),
@@ -54,6 +55,7 @@ module.exports = {
   },
   stems: {
     find: sql('stems/find.sql'),
+    find_category: sql('stems/find_category.sql'),
     add: sql('stems/add.sql'),
     update: sql('stems/update.sql')
   }

@@ -13,7 +13,12 @@ import {
   db_updateSessionTime,
   db_flagResponse,
   db_createBareResponse,
-  db_findStem
+  db_findStem,
+  db_getCompletedQuestions,
+  db_getCategoryQuestions,
+  db_createSection,
+  db_createExam
+
 } from '../api/db';
 import { filterResponses } from '../utils/helpers'
 import {
@@ -35,7 +40,7 @@ const createResponseRequest = { type: CREATE_RESPONSE_REQUEST };
 const createResponseSuccess = (newResponse) => ({ type: CREATE_RESPONSE_SUCCESS, newResponse });
 const createResponseError = error => ({ type: CREATE_RESPONSE_ERROR, error });
 
-export const createResponse = (session_id, question_id, student_id, section_id, value, answer, type) => async dispatch => {
+export const createResponse = (session_id, question_id, student_id, section_id, value, answer, type, stem_id) => async dispatch => {
   dispatch(createResponseRequest);
   try {
 
@@ -69,7 +74,7 @@ export const createResponse = (session_id, question_id, student_id, section_id, 
     if (response) {
       newResponse = await db_updateResponse(response.response_id, value, correct, points)
     } else {
-      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value, correct, false, points)
+      newResponse = await db_createResponse(session_id, question_id, student_id, section_id, value, correct, false, points, stem_id)
     }
 
     dispatch(createResponseSuccess(newResponse))
@@ -451,3 +456,65 @@ export const changeMode = (mode) => {
   }
 }
 
+
+
+export const START_PRACTICE_REQUEST = 'START_PRACTICE_REQUEST';
+export const START_PRACTICE_SUCCESS = 'START_PRACTICE_SUCCESS';
+export const START_PRACTICE_ERROR = 'START_PRACTICE_ERROR';
+
+const startPracticeRequest = { type: START_PRACTICE_REQUEST };
+const startPracticeSuccess = (currentSession) => ({ type: START_PRACTICE_SUCCESS, currentSession });
+const startPracticeError = error => ({ type: START_PRACTICE_ERROR, error });
+
+export const startPractice = (category_id, topic, student_id, question_length) => async dispatch => {
+  dispatch(startPracticeRequest);
+  try {
+    const completedQuestions = await db_getCompletedQuestions(category_id, student_id)
+    const allQuestions = await db_getCategoryQuestions(category_id)
+    const incompleteQuestions = []
+
+    for (let i = 0; i < allQuestions.length; i++) {
+      if (!completedQuestions.some(({ stem_id }) => stem_id === allQuestions[i].stem_id)) {
+        incompleteQuestions.push(allQuestions[i].question_order)
+      }
+    }
+
+    if (incompleteQuestions.length >= question_length) {
+      let questionOrder = []
+      for (let i = 0; i < question_length; i++) {
+        questionOrder.push(...incompleteQuestions[i])
+      }
+
+      // Create new section
+      const createdSection = await db_createSection(
+        `${topic}: Practice Section`,
+        null,
+        questionOrder,
+        null,
+      )
+
+      console.log("Created Section: ", createdSection)
+
+      // Create a new structure
+      const createdExam = await db_createExam(
+        `${topic}: Practice Structure`,
+        null,
+        "Practice",
+        [createdSection.section_id],
+        null
+      )
+
+      console.log("Created Structure: ", createdExam)
+
+      // Create the session!
+      const currentSession = await db_createSession(createdExam.structure_id, student_id)
+      dispatch(startPracticeSuccess(currentSession))
+
+    } else {
+      dispatch(startPracticeError("Insufficient questions left."));
+    }
+
+  } catch (error) {
+    dispatch(startPracticeError(error));
+  }
+};

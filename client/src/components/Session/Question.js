@@ -94,7 +94,8 @@ const Question = (props) => {
                       props.session.currentSection.section_id,
                       item,
                       props.session.currentQuestion.answer,
-                      props.session.currentQuestion.type
+                      props.session.currentQuestion.type,
+                      props.session.currentStem ? props.session.currentStem.stem_id : null
                     )
                   }}
                   defaultValue={() => {
@@ -121,7 +122,8 @@ const Question = (props) => {
                         props.session.currentSection.section_id,
                         item,
                         props.session.currentQuestion.answer,
-                        props.session.currentQuestion.type
+                        props.session.currentQuestion.type,
+                        props.session.currentStem ? props.session.currentStem.stem_id : null
                       )
                     }}
                     defaultValue={() => {

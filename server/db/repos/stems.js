@@ -23,6 +23,12 @@ class StemsRepository {
     });
   }
 
+  async find_category(category_id) {
+    return this.db.manyOrNone(sql.find_category, {
+      category_id
+    });
+  }
+
 }
 
 module.exports = StemsRepository;

@@ -7,7 +7,7 @@ class StructuresRespository {
   }
   // Returns all structures
   async total(type) {
-    return this.db.many(sql.total, {
+    return this.db.manyOrNone(sql.total, {
       type
     });
   }

@@ -37,4 +37,15 @@ router.get('/:stem_id', async function (req, res, next) {
   }
 });
 
+router.get('/category/:category_id', async function (req, res, next) {
+  try {
+    let result = await db.stems.find_category(req.params.category_id)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
 module.exports = router;

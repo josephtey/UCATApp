@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { getAllExams } from '../actions/content'
+import { startPractice } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 
 import styled from 'styled-components'
-import { Heading } from 'rebass'
+import { useDidMountEffect } from '../utils/helpers'
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 
-const mapDispatchToProps = { getAllExams }
+const mapDispatchToProps = { startPractice }
 
 const mapStateToProps = (state) => {
   return state
@@ -16,11 +16,39 @@ const mapStateToProps = (state) => {
 
 const Practice = (props) => {
 
+  useDidMountEffect(() => {
+    if (props.session.currentSession) {
+      props.history.push('/session/' + props.session.currentSession.session_id)
+    }
+  }, [props.session.currentSession])
+
   return (
     <Container>
       <Title>Practice</Title>
       <ExamList>
+        <Card
+          onClick={() => {
+            props.startPractice(
+              1,
+              "TFCT",
+              props.auth.userData.student_id,
+              3)
+          }}
+        >
+          <CardTop>
+            <CardHeading>TFCT</CardHeading>
+          </CardTop>
 
+          <CardBottom>
+            <CardLength>
+              Start Session
+            </CardLength>
+            <Button>
+              <AiOutlineArrowRight color="#f89800" size={25} />
+            </Button>
+          </CardBottom>
+
+        </Card>
       </ExamList>
     </Container>
   )
@@ -54,7 +82,8 @@ const CardText = styled.div`
 `
 
 const CardLength = styled.div`
-  color: rgba(0,0,0,0.3)
+  color: rgba(0,0,0,0.3);
+  justify-content: center;
 `
 
 const CardTop = styled.div`
@@ -76,7 +105,7 @@ const Card = styled.div`
   padding: 20px;
   border-radius: 15px;
   width: 200px;
-  height: 200px;
+  height: 100px;
   margin-right: 20px;
   cursor: pointer;
   display: flex;

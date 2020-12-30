@@ -3,6 +3,10 @@ import {
   CREATE_SESSION_SUCCESS,
   CREATE_SESSION_ERROR,
 
+  START_PRACTICE_REQUEST,
+  START_PRACTICE_SUCCESS,
+  START_PRACTICE_ERROR,
+
   GET_SESSION_RESPONSES_REQUEST,
   GET_SESSION_RESPONSES_SUCCESS,
   GET_SESSION_RESPONSES_ERROR,
@@ -83,6 +87,13 @@ export default (state = initialState, action) => {
       return { ...state, isCreatingSession: false, currentSession: action.currentSession }
     case CREATE_SESSION_ERROR:
       return { ...state, isCreatingSession: false, error: action.error }
+
+    case START_PRACTICE_REQUEST:
+      return { ...state, isStartingPractice: true }
+    case START_PRACTICE_SUCCESS:
+      return { ...state, isStartingPractice: false, currentSession: action.currentSession }
+    case START_PRACTICE_ERROR:
+      return { ...state, isStartingPractice: false, error: action.error }
 
     case GET_SESSION_RESPONSES_REQUEST:
       return { ...state, isFetchingResponses: true }

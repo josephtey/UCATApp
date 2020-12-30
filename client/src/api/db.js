@@ -70,7 +70,7 @@ export const db_getAllStructureSessions = async (structure_id, student_id) => {
 }
 
 
-export const db_createResponse = async (session_id, question_id, student_id, section_id, value, correct, flagged, points) => {
+export const db_createResponse = async (session_id, question_id, student_id, section_id, value, correct, flagged, points, stem_id) => {
   const response = await db.put('/responses/', {
     session_id,
     student_id,
@@ -80,7 +80,8 @@ export const db_createResponse = async (session_id, question_id, student_id, sec
     timestamp: new Date().getTime().toString(),
     correct,
     flagged,
-    points
+    points,
+    stem_id
   })
 
   return response.data
@@ -322,4 +323,19 @@ export const import_exam = async (data) => {
   } catch (err) {
     console.log(err)
   }
+}
+
+export const db_getCompletedQuestions = async (category_id, student_id) => {
+  const response = await db.post(`/responses/find/completed`, {
+    student_id,
+    category_id
+  })
+
+  return response.data
+}
+
+export const db_getCategoryQuestions = async (category_id) => {
+  const response = await db.get(`/stems/category/${category_id}`)
+
+  return response.data
 }

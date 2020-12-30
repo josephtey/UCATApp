@@ -14,7 +14,6 @@ const mapStateToProps = (state) => {
 const NavBar = (props) => {
 
   const [visible, setVisible] = useState(true)
-  const [selectedPage, setSelectedPage] = useState("Exams")
 
   useEffect(() => {
     if (props.location.pathname.includes("session")) {
@@ -48,18 +47,16 @@ const NavBar = (props) => {
 
       <Nav>
         <NavItem
-          active={selectedPage === "Exams"}
+          active={props.location.pathname === "/" || props.location.pathname.includes("exam")}
           onClick={() => {
-            setSelectedPage("Exams")
             props.history.push('/')
           }}
         >
           Exams
         </NavItem>
         <NavItem
-          active={selectedPage === "Practice"}
+          active={props.location.pathname === "/practice"}
           onClick={() => {
-            setSelectedPage("Practice")
             props.history.push('/practice')
           }}
         >

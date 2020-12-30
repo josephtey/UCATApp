@@ -45,6 +45,10 @@ class ResponsesRepository {
     return this.db.oneOrNone(sql.find, values)
   }
 
+  async find_completed(body) {
+    return this.db.manyOrNone(sql.find_completed, body)
+  }
+
 }
 
 module.exports = ResponsesRepository;
