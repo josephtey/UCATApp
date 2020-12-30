@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
 import { getCategoryDetail, resetCategoryDetail } from '../actions/content'
 import { startPractice } from '../actions/session'
@@ -9,6 +9,8 @@ import {
 import Loading from '../components/Shared/Loading'
 import { Button } from '../components/Shared/Elements'
 import { useDidMountEffect } from '../utils/helpers'
+import Select from 'react-select';
+
 
 const mapDispatchToProps = { getCategoryDetail, startPractice, resetCategoryDetail }
 
@@ -16,7 +18,23 @@ const mapStateToProps = (state) => {
   return state
 }
 
+const convertArrToOptions = (arr, perstem) => {
+  let options = []
+  for (let i = 0; i < arr.length; i++) {
+    options.push({
+      value: arr[i] / perstem,
+      label: arr[i]
+    })
+  }
+
+  console.log(options)
+
+  return options
+}
+
 const PracticeTopic = (props) => {
+
+  const [numberOfQuestions, setNumberOfQuestions] = useState()
 
   useEffect(() => {
     props.getCategoryDetail(props.match.params.category_id, props.auth.userData.student_id)
@@ -45,50 +63,77 @@ const PracticeTopic = (props) => {
           <Title>
             {props.content.categoryDetail.details.name}
           </Title>
+          <Text>
+            {props.content.categoryDetail.totalCompletedQuestions}/{props.content.categoryDetail.totalQuestions} Questions tested
+          </Text>
         </HeaderLeft>
 
         <HeaderRight>
-          {props.content.categoryDetail.sessions.length === 0 ?
-            <Button
-              type="primary"
-              color="orange"
-              label="Start Practice"
-              onClick={() => {
-                props.startPractice(
-                  props.content.categoryDetail.details.category_id,
-                  props.content.categoryDetail.details.name,
-                  props.auth.userData.student_id,
-                  3)
-              }}
-            />
-            : <>
-
-              {props.content.categoryDetail.sessions[0].completed ?
-                <OrangeLink
+          {props.content.categoryDetail.sessions.length == 0 || (props.content.categoryDetail.sessions.length > 0 && props.content.categoryDetail.sessions[0].completed) ?
+            <DropdownMenu>
+              <Text>Number of Questions</Text>
+              <Select
+                value={numberOfQuestions}
+                onChange={(selectedValue) => {
+                  setNumberOfQuestions(selectedValue)
+                }}
+                className="questionCountDropdown"
+                isSearchable={false}
+                options={convertArrToOptions(
+                  props.content.categoryDetail.details.intervals,
+                  props.content.categoryDetail.details.per_stem
+                )}
+              />
+            </DropdownMenu>
+            : null}
+          {numberOfQuestions ?
+            <>
+              {props.content.categoryDetail.sessions.length == 0 ?
+                <Button
+                  type="primary"
+                  color="orange"
+                  label="Start Practice"
                   onClick={() => {
                     props.startPractice(
                       props.content.categoryDetail.details.category_id,
                       props.content.categoryDetail.details.name,
                       props.auth.userData.student_id,
-                      3)
-                  }}
-                >
-                  Start Practice
-              </OrangeLink>
-                : null}
-
-              {!props.content.categoryDetail.sessions[0].completed ?
-                <Button
-                  label={"Resume Exam"}
-                  type="primary"
-                  color="orange"
-                  onClick={() => {
-                    props.history.push("/session/" + props.content.categoryDetail.sessions[0].session_id)
+                      numberOfQuestions.value
+                    )
                   }}
                 />
-                : null}
+                :
+                <>
+                  {props.content.categoryDetail.sessions[0].completed ?
+                    <Button
+                      type="primary"
+                      color="orange"
+                      label="Start Practice"
+                      onClick={() => {
+                        props.startPractice(
+                          props.content.categoryDetail.details.category_id,
+                          props.content.categoryDetail.details.name,
+                          props.auth.userData.student_id,
+                          numberOfQuestions.value
+                        )
+                      }}
+                    />
+                    : null}
+                </>}
+            </>
+            : null}
 
-            </>}
+          {props.content.categoryDetail.sessions.length > 0 && !props.content.categoryDetail.sessions[0].completed ?
+            <Button
+              label={"Resume Practice Session"}
+              type="primary"
+              color="orange"
+              onClick={() => {
+                props.history.push("/session/" + props.content.categoryDetail.sessions[0].session_id)
+              }}
+            />
+            : null}
+
 
 
 
@@ -135,20 +180,6 @@ const PracticeTopic = (props) => {
 const PastSessions = styled.div`
 
 `
-const Caption = styled(Text)`
-  opacity: 0.6;
-`
-const CardTime = styled.div`
-  height: 70px;
-  width: 70px;
-  border-radius: 20px;
-  border: 2px solid #f89800;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  text-align: center
-`
-
 const CardInfo = styled.div`
   margin-left: 20px;
 `
@@ -207,27 +238,13 @@ const HeaderLeft = styled.div`
 
 const HeaderRight = styled.div`
   display: flex;
+  justify-content: center;
   align-items: center;
-  
-  div {
-    margin-left: 10px;
-  }
 `
-
-const CardLeft = styled.div`
+const DropdownMenu = styled.div`
   display: flex;
-  align-items: center;
-`
-
-const CardRight = styled.div`
-  padding-right: 20px;
-  cursor: pointer;
-`
-
-const OrangeLink = styled.div`
-  color: #f89800;
-  opacity: 0.5;
-  cursor: pointer;
+  flex-direction: column;
+  margin-right: 15px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(PracticeTopic)

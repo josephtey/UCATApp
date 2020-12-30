@@ -39,8 +39,8 @@ const Practice = (props) => {
 
               <CardBottom>
                 <CardLength>
-                  Start Session
-              </CardLength>
+                  Practice
+                </CardLength>
                 <Button>
                   <AiOutlineArrowRight color="#f89800" size={25} />
                 </Button>

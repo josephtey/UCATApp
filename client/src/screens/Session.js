@@ -66,7 +66,7 @@ const Session = (props) => {
   }, [])
 
   if (props.session.isFetchingSession) return <Loading duringSession={true} />
-  if (!props.session.currentSession) return null
+  if (!props.session.currentSession || !props.session.currentStructure) return null
 
   return (
     <>
@@ -78,11 +78,15 @@ const Session = (props) => {
           </TopBarLeft>
           <img src={LogoImage} width="100" />
           <TopBarRight>
-            {props.session.currentSession.start_time.length > 0 && props.session.currentSession.start_time.length != props.session.currentSession.end_time.length
-              ? <Timer
-                startTimestamp={props.session.currentSession.start_time[props.session.currentStructure.section_order.indexOf(props.session.currentSection.section_id)]}
-                sectionTimeLength={props.session.currentSection.time}
-              />
+            {props.session.currentStructure.type === "Exam" ?
+              <>
+                {props.session.currentSession.start_time.length > 0 && props.session.currentSession.start_time.length != props.session.currentSession.end_time.length
+                  ? <Timer
+                    startTimestamp={props.session.currentSession.start_time[props.session.currentStructure.section_order.indexOf(props.session.currentSection.section_id)]}
+                    sectionTimeLength={props.session.currentSection.time}
+                  />
+                  : null}
+              </>
               : null}
           </TopBarRight>
         </TopBarInner>
@@ -101,7 +105,14 @@ const Session = (props) => {
                 />
                 : props.session.mode === "results" ?
                   <Results
-                    returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
+                    returnHome={() => {
+                      props.history.push(
+                        props.session.currentStructure.type === "Exam" ?
+                          '/exam/' + props.session.currentSession.structure_id
+                          :
+                          '/practice/' + props.session.currentStructure.category_id
+                      )
+                    }}
                   />
                   : null
         }

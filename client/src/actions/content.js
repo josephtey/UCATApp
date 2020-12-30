@@ -5,7 +5,9 @@ import {
   db_getAllStructureSessions,
   db_getCategories,
   db_getCategoryDetail,
-  db_getCategorySessions
+  db_getCategorySessions,
+  db_getCategoryQuestions,
+  db_getCompletedQuestions
 } from '../api/db';
 
 export const GET_ALL_EXAMS_REQUEST = 'GET_ALL_EXAMS_REQUEST';
@@ -16,10 +18,10 @@ const getAllExamsRequest = { type: GET_ALL_EXAMS_REQUEST };
 const getAllExamsSuccess = (allExams) => ({ type: GET_ALL_EXAMS_SUCCESS, allExams });
 const getAllExamsError = error => ({ type: GET_ALL_EXAMS_ERROR, error });
 
-export const getAllExams = () => async dispatch => {
+export const getAllExams = (type) => async dispatch => {
   dispatch(getAllExamsRequest);
   try {
-    const allExams = await db_getAllExams()
+    const allExams = await db_getAllExams(type)
     dispatch(getAllExamsSuccess(allExams))
 
   } catch (error) {
@@ -133,10 +135,23 @@ export const getCategoryDetail = (category_id, student_id) => async dispatch => 
   try {
     const categoryDetail = await db_getCategoryDetail(category_id)
     const categorySessions = await db_getCategorySessions(category_id, student_id)
+    const categoryQuestions = await db_getCategoryQuestions(category_id)
+    const completedCategoryQuestions = await db_getCompletedQuestions(category_id, student_id)
+
+    const totalQuestions = categoryQuestions.reduce(function (prev, cur) {
+      return prev + cur.question_order.length;
+    }, 0);
+    const totalCompletedQuestions = [...new Set(completedCategoryQuestions.map(JSON.stringify))].map(JSON.parse).reduce(function (prev, cur) {
+      return prev + cur.question_order.length;
+    }, 0);
+
+    console.log([...new Set(completedCategoryQuestions)])
 
     dispatch(getCategoryDetailSuccess({
       details: categoryDetail,
-      sessions: categorySessions
+      sessions: categorySessions,
+      totalQuestions,
+      totalCompletedQuestions
     }))
 
   } catch (error) {

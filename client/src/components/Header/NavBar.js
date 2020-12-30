@@ -52,7 +52,15 @@ const NavBar = (props) => {
             props.history.push('/')
           }}
         >
-          Exams
+          Full Exams
+        </NavItem>
+        <NavItem
+          active={props.location.pathname.includes("mocks")}
+          onClick={() => {
+            props.history.push('/mocks')
+          }}
+        >
+          Section Mocks
         </NavItem>
         <NavItem
           active={props.location.pathname.includes("practice")}

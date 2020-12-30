@@ -5,8 +5,8 @@ const db = axios.create({
   baseURL: 'http://localhost:3000'
 });
 
-export const db_getAllExams = async () => {
-  const response = await db.get('/structures/type/Exam')
+export const db_getAllExams = async (type) => {
+  const response = await db.get('/structures/type/' + type)
 
   return response.data
 }
@@ -315,7 +315,7 @@ export const import_exam = async (data) => {
     let createdExam = await db_createExam(
       ExampleExam.exam.name,
       ExampleExam.exam.description ? ExampleExam.exam.description : null,
-      "Exam",
+      "Mock",
       sectionOrder,
       ExampleExam.exam.time ? ExampleExam.exam.time : null
     )

@@ -479,6 +479,7 @@ export const startPractice = (category_id, topic, student_id, question_length) =
       }
     }
 
+    console.log(incompleteQuestions)
     if (incompleteQuestions.length >= question_length) {
       let questionOrder = []
       for (let i = 0; i < question_length; i++) {

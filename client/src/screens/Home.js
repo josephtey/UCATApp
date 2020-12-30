@@ -4,7 +4,6 @@ import { getAllExams } from '../actions/content'
 import Loading from '../components/Shared/Loading'
 
 import styled from 'styled-components'
-import { Heading } from 'rebass'
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 
@@ -17,8 +16,8 @@ const mapStateToProps = (state) => {
 const Home = (props) => {
 
   useEffect(() => {
-    props.getAllExams()
-  }, [])
+    props.getAllExams(props.type)
+  }, [props.history.location.pathname])
 
   if (props.content.isFetchingExams) return <Loading />
   if (!props.content.allExams) return null

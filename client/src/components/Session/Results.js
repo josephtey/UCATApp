@@ -9,7 +9,6 @@ import {
 } from 'rebass'
 import { TiTick, TiTimes } from "react-icons/ti";
 import BottomBar from './BottomBar'
-import { getIncompleteQuestions, filterResponses } from '../../utils/helpers'
 
 const mapDispatchToProps = { getSessionResponses, getQuestionDetail, getSection, resetSection }
 

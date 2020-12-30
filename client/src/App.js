@@ -63,7 +63,8 @@ const App = (props) => {
               <Route path={'/exam/:structure_id'} component={Exam} />
               <Route path={'/practice/:category_id'} component={PracticeTopic} />
               <Route path='/practice' component={Practice} />
-              <Route path='/' component={Home} />
+              <Route path='/mocks' render={(props) => <Home {...props} type={"Mock"} />} />
+              <Route path='/' render={(props) => <Home {...props} type={"Exam"} />} />
             </Switch>
           </>
           :
