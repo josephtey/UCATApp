@@ -17,6 +17,14 @@ import {
   GET_STRUCTURE_SESSIONS_SUCCESS,
   GET_STRUCTURE_SESSIONS_ERROR,
 
+  GET_CATEGORIES_REQUEST,
+  GET_CATEGORIES_SUCCESS,
+  GET_CATEGORIES_ERROR,
+
+  GET_CATEGORY_DETAIL_REQUEST,
+  GET_CATEGORY_DETAIL_SUCCESS,
+  GET_CATEGORY_DETAIL_ERROR,
+
 } from '../actions/content'
 
 const initialState = {
@@ -25,11 +33,14 @@ const initialState = {
   isFetchingSectionDetail: false,
   isFetchingQuestionDetail: false,
   isFetchingSessions: false,
+  isFetchingCategories: false,
   error: null,
   allExams: [],
   examDetail: null,
   sectionDetail: null,
-  structureSessions: []
+  structureSessions: [],
+  categories: [],
+  categoryDetail: null
 }
 
 export default (state = initialState, action) => {
@@ -65,6 +76,21 @@ export default (state = initialState, action) => {
       return { ...state, isFetchingSessions: false, structureSessions: action.structureSessions }
     case GET_STRUCTURE_SESSIONS_ERROR:
       return { ...state, isFetchingSessions: false, error: action.error }
+
+    case GET_CATEGORIES_REQUEST:
+      return { ...state, isFetchingCategories: true }
+    case GET_CATEGORIES_SUCCESS:
+      return { ...state, isFetchingCategories: false, categories: action.categories }
+    case GET_CATEGORIES_ERROR:
+      return { ...state, isFetchingCategories: false, error: action.error }
+
+    case GET_CATEGORY_DETAIL_REQUEST:
+      return { ...state, isFetchingCategoryDetail: true }
+    case GET_CATEGORY_DETAIL_SUCCESS:
+      return { ...state, isFetchingCategoryDetail: false, categoryDetail: action.categoryDetail }
+    case GET_CATEGORY_DETAIL_ERROR:
+      return { ...state, isFetchingCategoryDetail: false, error: action.error }
+
     default:
       return state
   }

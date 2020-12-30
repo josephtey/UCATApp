@@ -239,7 +239,8 @@ export const db_createExam = async (
   description,
   type,
   section_order,
-  time
+  time,
+  category_id = null
 ) => {
 
   const response = await db.put(`/structures`, {
@@ -247,7 +248,8 @@ export const db_createExam = async (
     description,
     type,
     section_order,
-    time
+    time,
+    category_id
   })
 
   return response.data
@@ -336,6 +338,27 @@ export const db_getCompletedQuestions = async (category_id, student_id) => {
 
 export const db_getCategoryQuestions = async (category_id) => {
   const response = await db.get(`/stems/category/${category_id}`)
+
+  return response.data
+}
+
+export const db_getCategories = async () => {
+  const response = await db.get(`/categories`)
+
+  return response.data
+}
+
+export const db_getCategoryDetail = async (category_id) => {
+  const response = await db.get(`/categories/${category_id}`)
+
+  return response.data
+}
+
+export const db_getCategorySessions = async (category_id, student_id) => {
+  const response = await db.post(`/sessions/category`, {
+    category_id,
+    student_id
+  })
 
   return response.data
 }

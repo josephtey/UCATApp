@@ -5,5 +5,6 @@ module.exports = {
   Sessions: require('./sessions'),
   Responses: require('./responses'),
   Stems: require('./stems'),
-  Users: require('./users')
+  Users: require('./users'),
+  Categories: require('./categories')
 };

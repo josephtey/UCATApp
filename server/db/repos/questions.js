@@ -1,15 +1,5 @@
 const { questions: sql } = require('../sql');
 
-// {
-//   "type": "SA",
-//   "options": "{'1', '2'}",
-//   "question": "How are you doing?",
-//   "answer": "Great!",
-//   "explanation": "Positive out look on life!",
-//   "difficulty": "1",
-//   "category_id": "1"
-// }
-
 class QuestionsRepository {
   constructor(db, pgp) {
     this.db = db;

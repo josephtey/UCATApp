@@ -50,6 +50,20 @@ router.delete('/:session_id', async function (req, res, next) {
   }
 });
 
+router.post('/category', async function (req, res, next) {
+  try {
+    let result = await db.sessions.find_category(
+      req.body.category_id,
+      req.body.student_id
+    )
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
 router.post('/:session_id', async function (req, res, next) {
   try {
     console.log(req.body)

@@ -1,14 +1,13 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
-import { startPractice } from '../actions/session'
+import { getCategories } from '../actions/content'
 import Loading from '../components/Shared/Loading'
 
 import styled from 'styled-components'
-import { useDidMountEffect } from '../utils/helpers'
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 
-const mapDispatchToProps = { startPractice }
+const mapDispatchToProps = { getCategories }
 
 const mapStateToProps = (state) => {
   return state
@@ -16,39 +15,40 @@ const mapStateToProps = (state) => {
 
 const Practice = (props) => {
 
-  useDidMountEffect(() => {
-    if (props.session.currentSession) {
-      props.history.push('/session/' + props.session.currentSession.session_id)
-    }
-  }, [props.session.currentSession])
+  useEffect(() => {
+    props.getCategories()
+  }, [])
+
+  if (props.content.isFetchingCategories) return <Loading />
+  if (!props.content.categories) return null
 
   return (
     <Container>
       <Title>Practice</Title>
       <ExamList>
-        <Card
-          onClick={() => {
-            props.startPractice(
-              1,
-              "TFCT",
-              props.auth.userData.student_id,
-              3)
-          }}
-        >
-          <CardTop>
-            <CardHeading>TFCT</CardHeading>
-          </CardTop>
+        {props.content.categories.map((category, i) => {
+          return (
+            <Card
+              onClick={() => {
+                props.history.push('/practice/' + category.category_id)
+              }}
+            >
+              <CardTop>
+                <CardHeading>{category.name}</CardHeading>
+              </CardTop>
 
-          <CardBottom>
-            <CardLength>
-              Start Session
-            </CardLength>
-            <Button>
-              <AiOutlineArrowRight color="#f89800" size={25} />
-            </Button>
-          </CardBottom>
+              <CardBottom>
+                <CardLength>
+                  Start Session
+              </CardLength>
+                <Button>
+                  <AiOutlineArrowRight color="#f89800" size={25} />
+                </Button>
+              </CardBottom>
 
-        </Card>
+            </Card>
+          )
+        })}
       </ExamList>
     </Container>
   )

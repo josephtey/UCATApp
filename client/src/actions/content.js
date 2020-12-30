@@ -3,6 +3,9 @@ import {
   db_getExamDetail,
   db_getSectionDetail,
   db_getAllStructureSessions,
+  db_getCategories,
+  db_getCategoryDetail,
+  db_getCategorySessions
 } from '../api/db';
 
 export const GET_ALL_EXAMS_REQUEST = 'GET_ALL_EXAMS_REQUEST';
@@ -95,6 +98,55 @@ export const getStructureSessions = (structure_id, student_id) => async dispatch
     dispatch(getStructureSessionsError(error));
   }
 };
+
+export const GET_CATEGORIES_REQUEST = 'GET_CATEGORIES_REQUEST';
+export const GET_CATEGORIES_SUCCESS = 'GET_CATEGORIES_SUCCESS';
+export const GET_CATEGORIES_ERROR = 'GET_CATEGORIES_ERROR';
+
+const getCategoriesRequest = { type: GET_CATEGORIES_REQUEST };
+const getCategoriesSuccess = (categories) => ({ type: GET_CATEGORIES_SUCCESS, categories });
+const getCategoriesError = error => ({ type: GET_CATEGORIES_ERROR, error });
+
+export const getCategories = () => async dispatch => {
+  dispatch(getCategoriesRequest);
+  try {
+    const categories = await db_getCategories()
+    dispatch(getCategoriesSuccess(categories))
+
+  } catch (error) {
+    dispatch(getCategoriesError(error));
+  }
+};
+
+
+export const GET_CATEGORY_DETAIL_REQUEST = 'GET_CATEGORY_DETAIL_REQUEST';
+export const GET_CATEGORY_DETAIL_SUCCESS = 'GET_CATEGORY_DETAIL_SUCCESS';
+export const GET_CATEGORY_DETAIL_ERROR = 'GET_CATEGORY_DETAIL_ERROR';
+
+const getCategoryDetailRequest = { type: GET_CATEGORY_DETAIL_REQUEST };
+const getCategoryDetailSuccess = (categoryDetail) => ({ type: GET_CATEGORY_DETAIL_SUCCESS, categoryDetail });
+const getCategoryDetailError = error => ({ type: GET_CATEGORY_DETAIL_ERROR, error });
+
+export const getCategoryDetail = (category_id, student_id) => async dispatch => {
+  dispatch(getCategoryDetailRequest);
+  try {
+    const categoryDetail = await db_getCategoryDetail(category_id)
+    const categorySessions = await db_getCategorySessions(category_id, student_id)
+
+    dispatch(getCategoryDetailSuccess({
+      details: categoryDetail,
+      sessions: categorySessions
+    }))
+
+  } catch (error) {
+    dispatch(getCategoryDetailError(error));
+  }
+};
+
+
+
+
+
 
 
 

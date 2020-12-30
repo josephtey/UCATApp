@@ -37,7 +37,8 @@ module.exports = {
     update: sql('sessions/update.sql'),
     update_time_start: sql('sessions/update_time_start.sql'),
     update_time_end: sql('sessions/update_time_end.sql'),
-    find: sql('sessions/find.sql')
+    find: sql('sessions/find.sql'),
+    find_category: sql('sessions/find_category.sql')
   },
   responses: {
     total_structure: sql('responses/total_structure.sql'),
@@ -58,6 +59,10 @@ module.exports = {
     find_category: sql('stems/find_category.sql'),
     add: sql('stems/add.sql'),
     update: sql('stems/update.sql')
+  },
+  categories: {
+    total: sql('categories/total.sql'),
+    find: sql('categories/find.sql')
   }
 };
 

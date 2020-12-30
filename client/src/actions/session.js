@@ -501,7 +501,8 @@ export const startPractice = (category_id, topic, student_id, question_length) =
         null,
         "Practice",
         [createdSection.section_id],
-        null
+        null,
+        category_id
       )
 
       console.log("Created Structure: ", createdExam)

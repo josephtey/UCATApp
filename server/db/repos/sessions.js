@@ -17,6 +17,13 @@ class SessionsRepository {
     });
   }
 
+  async find_category(category_id, student_id) {
+    return this.db.manyOrNone(sql.find_category, {
+      category_id,
+      student_id
+    });
+  }
+
   async add(values) {
     return this.db.one(sql.add, values);
   }

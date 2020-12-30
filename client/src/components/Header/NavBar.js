@@ -55,7 +55,7 @@ const NavBar = (props) => {
           Exams
         </NavItem>
         <NavItem
-          active={props.location.pathname === "/practice"}
+          active={props.location.pathname.includes("practice")}
           onClick={() => {
             props.history.push('/practice')
           }}

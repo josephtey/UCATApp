@@ -1,12 +1,15 @@
 const pgPromise = require('pg-promise');
 const dbConfig = require('../db-config.json');
-const { Questions } = require('./repos');
-const { Sections } = require('./repos');
-const { Structures } = require('./repos');
-const { Sessions } = require('./repos');
-const { Responses } = require('./repos');
-const { Stems } = require('./repos');
-const { Users } = require('./repos');
+const {
+  Questions,
+  Sections,
+  Structures,
+  Sessions,
+  Responses,
+  Stems,
+  Users,
+  Categories
+} = require('./repos');
 
 const initOptions = {
 
@@ -18,6 +21,7 @@ const initOptions = {
     obj.responses = new Responses(obj, pgp);
     obj.stems = new Stems(obj, pgp);
     obj.users = new Users(obj, pgp);
+    obj.categories = new Categories(obj, pgp);
   }
 };
 
