@@ -120,6 +120,7 @@ const Session = (props) => {
     </>
   )
 }
+
 const Container = styled.div`
   padding: 30px;
   width: 1000px;
