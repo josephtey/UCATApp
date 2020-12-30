@@ -255,18 +255,70 @@ export const db_createExam = async (
   return response.data
 }
 
+export const import_questions = async (data) => {
+  try {
+    for (const stem of data.stems) {
+      let stemQuestionOrder = []
 
+      // Create stem
+      console.log("ATTEMPTING TO CREATE STEM: ", stem)
+      let createdStem = await db_createStem(
+        stem.text ? stem.text : null,
+        null,
+        stem.image ? stem.image : null,
+        stem.category_id ? stem.category_id : null,
+        "Bank"
+      )
+
+      console.log("CREATED STEM: ", createdStem)
+
+      for (const question of stem.questions) {
+
+        // Create questions
+        console.log("ATTEMPTING TO CREATE QUESTION: ", question)
+
+        let createdQuestion = await db_createQuestion(
+          question.type == "Multiple Choice" ? "MC" : "DD",
+          question.options,
+          question.text ? question.text : null,
+          question.type == "Multiple Choice" ? question.answer : question.answer.join(";"),
+          question.explanation ? question.explanation : null,
+          question.difficulty ? question.difficulty : null,
+          question.image ? question.image : null,
+          question.option_images ? question.option_images : null,
+          createdStem.stem_id
+        )
+
+        console.log("CREATED QUESTION: ", createdQuestion)
+
+        // Append question id to question_order
+        stemQuestionOrder.push(createdQuestion.question_id)
+      }
+
+      console.log("UPDATING STEM: ", stemQuestionOrder)
+      let updatedStem = await db_updateStem(createdStem.stem_id, stemQuestionOrder)
+      console.log("UPDATED STEM: ", updatedStem)
+    }
+
+    return "Success"
+  } catch (err) {
+    console.log(err)
+    return "Failed"
+  }
+
+}
 export const import_exam = async (data) => {
 
   try {
     let sectionOrder = []
-    for (const section of ExampleExam.sections) {
+    for (const section of data.sections) {
       let sectionQuestionOrder = []
 
       for (const stem of section.stems) {
         let stemQuestionOrder = []
 
         // Create stem
+        console.log("ATTEMPTING TO CREATE STEM: ", stem)
         let createdStem = await db_createStem(
           stem.text ? stem.text : null,
           null,
@@ -275,9 +327,13 @@ export const import_exam = async (data) => {
           "Exam"
         )
 
+        console.log("CREATED STEM: ", createdStem)
+
         for (const question of stem.questions) {
 
           // Create questions
+          console.log("ATTEMPTING TO CREATE QUESTION: ", question)
+
           let createdQuestion = await db_createQuestion(
             question.type == "Multiple Choice" ? "MC" : "DD",
             question.options,
@@ -290,16 +346,20 @@ export const import_exam = async (data) => {
             createdStem.stem_id
           )
 
-          console.log(createdQuestion.options)
+          console.log("CREATED QUESTION: ", createdQuestion)
 
           // Append question id to question_order
           stemQuestionOrder.push(createdQuestion.question_id)
           sectionQuestionOrder.push(createdQuestion.question_id)
         }
+
+        console.log("UPDATING STEM: ", stemQuestionOrder)
         let updatedStem = await db_updateStem(createdStem.stem_id, stemQuestionOrder)
+        console.log("UPDATED STEM: ", updatedStem)
       }
 
       // Create Section
+      console.log("ATTEMPTING TO CREATE SECTION: ", section)
       let createdSection = await db_createSection(
         section.name,
         section.description ? section.description : null,
@@ -307,22 +367,28 @@ export const import_exam = async (data) => {
         section.time ? section.time : null,
       )
 
+      console.log("CREATED SECTION: ", createdSection)
+
       // Append section orders
       sectionOrder.push(createdSection.section_id)
     }
 
     // Create Exam!
+    console.log("ATTEMPTING TO CREATE SECTION: ", data.exam)
     let createdExam = await db_createExam(
-      ExampleExam.exam.name,
-      ExampleExam.exam.description ? ExampleExam.exam.description : null,
-      "Mock",
+      data.exam.name,
+      data.exam.description ? data.exam.description : null,
+      data.exam.type,
       sectionOrder,
-      ExampleExam.exam.time ? ExampleExam.exam.time : null
+      data.exam.time ? data.exam.time : null
     )
 
-    console.log(createdExam)
+    console.log("CREATED EXAM: ", createdExam)
+
+    return "Success"
 
   } catch (err) {
+    return "Failed"
     console.log(err)
   }
 }

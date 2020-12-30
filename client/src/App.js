@@ -18,6 +18,7 @@ import Loading from './components/Shared/Loading'
 import { getUser } from './actions/auth'
 
 import { import_exam } from './api/db'
+import Import from './screens/Import';
 
 const mapDispatchToProps = { getUser }
 
@@ -30,12 +31,6 @@ const App = (props) => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-
-    const importFile = async () => {
-      await import_exam()
-    }
-
-    // importFile()
 
     const token = getCookie("jwt")
 
@@ -61,8 +56,10 @@ const App = (props) => {
             <Switch>
               <Route path={'/session/:session_id'} component={Session} />
               <Route path={'/exam/:structure_id'} component={Exam} />
+              <Route path={'/mock/:structure_id'} component={Exam} />
               <Route path={'/practice/:category_id'} component={PracticeTopic} />
               <Route path='/practice' component={Practice} />
+              <Route path='/import' component={Import} />
               <Route path='/mocks' render={(props) => <Home {...props} type={"Mock"} />} />
               <Route path='/' render={(props) => <Home {...props} type={"Exam"} />} />
             </Switch>

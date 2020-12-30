@@ -1,0 +1,107 @@
+{
+  "stems": [
+    {
+      "text": "All countries provide Visas to the passport holders of country X; country B provides Visas to the passport holders of only two countries; country A provides Visas to the passport holders of country B and vice versa.",
+      "category_id": 1,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "All diplomatic passport holders receive Visas in country B.",
+            "A man received a Visa in country C so he must have a passport of country X.",
+            "Country B passport holders are eligible for Visas in country X.",
+            "Passport holders of country X never have to worry about applying for a Visa in advance.",
+            "Samantha received a Visa in country B so she must have a passport of either country X or country A."
+          ],
+          "answer": [
+            "Yes",
+            "Yes",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "Passport holders must always be in Country B regardless of circumstance.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "There are eight apartments on a floor; each apartment has either one, two, three or four rooms, as shown in the figure. Each apartment is owned by one of four owners: Adam, Flora, Gary or Rose. Each owner owns two apartments.<br/><br/>Both of Adam's apartments are in the same horizontal row but do not share a wall.<br/>Either Rose or Flora, have the same number of rooms in their two apartments.<br/>Gary's two apartments share one dividing wall and neither Gary nor Flora have a 3-room apartment.",
+      "image": "https://practice.ucat.ac.uk/uploads/content/exam_42/rsz_DM_2015_logic_EW_11%20VF%20edit.jpg",
+      "category_id": 1,
+      "questions": [
+        {
+          "text": "The 1-room apartments belong to whch of the following owners?",
+          "type": "Multiple Choice",
+          "options": [
+            "Gary and Fiona",
+            "Flora and Adam",
+            "Gary and Adam",
+            "Both belong to Rose"
+          ],
+          "answer": "Flora and Adam",
+          "explanation": "Gary also owns the 1 room apartments. Is that even a question?",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "image": "https://practice.ucat.ac.uk/uploads/content/exam_12/Set%2001%20AB.jpg",
+      "category_id": 1,
+      "questions": [
+        {
+          "image": "https://practice.ucat.ac.uk/uploads/content/exam_12/Set%2001%20Q1.jpg",
+          "type": "Multiple Choice",
+          "options": [
+            "Set A",
+            "Set B",
+            "Neither"
+          ],
+          "answer": "Set A",
+          "explanation": "Just cos.",
+          "difficulty": 1,
+          "category_id": 1
+        },
+        {
+          "image": "https://practice.ucat.ac.uk/uploads/content/exam_12/Set%2001%20Q2.jpg",
+          "type": "Multiple Choice",
+          "options": [
+            "Set A",
+            "Set B",
+            "Neither"
+          ],
+          "answer": "Set B",
+          "explanation": "Just cos.",
+          "difficulty": 1,
+          "category_id": 1
+        }
+      ]
+    },
+    {
+      "image": "https://practice.ucat.ac.uk/uploads/content/exam_12/Type_1_Q1%20resize2.PNG",
+      "category_id": 1,
+      "questions": [
+        {
+          "text": "Which figure completes the series?",
+          "type": "Multiple Choice",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4"
+          ],
+          "option_images": [
+            "https://practice.ucat.ac.uk/uploads/content/exam_12/Type_1_Q1aresize.png",
+            "https://practice.ucat.ac.uk/uploads/content/exam_12/Type_1_Q1bresize.png",
+            "https://practice.ucat.ac.uk/uploads/content/exam_12/Type_1_Q1cresize.png",
+            "https://practice.ucat.ac.uk/uploads/content/exam_12/Type_1_Q1dresize.png"
+          ],
+          "answer": "Option 1",
+          "explanation": "Just cos.",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

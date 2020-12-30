@@ -24,13 +24,13 @@ const Home = (props) => {
 
   return (
     <Container>
-      <Title>Exams</Title>
+      <Title>{props.type}s</Title>
       <ExamList>
         {props.content.allExams.map((exam, i) => {
           return (
             <Card key={i}
               onClick={() => {
-                props.history.push("/exam/" + exam.structure_id.toString())
+                props.history.push(`/${props.type.toLowerCase()}/` + exam.structure_id.toString())
               }}
             >
               <CardTop>

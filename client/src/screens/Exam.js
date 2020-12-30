@@ -96,7 +96,7 @@ const Exam = (props) => {
 
   return (
     <Container>
-      <PreHeading>Exam Details</PreHeading>
+      <PreHeading>Details</PreHeading>
 
       <Header>
         <HeaderLeft>
