@@ -7,6 +7,8 @@ import BottomBar from '../Session/BottomBar'
 import TopBarSecondary from '../Session/TopBarSecondary'
 import { Button, LinkItem, RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
+import { BiCalculator, BiBook } from "react-icons/bi";
+
 
 
 const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
@@ -34,10 +36,10 @@ const Question = (props) => {
           return (
             <>
               <TopLink>
-                Calculator
+                <BiCalculator color="white" size={20} /> Calculator
               </TopLink>
               <TopLink>
-                Scratch Pad
+                <BiBook color="white" size={20} /> Scratch Pad
               </TopLink>
             </>
           )
@@ -257,7 +259,7 @@ const QuestionStem = styled.div`
   border-right: 7px solid #006daa;
   padding-right: 30px;
   padding-top: 30px;
-  padding-bottom: 120px;
+  padding-bottom: 200px;
   height: 100vh;
 `
 
@@ -296,6 +298,10 @@ const TopLink = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  svg{
+    margin-right: 5px;
+  }
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Question)

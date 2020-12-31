@@ -4,6 +4,8 @@ import { RiFlag2Fill, RiFlag2Line } from "react-icons/ri";
 import { useDrag, useDrop } from 'react-dnd';
 import update from "immutability-helper";
 import { TiTick, TiTimes } from "react-icons/ti";
+import { BsCircle, BsCircleFill } from "react-icons/bs";
+
 
 export const Button = ({ type, label, color, onClick }) => {
   return (
@@ -60,12 +62,18 @@ export const RadioBox = ({
               onClick(item)
             }}
             key={i}
-            selected={selectedOption === item ? true : false}
-            className="hvr-forward"
           >
-            {item}
-
-            {images && images[i] ? <RadioBoxImage src={images[i]} /> : null}
+            <RadioCircle>
+              {selectedOption === item ?
+                <BsCircleFill />
+                :
+                <BsCircle />
+              }
+            </RadioCircle>
+            <RadioContent>
+              {item}
+              {images && images[i] ? <RadioBoxImage src={images[i]} /> : null}
+            </RadioContent>
 
           </RadioOption>
         )
@@ -100,7 +108,10 @@ export const Dustbin = ({
     }),
   });
   return (
-    <DragAndDropAnswer ref={drop}>
+    <DragAndDropAnswer
+      ref={drop}
+      dropped={lastDroppedItem ? true : false}
+    >
       {lastDroppedItem ? (
         <>
           {lastDroppedItem}
@@ -307,15 +318,12 @@ const OptionRight = styled.div`
 const RadioOption = styled.div`
   background: ${props => props.wrong ? 'red' : props.selected ? '#2ecfb0' : 'white'};
   color: ${props => props.selected || props.wrong ? 'white' : 'black'};
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
   padding: 20px;
-  border-radius: 15px;
   margin-bottom: 10px;
   max-width: 100%;
   display: flex;
   align-items: center;  
   cursor: pointer;
-  justify-content: space-between;
 `
 
 
@@ -365,11 +373,9 @@ const NoSelectionText = styled.div`
   text-align: right;
 `
 const DragAndDropOption = styled.div`
-  background: white;
   color: black;
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
   padding: 20px;
-  border-radius: 15px;
+  border: 1px solid black;
   margin-bottom: 10px;
   width: 100%;
   display: flex;
@@ -383,10 +389,9 @@ const DragAndDropContainer = styled.div`
 `
 const DragAndDropAnswer = styled.div`
   display: flex;
-  background: white;
+  background: ${props => props.dropped ? "white" : "#BAB1B1"};
   padding: 20px;
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  border-radius: 15px;
+  border: 1px solid black;
   margin-bottom: 10px;
   margin-left: 10px;
   width: 30px;
@@ -395,14 +400,13 @@ const DragAndDropAnswer = styled.div`
 const DraggableItem = styled.div`
   background: white;
   padding: 20px;
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  border-radius: 15px;
-  margin-bottom: 10px;
+  border: 1px solid black;
   margin-left: 10px;
   width: 30px; 
   text-align: center;
   cursor: move;
-  float: left
+  float: left;
+  margin-bottom: 10px;
 `
 
 const DragAndDropOptions = styled.div`
@@ -436,4 +440,15 @@ const RadioBoxImage = styled.img`
 
 const RadioElements = styled.div`
  
+`
+
+const RadioCircle = styled.div`
+  margin-right: 10px;
+`
+
+const RadioContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 `
