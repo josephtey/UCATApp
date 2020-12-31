@@ -26,8 +26,11 @@ const Container = styled.div`
   color: white;
   height: 30px;
   width: 100%;
-  margin-top: 3px;
+  top: 50px;
   overflow: hidden;
+  position: fixed;
+  z-index: 999;
+  border-top: 3px solid white;
 `
 
 const TopBarInner = styled.div`

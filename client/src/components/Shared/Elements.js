@@ -51,7 +51,7 @@ export const RadioBox = ({
 }) => {
   const [selectedOption, setSelectedOption] = useState(defaultValue ? defaultValue : null)
   return (
-    <>
+    <RadioElements>
       {options.map((item, i) => {
         return (
           <RadioOption
@@ -70,7 +70,7 @@ export const RadioBox = ({
           </RadioOption>
         )
       })}
-    </>
+    </RadioElements>
   )
 }
 
@@ -231,7 +231,7 @@ export const RadioBoxAnswer = ({
   const [selectedOption, setSelectedOption] = useState(selectedValue ? selectedValue : null)
 
   return (
-    <>
+    <RadioElements>
       {options.map((item, i) => {
         return (
           <RadioOption
@@ -264,7 +264,7 @@ export const RadioBoxAnswer = ({
         </NoSelectionText>
         : null}
 
-    </>
+    </RadioElements>
   )
 }
 
@@ -432,4 +432,8 @@ const DragAndDropResult = styled.div`
 
 const RadioBoxImage = styled.img`
   
+`
+
+const RadioElements = styled.div`
+ 
 `

@@ -121,6 +121,7 @@ const Session = (props) => {
 }
 
 const Container = styled.div`
+  padding-top: 80px;
 `
 const TopBar = styled.div`
   box-shadow: 10px 10px 20px rgba(0,0,0, 0.02);
@@ -129,18 +130,22 @@ const TopBar = styled.div`
   height: 50px;
   width: 100%;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 `
 
 const TopBarInner = styled.div`
   width: 100%;
   height: 100%;
-  padding: 0 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `
 const TopBarLeft = styled.div`
+  padding: 30px;
 `
 const TopBarRight = styled.div`
+padding: 30px;
 `
 export default connect(mapStateToProps, mapDispatchToProps)(Session)

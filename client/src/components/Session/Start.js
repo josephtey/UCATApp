@@ -73,15 +73,6 @@ const Container = styled.div`
   color: rgba(0,0,0,0.4)
 `
 
-const Button = styled.div`
-  background: #2ecfb0;
-  color: white;
-  border-radius: 10px;
-  padding: 10px 15px;
-  font-family: Gilroy-SemiBold;
-  cursor: pointer;
-`
-
 const WelcomeMessage = styled.div`
   font-family: Gilroy-Bold;
   text-transform: uppercase;

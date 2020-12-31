@@ -10,7 +10,7 @@ const Loading = (props) => {
     >
       <Loader
         type="TailSpin"
-        color="#2ecfb0"
+        color={props.duringSession ? "#006daa" : "#2ecfb0"}
         height={100}
         width={100}
       />

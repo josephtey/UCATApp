@@ -223,7 +223,7 @@ const Question = (props) => {
 
 
 const Container = styled.div`
-  padding: 30px 30px 100px 30px;
+  padding: 0 30px 0 30px;
 `
 
 const Text = styled.div`
@@ -241,6 +241,7 @@ const MainContent = styled.div`
 const QuestionContent = styled.div`
   flex: 2;
   width: 0;
+  padding-top: 30px;
 `
 
 const QuestionStem = styled.div`
@@ -253,6 +254,11 @@ const QuestionStem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-right: 7px solid #006daa;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 120px;
+  height: 100vh;
 `
 
 const QuestionStemText = styled.div`
