@@ -4,6 +4,7 @@ import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, 
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from '../Session/BottomBar'
+import TopBarSecondary from '../Session/TopBarSecondary'
 import { Button, LinkItem, RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 
@@ -28,32 +29,50 @@ const Question = (props) => {
 
   return (
     <>
+      <TopBarSecondary
+        leftContent={() => {
+          return (
+            <>
+              <TopLink>
+                Calculator
+              </TopLink>
+              <TopLink>
+                Scratch Pad
+              </TopLink>
+            </>
+          )
+        }}
+        rightContent={() => {
+          return (
+            <>
+              <TopLink>
+                <FlagButton
+                  flagged={
+                    props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id) ?
+                      props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id).flagged
+                      : false}
+
+                  action={(flagged) => {
+                    props.flagResponse(
+                      props.session.currentSession.session_id,
+                      props.session.currentQuestion.question_id,
+                      props.auth.userData.student_id,
+                      props.session.currentSection.section_id,
+                      flagged
+                    )
+                  }}
+                />
+                Flag for Review
+              </TopLink>
+              <TopLink>
+                Question {props.session.currentQuestionOrder.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentQuestionOrder.length}
+              </TopLink>
+            </>
+          )
+        }}
+      />
       {!props.session.isFetchingQuestionDetail ?
         <Container>
-          <PreHeading>
-            <PreHeadingLeft>
-              Question {props.session.currentQuestionOrder.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentQuestionOrder.length}
-            </PreHeadingLeft>
-            <PreHeadingRight>
-              <FlagButton
-                flagged={
-                  props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id) ?
-                    props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id).flagged
-                    : false}
-
-                action={(flagged) => {
-                  props.flagResponse(
-                    props.session.currentSession.session_id,
-                    props.session.currentQuestion.question_id,
-                    props.auth.userData.student_id,
-                    props.session.currentSection.section_id,
-                    flagged
-                  )
-                }}
-              />
-            </PreHeadingRight>
-          </PreHeading>
-
           <MainContent>
             {props.session.currentStem ?
               <QuestionStem>
@@ -73,9 +92,9 @@ const Question = (props) => {
               : null}
             <QuestionContent>
               {props.session.currentQuestion.question ?
-                <Title>
+                <Text>
                   {props.session.currentQuestion.question}
-                </Title>
+                </Text>
                 : null}
 
               {props.session.currentQuestion.image ?
@@ -130,7 +149,7 @@ const Question = (props) => {
                       const response = props.session.sessionResponses.find(
                         item => item.question_id === props.session.currentQuestion.question_id
                       )
-                      if (response && response.value.split(";").length > 0) {
+                      if (response && response.value && response.value.split(";").length > 0) {
                         return response.value.split(";")
                       } else {
                         return null
@@ -148,14 +167,13 @@ const Question = (props) => {
         leftContent={() => (
           <>
             {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] ?
-              <Button
+              <LinkLeft
                 onClick={() => {
                   props.reviewSection()
                 }}
-                type="secondary"
-                label="Review"
-                color="orange"
-              />
+              >
+                Review
+              </LinkLeft>
               : null}
           </>
         )}
@@ -163,8 +181,7 @@ const Question = (props) => {
         rightContent={() => (
           <>
             {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0] ?
-              <LinkItem
-                color="teal"
+              <LinkRight
                 onClick={() => {
                   const currentQuestionId = props.session.currentQuestion.question_id
                   const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
@@ -173,30 +190,29 @@ const Question = (props) => {
                 }}
               >
                 Previous Question
-              </LinkItem>
+              </LinkRight>
               : null}
 
             {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] ?
-              <Button
-                type="primary"
-                label="Next Question"
-                color="teal"
+              <LinkRight
                 onClick={() => {
                   const currentQuestionId = props.session.currentQuestion.question_id
                   const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
                   const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
                   props.getQuestionDetail(nextQuestion)
                 }}
-              />
+              >
+                Next Question
+              </LinkRight>
               :
-              <Button
+              <LinkRight
                 onClick={() => {
                   props.reviewSection()
                 }}
-                type="secondary"
-                label="Review"
-                color="orange"
-              />}
+              >
+                Review
+              </LinkRight>
+            }
           </>
         )}
       />
@@ -207,29 +223,13 @@ const Question = (props) => {
 
 
 const Container = styled.div`
-  padding: 30px 0 100px 0;;
+  padding: 30px 30px 100px 30px;
 `
 
-const Title = styled.div`
-  font-family: Gilroy-Bold;
-  font-size: 25px;
-  padding-bottom: 30px;
-`
-
-const PreHeading = styled.div`
-  font-family: Gilroy-Regular;
-  color: rgba(0,0,0,0.3);
-  padding-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between
-`
-
-const PreHeadingRight = styled.div`
-
-`
-const PreHeadingLeft = styled.div`
-
+const Text = styled.div`
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  margin-bottom: 30px;
 `
 
 const MainContent = styled.div`
@@ -239,22 +239,17 @@ const MainContent = styled.div`
 `
 
 const QuestionContent = styled.div`
-  flex: 1;
+  flex: 2;
   width: 0;
 `
 
 const QuestionStem = styled.div`
-  flex: 1;
+  flex: 3;
   width: 0;
   margin-right: 40px;
-  opacity: 0.7;
-  font-family: Gilroy-Regular;
+  font-family: Gilroy-Medium;
   text-align: justify;
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  padding: 25px;
-  background: white;
-  border-radius: 12px;
-  font-size: 13px;
+  font-size: 16px;;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,6 +266,30 @@ const QuestionStemImage = styled.img`
 const QuestionImage = styled.img`
   max-width: 100%;
   margin-bottom: 20px;
+`
+
+const LinkLeft = styled.div`
+  color: white;
+  cursor: pointer;
+  border-right: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const LinkRight = styled.div`
+  color: white;
+  cursor: pointer;
+  border-left: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const TopLink = styled.div`
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Question)

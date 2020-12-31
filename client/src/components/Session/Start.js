@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { stopSectionStart } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import BottomBar from '../Session/BottomBar'
+import TopBarSecondary from '../Session/TopBarSecondary'
 import styled from 'styled-components'
 
 const mapDispatchToProps = { stopSectionStart }
@@ -18,9 +19,18 @@ const Start = (props) => {
 
   return (
     <>
+      <TopBarSecondary
+        leftContent={() => {
+          return null
+        }}
+        rightContent={() => {
+          return null
+        }}
+      />
       <Container>
         <WelcomeMessage>
-          Welcome to {props.session.currentSection.name}
+          <UCATLogo src="https://practice.ucat.ac.uk/img/logo.png" />
+          UCAT PRACTICE TEST
         </WelcomeMessage>
 
         <Info>
@@ -33,22 +43,23 @@ const Start = (props) => {
       </Container>
 
       <BottomBar
-        leftContent={()=>(
-          <Link
-              onClick={() => {
-                props.returnHome();
-              }}
-            >I don't want to start this section now</Link>
+        leftContent={() => (
+          <LinkLeft
+            onClick={() => {
+              props.returnHome();
+            }}
+          >I don't want to start this section now
+          </LinkLeft>
         )}
-        
-        rightContent={()=>(
-          <Button
-              onClick={() => {
-                props.stopSectionStart(props.session.currentSession.session_id)
-              }}
-            >
-          Start Section!
-          </Button>
+
+        rightContent={() => (
+          <LinkRight
+            onClick={() => {
+              props.stopSectionStart(props.session.currentSession.session_id)
+            }}
+          >
+            Start Section
+          </LinkRight>
         )}
 
       />
@@ -58,7 +69,7 @@ const Start = (props) => {
 }
 
 const Container = styled.div`
-  padding: 30px 0;
+  padding: 30px;
   color: rgba(0,0,0,0.4)
 `
 
@@ -75,6 +86,15 @@ const WelcomeMessage = styled.div`
   font-family: Gilroy-Bold;
   text-transform: uppercase;
   padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+const UCATLogo = styled.img`
+  width: 250px;
+  margin-bottom: 20px;
 `
 
 const Info = styled.div`
@@ -85,9 +105,20 @@ const Warning = styled.div`
 
 `
 
-const Link = styled.div`
-  color: #f89800;
+const LinkLeft = styled.div`
+  color: white;
   cursor: pointer;
+  border-right: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const LinkRight = styled.div`
+  color: white;
+  cursor: pointer;
+  border-left: 2px solid white;
+  height: 100%;
+  padding: 15px;
 `
 
 

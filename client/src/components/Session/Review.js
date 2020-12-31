@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux'
 import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions } from '../../actions/session'
 import BottomBar from '../Session/BottomBar'
-import { Button } from '../Shared/Elements'
+import TopBarSecondary from '../Session/TopBarSecondary'
 import styled from 'styled-components'
 import {
   Text
@@ -26,6 +26,14 @@ const Review = (props) => {
 
   return (
     <>
+      <TopBarSecondary
+        leftContent={() => {
+          return null
+        }}
+        rightContent={() => {
+          return null
+        }}
+      />
       <Container>
         <Title>Review</Title>
 
@@ -61,37 +69,34 @@ const Review = (props) => {
         leftContent={() => (
           <>
             {incompleteQuestions.length > 0 ?
-              <Button
-                type="secondary"
-                color="orange"
-                label="Review Incomplete"
+              <LinkLeft
                 onClick={() => {
                   props.reviewQuestions(incompleteQuestions)
                   props.getQuestionDetail(incompleteQuestions[0])
                 }}
-              />
+              >
+                Review Incomplete
+              </LinkLeft>
               : null}
 
             {flaggedQuestions.length > 0 ?
-              <Button
-                type="secondary"
-                color="orange"
-                label="Review Flagged"
+              <LinkLeft
                 onClick={() => {
                   props.reviewQuestions(flaggedQuestions)
                   props.getQuestionDetail(flaggedQuestions[0])
                 }}
-              />
+              >
+                Review Flagged
+              </LinkLeft>
               : null}
 
-            <Button
-              type="secondary"
-              color="orange"
-              label="Review All"
+            <LinkLeft
               onClick={() => {
                 props.getQuestionDetail(props.session.currentSection.question_order[0])
               }}
-            />
+            >
+              Review All
+              </LinkLeft>
           </>
         )}
 
@@ -99,10 +104,7 @@ const Review = (props) => {
           <>
             {props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]
               ?
-              <Button
-                type="primary"
-                color="teal"
-                label="Next Section"
+              <LinkRight
                 onClick={() => {
                   const currentSectionId = props.session.currentSection.section_id
                   const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
@@ -111,17 +113,18 @@ const Review = (props) => {
                     props.session.currentStructure.section_order[currentSectionIndex + 1]
                   )
                 }}
-              />
+              >
+                Next Section
+              </LinkRight>
               :
 
-              <Button
+              <LinkRight
                 onClick={() => {
                   props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
                 }}
-                type="primary"
-                color="teal"
-                label="Finish Exam"
-              />
+              >
+                Finish Exam
+              </LinkRight>
             }
           </>
         )}
@@ -136,7 +139,7 @@ const Title = styled.div`
   padding-bottom: 40px;
 `
 const Container = styled.div`
-  padding: 30px 0;
+  padding: 30px;
 `
 const QuestionCards = styled.div`
   display: flex;
@@ -160,6 +163,21 @@ const Card = styled.div`
   &:nth-child(3n) {
     margin-right: 0;
   }
+`
+const LinkLeft = styled.div`
+  color: white;
+  cursor: pointer;
+  border-right: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const LinkRight = styled.div`
+  color: white;
+  cursor: pointer;
+  border-left: 2px solid white;
+  height: 100%;
+  padding: 15px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Review)

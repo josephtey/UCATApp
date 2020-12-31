@@ -283,9 +283,9 @@ export const FlagButton = ({
       }}
     >
       {isFlagged ?
-        <RiFlag2Fill color="#f89800" size={32} />
+        <RiFlag2Fill color="white" size={20} />
         :
-        <RiFlag2Line color="#f89800" size={32} />
+        <RiFlag2Line color="white" size={20} />
       }
     </FlagContainer>
   )
@@ -293,6 +293,7 @@ export const FlagButton = ({
 
 const FlagContainer = styled.div`
   cursor: pointer;
+  margin-right: 10px;
 `
 
 const OptionLeft = styled.div`

@@ -76,7 +76,6 @@ const Session = (props) => {
           <TopBarLeft>
             {props.session.currentSection ? props.session.currentSection.name : null}
           </TopBarLeft>
-          <img src={LogoImage} width="100" />
           <TopBarRight>
             {props.session.currentStructure.type === "Exam" ?
               <>
@@ -122,21 +121,20 @@ const Session = (props) => {
 }
 
 const Container = styled.div`
-  padding: 30px;
-  width: 1000px;
-  margin: 0 auto;
 `
 const TopBar = styled.div`
   box-shadow: 10px 10px 20px rgba(0,0,0, 0.02);
-  background: white;
-  height: 70px;
+  background: #006daa;
+  color: white;
+  height: 50px;
   width: 100%;
+  overflow: hidden;
 `
 
 const TopBarInner = styled.div`
-  width: 1000px;
+  width: 100%;
   height: 100%;
-  margin: 0 auto;
+  padding: 0 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;

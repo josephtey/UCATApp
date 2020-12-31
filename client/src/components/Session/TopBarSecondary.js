@@ -1,38 +1,36 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const BottomBar = ({
+const TopBarSecondary = ({
   leftContent,
   rightContent
 }) => {
   return (
     <Container>
-      <BottomBarInner>
-        <BottomBarLeft>
+      <TopBarInner>
+        <TopBarLeft>
           {leftContent()}
-        </BottomBarLeft>
-        <BottomBarRight>
+        </TopBarLeft>
+        <TopBarRight>
           {rightContent()}
-        </BottomBarRight>
-      </BottomBarInner>
+        </TopBarRight>
+      </TopBarInner>
     </Container>
   )
 }
 
-export default BottomBar
+export default TopBarSecondary
 
 const Container = styled.div`
-  box-shadow: -10px -10px 20px rgba(0,0,0, 0.02);
-  background: #006daa;
+  background: #80aee1;
   color: white;
-  height: 40px;
-  position: fixed;
+  height: 30px;
   width: 100%;
-  bottom: 0;
-  left: 0;
+  margin-top: 3px;
+  overflow: hidden;
 `
 
-const BottomBarInner = styled.div`
+const TopBarInner = styled.div`
   margin: 0;
   display: flex;
   align-items: center;
@@ -40,12 +38,12 @@ const BottomBarInner = styled.div`
   height: 100%;
 `
 
-const BottomBarLeft = styled.div`
+const TopBarLeft = styled.div`
   display: flex;
   align-items: center;
 `
 
-const BottomBarRight = styled.div`
+const TopBarRight = styled.div`
   display: flex;
   align-items: center;
 `
