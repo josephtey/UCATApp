@@ -6,6 +6,8 @@ import styled from 'styled-components'
 import BottomBar from './BottomBar'
 import { Button, LinkItem, RadioBoxAnswer, DragAndDropReview } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
+import TopBarSecondary from '../Session/TopBarSecondary'
+import { BiCalculator, BiBook } from "react-icons/bi";
 
 
 const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, changeMode }
@@ -28,13 +30,31 @@ const Answer = (props) => {
 
   return (
     <>
+      <TopBarSecondary
+        leftContent={() => {
+          return (
+            <>
+              <TopLink>
+                <BiCalculator color="white" size={20} /> Calculator
+              </TopLink>
+              <TopLink>
+                <BiBook color="white" size={20} /> Scratch Pad
+              </TopLink>
+            </>
+          )
+        }}
+        rightContent={() => {
+          return (
+            <>
+              <TopLink>
+                Question {props.session.currentQuestionOrder.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentQuestionOrder.length}
+              </TopLink>
+            </>
+          )
+        }}
+      />
       {!props.session.isFetchingQuestionDetail ?
         <Container>
-          <PreHeading>
-            <PreHeadingLeft>
-              Question {props.session.currentQuestionOrder.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentQuestionOrder.length}
-            </PreHeadingLeft>
-          </PreHeading>
 
           <MainContent>
             {props.session.currentStem ?
@@ -55,9 +75,9 @@ const Answer = (props) => {
               : null}
             <QuestionContent>
               {props.session.currentQuestion.question ?
-                <Title>
+                <Text>
                   {props.session.currentQuestion.question}
-                </Title>
+                </Text>
                 : null}
 
               {props.session.currentQuestion.image ?
@@ -99,8 +119,7 @@ const Answer = (props) => {
             </QuestionContent>
           </MainContent>
 
-          <ExplanationContent>
-            <PreHeading>Explanation</PreHeading>
+          {/* <ExplanationContent>
             {props.session.currentQuestion.explanation ?
               <ExplanationText>
                 {props.session.currentQuestion.explanation}
@@ -111,7 +130,7 @@ const Answer = (props) => {
                 </ExplanationText>
 
             }
-          </ExplanationContent>
+          </ExplanationContent> */}
 
         </Container >
         : <Loading duringSession={true} />
@@ -120,22 +139,20 @@ const Answer = (props) => {
       <BottomBar
         leftContent={() => (
           <>
-            <Button
+            <LinkLeft
               onClick={() => {
                 props.changeMode("results")
               }}
-              type="secondary"
-              label="Return to Results"
-              color="orange"
-            />
+            >
+              Return to Results
+            </LinkLeft>
           </>
         )}
 
         rightContent={() => (
           <>
             {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0] ?
-              <LinkItem
-                color="teal"
+              <LinkRight
                 onClick={() => {
                   const currentQuestionId = props.session.currentQuestion.question_id
                   const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
@@ -143,22 +160,21 @@ const Answer = (props) => {
                   props.getQuestionDetail(nextQuestion, "answer")
                 }}
               >
-                Previous Question
-              </LinkItem>
+                Previous
+              </LinkRight>
               : null}
 
             {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] ?
-              <Button
-                type="primary"
-                label="Next Question"
-                color="teal"
+              <LinkRight
                 onClick={() => {
                   const currentQuestionId = props.session.currentQuestion.question_id
                   const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
                   const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
                   props.getQuestionDetail(nextQuestion, "answer")
                 }}
-              />
+              >
+                Next
+              </LinkRight>
               :
               null}
           </>
@@ -178,25 +194,13 @@ const ExplanationText = styled.div`
 `
 
 const Container = styled.div`
-  padding: 30px 0 80px 0;
+  padding: 0 30px 0 30px;
 `
 
-const Title = styled.div`
-  font-family: Gilroy-Bold;
-  font-size: 25px;
-  padding-bottom: 30px;
-`
-
-const PreHeading = styled.div`
-  font-family: Gilroy-Regular;
-  color: rgba(0,0,0,0.3);
-  padding-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between
-`
-const PreHeadingLeft = styled.div`
-
+const Text = styled.div`
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  margin-bottom: 30px;
 `
 
 const MainContent = styled.div`
@@ -206,23 +210,28 @@ const MainContent = styled.div`
 `
 
 const QuestionContent = styled.div`
-  flex: 1;
+  flex: 2;
   width: 0;
+  padding-top: 30px;
 `
 
 const QuestionStem = styled.div`
-  flex: 1;
+  flex: 3;
   width: 0;
   margin-right: 40px;
-  opacity: 0.7;
-  font-family: Gilroy-Regular;
+  font-family: Gilroy-Medium;
   text-align: justify;
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  padding: 25px;
-  background: white;
-  border-radius: 12px;
-  font-size: 13px;
+  font-size: 16px;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 7px solid #006daa;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  height: 100vh;
 `
+
 const QuestionStemText = styled.div`
   margin-bottom: 25px;
 `
@@ -235,5 +244,35 @@ const QuestionImage = styled.img`
   max-width: 100%;
   margin-bottom: 20px;
 `
+
+
+const LinkLeft = styled.div`
+  color: white;
+  cursor: pointer;
+  border-right: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const LinkRight = styled.div`
+  color: white;
+  cursor: pointer;
+  border-left: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const TopLink = styled.div`
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  svg{
+    margin-right: 5px;
+  }
+`
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(Answer)

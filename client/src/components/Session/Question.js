@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux'
 import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from '../Session/BottomBar'
 import TopBarSecondary from '../Session/TopBarSecondary'
-import { Button, LinkItem, RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
+import { RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 import { BiCalculator, BiBook } from "react-icons/bi";
 

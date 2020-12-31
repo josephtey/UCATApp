@@ -239,37 +239,42 @@ export const RadioBoxAnswer = ({
   selectedValue,
   images
 }) => {
-  const [selectedOption, setSelectedOption] = useState(selectedValue ? selectedValue : null)
-
   return (
     <RadioElements>
       {options.map((item, i) => {
         return (
           <RadioOption
             key={i}
-            selected={item === correctValue ? true : false}
-            wrong={item === selectedOption && correctValue !== selectedOption ? true : false}
-            className="hvr-forward"
+
           >
-            <OptionLeft>
+            <RadioCircle>
+              {selectedValue == item ?
+                <BsCircleFill />
+                :
+                <BsCircle />
+              }
+            </RadioCircle>
+            <RadioContent>
               {item}
               {images && images[i] ? <RadioBoxImage src={images[i]} /> : null}
-            </OptionLeft>
+            </RadioContent>
             <OptionRight>
-              {item === selectedOption && correctValue !== selectedOption ?
+              {item === selectedValue && correctValue !== selectedValue ?
                 "Your answer: Wrong!"
-                : item === correctValue && correctValue !== selectedOption ?
+                : item === correctValue && correctValue !== selectedValue ?
                   "Correct Answer"
-                  : item === selectedOption && correctValue === selectedOption ?
+                  : item === selectedValue && correctValue === selectedValue ?
                     "Your answer: Correct!"
                     : null
               }
             </OptionRight>
           </RadioOption>
+
+
         )
       })}
 
-      {!selectedOption ?
+      {!selectedValue ?
         <NoSelectionText>
           You didn't select an option.
         </NoSelectionText>
@@ -316,8 +321,6 @@ const OptionRight = styled.div`
 `
 
 const RadioOption = styled.div`
-  background: ${props => props.wrong ? 'red' : props.selected ? '#2ecfb0' : 'white'};
-  color: ${props => props.selected || props.wrong ? 'white' : 'black'};
   margin-bottom: 10px;
   max-width: 100%;
   display: flex;
