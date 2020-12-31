@@ -9,6 +9,7 @@ import {
 } from 'rebass'
 import { TiTick, TiTimes } from "react-icons/ti";
 import BottomBar from './BottomBar'
+import TopBarSecondary from './TopBarSecondary'
 
 const mapDispatchToProps = { getSessionResponses, getQuestionDetail, getSection, resetSection }
 
@@ -30,9 +31,17 @@ const Results = (props) => {
 
   return (
     <>
+      <TopBarSecondary
+        leftContent={() => {
+          return null
+        }}
+        rightContent={() => {
+          return null
+        }}
+      />
       {!props.session.isFetchingResponses ?
         <Container>
-          <PreHeading>Results</PreHeading>
+          <Title>Final Answer Review Screen</Title>
           {props.session.allSections.map((section, i) => {
             return (
               <SectionBox
@@ -106,12 +115,11 @@ const Results = (props) => {
 
         leftContent={() => (
           <>
-            <Button
-              label="Return Home"
-              type="secondary"
-              color="orange"
+            <LinkLeft
               onClick={props.returnHome}
-            />
+            >
+              Return Home
+            </LinkLeft>
           </>
         )}
       />
@@ -119,14 +127,17 @@ const Results = (props) => {
   )
 }
 
-const PreHeading = styled.div`
-  font-family: Gilroy-Regular;
-  color: rgba(0,0,0,0.3);
-  padding-bottom: 10px;
+const Title = styled.div`
+  font-size: 20px;
+  font-family: Gilroy-Bold;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 const Container = styled.div`
-  padding: 30px 0;
+  padding: 30px;
 `
 const SectionTitle = styled.div`
   font-family: Gilroy-Bold;
@@ -146,7 +157,7 @@ const Card = styled.div`
   border-radius: 15px;
   margin-right: 10px;
   margin-bottom: 10px;
-  flex-basis: 28.5%;
+  flex-basis: 29.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -172,5 +183,20 @@ const SectionScore = styled.div`
 const SectionBox = styled.div`
 `
 
+const LinkLeft = styled.div`
+  color: white;
+  cursor: pointer;
+  border-right: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const LinkRight = styled.div`
+  color: white;
+  cursor: pointer;
+  border-left: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
 
 export default connect(mapStateToProps, mapDispatchToProps)(Results)

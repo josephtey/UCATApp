@@ -7,7 +7,7 @@ import styled from 'styled-components'
 import {
   Text
 } from 'rebass'
-import { RiFlag2Fill } from "react-icons/ri";
+import { RiFlag2Fill, RiFlag2Line } from "react-icons/ri";
 import { getIncompleteQuestions, filterResponses } from '../../utils/helpers'
 
 const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions }
@@ -35,7 +35,27 @@ const Review = (props) => {
         }}
       />
       <Container>
-        <Title>Review</Title>
+        <Title>{props.session.currentSection.name} Review Screen</Title>
+
+        <Description>
+          <p>Below is a summary of your answers. You can review your questions in three (3) different ways.</p>
+
+          <p>The buttons in the lower right-hand corner correspond to these choices:</p>
+          <p>
+            1. Review all of your questions and answers.
+          </p>
+          <p>
+            2. Review questions that are incomplete.
+          </p>
+          <p>
+            3. Review questions that are flagged for review. (Click the 'flag' icon to change the flag for review status.)
+          </p>
+
+          <p>
+            You may also click on a question number to link directly to its location in the exam.
+          </p>
+
+        </Description>
 
         <QuestionCards>
           {props.session.currentSection.question_order.map((question_id, i) => {
@@ -45,66 +65,72 @@ const Review = (props) => {
               <Card key={i} onClick={() => {
                 props.getQuestionDetail(question_id)
               }}
-                answered={answered && answered.value ? true : false}
                 className="hvr-float"
               >
-                <Text>Question {i + 1}</Text>
-                {!answered ? null :
-                  <>
-                    {answered.flagged ?
-                      <RiFlag2Fill color={
-                        answered.value ? 'white' : '#f89800'
-                      } size={20} />
-                      :
-                      null
-                    }
-                  </>
-                }
+                <CardLeft>
+                  {answered && answered.flagged ?
+                    <RiFlag2Fill color={'black'} size={20} />
+                    :
+                    <RiFlag2Line color={'black'} size={20} />
+                  }
+                  <Text>Question {i + 1}</Text>
+                </CardLeft>
+                <CardRight>
+                  {answered && answered.value ?
+                    null
+                    :
+                    <>
+                      Incomplete
+                    </>
+                  }
+                </CardRight>
+
+
               </Card>
             )
           })}
         </QuestionCards>
       </Container >
       <BottomBar
-        leftContent={() => (
+        rightContent={() => (
           <>
             {incompleteQuestions.length > 0 ?
-              <LinkLeft
+              <LinkRight
                 onClick={() => {
                   props.reviewQuestions(incompleteQuestions)
                   props.getQuestionDetail(incompleteQuestions[0])
                 }}
               >
                 Review Incomplete
-              </LinkLeft>
+              </LinkRight>
               : null}
 
             {flaggedQuestions.length > 0 ?
-              <LinkLeft
+              <LinkRight
                 onClick={() => {
                   props.reviewQuestions(flaggedQuestions)
                   props.getQuestionDetail(flaggedQuestions[0])
                 }}
               >
                 Review Flagged
-              </LinkLeft>
+              </LinkRight>
               : null}
 
-            <LinkLeft
+            <LinkRight
               onClick={() => {
                 props.getQuestionDetail(props.session.currentSection.question_order[0])
               }}
             >
               Review All
-              </LinkLeft>
+              </LinkRight>
           </>
         )}
 
-        rightContent={() => (
+        leftContent={() => (
           <>
             {props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]
               ?
-              <LinkRight
+              <LinkLeft
                 onClick={() => {
                   const currentSectionId = props.session.currentSection.section_id
                   const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
@@ -114,17 +140,17 @@ const Review = (props) => {
                   )
                 }}
               >
-                Next Section
-              </LinkRight>
+                End Review
+              </LinkLeft>
               :
 
-              <LinkRight
+              <LinkLeft
                 onClick={() => {
                   props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
                 }}
               >
                 Finish Exam
-              </LinkRight>
+              </LinkLeft>
             }
           </>
         )}
@@ -133,10 +159,17 @@ const Review = (props) => {
   )
 }
 
+const Description = styled.div`
+  margin: 40px 0;
+`
+
 const Title = styled.div`
   font-size: 20px;
   font-family: Gilroy-Bold;
-  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 const Container = styled.div`
   padding: 30px;
@@ -154,7 +187,7 @@ const Card = styled.div`
   border-radius: 15px;
   margin-right: 10px;
   margin-bottom: 10px;
-  flex-basis: 28.5%;
+  flex-basis: 29.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -178,6 +211,18 @@ const LinkRight = styled.div`
   border-left: 2px solid white;
   height: 100%;
   padding: 15px;
+`
+
+const CardLeft = styled.div`
+  display: flex;
+
+  svg {
+    margin-right: 5px;
+  }
+`
+
+const CardRight = styled.div`
+  color: #f89800;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Review)

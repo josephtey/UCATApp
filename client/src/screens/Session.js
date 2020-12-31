@@ -74,7 +74,11 @@ const Session = (props) => {
       <TopBar>
         <TopBarInner>
           <TopBarLeft>
-            {props.session.currentStructure.name} - {props.session.currentSection.name}
+            {props.session.currentStructure && props.session.currentSection ?
+              <>
+                {props.session.currentStructure.name} - {props.session.currentSection.name}
+              </>
+              : null}
           </TopBarLeft>
           <TopBarRight>
             {props.session.currentStructure.type === "Exam" ?

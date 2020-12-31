@@ -318,12 +318,12 @@ const OptionRight = styled.div`
 const RadioOption = styled.div`
   background: ${props => props.wrong ? 'red' : props.selected ? '#2ecfb0' : 'white'};
   color: ${props => props.selected || props.wrong ? 'white' : 'black'};
-  padding: 20px;
   margin-bottom: 10px;
   max-width: 100%;
   display: flex;
   align-items: center;  
   cursor: pointer;
+  padding: 10px 0;
 `
 
 

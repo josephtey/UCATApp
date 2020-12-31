@@ -168,15 +168,20 @@ const Question = (props) => {
       <BottomBar
         leftContent={() => (
           <>
-            {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] ?
-              <LinkLeft
-                onClick={() => {
-                  props.reviewSection()
-                }}
-              >
-                Review
-              </LinkLeft>
-              : null}
+            <LinkLeft
+              onClick={() => {
+
+              }}
+            >
+              End Exam
+            </LinkLeft>
+            <LinkLeft
+              onClick={() => {
+                props.reviewSection()
+              }}
+            >
+              Review Screen
+            </LinkLeft>
           </>
         )}
 
@@ -191,7 +196,7 @@ const Question = (props) => {
                   props.getQuestionDetail(nextQuestion)
                 }}
               >
-                Previous Question
+                Previous
               </LinkRight>
               : null}
 
@@ -204,7 +209,7 @@ const Question = (props) => {
                   props.getQuestionDetail(nextQuestion)
                 }}
               >
-                Next Question
+                Next
               </LinkRight>
               :
               <LinkRight
@@ -212,7 +217,7 @@ const Question = (props) => {
                   props.reviewSection()
                 }}
               >
-                Review
+                Next
               </LinkRight>
             }
           </>
