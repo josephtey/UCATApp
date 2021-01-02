@@ -109,9 +109,12 @@ const Answer = (props) => {
       {!props.session.isFetchingQuestionDetail ?
         <Container>
 
-          <MainContent>
+          <MainContent
+            layout={props.session.currentStem.layout ? props.session.currentStem.layout : "side by side"}
+          >
             {props.session.currentStem ?
-              <QuestionStem>
+              <QuestionStem
+                layout={props.session.currentStem.layout ? props.session.currentStem.layout : "side by side"}>
                 {props.session.currentStem.text ?
                   <QuestionStemText>
                     {props.session.currentStem.text.split("<br/>").map((para) => {
@@ -126,7 +129,9 @@ const Answer = (props) => {
                 <QuestionStemImage src={props.session.currentStem.image} />
               </QuestionStem>
               : null}
-            <QuestionContent>
+            <QuestionContent
+              layout={props.session.currentStem.layout ? props.session.currentStem.layout : "side by side"}
+            >
               {props.session.currentQuestion.question ?
                 <Text>
                   {props.session.currentQuestion.question}
@@ -257,31 +262,30 @@ const Text = styled.div`
 
 const MainContent = styled.div`
   display: flex;
+  flex-direction: ${props => props.layout == "normal" ? "column" : "row"};
   align-items: flex-start;
-
 `
 
 const QuestionContent = styled.div`
-  flex: 2;
-  width: 0;
-  padding-top: 30px;
+  ${props => props.layout == "normal" ? '' : 'flex: 2;'}
+  width: ${props => props.layout == "normal" ? 'auto' : 0};
+  padding: 30px 0 50px 0;
 `
 
 const QuestionStem = styled.div`
-  flex: 3;
-  width: 0;
+  ${props => props.layout == "normal" ? '' : 'flex: 3;'}
+  width: ${props => props.layout == "normal" ? 'auto' : 0};
   margin-right: 40px;
   font-family: Gilroy-Medium;
   text-align: justify;
-  font-size: 16px;;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 7px solid #006daa;
+  border-right: ${props => props.layout == "normal" ? 'none' : '7px solid #006daa;'};
   padding-right: 30px;
   padding-top: 30px;
-  padding-bottom: 200px;
-  height: 100vh;
+  min-height: ${props => props.layout == "normal" ? '0' : '100vh'};
 `
 
 const QuestionStemText = styled.div`

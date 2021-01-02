@@ -200,10 +200,10 @@ export const db_createQuestion = async (type,
   return response.data
 }
 
-export const db_createStem = async (text, question_order, image, category_id, type) => {
+export const db_createStem = async (text, question_order, image, category_id, type, layout) => {
 
   const response = await db.put(`/stems`, {
-    text, question_order, image, category_id, type
+    text, question_order, image, category_id, type, layout
   })
 
   return response.data
@@ -267,7 +267,8 @@ export const import_questions = async (data) => {
         null,
         stem.image ? stem.image : null,
         stem.category_id ? stem.category_id : null,
-        "Bank"
+        "Bank",
+        stem.layout ? stem.layout : null,
       )
 
       console.log("CREATED STEM: ", createdStem)
@@ -324,7 +325,8 @@ export const import_exam = async (data) => {
           null,
           stem.image ? stem.image : null,
           stem.category_id ? stem.category_id : null,
-          "Exam"
+          "Exam",
+          stem.layout ? stem.layout : null,
         )
 
         console.log("CREATED STEM: ", createdStem)

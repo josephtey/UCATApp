@@ -14,6 +14,7 @@
         {
           "text": "All countries provide Visas to the passport holders of country X; country B provides Visas to the passport holders of only two countries; country A provides Visas to the passport holders of country B and vice versa.",
           "category_id": 1,
+          "layout": "normal",
           "questions": [
             {
               "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
@@ -41,6 +42,7 @@
           "text": "There are eight apartments on a floor; each apartment has either one, two, three or four rooms, as shown in the figure. Each apartment is owned by one of four owners: Adam, Flora, Gary or Rose. Each owner owns two apartments.<br/><br/>Both of Adam's apartments are in the same horizontal row but do not share a wall.<br/>Either Rose or Flora, have the same number of rooms in their two apartments.<br/>Gary's two apartments share one dividing wall and neither Gary nor Flora have a 3-room apartment.",
           "image": "https://practice.ucat.ac.uk/uploads/content/exam_42/rsz_DM_2015_logic_EW_11%20VF%20edit.jpg",
           "category_id": 1,
+          "layout": "side by side",
           "questions": [
             {
               "text": "The 1-room apartments belong to whch of the following owners?",
