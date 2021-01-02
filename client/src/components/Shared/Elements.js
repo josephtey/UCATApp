@@ -215,14 +215,16 @@ export const DragAndDropReview = ({
               <DragAndDropOption>
                 {item}
               </DragAndDropOption>
-              <DragAndDropAnswer>
+              <DragAndDropAnswer
+                dropped={selectedValue() && selectedValue()[i] ? true : false}
+              >
                 {selectedValue() && selectedValue()[i]}
               </DragAndDropAnswer>
               <DragAndDropResult>
                 {selectedValue() && correctValue[i] === selectedValue()[i] ?
-                  <TiTick color="#2ecfaf" size={30} />
+                  <TiTick color="green" size={30} />
                   :
-                  <TiTimes color="#f89800" size={30} />
+                  <TiTimes color="red" size={30} />
                 }
               </DragAndDropResult>
             </DragAndDropContainer>
@@ -239,6 +241,12 @@ export const RadioBoxAnswer = ({
   selectedValue,
   images
 }) => {
+
+  useEffect(() => {
+    console.log(selectedValue, correctValue)
+  })
+
+
   return (
     <RadioElements>
       {options.map((item, i) => {
@@ -248,33 +256,35 @@ export const RadioBoxAnswer = ({
 
           >
             <RadioCircle>
-              {selectedValue == item ?
+              {selectedValue() == item ?
                 <BsCircleFill />
                 :
                 <BsCircle />
               }
             </RadioCircle>
             <RadioContent>
-              {item}
-              {images && images[i] ? <RadioBoxImage src={images[i]} /> : null}
+              <Content>
+                {item}
+                {images && images[i] ? <RadioBoxImage src={images[i]} /> : null}
+              </Content>
+              <Result>
+                {item === selectedValue() && correctValue !== selectedValue() ?
+                  <Text color="red">Your answer: Wrong!</Text>
+                  : item === correctValue && correctValue !== selectedValue() ?
+                    <Text color="green">Correct Answer</Text>
+                    : item === selectedValue() && correctValue === selectedValue() ?
+                      <Text color="green">Your answer: Correct!</Text>
+                      : null
+                }
+              </Result>
             </RadioContent>
-            <OptionRight>
-              {item === selectedValue && correctValue !== selectedValue ?
-                "Your answer: Wrong!"
-                : item === correctValue && correctValue !== selectedValue ?
-                  "Correct Answer"
-                  : item === selectedValue && correctValue === selectedValue ?
-                    "Your answer: Correct!"
-                    : null
-              }
-            </OptionRight>
           </RadioOption>
 
 
         )
       })}
 
-      {!selectedValue ?
+      {!selectedValue() ?
         <NoSelectionText>
           You didn't select an option.
         </NoSelectionText>
@@ -303,6 +313,8 @@ export const FlagButton = ({
         :
         <RiFlag2Line color="white" size={20} />
       }
+
+      Flag for Review
     </FlagContainer>
   )
 }
@@ -310,16 +322,10 @@ export const FlagButton = ({
 const FlagContainer = styled.div`
   cursor: pointer;
   margin-right: 10px;
-`
-
-const OptionLeft = styled.div`
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `
-
-const OptionRight = styled.div`
-`
-
 const RadioOption = styled.div`
   margin-bottom: 10px;
   max-width: 100%;
@@ -451,7 +457,21 @@ const RadioCircle = styled.div`
 
 const RadioContent = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
+  flex-direction: column;
+`
+
+const Content = styled.div`
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+`
+
+const Result = styled.div`
+
+`
+
+const Text = styled.div`
+  color: ${props => props.color}
 `

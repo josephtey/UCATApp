@@ -48,29 +48,29 @@ const App = (props) => {
 
   return (
     <ThemeProvider theme={theme}>
-
-      <Router>
-        {authenticated ?
-          <>
-            <Route render={(props) => <NavBar {...props} setAuthenticated={setAuthenticated} />} />
-            <Switch>
-              <Route path={'/session/:session_id'} component={Session} />
-              <Route path={'/exam/:structure_id'} component={Exam} />
-              <Route path={'/mock/:structure_id'} component={Exam} />
-              <Route path={'/practice/:category_id'} component={PracticeTopic} />
-              <Route path='/practice' component={Practice} />
-              <Route path='/import' component={Import} />
-              <Route path='/mocks' render={(props) => <Home {...props} type={"Mock"} />} />
-              <Route path='/' render={(props) => <Home {...props} type={"Exam"} />} />
-            </Switch>
-          </>
-          :
-          <>
-            <Route render={(props) => <Login {...props} setAuthenticated={setAuthenticated} />} />
-          </>
-        }
-      </Router>
-
+      <div id="root">
+        <Router>
+          {authenticated ?
+            <>
+              <Route render={(props) => <NavBar {...props} setAuthenticated={setAuthenticated} />} />
+              <Switch>
+                <Route path={'/session/:session_id'} component={Session} />
+                <Route path={'/exam/:structure_id'} component={Exam} />
+                <Route path={'/mock/:structure_id'} component={Exam} />
+                <Route path={'/practice/:category_id'} component={PracticeTopic} />
+                <Route path='/practice' component={Practice} />
+                <Route path='/import' component={Import} />
+                <Route path='/mocks' render={(props) => <Home {...props} type={"Mock"} />} />
+                <Route path='/' render={(props) => <Home {...props} type={"Exam"} />} />
+              </Switch>
+            </>
+            :
+            <>
+              <Route render={(props) => <Login {...props} setAuthenticated={setAuthenticated} />} />
+            </>
+          }
+        </Router>
+      </div>
 
     </ThemeProvider>
   )

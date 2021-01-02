@@ -9,6 +9,7 @@ import {
 } from 'rebass'
 import { TiTick, TiTimes } from "react-icons/ti";
 import BottomBar from './BottomBar'
+import ReviewCards from './ReviewCards'
 import TopBarSecondary from './TopBarSecondary'
 
 const mapDispatchToProps = { getSessionResponses, getQuestionDetail, getSection, resetSection }
@@ -42,6 +43,12 @@ const Results = (props) => {
       {!props.session.isFetchingResponses ?
         <Container>
           <Title>Final Answer Review Screen</Title>
+
+          <Description>
+            <p>This review section allows you to view the answers you made and see whether they were correct or not. Each question accessed from this screen has an 'Explain Answer' button in the top left hand side. By clicking on this you will obtain an explanation as to the correct answer.</p>
+          </Description>
+
+
           {props.session.allSections.map((section, i) => {
             return (
               <SectionBox
@@ -60,28 +67,15 @@ const Results = (props) => {
                   </SectionScore>
                 </SectionHeader>
 
-                <SectionCards>
-                  {section.question_order.map((question_id, j) => {
-                    const response = props.session.sessionResponses.find(item => item.question_id === question_id)
-
-                    return (
-                      <Card
-                        key={j}
-                        correct={response && response.correct ? true : false}
-                        onClick={() => {
-                          props.getQuestionDetail(question_id, "answer")
-                          props.getSection(section.section_id, section.question_order, question_id)
-                        }}
-                      >
-                        <Text>Question {j + 1}</Text>
-                        {response && response.correct ?
-                          <TiTick color="white" size={30} />
-                          : <TiTimes color="#f89800" size={30} />
-                        }
-                      </Card>
-                    )
-                  })}
-                </SectionCards>
+                <ReviewCards
+                  section={section}
+                  responses={props.session.sessionResponses}
+                  onClick={(question_id, section) => {
+                    props.getQuestionDetail(question_id, "answer")
+                    props.getSection(section.section_id, section.question_order, question_id)
+                  }}
+                  mode="Results"
+                />
               </SectionBox>
             )
           })}
@@ -136,6 +130,10 @@ const Title = styled.div`
   align-items: center;
 `
 
+const Description = styled.div`
+  margin: 30px 0;
+`
+
 const Container = styled.div`
   padding: 30px;
 `
@@ -143,29 +141,6 @@ const SectionTitle = styled.div`
   font-family: Gilroy-Bold;
   padding: 15px 0;
   font-size: 20px;
-`
-
-const SectionCards = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`
-const Card = styled.div`
-  background: ${props => props.correct ? '#2ecfb0' : 'white'};
-  color: ${props => props.correct ? 'white' : 'black'};
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  padding: 20px;
-  border-radius: 15px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  flex-basis: 29.5%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-
-  &:nth-child(3n) {
-    margin-right: 0;
-  }
 `
 
 const SectionHeader = styled.div`

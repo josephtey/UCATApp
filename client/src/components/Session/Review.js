@@ -4,11 +4,8 @@ import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finish
 import BottomBar from '../Session/BottomBar'
 import TopBarSecondary from '../Session/TopBarSecondary'
 import styled from 'styled-components'
-import {
-  Text
-} from 'rebass'
-import { RiFlag2Fill, RiFlag2Line } from "react-icons/ri";
 import { getIncompleteQuestions, filterResponses } from '../../utils/helpers'
+import ReviewCards from './ReviewCards'
 
 const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions }
 
@@ -57,39 +54,14 @@ const Review = (props) => {
 
         </Description>
 
-        <QuestionCards>
-          {props.session.currentSection.question_order.map((question_id, i) => {
-            const answered = props.session.sessionResponses.find(item => item.question_id === question_id)
-
-            return (
-              <Card key={i} onClick={() => {
-                props.getQuestionDetail(question_id)
-              }}
-                className="hvr-float"
-              >
-                <CardLeft>
-                  {answered && answered.flagged ?
-                    <RiFlag2Fill color={'black'} size={20} />
-                    :
-                    <RiFlag2Line color={'black'} size={20} />
-                  }
-                  <Text>Question {i + 1}</Text>
-                </CardLeft>
-                <CardRight>
-                  {answered && answered.value ?
-                    null
-                    :
-                    <>
-                      Incomplete
-                    </>
-                  }
-                </CardRight>
-
-
-              </Card>
-            )
-          })}
-        </QuestionCards>
+        <ReviewCards
+          section={props.session.currentSection}
+          responses={props.session.sessionResponses}
+          onClick={(question_id) => {
+            props.getQuestionDetail(question_id)
+          }}
+          mode="Review"
+        />
       </Container >
       <BottomBar
         rightContent={() => (
@@ -174,29 +146,6 @@ const Title = styled.div`
 const Container = styled.div`
   padding: 30px;
 `
-const QuestionCards = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`
-const Card = styled.div`
-  background: ${props => props.answered ? '#2ecfb0' : 'white'};
-  color: ${props => props.answered ? 'white' : 'black'};
-
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  padding: 20px;
-  border-radius: 15px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  flex-basis: 29.5%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-
-  &:nth-child(3n) {
-    margin-right: 0;
-  }
-`
 const LinkLeft = styled.div`
   color: white;
   cursor: pointer;
@@ -211,18 +160,6 @@ const LinkRight = styled.div`
   border-left: 2px solid white;
   height: 100%;
   padding: 15px;
-`
-
-const CardLeft = styled.div`
-  display: flex;
-
-  svg {
-    margin-right: 5px;
-  }
-`
-
-const CardRight = styled.div`
-  color: #f89800;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Review)

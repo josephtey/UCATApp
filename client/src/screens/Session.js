@@ -69,7 +69,7 @@ const Session = (props) => {
   if (!props.session.currentSession || !props.session.currentStructure) return null
 
   return (
-    <>
+    <SessionContainer>
 
       <TopBar>
         <TopBarInner>
@@ -120,9 +120,14 @@ const Session = (props) => {
                   : null
         }
       </Container>
-    </>
+    </SessionContainer>
   )
 }
+
+const SessionContainer = styled.div`
+  background: white;
+  min-height: 100vh;
+`
 
 const Container = styled.div`
   padding-top: 80px;

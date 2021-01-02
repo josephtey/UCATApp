@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux'
 import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, changeMode } from '../../actions/session'
 import Loading from '../Shared/Loading'
@@ -8,6 +8,8 @@ import { Button, LinkItem, RadioBoxAnswer, DragAndDropReview } from '../Shared/E
 import { useDidMountEffect } from '../../utils/helpers';
 import TopBarSecondary from '../Session/TopBarSecondary'
 import { BiCalculator, BiBook } from "react-icons/bi";
+import Modal from 'react-modal';
+import { TiTimes } from "react-icons/ti";
 
 
 const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, changeMode }
@@ -16,7 +18,21 @@ const mapStateToProps = (state) => {
   return state
 }
 
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)'
+  }
+};
+
+Modal.setAppElement('#root')
+
 const Answer = (props) => {
+  const [modalIsOpen, setIsOpen] = useState(false);
 
   useDidMountEffect(() => {
     props.getSessionResponses(
@@ -40,6 +56,43 @@ const Answer = (props) => {
               <TopLink>
                 <BiBook color="white" size={20} /> Scratch Pad
               </TopLink>
+              <TopLink onClick={() => {
+                setIsOpen(true)
+              }}>
+                Show Explanation
+              </TopLink>
+              <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={() => {
+                  setIsOpen(false)
+                }}
+                style={customStyles}
+                contentLabel="Example Modal"
+              >
+                <ExplanationContent>
+                  <ExplanationTitle>
+                    <ExplanationText>Explanation</ExplanationText>
+                    <CloseButton
+                      onClick={() => {
+                        setIsOpen(false)
+                      }}
+                    >
+                      <TiTimes size={30} />
+                    </CloseButton>
+
+                  </ExplanationTitle>
+                  {props.session.currentQuestion.explanation ?
+                    <ExplanationText>
+                      {props.session.currentQuestion.explanation}
+                    </ExplanationText>
+                    :
+                    <ExplanationText>
+                      There is no explanation for this question.
+                      </ExplanationText>
+
+                  }
+                </ExplanationContent>
+              </Modal>
             </>
           )
         }}
@@ -119,19 +172,6 @@ const Answer = (props) => {
             </QuestionContent>
           </MainContent>
 
-          {/* <ExplanationContent>
-            {props.session.currentQuestion.explanation ?
-              <ExplanationText>
-                {props.session.currentQuestion.explanation}
-              </ExplanationText>
-              :
-              <ExplanationText>
-                There is no explanation for this question.
-                </ExplanationText>
-
-            }
-          </ExplanationContent> */}
-
         </Container >
         : <Loading duringSession={true} />
       }
@@ -187,10 +227,22 @@ const Answer = (props) => {
 
 const ExplanationContent = styled.div`
   margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
 `
 
 const ExplanationText = styled.div`
 
+`
+
+const ExplanationTitle = styled.div`
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
 `
 
 const Container = styled.div`
@@ -268,11 +320,15 @@ const TopLink = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   
   svg{
     margin-right: 5px;
   }
 `
 
+const CloseButton = styled.div`
+  cursor: pointer;
+`
 
 export default connect(mapStateToProps, mapDispatchToProps)(Answer)

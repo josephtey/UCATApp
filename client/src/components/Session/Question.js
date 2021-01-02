@@ -64,7 +64,6 @@ const Question = (props) => {
                     )
                   }}
                 />
-                Flag for Review
               </TopLink>
               <TopLink>
                 Question {props.session.currentQuestionOrder.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentQuestionOrder.length}
@@ -257,15 +256,14 @@ const QuestionStem = styled.div`
   margin-right: 40px;
   font-family: Gilroy-Medium;
   text-align: justify;
-  font-size: 16px;;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-right: 7px solid #006daa;
   padding-right: 30px;
   padding-top: 30px;
-  padding-bottom: 200px;
-  height: 100vh;
+  min-height: 100vh;
 `
 
 const QuestionStemText = styled.div`
