@@ -17,8 +17,8 @@ import {
   db_getCompletedQuestions,
   db_getCategoryQuestions,
   db_createSection,
-  db_createExam
-
+  db_createExam,
+  db_updateReviewSession
 } from '../api/db';
 import { filterResponses } from '../utils/helpers'
 import {
@@ -217,8 +217,8 @@ export const nextSection = (session_id, section_id) => async dispatch => {
       currentStem = await db_findStem(currentQuestion.stem_id)
     }
     const updatedSession = await db_updateSessionTime(session_id, "end")
-
-    dispatch(nextSectionSuccess(sessionResponses, currentSection.details, currentQuestion, updatedSession, currentStem))
+    const updatedSession2 = await db_updateReviewSession(session_id, false)
+    dispatch(nextSectionSuccess(sessionResponses, currentSection.details, currentQuestion, updatedSession2, currentStem))
 
   } catch (error) {
     dispatch(nextSectionError(error));
@@ -328,10 +328,26 @@ export const getQuestionDetail = (question_id, mode = "question") => async dispa
   }
 };
 
-export const REVIEW_SECTION = 'REVIEW_SECTION';
-export const reviewSection = () => {
-  return { type: REVIEW_SECTION };
-}
+export const REVIEW_SECTION_REQUEST = 'REVIEW_SECTION_REQUEST';
+export const REVIEW_SECTION_SUCCESS = 'REVIEW_SECTION_SUCCESS';
+export const REVIEW_SECTION_ERROR = 'REVIEW_SECTION_ERROR';
+
+const reviewSectionRequest = { type: REVIEW_SECTION_REQUEST };
+const reviewSectionSuccess = (updatedSession) => ({ type: REVIEW_SECTION_SUCCESS, updatedSession });
+const reviewSectionError = error => ({ type: REVIEW_SECTION_ERROR, error });
+
+export const reviewSection = (session_id) => async dispatch => {
+  dispatch(reviewSectionRequest);
+  try {
+    const updatedSession = await db_updateReviewSession(session_id, true)
+    console.log(updatedSession)
+    dispatch(reviewSectionSuccess(updatedSession))
+
+  } catch (error) {
+    dispatch(reviewSectionError(error));
+  }
+};
+
 
 export const STOP_REVIEW = 'STOP_REVIEW';
 export const stopReview = () => {

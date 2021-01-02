@@ -38,7 +38,9 @@ import {
   FINISH_SESSION_SUCCESS,
   FINISH_SESSION_ERROR,
 
-  REVIEW_SECTION,
+  REVIEW_SECTION_REQUEST,
+  REVIEW_SECTION_SUCCESS,
+  REVIEW_SECTION_ERROR,
   STOP_REVIEW,
 
   STOP_SECTION_START_REQUEST,
@@ -157,8 +159,12 @@ export default (state = initialState, action) => {
     case FINISH_SESSION_ERROR:
       return { ...state, isFinishingSession: false, error: action.error }
 
-    case REVIEW_SECTION:
-      return { ...state, mode: "review" }
+    case REVIEW_SECTION_REQUEST:
+      return { ...state, isReviewingSection: true }
+    case REVIEW_SECTION_SUCCESS:
+      return { ...state, isReviewingSection: false, currentSession: action.updatedSession, mode: "review" }
+    case REVIEW_SECTION_ERROR:
+      return { ...state, isReviewingSection: false, error: action.error }
     case STOP_REVIEW:
       return { ...state, mode: "question" }
 

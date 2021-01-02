@@ -88,6 +88,19 @@ router.post('/:session_id/time', async function (req, res, next) {
   }
 });
 
+
+router.post('/:session_id/review', async function (req, res, next) {
+  try {
+    let result = await db.sessions.update_review(req.params.session_id, req.body.show)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
+
 router.get('/:session_id', async function (req, res, next) {
   try {
     let result = await db.sessions.find(req.params.session_id)

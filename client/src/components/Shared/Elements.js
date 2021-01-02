@@ -377,7 +377,7 @@ const ButtonSecondary = styled.div`
 `
 
 const NoSelectionText = styled.div`
-  color: #f89800;
+  color: red;
   margin-top: 40px;
   text-align: right;
 `

@@ -38,7 +38,8 @@ module.exports = {
     update_time_start: sql('sessions/update_time_start.sql'),
     update_time_end: sql('sessions/update_time_end.sql'),
     find: sql('sessions/find.sql'),
-    find_category: sql('sessions/find_category.sql')
+    find_category: sql('sessions/find_category.sql'),
+    update_review: sql('sessions/update_review.sql')
   },
   responses: {
     total_structure: sql('responses/total_structure.sql'),

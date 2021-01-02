@@ -428,3 +428,11 @@ export const db_getCategorySessions = async (category_id, student_id) => {
 
   return response.data
 }
+
+export const db_updateReviewSession = async (session_id, show) => {
+  const response = await db.post(`/sessions/${session_id.toString()}/review`, {
+    show
+  })
+
+  return response.data
+}

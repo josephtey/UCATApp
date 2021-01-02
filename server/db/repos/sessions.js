@@ -60,6 +60,14 @@ class SessionsRepository {
 
   }
 
+  async update_review(session_id, show) {
+    return this.db.one(sql.update_review, {
+      session_id,
+      show
+    });
+
+  }
+
 }
 
 module.exports = SessionsRepository;

@@ -174,13 +174,15 @@ const Question = (props) => {
             >
               End Exam
             </LinkLeft>
-            <LinkLeft
-              onClick={() => {
-                props.reviewSection()
-              }}
-            >
-              Review Screen
+            {props.session.currentSession.show_review ?
+              <LinkLeft
+                onClick={() => {
+                  props.reviewSection(props.session.currentSession.session_id)
+                }}
+              >
+                Review Screen
             </LinkLeft>
+              : null}
           </>
         )}
 
@@ -213,7 +215,7 @@ const Question = (props) => {
               :
               <LinkRight
                 onClick={() => {
-                  props.reviewSection()
+                  props.reviewSection(props.session.currentSession.session_id)
                 }}
               >
                 Next

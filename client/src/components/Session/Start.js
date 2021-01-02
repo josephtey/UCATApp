@@ -5,6 +5,7 @@ import Loading from '../Shared/Loading'
 import BottomBar from '../Session/BottomBar'
 import TopBarSecondary from '../Session/TopBarSecondary'
 import styled from 'styled-components'
+import { descriptions } from '../../constants/section_descriptions'
 
 const mapDispatchToProps = { stopSectionStart }
 
@@ -33,8 +34,15 @@ const Start = (props) => {
           UCAT PRACTICE TEST
         </WelcomeMessage>
 
+        <Description>
+          <DescriptionTitle>
+            {props.session.currentSection.name}
+          </DescriptionTitle>
+          {descriptions[props.session.currentSection.name] ? descriptions[props.session.currentSection.name]() : null}
+        </Description>
+
         <Info>
-          This section has <b>{props.session.currentSection.question_order.length}</b> questions and is <b>{props.session.currentSection.time}</b> minutes in total.
+          In this section, you will have <b>{props.session.currentSection.time}</b> minutes to answer <b>{props.session.currentSection.question_order.length}</b> questions.
         </Info>
 
         <Warning>
@@ -70,7 +78,6 @@ const Start = (props) => {
 
 const Container = styled.div`
   padding: 30px;
-  color: rgba(0,0,0,0.4)
 `
 
 const WelcomeMessage = styled.div`
@@ -110,6 +117,14 @@ const LinkRight = styled.div`
   border-left: 2px solid white;
   height: 100%;
   padding: 15px;
+`
+
+const Description = styled.div`
+  
+`
+
+const DescriptionTitle = styled.div`
+  font-family: Gilroy-Bold;
 `
 
 
