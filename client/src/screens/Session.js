@@ -112,8 +112,11 @@ const Session = (props) => {
                       props.history.push(
                         props.session.currentStructure.type === "Exam" ?
                           '/exam/' + props.session.currentSession.structure_id
-                          :
-                          '/practice/' + props.session.currentStructure.category_id
+                          : props.session.currentStructure.type === "Practice" ?
+                            '/practice/' + props.session.currentStructure.category_id
+                            : props.session.currentStructure.type === "Mock" ?
+                              '/mock/' + props.session.currentStructure.structure_id
+                              : null
                       )
                     }}
                   />
