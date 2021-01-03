@@ -1,0 +1,22 @@
+Category IDs
+
+1. True/False/Can't Tell (or 'TFCT' if it's easier) 
+2. Long Response 
+3. Syllogisms
+4. Logic Puzzles
+5. Evaluating Argument
+6. Interpreting Information
+7. Venn Diagrams
+8. Probability
+9. Percentages 
+10. Proportions & Ratios 
+11. Centre & Spread 
+12. Perimeter & Area
+13. Speed/Distance/Time 
+14. Time 
+15. Set A/B/N
+16. Sequences
+17. Analogies
+18. Set A/B
+19. Importance
+20. Appropriateness

@@ -67,7 +67,6 @@ const Answer = (props) => {
                   setIsOpen(false)
                 }}
                 style={customStyles}
-                contentLabel="Example Modal"
               >
                 <ExplanationContent>
                   <ExplanationTitle>

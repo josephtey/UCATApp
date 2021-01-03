@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux'
 import { finishSession, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse } from '../../actions/session'
 import Loading from '../Shared/Loading'
@@ -8,8 +8,9 @@ import TopBarSecondary from '../Session/TopBarSecondary'
 import { RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 import { BiCalculator, BiBook } from "react-icons/bi";
-
-
+import Modal from 'react-modal';
+import { TiTimes } from "react-icons/ti";
+import Calculator from '../Calculator/calculator'
 
 const mapDispatchToProps = { finishSession, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
 
@@ -17,7 +18,22 @@ const mapStateToProps = (state) => {
   return state
 }
 
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)'
+  }
+};
+
+Modal.setAppElement('#root')
+
 const Question = (props) => {
+  const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
+  const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
 
   useDidMountEffect(() => {
     props.getSessionResponses(
@@ -35,12 +51,49 @@ const Question = (props) => {
         leftContent={() => {
           return (
             <>
-              <TopLink>
+              <TopLink
+                onClick={() => {
+                  setCalculatorModalIsOpen(true)
+                }}
+              >
                 <BiCalculator color="white" size={20} /> Calculator
               </TopLink>
-              <TopLink>
+              <Modal
+                isOpen={calculatorModalIsOpen}
+                onRequestClose={() => {
+                  setCalculatorModalIsOpen(false)
+                }}
+                style={customStyles}
+              >
+                <Calculator />
+              </Modal>
+
+              <TopLink
+                onClick={() => {
+                  setScratchpadModalIsOpen(true)
+                }}
+              >
                 <BiBook color="white" size={20} /> Scratch Pad
               </TopLink>
+              <Modal
+                isOpen={scratchpadModalIsOpen}
+                onRequestClose={() => {
+                  setScratchpadModalIsOpen(false)
+                }}
+                style={customStyles}
+              >
+                <ModalTitle>
+                  <ModalText>Scratch Pad</ModalText>
+                  <CloseButton
+                    onClick={() => {
+                      setScratchpadModalIsOpen(false)
+                    }}
+                  >
+                    <TiTimes size={30} />
+                  </CloseButton>
+                </ModalTitle>
+                <textarea rows="20" cols="50"></textarea>
+              </Modal>
             </>
           )
         }}
@@ -309,10 +362,29 @@ const TopLink = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   
   svg{
     margin-right: 5px;
   }
 `
+
+const ModalTitle = styled.div`
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+`
+
+const CloseButton = styled.div`
+  cursor: pointer;
+`
+
+const ModalText = styled.div`
+
+`
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(Question)
