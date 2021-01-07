@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
 import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions } from '../../actions/session'
 import BottomBar from '../Session/BottomBar'
@@ -6,6 +6,7 @@ import TopBarSecondary from '../Session/TopBarSecondary'
 import styled from 'styled-components'
 import { getIncompleteQuestions, filterResponses } from '../../utils/helpers'
 import ReviewCards from './ReviewCards'
+import { ThemedModal } from '../Shared/Elements'
 
 const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions }
 
@@ -16,6 +17,7 @@ const mapStateToProps = (state) => {
 const Review = (props) => {
   const incompleteQuestions = getIncompleteQuestions(props.session.currentSection.question_order, props.session.sessionResponses)
   const flaggedQuestions = filterResponses(props.session.sessionResponses, "flagged")
+  const [showEndReviewModal, setShowEndReviewModal] = useState(false)
 
   useEffect(() => {
     props.reviewQuestions(props.session.currentSection.question_order)
@@ -104,15 +106,21 @@ const Review = (props) => {
               ?
               <LinkLeft
                 onClick={() => {
-                  const currentSectionId = props.session.currentSection.section_id
-                  const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
-                  props.nextSection(
-                    props.session.currentSession.session_id,
-                    props.session.currentStructure.section_order[currentSectionIndex + 1]
-                  )
+                  setShowEndReviewModal(true)
+
+                  // const currentSectionId = props.session.currentSection.section_id
+                  // const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
+                  // props.nextSection(
+                  //   props.session.currentSession.session_id,
+                  //   props.session.currentStructure.section_order[currentSectionIndex + 1]
+                  // )
                 }}
               >
                 End Review
+                <ThemedModal
+                  isOpen={showEndReviewModal}
+                  setShowEndReviewModal={setShowEndReviewModal}
+                />
               </LinkLeft>
               :
 
@@ -137,7 +145,8 @@ const Description = styled.div`
 
 const Title = styled.div`
   font-size: 20px;
-  font-family: Gilroy-Bold;
+  font-family: arial;
+  font-weight: bold;
   width: 100%;
   display: flex;
   justify-content: center;

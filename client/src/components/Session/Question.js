@@ -47,6 +47,10 @@ const Question = (props) => {
 
   return (
     <>
+      {props.session.currentStem.layout === "side by side" || !props.session.currentStem.layout ?
+        <Border />
+        : null}
+
       <TopBarSecondary
         leftContent={() => {
           return (
@@ -288,13 +292,20 @@ const Question = (props) => {
   )
 }
 
+const Border = styled.div`
+  width: 7px;
+  position: fixed;
+  left: 58.5%;
+  height: 100vh;
+  background: #056DAA;
+`
 
 const Container = styled.div`
   padding: 0 30px 0 30px;
 `
 
 const Text = styled.div`
-  font-family: Gilroy-Medium;
+  font-family: arial;
   font-size: 16px;
   margin-bottom: 30px;
 `
@@ -315,16 +326,14 @@ const QuestionStem = styled.div`
   ${props => props.layout == "normal" ? '' : 'flex: 3;'}
   width: ${props => props.layout == "normal" ? 'auto' : 0};
   margin-right: 40px;
-  font-family: Gilroy-Medium;
+  font-family: arial;
   text-align: justify;
   font-size: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: ${props => props.layout == "normal" ? 'none' : '7px solid #006daa;'};
   padding-right: 30px;
   padding-top: 30px;
-  min-height: ${props => props.layout == "normal" ? '0' : '100vh'};
 `
 
 const QuestionStemText = styled.div`
@@ -370,7 +379,8 @@ const TopLink = styled.div`
 `
 
 const ModalTitle = styled.div`
-  font-family: Gilroy-Bold;
+  font-family: arial;
+  font-weight: bold;
   font-size: 20px;
   justify-content: space-between;
   align-items: center;

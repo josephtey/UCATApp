@@ -2,7 +2,7 @@
   "exam": {
     "name": "Decision Making 1",
     "description": "Section Mock",
-    "type": "Mock",
+    "type": "Exam",
     "time": 31
   },
   "sections": [

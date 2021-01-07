@@ -4,12 +4,13 @@ import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, 
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from './BottomBar'
-import { Button, LinkItem, RadioBoxAnswer, DragAndDropReview } from '../Shared/Elements'
+import { RadioBoxAnswer, DragAndDropReview } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 import TopBarSecondary from '../Session/TopBarSecondary'
 import { BiCalculator, BiBook } from "react-icons/bi";
 import Modal from 'react-modal';
 import { TiTimes } from "react-icons/ti";
+import Calculator from '../Calculator/calculator'
 
 
 const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, changeMode }
@@ -32,7 +33,9 @@ const customStyles = {
 Modal.setAppElement('#root')
 
 const Answer = (props) => {
-  const [modalIsOpen, setIsOpen] = useState(false);
+  const [explanationModalIsOpen, setExplanationModalIsOpen] = useState(false);
+  const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
+  const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
 
   useDidMountEffect(() => {
     props.getSessionResponses(
@@ -46,25 +49,66 @@ const Answer = (props) => {
 
   return (
     <>
+      {props.session.currentStem.layout === "side by side" || !props.session.currentStem.layout ?
+        <Border />
+        : null}
       <TopBarSecondary
         leftContent={() => {
           return (
             <>
-              <TopLink>
+              <TopLink
+                onClick={() => {
+                  setCalculatorModalIsOpen(true)
+                }}
+              >
                 <BiCalculator color="white" size={20} /> Calculator
               </TopLink>
-              <TopLink>
+              <Modal
+                isOpen={calculatorModalIsOpen}
+                onRequestClose={() => {
+                  setCalculatorModalIsOpen(false)
+                }}
+                style={customStyles}
+              >
+                <Calculator />
+              </Modal>
+
+              <TopLink
+                onClick={() => {
+                  setScratchpadModalIsOpen(true)
+                }}
+              >
                 <BiBook color="white" size={20} /> Scratch Pad
               </TopLink>
+              <Modal
+                isOpen={scratchpadModalIsOpen}
+                onRequestClose={() => {
+                  setScratchpadModalIsOpen(false)
+                }}
+                style={customStyles}
+              >
+                <ModalTitle>
+                  <ModalText>Scratch Pad</ModalText>
+                  <CloseButton
+                    onClick={() => {
+                      setScratchpadModalIsOpen(false)
+                    }}
+                  >
+                    <TiTimes size={30} />
+                  </CloseButton>
+                </ModalTitle>
+                <textarea rows="20" cols="50"></textarea>
+              </Modal>
+
               <TopLink onClick={() => {
-                setIsOpen(true)
+                setExplanationModalIsOpen(true)
               }}>
                 Show Explanation
               </TopLink>
               <Modal
-                isOpen={modalIsOpen}
+                isOpen={explanationModalIsOpen}
                 onRequestClose={() => {
-                  setIsOpen(false)
+                  setExplanationModalIsOpen(false)
                 }}
                 style={customStyles}
               >
@@ -73,7 +117,7 @@ const Answer = (props) => {
                     <ExplanationText>Explanation</ExplanationText>
                     <CloseButton
                       onClick={() => {
-                        setIsOpen(false)
+                        setExplanationModalIsOpen(false)
                       }}
                     >
                       <TiTimes size={30} />
@@ -241,7 +285,8 @@ const ExplanationText = styled.div`
 `
 
 const ExplanationTitle = styled.div`
-  font-family: Gilroy-Bold;
+  font-family: arial;
+  font-weight: bold;
   font-size: 20px;
   justify-content: space-between;
   align-items: center;
@@ -254,7 +299,7 @@ const Container = styled.div`
 `
 
 const Text = styled.div`
-  font-family: Gilroy-Medium;
+  font-family: arial;
   font-size: 16px;
   margin-bottom: 30px;
 `
@@ -275,16 +320,14 @@ const QuestionStem = styled.div`
   ${props => props.layout == "normal" ? '' : 'flex: 3;'}
   width: ${props => props.layout == "normal" ? 'auto' : 0};
   margin-right: 40px;
-  font-family: Gilroy-Medium;
+  font-family: arial;
   text-align: justify;
   font-size: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: ${props => props.layout == "normal" ? 'none' : '7px solid #006daa;'};
   padding-right: 30px;
   padding-top: 30px;
-  min-height: ${props => props.layout == "normal" ? '0' : '100vh'};
 `
 
 const QuestionStemText = styled.div`
@@ -330,8 +373,31 @@ const TopLink = styled.div`
   }
 `
 
+const ModalTitle = styled.div`
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+`
+
 const CloseButton = styled.div`
   cursor: pointer;
 `
+
+const ModalText = styled.div`
+
+`
+
+const Border = styled.div`
+  width: 7px;
+  position: fixed;
+  left: 58.5%;
+  height: 100vh;
+  background: #056DAA;
+`
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(Answer)

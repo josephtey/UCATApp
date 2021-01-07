@@ -81,7 +81,8 @@ const Container = styled.div`
 `
 
 const WelcomeMessage = styled.div`
-  font-family: Gilroy-Bold;
+  font-family: arial;
+  font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 20px;
   display: flex;
@@ -124,7 +125,8 @@ const Description = styled.div`
 `
 
 const DescriptionTitle = styled.div`
-  font-family: Gilroy-Bold;
+  font-family: arial;
+  font-weight: bold;
 `
 
 

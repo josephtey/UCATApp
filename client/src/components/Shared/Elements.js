@@ -6,6 +6,35 @@ import update from "immutability-helper";
 import { TiTick, TiTimes } from "react-icons/ti";
 import { BsCircle, BsCircleFill } from "react-icons/bs";
 
+export const ThemedModal = ({
+  isOpen,
+  setIsOpen
+}) => {
+
+  if (isOpen) {
+    return (
+      <ThemedModalContainer>
+        <ModalHeader>
+          Confirmation
+          <TiTimes size={20} color="white" />
+        </ModalHeader>
+        <ModalBody>
+          <ModalText>
+            Are you sure you want to Cancel this test?
+          </ModalText>
+          <ModalButtons>
+            <ModalButton>Cancel</ModalButton>
+            <ModalButton>Ok</ModalButton>
+          </ModalButtons>
+        </ModalBody>
+      </ThemedModalContainer>
+    )
+  } else {
+    return null
+  }
+
+}
+
 
 export const Button = ({ type, label, color, onClick }) => {
   return (
@@ -474,4 +503,48 @@ const Result = styled.div`
 
 const Text = styled.div`
   color: ${props => props.color}
+`
+
+const ThemedModalContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  background: #056daa;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  marginRight: -50%;
+  transform: translate(-50%, -50%)
+`
+
+const ModalHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding: 10px;
+`
+
+const ModalBody = styled.div`
+  padding: 10px 20px;
+`
+
+const ModalText = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+`
+
+const ModalButtons = styled.div`
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 10px;
+`
+
+const ModalButton = styled.div`
+  padding: 5px 15px;
+  border: 1px solid white;
+  margin: 5px;
 `

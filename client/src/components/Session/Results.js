@@ -123,7 +123,8 @@ const Results = (props) => {
 
 const Title = styled.div`
   font-size: 20px;
-  font-family: Gilroy-Bold;
+  font-family: arial;
+  font-weight: bold;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -138,7 +139,8 @@ const Container = styled.div`
   padding: 30px;
 `
 const SectionTitle = styled.div`
-  font-family: Gilroy-Bold;
+  font-family: arial;
+  font-weight: bold;
   padding: 15px 0;
   font-size: 20px;
 `

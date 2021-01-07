@@ -130,6 +130,7 @@ const Session = (props) => {
 const SessionContainer = styled.div`
   background: white;
   min-height: 100vh;
+  font-family: arial !important;
 `
 
 const Container = styled.div`
