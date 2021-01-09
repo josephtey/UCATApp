@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
-import { getSessionDetails, resetSessionDetail } from '../actions/session'
+import { getSessionDetails, resetSessionDetail, finishSession, nextSection } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import LogoImage from '../assets/in2medlogo.png'
@@ -12,7 +12,7 @@ import Start from '../components/Session/Start';
 import Results from '../components/Session/Results';
 
 
-const mapDispatchToProps = { getSessionDetails, resetSessionDetail }
+const mapDispatchToProps = { getSessionDetails, resetSessionDetail, finishSession, nextSection }
 
 const mapStateToProps = (state) => {
   return state
@@ -20,7 +20,8 @@ const mapStateToProps = (state) => {
 
 const Timer = ({
   startTimestamp,
-  sectionTimeLength
+  sectionTimeLength,
+  onFinished
 }) => {
 
   const calculateTimeLeft = () => {
@@ -28,19 +29,28 @@ const Timer = ({
     const currentTime = new Date().getTime()
     const startTime = new Date(startTimestamp).getTime()
     const timeRemaining = (totalTime - (currentTime - startTime)) / 60000
-
-    return timeRemaining.toFixed(2)
+    const secondsRemaining = ((timeRemaining) - Math.floor(timeRemaining)) * 60
+    return [timeRemaining.toFixed(2), Math.floor(timeRemaining), Math.round(secondsRemaining)]
   }
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
+  const [timerStop, setTimerStop] = useState(false)
 
   useEffect(() => {
 
-    const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
+    if (!timerStop) {
+      const timer = setTimeout(() => {
+        setTimeLeft(calculateTimeLeft());
 
-    return () => clearTimeout(timer);
+        if (timeLeft[0] < 0) {
+          onFinished()
+          setTimerStop(true)
+        }
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }
+
 
   })
 
@@ -48,11 +58,20 @@ const Timer = ({
 
   if (!timeLeft) return null
 
-  return (
-    <>
-      {timeLeft} minutes left
-    </>
-  )
+  if (!timerStop) {
+    return (
+      <>
+        {timeLeft[1]} minutes {timeLeft[2]} seconds left
+      </>
+    )
+  } else {
+    return (
+      <>
+        Time Expired
+      </>
+    )
+  }
+
 }
 
 const Session = (props) => {
@@ -87,6 +106,21 @@ const Session = (props) => {
                   ? <Timer
                     startTimestamp={props.session.currentSession.start_time[props.session.currentStructure.section_order.indexOf(props.session.currentSection.section_id)]}
                     sectionTimeLength={props.session.currentSection.time}
+                    onFinished={() => {
+                      alert("You have run out of time!")
+
+                      if (props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]) {
+                        const currentSectionId = props.session.currentSection.section_id
+                        const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
+                        props.nextSection(
+                          props.session.currentSession.session_id,
+                          props.session.currentStructure.section_order[currentSectionIndex + 1]
+                        )
+                      } else {
+                        props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
+                      }
+
+                    }}
                   />
                   : null}
               </>

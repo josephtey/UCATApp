@@ -312,7 +312,7 @@ const MainContent = styled.div`
 
 const QuestionContent = styled.div`
   ${props => props.layout == "normal" ? '' : 'flex: 2;'}
-  width: ${props => props.layout == "normal" ? 'auto' : 0};
+  width: ${props => props.layout == "normal" ? '100%' : 0};
   padding: 30px 0 50px 0;
 `
 

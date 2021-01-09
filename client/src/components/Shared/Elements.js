@@ -7,32 +7,48 @@ import { TiTick, TiTimes } from "react-icons/ti";
 import { BsCircle, BsCircleFill } from "react-icons/bs";
 
 export const ThemedModal = ({
-  isOpen,
-  setIsOpen
+  button,
+  body,
+  heading,
+  onClick,
+  onClickNo
 }) => {
+  const [isOpen, setIsOpen] = useState(false)
 
-  if (isOpen) {
-    return (
-      <ThemedModalContainer>
-        <ModalHeader>
-          Confirmation
-          <TiTimes size={20} color="white" />
-        </ModalHeader>
-        <ModalBody>
-          <ModalText>
-            Are you sure you want to Cancel this test?
-          </ModalText>
-          <ModalButtons>
-            <ModalButton>Cancel</ModalButton>
-            <ModalButton>Ok</ModalButton>
-          </ModalButtons>
-        </ModalBody>
-      </ThemedModalContainer>
-    )
-  } else {
-    return null
-  }
-
+  return (
+    <>
+      {button(setIsOpen)}
+      {isOpen ?
+        <ThemedModalContainer>
+          <ModalHeader>
+            {heading}
+            <span onClick={() => {
+              onClickNo(setIsOpen)
+            }} style={{ cursor: 'pointer' }}>
+              <TiTimes size={20} color="white" />
+            </span>
+          </ModalHeader>
+          <ModalBody>
+            <ModalText>
+              {body}
+            </ModalText>
+            <ModalButtons>
+              <ModalButton
+                onClick={() => {
+                  onClickNo(setIsOpen)
+                }}
+              >No</ModalButton>
+              <ModalButton
+                onClick={() => {
+                  onClick(setIsOpen)
+                }}
+              >Yes</ModalButton>
+            </ModalButtons>
+          </ModalBody>
+        </ThemedModalContainer>
+        : null}
+    </>
+  )
 }
 
 
@@ -449,7 +465,7 @@ const DraggableItem = styled.div`
 
 const DragAndDropOptions = styled.div`
   display: flex;
-  flex: 1;
+  flex: 5;
   flex-direction: column;
 `
 
@@ -463,6 +479,7 @@ const DraggableItems = styled.div`
 
 const DragAndDropBigContainer = styled.div`
   display: flex;
+  width: 70%;
 `
 
 const DragAndDropResult = styled.div`
@@ -521,6 +538,7 @@ const ThemedModalContainer = styled.div`
 const ModalHeader = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid white;
   padding: 10px;
 `
@@ -547,4 +565,5 @@ const ModalButton = styled.div`
   padding: 5px 15px;
   border: 1px solid white;
   margin: 5px;
+  cursor: pointer;
 `

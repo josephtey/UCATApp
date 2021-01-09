@@ -17,7 +17,6 @@ const mapStateToProps = (state) => {
 const Review = (props) => {
   const incompleteQuestions = getIncompleteQuestions(props.session.currentSection.question_order, props.session.sessionResponses)
   const flaggedQuestions = filterResponses(props.session.sessionResponses, "flagged")
-  const [showEndReviewModal, setShowEndReviewModal] = useState(false)
 
   useEffect(() => {
     props.reviewQuestions(props.session.currentSection.question_order)
@@ -104,33 +103,55 @@ const Review = (props) => {
           <>
             {props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]
               ?
-              <LinkLeft
-                onClick={() => {
-                  setShowEndReviewModal(true)
-
-                  // const currentSectionId = props.session.currentSection.section_id
-                  // const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
-                  // props.nextSection(
-                  //   props.session.currentSession.session_id,
-                  //   props.session.currentStructure.section_order[currentSectionIndex + 1]
-                  // )
+              <ThemedModal
+                heading="End Review"
+                body="Are you sure you want to end this review?"
+                button={(setIsOpen) => (
+                  <LinkLeft
+                    onClick={() => {
+                      setIsOpen(true)
+                    }}
+                  >
+                    End Review
+                  </LinkLeft>
+                )}
+                onClick={(setIsOpen) => {
+                  const currentSectionId = props.session.currentSection.section_id
+                  const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
+                  props.nextSection(
+                    props.session.currentSession.session_id,
+                    props.session.currentStructure.section_order[currentSectionIndex + 1]
+                  )
+                  setIsOpen(false)
                 }}
-              >
-                End Review
-                <ThemedModal
-                  isOpen={showEndReviewModal}
-                  setShowEndReviewModal={setShowEndReviewModal}
-                />
-              </LinkLeft>
+                onClickNo={(setIsOpen) => {
+                  setIsOpen(false)
+                }}
+              />
               :
 
-              <LinkLeft
-                onClick={() => {
+              <ThemedModal
+                heading="End Exam"
+                body="Are you sure you want to end this practice test?"
+                button={(setIsOpen) => (
+                  <LinkLeft
+                    onClick={() => {
+                      setIsOpen(true)
+                    }}
+                  >
+                    Finish Exam
+                  </LinkLeft>
+                )}
+                onClick={(setIsOpen) => {
                   props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
+
+                  setIsOpen(false)
                 }}
-              >
-                Finish Exam
-              </LinkLeft>
+                onClickNo={(setIsOpen) => {
+                  setIsOpen(false)
+                }}
+              />
+
             }
           </>
         )}

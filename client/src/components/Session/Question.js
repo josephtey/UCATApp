@@ -11,6 +11,7 @@ import { BiCalculator, BiBook } from "react-icons/bi";
 import Modal from 'react-modal';
 import { TiTimes } from "react-icons/ti";
 import Calculator from '../Calculator/calculator'
+import { ThemedModal } from '../Shared/Elements'
 
 const mapDispatchToProps = { finishSession, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
 
@@ -230,13 +231,27 @@ const Question = (props) => {
       <BottomBar
         leftContent={() => (
           <>
-            <LinkLeft
-              onClick={() => {
+            <ThemedModal
+              heading="End Exam"
+              body="Are you sure you want to end this practice test?"
+              button={(setIsOpen) => (
+                <LinkLeft
+                  onClick={() => {
+                    setIsOpen(true)
+                  }}
+                >
+                  End Exam
+                </LinkLeft>
+              )}
+              onClick={(setIsOpen) => {
                 props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
+
+                setIsOpen(false)
               }}
-            >
-              End Exam
-            </LinkLeft>
+              onClickNo={(setIsOpen) => {
+                setIsOpen(false)
+              }}
+            />
             {props.session.currentSession.show_review ?
               <LinkLeft
                 onClick={() => {
@@ -318,7 +333,7 @@ const MainContent = styled.div`
 
 const QuestionContent = styled.div`
   ${props => props.layout == "normal" ? '' : 'flex: 2;'}
-  width: ${props => props.layout == "normal" ? 'auto' : 0};
+  width: ${props => props.layout == "normal" ? '100%' : 0};
   padding: 30px 0 50px 0;
 `
 
