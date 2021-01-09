@@ -166,7 +166,7 @@ const Question = (props) => {
                 <QuestionImage src={props.session.currentQuestion.image} />
                 : null}
 
-              {props.session.currentQuestion.type === "MC" ?
+              {props.session.currentQuestion.type === "MC" || props.session.currentQuestion.type === "MCSJ" ?
                 <RadioBox
                   options={props.session.currentQuestion.options}
                   images={props.session.currentQuestion.option_images}
@@ -179,7 +179,8 @@ const Question = (props) => {
                       item,
                       props.session.currentQuestion.answer,
                       props.session.currentQuestion.type,
-                      props.session.currentStem ? props.session.currentStem.stem_id : null
+                      props.session.currentStem ? props.session.currentStem.stem_id : null,
+                      props.session.currentQuestion.options
                     )
                   }}
                   defaultValue={() => {

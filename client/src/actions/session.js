@@ -40,7 +40,7 @@ const createResponseRequest = { type: CREATE_RESPONSE_REQUEST };
 const createResponseSuccess = (newResponse) => ({ type: CREATE_RESPONSE_SUCCESS, newResponse });
 const createResponseError = error => ({ type: CREATE_RESPONSE_ERROR, error });
 
-export const createResponse = (session_id, question_id, student_id, section_id, value, answer, type, stem_id) => async dispatch => {
+export const createResponse = (session_id, question_id, student_id, section_id, value, answer, type, stem_id, options = null) => async dispatch => {
   dispatch(createResponseRequest);
   try {
 
@@ -66,6 +66,25 @@ export const createResponse = (session_id, question_id, student_id, section_id, 
         points = 1
       } else {
         points = 0
+      }
+    } else if (type == "MCSJ") {
+      if (value === answer) {
+        points = 1
+      } else {
+        const answerIndex = options.indexOf(answer)
+        const valueIndex = options.indexOf(value)
+        const assoc = {
+          0: 1,
+          1: 0,
+          2: 3,
+          3: 2
+        }
+
+        if (assoc[valueIndex] === answerIndex) {
+          points = 0.5
+        } else {
+          points = 0
+        }
       }
     }
 
@@ -418,17 +437,18 @@ export const finishSession = (session_id, examDetail) => async dispatch => {
 
     for (let i = 0; i < examDetail.section_order.length; i++) {
       let sectionResponses = allSessionResponses.filter(item => item.section_id === examDetail.section_order[i])
-      let numCorrect = filterResponses(sectionResponses, 'correct').length
-      let scoreSum = sectionResponses.reduce(function (prev, cur) {
+      let numCorrect = filterResponses(sectionResponses, 'points', 1).length
+      let numIncorrect = filterResponses(sectionResponses, 'points', 0).length
+      let numPartial = filterResponses(sectionResponses, 'points', 0.5).length
+      let scoreSum = Math.round(sectionResponses.reduce(function (prev, cur) {
         return prev + cur.points;
-      }, 0);
+      }, 0));
 
-      scoreBreakdown[examDetail.section_order[i]] = numCorrect
+      scoreBreakdown[examDetail.section_order[i]] = [numCorrect, numIncorrect, numPartial]
       scoreBreakdown[examDetail.section_order[i].toString() + '_score'] = scoreSum
 
       // Scaling stuff
       let sectionDetail = await db_getSectionDetail(examDetail.section_order[i])
-      console.log(sectionDetail)
 
       switch (sectionDetail.details.name) {
         case quantitative_reasoning_section_name:

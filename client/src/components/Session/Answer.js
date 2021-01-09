@@ -185,7 +185,7 @@ const Answer = (props) => {
                 <QuestionImage src={props.session.currentQuestion.image} />
                 : null}
 
-              {props.session.currentQuestion.type === "MC" ?
+              {props.session.currentQuestion.type === "MC" || props.session.currentQuestion.type === "MCSJ" ?
                 <RadioBoxAnswer
                   options={props.session.currentQuestion.options}
                   images={props.session.currentQuestion.option_images}

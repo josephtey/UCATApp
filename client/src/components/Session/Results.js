@@ -60,10 +60,9 @@ const Results = (props) => {
                   </SectionTitle>
 
                   <SectionScore>
-                    {props.session.currentSession.score_breakdown[section.section_id.toString()]} Correct | {section.question_order.length - props.session.currentSession.score_breakdown[section.section_id.toString()]} Incorrect <br />
+                    {props.session.currentSession.score_breakdown[section.section_id.toString()][0]} Correct | {props.session.currentSession.score_breakdown[section.section_id.toString()][2]} Partially Correct | {props.session.currentSession.score_breakdown[section.section_id.toString()][1]} Incorrect <br />
                     <br />
-                    Raw Score: {props.session.currentSession.score_breakdown[section.section_id.toString() + "_score"]}  <br />
-                    Scaled Score: {props.session.currentSession.score_breakdown[section.section_id.toString() + "_scaled"]}
+                    Score: {props.session.currentSession.score_breakdown[section.section_id.toString() + "_scaled"]}
                   </SectionScore>
                 </SectionHeader>
 

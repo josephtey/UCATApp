@@ -31,10 +31,12 @@ const ReviewCards = ({
                   <>
                     {mode === "Results" ?
                       <>
-                        {answered.correct ?
+                        {answered.points === 1 ?
                           <Text color="green">Correct</Text>
-                          :
-                          <Text color="red">Incorrect</Text>
+                          : answered.points === 0 ?
+                            <Text color="red">Incorrect</Text>
+                            :
+                            <Text color="blue">Partially Correct</Text>
                         }
                       </>
                       : null

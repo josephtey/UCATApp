@@ -28,11 +28,11 @@ export const getIncompleteQuestions = (questions, responses) => {
   return incompleteQuestions
 }
 
-export const filterResponses = (responses, property) => {
+export const filterResponses = (responses, property, value = true) => {
   let filteredResponses = []
 
   for (let i = 0; i < responses.length; i++) {
-    if (responses[i][property]) {
+    if (responses[i][property] === value) {
       filteredResponses.push(responses[i].question_id)
     }
   }
