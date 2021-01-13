@@ -29,8 +29,9 @@ export const initUser = (username, password) => async dispatch => {
       if (userInfo.roles.includes("ucat_content_subscriber")) {
 
         const userExists = await db_userExists(userInfo.username)
+        console.log(userExists)
         if (userExists == "") {
-          userData = await db_createUser(userInfo.username)
+          userData = await db_createUser(userInfo.username, userInfo.roles, userInfo.display_name)
         } else {
           userData = userExists
         }

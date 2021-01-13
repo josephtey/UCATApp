@@ -6,10 +6,8 @@ class UsersRepository {
     this.pgp = pgp;
   }
 
-  async add(username) {
-    return this.db.one(sql.add, {
-      username
-    })
+  async add(data) {
+    return this.db.one(sql.add, data)
   }
 
   async find(username) {

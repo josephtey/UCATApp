@@ -339,7 +339,7 @@ const QuestionStemImage = styled.img`
 `
 
 const QuestionImage = styled.img`
-  max-width: 50%;
+  max-width: 30%;
   margin-bottom: 20px;
 `
 

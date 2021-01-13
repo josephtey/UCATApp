@@ -39,7 +39,7 @@ const Practice = (props) => {
 
               <CardBottom>
                 <CardLength>
-                  Practice
+                  {category.topic}
                 </CardLength>
                 <Button>
                   <AiOutlineArrowRight color="#f89800" size={25} />

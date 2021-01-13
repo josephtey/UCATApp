@@ -1,5 +1,5 @@
 INSERT INTO "Students"
-  (username)
+  (username, roles, display_name)
 VALUES
-  (${username})
+  (${username}, ${roles}, ${display_name})
 RETURNING *

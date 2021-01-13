@@ -157,9 +157,11 @@ export const db_userExists = async (username) => {
   return response.data
 }
 
-export const db_createUser = async (username) => {
+export const db_createUser = async (username, display_name, roles) => {
   const response = await db.post('/users', {
-    username
+    username,
+    display_name,
+    roles
   })
 
   return response.data
