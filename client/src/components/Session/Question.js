@@ -1,20 +1,40 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux'
-import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse } from '../../actions/session'
+import { finishSession, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from '../Session/BottomBar'
-import { Button, LinkItem, RadioBox, FlagButton } from '../Shared/Elements'
+import TopBarSecondary from '../Session/TopBarSecondary'
+import { RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
+import { BiCalculator, BiBook } from "react-icons/bi";
+import Modal from 'react-modal';
+import { TiTimes } from "react-icons/ti";
+import Calculator from '../Calculator/calculator'
+import { ThemedModal } from '../Shared/Elements'
 
-
-const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
+const mapDispatchToProps = { finishSession, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
 
 const mapStateToProps = (state) => {
   return state
 }
 
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)'
+  }
+};
+
+Modal.setAppElement('#root')
+
 const Question = (props) => {
+  const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
+  const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
 
   useDidMountEffect(() => {
     props.getSessionResponses(
@@ -28,68 +48,181 @@ const Question = (props) => {
 
   return (
     <>
+      {props.session.currentStem.layout === "side by side" || !props.session.currentStem.layout ?
+        <Border />
+        : null}
+
+      <TopBarSecondary
+        leftContent={() => {
+          return (
+            <>
+              <TopLink
+                onClick={() => {
+                  setCalculatorModalIsOpen(true)
+                }}
+              >
+                <BiCalculator color="white" size={20} /> Calculator
+              </TopLink>
+              <Modal
+                isOpen={calculatorModalIsOpen}
+                onRequestClose={() => {
+                  setCalculatorModalIsOpen(false)
+                }}
+                style={customStyles}
+              >
+                <Calculator />
+              </Modal>
+
+              <TopLink
+                onClick={() => {
+                  setScratchpadModalIsOpen(true)
+                }}
+              >
+                <BiBook color="white" size={20} /> Scratch Pad
+              </TopLink>
+              <Modal
+                isOpen={scratchpadModalIsOpen}
+                onRequestClose={() => {
+                  setScratchpadModalIsOpen(false)
+                }}
+                style={customStyles}
+              >
+                <ModalTitle>
+                  <ModalText>Scratch Pad</ModalText>
+                  <CloseButton
+                    onClick={() => {
+                      setScratchpadModalIsOpen(false)
+                    }}
+                  >
+                    <TiTimes size={30} />
+                  </CloseButton>
+                </ModalTitle>
+                <textarea rows="20" cols="50"></textarea>
+              </Modal>
+            </>
+          )
+        }}
+        rightContent={() => {
+          return (
+            <>
+              <TopLink>
+                <FlagButton
+                  flagged={
+                    props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id) ?
+                      props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id).flagged
+                      : false}
+
+                  action={(flagged) => {
+                    props.flagResponse(
+                      props.session.currentSession.session_id,
+                      props.session.currentQuestion.question_id,
+                      props.auth.userData.student_id,
+                      props.session.currentSection.section_id,
+                      flagged
+                    )
+                  }}
+                />
+              </TopLink>
+              <TopLink>
+                Question {props.session.currentQuestionOrder.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentQuestionOrder.length}
+              </TopLink>
+            </>
+          )
+        }}
+      />
       {!props.session.isFetchingQuestionDetail ?
         <Container>
-          <PreHeading>
-            <PreHeadingLeft>
-              Question {props.session.currentSection.question_order.indexOf(props.session.currentQuestion.question_id) + 1} of {props.session.currentSection.question_order.length}
-            </PreHeadingLeft>
-            <PreHeadingRight>
-              <FlagButton
-                flagged={
-                  props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id) ?
-                    props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id).flagged
-                    : false}
-
-                action={(flagged) => {
-                  props.flagResponse(
-                    props.session.currentSession.session_id,
-                    props.session.currentQuestion.question_id,
-                    1,
-                    props.session.currentSection.section_id,
-                    flagged
-                  )
-                }}
-              />
-            </PreHeadingRight>
-          </PreHeading>
-
-          <MainContent>
+          <MainContent
+            layout={props.session.currentStem.layout ? props.session.currentStem.layout : "side by side"}
+          >
             {props.session.currentStem ?
-              <QuestionStem>
-                {props.session.currentStem.text}
+              <QuestionStem
+                layout={props.session.currentStem.layout ? props.session.currentStem.layout : "side by side"}
+              >
+                {props.session.currentStem.text ?
+                  <QuestionStemText>
+                    {props.session.currentStem.text.split("<br/>").map((para) => {
+                      return (
+                        <>
+                          {para} <br />
+                        </>
+                      )
+                    })}
+                  </QuestionStemText>
+                  : null}
+                <QuestionStemImage src={props.session.currentStem.image} />
               </QuestionStem>
               : null}
-            <QuestionContent>
-              <Title>
-                {props.session.currentQuestion.question}
-              </Title>
+            <QuestionContent
+              layout={props.session.currentStem.layout ? props.session.currentStem.layout : "side by side"}
+            >
+              {props.session.currentQuestion.question ?
+                <Text>
+                  {props.session.currentQuestion.question}
+                </Text>
+                : null}
 
-              <RadioBox
-                options={props.session.currentQuestion.options}
-                onClick={(item) => {
-                  props.createResponse(
-                    props.session.currentSession.session_id,
-                    props.session.currentQuestion.question_id,
-                    1,
-                    props.session.currentSection.section_id,
-                    item,
-                    props.session.currentQuestion.answer
-                  )
-                }}
-                defaultValue={() => {
-                  const response = props.session.sessionResponses.find(
-                    item => item.question_id === props.session.currentQuestion.question_id
-                  )
+              {props.session.currentQuestion.image ?
+                <QuestionImage src={props.session.currentQuestion.image} />
+                : null}
 
-                  if (response) {
-                    return response.value
-                  } else {
-                    return null
-                  }
+              {props.session.currentQuestion.type === "MC" || props.session.currentQuestion.type === "MCSJ" ?
+                <RadioBox
+                  options={props.session.currentQuestion.options}
+                  images={props.session.currentQuestion.option_images}
+                  onClick={(item) => {
+                    props.createResponse(
+                      props.session.currentSession.session_id,
+                      props.session.currentQuestion.question_id,
+                      props.auth.userData.student_id,
+                      props.session.currentSection.section_id,
+                      item,
+                      props.session.currentQuestion.answer,
+                      props.session.currentQuestion.type,
+                      props.session.currentStem ? props.session.currentStem.stem_id : null,
+                      props.session.currentQuestion.options
+                    )
+                  }}
+                  defaultValue={() => {
+                    const response = props.session.sessionResponses.find(
+                      item => item.question_id === props.session.currentQuestion.question_id
+                    )
 
-                }}
-              />
+                    if (response) {
+                      return response.value
+                    } else {
+                      return null
+                    }
+
+                  }}
+                />
+                : props.session.currentQuestion.type === "DD" ?
+                  <DragAndDrop
+                    options={props.session.currentQuestion.options}
+                    onClick={(item) => {
+                      props.createResponse(
+                        props.session.currentSession.session_id,
+                        props.session.currentQuestion.question_id,
+                        props.auth.userData.student_id,
+                        props.session.currentSection.section_id,
+                        item,
+                        props.session.currentQuestion.answer,
+                        props.session.currentQuestion.type,
+                        props.session.currentStem ? props.session.currentStem.stem_id : null
+                      )
+                    }}
+                    defaultValue={() => {
+                      const response = props.session.sessionResponses.find(
+                        item => item.question_id === props.session.currentQuestion.question_id
+                      )
+                      if (response && response.value && response.value.split(";").length > 0) {
+                        return response.value.split(";")
+                      } else {
+                        return null
+                      }
+                    }}
+                  />
+                  : null}
             </QuestionContent>
           </MainContent>
 
@@ -99,56 +232,74 @@ const Question = (props) => {
       <BottomBar
         leftContent={() => (
           <>
-            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order.slice(-1)[0] ?
-              <Button
+            <ThemedModal
+              heading="End Exam"
+              body="Are you sure you want to end this practice test?"
+              button={(setIsOpen) => (
+                <LinkLeft
+                  onClick={() => {
+                    setIsOpen(true)
+                  }}
+                >
+                  End Exam
+                </LinkLeft>
+              )}
+              onClick={(setIsOpen) => {
+                props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
+
+                setIsOpen(false)
+              }}
+              onClickNo={(setIsOpen) => {
+                setIsOpen(false)
+              }}
+            />
+            {props.session.currentSession.show_review ?
+              <LinkLeft
                 onClick={() => {
-                  props.reviewSection()
+                  props.reviewSection(props.session.currentSession.session_id)
                 }}
-                type="secondary"
-                label="Review"
-                color="orange"
-              />
+              >
+                Review Screen
+            </LinkLeft>
               : null}
           </>
         )}
 
         rightContent={() => (
           <>
-            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order[0] ?
-              <LinkItem
-                color="teal"
+            {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0] ?
+              <LinkRight
                 onClick={() => {
                   const currentQuestionId = props.session.currentQuestion.question_id
-                  const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
-                  const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex - 1]
+                  const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
+                  const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex - 1]
                   props.getQuestionDetail(nextQuestion)
                 }}
               >
-                Previous Question
-              </LinkItem>
+                Previous
+              </LinkRight>
               : null}
 
-            {props.session.currentQuestion.question_id !== props.session.currentSection.question_order.slice(-1)[0] ?
-              <Button
-                type="primary"
-                label="Next Question"
-                color="teal"
+            {props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] ?
+              <LinkRight
                 onClick={() => {
                   const currentQuestionId = props.session.currentQuestion.question_id
-                  const currentQuestionIndex = props.session.currentSection.question_order.indexOf(currentQuestionId)
-                  const nextQuestion = props.session.currentSection.question_order[currentQuestionIndex + 1]
+                  const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
+                  const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
                   props.getQuestionDetail(nextQuestion)
                 }}
-              />
+              >
+                Next
+              </LinkRight>
               :
-              <Button
+              <LinkRight
                 onClick={() => {
-                  props.reviewSection()
+                  props.reviewSection(props.session.currentSession.session_id)
                 }}
-                type="secondary"
-                label="Review"
-                color="orange"
-              />}
+              >
+                Next
+              </LinkRight>
+            }
           </>
         )}
       />
@@ -157,54 +308,109 @@ const Question = (props) => {
   )
 }
 
+const Border = styled.div`
+  width: 7px;
+  position: fixed;
+  left: 58.5%;
+  height: 100vh;
+  background: #056DAA;
+`
 
 const Container = styled.div`
-  padding: 30px 0;
+  padding: 0 30px 0 30px;
 `
 
-const Title = styled.div`
-  font-family: Gilroy-Bold;
-  font-size: 25px;
-  padding-bottom: 30px;
-`
-
-const PreHeading = styled.div`
-  font-family: Gilroy-Regular;
-  color: rgba(0,0,0,0.3);
-  padding-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between
-`
-
-const PreHeadingRight = styled.div`
-
-`
-const PreHeadingLeft = styled.div`
-
+const Text = styled.div`
+  font-family: arial;
+  font-size: 16px;
+  margin-bottom: 30px;
 `
 
 const MainContent = styled.div`
   display: flex;
+  flex-direction: ${props => props.layout == "normal" ? "column" : "row"};
   align-items: flex-start;
-
 `
 
 const QuestionContent = styled.div`
-  flex: 1;
+  ${props => props.layout == "normal" ? '' : 'flex: 2;'}
+  width: ${props => props.layout == "normal" ? '100%' : 0};
+  padding: 30px 0 50px 0;
 `
 
 const QuestionStem = styled.div`
-  flex: 1;
+  ${props => props.layout == "normal" ? '' : 'flex: 3;'}
+  width: ${props => props.layout == "normal" ? 'auto' : 0};
   margin-right: 40px;
-  opacity: 0.7;
-  font-family: Gilroy-Regular;
+  font-family: arial;
   text-align: justify;
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  padding: 25px;
-  background: white;
-  border-radius: 12px;
-  font-size: 13px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 30px;
+  padding-top: 30px;
 `
+
+const QuestionStemText = styled.div`
+  margin-bottom: 25px;
+`
+
+const QuestionStemImage = styled.img`
+  max-width: 70%;
+`
+
+const QuestionImage = styled.img`
+  max-width: 30%;
+  margin-bottom: 20px;
+`
+
+const LinkLeft = styled.div`
+  color: white;
+  cursor: pointer;
+  border-right: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const LinkRight = styled.div`
+  color: white;
+  cursor: pointer;
+  border-left: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const TopLink = styled.div`
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+  svg{
+    margin-right: 5px;
+  }
+`
+
+const ModalTitle = styled.div`
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+`
+
+const CloseButton = styled.div`
+  cursor: pointer;
+`
+
+const ModalText = styled.div`
+
+`
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(Question)

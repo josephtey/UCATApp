@@ -15,6 +15,17 @@ router.post('/find', async function (req, res, next) {
   }
 });
 
+router.post('/find/completed', async function (req, res, next) {
+  try {
+    let result = await db.responses.find_completed(req.body)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
 // Get all responses
 router.post('/session/:session_id', async function (req, res, next) {
   try {

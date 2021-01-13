@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
-import { getSessionDetails, resetSessionDetail } from '../actions/session'
+import { getSessionDetails, resetSessionDetail, finishSession, nextSection } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import LogoImage from '../assets/in2medlogo.png'
 
 import Question from '../components/Session/Question'
+import Answer from '../components/Session/Answer'
 import Review from '../components/Session/Review';
 import Start from '../components/Session/Start';
 import Results from '../components/Session/Results';
 
 
-const mapDispatchToProps = { getSessionDetails, resetSessionDetail }
+const mapDispatchToProps = { getSessionDetails, resetSessionDetail, finishSession, nextSection }
 
 const mapStateToProps = (state) => {
   return state
@@ -19,7 +20,8 @@ const mapStateToProps = (state) => {
 
 const Timer = ({
   startTimestamp,
-  sectionTimeLength
+  sectionTimeLength,
+  onFinished
 }) => {
 
   const calculateTimeLeft = () => {
@@ -27,19 +29,28 @@ const Timer = ({
     const currentTime = new Date().getTime()
     const startTime = new Date(startTimestamp).getTime()
     const timeRemaining = (totalTime - (currentTime - startTime)) / 60000
-
-    return timeRemaining.toFixed(2)
+    const secondsRemaining = ((timeRemaining) - Math.floor(timeRemaining)) * 60
+    return [timeRemaining.toFixed(2), Math.floor(timeRemaining), Math.round(secondsRemaining)]
   }
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
+  const [timerStop, setTimerStop] = useState(false)
 
   useEffect(() => {
 
-    const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
+    if (!timerStop) {
+      const timer = setTimeout(() => {
+        setTimeLeft(calculateTimeLeft());
 
-    return () => clearTimeout(timer);
+        if (timeLeft[0] < 0) {
+          onFinished()
+          setTimerStop(true)
+        }
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }
+
 
   })
 
@@ -47,11 +58,20 @@ const Timer = ({
 
   if (!timeLeft) return null
 
-  return (
-    <>
-      {timeLeft} minutes left
-    </>
-  )
+  if (!timerStop) {
+    return (
+      <>
+        {timeLeft[1]} minutes {timeLeft[2]} seconds left
+      </>
+    )
+  } else {
+    return (
+      <>
+        Time Expired
+      </>
+    )
+  }
+
 }
 
 const Session = (props) => {
@@ -65,23 +85,45 @@ const Session = (props) => {
   }, [])
 
   if (props.session.isFetchingSession) return <Loading duringSession={true} />
-  if (!props.session.currentSession) return null
+  if (!props.session.currentSession || !props.session.currentStructure) return null
 
   return (
-    <>
+    <SessionContainer>
 
       <TopBar>
         <TopBarInner>
           <TopBarLeft>
-            {props.session.currentSection ? props.session.currentSection.name : null}
+            {props.session.currentStructure && props.session.currentSection ?
+              <>
+                {props.session.currentStructure.name} - {props.session.currentSection.name}
+              </>
+              : null}
           </TopBarLeft>
-          <img src={LogoImage} width="100" />
           <TopBarRight>
-            {props.session.currentSession.start_time.length > 0 && props.session.currentSession.start_time.length != props.session.currentSession.end_time.length
-              ? <Timer
-                startTimestamp={props.session.currentSession.start_time[props.session.currentStructure.section_order.indexOf(props.session.currentSection.section_id)]}
-                sectionTimeLength={props.session.currentSection.time}
-              />
+            {props.session.currentStructure.type === "Exam" || props.session.currentStructure.type === "Mock" ?
+              <>
+                {props.session.currentSession.start_time.length > 0 && props.session.currentSession.start_time.length != props.session.currentSession.end_time.length
+                  ? <Timer
+                    startTimestamp={props.session.currentSession.start_time[props.session.currentStructure.section_order.indexOf(props.session.currentSection.section_id)]}
+                    sectionTimeLength={props.session.currentSection.time}
+                    onFinished={() => {
+                      alert("You have run out of time!")
+
+                      if (props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]) {
+                        const currentSectionId = props.session.currentSection.section_id
+                        const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
+                        props.nextSection(
+                          props.session.currentSession.session_id,
+                          props.session.currentStructure.section_order[currentSectionIndex + 1]
+                        )
+                      } else {
+                        props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
+                      }
+
+                    }}
+                  />
+                  : null}
+              </>
               : null}
           </TopBarRight>
         </TopBarInner>
@@ -92,42 +134,65 @@ const Session = (props) => {
         {props.session.mode === "review" ? <Review />
           : props.session.mode === "question" ?
             <Question />
-            : props.session.mode === "start" ?
-              <Start
-                returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
-              />
-              : props.session.mode === "results" ?
-                <Results
+            : props.session.mode === "answer" ?
+              <Answer />
+              : props.session.mode === "start" ?
+                <Start
                   returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
                 />
-                : null
+                : props.session.mode === "results" ?
+                  <Results
+                    returnHome={() => {
+                      props.history.push(
+                        props.session.currentStructure.type === "Exam" ?
+                          '/exam/' + props.session.currentSession.structure_id
+                          : props.session.currentStructure.type === "Practice" ?
+                            '/practice/' + props.session.currentStructure.category_id
+                            : props.session.currentStructure.type === "Mock" ?
+                              '/mock/' + props.session.currentStructure.structure_id
+                              : null
+                      )
+                    }}
+                  />
+                  : null
         }
       </Container>
-    </>
+    </SessionContainer>
   )
 }
+
+const SessionContainer = styled.div`
+  background: white;
+  min-height: 100vh;
+  font-family: arial !important;
+`
+
 const Container = styled.div`
-  padding: 30px;
-  width: 1000px;
-  margin: 0 auto;
+  padding-top: 80px;
 `
 const TopBar = styled.div`
   box-shadow: 10px 10px 20px rgba(0,0,0, 0.02);
-  background: white;
-  height: 70px;
+  background: #006daa;
+  color: white;
+  height: 50px;
   width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 `
 
 const TopBarInner = styled.div`
-  width: 1000px;
+  width: 100%;
   height: 100%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `
 const TopBarLeft = styled.div`
+  padding: 30px;
 `
 const TopBarRight = styled.div`
+padding: 30px;
 `
 export default connect(mapStateToProps, mapDispatchToProps)(Session)

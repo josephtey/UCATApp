@@ -1,0 +1,205 @@
+{
+  "exam": {
+    "name": "Decision Making 1",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 31
+  },
+  "sections": [
+    {
+      "name": "Decision Making",
+      "description": "Looks at your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information.",
+      "time": 31,
+      "stems": [
+        {
+          "text": "No professionals are unemployed. All lawyers are professionals. Some lawyers are university graduates.",
+          "category_id": 1,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Select ‘Yes’ if the conclusion does follow. Select ‘No’ if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "No lawyer is unemployed.",
+                "Some university graduates are unemployed.",
+                "Some university graduates are lawyers.",
+                "All university graduates are employed.",
+                "If an individual is unemployed, they cannot be a lawyer."
+              ],
+              "answer": [
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+              ],
+              "explanation": "",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Squawks and Pecks are types of birds. Neither Squawks nor Pecks have tails but they both have feathers. Squawks cannot fly and Pecks cannot swim.",
+          "category_id": 1,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Select ‘Yes’ if the conclusion does follow. Select ‘No’ if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Not all birds have feathers.",
+                "If a bird does not have a tail, it may be a Squawk or a Peck.",
+                "Squawks are tailless and featherless.",
+                "A creature may have feathers but not be able to fly.",
+                "Pecks can fly."
+              ],
+              "answer": [
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+              ],
+              "explanation": "",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "All inhabitants of an island can be classified as Sens or Dens. All Sens are herbivores. Dens may be herbivorous or omnivorous. Only Sens in the southern half of the island eat berries. All inhabitants of the island are slim or stocky. All herbivorous inhabitants are slim.",
+          "category_id": 1,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Select ‘Yes’ if the conclusion does follow. Select ‘No’ if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "All Sens on the island are slim.",
+                "All inhabitants of the island are either slim or Dens.",
+                "Dens in the northern half of the island do not eat berries.",
+                "Some Dens on the island have to be stocky.",
+                "All the omnivorous Dens on the island are stocky."
+              ],
+              "answer": [
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+              ],
+              "explanation": "",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " Fruits are growing on a tree. There are green-coloured fruits growing in addition to guavas. No other fruits are growing except for red apples.",
+          "category_id": 1,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Select ‘Yes’ if the conclusion does follow. Select ‘No’ if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Some of the fruits growing on the tree are red.",
+                "There are no green apples growing on the tree.",
+                "There are at most 3 different types of fruit growing on the true.",
+                "If the guavas are not green, there are 3 different colours of fruit growing on the tree.",
+                "Bananas cannot be growing on the tree."
+              ],
+              "answer": [
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes"
+              ],
+              "explanation": "",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Bill is stacking containers on top of each other. 6 small containers, 2 medium containers and 5 large containers stack up to a height of 56cm. On the contrary, 2 small containers, 1 medium container and 1 large container stacks up to 14cm.",
+          "category_id": 1,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "How many cm do 4 small containers and 6 large containers stack up to?",
+              "type": "Multiple Choice",
+              "options": [
+                "28cm",
+                "42cm",
+                "56cm",
+                "70cm"
+              ],
+              "answer": "28cm",
+              "explanation": "",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "There 5 different letters stacked in Chris’ mailbox, sent from Jim, Andy, Mary, Fiona and Michael. There are 3 letters in between Mary and Michael’s letters. Jim’s letter is above Andy’s but below Michael’s. Fiona’s letter is closer to Andy’s than Jim’s.",
+          "category_id": 1,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Whose sent the letter in the middle of the pile?",
+              "type": "Multiple Choice",
+              "options": [
+                "Mary",
+                "Jim",
+                "Andy",
+                "Fiona"
+              ],
+              "answer": "Mary",
+              "explanation": "",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "4 friends, Axel, Brandon, Clara and Danielle, are standing in separate corners of a rectangular room. Axel and Danielle are diagonally opposite to each other. Danielle is closest to Clara. Brandon is in the top left corner.",
+          "category_id": 1,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Which of the following is true?",
+              "type": "Multiple Choice",
+              "options": [
+                "Axel is in position 3",
+                "Clara is closest to Axel",
+                "Danielle is in position 4",
+                "Brandon is furthest from Danielle"
+              ],
+              "answer": "Axel is in position 3",
+              "explanation": "",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "4 friend, Jean, Claudia, Rakesh and Jill invest varying amounts in a startup business. Collectively they invested $8600. Both Claudia and Rakesh invested the most money. Jill invested a sum equal to the average of 2 other friends. Jill invested $600 more than Jean.",
+          "category_id": 1,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What as the least amount of money invested by one of the friends?",
+              "type": "Multiple Choice",
+              "options": [
+                "$1200",
+                "$1400",
+                "$1600",
+                "$1800"
+              ],
+              "answer": "$1200",
+              "explanation": "",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

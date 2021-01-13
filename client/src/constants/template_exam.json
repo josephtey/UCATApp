@@ -1,0 +1,50 @@
+{
+  "exam": {
+    "name": "Exam Name", REQUIRED
+    "description": "Description of Exam (shows on the exam page)", NOT REQUIRED
+    "type": "Can be 'Exam' (multi-section, full UCAT exam) or 'Mock' (only 1 single section)", REQUIRED
+    "time": 31 (in minutes) REQUIRED
+  },
+  "sections": [
+    {
+      "name": "Name of the exam, e.g. Exam 1 ", REQUIRED
+      "description": "Brief description of the section", NOT REQUIRED
+      "time": 31 (in minutes), REQUIRED
+      "stems": [
+        {
+          "text": "Text of the question stem", NOT REQUIRED
+          "category_id": 1 (look at provided document to see how this correlates to question type), REQUIRED
+          "layout": "Can be 'normal' or 'side by side'", REQUIRED
+          "image": "URL of the image for the question stem", NOT REQUIRED
+          "questions": [
+            {
+              "text": "Text of the question itself", NOT REQUIRED
+              "type": "Can be 'Drag and Drop' or 'Multiple Choice'", REQUIRED
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ], REQUIRED
+              "option_images": [
+                "url of image for option A",
+                "url of image for option B",
+                "url of image for option C",
+                "url of image for option D"
+              ], NOT REQUIRED
+              "answer": "A" OR (if drag and drop) [
+                "Yes",
+                "Yes",
+                "No",
+                "No",
+                "No"
+              ], REQUIRED
+              "explanation": "Explanation of WHY this is the answer", NOT REQUIRED (better if you have this though ...)
+              "difficulty": 1 (your choice as to how you label difficulty, can be any integer) NOT REQUIRED
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

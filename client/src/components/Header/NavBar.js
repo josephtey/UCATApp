@@ -1,6 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components'
 import LogoImage from '../../assets/in2medlogo.png'
+import { connect } from 'react-redux'
+import { eraseCookie } from '../../utils/helpers'
+import { logoutUser } from '../../actions/auth'
+
+const mapDispatchToProps = { logoutUser }
+
+const mapStateToProps = (state) => {
+  return state
+}
 
 const NavBar = (props) => {
 
@@ -14,7 +23,7 @@ const NavBar = (props) => {
     }
   }, [props.location.pathname])
 
-  if (!visible) return null
+  if (!visible || !props.auth.userData) return null
 
   return (
     <Container>
@@ -24,24 +33,54 @@ const NavBar = (props) => {
 
       <UserInfo>
         <span style={{ 'opacity': '0.7' }}>Welcome,</span>
-        <br />
-        <span style={{ 'font-size': '20px', 'font-weight': 'bold' }}>Joseph Tey</span>
+        <span style={{ 'font-size': '20px', 'font-weight': 'bold' }}>{props.auth.userData.display_name}</span>
+        <span
+          style={{ 'opacity': '0.7', 'text-align': 'right', 'width': '100%', 'cursor': 'pointer' }}
+          onClick={() => {
+            props.logoutUser()
+            props.setAuthenticated(false)
+          }}
+        >
+          Log Out
+        </span>
       </UserInfo>
 
       <Nav>
         <NavItem
-          active={true}
+          active={props.location.pathname === "/" || props.location.pathname.includes("exam")}
           onClick={() => {
             props.history.push('/')
           }}
         >
-          Exams
+          Full Exams
         </NavItem>
         <NavItem
-          active={false}
+          active={props.location.pathname.includes("mocks") || props.location.pathname.includes("mock")}
+          onClick={() => {
+            props.history.push('/mocks')
+          }}
         >
-          Statistics
+          Section Mocks
         </NavItem>
+        <NavItem
+          active={props.location.pathname.includes("practice")}
+          onClick={() => {
+            props.history.push('/practice')
+          }}
+        >
+          Practice
+        </NavItem>
+
+        {props.auth.userData.roles.includes("administrator") ?
+          <NavItem
+            active={props.location.pathname.includes("import")}
+            onClick={() => {
+              props.history.push('/import')
+            }}
+          >
+            Import
+          </NavItem>
+          : null}
       </Nav>
     </Container>
   )
@@ -77,6 +116,8 @@ const UserInfo = styled.div`
   background: #2ECFAF;
   padding: 40px;
   color: white;
+  display: flex;
+  flex-direction: column
 `
 
-export default NavBar
+export default connect(mapStateToProps, mapDispatchToProps)(NavBar)

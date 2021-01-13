@@ -11,12 +11,22 @@ class SectionsRepository {
   }
 
   async add(values) {
-    return this.db.one(sql.add, {
+    const newSection = await this.db.one(sql.add, {
       name: values.name,
       description: values.description,
-      question_order: [],
+      question_order: values.question_order,
       time: values.time
     })
+
+    for (let i = 0; i < values.question_order.length; i++) {
+      this.db.one(sql.add_section_questions, {
+        section_id: newSection.section_id,
+        question_id: values.question_order[i]
+      })
+    }
+
+    return newSection
+
   }
 
   async update(section_id, values) {

@@ -10,9 +10,17 @@ class SessionsRepository {
     return this.db.manyOrNone(sql.total);
   }
 
-  async total_structure(structure_id) {
+  async total_structure(structure_id, student_id) {
     return this.db.manyOrNone(sql.total_structure, {
-      structure_id
+      structure_id,
+      student_id
+    });
+  }
+
+  async find_category(category_id, student_id) {
+    return this.db.manyOrNone(sql.find_category, {
+      category_id,
+      student_id
     });
   }
 
@@ -49,6 +57,14 @@ class SessionsRepository {
         session_id
       });
     }
+
+  }
+
+  async update_review(session_id, show) {
+    return this.db.one(sql.update_review, {
+      session_id,
+      show
+    });
 
   }
 

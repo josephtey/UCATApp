@@ -76,7 +76,8 @@ const Exam = (props) => {
 
   useEffect(() => {
     props.getExamDetail(props.match.params.structure_id)
-    props.getStructureSessions(props.match.params.structure_id)
+    console.log(props.auth.userData)
+    props.getStructureSessions(props.match.params.structure_id, props.auth.userData.student_id)
 
     return () => {
       props.resetExamDetail()
@@ -95,7 +96,7 @@ const Exam = (props) => {
 
   return (
     <Container>
-      <PreHeading>Exam Details</PreHeading>
+      <PreHeading>Details</PreHeading>
 
       <Header>
         <HeaderLeft>
@@ -114,7 +115,7 @@ const Exam = (props) => {
               color="orange"
               label="Start Exam"
               onClick={() => {
-                props.createSession(props.content.examDetail.details.structure_id, 1)
+                props.createSession(props.content.examDetail.details.structure_id, props.auth.userData.student_id)
               }}
             />
             : <>
@@ -122,21 +123,23 @@ const Exam = (props) => {
               {props.content.structureSessions[0].completed ?
                 <OrangeLink
                   onClick={() => {
-                    props.createSession(props.content.examDetail.details.structure_id, 1)
+                    props.createSession(props.content.examDetail.details.structure_id, props.auth.userData.student_id)
                   }}
                 >
                   Re-attempt Exam
               </OrangeLink>
                 : null}
 
-              <Button
-                label={props.content.structureSessions[0].completed ? "View Results" : "Resume Exam"}
-                type="primary"
-                color="orange"
-                onClick={() => {
-                  props.history.push("/session/" + props.content.structureSessions[0].session_id)
-                }}
-              />
+              {!props.content.structureSessions[0].completed ?
+                <Button
+                  label={"Resume Exam"}
+                  type="primary"
+                  color="orange"
+                  onClick={() => {
+                    props.history.push("/session/" + props.content.structureSessions[0].session_id)
+                  }}
+                />
+                : null}
 
             </>}
 
@@ -210,9 +213,46 @@ const Exam = (props) => {
         })}
       </Sections>
 
+      <PastSessions>
+        {props.content.structureSessions.length > 0 ?
+          <PreHeading
+            style={{ 'padding-bottom': 10 }}
+          >Past Sessions</PreHeading>
+          : null
+        }
+
+        {props.content.structureSessions.map((session) => {
+          if (session.completed) {
+            return (
+              <Card
+                className="hvr-float"
+                onClick={() => {
+                  props.history.push(`/session/${session.session_id}`)
+                }}
+                style={{
+                  cursor: 'pointer'
+                }}
+              >
+
+                <CardTitle>
+                  {new Date(session.start_time[0]).toLocaleDateString()}
+                </CardTitle>
+                <CardInfo>
+                  Score: {session.score}
+                </CardInfo>
+
+              </Card>
+            )
+          }
+        })}
+      </PastSessions>
+
     </Container >
   )
 }
+const PastSessions = styled.div`
+
+`
 const Caption = styled(Text)`
   opacity: 0.6;
 `

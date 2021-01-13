@@ -11,6 +11,8 @@ var structuresRouter = require('./routes/structures');
 var sessionsRouter = require('./routes/sessions');
 var responsesRouter = require('./routes/responses');
 var stemsRouter = require('./routes/stems');
+var usersRouter = require('./routes/users');
+var categoriesRouter = require('./routes/categories');
 
 var app = express();
 app.use(cors())
@@ -32,6 +34,8 @@ app.use('/structures', structuresRouter);
 app.use('/responses', responsesRouter);
 app.use('/sessions', sessionsRouter);
 app.use('/stems', stemsRouter);
+app.use('/users', usersRouter);
+app.use('/categories', categoriesRouter);
 
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`)

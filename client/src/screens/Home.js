@@ -4,7 +4,6 @@ import { getAllExams } from '../actions/content'
 import Loading from '../components/Shared/Loading'
 
 import styled from 'styled-components'
-import { Heading } from 'rebass'
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 
@@ -17,21 +16,21 @@ const mapStateToProps = (state) => {
 const Home = (props) => {
 
   useEffect(() => {
-    props.getAllExams()
-  }, [])
+    props.getAllExams(props.type)
+  }, [props.history.location.pathname])
 
   if (props.content.isFetchingExams) return <Loading />
   if (!props.content.allExams) return null
 
   return (
     <Container>
-      <Title>Exams</Title>
+      <Title>{props.type}s</Title>
       <ExamList>
         {props.content.allExams.map((exam, i) => {
           return (
             <Card key={i}
               onClick={() => {
-                props.history.push("/exam/" + exam.structure_id.toString())
+                props.history.push(`/${props.type.toLowerCase()}/` + exam.structure_id.toString())
               }}
             >
               <CardTop>
@@ -70,6 +69,7 @@ const Container = styled.div`
 const ExamList = styled.div`
   display: flex;
   margin-top: 20px;
+  flex-wrap: wrap;
 `
 
 const CardHeading = styled.div`
@@ -111,6 +111,7 @@ const Card = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 20px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)

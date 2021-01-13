@@ -3,7 +3,9 @@ import { connect } from 'react-redux'
 import { stopSectionStart } from '../../actions/session'
 import Loading from '../Shared/Loading'
 import BottomBar from '../Session/BottomBar'
+import TopBarSecondary from '../Session/TopBarSecondary'
 import styled from 'styled-components'
+import { descriptions } from '../../constants/section_descriptions'
 
 const mapDispatchToProps = { stopSectionStart }
 
@@ -18,13 +20,29 @@ const Start = (props) => {
 
   return (
     <>
+      <TopBarSecondary
+        leftContent={() => {
+          return null
+        }}
+        rightContent={() => {
+          return null
+        }}
+      />
       <Container>
         <WelcomeMessage>
-          Welcome to {props.session.currentSection.name}
+          <UCATLogo src="https://practice.ucat.ac.uk/img/logo.png" />
+          UCAT PRACTICE TEST
         </WelcomeMessage>
 
+        <Description>
+          <DescriptionTitle>
+            {props.session.currentSection.name}
+          </DescriptionTitle>
+          {descriptions[props.session.currentSection.name] ? descriptions[props.session.currentSection.name]() : null}
+        </Description>
+
         <Info>
-          This section has <b>{props.session.currentSection.question_order.length}</b> questions and is <b>{props.session.currentSection.time}</b> minutes in total.
+          In this section, you will have <b>{props.session.currentSection.time}</b> minutes to answer <b>{props.session.currentSection.question_order.length}</b> questions.
         </Info>
 
         <Warning>
@@ -33,22 +51,23 @@ const Start = (props) => {
       </Container>
 
       <BottomBar
-        leftContent={()=>(
-          <Link
-              onClick={() => {
-                props.returnHome();
-              }}
-            >I don't want to start this section now</Link>
+        leftContent={() => (
+          <LinkLeft
+            onClick={() => {
+              props.returnHome();
+            }}
+          >I don't want to start this section now
+          </LinkLeft>
         )}
-        
-        rightContent={()=>(
-          <Button
-              onClick={() => {
-                props.stopSectionStart(props.session.currentSession.session_id)
-              }}
-            >
-          Start Section!
-          </Button>
+
+        rightContent={() => (
+          <LinkRight
+            onClick={() => {
+              props.stopSectionStart(props.session.currentSession.session_id)
+            }}
+          >
+            Start Section
+          </LinkRight>
         )}
 
       />
@@ -58,23 +77,23 @@ const Start = (props) => {
 }
 
 const Container = styled.div`
-  padding: 30px 0;
-  color: rgba(0,0,0,0.4)
-`
-
-const Button = styled.div`
-  background: #2ecfb0;
-  color: white;
-  border-radius: 10px;
-  padding: 10px 15px;
-  font-family: Gilroy-SemiBold;
-  cursor: pointer;
+  padding: 30px;
 `
 
 const WelcomeMessage = styled.div`
-  font-family: Gilroy-Bold;
+  font-family: arial;
+  font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+const UCATLogo = styled.img`
+  width: 250px;
+  margin-bottom: 20px;
 `
 
 const Info = styled.div`
@@ -85,9 +104,29 @@ const Warning = styled.div`
 
 `
 
-const Link = styled.div`
-  color: #f89800;
+const LinkLeft = styled.div`
+  color: white;
   cursor: pointer;
+  border-right: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const LinkRight = styled.div`
+  color: white;
+  cursor: pointer;
+  border-left: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
+
+const Description = styled.div`
+  
+`
+
+const DescriptionTitle = styled.div`
+  font-family: arial;
+  font-weight: bold;
 `
 
 

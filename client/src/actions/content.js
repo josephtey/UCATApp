@@ -3,6 +3,11 @@ import {
   db_getExamDetail,
   db_getSectionDetail,
   db_getAllStructureSessions,
+  db_getCategories,
+  db_getCategoryDetail,
+  db_getCategorySessions,
+  db_getCategoryQuestions,
+  db_getCompletedQuestions
 } from '../api/db';
 
 export const GET_ALL_EXAMS_REQUEST = 'GET_ALL_EXAMS_REQUEST';
@@ -13,10 +18,10 @@ const getAllExamsRequest = { type: GET_ALL_EXAMS_REQUEST };
 const getAllExamsSuccess = (allExams) => ({ type: GET_ALL_EXAMS_SUCCESS, allExams });
 const getAllExamsError = error => ({ type: GET_ALL_EXAMS_ERROR, error });
 
-export const getAllExams = () => async dispatch => {
+export const getAllExams = (type) => async dispatch => {
   dispatch(getAllExamsRequest);
   try {
-    const allExams = await db_getAllExams()
+    const allExams = await db_getAllExams(type)
     dispatch(getAllExamsSuccess(allExams))
 
   } catch (error) {
@@ -95,6 +100,74 @@ export const getStructureSessions = (structure_id, student_id) => async dispatch
     dispatch(getStructureSessionsError(error));
   }
 };
+
+export const GET_CATEGORIES_REQUEST = 'GET_CATEGORIES_REQUEST';
+export const GET_CATEGORIES_SUCCESS = 'GET_CATEGORIES_SUCCESS';
+export const GET_CATEGORIES_ERROR = 'GET_CATEGORIES_ERROR';
+
+const getCategoriesRequest = { type: GET_CATEGORIES_REQUEST };
+const getCategoriesSuccess = (categories) => ({ type: GET_CATEGORIES_SUCCESS, categories });
+const getCategoriesError = error => ({ type: GET_CATEGORIES_ERROR, error });
+
+export const getCategories = () => async dispatch => {
+  dispatch(getCategoriesRequest);
+  try {
+    const categories = await db_getCategories()
+    dispatch(getCategoriesSuccess(categories))
+
+  } catch (error) {
+    dispatch(getCategoriesError(error));
+  }
+};
+
+
+export const GET_CATEGORY_DETAIL_REQUEST = 'GET_CATEGORY_DETAIL_REQUEST';
+export const GET_CATEGORY_DETAIL_SUCCESS = 'GET_CATEGORY_DETAIL_SUCCESS';
+export const GET_CATEGORY_DETAIL_ERROR = 'GET_CATEGORY_DETAIL_ERROR';
+export const RESET_CATEGORY_DETAIL = 'RESET_CATEGORY_DETAIL';
+
+const getCategoryDetailRequest = { type: GET_CATEGORY_DETAIL_REQUEST };
+const getCategoryDetailSuccess = (categoryDetail) => ({ type: GET_CATEGORY_DETAIL_SUCCESS, categoryDetail });
+const getCategoryDetailError = error => ({ type: GET_CATEGORY_DETAIL_ERROR, error });
+
+export const getCategoryDetail = (category_id, student_id) => async dispatch => {
+  dispatch(getCategoryDetailRequest);
+  try {
+    const categoryDetail = await db_getCategoryDetail(category_id)
+    const categorySessions = await db_getCategorySessions(category_id, student_id)
+    const categoryQuestions = await db_getCategoryQuestions(category_id)
+    const completedCategoryQuestions = await db_getCompletedQuestions(category_id, student_id)
+
+    const totalQuestions = categoryQuestions.reduce(function (prev, cur) {
+      return prev + cur.question_order.length;
+    }, 0);
+    const totalCompletedQuestions = [...new Set(completedCategoryQuestions.map(JSON.stringify))].map(JSON.parse).reduce(function (prev, cur) {
+      return prev + cur.question_order.length;
+    }, 0);
+
+    console.log([...new Set(completedCategoryQuestions)])
+
+    dispatch(getCategoryDetailSuccess({
+      details: categoryDetail,
+      sessions: categorySessions,
+      totalQuestions,
+      totalCompletedQuestions
+    }))
+
+  } catch (error) {
+    dispatch(getCategoryDetailError(error));
+  }
+};
+
+export const resetCategoryDetail = () => {
+  return {
+    type: RESET_CATEGORY_DETAIL
+  }
+}
+
+
+
+
 
 
 

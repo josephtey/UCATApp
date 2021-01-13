@@ -1,88 +1,157 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
-import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession } from '../../actions/session'
+import { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions } from '../../actions/session'
 import BottomBar from '../Session/BottomBar'
-import { Button } from '../Shared/Elements'
+import TopBarSecondary from '../Session/TopBarSecondary'
 import styled from 'styled-components'
-import {
-  Text
-} from 'rebass'
-import { RiFlag2Fill } from "react-icons/ri";
+import { getIncompleteQuestions, filterResponses } from '../../utils/helpers'
+import ReviewCards from './ReviewCards'
+import { ThemedModal } from '../Shared/Elements'
 
-const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession }
+const mapDispatchToProps = { getSessionResponses, stopReview, getQuestionDetail, nextSection, finishSession, reviewQuestions }
 
 const mapStateToProps = (state) => {
   return state
 }
 
 const Review = (props) => {
+  const incompleteQuestions = getIncompleteQuestions(props.session.currentSection.question_order, props.session.sessionResponses)
+  const flaggedQuestions = filterResponses(props.session.sessionResponses, "flagged")
 
+  useEffect(() => {
+    props.reviewQuestions(props.session.currentSection.question_order)
+  }, [])
 
   return (
     <>
+      <TopBarSecondary
+        leftContent={() => {
+          return null
+        }}
+        rightContent={() => {
+          return null
+        }}
+      />
       <Container>
-        <Title>Review</Title>
+        <Title>{props.session.currentSection.name} Review Screen</Title>
 
-        <QuestionCards>
-          {props.session.currentSection.question_order.map((question_id, i) => {
-            const answered = props.session.sessionResponses.find(item => item.question_id === question_id)
+        <Description>
+          <p>Below is a summary of your answers. You can review your questions in three (3) different ways.</p>
 
-            return (
-              <Card key={i} onClick={() => {
-                props.getQuestionDetail(question_id)
-              }}
-                answered={answered && answered.value ? true : false}
-                className="hvr-float"
-              >
-                <Text>Question {i + 1}</Text>
-                {!answered ? null :
-                  <>
-                    {answered.flagged ?
-                      <RiFlag2Fill color={
-                        answered.value ? 'white' : '#f89800'
-                      } size={20} />
-                      :
-                      null
-                    }
-                  </>
-                }
-              </Card>
-            )
-          })}
-        </QuestionCards>
+          <p>The buttons in the lower right-hand corner correspond to these choices:</p>
+          <p>
+            1. Review all of your questions and answers.
+          </p>
+          <p>
+            2. Review questions that are incomplete.
+          </p>
+          <p>
+            3. Review questions that are flagged for review. (Click the 'flag' icon to change the flag for review status.)
+          </p>
+
+          <p>
+            You may also click on a question number to link directly to its location in the exam.
+          </p>
+
+        </Description>
+
+        <ReviewCards
+          section={props.session.currentSection}
+          responses={props.session.sessionResponses}
+          onClick={(question_id) => {
+            props.getQuestionDetail(question_id)
+          }}
+          mode="Review"
+        />
       </Container >
       <BottomBar
-        leftContent={() => (
-          <></>
+        rightContent={() => (
+          <>
+            {incompleteQuestions.length > 0 ?
+              <LinkRight
+                onClick={() => {
+                  props.reviewQuestions(incompleteQuestions)
+                  props.getQuestionDetail(incompleteQuestions[0])
+                }}
+              >
+                Review Incomplete
+              </LinkRight>
+              : null}
+
+            {flaggedQuestions.length > 0 ?
+              <LinkRight
+                onClick={() => {
+                  props.reviewQuestions(flaggedQuestions)
+                  props.getQuestionDetail(flaggedQuestions[0])
+                }}
+              >
+                Review Flagged
+              </LinkRight>
+              : null}
+
+            <LinkRight
+              onClick={() => {
+                props.getQuestionDetail(props.session.currentSection.question_order[0])
+              }}
+            >
+              Review All
+              </LinkRight>
+          </>
         )}
 
-        rightContent={() => (
+        leftContent={() => (
           <>
             {props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]
               ?
-              <Button
-                type="primary"
-                color="teal"
-                label="Next Section"
-                onClick={() => {
+              <ThemedModal
+                heading="End Review"
+                body="Are you sure you want to end this review?"
+                button={(setIsOpen) => (
+                  <LinkLeft
+                    onClick={() => {
+                      setIsOpen(true)
+                    }}
+                  >
+                    End Review
+                  </LinkLeft>
+                )}
+                onClick={(setIsOpen) => {
                   const currentSectionId = props.session.currentSection.section_id
                   const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
                   props.nextSection(
                     props.session.currentSession.session_id,
                     props.session.currentStructure.section_order[currentSectionIndex + 1]
                   )
+                  setIsOpen(false)
+                }}
+                onClickNo={(setIsOpen) => {
+                  setIsOpen(false)
                 }}
               />
               :
 
-              <Button
-                onClick={() => {
-                  props.finishSession(props.session.currentSession.session_id)
+              <ThemedModal
+                heading="End Exam"
+                body="Are you sure you want to end this practice test?"
+                button={(setIsOpen) => (
+                  <LinkLeft
+                    onClick={() => {
+                      setIsOpen(true)
+                    }}
+                  >
+                    Finish Exam
+                  </LinkLeft>
+                )}
+                onClick={(setIsOpen) => {
+                  props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
+
+                  setIsOpen(false)
                 }}
-                type="primary"
-                color="teal"
-                label="Finish Exam"
+                onClickNo={(setIsOpen) => {
+                  setIsOpen(false)
+                }}
               />
+
             }
           </>
         )}
@@ -91,36 +160,36 @@ const Review = (props) => {
   )
 }
 
+const Description = styled.div`
+  margin: 40px 0;
+`
+
 const Title = styled.div`
   font-size: 20px;
-  font-family: Gilroy-Bold;
-  padding-bottom: 40px;
+  font-family: arial;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 const Container = styled.div`
-  padding: 30px 0;
+  padding: 30px 30px 60px 30px;
 `
-const QuestionCards = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`
-const Card = styled.div`
-  background: ${props => props.answered ? '#2ecfb0' : 'white'};
-  color: ${props => props.answered ? 'white' : 'black'};
-
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  padding: 20px;
-  border-radius: 15px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  flex-basis: 28.5%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+const LinkLeft = styled.div`
+  color: white;
   cursor: pointer;
+  border-right: 2px solid white;
+  height: 100%;
+  padding: 15px;
+`
 
-  &:nth-child(3n) {
-    margin-right: 0;
-  }
+const LinkRight = styled.div`
+  color: white;
+  cursor: pointer;
+  border-left: 2px solid white;
+  height: 100%;
+  padding: 15px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Review)

@@ -12,6 +12,23 @@ class StemsRepository {
     });
   }
 
+  async add(fields) {
+    return this.db.one(sql.add, fields);
+  }
+
+  async update(stem_id, question_order) {
+    return this.db.one(sql.update, {
+      stem_id,
+      question_order
+    });
+  }
+
+  async find_category(category_id) {
+    return this.db.manyOrNone(sql.find_category, {
+      category_id
+    });
+  }
+
 }
 
 module.exports = StemsRepository;

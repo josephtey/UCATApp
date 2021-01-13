@@ -23,17 +23,18 @@ export default BottomBar
 
 const Container = styled.div`
   box-shadow: -10px -10px 20px rgba(0,0,0, 0.02);
-  background: white;
-  height: 70px;
-  position: absolute;
+  background: #006daa;
+  color: white;
+  height: 40px;
+  position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
+  z-index: 100;
 `
 
 const BottomBarInner = styled.div`
-  width: 1000px;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,17 +44,9 @@ const BottomBarInner = styled.div`
 const BottomBarLeft = styled.div`
   display: flex;
   align-items: center;
-
-  div {
-    margin: 0 10px;
-  }
 `
 
 const BottomBarRight = styled.div`
   display: flex;
   align-items: center;
-
-  div {
-    margin: 0 10px;
-  }
 `

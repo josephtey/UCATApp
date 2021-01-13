@@ -7,7 +7,7 @@ class StructuresRespository {
   }
   // Returns all structures
   async total(type) {
-    return this.db.many(sql.total, {
+    return this.db.manyOrNone(sql.total, {
       type
     });
   }
@@ -19,7 +19,8 @@ class StructuresRespository {
       description: values.description,
       type: values.type,
       section_order: values.section_order,
-      time: values.time
+      time: values.time,
+      category_id: values.category_id
     });
 
     for (let i = 0; i < values.section_order.length; i++) {
