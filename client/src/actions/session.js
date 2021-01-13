@@ -142,7 +142,7 @@ const getSessionDetailsRequest = { type: GET_SESSION_DETAIL_REQUEST };
 const getSessionDetailsSuccess = (sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion, mode, allSections, currentStem, currentQuestionOrder) => ({ type: GET_SESSION_DETAIL_SUCCESS, sessionDetails, sessionResponses, currentSection, currentStructure, currentQuestion, mode, allSections, currentStem, currentQuestionOrder });
 const getSessionDetailsError = error => ({ type: GET_SESSION_DETAIL_ERROR, error });
 
-export const getSessionDetails = (session_id) => async dispatch => {
+export const getSessionDetails = (session_id, student_id) => async dispatch => {
   dispatch(getSessionDetailsRequest);
   try {
     const sessionDetails = await db_findSession(session_id)
@@ -150,61 +150,66 @@ export const getSessionDetails = (session_id) => async dispatch => {
 
     let currentSection, currentQuestion, mode, sessionResponses, currentStem, currentQuestionOrder;
 
+    if (sessionDetails.student_id === student_id) {
 
-    if (sessionDetails.completed === true) {
+      if (sessionDetails.completed === true) {
 
-      // Results mode
-      mode = "results"
-      sessionResponses = await db_getAllSessionResponses(session_id)
+        // Results mode
+        mode = "results"
+        sessionResponses = await db_getAllSessionResponses(session_id)
 
-    } else if (sessionDetails.start_time.length > 0) {
+      } else if (sessionDetails.start_time.length > 0) {
 
-      // Resuming progress
-      currentSection = currentStructure.sections.find(item => item.section_id === currentStructure.details.section_order[sessionDetails.end_time.length])
-      currentQuestionOrder = currentSection.question_order
-      sessionResponses = await db_getAllSectionResponses(sessionDetails.session_id, currentSection.section_id)
+        // Resuming progress
+        currentSection = currentStructure.sections.find(item => item.section_id === currentStructure.details.section_order[sessionDetails.end_time.length])
+        currentQuestionOrder = currentSection.question_order
+        sessionResponses = await db_getAllSectionResponses(sessionDetails.session_id, currentSection.section_id)
 
-      if (sessionResponses.length > 0) {
-        if (sessionResponses[0].question_id == currentSection.question_order.slice(-1)[0]) {
-          currentQuestion = await db_getQuestionDetail(sessionResponses[0].question_id)
+        if (sessionResponses.length > 0) {
+          if (sessionResponses[0].question_id == currentSection.question_order.slice(-1)[0]) {
+            currentQuestion = await db_getQuestionDetail(sessionResponses[0].question_id)
+          } else {
+            const currentIndex = currentSection.question_order.indexOf(sessionResponses[0].question_id)
+            currentQuestion = await db_getQuestionDetail(currentSection.question_order[currentIndex + 1])
+          }
+
+          mode = "question"
         } else {
-          const currentIndex = currentSection.question_order.indexOf(sessionResponses[0].question_id)
-          currentQuestion = await db_getQuestionDetail(currentSection.question_order[currentIndex + 1])
+          currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
+
+          if (sessionDetails.start_time.length == sessionDetails.end_time.length) {
+            mode = "start"
+          } else {
+            mode = "question"
+          }
         }
 
-        mode = "question"
+        // Getting question stem
+        if (currentQuestion.stem_id) {
+          currentStem = await db_findStem(currentQuestion.stem_id)
+        }
+
       } else {
+
+        // Starting a new session!
+        currentSection = currentStructure.sections[0]
+        currentQuestionOrder = currentSection.question_order
+        sessionResponses = await db_getAllSectionResponses(sessionDetails.session_id, currentSection.section_id)
         currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
 
-        if (sessionDetails.start_time.length == sessionDetails.end_time.length) {
-          mode = "start"
-        } else {
-          mode = "question"
+        // Getting question stem
+        if (currentQuestion.stem_id) {
+          currentStem = await db_findStem(currentQuestion.stem_id)
         }
+        mode = "start"
+
       }
 
-      // Getting question stem
-      if (currentQuestion.stem_id) {
-        currentStem = await db_findStem(currentQuestion.stem_id)
-      }
+      dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure.details, currentQuestion, mode, currentStructure.sections, currentStem, currentQuestionOrder))
 
     } else {
-
-      // Starting a new session!
-      currentSection = currentStructure.sections[0]
-      currentQuestionOrder = currentSection.question_order
-      sessionResponses = await db_getAllSectionResponses(sessionDetails.session_id, currentSection.section_id)
-      currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
-
-      // Getting question stem
-      if (currentQuestion.stem_id) {
-        currentStem = await db_findStem(currentQuestion.stem_id)
-      }
-      mode = "start"
-
+      dispatch(getSessionDetailsError("Failed authentication."));
     }
-
-    dispatch(getSessionDetailsSuccess(sessionDetails, sessionResponses, currentSection, currentStructure.details, currentQuestion, mode, currentStructure.sections, currentStem, currentQuestionOrder))
 
   } catch (error) {
     dispatch(getSessionDetailsError(error));

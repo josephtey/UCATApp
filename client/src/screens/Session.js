@@ -77,7 +77,7 @@ const Timer = ({
 const Session = (props) => {
 
   useEffect(() => {
-    props.getSessionDetails(props.match.params.session_id)
+    props.getSessionDetails(props.match.params.session_id, props.auth.userData.student_id)
 
     return () => {
       props.resetSessionDetail()
