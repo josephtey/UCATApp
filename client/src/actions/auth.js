@@ -31,7 +31,7 @@ export const initUser = (username, password) => async dispatch => {
         const userExists = await db_userExists(userInfo.username)
         console.log(userExists)
         if (userExists == "") {
-          userData = await db_createUser(userInfo.username, userInfo.roles, userInfo.display_name)
+          userData = await db_createUser(userInfo.username, userInfo.display_name, userInfo.roles)
         } else {
           userData = userExists
         }

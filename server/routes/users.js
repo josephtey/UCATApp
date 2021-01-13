@@ -18,6 +18,7 @@ router.get('/:username', async function (req, res, next) {
 
 router.post('/', async function (req, res, next) {
   try {
+    console.log(req.body)
     let result = await db.users.add(req.body)
     res.send(result)
 
