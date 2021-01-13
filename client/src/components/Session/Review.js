@@ -174,7 +174,7 @@ const Title = styled.div`
   align-items: center;
 `
 const Container = styled.div`
-  padding: 30px;
+  padding: 30px 30px 60px 30px;
 `
 const LinkLeft = styled.div`
   color: white;

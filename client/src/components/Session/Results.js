@@ -135,7 +135,7 @@ const Description = styled.div`
 `
 
 const Container = styled.div`
-  padding: 30px;
+  padding: 30px 30px 60px 30px;
 `
 const SectionTitle = styled.div`
   font-family: arial;

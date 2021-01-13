@@ -335,11 +335,11 @@ const QuestionStemText = styled.div`
 `
 
 const QuestionStemImage = styled.img`
-  max-width: 100%;
+  max-width: 70%;
 `
 
 const QuestionImage = styled.img`
-  max-width: 100%;
+  max-width: 50%;
   margin-bottom: 20px;
 `
 

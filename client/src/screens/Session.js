@@ -100,7 +100,7 @@ const Session = (props) => {
               : null}
           </TopBarLeft>
           <TopBarRight>
-            {props.session.currentStructure.type === "Exam" ?
+            {props.session.currentStructure.type === "Exam" || props.session.currentStructure.type === "Mock" ?
               <>
                 {props.session.currentSession.start_time.length > 0 && props.session.currentSession.start_time.length != props.session.currentSession.end_time.length
                   ? <Timer

@@ -337,7 +337,7 @@ export const import_exam = async (data) => {
           console.log("ATTEMPTING TO CREATE QUESTION: ", question)
 
           let createdQuestion = await db_createQuestion(
-            question.type == "Multiple Choice" ? "MC" : "DD",
+            question.type == "Multiple Choice" ? "MC" : "Drag and Drop" ? "DD" : "Multiple Choice (SJ)" ? "MCSJ" : "",
             question.options,
             question.text ? question.text : null,
             question.type == "Multiple Choice" ? question.answer : question.answer.join(";"),
