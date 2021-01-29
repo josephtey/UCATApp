@@ -138,7 +138,17 @@ const Session = (props) => {
               <Answer />
               : props.session.mode === "start" ?
                 <Start
-                  returnHome={() => props.history.push('/exam/' + props.session.currentSession.structure_id)}
+                  returnHome={() => {
+                    props.history.push(
+                      props.session.currentStructure.type === "Exam" ?
+                        '/exam/' + props.session.currentSession.structure_id
+                        : props.session.currentStructure.type === "Practice" ?
+                          '/practice/' + props.session.currentStructure.category_id
+                          : props.session.currentStructure.type === "Mock" ?
+                            '/mock/' + props.session.currentStructure.structure_id
+                            : null
+                    )
+                  }}
                 />
                 : props.session.mode === "results" ?
                   <Results

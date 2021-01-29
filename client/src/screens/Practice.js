@@ -13,6 +13,40 @@ const mapStateToProps = (state) => {
   return state
 }
 
+const PracticeSection = ({
+  props,
+  categories,
+  topic
+}) => {
+  return (
+    <ExamList>
+      {categories.filter(category => category.topic === topic).map((category, i) => {
+        return (
+          <Card
+            onClick={() => {
+              props.history.push('/practice/' + category.category_id)
+            }}
+          >
+            <CardTop>
+              <CardHeading>{category.name}</CardHeading>
+            </CardTop>
+
+            <CardBottom>
+              <CardLength>
+                {category.topic}
+              </CardLength>
+              <Button>
+                <AiOutlineArrowRight color="#f89800" size={25} />
+              </Button>
+            </CardBottom>
+
+          </Card>
+        )
+      })}
+    </ExamList>
+  )
+}
+
 const Practice = (props) => {
 
   useEffect(() => {
@@ -25,31 +59,31 @@ const Practice = (props) => {
   return (
     <Container>
       <Title>Practice</Title>
-      <ExamList>
-        {props.content.categories.map((category, i) => {
-          return (
-            <Card
-              onClick={() => {
-                props.history.push('/practice/' + category.category_id)
-              }}
-            >
-              <CardTop>
-                <CardHeading>{category.name}</CardHeading>
-              </CardTop>
-
-              <CardBottom>
-                <CardLength>
-                  {category.topic}
-                </CardLength>
-                <Button>
-                  <AiOutlineArrowRight color="#f89800" size={25} />
-                </Button>
-              </CardBottom>
-
-            </Card>
-          )
-        })}
-      </ExamList>
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Verbal Reasoning"
+      />
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Decision Making"
+      />
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Quantitative Reasoning"
+      />
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Abstract Reasoning"
+      />
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Situational Judgement"
+      />
     </Container>
   )
 }

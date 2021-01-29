@@ -184,7 +184,8 @@ export const db_createQuestion = async (type,
   difficulty,
   image,
   option_images,
-  stem_id) => {
+  stem_id,
+  category_id) => {
 
 
   const response = await db.put(`/questions`, {
@@ -196,7 +197,8 @@ export const db_createQuestion = async (type,
     difficulty,
     image,
     option_images,
-    stem_id
+    stem_id,
+    category_id
   })
 
   return response.data
@@ -280,16 +282,18 @@ export const import_questions = async (data) => {
         // Create questions
         console.log("ATTEMPTING TO CREATE QUESTION: ", question)
 
+        const options = ["A", "B", "C", "D"]
         let createdQuestion = await db_createQuestion(
           question.type == "Multiple Choice" ? "MC" : "DD",
           question.options,
           question.text ? question.text : null,
-          question.type == "Multiple Choice" ? question.answer : question.answer.join(";"),
+          question.type == "Multiple Choice" ? question.options[options.indexOf(question.answer)] : question.answer.join(";"),
           question.explanation ? question.explanation : null,
           question.difficulty ? question.difficulty : null,
           question.image ? question.image : null,
           question.option_images ? question.option_images : null,
-          createdStem.stem_id
+          createdStem.stem_id,
+          question.category_id ? question.category_id : stem.category_id
         )
 
         console.log("CREATED QUESTION: ", createdQuestion)
@@ -338,16 +342,18 @@ export const import_exam = async (data) => {
           // Create questions
           console.log("ATTEMPTING TO CREATE QUESTION: ", question)
 
+          const options = ["A", "B", "C", "D"]
           let createdQuestion = await db_createQuestion(
             question.type == "Multiple Choice" ? "MC" : "Drag and Drop" ? "DD" : "Multiple Choice (SJ)" ? "MCSJ" : "",
             question.options,
             question.text ? question.text : null,
-            question.type == "Multiple Choice" ? question.answer : question.answer.join(";"),
+            question.type == "Multiple Choice" ? question.options[options.indexOf(question.answer)] : question.answer.join(";"),
             question.explanation ? question.explanation : null,
             question.difficulty ? question.difficulty : null,
             question.image ? question.image : null,
             question.option_images ? question.option_images : null,
-            createdStem.stem_id
+            createdStem.stem_id,
+            question.category_id ? question.category_id : stem.category_id
           )
 
           console.log("CREATED QUESTION: ", createdQuestion)

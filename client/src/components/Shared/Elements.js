@@ -490,7 +490,7 @@ const DragAndDropResult = styled.div`
 `
 
 const RadioBoxImage = styled.img`
-  
+  width: 30%;
 `
 
 const RadioElements = styled.div`
