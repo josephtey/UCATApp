@@ -1,0 +1,1624 @@
+{
+  "stems": [
+    {
+      "text": "Should the number of university places for education and teaching be increased to deal with the shortage of teachers?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, because teaching is a very competitive course so more people can join if there are more places",
+            "Yes, as surveys show that potential students choose other courses due to the limited places currently",
+            "No, because people are likely to drop out of the courses anyway",
+            "No, those places should be given to other courses where the need is much more"
+          ],
+          "answer": "B",
+          "explanation": "The problem presented is the shortage of teachers, and so this solution of increasing university places for teaching and education is shown to be viable in option B with the evidence of a survey justifying student choice of university course. The other 3 options are based on opinions. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should it be mandatory for healthcare workers to be in good physical condition?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as they should be role models of a healthy lifestyle",
+            "Yes, as it is important for everyone to be in good physical shape",
+            "No, as they have the right to choose how they want to live",
+            "No, as it would be difficult to enforce and it would be more effective to encourage this instead"
+          ],
+          "answer": "D",
+          "explanation": "Options B and C are not directly relevant to the problem which is making it mandatory for healthcare workers to be in good physical shape, however between A and D, option D is stronger because it addresses the concept of ‘mandatory’ by arguing it would be better to encourage it instead. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the government include subjects related to Indigenous culture in schools to increase awareness about Indigenous culture?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as early exposure to Indigenous culture is likely to lead to greater awareness in the future",
+            "Yes, as a recent government report shows that 40% of students know nothing about Indigenous culture",
+            "No, as the government has no right to force students to learn about this",
+            "No, as students may prefer to study other subjects that interest them more"
+          ],
+          "answer": "A",
+          "explanation": "Options B and C are not directly relevant to the problem which is making it mandatory for healthcare workers to be in good physical shape, however between A and D, option D is stronger because it addresses the concept of ‘mandatory’ by arguing it would be better to encourage it instead. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should countries have tighter immigration laws to increase employment opportunities for their own citizens?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as 20% of citizens are unemployed",
+            "Yes, as immigrants are taking the jobs of local citizens",
+            "No, because a recent study showed that immigrants are taking the jobs that citizens don’t want",
+            "No, because it is immoral to prevent people from coming to work from a country where they have no opportunities"
+          ],
+          "answer": "C",
+          "explanation": "The problem presented is low employment opportunities for citizens, and option C addresses the idea that immigrants are not the reason for this problem, so therefore this cannot be the solution. Therefore, the strongest argument and correct answer is C (A is just a fact, not an argument). ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should children who are not vaccinated be prevented from going to school to reduce the infection rates of diseases?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as 60% of diseases spread amongst children are found to have spread in schools",
+            "Yes, because herd-immunity is based on the majority of children being vaccinated, so this would act as an incentive for vaccinations",
+            "No, because parents have the right to choose what to do with their children",
+            "No, because most diseases like smallpox have already been eradicated"
+          ],
+          "answer": "B",
+          "explanation": "Options C and D are irrelevant as they are not directly linked to the problem raised in the question, however B is stronger than A because it refers to the reasons for widespread school vaccinations, whereas A moreso presents a statistic rather than an argument. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should advertisements for junk food be prevented from airing on television during periods when children commonly watch TV to reduce childhood obesity?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as studies show children are heavily influenced by the advertisements they see on television",
+            "Yes, as the majority of children are obese",
+            "No, because children will eat junk food regardless",
+            "No, because parents are ultimately the ones buying the junk food not the children, so they are responsible"
+          ],
+          "answer": "A",
+          "explanation": "The problem presented is childhood obesity being influenced by what children see on TV, and option A is the only one that references the idea of children being influenced by TV while the other arguments do not even mention it. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should mobile phones be banned in schools to improve concentration and student results?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as students can often be distracted in class from learning by their mobile phones",
+            "Yes, as nowadays every student has a mobile phone",
+            "No, as students may not study as hard once their phones are taken away",
+            "No, because parents may need to contact their child in an emergency"
+          ],
+          "answer": "A",
+          "explanation": "The problem presented is the need to improve student concentration and results, and so option A is the only one that addresses the idea of student engagement, whereas the others are irrelevant. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should laptops and tablets be banned in school to improve student results and decrease distractions for students?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as a recent survey showed that teachers are struggling to teach when students are all on their laptops",
+            "Yes, because students should be able to learn everything from their teacher anyway",
+            "No, because student results are unlikely to be changed by banning these devices",
+            "No, as laptops can be a useful learning tool for students and act as a supplementary educational resource"
+          ],
+          "answer": "D",
+          "explanation": "The problem presented is the need to improve student results and decrease distractions for students in schools, and options B and C are not linked to this specific problem. Option A seems strong, because it uses evidence, however the issue is not about teachers teaching, so it is slightly off-topic. Option D is therefore the best argument, as it highlights that laptops can be useful in schools (even though it does not address the idea of distraction, it is the best of the 4). Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should online medical consultations be encouraged for patients?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as this may benefit patients who live in remote areas",
+            "Yes, as this is likely to save many patients time travelling to the clinic",
+            "No, because this may impact the thoroughness of doctor’s examination of a patient if they aren’t there in person",
+            "No, because 90% of people are able to attend in person anyway"
+          ],
+          "answer": "C",
+          "explanation": "Options A, B and C all seem reasonable, however option C would be the strongest as it references the main reason people visit the doctor in the first place, to get proper treatment – so if this cannot be achieved properly online, then the fact that it helps remote patients and saves travel time becomes irrelevant. Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should school children participate in non-contact sports over contact sports?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as it children are fragile at young ages and it is important to protect them from harm",
+            "Yes, as non-contact sports rely more on technique and less on brute force",
+            "No, as this would limit the variety of sports that students are exposed to",
+            "No, as contact sports are more important than non-contact sports"
+          ],
+          "answer": "C",
+          "explanation": "Option D is an opinion, option A is not realistic and makes a bit of a generalisation by stating the children are fragile at young ages (school children can be a variety of ages), and option B references a debate (skill vs brute force) that is not brought up in the question, so is slightly irrelevant. Therefore, the strongest argument and correct answer is C, as it references the idea of school children being exposed to many different sports, which seems reasonable and on-topic, both contact and non-contact. It may not be the best argument but of the 4 options, it is the strongest. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should it be mandatory for all parents to attend a parenting class before they have a child?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as this will help parents treat their children with more respect and care",
+            "Yes, as studies show that even 1 parenting class improves a parent’s ability to care for their child",
+            "No, as most parents have enough skills that they can learn and take from their own parents or friends",
+            "No, as this would be imposing an unnecessary cost on parents"
+          ],
+          "answer": "B",
+          "explanation": "Option B is the only one that is based on evidence, and A, C and D make assumptions about parenting and the costs of parenting classes. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should educational fees be based on the areas in which a student lives, to reduce inequality at schools?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as families living in poorer suburbs will be better able to afford education for their children",
+            "Yes, as this more accurately reflects students’ socio-economic status’",
+            "No, as if the school is located in a poorer suburb, they will have less money to provide services and quality education",
+            "No, as this would be unfair to people living in richer suburbs who have to pay more than others"
+          ],
+          "answer": "C",
+          "explanation": "The problem presented is reducing inequality at schools, and so A, B and D do not address this idea. Option C refers to the idea of some schools being poorer as a result of this suggestion than other schools, demonstrating an inequality within schools. Whilst A and D address other forms of inequality, this is not directly linked to schools themselves. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should monetary transactions be all cashless to decrease crime?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as criminals will not be able to steal money as easily if it were cash",
+            "Yes, as 80% of all financial theft occurs through the theft of cash",
+            "No, as criminals may adapt to find ways to exploit and use the new cashless transaction system",
+            "No, as cash is not the only means of currency that criminals use"
+          ],
+          "answer": "C",
+          "explanation": "Option A is more of an assumption or generalisation, option B is limited to financial theft, and option D is not as strong as option C because C references the proposed cashless transaction system in its argument, whereas the others do not. Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should employers be monetarily responsible for equipment in the workplace to improve employee health?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as if the equipment causes harm to the employees, someone needs to be held accountable",
+            "Yes, as this is likely to incentivise employers to invest in safer equipment if they will be financially accountable for any injuries",
+            "No, as this would but an unfair financial strain on employers",
+            "No, as employees should be more careful around equipment to avoid injury"
+          ],
+          "answer": "B",
+          "explanation": "Option B makes the most logical sense, as the problem presented in the question is the need to improve employee health, which is not referenced in option C, and options A and D do not refer to the monetary accountability of employers. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should electronic tablets and laptops replace hardcopy textbooks to improve learning in schools?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as the majority of textbooks used in schools are available online",
+            "Yes, as most students struggle to carry their textbooks to school",
+            "No, as not all students will be able to afford these devices",
+            "No, studies have shown little difference between learning outcomes when using laptops or hardcopy textbooks"
+          ],
+          "answer": "D",
+          "explanation": "The problem presented in the question is the need to improve learning in schools, which is not addressed at all in options A, B and C. Option D refers to the learning of students and demonstrates a logical argument in stating that there is no link between the type of textbook and learning outcomes. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should school canteens sell junk food at an increased cost compared to healthier food choices to improve student health?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as this will disincentivise students from making unhealthy food choices",
+            "Yes, a recent trial revealed that student obesity decreased after this price hike was implemented in over a year",
+            "No, as students who like junk food will just keep buying it no matter the cost",
+            "No, as students who are healthy and want to buy junk food will suffer"
+          ],
+          "answer": "B",
+          "explanation": "Options C and D do not refer to the problem of improving student health, however B is stronger than A because it refers to evidence, even though the ideas of those two arguments are both reasonable. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the government legalise euthanasia to save them money on healthcare?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as they won’t have to spend as much on elderly healthcare and facilities",
+            "Yes, as the government currently spends of $5 million subsidising nursing homes and elderly care in hospitals",
+            "No, as there are other areas which the government spends more money on, like hospital maintenance",
+            "No, as the services currently supporting those who would choose euthanasia are not a significant cost to the government"
+          ],
+          "answer": "D",
+          "explanation": "The problem presented is saving money on healthcare, however option D argues that legalising euthanasia would not save the government much money, presenting a logical rebuttal to this question (the other 3 options do not reference euthanasia at all). Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Are hardcopy paper books bad for the environment?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as they are made of paper which is produced from the logging of trees",
+            "Yes, as the Earth has lost 25% of its natural trees due to deforestation",
+            "No, because the amount of paper used in producing them has an insignificant impact on the number of trees cut down",
+            "No, because electronic books and e-readers consume electricity which is much worse for the environment"
+          ],
+          "answer": "C",
+          "explanation": "Option B is not linked to hardcopy paper books, and option D is irrelevant to the question because it also does not talk about hardcopy paper books. Option C is almost a direct rebuttal to option A, however option C on its own is more directly addressing the question than option A which is a little more general (C mentions paper from hardcopy paper books, whereas option A refers to paper in general). Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should sport be mandatory in schools to improve student health and fitness?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as 45% of students are currently obese and overweight",
+            "Yes, as students are exposed to sports as exercise and thus encourages the continuation of sports outside of school",
+            "No, as studies show that students who are forced to do sports do not like exercise as a result",
+            "No, as schools can conduct classes on how to be fit and healthy instead"
+          ],
+          "answer": "B",
+          "explanation": "The problem presented is improving student health and fitness, with a focus on sport being mandatory in schools – A, C and D do not address improving student health and fitness through sport (for option D, simply stating that there is a better way to do something is not an argument, you need to state why the proposed solution would not work as well). Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should people report safety hazards that they find or see in order to be good citizens?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as all good citizens report safety hazards that they see",
+            "Yes, as being a good citizen involves looking out for the community and being proactive",
+            "No, as people should report safety hazards regardless of whether they want to be good citizens or not",
+            "No, because it is not the responsibility to citizens to report these issues"
+          ],
+          "answer": "B",
+          "explanation": "The dilemma presented in this question is becoming a good citizen – option A is a generalisation and option D is not relevant to being a good citizen. Between options B and C, B is the stronger argument because it justifies why reporting safety hazards makes people a good citizen, whereas C is based moreso on whether people ‘want’ to be good citizens or not, not whether looking out for safety hazards makes them a good citizen or not. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should celebrities be allowed to promote commercial products that they don’t use?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as what celebrities do with their time is not the business of anyone else",
+            "Yes, as they are only promoting these products for money anyway",
+            "No, as this may be misleading for consumers who may buy it based on the fact that the celebrity is using the product",
+            "No, celebrities should not always use the products they advertise"
+          ],
+          "answer": "C",
+          "explanation": "Option D does not provide any argument or evidence to back its statement up, and options A and B are not relevant to the problem raised which is celebrities promoting products that they don’t use. Option C seems the most reasonable and bases an argument off the central idea of the question (which is the problem of celebrities promoting products they don’t use, and the implied idea that celebrities have some influence). Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all court proceedings and cases be visually recorded and publicised to deter other people from offending?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as potential offenders will see the process that they face if they choose to go down this path",
+            "Yes, it is useful for the public to see how a real court proceeding goes, not just what’s on the television",
+            "No, court cases are often private and should not be televised to for the public to see",
+            "No, as studies show that this has not resulted in a significant drop in first time offenders"
+          ],
+          "answer": "D",
+          "explanation": "Options B and C talks about the public instead of criminals, and between options A and D, option D is stronger because it uses evidence to back up its claim, referring directly to the issue raised in the question which is the need to reduce people offending (in option A it is more implied). Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should domestic pets be banned from national parks to prevent damage to native animals and plants?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as animals like dogs and cats have been shown to kill native flora and fauna",
+            "Yes, as domestic animals don’t belong in national parks",
+            "No, as owners should be able to take their pets to where they like, and national parks are ideal locations for this",
+            "No, as a ban would be too difficult to enforce in so many national parks"
+          ],
+          "answer": "A",
+          "explanation": "The problem raised in the question is the need to prevent damage to native animals and plants from domestic pets, and option A directly addresses this problem. B and C are opinions/assumptions, and option D does not address the problem (simply stating that it would be too difficult is not always a strong argument). Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should elderly drivers be forced to undergo a driving test each year to reduce the risk of road collisions?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as most traffic collisions involve elderly drivers",
+            "Yes, as most of elderly traffic incidents are caused by some sort of degenerative conditions like vision impairment",
+            "No, as this is unfair on elderly drivers who got their license like everyone else already",
+            "No, as this would put extra strain on testing facilities which are already overwhelmed"
+          ],
+          "answer": "B",
+          "explanation": "The problem raised in the question is the need to reduce the risk of road collisions. C and D do not address this problem at all, and option B is a more detailed version of option A, justifying why driving tests should be a part of the solution (option A does not reference the driving test aspect of the question). Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should businesses be forced to let employees work at least 1 day from home to improve productivity?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, it has been shown that productivity increases by 46% when employees work from home",
+            "Yes, as businesses would benefit from having more refreshed and relaxed employees",
+            "No, businesses should not be forced to do anything that might negatively impact their economy",
+            "No, as employees will just stay at home and relax rather than work at their peak capacity"
+          ],
+          "answer": "A",
+          "explanation": "The problem raised in the question is about improving productivity, and options B and C do not address this idea of productivity. Option A is based on evidence and makes a reasonable argument, whereas option D is more of an assumption and generalisation. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the government construct more public housing in order to reduce homelessness?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, the onus is on the government to create more public housing",
+            "Yes, because the homeless will then have a place to stay, therefore taking them off the street",
+            "No, as there is not enough space for new public housing buildings to be constructed in the metropolitan areas",
+            "No, it has been shown that the issue of homelessness is not significantly mitigated by more public housing"
+          ],
+          "answer": "D",
+          "explanation": "The problem raised in the question is the need to reduce homelessness, and options A and C do not address this problem at all. Option D is better than option B, because it is based on evidence, whereas option B relies more on an assumption that homeless people will live in public housing. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should athletes be allowed to take supplements to allow for better entertainment?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, athletes have the right to take whatever products they like to improve their performance",
+            "Yes, a recent survey showed that 90% of viewers would prefer doping athletes over regular athletes if it meant greater entertainment value",
+            "No, taking supplements is against the moral code of many sporting industries and would cripple them",
+            "No, this would discourage people from watching sports if they knew that everything they saw was fake"
+          ],
+          "answer": "B",
+          "explanation": "The problem that this question is based on is improving or getting better entertainment from athletes, and options A and C do not address this idea at all. Option B most directly and explicitly links its argument to the idea of entertainment from athletes, whereas option D relies more on an assumption and generalisation that people would stop watching if they knew it was fake. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should governments across the world all abolish coal plants in favour of renewable energy?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, most governments have started getting rid of coal plants already",
+            "Yes, as all governments should be in favour of protecting the planet and ensuring clean energy",
+            "No, as people would lose their jobs if a coal plants were abolished ",
+            "No, some governments may rely heavily on coal plants to support their economy, so they cannot effectively abolish them"
+          ],
+          "answer": "D",
+          "explanation": "Options A and C do not address the idea central to the problem, which is the idea of governments all over the world switching from coal to renewable energy. Option B is more idealistic and does not address the idea of coal plants being abolished, whereas option D is more grounded and highlights the impracticality of governments all over the world doing this, as each country has a different set of circumstances. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Are wind farms more useful and beneficial than coal plants?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, wind farms produce double the amount of energy that a coal plant can produce",
+            "Yes, studies have shown that wind farms are cheaper to operate than coal plants",
+            "No, wind farms require less people to work them, so more jobs would be lost",
+            "No, it costs more to build a wind farm than a coal plant"
+          ],
+          "answer": "A",
+          "explanation": "Option C makes the assumption that the only jobs at wind farms involve those working the wind farms (could be many associated jobs such as manufacturing wind farms), and option A is the only one that references the ‘usefulness’ of wind farms over coal plants (B and D only refer to financial benefits, not usefulness). Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the minimum wage be increased to improve the economy?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, the economy is currently stagnating and not improving",
+            "Yes, increasing the minimum wage would increase spending, improving the economy ",
+            "No, projections have shown that an increase in the minimum wage would have little impact on slowing the economy’s downturn",
+            "No, people should be content with the money that they are earning"
+          ],
+          "answer": "C",
+          "explanation": "A and D do not refer to the suggestion of increasing the minimum wage, and compared to option B, C is stronger because it is grounded in evidence whereas B relies on the assumption that increasing the minimum wage will increase spending, which improves the economy. Therefore, of the two, the stronger argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all students be required to study at least one science subject at school to expand their career options? ",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as this will encourage more students to pick up careers in STEM (Science, Technology, Engineering, Maths) which contain a variety of career options",
+            "Yes, as it exposes students to the field of science, giving them the opportunity to see if they would like to pursue a career in science",
+            "No, as many students have already made up their minds about their careers by this time",
+            "No, as most students may not like science at all from the beginning, so forcing them to study science would be useless"
+          ],
+          "answer": "B",
+          "explanation": "The issue raised in the question is the need to expand students’ career options in school – option C and D do not address the idea of expanding career options. Options A and B are both reasonable, however STEM and science are not the same thing (STEM includes science, but is not only science). Therefore, the strongest argument and correct answer is B. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the government restrict tourism to the Great Barrier Reef to prevent further damage to the site?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as scientists need to be able to access the site to study it without interference from tourists",
+            "Yes, as the pollutants from tourist boats in the area are exacerbating the damage caused to the reef",
+            "No, as tourism is a big part of the economy in that area",
+            "No, as tourists don’t damage the reef as much as the locals"
+          ],
+          "answer": "B",
+          "explanation": "The problem presented is the need to prevent further damage to the Great Barrier Reef – options A, C and D do not address this at all, whereas B directly addresses this problem and draws a connection between tourism and damage to the reef. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should supermarkets increase the price of bottled water to help the environment?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, supermarkets have an obligation to lead by example and protect the environment",
+            "Yes, plastic water bottles are harmful to the environment and this would act as a good deterrent",
+            "No, people who travel a lot and need plastic bottles may be negatively impacted",
+            "No, plastic bags is a much greater environmental issue than plastic bottles"
+          ],
+          "answer": "B",
+          "explanation": "Option A does not reference the plastic bottles directly, so is not quite specific to the question. Option C is unreasonable and irrelevant, and D does not address the environmental damage of plastic bottles (simply stating something else is worse is not a strong argument if you don’t justify why plastic bottles are not bad for the environment in the first place). Option B demonstrates a link between plastic bottles and the environment, and links this to the role of supermarkets as well (‘good deterrent’). Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should people be banned from living in areas prone to bushfires in Australia?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as their homes are very likely to be burned down",
+            "Yes, for their own safety, a ban would reduce the risks of homes burning down for people who would live in these areas",
+            "No, as people have the right to choose where they would like to live",
+            "No, many people enjoy living in the countryside and in these country areas"
+          ],
+          "answer": "B",
+          "explanation": "Option D assumes that fire prone areas are the same as country areas, and option C does not address the bushfire problem raised in the question. Option A is quite general, but seems reasonable, however B is stronger because it is more specific to the question (almost a more detailed version of option A). Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should self-driving cars be allows to drive at higher speeds than human-driven cars?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, self-driving cars are much safer than human-driven cars",
+            "Yes, self-driving cars have much quicker reaction times to hazards than humans",
+            "No, all cars on the road should follow the same limit, it would be confusing otherwise",
+            "No, the absence of a driver actually makes the car more susceptible to a crash"
+          ],
+          "answer": "B",
+          "explanation": "Option C does not provide a valid argument (‘confusing’ is not very strong), and A, B and D present reasonable arguments, none of which have evidence. Option B would be the strongest because it is more specific on the dangers of speeding (reaction times to hazards), whereas option A is more general in its argument about safety and option D’s idea about a crash is not necessarily linked to speeding as such. Although the idea of speeding is implied in all 3 options, option B would be the strongest. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should people have the right to own guns to protect themselves?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as potential offenders will also be using guns ",
+            "Yes, people will feel more comfortable if they had a gun to use in self-defence",
+            "No, as these guns may accidently fire if the owner is inexperienced",
+            "No, studies have shown that firearm usage increases the number of injuries during self-defence "
+          ],
+          "answer": "D",
+          "explanation": "Option D is the only one that uses evidence (thus stronger argument than B, which is a generalisation), and options A and C do not address the idea of self-protection. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the death penalty be reinstated in Australia to deter serious crime?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, many criminals fear the death penalty and are likely to stop committing crimes if it is implemented",
+            "Yes, crime decreased by 20% in Indonesia when the death penalty was introduced there",
+            "No, studies show that the serious crime rate fell when the death penalty was removed in Australia before",
+            "No, the death penalty is immoral and too harsh a punishment for most serious crimes"
+          ],
+          "answer": "C",
+          "explanation": "The problem presented in the question is the need to deter serious crime – B does not address serious crime specifically and D does not address the problem of reducing serious crime. Option A and C seem reasonable, however option C uses evidence whereas A is a generalisation. Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the cloning of humans be permitted in order to expand scientific knowledge?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, it is important that we explore every scientific avenue there is",
+            "Yes, it has been tested on sheep and thus has been scientifically determined to be safe for humans",
+            "No, cloning is dangerous and could result in criminals exploiting it",
+            "No, the potential dangers of cloning greatly outweigh the scientific benefits"
+          ],
+          "answer": "D",
+          "explanation": "The issue raised in the question is the need to expand scientific knowledge, and so options B and C do not address the scientific knowledge aspect of cloning. Option A does not address the idea of cloning specifically, however, but option D does. Therefore, the strongest argument and correct answer is D, which also draws a logical link between cloning and scientific benefits.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should supermarkets ban the use of plastic bags to protect the environment?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, supermarkets are the leading distributers of plastic bags",
+            "Yes, plastic bags are harmful to the environment and reducing their distribution would help reduce the number of plastic bags that end up in the environment",
+            "No, as consumers will have to bring their own bags instead to the supermarket, which is unpractical for many consumers who rely on the plastic bags for convenience",
+            "No, supermarkets do not have the responsibility of protecting the environment"
+          ],
+          "answer": "B",
+          "explanation": "The problem raised in this question is the need to protect the environment and the role plastic bags have in damaging the environment – options A and C do not address the idea of protecting the environment, and D does not address the specific aspect of plastic bags in the question. Option B is the only one that links plastic bags to environmental damage and the role supermarkets can play in mitigating this. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should everyone have to undergo a First Aid Training course to give them the skills to help in a medical situation?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, First Aid knowledge is a critical skill for people to have",
+            "Yes, as this will enable many bystanders in an emergency to act while professional help arrives",
+            "No, as the professional ambulance and medical services are ample to service the community’s first aid needs",
+            "No, many people cannot afford to pay for the course"
+          ],
+          "answer": "B",
+          "explanation": "The problem raised in the question is the need (or no need) for people to have the skills to aid in a medical situation – options A and D do not address this idea of helping in a medical situation. While options B and C seem reasonable, B incorporates both the bystanders helping and professional help, whilst C only discusses professional help (and thus ignores the benefits of having bystanders help, or at least does not mention why it is a negative thing for everyone to have first aid training). Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all drugs be legalised to decrease drug-related crimes?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as most crimes come from the criminal drug usage",
+            "Yes, as people would feel as if using drugs is not as cool and will stop using them",
+            "No, only 15% of crimes involve illegal drug usage ",
+            "No, criminals using drugs would most likely be encouraged to use them more once they are legalised"
+          ],
+          "answer": "D",
+          "explanation": "The problem raised in the question is the need to reduce drug-related crimes, and options A, B and C do not address the idea of drug-related crimes specifically. Options A and C refer to drug-related crimes as a subset of crime overall, however the question is not referring to crimes overall, only reducing drug-related crimes (neither of them refer to the legalisation of drugs either). D is the only options that refers to drug-related crimes and the legalisation of drugs (note: drug-related crimes do not always have to be about possession or usage – it could be about transport or crashing while driving on drugs etc). Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should children be prevented from playing violent video games to stop them from developing violent tendencies?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, studies have shown that children are particular susceptible to images of violence at an early stage",
+            "Yes, violent video games have caused many violent crimes across the world",
+            "No, an individual assessment should be made instead of a ban on all children",
+            "No, parents should just control how much a child plays the violent video game"
+          ],
+          "answer": "A",
+          "explanation": "The problem presented in the question is the need to stop children from developing violent tendencies, and options B, C and D do not address the idea of children developing violent tendencies from video games. Option A uses evidence to draw a link between children, violent tendencies and violent video games. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should sexual education be mandatory in all schools to decrease teenage pregnancies?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, studies have shown a link between teenage pregnancies and a lack of teen awareness of protected sex",
+            "Yes, sexual education is something all students should learn before they leave school",
+            "No, some students may feel uncomfortable at the prospect of learning about sex",
+            "No, this type of content at school is concerning and inappropriate for kids"
+          ],
+          "answer": "A",
+          "explanation": "The problem raised is the need to decrease teenage pregnancies, however B, C and D do not refer to teenage pregnancies at all, whereas A does, and option A also demonstrates an evidence-based link between teenage pregnancies and sex education in teens (who are mostly of school age). Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should schools block sites like YouTube and Google to improve learning in the classrooms?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, students often get distracted by these websites during class",
+            "Yes, teachers find it difficult to teach students when they are looking at these sites all the time",
+            "No, these websites are useful student educational learning resources",
+            "No, students usually learn adequately with access to these websites"
+          ],
+          "answer": "C",
+          "explanation": "The problem presented is the need to improve learning in classrooms, and all the options address the idea of learning in some capacity. However, they address this idea to different degrees, with option C addressing the idea of student learning most directly (A refers to distractions, B refers to teaching, and D is based on a generalisation/assumption). Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the drinking age be raised from 18 to 21 in Australia to prevent youth drink driving accidents, when the age that someone can get their driving license is 18 years old?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, 50% of all youth driving accidents are due to drink-driving ",
+            "Yes, by the time they are able to drink, they will have enough experience to avoid drink-driving",
+            "No, not all car accidents are caused by drink-driving",
+            "No, it is not guaranteed that everyone will get their license at 18 years old, so they may end up drink-driving at 21 anyway"
+          ],
+          "answer": "D",
+          "explanation": "The problem raised is the need to prevent drink driving accidents amongst young people. Option A does not refer to the proposed solution of raising the required age for drinking, option B relies on an assumption that they will have enough experience to avoid drinking, and option C does not refer to youth drink driving accidents (just accidents in general). Option C is the most logical, as the implied solution by raising the drinking age is that people will start drinking after they drive, however as option D details, this is not guaranteed to be the case.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should birth control medications be available for over-the-counter purchase to increase its usage?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, they will be more accessible if they are for sale over the counter rather than prescribed",
+            "Yes, as more women will feel comfortable getting these medications if they don’t have to visit their doctor every time",
+            "No, some people may feel embarrassed having to buy them over the counter",
+            "No, as this opens the doors to substance abusage and improper use "
+          ],
+          "answer": "A",
+          "explanation": "The problem presented in the question is the need to increase the usage of birth control medications. Option C and D does not address the increased usage via over-the-counter purchases vs prescriptions. Option A and B seem reasonable, however option B is more of an assumption than option A, which leaves A as the stronger argument. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should governments invest in renewable energy sources to decrease carbon emissions?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, it is the responsibility of governments to preserve the planet for future generations",
+            "Yes, as most clean energy sources are affordable and do not produce carbon emissions",
+            "No, the government has more important concerns than reducing their emissions",
+            "No, governments often face the difficult decision of budgeting and they may not be able to invest in renewable energy sources"
+          ],
+          "answer": "B",
+          "explanation": "The problem raised in the question is the need to decrease carbon emissions, and options A and D do not touch on the idea of carbon emissions at all, whereas option B does, and presents a logical argument that justifies investing in clean energy to reduce carbon emissions (option C mentions emissions but does not mention clean energy). Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should swear words be banned from music?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, many children listen to music and so swear words here would cause them to swear",
+            "Yes, music should be able to be created without swear words if the artist is truly musical",
+            "No, an artist should be able to use the words they like to use; the onus to not listen is on the listener",
+            "No, it would make music bland and unappealing to many people"
+          ],
+          "answer": "C",
+          "explanation": "Option D is an opinion, and so is option B. Option A seems reasonable, but makes the assumption that children listening to music with swear words will then swear (it could be the case, but we don’t know for sure). Option C presents a more logical argument, because the listener is not forced to listen to certain music, so they have the freedoms to choose. Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should people be able to download music for free?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, this way more people will be able to afford to listen to music",
+            "Yes, artists earn enough music from deals and album sales",
+            "No, this undermines the work of musical artists",
+            "No, 60% of musical artists rely heavily on people paying for their music as their main source of income"
+          ],
+          "answer": "D",
+          "explanation": "All the options seem reasonable, with the exception of option C which does not address the financial aspect of music specifically. However, option D uses evidence to back its argument up, whereas the others do not and rely on assumptions and generalisations. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should people with disabilities receive financial support from the government?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as they can’t work or get employed so they have no other source of income",
+            "Yes, their disabilities prevent them from getting the same employment opportunities as the other members of society",
+            "No, other people should not be paying taxes just for it to go to them",
+            "No, the government should be spending their money on projects that benefit the whole society "
+          ],
+          "answer": "B",
+          "explanation": "Options C and D do not address the idea of people with disabilities specifically, and are more opinions than arguments. Option B is a stronger version of option A, as A assumes that people with disabilities have no other income, whereas B qualifies that more to say that they might get employment, but they may not get the same employment opportunities as everyone else. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all schools be forced to offer the same selection of subjects to improve educational equality?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, that way all students would be able to study the same thing",
+            "Yes, this would ensure that all students would be getting the same opportunities",
+            "No, not all schools have the same resources to adequately and equally deliver certain subjects",
+            "No, students will be deprived of being able to learn other subjects that they may prefer"
+          ],
+          "answer": "C",
+          "explanation": "The problem raised in the question is the need to improve educational equality (across schools). Option D does not address the idea of educational equality. Options A and B address the idea of more equality for students, however option C presents a more logical argument that highlights how educational equality would still not be achieved if schools were forced to offer the same selection of subjects. Therefore, the strongest argument and correct answer is C. Option B is a little broader in referring to the ‘same opportunities’ compared to Option A, and in terms of A, just because you can have the same opportunity to study the same subjects as everyone else doesn’t mean everyone will study the same thing.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should university fees be decreased in order to improve university participation rates?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, that way more people will be able to afford to go to university",
+            "Yes, as a study shows that the primary reason people don’t go to university is that the current fees are too high",
+            "No, universities would not have enough money to run if fees were lowered",
+            "No, university participation rates do not need to be increased"
+          ],
+          "answer": "B",
+          "explanation": "The problem raised in the question is the need to improve university participation rates. Option D provides no information or reason to back its argument up, and option A does not explicitly link participation rates to affordability (just because more people can afford it doesn’t mean they will go). Option C does not provide any evidence to back up its claim, whereas B does, and links participation rates to the higher fees. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all high school graduates be required to attain a university qualification in order to decrease youth unemployment?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, studies have shown that a university qualification makes a young person 10 times more likely to be employed",
+            "Yes, most high school graduates who don’t go to university end up being unemployed",
+            "No, not all jobs require a university qualification",
+            "No, not all young people have the resources or funds to go to university"
+          ],
+          "answer": "A",
+          "explanation": "The problem raised in the question is the need to decrease youth unemployment, however options C and D do not address the idea of youth unemployment. Option B is a generalisation without evidence, whereas A has evidence to back up the argument that university qualifications lead to youth employment. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should schools have disability services to accommodate students of all abilities?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, equality in education means servicing students of all needs",
+            "Yes, schools that have disability services have been shown to experience little to no negative impact financially or socially ",
+            "No, not all schools can afford to have and maintain a disability services department, instead certain schools should be specially designed to cater for these needs",
+            "No, a school must cater for the majority of students who do not require these services"
+          ],
+          "answer": "C",
+          "explanation": "The problem raised is the need to accommodate students of all abilities, however option A is too broad and does not touch on disability services specifically (this does not make it wrong, just not very strong), D does not address the idea of accommodating students of all abilities, and whilst B seems reasonable, it does not address if disability services even help with the accommodation of students of all abilities. Option C, however, addresses the idea of accommodating students of all abilities, but frames an argument around how not all schools can afford these extra services (but does not ignore the accommodation of these students, but suggesting that schools be specially designed to cater for their needs). Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should plastic plants be banned in order to encourage more people to buy real plants?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, plastic plants produce harmful VOC chemicals that can be damaging to human health",
+            "Yes, if people would like to buy a plant, they should buy a real one instead of a fake one",
+            "No, some people cannot maintain a real plant and so use plastic plants instead to maintain a similar and low-maintenance aesthetic",
+            "No, real plants are more expensive than plastic ones"
+          ],
+          "answer": "C",
+          "explanation": "The problem raised is the need to get more people to buy real plants, and whilst A, B and D seem reasonable, options A and B do not explain how banning plastic plants will encourage more people to buy real plants, and option D does not address the idea of banning plastic plants. Option C explains the attraction to plastic plants in a logical manner, even though it too does not explicitly address the need for people to buy real plants (but of the 4 options, it is the best, even if it is not perfect). Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should airport security be drawn back a bit to decrease the time spent by people at the airport?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, this would increase flow in an airport which would allow flights to be more frequent",
+            "Yes, current airport security measures are over the top and cause unnecessary bottlenecks at airports",
+            "No, as this would allow terrorists to more easily sneak through security",
+            "No, because a recent survey highlights that most people value the extra security over the extra time spent waiting"
+          ],
+          "answer": "D",
+          "explanation": "The problem raised in the question is decreasing time spent by people at the airport, so options A, B and C do not address this idea of minimising time spent by people at the airport. Option D also relies on evidence to substantiate its argument. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should primary school students be required to learn a musical instrument to increase their cognitive ability?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, it has been shown that learning a musical instrument at a young age activates another part of the brain that would otherwise be unused",
+            "Yes, learning musical instruments provide children with an activity to keep them occupied ",
+            "No, exposing children to musical instruments expands their horizons early on, leaving them confused and overwhelmed",
+            "No, students should spend more time developing their cognitive ability studying rather than learning musical instruments"
+          ],
+          "answer": "A",
+          "explanation": "The problem presented is increasing primary school students’ cognitive ability – options B and C do not address cognitive ability, and option D does not provide an argument related to this question (it is irrelevant, as the question is not asking to choose between musical instruments and cognitive ability). Option A uses evidence to draw a link between cognitive development and musical instrument learning. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should students be required to wear a uniform to improve equality?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, students who cannot afford nicer clothes may be bullied at school or feel different by other students",
+            "Yes, uniforms promote a sense of unity amongst students at school",
+            "No, students should be mature enough to not judge someone by their clothing or appearance",
+            "No, uniforms are usually expensive and are not comfortable"
+          ],
+          "answer": "A",
+          "explanation": "The problem presented is improving equality, however options C and D do not address the idea of uniforms providing (or not providing) a sense of equality or improving equality among students. Whilst B presents a reasonable argument, a sense of unity is not the same as equality. Option A highlights how non-uniformed students can experience inequality, implying the benefits of uniforms. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all voting for elections be held electronically to improve voter numbers?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, currently election ballots consume 500kg of paper",
+            "Yes, more youth would be engaged if voting were held online",
+            "No, there may be risks with election tampering if it is conducted electronically",
+            "No, not all voters may have access to electronic devices"
+          ],
+          "answer": "D",
+          "explanation": "The problem raised in the question is improving voter numbers, however A and C are irrelevant as they do not focus on this issue. Option B seems reasonable, however if we do not know if the youth are already voting a lot or not voting much, so this justification may not result in improved voter numbers if youth are already voting a lot. Option D therefore presents the most logical argument, addressing all voters and pointing out the impracticality of using electronic devices. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should people be allowed to carry weapons for self-defence?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, people will feel more comfortable when going out with a weapon to defend themselves with",
+            "Yes, 70% of people feel uncomfortable going out without some kind of defensive tool",
+            "No, this may cause people to use their weapons against others with malice and claim self-defence",
+            "No, studies show that arming civilians results in increased accidents, thereby making it more unsafe"
+          ],
+          "answer": "D",
+          "explanation": "Option A makes a reasonable argument but it is an assumption. For Option B, just because people feel uncomfortable going out without a defensive tool does not mean they will feel comfortable going out with a defensive tool (that might also make them feel uncomfortable). Option C is not very logical and a bit of a stretch. Option D uses evidence to highlight how more people carrying weapons would not result in more safety (an extrapolation of self-defence), and although it is not explicitly referring to self-defence, of the four options, it is the strongest. Therefore, the strongest argument and correct answer is D. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should governments subsidise student university loans to ease student debt?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, student debt leaves many students with lots of stress and anxiety",
+            "Yes, the money they invest in subsidising the loans will be returned when students are able to work without the stress of the debt",
+            "No, universities should reduce their fees so students do not have to pay as much money and have as much debt",
+            "No, improving healthcare services is more important for the government of the nation to focus on"
+          ],
+          "answer": "B",
+          "explanation": "The problem raised in the question is the need to ease student debt, however option D is completely irrelevant in that regard. Options A and C do not refer to the idea of governments subsidising student loans either, while Option B does. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all schools be privatised to offer students better quality education?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, private schools offer more opportunities than public schools",
+            "Yes, studies show that students who go to private schools are much happier and can study more easily",
+            "No, not all students will be able afford to go to a private school",
+            "No, there is no evidence that private school education is better than public school education"
+          ],
+          "answer": "D",
+          "explanation": "The problem raised in the question is getting better quality education, however option B does not necessarily refer to better quality education, and A and C do not refer to better quality education either. D refers to this idea and builds an argument around the idea that private schools are not better than public schools (using the fact that there is ‘no evidence’ to back up their claim). Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should financial incentives be offered to female high-school graduates who want to pursue careers in STEM at university?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, this would encourage more female graduates who may not have the money to study the course that they actually prefer to choose to study a STEM degree",
+            "Yes, more females are needed in the fields of STEM",
+            "No, studies show that money has little effect on influencing women to pursue certain university degrees",
+            "No, females should be able to choose the degree they want, without the influence of money"
+          ],
+          "answer": "C",
+          "explanation": "Option D is more of an opinion and while option A might seem reasonable, it is not very logical as it is essentially saying that this money would make female graduates realise that they want to study a STEM degree, not facilitate their way into it (ie. paying fees etc). Option B is very general and non-specific to the issue of financial incentivisation, and although C does not mention STEM, it demonstrates a lack of connection between financial incentives and influencing female graduates to pick certain careers (in this case STEM). So while it is not perfect, the strongest and therefore correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should different religions be taught at school to improve religious tolerance and awareness?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, currently there is a lot of religious discrimination present in society and this needs to be changed",
+            "Yes, evidence suggests that children exposed to different religions at a young age were more open minded as adults",
+            "No, students who are not religious should not be forced to engage in religious education ",
+            "No, some parents may object to the idea of certain religions being taught to their children at school, which should be purely for traditional educational subjects"
+          ],
+          "answer": "B",
+          "explanation": "The problem raised is the need to improve religious tolerance and awareness, and C and D do not refer to this problem (and hence focus on more irrelevant issues or aspects). Option A does not refer to the suggestion of teaching religions in schools, whereas B does, and uses evidence as well. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should a small portion of everyone’s salary be taken out to give to charity?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, charities are struggling to come up with the funds to carry out their life-changing initiatives",
+            "Yes, it is only a small portion so it should not have a big effect on someone’s income or financial situation ",
+            "No, people should be able to decide what they want to do with their money",
+            "No, some people may not be able to afford to sacrifice this portion of their salary for charity, even if they would like to donate"
+          ],
+          "answer": "D",
+          "explanation": "Option A does not justify taking out money from everyone’s salary (the money could come from somewhere else in that case), option B is a generalisation because people will be affected differently based on their circumstances (and it also does not justify why the charities would need it), and option C is an opinion and has little basis as a logical argument in response to the question. Option D justifies logically why taking money out of people’s salaries is impractical; therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should a referendum (whole country vote) be held before any war is undertaken rather than just a parliamentary vote?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, citizens have a right to be involved in the affairs of their nation",
+            "Yes, as up to 40% of the population can be conscripted for war, they should have a say as to whether the country goes to war or not",
+            "No, the parliamentarians were elected to vote on issues on behalf of the whole population so this would be unnecessary ",
+            "No, referendums are expensive and will cost the government a lot of money to hold"
+          ],
+          "answer": "B",
+          "explanation": "The central conflict in this question is whether a referendum should be taken instead of a parliamentary vote, and while D explains why referendums are expensive, it does not justify why they are worse off in terms of determine a country’s position in war specifically. Option A is logical but quite general, and option C does not address the referendum aspect of the question, or the specifics of war. Option B does not address the downsides of a parliamentary vote, however, it uses statistics to draw a link between the specifics of war and the reasons why a referendum should be conducted, which is a far more logical approach than any of the other arguments. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should citizens under the age of 18 be able to vote if they want to?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as this would encourage youth activity and interest in politics",
+            "Yes, a recent report showed that teenage involvement in politics was more likely to result in a more active involvement later in life",
+            "No, people under the age of 18 lack the experience and knowledge to vote on serious issues like elections",
+            "No, this may distract students from school and studying"
+          ],
+          "answer": "B",
+          "explanation": "Option B uses evidence to draw a link between early teenage involvement in politics and the benefits down the line, whereas option C is an opinion and generalisation, option D is irrelevant and moving the discussion off-topic, and option A is a broader and more general version of B (so a weaker argument than B, but not necessarily as weak as C and D). Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should alcohol advertisements be banned at sporting events to decrease alcohol consumption?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, many children and teenagers attend popular sporting events and will drink alcohol if they see these kinds of ads there",
+            "Yes, it has been shown that the high presence of ads at big sporting events heavily influences people’s desire to consume alcohol",
+            "No, sporting organisers would lose a big source of their income and may not be able to support these events",
+            "No, an age restriction should be imposed at these events instead to prevent young children and youth from attending"
+          ],
+          "answer": "B",
+          "explanation": "The problem raised in the question is the need to decrease alcohol consumption, so options C and D do not really touch on or address this problem. Option A seems reasonable but makes an assumption and a leap that children and teenagers will drink alcohol if they see ads promoting it at sporting events – they may, but we don’t know if they will for sure. Option B uses evidence to justify how ads at sporting events can influence people to drink alcohol, so it stands that removing the ads will help reduce alcohol consumption. Therefore, the strongest argument and correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should cyclists have the option of wearing a helmet or not?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, surveys have shown that 80% of cyclists prefer not to wear a helmet",
+            "Yes, helmets are mostly used for stylistic purposes ",
+            "No, helmets are essential for cyclist safety",
+            "No, this would send the wrong safety message to children"
+          ],
+          "answer": "C",
+          "explanation": "While A uses evidence, simply because 80% of cyclists prefer not to wear a helmet does not justify why they should be given a choice, because the question is essentially about whether they should be given a choice – however option C is the strongest argument because it justifies why cyclists should NOT be given a choice (because giving them a choice would thereby compromise their safety, since helmets are essential for safety). Therefore, the strongest argument and correct answer is C. B and D are for the most part, off-topic and not relevant to the central idea of ‘choice’ in this question.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should fines be adjusted depending on the perpetrator’s income?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, that way more offenders will be able to afford their fines and not have to go to jail for not paying them",
+            "Yes, as low incomes have been shown to be a large factor in a person’s decision to commit a crime",
+            "No, this would defeat the purpose of fines, which are to act as an equal deterrent for all members of society",
+            "No, the current system is working fine and needs no replacement"
+          ],
+          "answer": "C",
+          "explanation": "Option D is weak because it does not address the shortcomings of the proposed system (just because something works now does not mean there is not a better version out there). Option C however, justifies how this proposed change would undermine the purpose of fines in the first place, so at least it draws a logical connection between fines and punishment (which is implied in the question). Option A does not address the purpose of fines and option B does not address the idea of fines explicitly. Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should there be a financial cost for people using public beaches in order to support maintenance?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, public beaches are currently in a terrible state in need of proper maintenance services",
+            "Yes, it is only fair that people using the area should have to pay a fee",
+            "No, as public beaches are maintained by the government who can use the money that citizens already pay as tax",
+            "No, surveys indicate that 50% of beach-goers would stop going if a fee for using the beach was introduced"
+          ],
+          "answer": "C",
+          "explanation": "Option A does not address whether there should be a financial cost for the people. Option B addresses ‘people using the area’ rather than ‘people’ in general, therefore, does not answer the full scope. Option D does not address the issue of ‘supporting maintenance’. As Option C addresses the ‘financial cost’, but shows that it should be paid by the government and citizen’s taxes. Thus, Option C is correct.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should parks have a maximum capacity to prevent damage to the park?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, reports have shown that having too many people in a park at a time can cause disturbances to the native birds and animals",
+            "Yes, park maintenance have made several documented complaints about over-used and over-populated parks",
+            "No, this would incentivise a first-come-first-serve mentality amongst park-goers",
+            "No, evidence suggests that there is no link between the amount of people in parks and the rate of park degradation"
+          ],
+          "answer": "D",
+          "explanation": "Option A: does not address park damage. Option B: does not address park damage. Option C: does not address park damage. Option D: addresses maximum capacity and park damage. Therefore, the strongest argument and correct answer is D. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all houses be required to have video surveillance to decrease robberies and crime?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, 68% of all houses who installed video surveillance reported a drop in burglaries",
+            "Yes, evidence suggests that most robberies occur in households when people are not home",
+            "No, some people may not be able to afford video surveillance",
+            "No, robbers and criminals have had time to adapt to this new technology and have found other ways to enter a property unseen"
+          ],
+          "answer": "A",
+          "explanation": "Option A: addresses video surveillance and decrease robberies and crime. Option B: does not address if home surveillance would stop the crime. Option C: does not address if home surveillance would stop the crime. Option D: not as strong of an argument, as it has many assumptions. Therefore, the strongest argument and correct answer is A. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should men get the same amount of paid leave as women to take care of their baby?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, this would encourage more men to spend time with their children and relieve stress from their wives",
+            "Yes, in some households women are the breadwinners and so men are often left to stay at home and take care of their children",
+            "No, studies show that women have to do more and invest more time into taking care of a baby than men so should be relatively compensated",
+            "No, women already get paid less in most professions for their jobs"
+          ],
+          "answer": "C",
+          "explanation": "Option A: includes an assumption, and outside of the scope of the question if men would spend more time instead of their wives. Option B: focuses on a group, rather than men and women at large. Option C: addresses compensation and has evidence supporting the statement. Option D: the gender wage gap is outside of the scope. Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should divorced, single parents be offered financial support from the government to ease their stress?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, the government should take interest in ensuring that parents like this are able to raise their children with the proper support",
+            "Yes, usually single parents have escaped an abusive relationship and require financial help",
+            "No, the government has no responsibility to help reduce their stress",
+            "No, this is a consequence of their actions and decisions, and should not be bailed out with taxpayer money"
+          ],
+          "answer": "A",
+          "explanation": "Option A: addresses easing stress and financial support. Option B: has assumptions that are outside of the scope. Option C: blanked statement without evidence. Option D: does not address ‘easing stress’. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should petrol cars be phased out in favour of electric cars in order to decrease emissions?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, petrol cars produce more carbon emissions than electric cars",
+            "Yes, electric cars are the way of the future",
+            "No, there are not enough electric charging stations compared to petrol stations ",
+            "No, some people may prefer to drive petrol cars to electric cars"
+          ],
+          "answer": "A",
+          "explanation": "Option A: addresses electric vs petrol cars in terms of decreasing emissions. Option B: does not address decreasing emissions. Option C: does not address decreasing emissions. Option D: does not address decreasing emissions. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should probationary drivers not be allowed to carry any passengers at all to decrease road traffic accidents?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, probationary drivers are inexperienced and are not able to concentrate with a passenger in the car with them",
+            "Yes, probationary drivers are 40% more likely than normal drivers to crash, so they are putting their passengers safety at risk",
+            "No, most road traffic accidents are caused by mobile phone distractions or drink-driving",
+            "No, there is little evidence to suggest that passenger distractions are a major factor in probationary road traffic accidents"
+          ],
+          "answer": "D",
+          "explanation": "Option A: does not address decreasing road traffic accidents. Option B: does not address decreasing road traffic accidents – as in, the accidents would still happen, just less people would be injured. Option C: does not address probationary drivers. Option D: addresses probationary drives and less accidents. Therefore, the strongest argument and correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all school and university textbooks be subsidised by the government in order to promote educational equality?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, this would ensure that all students have access to the textbooks they need",
+            "Yes, the educational equality is an essential value that should be represented by the government’s actions",
+            "No, this would be too costly for the government to implement",
+            "No, students who can afford the textbooks should buy them themselves"
+          ],
+          "answer": "A",
+          "explanation": "Option A: directly responds to ‘education equality’. Option B: doesn’t justify why textbooks specifically need to be subsidised. Option C: doesn’t address educational equality. Option D: doesn’t address educational equality. Therefore, the strongest argument and correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the required number of driving hours from 120 for a learner driver to accumulate be increase in order to improve driver safety?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, studies show that the more someone drives, the safer they become",
+            "Yes, learner drivers are highly inexperienced and need the extra time to practise driving safely",
+            "No, research has shown that the completion of 120 hours of driving as a learner is sufficient to drive safely on the road",
+            "No, the current 120 hours is already too long for many learner drivers who are able to drive safely in less than that"
+          ],
+          "answer": "C",
+          "explanation": "Option A: does not specifically justify why 120 hours is the best option. Option B: does not specifically justify why 120 hours is the best option. Option D: does not respond to ‘increasing’ driver safety. Option C: offers a reason as to why 120 hours is sufficient for safety. Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should countries all over the world adopt a universal currency?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, it will make it much easier to buy things from different countries",
+            "Yes, the exchange rates between different currencies results in a lot of money lost",
+            "No, projections have shown that 1/3 of the world’s economies would suffer from a universal currency",
+            "No, this would be too difficult to implement in every single country"
+          ],
+          "answer": "C",
+          "explanation": "Option A: buying items is not in the scope of the question. Option B: Not as strong as Option C. Option D: makes an assumption. Option C: offers a reason as to why world currencies would be bad, therefore directly responding to the statement. Therefore, the strongest argument and correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should school uniforms be worn by students to reduce perceived socioeconomic disparities?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; otherwise students from higher socioeconomic backgrounds will wear more designer casual clothes than other students",
+            "Yes; as all students will be wearing the same school uniform",
+            "No; school uniforms restrict students’ freedom of expression",
+            "No; as school uniforms can be expensive, students from lower socioeconomic backgrounds may not be able to afford them - potentially increasing the disparity"
+          ],
+          "answer": "D",
+          "explanation": "Only A and B address the socioeconomic disparities part and A is a generalisation",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "From an ethical and religious standpoint, should euthanasia or physician-assisted suicide be legalised?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; all patients who are terminally ill and suffering should have the right to elect to die whenever and however they choose",
+            "Yes; as doctors have an ethical obligation to respect their patients’ autonomy and, as religions are not unanimous in their view of assisted suicide, patients should have the ability to make a choice based on personal beliefs",
+            "No; as many religions, including Christianity, Bhuddism and Hinduism, express views (in their religious scriptures) against assisted dying ",
+            "No; as most religions teach that life’s beginning and life’s end should not be in one’s own hands"
+          ],
+          "answer": "B",
+          "explanation": "Only B addresses both the ethical and religious components of the topic",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "To improve productivity and increase technological development, should artificial intelligence be introduced into certain Australian industries?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; as artificial intelligence can be used in place of workers to improve efficiency ",
+            "Yes; while artificial intelligence is a relatively new technology, introducing it to industry will impel technological development and improve productivity",
+            "No; according to a number of studies, using artificial intelligence in industry is less time and financially efficient than regular workers. Thus, more research and development in this field of technology is required before it can be introduced",
+            "No; as the introduction of artificial intelligence threatens to displace thousands of workers in various Australian industries"
+          ],
+          "answer": "C",
+          "explanation": "Only B and C address the productivity and technological development parts and B provides no justification behind its line of argument",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should medical schools offer placements to medical students in rural hospitals to combat the shortage of health care workers in these areas?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; as medical students may be able to provide assistance directly in rural hospitals and, in the future, may be more inclined to work in these areas",
+            "Yes; as it is important for medical students to have experience in a variety of areas before they enter the workforce ",
+            "No; as some students may feel isolated/ uncomfortable in these areas and may not enjoy the experience",
+            "No; financial incentives may be a better method to combat the issue"
+          ],
+          "answer": "A",
+          "explanation": "Only A and D address the issue of worker shortages at hand and D provides no justification behind its line of argument",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should the minimum age to obtain a learner’s permit be increased from 16 years to 18 years to improve road safety?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; as at 16 years of age individuals lack the experience and confidence to drive safely",
+            "Yes; as the majority of road accidents involves a driver who has had less than 2 years of driving experience",
+            "No; as learners often have an adult supervisor so they do pose a minimal risk to the safety of other road users ",
+            "No; as being older does not necessarily mean that an individual will make a safer driver, experience is more likely to dictate a driver’s proficiency"
+          ],
+          "answer": "D",
+          "explanation": "A and B have a fundamental flaw in their argument – failing to make the distinction between age and experience. Just because an individual is older when they start driving, it doesn’t mean that they are more experienced",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should violent video games be banned due to their contribution to violence amongst youths?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; as all children who play violent video games are far more likely to engage in bullying, fighting and other forms of aggression",
+            "Yes; as the addictive nature of violent video games means that some children are playing these games instead of doing more productive things - like homework, exercise and socialising",
+            "No; recently, sales of violent video games have significantly increased while violent juvenile crime rates have significantly decreased, so no correlation between violent video games and violence amongst youths has yet been proven",
+            "No; rates of violence amongst youths should be reduced through counselling, education, rehabilitation and other forms of constructive outreach"
+          ],
+          "answer": "C",
+          "explanation": "Only A and C address the issue of violence and how video games contribute to this and A is a generalisation",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should all members of the community be vaccinated to prevent the spread of diseases?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; as they provide a level of immunity to all individuals vaccinated",
+            "Yes; as they both provide immunity to the individual and prevent diseases establishing a foothold in the community",
+            "No; as individuals should be entitled to choose whether (or not) to be vaccinated ",
+            "No; as not all members of the community can be vaccinated (including the immunocompromised) and studies have shown that a 100% vaccination rate is not required to eliminate diseases"
+          ],
+          "answer": "D",
+          "explanation": "The question stresses the notion of all members of the community being vaccinated and only D logically and rationally points out the lack of feasibility of this ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should genetically modified crops be grown to address world hunger?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; as genetically modified crops can thrive in the harshest of conditions, lower the price of food globally and increase nutritional content to help alleviate world hunger",
+            "Yes; as genetically modified crops have been proven safe to consume through numerous tests and trials",
+            "No; as human clinical trials have not yet been conducted on genetically modified crops ",
+            "No; as genetically modified crops tend to be more resistant than standard crops, they may be able to outcompete such crops and ultimately trigger detrimental changes to the global food supply"
+          ],
+          "answer": "A",
+          "explanation": "Only A and D address the notion of world hunger and D is a jump in logic that is unsubstantiated and not properly explained",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should tablets be used in schools to aid student learning?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; as many textbooks can be stored on one device, tablets provide a more convenient, efficient alternative to paperback books",
+            "Yes; as there are many educational apps that can be downloaded on tablets",
+            "No; not only are tablets often very expensive, but they also cause a range of health problems (such as blurred vision, eyestrain and headaches)",
+            "No; while educational apps can be downloaded on tablets, tablets have many distractions (including games and social media) that may impede students’ learning and concentration"
+          ],
+          "answer": "D",
+          "explanation": "Only B and D address the notion of student learning and B does not establish a strong enough link between educational apps and student learning",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Should a tax on sugary drinks be introduced to reduce the rates of obesity and other associated diseases?",
+      "category_id": 5,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; as excessive sugar consumption has been proven to contribute to obesity ",
+            "Yes; as the tax will disincentivise individuals from purchasing sugary drinks, potentially reducing consumption of such beverages - which are known to contribute to obesity",
+            "No; as obesity is caused by a number of factors, including exercise and lifestyle rather than sugar alone",
+            "No; as those who can afford to pay the extra tax on sugary drinks will not be disincentivised from consuming them whatsoever"
+          ],
+          "answer": "B",
+          "explanation": "Only B links sugar consumption to obesity and evaluates the potential impacts of a sugar tax on this ",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

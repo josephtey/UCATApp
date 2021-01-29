@@ -1,0 +1,864 @@
+{
+  "exam": {
+    "name": "Mock Exam 2",
+    "description": "Practise Exam",
+    "type": "Exam",
+    "time": 13
+  },
+  "sections": [
+    {
+      "name": "Abstract Reasoning",
+      "time": 13,
+      "stems": [
+        
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_01.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_01aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: 1 more side on black shapes in total than white <br/> Set B: 1 more side on white shapes in total than black",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_01bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: 1 more side on black shapes in total than white <br/> Set B: 1 more side on white shapes in total than black",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_02cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: 1 more side on black shapes in total than white <br/> Set B: 1 more side on white shapes in total than black",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_02D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: 1 more side on black shapes in total than white <br/> Set B: 1 more side on white shapes in total than black",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_02E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "B",
+              "explanation": "Set A: 1 more side on black shapes in total than white <br/> Set B: 1 more side on white shapes in total than black",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_03.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_03aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: There are 6 corners in total <br/> Set B: There are 8 corners in total",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_03bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: There are 6 corners in total <br/> Set B: There are 8 corners in total",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_04cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: There are 6 corners in total <br/> Set B: There are 8 corners in total",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_04D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: There are 6 corners in total <br/> Set B: There are 8 corners in total",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_04E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "A",
+              "explanation": "Set A: There are 6 corners in total <br/> Set B: There are 8 corners in total",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+        
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_05.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_05aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: 3 enclosed spaces <br/> Set B: 5 enclosed spaces",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_05bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: 3 enclosed spaces <br/> Set B: 5 enclosed spaces",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_06cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: 3 enclosed spaces <br/> Set B: 5 enclosed spaces",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_06D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: 3 enclosed spaces <br/> Set B: 5 enclosed spaces",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_06E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "B",
+              "explanation": "Set A: 3 enclosed spaces <br/> Set B: 5 enclosed spaces",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_07.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_07aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: There is 1 more curved line than intersection <br/> Set B: There is 1 less curved line than intersection",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_07bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: There is 1 more curved line than intersection <br/> Set B: There is 1 less curved line than intersection",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_08cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: There is 1 more curved line than intersection <br/> Set B: There is 1 less curved line than intersection",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_08D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: There is 1 more curved line than intersection <br/> Set B: There is 1 less curved line than intersection",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_08E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "B",
+              "explanation": "Set A: There is 1 more curved line than intersection <br/> Set B: There is 1 less curved line than intersection",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_09.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_09aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: The top half is always even, the bottom half is always odd <br/> Set B: The top half is always odd, the bottom half is always even",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_09bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: The top half is always even, the bottom half is always odd <br/> Set B: The top half is always odd, the bottom half is always even",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_10cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: The top half is always even, the bottom half is always odd <br/> Set B: The top half is always odd, the bottom half is always even",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_10D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: The top half is always even, the bottom half is always odd <br/> Set B: The top half is always odd, the bottom half is always even",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_10E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "A",
+              "explanation": "Set A: The top half is always even, the bottom half is always odd <br/> Set B: The top half is always odd, the bottom half is always even",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_11.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_11aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: Inside shape has no right angles, outside shape has at least 1 <br/> Set B: Inside shape has at least 1 right angle, outside shape has none",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_11bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: Inside shape has no right angles, outside shape has at least 1 <br/> Set B: Inside shape has at least 1 right angle, outside shape has none",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_12cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: Inside shape has no right angles, outside shape has at least 1 <br/> Set B: Inside shape has at least 1 right angle, outside shape has none",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_12D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: Inside shape has no right angles, outside shape has at least 1 <br/> Set B: Inside shape has at least 1 right angle, outside shape has none",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_12E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "C",
+              "explanation": "Set A: Inside shape has no right angles, outside shape has at least 1 <br/> Set B: Inside shape has at least 1 right angle, outside shape has none",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_13.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_13aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: Shapes with right angles are black, shapes with no right angles are white <br/> Set B: Shapes with right angles are white, shapes with no right angles are black",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_13bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: Shapes with right angles are black, shapes with no right angles are white <br/> Set B: Shapes with right angles are white, shapes with no right angles are black",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_14cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: Shapes with right angles are black, shapes with no right angles are white <br/> Set B: Shapes with right angles are white, shapes with no right angles are black",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_14D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: Shapes with right angles are black, shapes with no right angles are white <br/> Set B: Shapes with right angles are white, shapes with no right angles are black",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_14E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "A",
+              "explanation": "Set A: Shapes with right angles are black, shapes with no right angles are white <br/> Set B: Shapes with right angles are white, shapes with no right angles are black",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_15.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_15aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: Both even numbers/digits <br/> Set B: Both odd numbers/digits",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_15bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: Both even numbers/digits <br/> Set B: Both odd numbers/digits",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_16cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: Both even numbers/digits <br/> Set B: Both odd numbers/digits",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_16D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: Both even numbers/digits <br/> Set B: Both odd numbers/digits",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_16E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "C",
+              "explanation": "Set A: Both even numbers/digits <br/> Set B: Both odd numbers/digits",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_17.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_17aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: There is one vowel <br/> Set B: There are two vowels",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_17bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: There is one vowel <br/> Set B: There are two vowels",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_18cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: There is one vowel <br/> Set B: There are two vowels",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_18D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: There is one vowel <br/> Set B: There are two vowels",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_18E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "B",
+              "explanation": "Set A: There is one vowel <br/> Set B: There are two vowels",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_19.jpg",
+          "category_id": 16,
+          "questions": [
+            {
+              "text": "Which figure completes the series?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_19a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_19b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_19c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_19d.jpg"
+              ],
+              "answer": "A",
+              "explanation": "The colours rotate clockwise by one arrow",
+              "difficulty": 1
+            }
+          ]
+        },
+
+        {
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_20.jpg",
+            "category_id": 16,
+            "questions": [
+              {
+                "text": "Which figure completes the series?",
+                "type": "Multiple Choice",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "option_images": [
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_20a.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_20b.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_20c.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_20d.jpg"
+                ],
+                "answer": "D",
+                "explanation": "The number of circles increases by 1 while the number of squares decreases by 1",
+                "difficulty": 1
+              }
+            ]
+        },
+        
+        {
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_21.jpg",
+            "category_id": 17,
+            "questions": [
+              {
+                "text": "Which figure completes the statement?",
+                "type": "Multiple Choice",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "option_images": [
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_21a.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_21b.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_21c.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_21d.jpg"
+                ],
+                "answer": "D",
+                "explanation": "Even and odd sided shapes switch places (not necessarily the same shape)",
+                "difficulty": 1
+              }
+            ]
+        },
+        
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_22.jpg",
+          "category_id": 17,
+          "questions": [
+            {
+              "text": "Which figure completes the statement?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_22a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_22b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_22c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_22d.jpg"
+              ],
+              "answer": "C",
+              "explanation": "The number of corners = the number of black circles",
+              "difficulty": 1
+            }
+          ]
+        },
+        
+        {
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_23.jpg",
+            "category_id": 17,
+            "questions": [
+              {
+                "text": "Which figure completes the statement?",
+                "type": "Multiple Choice",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "option_images": [
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_23a.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_23b.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_23c.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_23d.jpg"
+                ],
+                "answer": "C",
+                "explanation": "The left half of the box is reflected onto the right half",
+                "difficulty": 1
+              }
+            ]
+        },
+
+
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24.jpg",
+          "category_id": 18,
+          "questions": [
+            {
+              "text": "Which of the following test shapes belong in Set B?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24 1a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24 1b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24 1c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24 1d.jpg"
+              ],
+              "answer": "C",
+              "explanation": "Set A: Shape with right angle is smaller than the one without <br/> Set B: Shape with right angle is bigger than the one without",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following test shapes belong in Set B?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24 2a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24 2b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24 2c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_24 2d.jpg"
+              ],
+              "answer": "A",
+              "explanation": "Set A: Shape with right angle is smaller than the one without <br/> Set B: Shape with right angle is bigger than the one without",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following test shapes belong in Set A?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+                ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 3a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 3b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 3c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 3d.jpg"
+              ],
+              "answer": "C",
+              "explanation": "Set A: Shape with right angle is smaller than the one without <br/> Set B: Shape with right angle is bigger than the one without",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following test shapes belong in Set B?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 4a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 4b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 4c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 4d.jpg"
+              ],
+              "answer": "D",
+              "explanation": "Set A: Shape with right angle is smaller than the one without <br/> Set B: Shape with right angle is bigger than the one without",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following test shapes belong in Set B?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 5a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 5b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 5c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 2/AR Mock 2_Page_25 5d.jpg"
+              ],
+              "answer": "B",
+              "explanation": "Set A: Shape with right angle is smaller than the one without <br/> Set B: Shape with right angle is bigger than the one without",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "exam": {
+    "name": "QR Section Mock 4",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 24
+  },
+  "sections": [
+    {
+      "name": "Quantitative Reasoning",
+      "time": 24,
+      "stems": [
+        {
+          "text": "The two pie charts below show the distribution of jobs in a certain city by sector. The number of jobs in environmental services was 200, in 2000 and 1990 both years.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/1.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What is the difference in the total number of jobs available in 2000 compared to 1990?",
+              "type": "Multiple Choice",
+              "options": [
+                "0",
+                "1,778 more",
+                "1,778 less",
+                "1,348 more"
+               ],
+              "answer": "C",
+              "explanation": "In 1990, the total jobs = 200/0.05 = 4,000 (as 200 were environmental services). Equally, in 2000, the total jobs = 200/0.09 = 2,222.22… jobs. Therefore, compared to 1990, 2000 has 4,000 – 2,222.222… = 1,777.77… jobs less = 1,778 jobs less. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What is the ratio of K-12 education jobs in 1990 to health and human resources jobs in 1990?",
+              "type": "Multiple Choice",
+              "options": [
+                "1:1",
+                "1:2",
+                "2:1",
+                "3:5"
+               ],
+              "answer": "A",
+              "explanation": "Since K-12 and Human resources in 1990 both had the same percentages (20%), we can deduce that they will have the same number of jobs, therefore the ratio is 1:1. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What is the average number of higher education jobs across all 3 years, if the number of total jobs in 1980 was 3,500?",
+              "type": "Multiple Choice",
+              "options": [
+                "675",
+                "1,304",
+                "2,544",
+                "2,500"
+               ],
+              "answer": "B",
+              "explanation": "Total jobs in 1990 = 200/0.05 = 4,000. Total jobs in 2000 = 200/0.09 = 2,222.222… . Thus, higher education jobs in 1980 = 0.35*3,500 = 1,225, higher education jobs in 1990 = 4,000*0.45 = 1,800, and higher education jobs in 2000 = 2,222.22…*0.40 = 888.888… . Thus, the average across all three would be (1,225 + 1,800 + 888.88…)/3 = 1,304.629… = 1,304 (rounded down as you cannot create a job out of nothing). Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "If the percentage decrease in transportation jobs from 1990 to 2010 matched the percentage decrease in total jobs from 1990 to 2000, how many transport jobs would there be in 2010?",
+              "type": "Multiple Choice",
+              "options": [
+                "133",
+                "145",
+                "160",
+                "201"
+               ],
+              "answer": "A",
+              "explanation": "Percentage decrease in total jobs from 1990-2000 = (4,000 – 2,222.22…)/4,000 * 100 = 44.44..% decrease. Transportation jobs in 1990 = 0.06*4,000 = 240 jobs. Thus, the number of transportation jobs in 2010 would = 240*(1 – 0.4444…) = 133.3333 = 133. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]
+        },
+
+        {
+          "text": "The following line graph shows the contribution of several countries in the EU to the EU emergency fund over 4 years. There is 5 billion euros in the emergency fund in year 4.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/2.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "If in Year 1 these 5 countries were the only ones contributing to the EU emergency fund, what is the percentage change in the emergency fund value from Year 1 to Year 4?",
+              "type": "Multiple Choice",
+              "options": [
+                "18% decrease",
+                "19% increase",
+                "20% increase",
+                "20% decrease"
+               ],
+              "answer": "B",
+              "explanation": "Year 1 fund value = 1,200+1,000+800+700+500 = 4,200 million euros = 4.2 billion euros. If the fund value is 5 billion euros in Year 4, the percentage increase would be (5 – 4.2)/4.2 * 100 = 19% approximately. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the average annual rate of increase in the Netherlands contribution to the emergency fund remained the same until Year 6, what would the Netherlands’ contribution have been in Year 5, approximately?",
+              "type": "Multiple Choice",
+              "options": [
+                "750 million euros",
+                "767 million euros",
+                "800 million euros",
+                "833 million euros"
+               ],
+              "answer": "B",
+              "explanation": "Average annual rate of increase in Netherlands’ contribution = (700 – 500)/3 = 66.66… million euros each year (we divide by 3 and not 4 because there are 3 times where the value increases, in between 4 Years). Therefore, in Year 5, they would contribute 700 + 66.66… = 767 million euros approximately. Therefore, the correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What is the ratio of contributions between Italy and the United Kingdom in Year 4?",
+              "type": "Multiple Choice",
+              "options": [
+                "4:7",
+                "7:4",
+                "9:14",
+                "14:9"
+               ],
+              "answer": "A",
+              "explanation": "Italy:UK = 800:1,400 = 8:14 = 4:7. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "By how much more or less, percentage-wise, did France’s contribution in Year 2 compare to Year 1?",
+              "type": "Multiple Choice",
+              "options": [
+                "28% decrease",
+                "29% increase",
+                "71% increase",
+                "71% decrease"
+               ],
+              "answer": "B",
+              "explanation": "Percentage change = (900 – 700)/700 * 100 = 28.57…% = 29% increase. Therefore, the correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]
+        },
+          
+        {
+          "text": "The following table shows the readership numbers of 5 newspapers in New York City. The population of New York City was 15 million people in Year 1. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/3.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What percentage of New York City reads the Daily Echo and The Herald combined in Year 1, to the nearest percent?",
+              "type": "Multiple Choice",
+              "options": [
+                "80%",
+                "88%",
+                "89%",
+                "90%"
+               ],
+              "answer": "C",
+              "explanation": "Daily Echo + The Herald = 4.8 + 8.5 = 13.3 million. Thus 13.3/15 * 100 = 88.66…% = 89%. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "How many males read The Tribune in Year 1 in New York City?",
+              "type": "Multiple Choice",
+              "options": [
+                "44",
+                "440",
+                "4,400",
+                "44,000"
+               ],
+              "answer": "D",
+              "explanation": "Since 4% of males in New York read the Tribune, then 0.04*1.1 million = 44,000 males. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the population of New York City grew by 20% from Years 1 to 2, what percentage of people in New York read The Herald, to the nearest percent?",
+              "type": "Multiple Choice",
+              "options": [
+                "70",
+                "71%",
+                "84%",
+                "85%"
+               ],
+              "answer": "B",
+              "explanation": "Pop. New York in Year 2 = 1.2*15 million = 18 million. Thus, 12.7/18 * 100 = 70.55…% = 71%. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "What is the average male readership per paper in Year 1?",
+              "type": "Multiple Choice",
+              "options": [
+                "1,327,600",
+                "1,245,540",
+                "1,243,344",
+                "1,603,044"
+               ],
+              "answer": "A",
+              "explanation": "(0.07*3.6 + 0.24*13.8 + 0.04*1.1 + 0.30*8.5 + 0.10*4.8)/5 = 1.3276 million. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          }
+          ]
+        },
+  
+        {
+          "text": "The following table shows the prices of different size advertisements in different colours to put in a newspaper, in dollars.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/4.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "If Company X puts 4 ads of dimensions 28x16cm in black and white, how much do they save doing that if they had put them in colour instead?",
+              "type": "Multiple Choice",
+              "options": [
+                "$1.18",
+                "$2.45",
+                "$4.72",
+                "$5.45"
+               ],
+              "answer": "C",
+              "explanation": "Difference = (4*14.95) – (4*13.77) = $4.72. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+          {
+              "text": "If a company wants to put two 5x12cm ads in the paper in colour, would it be cheaper to do two 5x12cm ads instead of one 10x24cm ad?",
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, it would cost them 31 cents less",
+                "Yes, it would cost them $2.37 less ",
+                "No, it would cost them $2.37 more",
+                "No, it would cost them 31 cents more"
+               ],
+              "answer": "D",
+              "explanation": "Two 5x12cm ads = 5.65*2 = $11.30. One 10x24 ad = $10.99. Therefore, cheaper to do the one 10x24 ad, by 11.30 – 10.99 = 31c. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+          {
+              "text": "If a person bought 10 black and white ads for a 28x16cm and 5 colour ads for 10x24cm, how much would they have to pay?",
+              "type": "Multiple Choice",
+              "options": [
+                "$192.65 ",
+                "$137.70",
+                "$201.45",
+                "$145.30"
+               ],
+              "answer": "A",
+              "explanation": "(10*13.77) + (5*10.99) = $192.65. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+          {
+              "text": "What is the maximum number of ads you could buy for $20, if at least one has to be a 10x24 size?",
+              "type": "Multiple Choice",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+               ],
+              "answer": "C",
+              "explanation": "20 – 10.21 = $9.79 remaining after buying one 10x24 black and white ad. Therefore, we could get two 5x12 black and white ads for $7.84 altogether, leaving us with $1.95 left, which we can’t get anything else with. Therefore, we have 3 ads in total. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 21
+          }
+          ]  
+        },        
+        
+        {
+          "text": "The following table shows the number of blood tests for HIV administered in Country X, and the number of positive returns for HIV on those tests.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/5.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "If the rate of positive returns is an indication of the accuracy of the tests, in which year was the accuracy of the test the lowest?",
+              "type": "Multiple Choice",
+              "options": [
+                "2001",
+                "2004",
+                "2008",
+                "2010"
+               ],
+              "answer": "D",
+              "explanation": "By observation, the highest number of tests were conducted in 2010, and the lowest number of HIV positive returns was 2010 as well. Thus, the percentage of positive returns as a percentage of the total tests completed would be the lowest in 2010 (so the rate of positive returns would be lowest). Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "What is the average annual rate of decline in the number of HIV positive cases from 2006-2010, to the nearest whole number?",
+              "type": "Multiple Choice",
+              "options": [
+                "2,401 cases/year",
+                "1,801 cases/year",
+                "1,800 cases/year",
+                "2,400 cases/year"
+               ],
+              "answer": "A",
+              "explanation": "Rate of decline per year = (10,403 – 3,200)/3 = 2,401 cases per year. Therefore, the correct answer is A (we divide by 3 because there are 3 instances where the value changes, between 4 years).",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What was the average number of negative cases from 2001-2005, to the nearest whole case?",
+              "type": "Multiple Choice",
+              "options": [
+                "7,102",
+                "7,103",
+                "152,178",
+                "152,179"
+               ],
+              "answer": "C",
+              "explanation": "Negative cases = total cases = positive cases. Therefore, total cases from 2001-2005 = 796,402. Total positive cases from 2001-2005 = 35,512. Thus, the average number of negative cases across those 5 years would be (796,402 – 35,512)/5 = 152,178/year. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "If there is a 55% increase in the number of tests conducted in each of the 2 years after 2010, how many tests were conducted in 2012, to the nearest whole test?",
+              "type": "Multiple Choice",
+              "options": [
+                "370,299",
+                "370,300",
+                "573,964",
+                "573,965"
+               ],
+              "answer": "C",
+              "explanation": "Test conducted in 2012 = 238,903*1.55*1.55 = 573,964.45… = 573,964 cases (you cannot create 0.55 cases out of nothing, so round down unless otherwise specified). Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ] 
+        },
+  
+        {
+          "text": "Cans of soda are packaged in boxes containing the same number of cans. There are 36 cans in 4 boxes.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/6.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "How many cans are there in 7 boxes?",
+              "type": "Multiple Choice",
+              "options": [
+                "63 cans",
+                "72 cans",
+                "156 cans",
+                "252 cans"
+               ],
+              "answer": "A",
+              "explanation": "36 cans per 4 boxes means there are 36/4 = 9 cans in each box. Thus, if there are 7 boxes, there would be 9*7 = 63 cans. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+          {
+              "text": "How many more boxes are needed to package an additional 99 cans of soda?",
+              "type": "Multiple Choice",
+              "options": [
+                "6 boxes",
+                "7 boxes",
+                "11 boxes",
+                "12 boxes"
+               ],
+              "answer": "C",
+              "explanation": "36 cans per 4 boxes means there are 36/4 = 9 cans in each box. Thus, if 99 more cans are needed, 99/9 = 11 more boxes are needed too. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 21
+          }
+          ]  
+        }, 
+
+        {
+          "text": "It takes a pump 10 minutes to move 55 litres of water up a hill. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/7.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "Using the same pump under the same condition, how much water is moved in 22 minutes?",
+              "type": "Multiple Choice",
+              "options": [
+                "121 litres",
+                "212 litres",
+                "120 litres",
+                "110 litres"
+               ],
+              "answer": "A",
+              "explanation": "If the rate of pumping water is 55L/10 minutes, the per minute rate would be 5.5L/min. Thus, in 22 mins, there would be 22*5.5 = 121L pumped. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "If a different pump with a stronger capacity of moving 75 litres up the hill in 12 minutes, how much longer/shorter does it take to move 165 litres of water using this new pump than the original pump?",
+              "type": "Multiple Choice",
+              "options": [
+                "3.6 minutes shorter",
+                "3.6 minutes longer",
+                "4.6 minutes shorter",
+                "4.6 minutes longer"
+               ],
+              "answer": "A",
+              "explanation": "The rate of this new pump is 75L/12 minutes = 6.25L/min. Thus, this new pump would move 165L of water in 165/6.25 = 26.4 minutes. The old pump would move 165L of water in 165/5.5 = 30 minutes. Therefore, the difference is the new pump would move water 30 – 26.4 = 3.6 minutes faster. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ]
+        },
+  
+        {
+          "text": "Whilst on holiday, Nasir and Theo enjoy spending time riding on their motorboat and Nasir’s jet ski with a top speed of 60 miles per hour. Note: 1 mile = 1.6 km",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "Nasir rides a jet ski for 1 hour and 23 minutes at its top speed. How far does he travel?",
+              "type": "Multiple Choice",
+              "options": [
+                "73.8 miles",
+                "82.8 miles",
+                "82.9 miles",
+                "83.0 miles"
+               ],
+              "answer": "D",
+              "explanation": "60 miles/hr. Thus, using the formula speed = distance/time, we can rearrange it so d = t*s. Thus, d = 1.3833…*60 = 83 miles (we use 1.3833… because 23 minutes is 0.38333… of an hour). Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "Theo starts out on his jet ski at the same time as Nasir but travels 25.6 km further than him in a total time of 75 minutes (for both of them). What is Theo’s average speed in miles per hour?",
+              "type": "Multiple Choice",
+              "options": [
+                "20.48",
+                "72.80",
+                "81.50",
+                "40.50"
+               ],
+              "answer": "B",
+              "explanation": "Distance for Nasir = s*t = 60*1.25 = 75 miles. Theo therefore travelled 75 + (25.6/1.6) = 91 miles. Average speed for Theo = d/t = 91/1.25 = 72.8 miles/hour. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "Theo docks at the marina, 25.6km ahead of Nasir. How many minutes will it take Nasir to get to the marina travelling at top speed?",
+              "type": "Multiple Choice",
+              "options": [
+                "16",
+                "21",
+                "23",
+                "25"
+               ],
+              "answer": "A",
+              "explanation": "25.6km = 25.6/1.6 = 16 miles. Thus, t = d/s = 16/60 = 0.2666..hrs = 16 minutes. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "The next day, Theo travels at a speed of 64 km/h and covers the same distance as the previous day, in which he covered 99 miles, how long does it take him, to the nearest minute?",
+              "type": "Multiple Choice",
+              "options": [
+                "166 minutes",
+                "92 minutes",
+                "149 minutes",
+                "93 minutes"
+               ],
+              "answer": "C",
+              "explanation": "If t = d/s, then 99/(64/1.6) = 2.475hrs = 148.5 = 149 minutes (remember to convert 64km/h into mph). Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ]  
+        },
+
+        {
+          "text": "Twice each year - in May and November - staff at the zoo complete a census of all animals that they are responsible for. Results of the census from the last two counts at the zoo are shown below for November and May 2019.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/8.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What was the percentage change in the number of lions and tigers in November compared to May?",
+              "type": "Multiple Choice",
+              "options": [
+                "-13.3%",
+                "-13.4%",
+                "-15.5%",
+                "-15.6%"
+               ],
+              "answer": "B",
+              "explanation": "Lions + Tigers in Nov = 7 + 199 = 206. Lions + Tigers in May = 201 + 37 = 238. Thus, the percentage change is (238 – 206)/238 * 100 = 13.4% (careful: the question asks for the percentage change from May to November, not November to May; the table is not in order of months). Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "What was the difference in the percentage change in tortoises compared to the percentage change in turtles from May to November, to the nearest percent?",
+              "type": "Multiple Choice",
+              "options": [
+                "56%",
+                "6%",
+                "56%",
+                "62%"
+               ],
+              "answer": "A",
+              "explanation": "Percent change in tortoises from May-Nov = (94 – 89)/89 * 100 = 5.617…%. Percent change in turtles from May-Nov = (63 – 39)/39 * 100 = 61.538…%. Therefore, the difference is 61.538… - 5.617… = 55.92… = 56%. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "What was the difference in the number of tigers as compared to giraffes for the most recent census?",
+              "type": "Multiple Choice",
+              "options": [
+                "-1",
+                "+12",
+                "-12",
+                "+1"
+               ],
+              "answer": "D",
+              "explanation": "199 – 198 = +1 more tiger than giraffe (latest census is November). Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+          {
+              "text": "What was the percentage difference in the total number of lions and turtles in May compared to November?",
+              "type": "Multiple Choice",
+              "options": [
+                "-7.9%",
+                "+7.8%",
+                "+7.9%",
+                "-5.4%"
+               ],
+              "answer": "A",
+              "explanation": "Lions + Turtles in May = 76. Lions + Turtles in Nov = 70. Thus, the percentage change = (76 – 70)/76 * 100 = 7.89…% = 7.9% decrease. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ]
+        },
+  
+
+        {
+          "text": "London city council is planning a new park. They prepare a scale model (2m : 1km) to exhibit to the public. The model is 14 m long and 8 m wide and has two isosceles triangles at the edges.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 8/9.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What is the area of the model only in sq metres?",
+              "type": "Multiple Choice",
+              "options": [
+                "64",
+                "88",
+                "108",
+                "112"
+               ],
+              "answer": "C",
+              "explanation": "Area of the rectangle = 14*8 = 112 sq metres. The area of the 2 triangles cut out are 2*2 = 4 sq metres (two triangles make a square). Thus, the total area of the shape is 112 – 4 = 108 sq metres. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+          {
+              "text": "This model is to be placed on a rectangular board. What is the area of the board in square metres that will give a minimum border of 50cm around the entire model?",
+              "type": "Multiple Choice",
+              "options": [
+                "72.25",
+                "112.5",
+                "123.5",
+                "135"
+               ],
+              "answer": "D",
+              "explanation": "To get a border of 50cm = 0.5m around the entire model, you would need to add 0.5m to either end of the length and the width (so adding in total, 1m to the length and 1m to the width). Therefore, the area of this board would be 9*15 = 135 sq metres. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+          {
+              "text": "A circular monument with a diameter of 10 metres is planned for the exact centre of the park. How far will it be from the edge of the monument to the edge of the park if the shortest possible distance is measured?",
+              "type": "Multiple Choice",
+              "options": [
+                "1991m",
+                "1992m",
+                "1994m",
+                "1995m"               
+              ],
+              "answer": "D",
+              "explanation": "Without even calculating we can tell that the shortest distance from the edge of the park will be along the ‘8m’ side of the model. Thus, if 2m = 1km on the model, the width of the park so to speak would be 4km (8/2 = 4), or 4000m. Thus, if the diameter of the monument is 10m, we have 3990m remaining. Therefore, to calculate the distance from one side of the park to the edge of the monument, it would = 3990/2 = 1995m (we can check this by calculating 1995 + 10 + 1995 = 4,000m). Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+          {
+              "text": "The architect makes an adjustment of the model to fill in the triangles on the corners of the model making the park a full rectangle. Once this revised park is built, a man runs around the perimeter at a speed of 15 km/hr. How many minutes does it take him to run around the perimeter of the park exactly once?",
+              "type": "Multiple Choice",
+              "options": [
+                "1 hour and 46 minutes",
+                "1 hour and 38 minutes",
+                "1 hour and 28 minutes",
+                "1 hour and 36 minutes"
+               ],
+              "answer": "C",
+              "explanation": "The perimeter of the park on the new model would be 14+8+8+14 = 44m, which according to the scale would be 22km. Thus, if time = distance/speed, then we know time = 22/15 = 1.46….hrs = 88 minutes = 1 hour and 28 minutes. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 12
+          }
+          ]   
+        }
+      ]
+    }
+  ]
+}

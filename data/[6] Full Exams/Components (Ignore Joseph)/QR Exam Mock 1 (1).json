@@ -1,0 +1,626 @@
+{
+  "exam": {
+    "name": "QR Section Mock 1",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 24
+  },
+  "sections": [
+    {
+      "name": "Quantitative Reasoning",
+      "time": 24,
+      "stems": [
+        {
+          "text": "The following graph shows the expenditure per student attending College X for several selected time period. The numbers reflect averages of the 2 years in each time category. The blue represents the expenditure in dollars not accounting for inflation, but the orange represents expenditure in those years accounting for inflation, so the value of money in the graph remains the same across all the time periods. Note that the value for 2002/03 for unadjusted dollars is the same as constant 2004/05 dollars (so 9.9).",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 1/1.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "By what percentage has the average expenditure per student increased from 1982/83 to 2002/03 in unadjusted dollars, to the closest value?",
+              "type": "Multiple Choice",
+              "options": [
+                "209%",
+                "210%",
+                "211%",
+                "300%"
+               ],
+              "answer": "A",
+              "explanation": "(9.9 – 3.2)/3.2 = 209.375% = 209%. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "If the average rate of increase in expenditure (unadjusted) between each time period on the graph across all the 6 time periods was the remain the same for the next time period of 2004/05, how much should the average total expenditure be in 2004/05, in thousands of dollars?",
+              "type": "Multiple Choice",
+              "options": [
+                "1.58",
+                "1.32",
+                "11.48",
+                "11.22"
+               ],
+              "answer": "C",
+              "explanation": "[(3.2 – 2) + (4.6 – 3.2) + (6.2 – 4.6) + (7.7 – 6.2) + (9.9 – 7.7)]/5 = [1.2 + 1.4 + 1.6 + 1.5 + 2.2]/5 = 7.9/5 = 1.58/time period. Therefore 9.9 + 1.58 = 11.48 in 2004/05. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+          {
+              "text": "What is the value change in the worth of one thousand dollars in 2004/05 dollars from 1977/78 to 1982/83, to the closest dollar??",
+              "type": "Multiple Choice",
+              "options": [
+                "$1,164",
+                "$1,640",
+                "$1,112",
+                "$1,113"
+               ],
+              "answer": "D",
+              "explanation": "In 1977/78, the value of money from 1977/78 value to 2004/05 value increased by 6.1/2 = 3.05 times. Therefore, $1,000 in 1977/78 would be 1,000*3.05 = $3,050 in 2004/05 dollars. In 1982/83, the value of money from 1982/83 value to 2004/05 value increased by 6.2/3.2 = 1.9375 times. Therefore, $1,000 in 1982/83 would be 1,000*1.9375 = $1,937.50. Therefore, the value change in the worth of $1,000 in 2004/05 value from 1977/78 to 1982/83 = $3,050 - $1,937.50 = $1,112.50. Rounded, the closest value is D – therefore the correct answer is D. ",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "What was the percentage change in the average expenditure in 2004/05 dollars from 1992/93 to 1997/98?",
+              "type": "Multiple Choice",
+              "options": [
+                "+ 0.083%",
+                "+ 8.3%",
+                "– 8.3%",
+                "– 0.083%"
+               ],
+              "answer": "B",
+              "explanation": "(9.1 – 8.4)/8.4 * 100 = 8.3333…%. Therefore, the correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]
+        },
+
+        {
+          "text": "The following pie chart shows the distribution of trees across the world. Currently there are 50 million trees in Europe.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 1/1.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "How many trees are there in North America?",
+              "type": "Multiple Choice",
+              "options": [
+                "87.4 million",
+                "87.5 million",
+                "6.76 million",
+                "6.75 million"
+               ],
+              "answer": "A",
+              "explanation": "If there are 50 million trees in Europe (27.8%), we can calculate that the total number of trees worldwide would = 50 million/0.278 = 179.856… million. Thus, North American trees = 179.856… * 0.486 = 87.41… million. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "If the number of trees in Australasia were to decrease by 10 million, what percentage of the world’s trees would Australasia then have, to the closest percentage below?",
+              "type": "Multiple Choice",
+              "options": [
+                "16.7%",
+                "11.0%",
+                "12.0%",
+                "15.6%"
+               ],
+              "answer": "C",
+              "explanation": "If there are 50 million trees in Europe (27.8%), we can calculate that the total number of trees worldwide would = 50 million/0.278 = 179.856… million. Thus, Australasian trees = 179.856… * 0.167 = 30.035… million. Reduced by 10 million, this becomes 20.035… million. Therefore, 20.035…/169.856… = 0.1179… = 12%. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the number of trees globally doubled, how would this affect the percentage distribution of trees in Europe?",
+              "type": "Multiple Choice",
+              "options": [
+                "It would not change",
+                "It would double",
+                "It would halve",
+                "It would be multiplied by four"
+               ],
+              "answer": "A",
+              "explanation": "The percentages are unaffected if the overall number of trees are changes. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If all the trees in the ‘rest of the world’ disappeared instantly, by how many trees approximately would Australasia have to plant/remove by if it were to maintain the same percentage value of global trees (to the closest value)?",
+              "type": "Multiple Choice",
+              "options": [
+                "No changes",
+                "Plant 2 trees",
+                "Plant 2 million trees ",
+                "Remove 2 million trees"
+               ],
+              "answer": "D",
+              "explanation": "If there are 50 million trees in Europe (27.8%), we can calculate that the total number of trees worldwide would = 50 million/0.278 = 179.856… million. Therefore, the ‘rest of the world’ makes up 179.856…*0.069 = 12.41… million trees. Therefore, 179.856… - 12.41… = 167.44… million trees leftover. Thus, if we are to maintain 0.167*167.44… = 27.963… million trees for Australasia, we would need to remove 30.035… - 27.963… = 2.07… million trees (30.035… is from Q6 where we calculated the number of trees in Australasia). The closest answer is D. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]
+        },
+          
+        {
+          "text": "The following pie charts show number of apartment units sold to types of families. <br/> Grey = Families with no children <br/> Blue = Families with 1 child <br/> Green = Families with 2 children <br/> Black = Families with 3+ children",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 1/2.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What percentage of apartments were sold to families with 2 or more children in 2010?",
+              "type": "Multiple Choice",
+              "options": [
+                "1%",
+                "2%",
+                "24%",
+                "25%"
+               ],
+              "answer": "B",
+              "explanation": "Green + Black = 2+2 = 4. Thus, 4/200 * 100 = 2%. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "What is the closest ratio of apartments sold to childless families in 2010 compared to 1980?",
+              "type": "Multiple Choice",
+              "options": [
+                "75:28",
+                "28:75",
+                "1:3",
+                "3:1"
+               ],
+              "answer": "A",
+              "explanation": "Childless 2010: Childless 1980 = 150:56 = 75:28. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What proportion of apartments in 1980 were sold to families with only 1 child or families with no children?",
+              "type": "Multiple Choice",
+              "options": [
+                "0.67",
+                "0.68",
+                "0.70",
+                "0.47"
+               ],
+              "answer": "B",
+              "explanation": "No child + 1 child = 56 + 30 = 86. Thus, 86/127 = 0.677… = 0.68. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What is the ratio of apartments sold to families with more than 2 children in 1980 to that in 2010?",
+              "type": "Multiple Choice",
+              "options": [
+                "2:11",
+                "11:2",
+                "41:4",
+                "4:41"
+               ],
+              "answer": "B",
+              "explanation": "More than 2 children = Black. Ratio of 1980:2010 = 11:2. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ]
+        },
+  
+        {
+          "text": "The following two pie charts show the distribution of annual spending in the average household in 2 different years. In 2010, the average annual household spending on food was $10,000.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 1/3.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What did the average household spend on transportation in 2010?",
+              "type": "Multiple Choice",
+              "options": [
+                "$4,118",
+                "$4,294",
+                "$2,946",
+                "$2,567"
+               ],
+              "answer": "A",
+              "explanation": "Total expenditure 2010 = 10,000/0.34 = $29,411.76… . Thus, expenditure on transportation = 0.14*29,411.76… = $4,117.647… = $4,118. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "How much more did the average household spend on education than healthcare in 2010?",
+              "type": "Multiple Choice",
+              "options": [
+                "$529",
+                "$1,324",
+                "$1,853",
+                "$1,938"
+               ],
+              "answer": "A",
+              "explanation": "Total expenditure 2010 = 10,000/0.34 = $29,411.76… . The percentage difference between education and healthcare spending in 2010 = 6.3% - 4.5% = 1.8%. Thus, 0.018*29,411.76… = $529.41… = $529. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "If the average annual household spending on food doubled from 1950 to 2010, how much money did the average household spend on healthcare and transportation in 1950?",
+              "type": "Multiple Choice",
+              "options": [
+                "$5,340",
+                "$2,545",
+                "$1,071",
+                "$4,340"
+               ],
+              "answer": "B",
+              "explanation": "We can deduce that the average household spending on food in 1950 would have been $5,000. Thus, the total household expenditure for 1950 is 5,000/0.112 = $44,642.857… . Thus, healthcare + transportation in 1950 = 2.4% + 3.3% = 5.7%. Thus, 0.057*44.642.857 = $2,544.64… = $2,545. Therefore, the correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What is the closest ratio of average annual household spending on education in 1950 compared to 2010, if the total annual average household spending in 1950 was $7,000?",
+              "type": "Multiple Choice",
+              "options": [
+                "1:4",
+                "4:1",
+                "1:5",
+                "5:1"
+               ],
+              "answer": "A",
+              "explanation": "Total expenditure 2010 = 10,000/0.34 = $29,411.76… . Education in 2010 = 0.063*$29,411.76… = $1,852.9… .Education in 1950 = 0.066*7,000 = $462. Thus, the ratio would for 1950 to 2010 would be 462:1,852.9 = 462/1,852.9 = 0.249… = 0.25. Thus, we can deduce that the closest ratio would be 1:4 (given that education spending in 1950 is close to 0.25 that of 2010). Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ]  
+        },        
+        
+        {
+          "text": "The following graph shows the velocity of a car driving to and from a gas station in 30 seconds. At some points breaks were taken, where the car stopped. The units on the horizontal axis are in seconds. Note that velocity = displacement from start/time.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 1/4.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "How far is the car from the gas station 15 seconds after leaving?",
+              "type": "Multiple Choice",
+              "options": [
+                "0 metres",
+                "5 metres",
+                "10 metres",
+                "15 metres"
+               ],
+              "answer": "A",
+              "explanation": "Since the velocity is 0, we can deduce that the car returned to the gas station as the displacement from start = 0. Therefore, the correct answer is A. ",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "How far did the car travel between 4 seconds and 7 seconds (closest value)?",
+              "type": "Multiple Choice",
+              "options": [
+                "25 metres",
+                "50 metres",
+                "75 metres",
+                "100 metres"
+               ],
+              "answer": "B",
+              "explanation": "Between the 2 dotted lines, the car travelled at a velocity of approximately 16m/s. Either way, whether you choose 15m/s or 16m/s if you multiply these values by 3 you get 45m and 49m, both of which are closest to 50m. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "For how long, to the closest value, was the car travelling away from the gas station?",
+              "type": "Multiple Choice",
+              "options": [
+                "5 seconds",
+                "7 seconds ",
+                "9 seconds",
+                "12 seconds"
+               ],
+              "answer": "D",
+              "explanation": "The car was travelling away from the gas station from 0-4 seconds, and from 15-23 seconds. Cumulatively, this is 4 + 8 = 12 seconds. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "If the car repeated its journey for another 30 seconds, for approximately how long was the car stationary in total?",
+              "type": "Multiple Choice",
+              "options": [
+                "3 seconds",
+                "6 seconds",
+                "7 seconds",
+                "12 seconds"
+               ],
+              "answer": "B",
+              "explanation": "For this journey, the car was stationary from 27-30 seconds, so 3 seconds. If this journey was repeated again, that would make it 6 seconds. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ] 
+        },
+  
+        {
+          "text": "The table below shows the annual number of Chemistry graduates from Cambridge University from 2007-2011. The total number of graduates from Cambridge was 5,000 in 2010.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 1/5.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What percentage of the total graduates from Cambridge graduated in Chemistry in 2010?",
+              "type": "Multiple Choice",
+              "options": [
+                "29.68%",
+                "36.96%",
+                "28.02%",
+                "29.76%"
+               ],
+              "answer": "A",
+              "explanation": "1484/5000 * 100 = 29.68%. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "What was the average number of UK citizens graduating from Cambridge in Chemistry from 2007 to 2011, to the nearest whole student?",
+              "type": "Multiple Choice",
+              "options": [
+                "748 students",
+                "749 students",
+                "750 students",
+                "751 students "
+               ],
+              "answer": "C",
+              "explanation": "Average = (704+789+764+761+731)/5 = 749.8 = 750 students. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What proportion of Chemistry graduates in 2008 were from China, to 2 decimal places?",
+              "type": "Multiple Choice",
+              "options": [
+                "0.18",
+                "0.19",
+                "0.20 ",
+                "0.38 "
+               ],
+              "answer": "B",
+              "explanation": "292/1548 = 0.1886… = 0.19. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What was the approximate percentage increase the number of non-UK citizens graduating from 2009 to 2010?",
+              "type": "Multiple Choice",
+              "options": [
+                "1%",
+                "4%",
+                "5%",
+                "6%"
+               ],
+              "answer": "A",
+              "explanation": "2009: 715 students. 2010: 723 students. Therefore, there is a difference of 8 students. Thus, 8/715 * 100 = 1.11…% = 1%. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]  
+        }, 
+  
+        {
+          "text": "The following table shows the different sources of income and expenditure and further details of Company Y. Total revenue is calculated by adding gross sales and trading income together.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 1/6.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "If all the net income were distributed amongst employees equally, how much would each employee have gotten paid in euros in 2008?",
+              "type": "Multiple Choice",
+              "options": [
+                "0.419 million each",
+                "41.9 million each",
+                "41,921 each",
+                "419,205 each"
+               ],
+              "answer": "C",
+              "explanation": "2,656/63,358 = 0.0419205… million = 41,920.515 = 41,921 euros. Therefore, the correct answer is C. ",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What was the average total revenue in euros raised by the company from 2007-2009?",
+              "type": "Multiple Choice",
+              "options": [
+                "17,359.33",
+                "17,359.33 million",
+                "20,224.33",
+                "20,224.33 million"
+               ],
+              "answer": "D",
+              "explanation": "Since the total revenue is adding gross sales and trading income, we can just add all 6 cells from 2007-2009 together and divide by 3 (instead of calculating the total revenue for each year first). Thus, average total revenue = (17,542 + 2,568 + 17,063 + 3,449 + 17,473 + 2,578)/3 = 20,224.33… million. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "By how much percentage-wise did the market capitalisation of the company decrease from 2008 to 2009?",
+              "type": "Multiple Choice",
+              "options": [
+                "23%",
+                "24%",
+                "31%",
+                "32%"
+               ],
+              "answer": "B",
+              "explanation": "(59,759 – 45,609)/59,759 = 0.23678… = 24%. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "What was the average rate of increase in long-term debt from 2007-2009?",
+              "type": "Multiple Choice",
+              "options": [
+                "76.0 million euros/year",
+                "98.7 million euros/year",
+                "117.5 million euros/year",
+                "159.0 million euros/year"
+               ],
+              "answer": "C",
+              "explanation": "Increase from 2007-2008 = 2,583 – 2,507 = 76. Increase from 2008-2009 = 2,742 – 2,583 = 159. Thus, the average rate of increase = (76 + 159)/2 = 117.5 million/year. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          }
+          ]  
+        },
+
+        {
+          "text": "Samantha was trying to lose weight and went to her doctor at the end of June to see what she could do. The doctor asked for her weight records for the first 6 months of the year. They are as below, measured at the end of the month.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 1/7.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What was Samantha’s average rate of monthly weight gain?",
+              "type": "Multiple Choice",
+              "options": [
+                "5.2kg/month",
+                "6.2kg/month",
+                "31kg/month",
+                "32kg/month"
+               ],
+              "answer": "B",
+              "explanation": "You could calculate the individual increases in each month, however a quicker way of doing this is just using the start and end values. In this case, we can find the average rate of increase by subtracting June from January and dividing by 5 (not 6, because there are 5 increases between 6 months, not 6). Thus: (80 – 49)/5 = 6.2kg/month. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What was the percentage increase in Samantha’s weight from February to May?",
+              "type": "Multiple Choice",
+              "options": [
+                "14%",
+                "28%",
+                "35%",
+                "49%"
+               ],
+              "answer": "C",
+              "explanation": "Percentage increase = (73 – 54)/54 * 100 = 35.185…% = 35%. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the doctor wants her to have lost 2 quarters of her weight by the end of the year, what should her average rate of monthly weight loss be?",
+              "type": "Multiple Choice",
+              "options": [
+                "6.66kg/month",
+                "6.67kg/month",
+                "7.9kg/month",
+                "8kg/month"
+               ],
+              "answer": "B",
+              "explanation": "Her doctor wants her to lose essentially half her weight by the end of the year (2 quarters), which means she needs to lose 40kg (half of 80 is 40). Thus, over the next 6 months, she needs to lose an average of 40/6 = 6.666… = 6.67kg/month. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "If she puts on weight at a monthly rate of 3kg/month, how much weight would she have to lose in December alone (assuming she stops putting on weight at the end of November) if she wants to reach her weight loss goal of weighing 50kg?",
+              "type": "Multiple Choice",
+              "options": [
+                "40kg",
+                "40kg",
+                "45kg",
+                "55kg"
+               ],
+              "answer": "C",
+              "explanation": "If the stops putting on weight in November, then she has been gaining 3kg/month for 5 months (July, August, September, October, November), so she has gained 15kg, bringing her to a total of 95kg. Thus, she needs to lose 45kg to reach her goal of 50kg by year’s end. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          }
+
+          ]
+        },
+  
+
+        {
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "A 5L water tank collects rainfall. If rain starts to fall on Monday at a constant rate of 10mm every 3 hours, on what day would the tank be first full?",
+              "type": "Multiple Choice",
+              "options": [
+                "Sunday",
+                "Monday",
+                "Wednesday",
+                "Saturday"
+               ],
+              "answer": "A",
+              "explanation": "A 5L tank as 5,000mL, therefore it would take 5,000/10 = 500 sets of 3 hrs for the tank to get full. Therefore, it would take 1500 hours in total. To calculate the day: 1500/24 = 62.5 days = 8 weeks and 6.5 days. Therefore, 6.5 days after the start of Monday would be half-way during Sunday. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          ]   
+        },
+
+
+        {
+          "text": "Harry, Roger and Jessica are competing in a 200m sprint race. Harry runs at a constant speed of 15km/h.",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "If Roger runs twice has fast as Harry, how much quicker will he finish the race?",
+              "type": "Multiple Choice",
+              "options": [
+                "30 seconds faster",
+                "15 seconds faster",
+                "48 seconds faster",
+                "24 seconds faster"
+               ],
+              "answer": "D",
+              "explanation": "If Harry takes t = d/s = 0.2/15 = 0.01333… hours = 48 seconds, and Roger runs twice as fast, that means Roger will take half as long, so 24 seconds. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "Jessica finishes the race 20 seconds before Harry. How fast was she running, assuming she kept a constant speed?",
+              "type": "Multiple Choice",
+              "options": [
+                "7.14km/h",
+                "17.8km/h",
+                "25.7km/h",
+                "28.4km/h"
+               ],
+              "answer": "C",
+              "explanation": "If Harry finishes the race in 48 seconds (t = d/s = 0.2/15 = 0.01333… hours = 48 seconds), then Jessica takes 28 seconds = 0.0077777…hrs. Thus, s = d/t = 0.2/0.0077777… = 25.71…km/h = 25.7km/h. Therefore, the correct answer is C. ",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "If Harry ran the first 100m at 15km/h but slowed down in the last 100m to 5km/h, how much slower did he finish the race now that he did not keep up a consistent speed of 15km/h?",
+              "type": "Multiple Choice",
+              "options": [
+                "24 seconds",
+                "48 seconds",
+                "72 seconds",
+                "96 seconds"
+               ],
+              "answer": "B",
+              "explanation": "First 100m = 24 seconds (since t = d/s = 0.2/15 = 0.01333… hours = 48 seconds from earlier questions, if it is half the distance it will take him half the time). Second 100m = d/s = 0.1/5 = 0.02hrs = 72 seconds. Therefore altogether, he takes 24+72 = 96 seconds. Since he takes 48 seconds at a consistent speed of 15km/h, we can calculate that he has taken an extra 48 seconds. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ]
+        }
+  
+        
+      ]
+    }
+  ]
+}
+

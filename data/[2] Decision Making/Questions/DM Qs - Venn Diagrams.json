@@ -1,0 +1,315 @@
+{
+  "stems": [
+    {
+      "text": "The diagram shows the sport(s) played by group of people.<br/>Triangle = Cricket<br/>Square = Soccer<br/>Circle = Tennis<br/>Arrow = Hockey",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/1.JPG",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Which letter(s) represent(s) those who play cricket and soccer?",
+          "type": "Multiple Choice",
+          "options": [
+            "A",
+            "D",
+            "C & D",
+            "B & C"
+          ],
+          "answer": "C",
+          "explanation": "Overlap between the square and triangle",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The diagram shows the leisure activities enjoyed by a group of kids.<br/>Rhombus = Bowling<br/>Pentagon = Laser tag<br/>Arrow = Movies<br/>Rectangle = Arcade",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/2.JPG",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Based on the diagram, which of the following is true?",
+          "type": "Multiple Choice",
+          "options": [
+            "The number of kids who enjoy 1 leisure activity is less than the number of kids who enjoy 2 leisure activities",
+            "18 kids like both bowling and laser tag",
+            "10 kids enjoy the movies",
+            "The number of kids who enjoy the arcade and one other activity is less than the number of kids who enjoy laser tag and one other activity"
+          ],
+          "answer": "D",
+          "explanation": "The number of kids who enjoy the arcade and one other activity is 2 + 14 = 16, the number of kids who enjoy laser tag and one other activity is 3 + 14 = 17",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A group of students were asked about the subjects they took in year 12.<br/>All the students who took computer science also took economics.<br/>Some students took both chemistry and economics.<br/>No students took both chemistry and computer science.<br/>All students took English.",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Which of the following diagrams best represents the above situation?",
+          "type": "Multiple Choice",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "option_images": [
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/3.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/4.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/5.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/6.JPG"
+          ],
+          "answer": "B",
+          "explanation": "Circle of computer science must be within economics, overlap between chemistry and economics, no overlap between chemistry and computer science – shown only by B",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A survey was carried out to find why some students struggle with finishing their homework.<br/>Square = Co-curricular activities<br/>Star = Too much homework<br/>Rhombus = Part-time job<br/>Rectangle = Lack of motivation",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/7.JPG",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Letter A represents students who:",
+          "type": "Multiple Choice",
+          "options": [
+            "Have a part-time job and engage in co-curricular activities",
+            "Lack motivation and believe there is too much homework",
+            "Don’t have a part time job and lac motivation",
+            "Have co-curricular activities, a part-time job & too much homework"
+          ],
+          "answer": "A",
+          "explanation": "Overlap between rhombus and square – part-time job and engage in co-curricular activities",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Of the 50 zoos across Australia:<br/>30 have koalas.<br/>20 have emus.<br/>15 have kangaroos.<br/>20% have emus, kangaroos and koalas.<br/>12 have kangaroos and emus.<br/>13 have kangaroos and koalas.<br/>15 have koalas and emus.",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "How many Australian zoos have neither kangaroos, nor koalas, nor emus?",
+          "type": "Multiple Choice",
+          "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "answer": "C",
+          "explanation": "Construct a 3-way Venn diagram with this information. Mathematically: 50 – (30 + 20 + 15 – 2*10 – 12 – 13 – 15) = 15. We subtract 2*10 because 20% of 50 is 10, and since it refers to the overlap of the 3 circles, we are counting that triple overlap three times, hence we need to subtract two of those overlaps.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A survey was conducted to determine forms of social media used by teenagers at a school.<br/>Rectangle = Instagram<br/>Pentagon = Snapchat<br/>Star = Facebook<br/>Circle = WhatsApp",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/8.JPG",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Which of the following is true according to the diagram?",
+          "type": "Multiple Choice",
+          "options": [
+            "30 more teenagers use Instagram than Facebook ",
+            "30 more teenager use Facebook than Instagram",
+            "3 more teenagers use WhatsApp than Snapchat",
+            "3 more teenagers use Snapchat than WhatsApp"
+          ],
+          "answer": "C",
+          "explanation": "Whatsapp = 12 + 5 + 22 = 39 users, Snapchat = 3 + 17 + 9 + 7 = 36 users",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A cricket match is played between the Melbourne Renegades and Melbourne Stars at the MCG.<br/>A record crowd of 80,000 is recorded.<br/>75,000 fans support the Melbourne Renegades or the Melbourne Stars.<br/>One-fifth of the crowd support both the Melbourne Renegades and the Melbourne Stars.<br/>Melbourne Stars has twice as many supporters as Melbourne Renegades in the stadium.",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "How many crowd members support just the Melbourne stars?",
+          "type": "Multiple Choice",
+          "options": [
+            "23,000",
+            "28,000",
+            "34,000",
+            "38,000 "
+          ],
+          "answer": "C",
+          "explanation": "Stars supporters: 75,000*2/3 = 50,000; 50,000 – 16,000 = 34,000",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Jim has 10 lollies. <br/>2 are red, yellow and green.<br/>3 are just yellow & 4 are just green.<br/>1 is green and red.<br/>Jim has no solely red lollies.",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Which of the following diagrams best represents the above information?",
+          "type": "Multiple Choice",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "option_images": [
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/9.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/10.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/11.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/12.JPG"
+          ],
+          "answer": "B",
+          "explanation": "No solely red lollies (therefore C and D are eliminated). 4 solely green (denoted by the circle)",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following diagram represents the musical instruments played by members of a band.<br/>Rectangle = Trombone<br/>Pentagon = Flute<br/>Triangle = Violin<br/>Circle = Guitar<br/>Rhombus = Clarinet",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/13.JPG",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Which of the following can be deduced from the diagram?",
+          "type": "Multiple Choice",
+          "options": [
+            "Some members play the trombone and violin but not the guitar",
+            "Some members play more than 4 instruments",
+            "Some members play the guitar, clarinet and another instrument",
+            "All members of the band play a musical instrument"
+          ],
+          "answer": "C",
+          "explanation": "Overlap between the circle, rhombus and other shapes",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A school offers 2 sports, cricket and soccer, to its students.<br/>Students can play one, both or neither sports for the school.<br/>The probability that a randomly selected student plays cricket is 0.6.<br/>The probability that a randomly selected student plays soccer is 0.5.<br/>The probability that a randomly selected student plays both cricket and soccer is 0.2.",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "What percentage of students play neither soccer nor cricket for the school?",
+          "type": "Multiple Choice",
+          "options": [
+            "10%",
+            "20%",
+            "30%",
+            "40%"
+          ],
+          "answer": "A",
+          "explanation": "Cricket or soccer: 0.6 + 0.5 – 0.2 = 0.9; therefore 10% play neither",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "At a school, year 12 students must study one or more science subject.<br/>>The science subjects offered at the school are chemistry, biology and physics. ",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/14.JPG",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Based on the diagram, which of the following is true?",
+          "type": "Multiple Choice",
+          "options": [
+            "There are 124 students in the school",
+            "More students study biology than chemistry",
+            "Chemistry is the most popular subject in the school",
+            "There are over 120 year 12 in the school"
+          ],
+          "answer": "D",
+          "explanation": "The sum of all sets is 124. Hence, this suggests that there are over 120 students in year 12",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Upon graduating from high school, students from a school were surveyed. They were asked: Which part(s) of school life are you most reluctant to leave behind?<br/>Their responses were organised using the following diagram.<br/>Rectangle = Teachers<br/>Star = Friends<br/>Pentagon = School sport<br/>Circle = Club activities<br/>Rhombus = Structured learning environment",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/15.JPG",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Which of the following can be deduced from the diagram?",
+          "type": "Multiple Choice",
+          "options": [
+            "No student responded with “teachers” and “club activities”",
+            "No student responded with solely “the structured learning environment”",
+            "No student responded with “club activities” and “school sport”",
+            "No students responded with solely “friends”"
+          ],
+          "answer": "A",
+          "explanation": "No overlap between the rectangle and the circle, hence no student responded with “teachers” and “club activities”",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All alligators are lizards.<br/>All crocodiles are lizards.<br/>All lizards are reptiles.<br/>While all snakes are reptiles, only some snakes are lizards.<br/>Snakes, alligators and crocodiles are distinct animals.",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Which of the following best represents the above information?",
+          "type": "Multiple Choice",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "option_images": [
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/16.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/17.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/18.JPG",
+            "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/19.JPG"
+          ],
+          "answer": "D",
+          "explanation": "The notion ‘only some snakes are lizards’ is conveyed correctly only by D – whereby one circle corresponding to snakes cuts the circle corresponding to lizards (without overlapping with the alligator or crocodile groups)",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "In Noosa, one-quarter of the 1000 houses have both a tennis court and a pool.<br/>450 houses don’t have a pool.<br/>650 houses don’t have a tennis court.<br/>Of the houses that neither have a pool nor a tennis court, one fifth have a water fountain.",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "How many houses in Noosa do not have a pool, nor a tennis court, nor a water fountain?",
+          "type": "Multiple Choice",
+          "options": [
+            "280",
+            "300",
+            "320",
+            "340"
+          ],
+          "answer": "A",
+          "explanation": "350*0.8 = 280<br/>You can create a table to input all these values in, with columns for Pool vs No Pool and rows with Court vs No Court. This will give you 350 total houses with no pool and no court.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following diagram shows the type of work undertaken in a GP clinic.<br/>Rectangle = Administering injections<br/>Pentagon = Sending recalls to patients<br/>Triangle = Cleaning the clinic<br/>Circle = Prescribing medication<br/>Rhombus = Filing patient records<br/>Receptionists are responsible for sending recalls, cleaning the clinic and filing patent records - but not administering injections or prescribing medication.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Venn Diagrams/Batch 1 (Sahil)/20.JPG",
+      "category_id": 7,
+      "questions": [
+        {
+          "text": "Which letter represents the work carried out by receptionists?",
+          "type": "Multiple Choice",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "answer": "A",
+          "explanation": "Overlap between pentagon, triangle and rhombus only",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

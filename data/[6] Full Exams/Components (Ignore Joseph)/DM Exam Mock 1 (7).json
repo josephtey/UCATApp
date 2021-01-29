@@ -1,0 +1,684 @@
+{
+    "exam": {
+      "name": "Decision Making 1",
+      "description": "Section Mock",
+      "type": "Mock",
+      "time": 31
+    },
+    "sections": [
+      {
+        "name": "Decision Making",
+        "description": "Looks at your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information.",
+        "time": 31,
+        "stems": [
+          
+          {
+            "text": "Some bears are toys. All dolls are toys. Not all teddies are bears, but no bears are dolls. All toys are yellow.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Some teddies are toys",
+                  "Some bears are teddies",
+                  "Some bears are yellow",
+                  "All dolls are yellow",
+                  "If something is yellow, it is a toy"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "Y",
+                  "Y",
+                  "N"
+                ],
+                "explanation": "1. We do not know that some teddies are toys, because ‘not all’ teddies could also include 0 teddies, so we don’t know for sure that any teddies are definitely bears, and even then only some bears are toys. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>2. We do not know for sure if any teddies are bears, all we know is that not all teddies are bears, but there could be none. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If some bears are yellow and all toys are yellow, we know some bears must be yellow too. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. If all dolls are toys and all toys are yellow, then all dolls must be yellow. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We do not know that all yellow things are toys, only that all toys are yellow. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Most cakes are over-baked. Some brownies are over-baked. If cakes are over-baked, they are given to the chickens or puts in the bin. If cakes are under-baked, they are fried.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "The over-baked brownies are given to the chickens",
+                  "If the over-baked cakes are not given to the chickens, it is put in the bin",
+                  "Some brownies are not over-baked",
+                  "Fried cakes must be originally under-baked",
+                  "Chickens like over-baked cakes"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "Y",
+                  "N",
+                  "N"
+                ],
+                "explanation": "1. We do not know what happens to the over-baked brownies. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since the over-baked cakes are either given to the chickens or put in the bin, if they are not given to the chickens they must be put in the bin. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. If some brownies are over-baked, then it stands that at least 1 brownie is not over-baked. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. Fried cakes can be originally under-baked, but we don’t know that if a cake is fried it must have been under-baked. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We do not know what the chickens like or prefer, only that the cake is given to them (for all we know they may not even eat it). Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Susan is a pet. Some pets have four legs, and pets with 4 legs cannot dance. All pets with three legs can dance. Susan can dance. ",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Some pets have two legs",
+                  "Susan has three legs",
+                  "Not all pets have four legs",
+                  "Susan cannot have four legs",
+                  "Dancing pets may have three legs"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "Y",
+                  "Y"
+                ],
+                "explanation": "1. We don’t know if two-legged pets even exist, we have no information on that. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Although Susan is a pet and can dance, and all pets with 3 legs can dance, that does not mean that all dancing pets have 3 legs. Susan may have 3 legs, but we don’t know for sure based on this information. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If some pets have four legs, then we know that at least 1 pet has 4 legs. The term ‘not all’ includes none/0, therefore it is outside the scope of ‘some’ since at least 1 pet had four legs. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since Susan can dance and pets with 4 legs cannot dance, she cannot have 4 legs. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Since all pets with 3 legs can dance, dancing pets can have 3 legs. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "No teachers are older than 100. Some teachers younger than 50 can play the flute. Most teachers over 70 can swim, and all teachers can write.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Mary, a music teacher, is 49 years old. She can play the flute",
+                  "If someone at the school is 101, they are not a teacher",
+                  "If someone is writing, they must be a teacher",
+                  "If someone is 74 they can swim but cannot play the flute.",
+                  "Greg, a sport teacher, is 70. He can write and swim."
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "N",
+                  "N"
+                ],
+                "explanation": "1. Not necessarily true, as although some teachers under 50 can play the flute, we know at least 1 cannot, so Mary could be that person. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. No teachers are older than 100. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. All teachers can write but that doesn’t mean that all writers are teachers. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. This question stem only refers to teachers, whereas this statement refers to anyone. Thus, we do not have the information to verify this. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>5. If most teachers over 70 can swim, then we know at least 1 cannot. Greg could be that person, we don’t know for sure. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "All flowers are beautiful. Some roses are flowers. Not all gardens have roses, but all gardens have a fountain. If there are flowers in the garden, they are always planted around the fountain.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "All roses are beautiful",
+                  "If there is a fountain in the garden, there must be roses",
+                  "Beautiful roses are near the fountain",
+                  "There are flowers that are not beautiful",
+                  "Some roses may be around fountains in gardens."
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "N",
+                  "Y"
+                ],
+                "explanation": "1. All flowers are beautiful, but since only some roses are flowers we do not know that all roses are beautiful for sure (they could be but we don’t know). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. There is no connection made between roses and the presence of a fountain. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know that all roses can be beautiful, so we do not know for sure whether roses near the fountain will be beautiful or not. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. All flowers are beautiful. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Some roses are flowers, therefore some roses can be planted around the fountain in gardens. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Jenny is a farmer, and she has collected enough eggs from her chickens to send off to her buyer. She has a certain amount of eggs and cartons, but she can wait longer to get more eggs. She can put 4 eggs into each carton, but is left with 2 eggs left over. Alternatively, she can put 7 eggs into each carton, but she leaves half the cartons unused and also has 5 eggs leftover.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many more eggs, at a minimum, does she need to fill the cartons with 5 eggs each?",
+                "type": "Multiple Choice",
+                "options": [
+                  "2",
+                  "3",
+                  "4",
+                  "6"
+                ],
+                "answer": "C",
+                "explanation": "The two simultaneous equations we can make are, for e = eggs and c = cartons: (1) e = 4c + 2, (2) e = 3.5c + 5. The reason equation (2) has 3.5c is because she leaves half the cartons unused, so essentially she puts 7 eggs in half the cartons, which mathematically looks like 7*(c/2), which we can simplify to 3.5c. Now we can just equate (1) and (2) and solve for c, so that 4c + 2 = 3.5c + 5, so that c = 6. Therefore by subbing c = 6 into (1), we know that she has 26 eggs. If she fills the cartons with 5 eggs each, that means she needs 30 eggs. Therefore, 30 – 26 = 4, she needs 4 more eggs. Therefore, the correct answer is C. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Two counters move along a line with 12 spaces as such, from the first to twelfth:<br/>(1st space) _ _ _ _ _ _ _ _ _ _ _ _ (12th space)<br/>Both counters start on the first space. The first counter skips 1 space each time it moves. The second counter skips 2 spaces each time it moves. The second counter waits until the first counter moves once first, and then begins to move (ie. when the first counter is making it’s second move, the second counter is making its first move). ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many spaces does the first counter skip before both of the counters meet on the same space?",
+                "type": "Multiple Choice",
+                "options": [
+                  "1",
+                  "2",
+                  "3",
+                  "They never meet"
+                ],
+                "answer": "C",
+                "explanation": "If we draw a diagram, it may look something like this: _ _ _ _ _ _ _ _ _ _ _ _ <br/>If we label each space from A to L (so 1st space = A), we get A-B-C-D-E-F-G-H-I-J-K-L. Both counters start on A. The first counter will go A, C, E, G, I, K, The second counter will go A, D, G, J. If we line these two orders up, offsetting the second counter by 1 space since it starts after the 1st counter, it will look like this:<br/>A-C-E-G-I-K<br/>    A-D-G-J-<br/>Therefore we can see on the 3rd space of the 2nd counter and 4th space of the 1st counter, they both meet at G. Therefore, the 1st counter has skipped 3 spaces. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A sport academy has 3 sports, soccer, baseball and cricket. 40 players are sorted into 3 different classes, with some players being accidentally sorted into 2 of the sports.<br/>2 players were put into both soccer and baseball.<br/>Only 3 players were put into all 3 sports.<br/>The number of players in baseball only and cricket only were the same.<br/>The number of players in both baseball and cricket was 11. ",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following cannot be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "There are more players in soccer than cricket",
+                  "The number of players in soccer is 10",
+                  "There are no players in cricket only",
+                  "There are 7 players each in baseball only and cricket only "
+                ],
+                "answer": "B",
+                "explanation": "We know from the first two statements that at least 5 players are in soccer. If we subtract the number of people in baseball and cricket, and these 5 players from the total of 40, we end up with a remaining 24. If 10 players are in soccer overall, then we know 21 players have to be in baseball and cricket combined (since we already accounted for the 5 soccer players in our previous calculation, we subtract only 5 from 24 instead of 10). This, however, is impossible as the number of players in baseball only is the same as the numbers in cricket only – and 21 is not an even number so it cannot be divided equally among those two sports. Thus we cannot have 10 players in soccer. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel went to a dance competition and the received scores for their performances. Each competitor performed 2 different dances (scored individually and then added up overall). Individual scores given were only 0, 2, 3 or 6.<br/>Ben scored the lowest of the four, but did not get 0 overall.<br/>Andrew was the only one to score an overall score which was multiple of 3.<br/>Daniel scored more than Ben but less than Andrew.<br/>Carl scored the only individual 3 score of all the four.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "If everyone scored different overall scores, what scores could Daniel have scored?",
+                "type": "Multiple Choice",
+                "options": [
+                  "2 and 3",
+                  "2 and 2",
+                  "0 and 2",
+                  "0 and 0"
+                ],
+                "answer": "B",
+                "explanation": "Andrew could have scored a 3, 6, 9, or 12. If Carl scored the only 3, then Andrew could not have scored 3 or 9 (both scores require a 3 – eg. 3 = 0 + 3 and 9 = 6 + 3). Thus we know Andrew scored either a 6 or 12. If Daniel scored more than Ben but less than Andrew, we can take a look at the 4 options to see where he fits in. Option A is impossible as Carl got the only individual 3 score. Option D is impossible as Ben scored the lowest and did not get a 0 overall (meaning the lowest he could have got is a 2 overall), and thus we can then deduce that Option C is incorrect as well. That leaves us with only Option B, which can be a possibility if Ben scored a 2 (0+2) and Andrew scored a 6 or 12. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Three siblings, Scott, Sally and Sarah have a total of 11 kids amongst them.<br/>Scott has 1 more kid than Sally, but Sarah did not want to have more than 5 kids.<br/>Sally has 1 less kid than Sarah.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many kids does Sarah have?",
+                "type": "Multiple Choice",
+                "options": [
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "answer": "C",
+                "explanation": "If Sarah has 5 kids, then Sally has 4 and Scott has 5 (which sums to more than 11). By trial and error, you can determine that 3+4+4 = 11, so we know Sarah has 4 kids, Scott has 4 kids and Sally has 3 kids. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "The maximum amount of time for prisoners in solitary confinement should be limited to 1 month",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, solitary confinement is an unethical practice",
+                  "Yes, psychological studies have shown that any time spent in solitary confinement over 1 month makes them statistically more likely to harm another inmate or guard ",
+                  "No, solitary confinement is designed to be punishing so that these prisoners can learn their lesson",
+                  "No, between 2000 and 2015, prisoners who spent time in solitary confinement were 25% less likely to recommit a crime once released "
+                ],
+                "answer": "B",
+                "explanation": "Only Options B and C use evidence to logically make an argument, however Option B is more specific to the question in regards to the time being limited to 1 month, whereas Option C does not address the ‘1 month’ aspect of the problem. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should all Australian schools teach mandatory first aid classes? ",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, cities in Australia who have adopted this approach experience 20% less avoidable deaths each year",
+                  "Yes, first aid saves lives",
+                  "No, this money would be better spent training more healthcare professionals",
+                  "No, schools are not equipped to undertake this teaching"
+                ],
+                "answer": "A",
+                "explanation": "Option A is the only one that uses evidence, and logically bases an argument off this information. Therefore, the correct answer is A. Whilst option D addresses the idea of schools which is in the question whilst option A does not, option D does not have evidence to base the argument in comparison to option A. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should the legal drinking age be raised to 21 in Australia? ",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, the brain continues to develop in males until 25",
+                  "Yes, binge-drinking is a huge problem in Australia",
+                  "No, studies have shown that countries with a drinking age of 18 have less alcohol-related deaths each year ",
+                  "No, this would cause more black-market sales of alcohol"
+                ],
+                "answer": "C",
+                "explanation": "Option C is the only one with evidence, however evidence alone does not justify an answer. Despite this, the argument being made from the evidence is logical and addresses the implied problem of the question which related to alcohol-related deaths or issues. Options B and D are irrelevant, and option A provides an argument for the drinking age to be raised to 25 rather than 21. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should betting companies be allowed to promote their business during sporting events?  ",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, the sporting events need their money",
+                  "Yes, they have the legal right to promote their business how they see fit",
+                  "No, betting is immoral and ruins sport",
+                  "No, it has been shown that young children are highly susceptible to influences stemming from the sporting community"
+                ],
+                "answer": "D",
+                "explanation": "Option B is not correct logically, and option C is more of an opinion. Option A would have been stronger with some evidence, however since option D has evidence and links that to the promoting of influence through sports events, it is the stronger argument. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Smoking affects the vessels that supply blood to your heart and other parts of your body. It reduces the amount of oxygen in your blood and damages blood vessel walls. Smoking is one exacerbating factor of atherosclerosis. Atherosclerosis occurs when there is narrowing and clogging of the arteries which reduces blood supply, and the amount of oxygen available, throughout the body. Smokers not only have more heart attacks, strokes and angina than non-smokers, but also at a much younger age.<br/>Source: https://www.heartfoundation.org.au/your-heart/know-your-risks/smoking-and-your-heart",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "A reduction in the amount of oxygen in the blood could damage blood vessel walls",
+                  "Atherosclerosis is caused by smoking",
+                  "Vessels that do not supply blood to your heart are unaffected by smoking",
+                  "Heart attacks can be caused by atherosclerosis",
+                  "Smokers are exposed to more health risks than non-smokers"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "N",
+                  "N"
+                ],                
+                "explanation": "1. The reduction of oxygen in the blood and the damage to vessel walls have not been linked – rather they are presented as 2 separate effects of smoking, so we do not know if they are linked. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Although smoking is an exacerbating factor of atherosclerosis, we do not know that it is a causing factor as well. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Smoking damages blood vessel walls, but we do not know if this applies to only a certain blood vessel type. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We do not know whether this is the case, as we only know that smokers have more heart attacks but nothing related to atherosclerosis. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We know that smokers are exposed to a few health risks, but we do not know if non-smokers are exposed to less health risks for sure. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+          {
+            "text": "The pie chart shows the common causes of fatal disease in Egypt in 2017, according to a survey of 3000 deaths.<br/>Source: https://www.researchgate.net/figure/Pie-chart-showing-the-nine-most-important-diseases-fea-tured-in-the-116-original_fig5_51981834",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 7/1.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Approximately 672 deaths of the 3000 investigated could be attributed to malaria and schistosomiasis in Egypt in 2017.",
+                  "Chagas disease and Rift Valley fever caused 15 fewer deaths than Malaria from the data in the survey.",
+                  "Based on the survey, Avian influenza causes more deaths than Rift Valley fever",
+                  "Leishmaniasis is responsible for approximately 207 of the 3000 deaths.",
+                  "Many of these deaths can be cured with proper medical practise, treatments and vaccination."
+                ],
+                "answer": [
+                  "Y",
+                  "N",
+                  "N",
+                  "Y",
+                  "N"
+                ],                
+                "explanation": "1. 11.2% + 11.2% = 22.4%, and 22.4% of 3000 is 672. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. 3% + 5.2% = 8.2%, and 8.2% of 3000 is 246, whereas 11.2% of 3000 is 336, which is a 90 death difference. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. They both have the same percentage so we know they caused the same number of deaths. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. 6.9% of 3000 = 207 deaths. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We do not know whether these treatments are the cure for these ailments based on the graph. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "In 2005, 1900 Year 12 students in Glen Oakley were surveyed about their future aspirations. The same survey was conducted in 2006 with 2400 Year 12 students. The results are shown in the pie chart below.<br/>Source: https://www.tutorialspoint.com/quantitative_aptitude/aptitude_pie_charts_quiz.htm",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 7/2.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Approximately the same number of students surveyed in 2004 wanted to go into Arts as the number of students surveyed in 2005 who wanted to go into Medicine.",
+                  "Arts and Engineering account for 25% of the desired pathways in both 2006 and 2005.",
+                  "4 more students wanted to go into Agriculture in 2005 than in 2006",
+                  "In 2006, 24 more students wanted to enter a field of Science than in 2005",
+                  "32 more students want to do Engineering and Commerce in 2006 than the number of students who wanted to do Management and Arts in 2005."
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "Y",
+                  "N",
+                  "N"
+                ],                
+                "explanation": "1. Arts 2004 = 0.11*2400 = 264. Medicine 2005 = 0.09*1900=171. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. 2006: 11% + 14% = 25%. 2005: 12% + 15% = 27%. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. 2006 Agriculture: 0.03*2400 = 72. 2005 Agriculture: 0.04*1900 = 76. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. 2006 Science: 0.25*2400 = 600. 2005 Science: 0.24*1900 = 456. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Engineering + Commerce 2006 = 14% + 30% = 44%, and 0.44*2400 = 1056. Management + Arts 2005 = 8% + 12% = 20%, and 0.20*1900 = 380. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Pharmacy B has been a successful pharmacy business since 2000. The owner, Timothy, decided to investigate how their sales of pharmaceuticals, drugs and medications have changed over 11 years. The following is a pie chart Timothy constructed to illustrate the differences. <br/>Source: https://www.researchgate.net/figure/Pie-charts-showing-the-share-of-the-market-in-terms-of-DDD-1000-population-day-for-each_fig1_233396326",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 7/3.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "The proportion of sales of antidepressants, ADHD medication and Anxiolytics have all increased from 2000 to 2011.",
+                  "If 300 medications were sold in 2000, 51 would have been Anxiolytics.",
+                  "If 3 more Anxiolytics were sold in 2011 compared to 2000, 2011 would have had a total of approximately 882 pharmaceuticals sold.",
+                  "Pharmacy C, located across the road, would have also experiences an increase in the sale of ADHD medication from 2000 to 2011.",
+                  "The proportion of Antidepressants sold in 2011 is close to the combined proportion of Antidepressants and Sedatives in 2000. "
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "N",
+                  "Y"
+                ],                
+                "explanation": "1. Antidepressants increased from 54.2% to 66.9%, ADHD increased from 2.7% to 3.0%, Anxiolytics decreased from 17% to 11.4%. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. 300*0.17 = 51. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We cannot calculate this as we do not know the total number of medications sold in 2000. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We don’t know the sales of Pharmacy C and cannot assume. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Antidepressants in 2011 = 66.9%. Antidepressants + Sedatives in 2000 = 54.2% + 11.9% = 66.1%. They are only 0.7% apart. Therefore, the correct answer is YES, as the conclusion does follow. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "The following is a chart showing the population of countries in the European Union in 2007 by percentage. <br/>Source: http://www.essaybuilder.net/PieCharts.html",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 7/4.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "There are a total of 27 countries in the EU",
+                  "If the EU had 550 people in 2007, approximately 91 would be Germans",
+                  "Poland is the smallest country in the EU",
+                  "Germany has the greatest land size in the EU",
+                  "Spain and Italy account for approximately 1/5 of the EU population in 2017."
+                ],
+                "answer": [
+                  "Y",
+                  "Y",
+                  "N",
+                  "N",
+                  "N"
+                ],                
+                "explanation": "1. There are 6 countries depicted + an ‘other’ category with 21 countries, so 21 + 6 = 27 countries. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. 550*0.166 = 91.3, and since we can’t create 0.7 people, we have to round down to 91 people. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. It may be the smallest of the 6 on the graph, but the 21 countries in the ‘other’ category could be smaller, we don’t know. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We do not know anything about land size from this graph, and we can’t make assumptions based on the population size. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We do not know if this data remains true for 2017, as the graph is for 2007 only. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "The following diagram shows the extracurricular activities a group of students participated in ",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 7/5.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which extracurricular activity had the most students?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Rowing",
+                  "Debating",
+                  "Volunteering",
+                  "Tennis"
+                ],
+                "answer": "C",
+                "explanation": "Volunteering = 40, Rowing = 22, Debating = 26, Tennis = 22, Dance = 19. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+          {
+            "text": "At a sports carnival, there are two sports available for the fifty students who attended to play; cricket and soccer. Seventeen students chose to play both sports, but 2 more students chose to play cricket than soccer. If 19 students chose not to play any sports, how many students chose to play soccer?",
+            "category_id": 7,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "6",
+                  "8",
+                  "23",
+                  "25"
+                ],
+                "answer": "C",
+                "explanation": "If 17 students chose to play both, and 19 chose none, that means 14 remain to play either one. If 2 more chose to play cricket than soccer, we can calculate the number for only soccer being (14-2)/2 = 6, and thus 8 played only cricket. Be careful however, the question asks for soccer overall, not just only soccer. Therefore 6 + 17 = 23. Thus, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "The diagram gives information regarding the subjects studied by students in a school",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 7/6.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "What is the difference in the number of students that studied maths and the number of students that studied English and Science only?",
+                "type": "Multiple Choice",
+                "options": [
+                  "9",
+                  "17",
+                  "64",
+                  "56"
+                ],
+                "answer": "D",
+                "explanation": "Number of students who studied maths = 73. Number of students who studied English and Science only = 17. Therefore the difference is 56. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "The type of phone of 115 students own are recorded.<br/>60 students own a Samsung phone.<br/>90 students own an iPhone<br/>50 students own a Huawei phone<br/>30 students own a Samsung phone, Huawei phone and an iPhone<br/>20 students own a Samsung phone and an iPhone only<br/>5 students only own a Samsung and Huawei phone",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "The number of students that only own an iPhone cannot be:",
+                "type": "Multiple Choice",
+                "options": [
+                  "15",
+                  "25",
+                  "30",
+                  "40"
+                ],
+                "answer": "A",
+                "explanation": "If 30 students own all three, and 20 own a ‘Samsung + iPhone’, then we know the categories of ‘only iPhone’ and ‘iPhone + Huawei’ have to equal 40 (90 – 30 – 20 = 40). However, if 5 students own a ‘Samsung + Huawei’, that means that the number of students that own ‘only Huawei’ and ‘iPhone + Huawei’ = 15 (50 – 30 – 5 = 15). Therefore, if at least 15 must be in the ‘iPhone + Huawei’ category (if ‘only Huawei’ = 0), then we know at least 25 must be in the ‘only iPhone’ category. Therefore, the correct answer is A, as it is impossible. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Cars sold by a certain manufacturer has a combination of different technological features.",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 7/7.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Based on the diagram, which letter represents a car with satellite navigation and lane departure warning?",
+                "type": "Multiple Choice",
+                "options": [
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "answer": "D",
+                "explanation": "Lane Departure Warning = arrow, and Satellite Navigation = circle, so the overlap between those two is F. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "George and Sarah are practising for the upcoming archery state championships. Sarah can hit the target 8 times out of 10, but George misses 2 times out of 10. When testing precision, Sarah can hit the same spot 15 times out of 60, whereas George can hit the same spot 18 out of 70. <br/>Considering only the accuracy and precision, is George a better archer than Sarah?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, George has higher accuracy and precision.",
+                  "Yes, they both have the same accuracy, but George has higher precision.",
+                  "No, Sarah has an 80% accuracy whereas George has 20% accuracy.",
+                  "No, Sarah has a greater precision than George."
+                ],
+                "answer": "B",
+                "explanation": "Sarah has an 80% accuracy, George also has an 80% accuracy. Sarash has a 25% precision, George has a 25.7% precision. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Jody has a box containing four blue rocks and five red rocks. She randomly draws one rock at a time and then replaces them into the bag.<br/>The first three rocks are blue.Jody states that the probability the next rock is blue is 1/6. Is Jody correct?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, because she has already drawn three blue rocks, meaning there is one blue ock out of six rocks that she has not drawn.",
+                  "Yes, because since she has drawn blue rocks previously, there is a much higher chance of now drawing a red rock.",
+                  "No, because there the probability of a red rock should be lower than 1/6 as there is almost an even number of each coloured rock.",
+                  "No, because the probability of a blue rock is 4/9."
+                ],
+                "answer": "D",
+                "explanation": "Since she replaces the rocks, the fact that she took out the first three and they were blue has no bearing on the probability of the next rock being blue as well. Her probability of 1/6 would be correct if she was not replacing the rocks. Therefore, the correct answer is D, as there are still 4 blue rocks out of 9 in total.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Company Sanny Sunscreen makes sunscreen. The company conducted a survey at two different locations: Monnee Pond and Mulgrave. The only options of the survey are “happy” or “not happy” with the sunscreen. Of the customers that were asked to be involved in the surveys, some chose not to respond. When calculating “happy” rates, Sanny Sunscreen uses the total number of customers surveyed as the denominator.<br/>There were 2100 people surveyed at Monnee Pond. 1500 said they were “happy”, and 100 chose not to respond.<br/>There were 1000 people surveyed at Mulgrave. 200 said they were “not happy” and 200 chose not to respond.<br/>The company is trying to decide in which centre they should invest more money. They will choose the centre that has the most “not happy” proportion of responses.<br/>Should the Company invest at Monnee Pond instead of Mulgrave?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, because the percentage of customers who were “happy” is higher at Mulgrave than Monnee Pond. ",
+                  "Yes, because more people responded to the survey at Monnee Pond than at Mulgrave.",
+                  "No, because the percentage of customers who were “not happy” is highest at Mulgrave.",
+                  "No, because the percentage of “not happy” customers is the same at both Mulgrave and Monnee Pond."
+                ],
+                "answer": "C",
+                "explanation": "At Monnee Pond, since 100 chose not to respond we can calculate that the number of ‘not happy’ responses is 500, resulting in a percentage of around 23.8% (500/2100). At Mulgrave, since 200 chose not to respond we can calculate that the number of ‘not happy’ responses is 600, resulting in a percentage of 60% (600/1000).  Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Sally is playing a game, where she wants to roll three fours in a row to win the game. She gets three rolls to try. Her chances of rolling three fours in this turn is 1/216. Is this correct?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, because rolling three fours in a row is very unlikely, and therefore the probability is very low.",
+                  "Yes, because the chance of rolling a four is 1/6, so rolling three in a row is 1/6 x 1/6 x 1/6",
+                  "No, because it is very unlikely that there will be three fours on her turn",
+                  "No, because the probability is actually ½ from 1/6 + 1/6 + 1/6."
+                ],
+                "answer": "B",
+                "explanation": "Her chance of rolling 1 four in 1 roll is 1/6, so 1/6*1/6*1/6 = 1/216 for 3 fours in 3 rolls. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Roger and Steven are playing a game. There is an equal chance of either of them winning a ‘mini game’ worth 1 point. They are playing to first to 5 points. Steven is leading 4-2. The probability that Roger wins overall is 1/8.",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, because since Roger is losing, the probability of him winning must be very low.",
+                  "Yes, because the probability of Roger winning at any given time is ½, and he must win another three times.",
+                  "No, because the probability of Roger winning is 1/6",
+                  "No, because they have an equal chance of winning, therefore the probability that Roger wins overall is ½."
+                ],
+                "answer": "B",
+                "explanation": "For Roger to win, he needs to win 3 times consecutively as Steven is 1 win away from reaching 5 points. Thus, since the probability of Roger winning is 0.5, the probability of him winning 3 times consecutively is 0.5*0.5*0.5 = 0.125 = 1/8. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          }
+            
+          
+        ]
+      }
+    ]
+  }

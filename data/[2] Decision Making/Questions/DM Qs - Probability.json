@@ -1,0 +1,1156 @@
+{
+  "stems": [
+    {
+      "text": "Adam has 6 marbles in a bag, 3 blue and 3 red. He puts his hand in without looking and pulls out a red marble without returning it. On his next try, the chance of Adam picking out a blue marble has increased.",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, there are fewer marbles overall and the number of blue marbles is the same",
+            "Yes, there is a 40% chance of picking a blue marble now ",
+            "No, there are still only 3 marbles",
+            "No, the chance of picking a blue marble is independent to picking a red marble"
+          ],
+          "answer": "A",
+          "explanation": "Before his first try, Adam has a 3/6 chance of getting a blue. If he removes a red marble, then the probability of getting a blue has now increased from 3/6 to 3/5, as there are still 3 blue marbles but less marbles overall. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Mary has a bag of 12 marbles, 3 blue, 4 red and 5 green. She picks out 2 marbles at one time. What is the probability that they are both green?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "5/12",
+            "5/33",
+            "7/12",
+            "4/11 "
+          ],
+          "answer": "B",
+          "explanation": "Probability of picking 2 green marbles = 5/12 * 4/11 = 20/132 = 5/33. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Ben has a bag of 8 marbles. There are 4 green marbles and 4 purple marbles. He drops the bag under his bed and all the marbles fall out. He retrieves all the marbles except 2. He has collected 3 green marbles so far. What is the probability that when he tries to reach for another marble under the bed, it will be purple?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/8",
+            "1/8"
+          ],
+          "answer": "A",
+          "explanation": "If he has collected 3 green marbles, and there are 2 marbles remaining, that means under the bed there is one purple and one green remaining, which gives him a 50% chance of getting green. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Quincy buys a bag of marbles with 3 orange and 7 white marbles. He puts his hand and retrieves one marble without looking. He states the chance of getting a white marble is 0.7. Is he correct?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as the white marbles are more likely to be at the top of the bag",
+            "Yes, there are 7 white marbles in a bag of 10",
+            "No, there is a 30% chance of getting a white marble",
+            "No, both marbles have an equal chance of getting picked first "
+          ],
+          "answer": "B",
+          "explanation": "As there are 7 white marbles in a bag of 10, 7/10 = 0.7 chance of getting white. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Henry has a bag of 10 marbles; 3 are black, 5 are pink and 2 are yellow. He picks out two marbles, one after the other. There is a 1/3 chance that he picks out a black and pink marble. ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, there are less yellow than black marbles",
+            "Yes, the chance of getting a black and pink marble together is 30/90",
+            "No, the probability of that is only 4/45",
+            "No, the chance of that happening is 8/10"
+          ],
+          "answer": "B",
+          "explanation": "Black and Pink marble probability = BP + PB = (3/10 * 5/9) + (5/10 * 3/9) = 30/90 = 1/3. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "John and Maddie have a bag of 6 marbles, 3 green and 3 yellow. Both take turns picking one marble. John goes first and picks a green marble, but Maddie is not looking and does not see him do it. She then states that she has a 50% chance of picking a yellow marble. Is she right?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, there are 3 green and 3 yellow marbles",
+            "Yes, John did not pick any yellow marbles",
+            "No, now that John has picked a marble there are only 2 greens",
+            "No, there is a 60% chance of her picking a yellow marble"
+          ],
+          "answer": "A",
+          "explanation": "As Maddie is unaware that John has taken a marble, to her the probability is still 50:50 as there are still 3 green and 3 yellow marbles. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "James is trying to roll a 5, three times using a 6-sided dice. His first roll is a 5. What is the probability of him getting a 5 on the next roll, and then on the roll after that?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/5",
+            "1/25",
+            "1/6",
+            "1/36"
+          ],
+          "answer": "D",
+          "explanation": "Probability of getting a 5 three times, knowing the first roll is a 5 = 1 * 1/6 * 1/6 = 1/36. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Karen is playing a game at the casino where the ball can either land on red or black. There are 10 black spots and 15 red spots, however the last 3 times this game was played the ball landed on black. Karen says she will be more likely to win if she bets on red. Is she correct?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, the ball has a 3/5 chance of landing on red",
+            "Yes, red has 2 times more spaces than black",
+            "No, the ball has landed on black the last 3 times so it could happen again",
+            "No, she has an even chance of winning on both so it doesn’t matter what she chooses"
+          ],
+          "answer": "A",
+          "explanation": "Ignoring the previous results, looking at the probability, red = 15/25 = 3/5 and black = 10/25 = 2/5, so red has a higher chance. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Madden rolls a 6-sided dice twice, and adds up the total of the two rolls. She has a 50% chance of totalling a score of 6.",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, there are not many numbers that add up to 6",
+            "Yes, the maximum both dice can show is 6 anyway",
+            "No, there is actually a 0.3 chance",
+            "No, there are only 5 ways of getting a score of 6"
+          ],
+          "answer": "D",
+          "explanation": "There are 5 ways of scoring a 6: 1+5, 5+1, 3+3, 4+2, 2+4. Thus, out of the 6*6 = 36 combinations, 5 of them score a 6, and 5/36 is not 50%. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Johnny is trying to get the highest roll on a 6-sided dice in Monopoly. He rolls 3 times. What are the chances he gets a 6 on only one of those rolls?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/36",
+            "1/216",
+            "1/6",
+            "25/216"
+          ],
+          "answer": "D",
+          "explanation": "Chances of getting a 6 on a roll is 1/6, so chances of not getting a 6 would be 5/6. In order to score only one 6, he would need to get 2 ‘not 6s’. Thus, probability = 1/6 * 5/6 * 5/6 = 25/216. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Benjamin plays a game with Kenny and Jam. Rolling once with a 6-sided dice, whoever scores the highest roll wins. Kenny goes first and rolls a 3. If Jam rolls a 4, what are Benjamin’s chance of winning?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/6 ",
+            "1/2",
+            "1/3",
+            "1/36"
+          ],
+          "answer": "C",
+          "explanation": "Benjamin needs a 5 or 6 to win, therefore 2/6 = 1/3 chance of winning. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Jenny, Johnny and Jammy play a game where the lowest 6-sided dice roll wins. Each of them roll once, with Jammy going first and rolling a 5. Jenny rolls second and scores a 3. What are the chances of Johnny not coming last?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/6",
+            "5/6",
+            "2/3 ",
+            "1/36"
+          ],
+          "answer": "C",
+          "explanation": "In order to not come last, Johnny needs to roll a 1, 2, 3 or 4 (if he rolls a 5 he will be equal last with Jammy). Thus, 4/6 = 2/3. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Linda rolls a 6-sided dice twice and her friend Henda adds up the scores both times. Linda only sees the result of the first dice roll, not the second. The first dice roll scored a 4. Linda states that she has a 1/6 chance of scoring more than 10 in total. Is she correct?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, she needs a 6 to score a total of 10",
+            "Yes, the dice only has 6 sides",
+            "No, she cannot actually score more than 10",
+            "No, she has a 5/6 chance not 1/6"
+          ],
+          "answer": "C",
+          "explanation": "In order to score more than 10, Henda would need a 7, which is not possible, so the maximum she can score is 10 (4+6). Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Beatrice and Jenny play a game of tossing dice. If they land on an even number facing up on the dice, they win 1 point. If an odd number is facing up once they roll, they don’t win anything. Beatrice has 3 turns, and Jenny has already rolled a 4, 5, and 2. Which of the following must be true?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "If Beatrice rolls an odd number on her last roll, she will win anyway",
+            "In order to win, Beatrice needs to get even numbers on each roll",
+            "Beatrice has a 4/6 chance of beating Jenny",
+            "If Beatrice rolls a 6 as her first roll, she cannot win"
+          ],
+          "answer": "B",
+          "explanation": "Jenny must have scored 2 points – therefore in order to win Beatrice needs 3 points, so 3 even numbers. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Harry tosses a fair coin three times. He tosses the coin first but does not look. The coin shows heads. Harry states that the probability of getting all 3 tosses as heads is 1 in 8. Is he right?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as each coin toss carries a probability of 0.5 for a head",
+            "Yes, there is a good chance the next two tosses will be heads",
+            "No, the first coin shows heads so he only needs two more",
+            "No, the actual probability is 0.25 "
+          ],
+          "answer": "A",
+          "explanation": "Since Harry did not look, the result of the first toss does not matter. To him, the probability of 3 heads is still 0.5*0.5*0.5 = 0.125 = 1/8. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Bob tosses two fair coins at once. He looks at the outcome of one but not the other. The one he sees shows tails. Bob says that he has a 50% chance of getting both coins showing tails. Is he incorrect?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, there is actually a ¼ chance of getting tails on both ",
+            "Yes, the second coin could have a tails showing",
+            "No, in a fair coin both sides have a 50% chance of showing",
+            "No, since the first coin is tails the second one has a ½ chance of being tails too"
+          ],
+          "answer": "D",
+          "explanation": "The probability of getting both tails = TT. Thus, normally, the probability would be 0.5*0.5 = 0.25. However, given that he knows that one of the coins is showing tails, the new probability would be 1*0.5 = 0.5. Therefore, Bob is correct (so he is NOT incorrect). Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Nazar and Riad play a game where they both toss a coin. The second person loses if they both get the same side of the coin as the first person, and they win if they get different sides. Nazar tosses first and gets a head. Has Riad’s chance of winning on his toss changed?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, it has decreased from 50%",
+            "Yes, it is now 3/4",
+            "No, it is still ¼, hasn’t changed from before",
+            "No, Nazar’s toss does not influence the probability of Riad winning"
+          ],
+          "answer": "D",
+          "explanation": "Nazar’s toss is independent of Riad’s, and since there are only 2 outcomes, both of which have a 50% chance, what Nazar got on his toss will not affect the probability of Riad winning (it is still 50% regardless). Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Toby tosses a fair coin three times. He records a tail on the first toss. What is the probability of him getting at least one head?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "0.50",
+            "0.25",
+            "0.75",
+            "0.33"
+          ],
+          "answer": "C",
+          "explanation": "If he tossed a head on the first of three tosses, he has 2 chances to get at least one head. However, we can calculate the probability of at least 1 head by subtracting the probability of getting no heads from 1: ie. Probability of at least 1 head = 1 – Probability of no heads = 1 – TT = 1 – 0.5*0.5 = 1 – 0.25 = 0.75. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Andrew tosses a fair coin and rolls a 6-sided dice. He states that the probability of him getting an even number and a head together is 0.50. Is he correct?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as he has a 50% chance of achieving a head and the same for rolling an even number ",
+            "Yes, there are only 3 even numbers on a 6-sided dice",
+            "No, the answer is actually 25%",
+            "No, he is more likely to roll an even number than toss a heads "
+          ],
+          "answer": "C",
+          "explanation": "Probability of an even number = 3/6 = 1/2. Probability of a head = 1/2. Therefore, the probability of getting both a head and an even number = 1/2*1/2 = 1/4 = 0.25. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Jonathan tosses a fair coin four times. He records a tail on the first toss and a head on the second toss. What is the probability of him getting two tails?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "0.25",
+            "0.33",
+            "0.50",
+            "0.75  "
+          ],
+          "answer": "C",
+          "explanation": "Since he already got 1 tail, he has 2 tosses to get 1 more tail. Thus, the probability of getting 1 tail from 2 more tosses = TH + HT = 0.5*0.5 + 0.5*0.5 = 0.25 + 0.25 = 0.50. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Betty has a bag of 3 white counters and 3 black counters. She draws 3 counters one after each other without replacement. She states that she has a 0.5 chance of getting all 3 white counters. Is the correct?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as each counter has a 50% chance of being black or white",
+            "Yes, there are 3/6 white counters in the bag",
+            "No, as each counter is drawn the probability of getting the next one decreases",
+            "No, the probability of getting the white counters decreases with each draw"
+          ],
+          "answer": "D",
+          "explanation": "Probability of getting 3 white counters = 3/6 * 2/5 * 1/4 = 6/120 = 1/20, not 50%. Thus, she is incorrect, as the probability of getting a white counter is not 3/6 each time – it decreases as each white counter is individually taken out. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "There is a bag of 4 green and 4 blue counters. Jane pulls 2 counters out of the bag, looks at them, and then returns them to the bag. If both the counters were green, what is the probability that the third counter she draws is blue?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/4",
+            "1/3",
+            "1/2",
+            "3/8"
+          ],
+          "answer": "C",
+          "explanation": "Since she put them back, the colour of those counters has no bearing on the probability of the next one being blue. Thus, the probability of the next one being blue = 4/8 = 1/2. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Lachlan has a bag of 10 counters, 3 blue, 3 black, 3 brown and 1 yellow. If he draws the yellow counter, he wins $10. If he draws any of the other colours, he loses $1. The game is played until the bag is emptied and none of the counters are returned. Is this game beneficial to Lachlan?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, he can win $10 but only stands to lose $1 ",
+            "Yes, he can only lose $9 maximum",
+            "No, he can lose more money than he could gain",
+            "No, he only has a 1/10 chance of winning $10"
+          ],
+          "answer": "B",
+          "explanation": "Probability of gaining $10 = 1/10. Probability of losing $1 = 9/10. Thus, if there are 10 counters he can play 10 times until the bag is emptied and none of the counters are returned. If there are 9 counters that result in him losing $1, then he stands to lose $9 maximum, but he stands to gain $10 minimum as one counter will give him $10. Thus, his net profit from drawing all the counters is $1, so he cannot lose money. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Melissa tosses a fair coin four times. She records a head on the first toss and tosses the second time without looking at the outcome. What is the probability of her getting two heads in total from the 4 tosses?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/8",
+            "3/4",
+            "3/8",
+            "1/4"
+          ],
+          "answer": "C",
+          "explanation": "If she tossed a head on the first toss, she needs to get 1 head in 3 tosses. Therefore, the probability of getting 1 head = HTT + THT + TTH = 0.5*0.5*0.5 + 0.5*0.5*0.5 + 0.5*0.5*0.5 = 0.375 = 3/8. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Jimmy and Jonno play a game of counting counters. They each have a bag of 20 counters, and for every number they roll on a 6-sided dice they have to remove that number of counters from their bag. Whoever has the most counters at the end of 2 rounds wins. If Jimmy rolls a 6 and Jonno rolls a 4, who has a better chance of winning?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Jimmy, he still has 4 counters remaining",
+            "Jimmy, he has a 2/3 chance of retaining his remaining counters",
+            "Jonno, he has more counters after this round than Jimmy",
+            "Both have an equal chance at this point"
+          ],
+          "answer": "C",
+          "explanation": "Jimmy has 14 counters remaining after his first turn whereas Jonno has 16 counters remaining. Therefore, Jonno has the better chance as he has more counters after the first round (less likely to end up with less counters at the end of Round 2). Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Gendry has a bag of 6 red, 6 purple, 6 pink and 2 silver counters. If he draws a purple counter, he wins $5. If he draws any of the other colours, he loses $1. He plays 3 rounds of the game. Should he play?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, he has the potential to win $15",
+            "Yes, he has a 65.7% chance of not losing money ",
+            "No, there is only a 0.027 chance that he wins money ",
+            "No, he only has a 3/10 of winning money in the game"
+          ],
+          "answer": "B",
+          "explanation": "Probability of winning $5 = 6/20 = 3/10. Probability of losing $1 = 14/20 = 7/10. In order to not lose any money and get a net profit, all Gendry has to do is win ONE round (if he wins $5 in one round, he can only lose $2 in the other 2 rounds). Therefore, the probability of him walking away with a net profit = 1 – 3 losses = 1 – LLL = 1 – 7/10*7/10*7/10 = 0.657. Therefore, he has a 65.7% chance of walking away with a profit. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Fred has a 1/10 chance of hitting the bullseye on a dart board on any shot. If he has 3 shots at a particular tournament, what are the chances that he gets 3 bullseyes?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "0.1",
+            "0.01",
+            "0.001",
+            "0.0001"
+          ],
+          "answer": "C",
+          "explanation": "Probability of 3 bullseyes = 1/10*1/10*1/10 = 0.001. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Ursula is an excellent darts player. She has a 3/5 chance of hitting the bullseye on a dart board on any shot. If she has 2 shots at a particular tournament, what are the chances that she gets 1 bullseye?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "0.24",
+            "0.48",
+            "0.36",
+            "0.72"
+          ],
+          "answer": "B",
+          "explanation": "Bullseye = B, No Bullseye = B’. Chances of 1 bullseye = BB’ + B’B = 3/5*2/5 + 2/5*3/5 = 0.24 + 0.24 = 0.48. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "In a dart competition, Fred and Ursula play off. Fred has a 1/5 chance of hitting the bullseye, whereas Ursula has chance of 5/10. They each have 3 tries, but Fred gets a bullseye on the first shot and Ursula misses (they have 2 remaining shots each). Who has the better chance of getting 2 bullseyes?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Fred, as he got one bullseye already",
+            "Ursula, as she has a much higher chance of hitting bullseyes",
+            "Fred, as he has less pressure to hit the bullseye now",
+            "Ursula, as she has a 0.25 chance of getting 2 bullseyes now "
+          ],
+          "answer": "A",
+          "explanation": "Bullseye = B, No Bullseye = B’. Fred only needs to get 1 bullseye from 2 shots, whereas Ursula needs to get 2 bullseyes from 2 shots. Therefore, the probability of Fred getting 1 bullseye = BB’ B’B = 1/5*4/5 + 4/5*1/5 = 0.32. The probability of Ursula getting 2 bullseyes = BB = 5/10*5/10 = 0.25. Thus, we can see that Fred has the higher probability of getting 2 bullseyes in total, because he already got one. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Three students attend lectures. The probability of Student A attending a lecture is 4/5, Student B is 60% and Student C is 0.2. A lecture is scheduled for next Monday. What is the probability all 3 students attending this?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "0.096",
+            "68%",
+            "2/10",
+            "There is not enough information to calculate this probability"
+          ],
+          "answer": "A",
+          "explanation": "Probability of all 3 attending = 0.80 * 0.60 * 0.20 = 0.096. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Bella does archery – she has a 2/5 chance of hitting the bullseye. If she hits the bullseye twice in a row, she then has a 3/5 chance of hitting it the third time. If she has 4 shots, what is the probability she has of hitting the bullseye a total of only 3 times overall?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "0.0248",
+            "0.0088",
+            "0.1728",
+            "0.1448"
+          ],
+          "answer": "C",
+          "explanation": "The probability of hitting the bullseye only 3 times in total (if B = Bullseye and N = No bullseye) = BBBN + BBNB + BNBB + NBBB = (0.4*0.4*0.6*0.4) + (0.4*0.4*0.6*0.4) + (0.4*0.6*0.4*0.4) + (0.6*0.4*0.4*0.6) = 0.0384 + 0.0384 + 0.0384 + 0.0576 = 0.1728. Therefore, the correct answer is C. Note the probability of not getting a bullseye is normally 0.6 (3/5), however the probability of not getting a bullseye after 2 consecutive bullseyes is actually 0.4 (2/5) – thus, for BBNB and BBBN, the probability of N is 0.4 not 0.6, because the 2 previous results have been bullseyes. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Kindy and Mindy do archery together. If Mindy hits the bullseye, Kindy then has a 4/5 chance of hitting it. If Mindy misses, Kindy has a 2/5 chance of hitting the bullseye. However if Kindy hits the bullseye, Mindy then only has a 1/4 chance of hitting it too on her next shot. If they each have two shots and alternate, and Mindy goes first and gets a bullseye, does Kindy have a better than 50% chance of getting at two bullseyes?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, she has a 0.8 chance of getting a bullseye after Mindy",
+            "No, Mindy is more likely to miss the second time which reduces her chance of getting a bullseye",
+            "No, she only has a 0.40 chance",
+            "There is not enough information to tell"
+          ],
+          "answer": "C",
+          "explanation": "Kindy can only get 2 bullseyes in the following 2 ways: Mindy either gets it or misses. Therefore, given that Mindy got a bullseye in the first shot, the probability of Kindy getting 2 bullseyes = (4/5 * 1/4 * 4/5) + (4/5 * 3/4 * 2/5) = 0.16 + 0.24 = 0.40 total. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "There are two hospitals, A and B. 50% of Hospital A doctors are male, whereas 60% of Hospital B doctors are male. Only 1 in 4 female doctors at Hospital A are neurosurgeons, but 6/36 of the female doctors on Hospital B are neurosurgeons. Jenine prefers to have a female neurosurgeon, which hospital should she go to?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "A, because they a greater proportion of female doctors",
+            "B, because more doctors are neurosurgeons",
+            "A, because less doctors in Hospital B are male",
+            "B, because 40% of their doctors are female"
+          ],
+          "answer": "A",
+          "explanation": "Hospital A: 50% doctors male, 25% female doctors are neurosurgeons (therefore, 0.25*50% = 12.5% of total doctors are female neurosurgeons). Hospital B: 60% doctors male, 16.66…% female doctors are neurosurgeons (therefore, 0.166…*40% = 6.66…% of total doctors are female neurosurgeons). If Jenine prefers to have a female neurosurgeon, she should go to Hospital A as they have a greater proportion of female neurosurgeons (12.5% compared to 6.66…%). Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Two hospitals, A and B, are being surveyed for their bed quality and numbers. Hospital A has 600 beds, but only 90% are in good condition. Hospital B has 500 beds, but only 20% are in bad condition. Which hospital would be better for accommodating more patients?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "A, because only 100 beds are bad",
+            "A, because it has more good condition beds",
+            "B, because 80% of its beds are in good condition",
+            "B, because a lower percentage of beds are bad"
+          ],
+          "answer": "B",
+          "explanation": "Hospital A = 600*0.90 = 540 beds in good condition. Hospital B = 500*0.80 = 400 beds in good condition. Thus, hospital A has more good beds. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Two doctors, Mark and Ken, have different procedure success rates. Mark has a 40% success rate whilst Ken has a success rate of 15 in 20. However, Mark has a higher success rate of 0.6 with older patients whilst Ken’s doesn’t change. Mary is an elderly patient, which doctor should she go to?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Mark, as he has a 60% success rate with older patients",
+            "Mark, as he has a higher success rate with older patients than Ken",
+            "Ken, as he has a 35% higher success rate than Mark",
+            "Ken, as he has a 0.75 success rate"
+          ],
+          "answer": "D",
+          "explanation": "Mark: 40% success rate, 60% elderly success rate. Ken: 75% success rate, 75% elderly success rate. Mary should go to Ken, who has a higher elderly success rate than Mark. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A new company is surveying their customers for their satisfaction with their products A and B. They surveyed 200 people – 40% said they preferred product B, compared to 0.50 of the group who said they preferred product A. Only 3 in 10 of the people said they bought product B however, compared to 0.60 of the group who said they bought product A. Which product is more popular?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "A, because only 4/5 people preferred product B",
+            "A, because more people bought product A compared to B",
+            "B, because more 10% people preferred product B to A",
+            "B, because only 60 people bought product B"
+          ],
+          "answer": "B",
+          "explanation": "Product A: 50% preferred, 60% bought. Product B: 40% preferred, 30% bought. Thus, Product A is more preferred and more bought. Therefore, the correct answer is B. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Justin and Bob are playing darts. Justin has an accuracy of 90%, whereas Bob only has an accuracy of 5 in 9. However, when asked to throw multiple times, Justin hits the same spot 6 in 10 times, whereas Bob hits the same spot 3 in 5 times. In terms of accuracy and precision, who is better?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Justin, as he has a higher accuracy of 90%",
+            "Bob, as he has a precision of 60%",
+            "Justin, as Bob only has an accuracy of 0.5",
+            "Bob, as both of them have the same precision "
+          ],
+          "answer": "A",
+          "explanation": "Justin: 90% accuracy, 60% precision. Bob = 55.55…% accuracy, 60% precision. As they have the same precision (hitting the same spot each time), Justin is better because he has a higher accuracy. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A company makes two surveys to see how customers like their product, survey A and B. Survey A surveyed 30 people, and 70% said they liked the product. Survey B surveyed 50 people, but 3 in 10 said they did not like the product. Which survey, if they had to pick, should the company choose to publish if they want their product to look more favourable?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "A, as more people liked the product in Survey A than B",
+            "A, as only 30 people said they liked the product in Survey B",
+            "B, as more people said they liked the product in Survey B than Survey A",
+            "B, as more people were surveyed in Survey B"
+          ],
+          "answer": "A",
+          "explanation": "In Survey A, 0.7*30 = 21 people liked the product. In Survey B, 0.7*50 = 35 people liked the product. Therefore, the correct answer is A, as Survey B had more people who liked the product that Survey A (even though they had the same percentage of people who liked the product). ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A pharmaceutical company tests its new drug on a sample of 400 people. Half the sample received a placebo, and of the remaining people, 40% experienced drowsiness and 2 in 10 people said they felt nothing. The company cannot market their drug if there is equal to or less than a 2/5 chance of drowsiness occurring amongst the entire sample. Based off this information, can the company market their drug?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, 4/10 people experienced drowsiness",
+            "No, 80 people in the sample experienced drowsiness, which equal to the 80-person limit",
+            "No, a lower proportion of people experienced drowsiness in the sample than the limit of 40%",
+            "Yes, the drug is safe as less than half experienced side effects"
+          ],
+          "answer": "C",
+          "explanation": "Half the sample received the drug, which is 200 people. Therefore, 0.40*200 = 80 people experienced drowsiness. However, as a percentage of the entire sample of 400, 80/400 = 0.20 = 1/5, which is less than 2/5. Therefore, they cannot market this product. Therefore, the correct answer is C. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Students in School A received an average of 50% on their final exam. Only 4 in 12 students in School B passed their exam, however the average for the exam in School B was 70%. In School A, 0.3 of the students passed the exam. If Henry wanted to send his kids to one of these schools, which should he pick?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "A, because they have a greater pass rate than School B",
+            "A, because School B has a lower number of students who passed",
+            "B, as the average exam mark was higher than that of School A",
+            "B, as both schools achieved the same pass rate "
+          ],
+          "answer": "C",
+          "explanation": "School A: 50% average, 30% passed exam. School B: 70% average, 33.33…% passed exam. Henry should send his kids to School B because it has a higher average and proportion of passing students. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "John and Sam have a box of marbles. There are 25 green, 50 yellow and 25 red. Sam wins if he draws out a yellow marble. John wins if he draws out a green marble or red marble. John complains that the game is unfair. Is he right?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, Sam has a higher chance of winning ",
+            "Yes, Sam has to pick out a yellow marble and there are by far the most yellow marbles. ",
+            "No, there is an equal chance for both John and Sam to win",
+            "No, John is not right due to there being double the yellow marbles compared to green marbles "
+          ],
+          "answer": "C",
+          "explanation": "Probability of Sam winning = 50/100 = 50%. Probability of John winning = (25 + 25)/100 = 50%. Thus, the game is fair as they have an equal chance of winning. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "There is a 3/5 chance that Sam wins a tennis match when playing against Bob. However when he plays against Jack, he only has a 2/5 chance of winning. Sam plays Bob and Jack. What is the probability of Sam winning at least one of his matches? ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "6/25 ",
+            "9/25 ",
+            "19/25",
+            "18/25 "
+          ],
+          "answer": "C",
+          "explanation": "Probability of Sam winning at least one match = 1 – probability of Sam losing both matches = 1 – (2/5*3/5) = 1 – 6/25 = 19/25. Therefore, the correct answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "2 new antibiotics, X and Y are trialled for a particular bacterial infection. 150 out of 3000 who take Antibiotic X are cured whilst 100 out of 1600 who take Antibiotic Y are cured. Considering only the cure rate, is Antibiotic X better than Y?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, Antibiotic X cured 50 more people",
+            "Yes, Antibiotic X has proven to be reliable in a large sample",
+            "No, Antibiotic Y cures fewer people",
+            "No Antibiotic Y cured a higher proportion than Antibiotic X"
+          ],
+          "answer": "D",
+          "explanation": "Antibiotic X = 150/3000 = 5% cure rate. Antibiotic Y = 100/1600 = 6.25% cure rate. Thus, Antibiotic Y is better as it has a higher cure rate. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "There are 20 cards taken out of a deck of playing cards, 10 of which are red and 10 of which are black. What is the probability of drawing 1 black and 1 red card one after the other?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "5/19",
+            "10/19",
+            "19/400",
+            "19/200"
+          ],
+          "answer": "B",
+          "explanation": "Probability of BR + RB = 10/20*10/19 + 10/20*10/19 = 100/380 + 100/380 = 200/380 = 20/38 = 10/19. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "There is about a 12 in 200 chance of cure for the Condition C from Medicine A and a 18 in 400 chance of cure for Condition C from Medicine B. If both medicines are used together the chance of cure is 14 in 300. Which medicine or medicines should patients suffering from Condition C take for best chance of cure?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Medicine A",
+            "Medicine B",
+            "Medicine A and B",
+            "Either Medicine A or B as they have the same chance of cure"
+          ],
+          "answer": "A",
+          "explanation": "Medicine A: 12/200 = 6% cure chance. Medicine B: 18/400 = 4.5% cure chance. Together: 14/300 = 4.66…% cure chance. Therefore, Medicine A has the highest cure chance. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Robert plays a particular game that gives him a 5/9 chance of losing. Another game has a 4/7 chance of losing. He plays 1 of each game. What is the probability he wins both games?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "9/16",
+            "20/63",
+            "14/33",
+            "4/21"
+          ],
+          "answer": "D",
+          "explanation": "Probability of winning both games = 4/9 * 3/7 = 12/63 = 4/21. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "There are 40 counters in a jar. There are 20 blue counters and 20 black counters. 16 black counters are added. What is the probability of drawing a blue counter from the jar after this event?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/4",
+            "16/40",
+            "1/2",
+            "5/14"
+          ],
+          "answer": "D",
+          "explanation": "The probability of drawing a blue counter = 20/56 = 10/28 = 5/14. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A couple has 4 sons. Will the probability that their next child will be a male be greater than 1/2?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, as their previous children have an effect on the gender of their next child",
+            "Yes, it will be greater than 1/2 as the odds are in favour of a male",
+            "No, the probability is 1/2 as the events are independent",
+            "No, the probability is less than 1/2 as the probability of a male or female is 1/2 so to balance this probability, the probability will be much lower than 1/2."
+          ],
+          "answer": "C",
+          "explanation": "The probability of the child’s gender is independent of previous outcomes. Therefore, the correct answer is C, as the probability is still 1/2.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Samantha has 4 different shirts, 3 different pants and 2 different hats. What is the total number of combination of outfits that she can wear?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "12",
+            "24",
+            "36",
+            "48"
+          ],
+          "answer": "B",
+          "explanation": "Total combination = 4*3*2 = 24 combinations. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "In the first round of a sporting carnival 48 teams sign up. Only 24 progress to the playoffs. If 8 teams withdraw from the tournament, what is the probability that any one team makes it to the playoffs?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "3/5",
+            "1/2",
+            "3/10",
+            "4/5"
+          ],
+          "answer": "A",
+          "explanation": "If 8 teams withdraw, there are 40 left. Therefore, 24/40 = 12/20 = 6/10 = 3/5 chance of any one team making it to playoffs. Therefore, the correct answer is A.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A trial is being conducted to measure the performance of 2 laptop computers. Laptop A has a charge time of 24 hours while Laptop B has a charge time of 48 hours. Laptop A’s charge fails 4 in 100 times while Laptop B’s charge succeeds 40 in 45 times. Considering both these factors, does Laptop A have better performance than Laptop B?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, Laptop A has faster charge time",
+            "Yes, Laptop A has faster charge time and lower probability of the charge failing",
+            "No, Laptop B is more reliable than Laptop A in terms of the charge failing",
+            "No, Laptop B only has a greater charge time."
+          ],
+          "answer": "B",
+          "explanation": "Laptop A: 24 hours charge time, 96% charge success. Laptop B: 48 hours charge time, 88.88…% charge success rate. Thus, Laptop A has a better performance as it has a shorter charge time and greater charge success. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The probability of tossing a head is 3/4 on a biased coin. If a coin is tossed 3 times, what is the probability of tossing 3 tails?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "27/64",
+            "37/64",
+            "16/64",
+            "1/64"
+          ],
+          "answer": "D",
+          "explanation": "Probability of tails = 1/4. Thus, probability of tossing 3 tails = 1/4*1/4*1/4 = 1/64. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "There are 2 types of rods used in construction: Type A and B. Type A has a 40 in 200 chance of being stable while Type B has a 30 in 300 chance of being stable. A Type A Rod also has a 45 in 50 chance of not crumbling. A Type B Rod has a 10 in 40 chance of crumbling.<br/>Is Type B the better rod?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes as Type B rods have a higher chance of not crumbling.",
+            "Yes, Type B rods are more stable and have a lower chance of crumbling",
+            "No, Type A rods are more stable and have a lower chance of crumbling",
+            "No, Type A rods are more stable but have a higher chance of crumbling"
+          ],
+          "answer": "C",
+          "explanation": "Type A has a 40/200 chance = 1/5 of being stable, whereas Type B = 1/10. Type A has a 4/5 chance of not crumbling, whereas Type B has a ¾ chance of not crumbling. Therefore, C is the correct answer.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "If there were 16 tennis players in an elimination tournament. What is the probability of a player winning the tournament given that the probability of winning each match is a 1/2?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "1/8",
+            "1/16",
+            "1/32",
+            "1/2"
+          ],
+          "answer": "B",
+          "explanation": "16 tennis players requires 4 rounds to deduce a winner (16  8  4  2  1). As the chance of winning is ½ every time, then ½ x ½ x ½ x ½ is the chance of winning the tournament = 1/16. Therefore, B is correct.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Sally is comparing online sales prices on a new pair of jeans. Site A is selling the jeans for $45, with a 15% discount. Site B is selling them for $60, with a 30% discount. Sally should buy them from Site B. ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, because 15% off $45 is more expensive than 30% off $60",
+            "Yes, because 30% off $60 is less expensive than 15% off $45",
+            "No, because 15% off $45 is more expensive than 30% off $60",
+            "No, because 30% off $60 is more expensive than 15% off $45"
+          ],
+          "answer": "D",
+          "explanation": "Site A: 0.85 x 45 = $38.25. Site B: 0.7 x 60 = $$42. Therefore, Site A is cheaper and D is the correct explanation. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Peter is playing a throwing game at the local fair. He has a 1/5 chance of hitting the stack of bottles and winning $10. If he misses, he gets nothing. It costs $1 to play. Peter wants to play three rounds.<br/>Should Peter play? ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, he has an 1/15 chance of winning $30",
+            "No, he has 0.8% chance of winning $30",
+            "No, he has a 98% chance of losing $3",
+            "Yes, has a low chance of losing $3"
+          ],
+          "answer": "B",
+          "explanation": "To win $30, Peter must win three times. The probability of winning three times in a row is 1/5 x 1/5 x 1/5 = 1/125 = 0.008 = 0.8%. The chances of losing $3 = 4/5 x 4/5 x 4/5 = 0.512 = 51.2%. Thus C is incorrect. Therefore, B is the current answer.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Rebecca is dying her hair blond.<br/>When she uses dye from Company A, she has a 3/8 chance of getting the colour she wants. When she uses dye from Company B, she the probability that the colour is not what she wanted is 0.6. Which company should Rebecca buy from? ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Company A, because it will be the colour she wanted 30% of the time. ",
+            "Company A, because 3/8 chance of success is better than 0.6 odds of failure. ",
+            "Company B, because has a 40% chance of getting the colour she wanted",
+            "Company B, because the colour will be right 6/10 times"
+          ],
+          "answer": "C",
+          "explanation": "Company A = 3/8 chance what she wants, Company B = 2/5 chance what she wants. Over the same denominator, Company A = 15/40, Company B = 16/40. Therefore, Rebecca has a higher chance with Company B. Thus, C is correct.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Darcy is playing soccer with his friends at lunch. He has a 1/5 chance of scoring a goal each time he shoots. If Darcy takes 3 shots, what are the odds that gets 0 goals?",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "0.992",
+            "0.512",
+            "1/125",
+            "3/25"
+          ],
+          "answer": "B",
+          "explanation": "The chance of 0 goals = 4/5*4/5*4/5 = 0.512. Therefore, the correct answer is B.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Ashleigh plays tennis competitively. Her first serve goes in 25% of the time, and she wins 70% of these points. Her second serve goes in 80% of the time, but she only wins 20% of these points. Ashleigh needs to win the next point. Should she hit a first serve? ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, she would have a 0.2 chance of winning",
+            "Yes, she would have a 0.175 chance of winning",
+            "No, it is too likely that she will miss ",
+            "No, she would have a 0.7 chance of losing the point. "
+          ],
+          "answer": "B",
+          "explanation": "Chance of winning with a first serve is 0.25 x 0.7 = 0.175. Chance of winning with a second serve is 0.8 x 0.2 = 0.16. Therefore, Ashleigh should chose to hit a first serve, as she has a greater chance of winning at 0.175 chance. Therefore, the answer B is correct.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Dwight’s fabric company can buy machines from Company A or Company B. Maintenance of both company’s machines costs $50. Company A’s machine costs $200, but the probability that it will require maintenance is 0.82. Company B’s machine costs $180 and will not require maintenance 18% of the time. Which company should Dwight buy the machine from? ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Company A, because it is $20 cheaper",
+            "Company A, because it has a higher chance of needing maintenance",
+            "Company B, because it is $20 cheaper",
+            "Company B, because it’s maintenance would cost less. "
+          ],
+          "answer": "C",
+          "explanation": "The probability of maintenance for both Company A and Company B is 82% (1 – 0.18 = 0.82). However, Company A costs more than Company B, therefore Company B is the better choice. Hence, answer option C is correct.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Carey has a bag of marbles. There are 7 green marbles, 5 blue marbles and the rest are black. Carey pulls 2 marbles, one after the other, out of the bag. There is a 50% chance that the first marble is black. How many black marbles are in the bag? ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "10",
+            "5",
+            "24",
+            "12"
+          ],
+          "answer": "D",
+          "explanation": "If there is a 50% chance that the marble is green or blue, then the total number of marbles must be 24 (as 12/24 = 50%). Thus, there must be 12 black marbles, to give a probability of 50%. Therefore, the correct answer is D.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A coach has to choose between Geoff and Matt to be selected for their basketball team. Matt makes 74% of shots that he takes and shoots an average of 5 times per game. Geoff misses 0.26 of shots he takes and shoots an average of 6 times per game. Who should the coach choose? ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Matt, because is he the more accurate player. ",
+            "Matt, because he has a 22% chance of making all 5 shots",
+            "Geoff, because he has a higher shooting accuracy. ",
+            "Geoff, because he is likely to score more points for the team than Matt"
+          ],
+          "answer": "D",
+          "explanation": "Matt and Geoff miss the same number of shots (1 – 0.74 = 0.26, and 26% = 0.26), however, Geoff shoots a greater average than Matt. Hence, D is the correct answer.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Two libraries, A and B, are being audited for their customer satisfaction. Customer satisfaction is measured by likelihood to return, and self-reported satisfaction. Overall satisfaction is measured by multiplying the likelihood of a customer returning by their self-reported % satisfaction.<br/>Library A’s customers return 60% of the time, and self-report satisfaction 2/10 times.<br/>Library B’s customers return 20% of the time, and self-report dissatisfaction 40% of the time.<br/>Based on these two factors, which library has the more satisfied customers overall? ",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Library A, because customers are more likely to return ",
+            "Library B, because they have an overall satisfaction rate of 12%",
+            "Overall, customers are equally satisfied at both Library A and Library B",
+            "Neither library has satisfied customers. "
+          ],
+          "answer": "C",
+          "explanation": "Library A has an overall satisfaction rate of 0.60*0.20 = 0.12, so 12%. Library B has an overall satisfaction rate of 0.20*0.60 = 0.12, so 12%. Note that the figure of 40% given for library B is 'dissatisfaction', not satisfaction, so we need to use 60% as our self-report satisfaction instead. Therefore the answer is C.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Mary and John are rolling a six-sided, fair dice.<br/>If the number is greater than 4, John will win.<br/>If the number is less than or equal to 3, Mary will win.<br/>John is less likely than Mary to win.",
+      "category_id": 8,
+      "questions": [
+        {
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, because John only has a 1/3 chance of winning, whereas Mary has a 1/2",
+            "Yes, because Mary only has a 1/3 chance of winning, whereas John has a 1/2 ",
+            "No, because Mary will lose 65% of the time",
+            "No, because bigger numbers are more likely to be rolled. "
+          ],
+          "answer": "A",
+          "explanation": "John can win if he rolls a 5 or 6. Mary can win if the number is 1, 2 or 3. Thus, John has a 2/6 chance of winning whereas Mary has a 3/6 chance of winning, which is higher than John. Therefore, John is less likely to win as he only has a 1/3 chance of winning, whereas Mary has 1/2. Therefore, the correct answer is A. ",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

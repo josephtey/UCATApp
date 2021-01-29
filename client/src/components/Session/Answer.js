@@ -325,7 +325,7 @@ const QuestionStem = styled.div`
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding-right: 30px;
   padding-top: 30px;
 `

@@ -1,0 +1,618 @@
+{
+  "exam": {
+    "name": "QR Section Mock 9",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 24
+  },
+  "sections": [
+    {
+      "name": "Quantitative Reasoning",
+      "time": 24,
+      "stems": [
+        {
+          "text": "A study was conducted in the UK investigating the favourite superhero of children from the ages of 1-5 for a particular TV show. The TV show features 4 different superheroes and children were asked who their favourite was. The results are shown in the bar graph below:",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 9/1.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Which is the most favourite superhero amongst children between the ages of 1-4?",
+              "type": "Multiple Choice",
+              "options": [
+                "Mighty Man",
+                "Speedy Sally",
+                "Tornado Terry",
+                "Valiant Vanessa"
+               ],
+              "answer": "A",
+              "explanation": "By observation, we can see that Mighty Man is the highest overall (but if you calculate it, Mighty Man = 48, and the closest competitor, Speedy Sally = 41). Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+            {
+              "text": "What is the average number of children from each age group who picked Tornado Terry or Valiant Vanessa as their favourite superhero?",
+              "type": "Multiple Choice",
+              "options": [
+                "11.8",
+                "9.6",
+                "12.2",
+                "6.2"
+               ],
+              "answer": "C",
+              "explanation": "Tornado Terry + Valiant Vanessa across all age groups = 61. Thus, the average across all 5 age groups = 61/5 = 12.2. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+            {
+              "text": "What was the difference between the average number of 1-3 year olds who chose Mighty Man as their favourite as compared to the average number of 4-5 year olds who chose Speedy Sally as their favourite?",
+              "type": "Multiple Choice",
+              "options": [
+                "-4.17",
+                "+4.17",
+                "+6.33",
+                "-6.33"
+               ],
+              "answer": "B",
+              "explanation": "Average no. of 1-3 year olds who chose Mighty Man = 35/3 = 11.66… . Average no. of 4-5 year olds who chose Speed Sally = 15/2 = 7.5. Thus, there is a 11.66… - 7.5 = 4.166… child difference, favouring Mighty Man. Therefore, the closest correct answer is B.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+            {
+              "text": "How many children were surveyed in total?",
+              "type": "Multiple Choice",
+              "options": [
+                "120",
+                "130",
+                "140",
+                "150"
+               ],
+              "answer": "D",
+              "explanation": "Mighty Man = 48, Speedy Sally = 41, Tornado Terry = 30, Valiant Vanessa = 31. Thus, 48 + 41 + 30 + 31 = 150 children total. ",
+              "difficulty": 1,
+              "category_id": 21
+          }
+          ]
+        },
+
+        {
+          "text": "The sales made in July and August by a phone company are shown below. The bar graph details the number of sales made in each of these months across each of the 4 weeks of the month.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 9/2.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What were the average sales per week during July?",
+              "type": "Multiple Choice",
+              "options": [
+                "700",
+                "725",
+                "750",
+                "775"
+               ],
+              "answer": "B",
+              "explanation": "Average July weekly sales = (500 + 800 + 700 + 900)/4 = 725 sales. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+            {
+              "text": "What is the difference in average sales per week during August as compared to July?",
+              "type": "Multiple Choice",
+              "options": [
+                "+50",
+                "-50",
+                "+25",
+                "-25"
+               ],
+              "answer": "A",
+              "explanation": "Average July weekly sales = (500 + 800 + 700 + 900)/4 = 725 sales. Average August weekly sales = (800 + 900 + 600 + 800)/4 = 775 sales. Thus, the difference is 50 sales, in favour of August. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+            {
+              "text": "What were the average sales across July and August per week?",
+              "type": "Multiple Choice",
+              "options": [
+                "700",
+                "725",
+                "750",
+                "775"
+               ],
+              "answer": "C",
+              "explanation": "Average July weekly sales = (500 + 800 + 700 + 900)/4 = 725 sales. Average August weekly sales = (800 + 900 + 600 + 800)/4 = 775 sales. Thus, the average weekly sales for both = (725 + 775)/2 = 750 sales. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+            {
+              "text": "If the actual number of sales for Week 4 in August was actually 840, how much do the average sales during August increase by?",
+              "type": "Multiple Choice",
+              "options": [
+                "5",
+                "10",
+                "20",
+                "30"
+               ],
+              "answer": "B",
+              "explanation": "We can calculate the increase in Week 4 for August to be 840 – 800 = 40 sales. Thus, if we divide 40 by 4 weeks, we can figure out by how much the original average increases by: 40/4 = 10 sales. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 11
+          }  
+          ]
+        },
+          
+        {
+          "text": "Jack is conducting a raffle at his local charity event. He has made a list of prize items he purchased earlier and the price he purchased them for:",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 9/3.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "How much did Jack spend on the prizes?",
+              "type": "Multiple Choice",
+              "options": [
+                "$347",
+                "$441",
+                "$447",
+                "$365"
+               ],
+              "answer": "C",
+              "explanation": "174 + 37 + 55 + 81 + 100 = $447. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+          {
+              "text": "If Jack meets the sales target, how much profit will he make?",
+              "type": "Multiple Choice",
+              "options": [
+                "$340.50",
+                "$3.00",
+                "$34.50",
+                "$300.00"
+               ],
+              "answer": "A",
+              "explanation": "Sales target of 450 tickets means he wants to earn 450*1.75 = $787.50 in total. If the total cost of all the prizes is 174 + 37 + 55 + 81 + 100 = $447, then the profit = 787.50 – 447 = $340.50. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 21
+          },
+
+          {
+              "text": "The following week, all bats are on sale for 35% off. How much more profit could Jack have made if he had bought the prizes the next week?",
+              "type": "Multiple Choice",
+              "options": [
+                "$93.10",
+                "$95.90",
+                "$122.75",
+                "$436.40"
+               ],
+              "answer": "B",
+              "explanation": "This means that the baseball AND cricket bat are reduced by 35% (so they are 65% of their original value next week). Thus, the new prices of the cricket bat and baseball bat respectively would be 174*0.65 = $113.10 and 100*0.65 = $65. Therefore, the new total cost of all the prizes = 113.10  + 37 + 55 + 81 + 65 = $351.10. Given the total money gained from the tickets = 450*1.75 = $787.50, the new profit would = 787.50 – 351.10 = $436.40. Since the original profit was $340.50 (Q2, but can be calculated again), we can deduce that he would earn 436.40 – 340.50 = $95.90 more. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+                "text": "How many raffle tickets must Jack sell to make a profit of $500?",
+              "type": "Multiple Choice",
+              "options": [
+                "540",
+                "541",
+                "542",
+                "543"
+               ],
+              "answer": "C",
+              "explanation": "If his costs are 174 + 37 + 55 + 81 + 100 = $447, and he wants a $500 profit, he needs to raise $947. Thus, he would need 947/1.75 = 541.14… = 542 tickets to be sold (not 541, because he still needs 0.14 tickets to be sold, and since you can’t have 0.14 tickets we have to round up to a full extra ticket). Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ]
+        },
+  
+        {
+          "text": "Jerry owns 5 horses: Jack of Spades, Farlap, White Peach, Peppermint and Glory. His friend John has a horse, Comet, with an average speed of 5.2 miles per hour. They decide to go racing at a racecourse near their house which extends a length of 17 km through scenic woodland. Note: 1 mile = 1.6km ",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "Jerry rides Farlap for the full length of the racecourse in 85 minutes. What is its average speed in miles per hour?",
+              "type": "Multiple Choice",
+              "options": [
+                "7.4 ",
+                "7.5",
+                "12",
+                "12.1"
+               ],
+              "answer": "B",
+              "explanation": "If the course is 17km = 17/1.6 = 10.625 miles, using the s = d/t formula, we can find that s = 10.625/1.4166… = 7.5 miles/hr (85 minutes is 1.41666…hrs). Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+            {
+              "text": "How long does it take Comet to complete 3 lengths of the racecourse?",
+              "type": "Multiple Choice",
+              "options": [
+                "367.8 minutes",
+                "285.5 minutes",
+                "588.5 minutes",
+                "122.6 minutes"
+               ],
+              "answer": "A",
+              "explanation": "The course is 17km = 17/1.6 = 10.625 miles. If Comet travels at 5.2mph, then using t = d/s, we know that t = 10.625/5.2 = 2.043269…hrs = 122.59… minutes per lap. Given he is doing 3 laps, it will take him 367.788… minutes, which rounds to 367.8 minutes. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+            {
+              "text": "Jack of Spades has an average speed 1.4 mph faster than Comet, and Glory completes a length 24 minutes faster than Jack of spades. What is Glory’s speed in miles per hour?",
+              "type": "Multiple Choice",
+              "options": [
+                "8.8 mph",
+                "7.8 mph",
+                "8.7 mph",
+                "7.9 mph"
+               ],
+              "answer": "A",
+              "explanation": "The course is 17km = 17/1.6 = 10.625 miles. We can tell that Jack of Spades’ average speed = 1.4 + 5.2 = 6.6mph. This means he would complete the racecourse in t = d/s = 10.625/6.6 = 1.6098…hrs = 96.59… minutes. If Glory completed the course in 24 minutes less, that means she completed it in 72.5909… minutes = 1.2098…hrs. Thus, Glory’s average speed would be been s = d/t = 10.625/1.2098… = 8.782…mph = 8.8mph. Therefore, the closest correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+            {
+              "text": "If Peppermint gives Comet a 32-minute head start, they both finish 2 lengths of the racecourse at the same time. What is Peppermint’s average speed in kilometres/hour?",
+              "type": "Multiple Choice",
+              "options": [
+                "9.7",
+                "9.6",
+                "6.0",
+                "5.9"
+               ],
+              "answer": "B",
+              "explanation": "The course is 17km = 17/1.6 = 10.625 miles. If Comet travels at 5.2mph, then using t = d/s, we know that t = 10.625/5.2 = 2.043269…hrs = 122.59… minutes per lap. Given Comet completed 2 lengths, he would have taken 245.192… minutes in total. If Peppermint takes 32 minutes less to complete the same distance at the same finishing time as Comet, then we can deduce that Peppermint took 245.192… - 32 = 213.1923... minutes = 3.55…hrs in total. Thus, we can calculate that Peppermint’s speed = d/t = (10.625*2)/3.55… = 5.98… mph. In kilometres/hour, this would be 5.98…*1.6 = 9.5688… = 9.6km/h. Therefore, the closest correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ]  
+        },        
+  
+        {
+          "text": "Each year, the American government keeps a record of the racial composition of the country. Below is a chart showing which racial backgrounds made up the country’s population in 2017.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 9/4.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "Which was the most represented race in the USA in 2017?",
+              "type": "Multiple Choice",
+              "options": [
+                "African American",
+                "White",
+                "Asian/Pacific",
+                "Hispanic"
+               ],
+              "answer": "D",
+              "explanation": "Hispanic has the largest proportion of the population in the chart (45.4%) and on observing the chart as well. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+            {
+              "text": "If there were 30.2 million African American people in the USA in 2016, assuming the population proportions remained the same from 2016-2017, how many were American Indian?",
+              "type": "Multiple Choice",
+              "options": [
+                "1.30 million",
+                "130 million",
+                "13.0 million",
+                "0.13 million"
+               ],
+              "answer": "A",
+              "explanation": "Total USA population in 2016 = 30.2 million/0.093 = 324.73… million. Thus, the population of American Indians = 0.004*324.73… = 1.2989… million = 1.3 million. Therefore, the correct closest answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+            {
+              "text": "What was the total Hispanic population in the USA in 2018?",
+              "type": "Multiple Choice",
+              "options": [
+                "146.4 million",
+                "147.6 million",
+                "145.1 million ",
+                "125.0 million"
+               ],
+              "answer": "A",
+              "explanation": "In 2017, the Hispanic population would have = 0.454*325.1 million = 147.5954 million. If the population decreased by 0.8% from 2017-18, then the 2018 Hispanic population would be 147.5954*0.992 = 146.414637 million = 146.4 million. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+            {
+              "text": "What was the total Asian/Pacific population in 2018?",
+              "type": "Multiple Choice",
+              "options": [
+                "29.0 million",
+                "28.9 million",
+                "29.1 million",
+                "28.8 million"
+               ],
+              "answer": "A",
+              "explanation": "If the USA’s population increased from 325.1 million in 2017 to 2018 by 0.1%, then the population in 2018 would have been 325.4251 million. Thus, the Asian/Pacific population in 2018 would be 325.4251*0.089 = 28.96… million = 29.0 million rounded. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ]  
+        }, 
+
+        {
+          "text": "The line graph below shows the expenditure of the UK government per pupil in average daily attendance for 6 school years starting in 1977. Both the expenditure in unadjusted dollars and constant dollars is shown.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 9/5.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What is the total expenditure of the UK government per student for the 6 school years combined in constant 2004-05 dollars?",
+              "type": "Multiple Choice",
+              "options": [
+                "$47,400",
+                "$33,700",
+                "$44,700",
+                "$37, 300"
+               ],
+              "answer": "A",
+              "explanation": "6.1 + 6.2 + 7.7 + 8.4 + 9.1 + 9.9 = 47.4 thousand = 47,400 dollars. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+            {
+              "text": "By what percentage is the total expenditure per student in constant 2004-05 dollars greater than the total expenditure per student in unadjusted dollars for the 20th century?",
+              "type": "Multiple Choice",
+              "options": [
+                "36.8%",
+                "58.2%",
+                "40.7%",
+                "38.9%"
+               ],
+              "answer": "B",
+              "explanation": "20th century = 1977 to 1998 in this graph (ie. not 2002/03). Therefore, the total expenditure per student in unadjusted dollars = 2 + 3.2 + 4.6 + 6.2 + 7.7 = 23.7 thousand dollars. The total expenditure per student in adjusted 2004/05 dollars = 6.1 + 6.2 + 7.7 + 8.4 + 9.1 = 37.5 thousand dollars. Thus, the percentage difference is (37.5 – 23.7)/23.7 * 100 = 58.2%. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+            {
+              "text": "The total expenditure per student for 2006-07 is projected to increase by 420% from 1987-88. What is the predicted expenditure per student for 2006-07 in unadjusted dollars?",
+              "type": "Multiple Choice",
+              "options": [
+                "$14,720",
+                "$32,340",
+                "$19,320",
+                "$24,640"
+               ],
+              "answer": "C",
+              "explanation": "Predicted expenditure per student = 4.6 * 4.20 = 19.32 thousand dollars in 2006/07.  Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+            {
+              "text": "If there were 32,000 students in 1982-83 which increased by 11.7% by 1987-88, what was the total expenditure in constant 2004-05 dollars in 1987-88?",
+              "type": "Multiple Choice",
+              "options": [
+                "275,228,800",
+                "2,752,288,000",
+                "2,752,288",
+                "275,228.80"
+               ],
+              "answer": "A",
+              "explanation": "Students in 1987-88 = 1.117*32,000 = 35,744. Thus, the total expenditure = 35,744*7.7 = 275,228.80 thousand dollars = $275,228,800. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]
+        },
+  
+        {
+          "text": "A chemist working in a lab uses a tank to create solutions. The tank has the following dimensions: Length 50cm, Width: 0.3m, Height: 20cm <br/> Note: 1L = 1dm^3 where 1 dm = 10cm",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What is the volume of the tank?",
+              "type": "Multiple Choice",
+              "options": [
+                "24 L",
+                "30 L",
+                "120 L",
+                "240 L"
+               ],
+              "answer": "B",
+              "explanation": "Volume = 50*30*20 = 30,000cm^3. In dm^3, this would be 30dm^3 = 30L. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+            {
+              "text": "The chemist makes a 10,000cm^3  hydrochloric acid solution with a concentration of 12g/L. What is the weight of the solution in grams?",
+              "type": "Multiple Choice",
+              "options": [
+                "100",
+                "110",
+                "120",
+                "130"
+               ],
+              "answer": "C",
+              "explanation": "10,000cm^3 = 10dm^3 = 10L. Thus, 12*10 = 120g. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+            {
+              "text": "The chemist fills the tank up to a height of 15.3cm. He lets it freeze overnight. The volume of liquid water in the tank decreases to 15.5L. By what percentage has the water level dropped?",
+              "type": "Multiple Choice",
+              "options": [
+                "32.7% ",
+                "32.5%",
+                "31.8%",
+                "33.7%"
+               ],
+              "answer": "B",
+              "explanation": "Originally, the volume of water would be 15.3*30*50 = 22,950cm^3 = 22.95dm^3 = 22.95L. If the volume of liquid water drops to 15.5L, the percentage decrease in water volume = (22.95 – 15.5)/22.95 * 100 = 32.46… = 32.5%. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+            {
+              "text": "In the tank, the chemist pours 4800 cubic cm of pure water with an oxygen concentration of 91%.  He also adds 3 goldfish. What is the average quantity of oxygen per fish?",
+              "type": "Multiple Choice",
+              "options": [
+                "1.46 L",
+                "14.6 L",
+                "0.146 L",
+                "146 L"
+               ],
+              "answer": "A",
+              "explanation": "The volume of oxygen in the tank would be 0.91*4800 = 4,368cm^3 = 4.368dm^3 = 4.368L. Thus, there would be 4.368/3 = 1.456L of oxygen per fish. Therefore, the closest correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          }
+          ]  
+        },
+
+        {
+          "text": "The table below shows the ratio of water to fruit juice for 5 different drinks.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 9/6.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "If all the drinks are only made from water and fruit juice, which drink contains the largest amount of fruit juice?",
+              "type": "Multiple Choice",
+              "options": [
+                "Apple Cider",
+                "Orange Juice",
+                "Pink Peach",
+                "Red Mocktail"
+               ],
+              "answer": "B",
+              "explanation": "Starting with Apple Cider, we can calculate the amount of fruit juice to be (2/5)*185 = 74mL. Thus, we can eliminate Red Mocktail and Pink Peach, which have total amounts of water + fruit juice of 40mL and 70mL, both less than 74mL. Looking at the only remaining option, Orange Juice, the amount of fruit juice = (3/4)*230 = 172.5mL. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+            {
+              "text": "Which drink contains the largest volume of water?",
+              "type": "Multiple Choice",
+              "options": [
+                "Apple Cider ",
+                "Red Mocktail",
+                "Apple Juice",
+                "Pink Peach"
+               ],
+              "answer": "C",
+              "explanation": "Volume of water in Apple Cider = (3/5)*185 = 111mL. Thus, we can eliminate Red Mocktail and Pink Peach, which have total amounts of water + fruit juice of 40mL and 70mL, both less than 111mL. Volume of water in Apple Juice = (4/5.5)*155 = 112.72…mL, which is greater than 111mL. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+            {
+              "text": "What is the total ratio of fruit juice to water for all the apple drinks combined?",
+              "type": "Multiple Choice",
+              "options": [
+                "1.92:1",
+                "1:2.2",
+                "1:1.92",
+                "2.2:1"
+               ],
+              "answer": "C",
+              "explanation": "The distribution of water:fruit juice for Apple Cider = 111:74. The distribution of water:fruit juice for Apple Juice = 112.72… :42.27… . Adding them together, we get 223.72… : 116.27 … = 1: 1.924… = 1: 1.92. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+            {
+              "text": "How much more water is present in the juice drinks compared to the mocktail",
+              "type": "Multiple Choice",
+              "options": [
+                "159 mL",
+                "158 mL",
+                "160 mL",
+                "161 mL"
+               ],
+              "answer": "A",
+              "explanation": "Water in Apple Juice = (4/5.5)*155 = 112.72…mL. Water in Orange Juice = (1/4)*230 = 57.5mL. Together, that makes 170.272…mL in the juice drinks. Water in Mocktail = (2/7)*40 = 11.42…mL. Thus, the difference is 170.272… - 11.42… = 158.84… = 159mL. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ]
+        },
+  
+
+        {
+          "text": "James wishes to re-lawn a circular patch in his garden. The circular patch has a diameter of 8 metres. Note that the radius is half the diameter. There are 2 landscapers whom he can choose from and the material costs and labour costs are given below for each landscaper:",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 9/7.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What is the area of the circular strip in James’ garden in square metres?",
+              "type": "Multiple Choice",
+              "options": [
+                "100.53",
+                "50.27",
+                "50.26",
+                "100.54"
+               ],
+              "answer": "B",
+              "explanation": "If the diameter is 8m, the radius will be 4m. Thus the area of circle = 3.141875*4*4 = 50.27 sq metres. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+            {
+              "text": "If James uses Jim’s Landscapers to re-lawn his garden, how much will it cost in total?",
+              "type": "Multiple Choice",
+              "options": [
+                "$201.06",
+                "$100.53",
+                "$301.62",
+                "$402.12"
+               ],
+              "answer": "C",
+              "explanation": "If the diameter is 8m, the radius will be 4m. Thus the area of circle garden = 3.141875*4*4 = 50.27 sq metres. Total costs for Jim’s Landscapers would be $6 per square metre, which means James will have to pay 50.27*6 = $301.62. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+            {
+              "text": "James has a budget of $350. By what percentage will Mowing Madness’ differ from his budget?",
+              "type": "Multiple Choice",
+              "options": [
+                "-14.9%",
+                "+14.9%",
+                "-14.8%",
+                "+14.8%"
+               ],
+              "answer": "B",
+              "explanation": "If the diameter is 8m, the radius will be 4m. Thus the area of circle garden = 3.141875*4*4 = 50.27 sq metres. Total costs for Mowing Madness would be $8 per square metre, which means James will have to pay 50.27*8 = $402.16. This would be 402.16 – 350 = $52.16 more than his budget. Thus, as a percentage, it would be (52.16/350)*100 = 14.9% more than his budget. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+            {
+              "text": "If James decides to place a circular fountain of radius 1.78m in the middle of the circular patch in the garden, what area (in sq. metres) of the patch he wishes to re-lawn will be covered in lawn?",
+              "type": "Multiple Choice",
+              "options": [
+                "40.32",
+                "44.68",
+                "41.76",
+                "47.65"
+               ],
+              "answer": "A",
+              "explanation": "If the diameter of the whole garden is 8m, the radius will be 4m. Thus the area of outer circle garden = 3.141875*4*4 = 50.27 sq metres. The circular fountain area = 3.141875*1.78*1.78 = 9.95471675… square metres. Therefore, the actual area of lawn he has in the garden to re-lawn would be 50.27 – 9.95471675… = 40.315… = 40.32 square metres. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 12
+          }
+          ]   
+        }
+        
+      ]
+    }
+  ]
+}

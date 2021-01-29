@@ -1,0 +1,630 @@
+{
+  "exam": {
+    "name": "Verbal Reasoning 1",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 21
+  },
+  "sections": [
+    {
+      "name": "Verbal Reasoning",
+      "time": 21,
+      "stems": [
+        {
+          "text": "The Ebola virus causes an acute, serious illness which is often fatal if untreated. EVD first appeared in 1976 in 2 simultaneous outbreaks, one in what is now Nzara, South Sudan, and the other in Yambuku, DRC. The latter occurred in a village near the Ebola River, from which the disease takes its name. The 2014–2016 outbreak in West Africa was the largest Ebola outbreak since the virus was first discovered in 1976. The outbreak started in Guinea and then moved across land borders to Sierra Leone and Liberia. The current 2018-2019 outbreak in eastern DRC is highly complex, with insecurity adversely affecting public health response activities.<br/>The virus family Filoviridae includes three genera: Cuevavirus, Marburgvirus, and Ebolavirus. Within the genus Ebolavirus, six species have been identified: Zaire, Bundibugyo, Sudan, Taï Forest, Reston and Bombali. The virus causing the current outbreak in DRC and the 2014–2016 West African outbreak belongs to the Zaire ebolavirus species.<br/>It is thought that fruit bats of the Pteropodidae family are natural Ebola virus hosts. Ebola is introduced into the human population through close contact with the blood, secretions, organs or other bodily fluids of infected animals such as fruit bats, chimpanzees, gorillas, monkeys, forest antelope or porcupines found ill or dead or in the rainforest. Ebola then spreads through human-to-human transmission via direct contact (through broken skin or mucous membranes) with blood or body fluids of a person who is sick with or has died from Ebola or objects that have been contaminated with body fluids (like blood, feces, vomit) from a person sick with Ebola or the body of a person who died from Ebola. Health-care workers have frequently been infected while treating patients with suspected or confirmed EVD. This occurs through close contact with patients when infection control precautions are not strictly practiced. Burial ceremonies that involve direct contact with the body of the deceased can also contribute in the transmission of Ebola. People remain infectious as long as their blood contains the virus.<br/>Source: https://www.who.int/",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "The high risk level in eastern DRC is inhibiting the amount of public health assistance that can be provided to combat the Ebola outbreak there.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "The 1st paragraph states that “The current 2018-19 outbreak in eastern DRC is highly complex, with insecurity adversely affecting public health response activities”. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "The only species of the Ebolavirus present in West-Africa is Zaire.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "While the 2nd paragraph states that the “2014-16 West African outbreak belongs to the Zaire ebolavirus species”, we do not know if that is the only species of Ebola present in West Africa. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "Ebola was introduced in West-Africa through fruit bats coming into contact with humans.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although the 3rd paragraph states that “Ebola is introduced to the human population through close contact with the blood, secretions, organs or other bodily fluids of infected animals such as fruit bats”, there are other animals and simply coming into contact with fruit bats would not be enough to transfer Ebola (has to be bodily fluids etc). Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "If infection control precaution were strictly followed, healthcare workers would never be infected while treating patients.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although this seems reasonable, there is no evidence in the text to say that healthcare workers would NEVER have been infected that way – therefore, the answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Increasing production of more and more processed food, rapid urbanization, and changing lifestyles are transforming dietary patterns. Highly processed foods are increasing in availability and becoming more affordable. People around the world are consuming more energy-dense foods that are high in saturated fats, trans fats, sugars, and salt. Salt is the primary source of sodium and increased consumption of sodium is associated with hypertension and increased risk of heart disease and stroke. At the same time, as their eating patterns shift, people are consuming less fruit vegetables and dietary fibre (such as whole grains), that are key components of a healthy diet. Fruits and vegetables contain potassium, which contributes to reduced blood pressure.<br/>Salt in the diet can come from processed foods, either because they are particularly high in salt (such as ready meals, processed meats like bacon, ham and salami, cheese, salty snack foods, and instant noodles, among others) or because they are consumed frequently in large amounts (such as bread and processed cereal products). Salt is also added to food during cooking (bouillon and stock cubes) or at the table (soy sauce, fish sauce and table salt).<br/>However, some manufacturers are reformulating recipes to reduce the salt content of their products and consumers should read food labels and choose products low in sodium.<br/>The World Health Organisation, recommends that adults consume less than 5 g (just under a teaspoon) of salt per day. For children, WHO recommends that the recommended maximum intake of salt for adults be adjusted downward for children aged two to 15 years based on their energy requirements relative to those of adults. This recommendation for children does not address the period of exclusive breastfeeding (0–6 months) or the period of complementary feeding with continued breastfeeding (6–24 months).<br/>Source: https://www.who.int/",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "Processed foods are do not have negative health ramifications when consumed.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "We know from the 1st paragraph that increased consumption of sodium from the primary source of salt is associated with hypertension and increased risk of heart disease and stroke. In the 2nd paragraph we know that salt in the diet can come from processed foods – therefore we can infer that processed foods can have negative health ramifications. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "In order to reduce blood pressure, one could increase their intake of potassium through fruit and vegetables.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "In the 1st paragraph, it states that “fruits and vegetables contain potassium, which contributes to reduced blood pressure”. Thus we can infer that eating more fruits and vegetables can reduce blood pressure. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "Salt in the human diet only comes from highly-processed foods.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "In the 2nd paragraph we see that “salt is also added to food during cooking” and therefore highly-processed foods are not the only source of salt in the human diet (and even then we only know that salt comes from processed foods, not necessarily highly-processed foods). Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "If an adult consumes more than a teaspoon of salt per day, they will suffer from heart disease.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Because this statement is very definitive, we cannot say whether this will always be true based on the information in the text. There is nothing to suggest heart disease will be a consequence of consuming more than the recommended amount of salt intake. Therefore, the answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Work-related health problems result in an economic loss of 4–6% of GDP for most countries. About 70% of workers do not have any insurance to compensate them in case of occupational diseases and injuries. Universal health coverage combines access to services needed to achieve good health (health promotion, prevention, treatment and rehabilitation, including those that address health determinants) with the financial protection that prevents ill health leading to poverty.There are effective interventions to prevent occupational diseases. For example encapsulation of pollution sources, ventilation, noise control, substitution of dangerous chemicals, improvement of furniture and the organization of work.<br/>The task of specialized occupational health services is to assess these risks and develop recommendations for prevention of occupational and work-related diseases. Workers at risk need regular medical check-ups to detect any health problem at an early stage, when treatment and modification of the workplace can help avoid permanent damage.<br/>Currently, specialized occupational health services are available only for 15% of workers across the world, primarily in big companies that offer health insurance and employment injury benefits. With the ongoing global job crisis, more and more people seek labour in the informal sector without any insurance cover and no occupational health services. Many such workers often also work in hazardous conditions and suffer work-related diseases, injuries and disabilities. In many communities, when the breadwinner falls sick the entire family suffers as there is no social protection.<br/>Primary care centres can deliver some basic occupational services for workers in the informal sector and in small enterprises in the community. Most often they carry out workplace visits with recommendations for improvement, and conduct preliminary and periodic medical examinations, diagnosis and reporting of occupational and work-related diseases. Primary care centres could also train and work with health volunteers and workplace safety representatives to implement simple measures for the prevention of occupational diseases and provide advice on safer working methods. The costs of these services varies between US$ 18 and US$ 60 per worker. <br/>Source: https://www.who.int/",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "If work-related issues were all resolved, most countries would increase their GDP by 4-6%.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although “work-related health problems result in an economic loss of 4-6% of GDP for most countries”, we cannot guarantee based on this information that resolving these issues would increase the GDP of most countries by 4-6% (other issues created by resolving this may also reduce the GDP etc). Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "There is a risk of permanent damage to workers if their do not attend regular medical check-ups to detect early stage health issues.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "The 2nd paragraph only states that “treatment and modification of the workplace can help avoid permanent damage”, however regular medical check-ups are not linked to reducing or preventing permanent damage. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "In many communities, the a family’s breadwinner is their main source of social protection.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "In the 3rd paragraph it states that “in many communities, when the breadwinner falls sick the entire family suffers as there is no social protection” – therefore we can infer that the breadwinner provides the main source of social protection for the family given that their absence removes this social protection. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "Rarely are workplace visits carried out by primary care centre workers.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "The 4th paragraph states that “Primary care centres… most often… carry out workplace visits with recommendations for improvement…” – therefore we can infer that primary care centre workers carry out workplace visits more than anything else. Therefore, the answer is B. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Despite its taxonomic classification as a carnivoran, the giant panda's diet is primarily herbivorous, consisting almost exclusively of bamboo. However, the giant panda still has the digestive system of a carnivore, as well as carnivore-specific genes, and thus derives little energy and little protein from consumption of bamboo. Its ability to digest cellulose is ascribed to the microbes in its gut. Pandas are born with sterile intestines and require bacteria obtained from their mother's feces to digest vegetation. The giant panda is a highly specialised animal with unique adaptations, and has lived in bamboo forests for millions of years.<br/>The average giant panda eats as much as 9 to 14 kg (20 to 30 lb) of bamboo shoots a day to compensate for the limited energy content of its diet. Ingestion of such a large quantity of material is possible and necessary because of the rapid passage of large amounts of indigestible plant material through the short, straight digestive tract. It is also noted, however, that such rapid passage of digesta limits the potential of microbial digestion in the gastrointestinal tract, limiting alternative forms of digestion. Given this voluminous diet, the giant panda defecates up to 40 times a day. The limited energy input imposed on it by its diet has affected the panda's behaviour. The giant panda tends to limit its social interactions and avoids steeply sloping terrain to limit its energy expenditures.<br/>Two of the panda's most distinctive features, its large size and round face, are adaptations to its bamboo diet. Anthropologist Russell Ciochon observed: '[much] like the vegetarian gorilla, the low body surface area to body volume [of the giant panda] is indicative of a lower metabolic rate. This lower metabolic rate and a more sedentary lifestyle allows the giant panda to subsist on nutrient poor resources such as bamboo. 'Similarly, the giant panda's round face is the result of powerful jaw muscles, which attach from the top of the head to the jaw. Large molars crush and grind fibrous plant material.<br/>Source: https://en.wikipedia.org/wiki/Giant_panda",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "Giant pandas need to eat much more bamboo than meat in order to obtain a similar amount of protein from each.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although the panda “derives little energy and little protein from consumption of bamboo”, we have no comparison or information for meat. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "If a Giant Panda adapted its diet to eat more meat and less bamboo, it would be more social.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although the “giant panda tends to limit its social interactions… to limits its energy expenditures”, we do not know that eating meat instead of bamboo would definitely change it – it might, but we have no information as to what kind of energy meat has (maybe it’s lower than bamboo). Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "The low body surface area to body volume ratio of a vegetarian gorilla generally demonstrates a lower metabolic rate.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "Given that the 4th paragraph states that “like the vegetarian gorilla, the low body surface area to body volume” of the giant panda “is indicative of a lower metabolic rate”, we can infer that this same principle applies to the vegetarian gorilla. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "The Giant Panda’s powerful jaw muscles are adaptations to its bamboo diet.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "The 4th paragraph states that “the giant panda’s round face is the result of powerful jaw muscles”, and we know that the panda’s round face is an adaption to its bamboo diet (as per the first line of the 4th paragraph). Thus we can infer the powerful jaw muscles must be an adaptation to his bamboo diet. Therefore, the answer is A. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Adult tigers lead largely solitary lives. They establish and maintain territories but have much wider home ranges within which they roam. Resident adults of either sex generally confine their movements to their home ranges, within which they satisfy their needs and those of their growing cubs. Individuals sharing the same area are aware of each other's movements and activities. The size of the home range mainly depends on prey abundance, geographic area and sex of the individual. In India, home ranges appear to be 50 to 1,000 km2 (19 to 386 sq mi) while in Manchuria, they range from 200 to 4,000 km2 (190 to 1,540 sq mi). In Nepal, defended territories are recorded to be 19 to 151 km2 (7.3 to 58.3 sq mi) for males and 10 to 51 km2 (3.9 to 19.7 sq mi) for females. <br/>Young female tigers establish their first territories close to their mother's. The overlap between the female and her mother's territory reduces with time. Males, however, migrate further than their female counterparts and set out at a younger age to mark out their own area. A young male acquires territory either by seeking out an area devoid of other male tigers, or by living as a transient in another male's territory until he is older and strong enough to challenge the resident male. Young males seeking to establish themselves thereby comprise the highest mortality rate (30–35% per year) amongst adult tigers. <br/>To identify his territory, the male can mark trees by spraying urine and anal gland secretions, as well as marking trails with scat and marking trees or the ground with their claws. Females also use these 'scrapes', as well as urine and scat markings. Scent markings of this type allow an individual to pick up information on another's identity, sex and reproductive status. Females in oestrus will signal their availability by scent marking more frequently and increasing their vocalisations. <br/>Although for the most part avoiding each other, tigers are not always territorial and relationships between individuals can be complex. An adult of either sex will sometimes share its kill with others, even those who may not be related to them. George Schaller observed a male share a kill with two females and four cubs. Unlike male lions, male tigers allow females and cubs to feed on the kill before the male is finished with it; all involved generally seem to behave amicably, in contrast to the competitive behaviour shown by a lion pride<br/>Source: https://en.wikipedia.org/wiki/Tiger",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "In Manchuria, tiger home ranges can be up to 4 times larger than those in India.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "In the 1st paragraph we see that home ranges appear to be 50-1,000 square kilometres in India, compared to 200-4,000 square kilometres in Manchuria. Therefore we can determine that the home ranges in Manchuria can be up to 4 times larger than those in India. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "A young male tiger living in another male’s territory will be killed if he is weaker than the male who owns the territory.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although we see in the 2nd paragraph that young males may challenge another male whose territory it resides in, we do not know if that young male will be certainly killed if he is weaker than the reigning male tiger (eg. he may just be driven off). Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "In order to identify their territory, a male tiger must urinate on trees around their territory.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "We know from the 3rd paragraph that male tigers can spray gland secretions to mark territory as well as spraying urine, so therefore spraying urine is not the only way to mark territory. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "Male lions will not allow females to feed on the kill before they finish their share.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "In the 4th paragraph, the passage states that “unlike male lions, male tigers allow females and cubs to feed on the kill before the male is finished with it” – we can therefore infer that male lions will not allow females and cubs to feed on the kill before the male is finished with it. Therefore, the answer is A.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The European Union (EU) is a political and economic union of 28 member states that are located primarily in Europe. Its members have a combined area of 4,475,757 km2 (1,728,099 sq mi) and an estimated total population of about 513 million. The EU has developed an internal single market through a standardised system of laws that apply in all member states in those matters, and only those matters, where members have agreed to act as one. EU policies aim to ensure the free movement of people, goods, services and capital within the internal market, enact legislation in justice and home affairs and maintain common policies on trade, agriculture, fisheries and regional development. For travel within the Schengen Area, passport controls have been abolished. A monetary union was established in 1999 and came into full force in 2002 and is composed of 19 EU member states which use the euro currency.<br/>The EU and European citizenship were established when the Maastricht Treaty came into force in 1993. The EU traces its origins to the European Coal and Steel Community (ECSC) and the European Economic Community (EEC), established, respectively, by the 1951 Treaty of Paris and 1957 Treaty of Rome. The original members of what came to be known as the European Communities were the Inner Six: Belgium, France, Italy, Luxembourg, the Netherlands, and West Germany. The Communities and their successors have grown in size by the accession of new member states and in power by the addition of policy areas to their remit. The latest major amendment to the constitutional basis of the EU, the Treaty of Lisbon, came into force in 2009. No member state has left the EU or its antecedent organisations (Greenland, an autonomous territory within Denmark, left the Communities in 1985). The United Kingdom signified its intention to leave after a membership referendum in June 2016 and is negotiating its withdrawal. The United Kingdom and its dependent territories left the European Union on 31 January 2020.<br/>Containing 7.3% of the world population, the EU in 2017 generated a nominal gross domestic product (GDP) of 19.670 trillion US dollars, constituting approximately 24.6% of global nominal GDP.  Additionally, all 28 EU countries have a very high Human Development Index, according to the United Nations Development Programme. In 2012, the EU was awarded the Nobel Peace Prize.<br/>Source: https://en.wikipedia.org/wiki/European_Union",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "Europe has an area of less than 4,475,757 km2.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "We do not know if all of Europe is a part of the European Union, so therefore we cannot determine if the area made up by the countries in the European Union is equal to the area of Europe. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "The EU was created between 1951 and 1957.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "We see in the first line of the 2nd paragraph that “the EU and European citizenship were established when the Maastricht Treaty came into force in 1993”. So, we can see that the EU was created in 1993, not between 1951-57. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "The United Kingdom is the first member entity of the EU to leave the organisation and its antecedent organisations.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "We know in the 2nd paragraph that Greenland, an “autonomous territory within Denmark, left the Communities in 1985”. We can identify that the Communities is an antecedent organisation based on the preceding sentence “No member state has left the EU or its antecedent organisations” and the previous information in the paragraph. Although Greenland is not a country, it is a ‘member entity’ – therefore, the answer is B, as it left before the UK.",
+              "difficulty": 1
+            },
+            {
+              "text": "Around 7.3% of the world’s population contributes approximately 24.6% of the global nominal GDP.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "We do not know if everyone in that 7.3% of the population (people in the EU) contributes financially to the GDP (for example some of those people could be children or the retired and elderly etc). Therefore, the answer is C. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "In many real-world examples, it can be difficult to say with complete certainty that certain events happened or happen because of a sociopsychological effect such as diffusion of responsibility. The reason being that in these events, there are many other contributing factors. Many of these events have also been traumatizing for the individuals who have recounted them. In situations which have known to increase anxiety, events have been found to be interpreted more dangerously or inaccurately than they appear. While accurate representation of events may be questionable, there have been extensive analyses on the following events regarding diffusion of responsibility and applications of its concept.<br/>The diffusion of responsibility for alleged war crimes during World War II was famously used as a legal defense by many of the Nazis being tried at Nuremberg. A similar defense was mounted by the defendants accused in the My Lai massacre. Because of the displacement of responsibility, they did not feel the personal responsibility to help or at least not harm victims, but they felt like they were just following orders, and they did not feel responsible or guilty for their own actions. They blamed those telling them to carry out the orders rather than blaming themselves for the atrocities they had committed. The diffusion of responsibility is a probable cause for many of their feelings and actions, but other possible contributing factors include the existing antisemitism of Germany at that time and the threats imposed by Nazi officials.<br/>Diffusion of responsibility can be seen in the workplace through the response to mass email when compared to many, individualized emails. When mass emails are sent out, people feel a lack of accountability due to the fact that the emails have not been addressed to them personally. This is a clear example of diffusion of responsibility. Studies have shown that email responses are more helpful and lengthier when personally addressed because of a greater sense of responsibility than compared to a mass email. <br/>Source: https://en.wikipedia.org/wiki/Diffusion_of_responsibility",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "Diffusion of responsibility is best defined as:",
+              "type": "Multiple Choice",
+              "options": [
+                "The process of sharing the blame among a large group of people equally.",
+                "The tendency to forget traumatic events due to the haunting dangers and guilt felt by those who experienced the violence.",
+                "The cognitive process of shifting the responsibility for one’s actions to someone else.",
+                "The tendency to not reply to group emails due to lack of individuality and personalisation."
+              ],
+              "answer": "C",
+              "explanation": "Examples in the 2nd paragraph reveal how “they blamed those telling them to carry out the orders rather than blaming themselves for the atrocities they had committed”. From these examples the definition can be inferred. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "The extent of diffusion of responsibility can be difficult to determine because:",
+              "type": "Multiple Choice",
+              "options": [
+                "It is inherently subjective and there is no quantifiable way to measure it. ",
+                "There are many other contributing factors in complex or traumatic situations.",
+                "In traumatising incidents, individuals may recount events as having less danger.",
+                "Because it is a phenomena that has only recently been studied by scientists and psychologists."
+              ],
+              "answer": "B",
+              "explanation": "The 1st paragraph states that “it can be difficult to say with complete certainty that certain events happened or happen because of a sociopsychological effect such as diffusion of responsibility. The reason being that in these events, there are many other contributing factors”. Therefore, the answer can be inferred to be B.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, which of the following methods would be most effective in reducing the diffusion of responsibility:",
+              "type": "Multiple Choice",
+              "options": [
+                "Giving the soldiers the option to not follow orders, thereby placing the responsibility on their shoulders when they do follow orders.",
+                "Sending out mass emails to address a large groups of people.",
+                "Reducing the threats and punishments given to disobedient soldiers and changing destructive cultural beliefs.",
+                "Addressing emails personally when sending an important memo."
+              ],
+              "answer": "D",
+              "explanation": "The final sentence of the passage states that “studies have shown that email responses are more helpful and lengthier when personally addressed because of a greater sense of responsibility than compared to a mass email”. Therefore, the answer is D.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, diffusion of responsibility has occurred in wartime events. The defence of diffusion of responsibility works on the basis that:",
+              "type": "Multiple Choice",
+              "options": [
+                "Those involved in massacres were simply following orders",
+                "Although some felt guilt in their actions, they had no choice but to listen to their commanding officers.",
+                "The threats imposed by Nazi officials meant that those carrying out executions had no choice.",
+                "Soldier who felt guilt or responsible for their actions were punished severely, so it was best not to feel any responsibility or shame."
+              ],
+              "answer": "A",
+              "explanation": "The 2nd paragraph states that “a similar defence [of diffusion of responsibility] was mounted by the defendants accused of the My Lai massacre… because of the displacement of responsibility… they felt like they were just following orders”. Therefore, the answer is A. The other 3 options are not based on information in the text. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A vaccine is a biological preparation that provides active acquired immunity to a particular disease. A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins. The agent stimulates the body's immune system to recognize the agent as a threat, destroy it, and to further recognize and destroy any of the microorganisms associated with that agent that it may encounter in the future. Vaccines can be prophylactic (to prevent or ameliorate the effects of a future infection by a natural or 'wild' pathogen), or therapeutic (e.g., vaccines against cancer, which are being investigated). <br/>The administration of vaccines is called vaccination. Vaccination is the most effective method of preventing infectious diseases; widespread immunity due to vaccination is largely responsible for the worldwide eradication of smallpox and the restriction of diseases such as polio, measles, and tetanus from much of the world. The effectiveness of vaccination has been widely studied and verified; for example, vaccines that have proven effective include the influenza vaccine, the HPV vaccine, and the chicken pox vaccine. The World Health Organization (WHO) reports that licensed vaccines are currently available for twenty-five different preventable infections. <br/>Vaccination given during childhood is generally safe. Adverse effects, if any, are generally mild. The rate of side effects depends on the vaccine in question. Some common side effects include fever, pain around the injection site, and muscle aches. Additionally, some individuals may be allergic to ingredients in the vaccine. MMR vaccine is rarely associated with febrile seizures<br/>Source: https://en.wikipedia.org/wiki/Vaccine#Adverse_effects",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "Given the information in the passage, which of the following regarding vaccines is correct:",
+              "type": "Multiple Choice",
+              "options": [
+                "Vaccines given during childhood are more safe than vaccines given to adults.",
+                "Ideally, individuals should have all 25 vaccines to ensure they will not get a preventable disease.",
+                "Therapeutic vaccines are currently being investigated and may be used in the future.",
+                "The effectiveness of vaccines diminished over time; hence, booster shots are necessary for certain diseases. "
+              ],
+              "answer": "C",
+              "explanation": "The final sentence of the 1st paragraph states that “vaccines against cancer… are currently being investigated”, and these vaccines are examples of “therapeutic” vaccines. Of the 4 options, this is the only one that is based on information in the text explicitly – therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, vaccines have been effective in:",
+              "type": "Multiple Choice",
+              "options": [
+                "Acting as therapeutic agents by treating cancer and other auto-immune diseases.",
+                "Creating herd immunity for twenty-five different preventable infections.",
+                "Contributing to the eradication of small-pox and restriction of tetanus from much of the world.",
+                "Activating the body’s immune system to recognise all harmful pathogens and destroy any dangerous micro-organisms."
+              ],
+              "answer": "C",
+              "explanation": "The 2nd paragraph states that “widespread vaccination is largely responsible for the worldwide eradication of smallpox and the restriction of diseases such as polio, measles, and tetanus”. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, side effects can occur when:",
+              "type": "Multiple Choice",
+              "options": [
+                "The person is being vaccinated for the first time.",
+                "The person receiving the MMR vaccine starts having febrile seizures.",
+                "The person being vaccinated is sick with another illness",
+                "The individual being vaccinated is allergic to the ingredients"
+              ],
+              "answer": "D",
+              "explanation": "The final paragraph states that “some individuals may be allergic to ingredients in the vaccine”, in the context of discussing “common side effects” and reasons for them. Therefore, the answer can be inferred to be D.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, vaccines are effective because:",
+              "type": "Multiple Choice",
+              "options": [
+                "There are no negative side effects, so the vaccine can only bring positive effects.",
+                "They provide the cure for most diseases and illnesses.",
+                "They contain particles of the pathogen so the body can build natural immunity against that pathogen.",
+                "They allow herd immunity to develop, protecting the elderly and the newborns against potentially fatal diseases and illnesses."
+              ],
+              "answer": "C",
+              "explanation": "The 1st paragraph states that “a vaccine… is often made from weakened or killed forms of the microbe” and the “agent stimulates the body’s immune system to recognise the agent as a threat and destroy it”, as well as “further recognise and destroy… [them]” if it “may encounter [them] in the future”. Therefore, the answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Elizabeth II (Elizabeth Alexandra Mary Windsor; born 21 April 1926) is Queen of the United Kingdom and the other Commonwealth realms. She was born in London as the first child of the Duke and Duchess of York, and she was educated privately at home.<br/>During her grandfather's reign, Elizabeth was third in the line of succession to the British throne, behind her uncle Edward and her father. Although her birth generated public interest she was not expected to become queen, as Edward was still young, and likely to marry and have children of his own, who would precede Elizabeth in the line of succession. When her grandfather died in 1936 and her uncle succeeded as Edward VIII, she became second in line to the throne, after her father. Later that year, Edward abdicated, after his proposed marriage to divorced socialite Wallis Simpson provoked a constitutional crisis. Consequently, Elizabeth's father became king, and she became heir presumptive. If her parents had had a later son, he would have been heir apparent and above her in the line of succession, which was determined by male-preference primogeniture.<br/>During 1951, George VI's health declined, and Elizabeth frequently stood in for him at public events. When she toured Canada as a part of her tour of the Queen’s Commonwealth realms, her private secretary, Martin Charteris, carried a draft accession declaration. In early 1952, Elizabeth and Philip set out for another similar tour of Australia and New Zealand by way of Kenya on the way there. On 6 February 1952, they had just returned to their Kenyan home, Sagana Lodge, after a night spent at Treetops Hotel, when word arrived of the death of the King and consequently Elizabeth's unexpected yet immediate accession to the throne. Philip broke the news to the new queen. Martin Charteris asked her to choose a regnal name; she chose to remain Elizabeth. She was proclaimed queen throughout her realms and the royal party immediately returned to the United Kingdom. She and the Duke of Edinburgh moved into Buckingham Palace.<br/>Source: https://en.wikipedia.org/wiki/Elizabeth_II#Accession_and_coronation",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "Elizabeth II would not have become Queen if all of the following might have occurred except",
+              "type": "Multiple Choice",
+              "options": [
+                "She had a little brother",
+                "Her uncle chose not to give up the throne",
+                "Edward VIII had a son",
+                "Her father had died when she was younger"
+              ],
+              "answer": "D",
+              "explanation": "Elizabeth was “second in line to the throne” (2nd paragraph) when her father took the throne so she would have technically ascended to the throne regardless (if Edward still abdicated). Of the 4 options however, on a technical basis option D is the most correct, therefore the answer is D (if her uncle chose not to give up the throne, and if he had a son, or if Elizabeth had a male sibling, she would not have been next in line to the throne as she was).",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following is most likely to have been the reasoning for the drafting of an accession declaration when Elizabeth was on tour in Canada?",
+              "type": "Multiple Choice",
+              "options": [
+                "It was inevitable that Georgie VI was going to die soon",
+                "Elizabeth was prepared to take the throne at any time",
+                "It was a possibility that Elizabeth might have to become Queen while on tour",
+                "This was standard practise when any heir was on tour"
+              ],
+              "answer": "C",
+              "explanation": "We can infer that as “George IV’s health declined” and “Martin Charteris carried a draft accession declaration” when they went on the trip, the reason they carried that was because she might need to become Queen while they were away. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following is most likely to be false?",
+              "type": "Multiple Choice",
+              "options": [
+                "Kenya and Canada are part of the Queen’s Commonwealth realms",
+                "Philip’s title is the Duke of Edinburgh",
+                "Elizabeth had no male sibling",
+                "Elizabeth was prepared to take the crown"
+              ],
+              "answer": "D",
+              "explanation": "In the final paragraph it states that Elizabeth’s accession to the throne was “unexpected yet immediate” – we can infer that she may not have been prepared to take the crown. However whilst this is a bit of a stretch as an inference on its own, in comparison to the other 3 options it is the closest to false. Therefore, the answer is D.",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following must be true?",
+              "type": "Multiple Choice",
+              "options": [
+                "There has been a previous queen by the name of Elizabeth",
+                "The Queen did not visit Australia or New Zealand in their 1952 trip",
+                "The heir presumptive is the always next in line to the throne",
+                "Elizabeth did not follow royal conventions in choosing her regal name "
+              ],
+              "answer": "B",
+              "explanation": "Given that she went on tour to Australia and New Zealand “by way of Kenya on the way there” and left for the UK while she was in Kenya, it can be inferred that she did not end up visiting Australia and New Zealand on that tour. Therefore, the answer is B. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The Ivy League is an American collegiate athletic conference comprising sports teams from eight private universities in the Northeastern United States. The term Ivy League is typically used to refer to those eight schools as a group of elite colleges beyond the sports context. The eight members are Brown University, Columbia University, Cornell University, Dartmouth College, Harvard University, the University of Pennsylvania, Princeton University, and Yale University. Ivy League has connotations of academic excellence, selectivity in admissions, and social elitism.<br/>While the term was in use as early as 1933, it became official only after the formation of the NCAA Division I athletic conference in 1954. Seven of the eight schools were founded during the colonial period (Cornell was founded in 1865), and thus account for seven of the nine Colonial Colleges chartered before the American Revolution. The other two colonial colleges, Rutgers University and the College of William & Mary, became public institutions instead.<br/>Ivy League schools are generally viewed as some of the most prestigious, and are ranked among the best universities worldwide by U.S. News & World Report. All eight universities place in the top seventeen of the 2020 U.S. News & World Report national university rankings, including four Ivies in the top three (Columbia and Yale are tied for 3rd). In the 2019 U.S. News & World Report global university rankings, three Ivies rank in the top ten (Harvard 1st, Columbia 7th, and Princeton 8th) and six in the top twenty-three. Undergraduate-focused Ivies such as Brown University and Dartmouth College rank 99th and 197th, respectively. U.S. News has named a member of the Ivy League as the best national university in each of the past 18 years ending with the 2018 rankings: Princeton eleven times, Harvard twice, and the two schools tied for first five times.<br/>Undergraduate enrolments range from about 4,000 to 14,000, making them larger than those of a typical private liberal arts college and smaller than a typical public state university. Total enrolments, including graduate students, range from approximately 6,400 at Dartmouth to over 20,000 at Columbia, Cornell, Harvard, and Penn. Ivy League financial endowments range from Brown's $3.5 billion to Harvard's $34.5 billion, the largest financial endowment of any academic institution in the world. <br/>Source: https://en.wikipedia.org/wiki/Ivy_League",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "As part of the Ivy League, the following statements about Harvard University must be true except:",
+              "type": "Multiple Choice",
+              "options": [
+                "Harvard has over 20,000 total students and has the largest financial endowment of any university in the world.",
+                "Harvard had to have placed 1st or 2nd in the 2020 U.S News and World Report national university rankings.",
+                "Harvard has $31 billion more than Brown University",
+                "Harvard has been no. 1 of the U.S News rankings 7 times."
+              ],
+              "answer": "B",
+              "explanation": "Although we do not know whether Harvard placed 1st/2nd in the 2020 U.S News and World Report national university rankings, by process of elimination we can work out that the other 3 options must be true, so therefore option B has to be the answer. Furthermore all we know is that an Ivy League school placed 1st and 2nd in the rankings, but we do not know for sure whether that is Harvard or not. Therefore, the answer is B. ",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following statements in comparing Ivy League institutions is most likely to be true:",
+              "type": "Multiple Choice",
+              "options": [
+                "Brown University is better than Harvard University at sport",
+                "Dartmouth has one of the smallest number of enrolments",
+                "Princeton University was better than Columbia in 2019",
+                "Penn is a shortened version of Princeton University"
+              ],
+              "answer": "B",
+              "explanation": "In the final paragraph it states that “total enrolments… range from approximately 6,400 at Dartmouth to over 20,000 at Columbia, Cornell, Harvard and Penn”. We can infer that Dartmouth has the least number of graduate students of the Ivy League universities from this comparison. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "As part of the Ivy League, the following statements about Cornell University are all true except:",
+              "type": "Multiple Choice",
+              "options": [
+                "Cornell University is located on the North-eastern part of the United States",
+                "Cornell has more than 20,000 total enrolments.",
+                "Cornell has more than $3.5 billion in endowments.",
+                "Cornell University was ranked 7th in the world in the 2019 U.S News and World Report global university rankings."
+              ],
+              "answer": "D",
+              "explanation": "In the 3rd paragraph it states that “in the 2019 US News and World Report global university rankings, three Ivies rank in the top ten (Harvard 1st, Columbia 7th…” – therefore the answer is D, as Cornell could not have been 7th then.",
+              "difficulty": 1
+            },
+            {
+              "text": "The passage explains the common factors in Ivy League institutions, the factors given below are all relevant and accurate except: ",
+              "type": "Multiple Choice",
+              "options": [
+                "All Ivy League institutions play sport",
+                "All the Ivy League schools were founded in the colonial period, except Cornell University.",
+                "Ivy League institutions have connotations of academic excellence, selectivity in admissions, and social elitism.",
+                "All the Ivy League institutions placed in the top 17 of the US 2019 National University ranking"
+              ],
+              "answer": "D",
+              "explanation": "In the 3rd paragraph it states that “three Ivies rank in the top ten” and “six in the top twenty-three” – given that there are 8 Ivy League universities, it is impossible for all 8 to have been in the top 17 of the 2019 rankings. Therefore, the answer is D. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The life cycle of a bee, be it a solitary or social species, involves the laying of an egg, the development through several moults of a legless larva, a pupation stage during which the insect undergoes complete metamorphosis, followed by the emergence of a winged adult. Most solitary bees and bumble bees in temperate climates spend winter as adults or pupae and emerge in spring when increasing numbers of flowering plants come into bloom. The males usually emerge first and search for females with which to mate. The sex of a bee is determined by whether or not the egg is fertilised; after mating, a female stores the sperm, and determines which sex is required at the time each individual egg is laid, fertilised eggs producing female offspring and unfertilised eggs, males.  Solitary bees may have several generations in a year.<br/>The egg is generally oblong, slightly curved and tapering at one end for all bees. Solitary bees, lay each egg in a separate cell with a supply of mixed pollen and nectar next to it. This is usually done by the elder bees who have survived through the previous winter. This may be rolled into a pellet or placed in a pile and is known as mass provisioning. Social bee species provision progressively, that is, they feed the larva regularly while it grows. The nest varies from a hole in the ground or in wood, in solitary bees, to a substantial structure with wax combs in social bees. <br/>In most species, larvae are whitish grubs, roughly oval and bluntly-pointed at both ends. They have 15 segments and spiracles in each segment mainly for breathing. They have no legs but move within the cell, helped by tubercles on their sides. They have short horns on the head, jaws for chewing food and an appendage on either side of the mouth tipped with a bristle. There is a gland under the mouth that secretes a viscous liquid which solidifies into the silk they use to produce a cocoon, with the silk being a hard structure to break if the coating is thick. The cocoon is semi-transparent and the pupa can be seen through it. Over the course of a few days, the larva undergoes metamorphosis into a winged adult. When ready to emerge, the adult splits its skin dorsally and climbs out of the exuviae and breaks out of the cell. <br/>Source: https://en.wikipedia.org/wiki/Bee#Biology",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "According to the passage, all of the statements below are correct regarding bee reproduction except:",
+              "type": "Multiple Choice",
+              "options": [
+                "The females can choose whether to have male or female offspring by storing the sperm from the males.",
+                "Fertilised eggs produce male offspring and unfertilised eggs produce female offspring.",
+                "Solitary female bees can have several generations of offspring in any given year.",
+                "Fertilisation usually occurs in the spring when the flowers begin to bloom."
+              ],
+              "answer": "B",
+              "explanation": "The 1st paragraph states that “fertilised eggs producing female offspring and unfertilised eggs, males” – therefore the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "What is the most likely explanation for why the cocoon is semi-transparent:",
+              "type": "Multiple Choice",
+              "options": [
+                "So the larva receives enough sunlight for growth and development",
+                "Because the silk is tough to break, and has to be a thin layer for the adult to break out of the cell.",
+                "To ensure that sufficient air enters for the larvae to breath through its 15 segments.",
+                "For other bees to know where the cocoon has been positioned to avoid crowding."
+              ],
+              "answer": "B",
+              "explanation": "In the 3rd paragraph is states that “the silk [is] a hard structure to break if the coating is thick” so we can infer that the silk cannot be thick. Although no reason for semi-transparency is given, the best reason given by the 4 options is B as the other 3 options are more unrelated or not even mentioned in the text. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "Using information given in the passage, what is the most likely lifespan of solitary bees followed by the most reasonable explanation:",
+              "type": "Multiple Choice",
+              "options": [
+                "One year – most adult bees die over winter as less flowers are available for pollen and nectar collection.",
+                "One year– after the female bee has laid her offspring, she dies next to the eggs to provide nutrients when they awake in the spring.",
+                "Two years – the entire process of development takes one year, and then the following year is the bee adulthood when they can collect nectar and pollen for the colony. ",
+                "Two years – if the elder bees who lived through the previous winter look after the eggs, then their lifespan must be more than one year."
+              ],
+              "answer": "D",
+              "explanation": "The 2nd paragraph states that the laying of eggs by solitary bees is “usually done by the elder bees who have survived through the previous winter” – therefore we know at least one year has passed. Although we do not know it 2 years is accurate, of the 4 options, option D is the most accurate given the explanation. Therefore, the answer is D.",
+              "difficulty": 1
+            },
+            {
+              "text": "There are many differences and similarities between social bees and solitary bees, the reasons given below are all supported by the passage except:",
+              "type": "Multiple Choice",
+              "options": [
+                "Social bees progressively feed their larva as it grows whereas solitary bees simply place each egg next to a supply of pollen and nectar.",
+                "Both bees have oblong shaped eggs, that are slightly curved and have tapering.",
+                "For most social and solitary bees, the larvae have 15 segments and spiracles which are used for eating the nectar and pollen.",
+                "Solitary bees generally have a nest in the ground whereas social bees have a substantial structure formed from wax combs."
+              ],
+              "answer": "C",
+              "explanation": "In the 3rd paragraph, it states that “larvae… have 15 segments and spiracles in each segment mainly for breathing” – not eating nectar and pollen (or at least not mainly). Therefore, the answer is C. ",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
