@@ -1,1989 +1,1774 @@
 {
-    "stems": [
-      
+  "stems": [
     {
-        "text": "The following table summarises the cost of tickets to attend a cricket match – according to the age of the attendee and the day of the week.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/1.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Jill just turned 20 this year. What percentage more will she pay for cricket match tickets this year as opposed to last year on weekdays?",
-            "type": "Multiple Choice",
-            "options": [
-              "46.0%",
-              "53.4%",
-              "146.0%",
-              "153.4%"
-            ],
-            "answer": "B",
-            "explanation": "(11.2 – 7.3)/11.2 * 100 = 53.4%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "For a family of 2 adults and 2 children, what percentage more will they have to pay if they buy tickets individually on a Thursday (instead of buying a family pass)? ",
-            "type": "Multiple Choice",
-            "options": [
-              "5.7%",
-              "15.7%",
-              "25.7%",
-              "35.7%"
-            ],
-            "answer": "B",
-            "explanation": "Individually: 2 * 11.2 + 2 * 5 = 32.4<br/>(32.4 – 28)/28 * 100 = 15.7%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage less will Robert (a 75-year-old man) pay if he chooses to go to a cricket match on Monday instead of Saturday?",
-            "type": "Multiple Choice",
-            "options": [
-              "8.2%",
-              "11.1%",
-              "12.5%",
-              "16.7%"
-            ],
-            "answer": "B",
-            "explanation": "(9 – 8)/9 * 100 = 11.1%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "For which age group is the percentage increase in cricket ticket prices on a weekend (compared to a weekday) the highest?",
-            "type": "Multiple Choice",
-            "options": [
-              "Senior",
-              "Adult",
-              "Teen",
-              "Child"
-            ],
-            "answer": "D",
-            "explanation": "The difference is 1 for all of the age groups. As children are the cheapest, the percentage increase will thus be the highest",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The table below illustrates the number of house sales in a city (and its 4 regions) from 2012 to 2014.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/2.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "How much greater was the percentage increase in total house sales from 2012 to 2013 when compared with 2013 to 2014?",
-            "type": "Multiple Choice",
-            "options": [
-              "16.1%",
-              "25.9%",
-              "42.1%",
-              "125.9%"
-            ],
-            "answer": "A",
-            "explanation": "(1220489 – 859141)/859141 * 100 = 42.1%<br/>(1536749 – 1220489)/1220489 * 100 = 25.9%<br/>42.1 – 25.9 = 16.2 (different answer due to rounding early)",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Which region recorded the greatest percentage increase in the number of house sales between 2012 and 2014?",
-            "type": "Multiple Choice",
-            "options": [
-              "North",
-              "South",
-              "West",
-              "East"
-            ],
-            "answer": "C",
-            "explanation": "Calculate percentage difference from 2012 to 2014 for each. Highest percentage difference is (497572 – 223561)/223561 * 100 = 122.6%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Suppose that the average house price in the North region is $500,000, South is $400,000, West is $300,000 and East is $600,000. What is the percentage increase in the monetary value of total sales in the East and West regions between 2013 and 2014?",
-            "type": "Multiple Choice",
-            "options": [
-              "12.3%",
-              "22.3%",
-              "32.3%",
-              "42.3%"
-            ],
-            "answer": "D",
-            "explanation": "(497572 + 385889 – 207153 - 342420)/ (207153 + 34242028) * 100 = 42.3%",
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Suppose that the average house price in the North region is $500,000, South is $400,000, West is $300,000 and East is $600,000. Which region accounted for the greatest percentage of the monetary value of total sales in the city in 2014?",
-            "type": "Multiple Choice",
-            "options": [
-              "North",
-              "South",
-              "West",
-              "East"
-            ],
-            "answer": "D",
-            "explanation": "In 2014, East had the highest number of sales behind West. But as the East houses were twice that of the west on average, the value of the East sales was more",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following table illustrates the money generated by 4 friends, Joseph, Lawrence, Maria and Matt, from January to November 2011. For the first $10,000 generated per month, they must pay 15% tax. On anything greater than $10,000 generated per month, they must pay 25% tax. For example, if Joseph earns $12758, he must pay 15% tax on $10,000 and 25% tax on $2758. Earnings = Money generated - tax.  ",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/3.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Who earned the most money in 2011?",
-            "type": "Multiple Choice",
-            "options": [
-              "Joseph",
-              "Lawrence",
-              "Maria",
-              "Can’t tell"
-            ],
-            "answer": "D",
-            "explanation": "December is not shown so we cannot comment",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "How much more money did Matt earn than Maria in the first quarter of 2011 (i.e/ from January to March)? ",
-            "type": "Multiple Choice",
-            "options": [
-              "$441.25",
-              "$1323.75",
-              "$1500.25",
-              "$1765"
-            ],
-            "answer": "B",
-            "explanation": "Matt generated $1765 more. $1675 * 0.75 = $1323.75",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "The most substantial percentage increase in earnings (between 2 months) for Lawrence in 2011 occurred between:",
-            "type": "Multiple Choice",
-            "options": [
-              "February and March",
-              "March and April",
-              "September and October",
-              "October and November"
-            ],
-            "answer": "C",
-            "explanation": "Greatest increase in money generated was between September and October ($2786) hence the most substantial percentage increase in earnings also occurred between these 2 months",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "In October 2011, Maria encountered some financial difficulty. The highest earner for that month decided to transfer 10% of his earnings directly to Maria. Including this amount, how much did Maria earn in October 2011 (in total)?",
-            "type": "Multiple Choice",
-            "options": [
-              "$10978",
-              "$12316.85",
-              "$13388.5",
-              "$14955.8"
-            ],
-            "answer": "B",
-            "explanation": "Maria: 8500 + 0.75 * 3304 = $10978 <br/>Lawrence: 8500 + 0.75 * 6518 = $13388.5 <br/>10978 + 13388.5/10 = $12316.85",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The figure below is the population pyramid of a country, representing the percentage of the total population in each age group by gender. The country has a population of 12,380,000 people.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/4.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Roughly how many more males are under 9 than females in this country?",
-            "type": "Multiple Choice",
-            "options": [
-              "99040",
-              "118560",
-              "1185600",
-              "9904000"
-            ],
-            "answer": "A",
-            "explanation": "Difference of  ~0.8% <br/> 0.8/100 * 12380000 = 99040",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "The government of this country is offering payouts to its senior citizens (60 or above). Each senior citizen is entitled to claim an equal share of the $200,000,000 allocated for this. Roughly how much money would each senior citizen receive?",
-            "type": "Multiple Choice",
-            "options": [
-              "$215.14",
-              "$310.67",
-              "$538.5",
-              "$734.4"
-            ],
-            "answer": "B",
-            "explanation": "~5.2% of the population is senior; 643760; $200 million/643760 = $310.67",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Approximately 10% of the population of this country older than X years. X could be:",
-            "type": "Multiple Choice",
-            "options": [
-              "42",
-              "52",
-              "62",
-              "72"
-            ],
-            "answer": "B",
-            "explanation": "Less than 10% of the population lies above the 50-54 range and more than 10% is aged 50 or orlder",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "A certain disease in this country, that only affects the elderly, wipes out all those aged above 60. Given that the number of those in all the age groups under 60 have not been impacted, roughly how much higher is the percentage of 0-4-year-olds in the country?",
-            "type": "Multiple Choice",
-            "options": [
-              "0.2%",
-              "0.4%",
-              "0.6%",
-              "0.8%"
-            ],
-            "answer": "C",
-            "explanation": "From 11% to 11/(100 – 5.2) * 100 = 11.6%",
-  
-  
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following table illustrates the number, type and price of tickets to the concert of a renowned pianist. The tickets represented below were the only tickets sold.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/5.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Given that 51.67% more money was generated by selling tickets to the second mezzanine than the third mezzanine, what is the value of y? ",
-            "type": "Multiple Choice",
-            "options": [
-              "130",
-              "140",
-              "150",
-              "160"
-            ],
-            "answer": "A",
-            "explanation": "30 * 100 = $3000; $3000 * 1.5167 = 4550; 4550/35=130",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Suppose that x is 30 and 20% of the total money generated was from selling tickets to the second Mezzanine, what is the value of y (to the nearest integer)?",
-            "type": "Multiple Choice",
-            "options": [
-              "49",
-              "52",
-              "70",
-              "73"
-            ],
-            "answer": "D",
-            "explanation": "60 * 50 + 50 * 60 + 40 * 30 + 35y +30 * 100 = 5 * 35y; y = 73",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If a total of 290 tickets were sold and the value of x is 50% larger than y, how many tickets were sold to the first and second Mezzanines respectively?",
-            "type": "Multiple Choice",
-            "options": [
-              "32, 48",
-              "48, 32",
-              "15, 30",
-              "30, 15"
-            ],
-            "answer": "B",
-            "explanation": "290 – 100 – 50 – 60 = 80; y + 1.5y = 80; y = 32, x = 32 * 1.5 = 48",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If the average price per ticket is $40 and 400 tickets are sold, what percentage more front orchestra tickets, alone, would have to be sold to raise the average to $42 (to the nearest integer)?",
-            "type": "Multiple Choice",
-            "options": [
+      "text": "The following table summarises the cost of tickets to attend a cricket match – according to the age of the attendee and the day of the week.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/1.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Jill just turned 20 this year. What percentage more will she pay for cricket match tickets this year as opposed to last year on weekdays?",
+          "type": "Multiple Choice",
+          "options": [
+            "46.0%",
+            "53.4%",
+            "146.0%",
+            "153.4%"
+          ],
+          "answer": "B",
+          "explanation": "(11.2 – 7.3)/11.2 * 100 = 53.4%",
+          "difficulty": 1
+        },
+        {
+          "text": "For a family of 2 adults and 2 children, what percentage more will they have to pay if they buy tickets individually on a Thursday (instead of buying a family pass)? ",
+          "type": "Multiple Choice",
+          "options": [
+            "5.7%",
+            "15.7%",
+            "25.7%",
+            "35.7%"
+          ],
+          "answer": "B",
+          "explanation": "Individually: 2 * 11.2 + 2 * 5 = 32.4<br/>(32.4 – 28)/28 * 100 = 15.7%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage less will Robert (a 75-year-old man) pay if he chooses to go to a cricket match on Monday instead of Saturday?",
+          "type": "Multiple Choice",
+          "options": [
+            "8.2%",
+            "11.1%",
+            "12.5%",
+            "16.7%"
+          ],
+          "answer": "B",
+          "explanation": "(9 – 8)/9 * 100 = 11.1%",
+          "difficulty": 1
+        },
+        {
+          "text": "For which age group is the percentage increase in cricket ticket prices on a weekend (compared to a weekday) the highest?",
+          "type": "Multiple Choice",
+          "options": [
+            "Senior",
+            "Adult",
+            "Teen",
+            "Child"
+          ],
+          "answer": "D",
+          "explanation": "The difference is 1 for all of the age groups. As children are the cheapest, the percentage increase will thus be the highest",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The table below illustrates the number of house sales in a city (and its 4 regions) from 2012 to 2014.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/2.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "How much greater was the percentage increase in total house sales from 2012 to 2013 when compared with 2013 to 2014?",
+          "type": "Multiple Choice",
+          "options": [
+            "16.1%",
+            "25.9%",
+            "42.1%",
+            "125.9%"
+          ],
+          "answer": "A",
+          "explanation": "(1220489 – 859141)/859141 * 100 = 42.1%<br/>(1536749 – 1220489)/1220489 * 100 = 25.9%<br/>42.1 – 25.9 = 16.2 (different answer due to rounding early)",
+          "difficulty": 1
+        },
+        {
+          "text": "Which region recorded the greatest percentage increase in the number of house sales between 2012 and 2014?",
+          "type": "Multiple Choice",
+          "options": [
+            "North",
+            "South",
+            "West",
+            "East"
+          ],
+          "answer": "C",
+          "explanation": "Calculate percentage difference from 2012 to 2014 for each. Highest percentage difference is (497572 – 223561)/223561 * 100 = 122.6%",
+          "difficulty": 1
+        },
+        {
+          "text": "Suppose that the average house price in the North region is $500,000, South is $400,000, West is $300,000 and East is $600,000. What is the percentage increase in the monetary value of total sales in the East and West regions between 2013 and 2014?",
+          "type": "Multiple Choice",
+          "options": [
+            "12.3%",
+            "22.3%",
+            "32.3%",
+            "42.3%"
+          ],
+          "answer": "D",
+          "explanation": "(497572 + 385889 – 207153 - 342420)/ (207153 + 34242028) * 100 = 42.3%",
+          "difficulty": 1
+        },
+        {
+          "text": "Suppose that the average house price in the North region is $500,000, South is $400,000, West is $300,000 and East is $600,000. Which region accounted for the greatest percentage of the monetary value of total sales in the city in 2014?",
+          "type": "Multiple Choice",
+          "options": [
+            "North",
+            "South",
+            "West",
+            "East"
+          ],
+          "answer": "D",
+          "explanation": "In 2014, East had the highest number of sales behind West. But as the East houses were twice that of the west on average, the value of the East sales was more",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following table illustrates the money generated by 4 friends, Joseph, Lawrence, Maria and Matt, from January to November 2011. For the first $10,000 generated per month, they must pay 15% tax. On anything greater than $10,000 generated per month, they must pay 25% tax. For example, if Joseph earns $12758, he must pay 15% tax on $10,000 and 25% tax on $2758. Earnings = Money generated - tax.  ",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/3.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Who earned the most money in 2011?",
+          "type": "Multiple Choice",
+          "options": [
+            "Joseph",
+            "Lawrence",
+            "Maria",
+            "Can’t tell"
+          ],
+          "answer": "D",
+          "explanation": "December is not shown so we cannot comment",
+          "difficulty": 1
+        },
+        {
+          "text": "How much more money did Matt earn than Maria in the first quarter of 2011 (i.e/ from January to March)? ",
+          "type": "Multiple Choice",
+          "options": [
+            "$441.25",
+            "$1323.75",
+            "$1500.25",
+            "$1765"
+          ],
+          "answer": "B",
+          "explanation": "Matt generated $1765 more. $1675 * 0.75 = $1323.75",
+          "difficulty": 1
+        },
+        {
+          "text": "The most substantial percentage increase in earnings (between 2 months) for Lawrence in 2011 occurred between:",
+          "type": "Multiple Choice",
+          "options": [
+            "February and March",
+            "March and April",
+            "September and October",
+            "October and November"
+          ],
+          "answer": "C",
+          "explanation": "Greatest increase in money generated was between September and October ($2786) hence the most substantial percentage increase in earnings also occurred between these 2 months",
+          "difficulty": 1
+        },
+        {
+          "text": "In October 2011, Maria encountered some financial difficulty. The highest earner for that month decided to transfer 10% of his earnings directly to Maria. Including this amount, how much did Maria earn in October 2011 (in total)?",
+          "type": "Multiple Choice",
+          "options": [
+            "$10978",
+            "$12316.85",
+            "$13388.5",
+            "$14955.8"
+          ],
+          "answer": "B",
+          "explanation": "Maria: 8500 + 0.75 * 3304 = $10978 <br/>Lawrence: 8500 + 0.75 * 6518 = $13388.5 <br/>10978 + 13388.5/10 = $12316.85",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The figure below is the population pyramid of a country, representing the percentage of the total population in each age group by gender. The country has a population of 12,380,000 people.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/4.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Roughly how many more males are under 9 than females in this country?",
+          "type": "Multiple Choice",
+          "options": [
+            "99040",
+            "118560",
+            "1185600",
+            "9904000"
+          ],
+          "answer": "A",
+          "explanation": "Difference of  ~0.8% <br/> 0.8/100 * 12380000 = 99040",
+          "difficulty": 1
+        },
+        {
+          "text": "The government of this country is offering payouts to its senior citizens (60 or above). Each senior citizen is entitled to claim an equal share of the $200,000,000 allocated for this. Roughly how much money would each senior citizen receive?",
+          "type": "Multiple Choice",
+          "options": [
+            "$215.14",
+            "$310.67",
+            "$538.5",
+            "$734.4"
+          ],
+          "answer": "B",
+          "explanation": "~5.2% of the population is senior; 643760; $200 million/643760 = $310.67",
+          "difficulty": 1
+        },
+        {
+          "text": "Approximately 10% of the population of this country older than X years. X could be:",
+          "type": "Multiple Choice",
+          "options": [
+            "42",
+            "52",
+            "62",
+            "72"
+          ],
+          "answer": "B",
+          "explanation": "Less than 10% of the population lies above the 50-54 range and more than 10% is aged 50 or orlder",
+          "difficulty": 1
+        },
+        {
+          "text": "A certain disease in this country, that only affects the elderly, wipes out all those aged above 60. Given that the number of those in all the age groups under 60 have not been impacted, roughly how much higher is the percentage of 0-4-year-olds in the country?",
+          "type": "Multiple Choice",
+          "options": [
+            "0.2%",
+            "0.4%",
+            "0.6%",
+            "0.8%"
+          ],
+          "answer": "C",
+          "explanation": "From 11% to 11/(100 – 5.2) * 100 = 11.6%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following table illustrates the number, type and price of tickets to the concert of a renowned pianist. The tickets represented below were the only tickets sold.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/5.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Given that 51.67% more money was generated by selling tickets to the second mezzanine than the third mezzanine, what is the value of y? ",
+          "type": "Multiple Choice",
+          "options": [
+            "130",
+            "140",
+            "150",
+            "160"
+          ],
+          "answer": "A",
+          "explanation": "30 * 100 = $3000; $3000 * 1.5167 = 4550; 4550/35=130",
+          "difficulty": 1
+        },
+        {
+          "text": "Suppose that x is 30 and 20% of the total money generated was from selling tickets to the second Mezzanine, what is the value of y (to the nearest integer)?",
+          "type": "Multiple Choice",
+          "options": [
+            "49",
+            "52",
+            "70",
+            "73"
+          ],
+          "answer": "D",
+          "explanation": "60 * 50 + 50 * 60 + 40 * 30 + 35y +30 * 100 = 5 * 35y; y = 73",
+          "difficulty": 1
+        },
+        {
+          "text": "If a total of 290 tickets were sold and the value of x is 50% larger than y, how many tickets were sold to the first and second Mezzanines respectively?",
+          "type": "Multiple Choice",
+          "options": [
+            "32, 48",
+            "48, 32",
+            "15, 30",
+            "30, 15"
+          ],
+          "answer": "B",
+          "explanation": "290 – 100 – 50 – 60 = 80; y + 1.5y = 80; y = 32, x = 32 * 1.5 = 48",
+          "difficulty": 1
+        },
+        {
+          "text": "If the average price per ticket is $40 and 400 tickets are sold, what percentage more front orchestra tickets, alone, would have to be sold to raise the average to $42 (to the nearest integer)?",
+          "type": "Multiple Choice",
+          "options": [
             "44",
             "45",
             "46",
             "47"
-            ],
-            "answer": "A",
-            "explanation": "40 * 400 + z * 60 = 42 * (400 + z); 36z = 22; 22/50 * 100 = 44%",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "50-year-old Jeff was involved in a medical study for a new medication, designed to lower heart rate and blood pressure amongst those at risk of heart disease. For the first 9 days of April, Jeff was given a placebo (in the form of sugar tablets) and his heart rate (in BPM) was recorded on those days. For the first 9 days of June, Jeff was provided with the actual medication and his heart rate (in BPM) was recorded on those days. The results of the study are depicted in the table below.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/6.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "How much higher was Jeff’s average heart rate (in BPM) for the first 9 days of April than the first 9 days of June?",
-            "type": "Multiple Choice",
-            "options": [
-              "6.6",
-              "6.7",
-              "6.8",
-              "6.9"
-            ],
-            "answer": "B",
-            "explanation": "Sum of April BPMs / 9 – sum of June BPMs / 9 = 6.7",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "How many days (out of the first 9 days of April) was Jeff’s heart rate 15% greater than his average heart rate for the first 9 days of June?",
-            "type": "Multiple Choice",
-            "options": [
-              "1",
-              "2",
-              "3",
-              "4"
-            ],
-            "answer": "C",
-            "explanation": "Average = Sum of June BPMs / 9 = 7.2; 72 * 1.15 = 82.8; 3 days of 83 or above",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "On the 10th day of April, Jeff’s heart rate was also recorded. As a result of this measurement, his average heart rate for April was 2% higher (than the first 9 days of April). What was Jeff’s heart rate on the 10th day of April?",
-            "type": "Multiple Choice",
-            "options": [
-              "94.4",
-              "95.4",
-              "96.4",
-              "97.4"
-            ],
-            "answer": "A",
-            "explanation": "Sum = 708; average = 78.7; 78.7 * 1.02 * 10 = 802.4; 802.4 – 708 = 94.4",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Suppose that Jeff also took the medication for the first 9 days of August too. The results for August were such that the percentage decrease in his average heart rate for the first 9 days of April compared to June equaled the percentage decrease in his average heart rate for the first 9 days of June compared to August. What was Jeff’s average heart rate for the first 9 days of August?",
-            "type": "Multiple Choice",
-            "options": [
-              "65.9",
-              "67.9",
-              "72",
-              "78.7"
-            ],
-            "answer": "A",
-            "explanation": "(78.7 – 72)/78.7 = 0.085; 72 * (1 – 0.085) = 65.9",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following pie chart illustrates the destination for U.S agricultural exports by share of value from 1995-1999 and 2011-2015. From 1995-1999, there was $200 billion worth of US agricultural exports. From 2011-2015, there was $800 billion worth of US agricultural exports.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/7.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "By how much has the value of US agricultural exports to South Asia increased, from 1995-99 to 2011-15?",
-            "type": "Multiple Choice",
-            "options": [
-              "$44 Billion",
-              "$48 Billion",
-              "$180 Billion",
-              "$224 Billion"
-            ],
-            "answer": "C",
-            "explanation": "0.28 * 800 – 0.22 * 200 = 180 (billion)",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What total percentage, by value, of US agricultural exports (from 1995-1999 and 2011-2015 combined) were exported to Europe and Central Asia?",
-            "type": "Multiple Choice",
-            "options": [
-              "11%",
-              "12.8%",
-              "15.5%",
-              "20%"
-            ],
-            "answer": "B",
-            "explanation": "(0.2 * 200 + 0.11 * 800) / 1000 * 100 = 12.8%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "By what percentage has the value of US agricultural exports to high income Asia and Pacific increased/ decreased from 1995-1999 to 2011-2015.",
-            "type": "Multiple Choice",
-            "options": [
-             "Decreased by 13%",
-              "Decreased by 42%",
-              "Increased by 142%",
-              "Increased by 242%"
-            ],
-            "answer": "C",
-            "explanation": "0.33 * 200 = 66; 0.2 * 800 = 160; (160 – 66)/66 * 100 = 142%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What was the average value of US agricultural exports to Asia from 1995-1999?",
-            "type": "Multiple Choice",
-            "options": [
-              "$66 Billion",
-              "$106 Billion",
-              "$150 Billion",
-              "Can’t tell"
-            ],
-            "answer": "D",
-            "explanation": "We don’t know specifically about the value of exports to Asia – as high income Asia and the pacific is combined",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following table displays the exam scores of 5 different students in math, science and history. Math exams were marked out of 100, science out of 120 and history out of 90. Recorded alongside their scores is their school and gender.",   
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/8.JPG",       
-        "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "One of the math papers had been marked incorrectly. After the paper had been correctly remarked, the range in math exam scores decreased by 20%. Whose paper had been incorrectly marked?",
-            "type": "Multiple Choice",
-            "options": [
-              "1",
-              "2",
-              "3",
-              "4"
-            ],
-            "answer": "D",
-            "explanation": "Must’ve been the highest exam scorer – as 2 people had the lowest exam score of 50",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What was the average exam percentage for the math and science exams (to the nearest integer)?",
-            "type": "Multiple Choice",
-            "options": [
-              "70%",
-              "71%",
-              "78%",
-              "79%"
-            ],
-            "answer": "B",
-            "explanation": "(380/500 + 400/600)/2 * 100 = 71%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "The only student to fail an exam (record a score below 50%) scored equal to another student from school X and in subject Y. School X and subject Y respectively refer to:",
-            "type": "Multiple Choice",
-            "options": [
-              "Math, Central",
-              "History, West",
-              "West, History",
-              "Central, Math"
-            ],
-            "answer": "D",
-            "explanation": "Student 2 failed science. Scored equal to the male from the central school in maths",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "The results of a 6th student was recorded. As a result of this new student, the average math exam percentage increased to 80%. This student’s percentage in the science exam was half that of their math exam. What was the 6th students’ score (out of 120) in the science exam?",
-            "type": "Multiple Choice",
-            "options": [
-              "30",
-              "40",
-              "50",
-              "60"
-            ],
-            "answer": "D",
-            "explanation": "80 * 6 – 380 = 100; 50% in science exam; therefore, 60/120",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "A toy company manufactures and sells two types of toys – termed set A toys and set B toys. Set A toys are designed for children below 12 years of age while set B toys are designed for children aged 12 years or above. For each set A toy sold, the company earns $50 in revenue. For each set B toy sold, the company earns $70 in revenue. Selling these toys is the company’s only source of revenue. The table below summarises the number of toys (set A and set B) sold by the toy company between 2012 and 2018.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/9.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What was the percentage increase in the number of toys sold (set A and set B) in 2018 compared with 2012?",
-            "type": "Multiple Choice",
-            "options": [
-              "72%",
-              "84.8%",
-              "97.5%",
-              "269.5%"
-            ],
-            "answer": "B",
-            "explanation": "(344 + 395 – 200 – 200)/(200 + 200) * 100 = 84.8%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage of the total revenue generated by the company in 2017 can be attributed to set B toys?",
-            "type": "Multiple Choice",
-            "options": [
-              "47.6%",
-              "52.4%",
-              "60.6%",
-              "68.4%"
-            ],
-            "answer": "C",
-            "explanation": "(352 * 70)/(320 * 50 + 352 * 70) * 100 = 60.6%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage of the company’s total revenue (from 2012 to 2018) can be attributed to the sale of set A toys?",
-            "type": "Multiple Choice",
-            "options": [
-              "40.3%",
-              "48.5%",
-              "55.3%",
-              "60.5%"
-            ],
-            "answer": "A",
-            "explanation": "(Sum of all set A * 50)/(Sum of all set A * 50 + Sum of all set B * 70) * 100 = 40.3%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If the income of the toy store manager is equal to the store’s revenue less tax (35% tax payed on revenue), in what year did the manager generate an income of approximately $29153?",
-            "type": "Multiple Choice",
-            "options": [
-              "2012",
-              "2014",
-              "2016",
-              "2018"
-            ],
-            "answer": "D",
-            "explanation": "29153/0.65 = 44850; 2018: 344 * 50 + 395 * 70 = 44850",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The graph below illustrates the prevalence of various sensory impairments amongst those aged above 70 in the United States. Suppose there are 15 million citizens aged 70 years or greater and 5 million citizens aged 80 years and over in the United States.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/10.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "How many citizens aged 70 years and over in the United States are not afflicted by a loss of feeling in their feet (closest to the nearest million)?",
-            "type": "Multiple Choice",
-            "options": [
-              "8 million",
-              "9 million",
-              "10 million",
-              "11 million"
-            ],
-            "answer": "D",
-            "explanation": "0.76 * 10 + 0.657 * 5 = 10.885 (million)",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "How many more of those 80 years and over in the United States are affected by hearing impairment than visual impairment?",
-            "type": "Multiple Choice",
-            "options": [
-              "1.04 million",
-              "2.04 million",
-              "3.04 million",
-              "4.04 million"
-            ],
-            "answer": "A",
-            "explanation": "(45.4 – 24.6)/100 * 5 = 1.04 (million)",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Given that those who are aged 70 years and over and are afflicted by balance impairment make up 7% of the population of the United States, what is the population of the United States (to the nearest million)?",
-            "type": "Multiple Choice",
-            "options": [
-              "142",
-              "162",
-              "182",
-              "202"
-            ],
-            "answer": "B",
-            "explanation": "0.693 * 10 + 0.885 * 5 = 11.4; 11.4/0.07 = 162",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Given that all those who have a loss of feeling in their feet have balance impairment, what percentage of those who have balance impairment also have a loss of feeling in their feet (aged 80 years and over in the United States)?",
-            "type": "Multiple Choice",
-            "options": [
-              "38.6%",
-              "38.7%",
-              "38.8%",
-              "38.9%"
-            ],
-            "answer": "C",
-            "explanation": "34.3/88.5 * 100 = 38.8%",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following graph compares the money spent on transportation per year against the household income of families in a particular city. Note: in this city, money spent on transportation is tax-deductible – that is, families receive 25% of the money they spend on transportation back from the government at the end of the year.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/11.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage more do families with a household income of between $15 thousand and $20 thousand spend on transportation than families with a household income of between $5 thousand and $10 thousand (not considering the tax rebate)?",
-            "type": "Multiple Choice",
-            "options": [
-              "38.9%",
-              "138.9%",
-              "238.9%",
-              "338.9%"
-            ],
-            "answer": "B",
-            "explanation": "(4.3 – 1.8)/1.8 * 100 = 138.9%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Which household income bracket spends the most on transportation (not considering the tax rebate) as a percentage of their household income?",
-            "type": "Multiple Choice",
-            "options": [
-              "Less than $5 thousand",
-              "$5 thousand - $10 thousand",
-              "$40 thousand - $50 thousand",
-              "Can’t tell"
-            ],
-            "answer": "A",
-            "explanation": "The less than $5000 bracket spends more than 50% on transport – the others are not even close to this figure",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Which household income bracket will receive the most money back (for money spent on transportation) from the government?",
-            "type": "Multiple Choice",
-            "options": [
-              "Less than $5 thousand",
-              "$5 thousand - $10 thousand",
-              "$40 thousand - $50 thousand",
-              "Greater than $50 thousand"
-            ],
-            "answer": "D",
-            "explanation": "The group spending the most money will receive the most money back. Hence, the greater than $50 thousand group is the answer",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If families did not end up receiving a tax rebate at the end of the year, what percentage more would they pay on transportation than if they had received a tax rebate?",
-            "type": "Multiple Choice",
-            "options": [
-              "25%",
-              "33.3%",
-              "66.7%",
-              "Can’t tell"
-            ],
-            "answer": "B",
-            "explanation": "(100 – 75)/75 * 100 = 33.3%",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following table illustrates the monthly sales for a large tech company. 50% of monthly sales are used to pay for research/development of tech products, 20% of monthly sales are used to pay staff and the remaining monthly sales is the company’s taxable revenue. The company must pay 30% of their taxable revenue to the tax office. The remaining money is defined as the company’s profit.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/12.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage of the company’s monthly sales is profit?",
-            "type": "Multiple Choice",
-            "options": [
-              "21%",
-              "30%",
-              "42%",
-              "Varies depending on the month"
-            ],
-            "answer": "A",
-            "explanation": "0.3 * 0.7 * 100 = 21%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage higher was the company’s profit in January 2017 than January 2016?",
-            "type": "Multiple Choice",
-            "options": [
-              "4.3%",
-              "5.3%",
-              "6.3%",
-              "7.3%"
-            ],
-            "answer": "B",
-            "explanation": "(Jan-17 sales – Jan 16 sales)/Jan 16 sales * 100 will give the answer. There is no need to calculate profit as profit is a set percentage of sales in both of these months",          "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If the company reduced the money spent (monthly) on the research/development of tech products by 10%, what would be the resulting percentage increase in the company’s monthly profit?",
-            "type": "Multiple Choice",
-            "options": [
-              "33.3%",
-              "15%",
-              "16.7% ",
-              "Varies depending on the month"
-            ],
-            "answer": "A",
-            "explanation": "21% initially; new: 0.4 * 0.7 * 100 = 28%; (28 – 21)/21 * 100 = 33.3%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Which of the following must be true?",
-            "type": "Multiple Choice",
-            "options": [
-              "The company earnt the most profit in June 2017 (out of the months given) ",
-              "In January 2016, approximately $800,000 was given to the tax office by this company",
-              "The company’s profit did not exceed $1,000,000 for the months shown",
-              "The yearly profit for the company in 2017 was approximately $10,000,000"
-            ],
-            "answer": "C",
-            "explanation": "The sales is less than 4.76 (5/0.21) million for all the months shown",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "Students and staff at a school were surveyed about ice cream flavours. When asked (what flavour of ice cream would you pick?) they could respond with either chocolate, vanilla or neither. The results are displayed below.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/13.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage of all those surveyed would pick chocolate or vanilla?",
-            "type": "Multiple Choice",
-            "options": [
-              "26%",
-              "40%",
-              "71%",
-              "74%"
-            ],
-            "answer": "D",
-            "explanation": "Sum of chocolate and vanilla columns/sum of all figures= 74%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Given that a respondent chose either chocolate or vanilla, what is the probability that they are an adult?",
-            "type": "Multiple Choice",
-            "options": [
-              "33.3%",
-              "50.5%",
-              "54.8%",
-              "57.6%"
-            ],
-            "answer": "C",
-            "explanation": "Adult and chocolate or vanilla / chocolate or vanilla total * 100 = 54.8%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If X number of teens changed their preference from Vanilla to chocolate, the number of responses for chocolate would be approximately 4.6% higher. The value of X is closest to: ",
-            "type": "Multiple Choice",
-            "options": [
-              "3",
-              "4",
-              "5",
-              "6"
-            ],
-            "answer": "C",
-            "explanation": "1.046 * 107 = 112; 112 – 107 = 5",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Amongst those who selected neither chocolate nor vanilla, approximately 40% would pick strawberry, 20% coffee and the rest either caramel or pistaccio. Given that the same number of respondents would pick caramel and pistachio, how many more respondents would pick vanilla than caramel? ",
-            "type": "Multiple Choice",
-            "options": [
-              "78",
-              "69",
-              "70",
-              "71"
-            ],
-            "answer": "A",
-            "explanation": "Caramel: 0.2 * 70 = 14; vanilla = 92; 92 – 14 = 78",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "DNA replication is a process that occurs in almost every cell of the human body. In order to determine the speed at which genes can be replicated by enzymes, scientists monitored the number of gene copies in a solution against time. The results are presented below.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/14.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage increase in the number of gene copies was recorded very 3 minutes?",
-            "type": "Multiple Choice",
-            "options": [
-              "100%",
-              "200%",
-              "300%",
-              "400%"
-            ],
-            "answer": "A",
-            "explanation": "Doubling = 100% increase",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If the experiment was allowed to continue for another 12 minutes after the 21-minute mark, what would be the percentage increase in the number of gene copies (compared to the 21-minute mark)?",
-            "type": "Multiple Choice",
-            "options": [
-              "700%",
-              "800%",
-              "1500%",
-              "1600%"
-            ],
-            "answer": "C",
-            "explanation": "4 doubling events; * 16 = 1500% increase",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Suppose there is a linear increase in the number of gene copies within each 3-minute interval. If this is the case, what is the percentage increase in the number of gene copies from the 10-minute mark to the 20-minute mark?",
-            "type": "Multiple Choice",
-            "options": [
+          ],
+          "answer": "A",
+          "explanation": "40 * 400 + z * 60 = 42 * (400 + z); 36z = 22; 22/50 * 100 = 44%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "50-year-old Jeff was involved in a medical study for a new medication, designed to lower heart rate and blood pressure amongst those at risk of heart disease. For the first 9 days of April, Jeff was given a placebo (in the form of sugar tablets) and his heart rate (in BPM) was recorded on those days. For the first 9 days of June, Jeff was provided with the actual medication and his heart rate (in BPM) was recorded on those days. The results of the study are depicted in the table below.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/6.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "How much higher was Jeff’s average heart rate (in BPM) for the first 9 days of April than the first 9 days of June?",
+          "type": "Multiple Choice",
+          "options": [
+            "6.6",
+            "6.7",
+            "6.8",
+            "6.9"
+          ],
+          "answer": "B",
+          "explanation": "Sum of April BPMs / 9 – sum of June BPMs / 9 = 6.7",
+          "difficulty": 1
+        },
+        {
+          "text": "How many days (out of the first 9 days of April) was Jeff’s heart rate 15% greater than his average heart rate for the first 9 days of June?",
+          "type": "Multiple Choice",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "Average = Sum of June BPMs / 9 = 7.2; 72 * 1.15 = 82.8; 3 days of 83 or above",
+          "difficulty": 1
+        },
+        {
+          "text": "On the 10th day of April, Jeff’s heart rate was also recorded. As a result of this measurement, his average heart rate for April was 2% higher (than the first 9 days of April). What was Jeff’s heart rate on the 10th day of April?",
+          "type": "Multiple Choice",
+          "options": [
+            "94.4",
+            "95.4",
+            "96.4",
+            "97.4"
+          ],
+          "answer": "A",
+          "explanation": "Sum = 708; average = 78.7; 78.7 * 1.02 * 10 = 802.4; 802.4 – 708 = 94.4",
+          "difficulty": 1
+        },
+        {
+          "text": "Suppose that Jeff also took the medication for the first 9 days of August too. The results for August were such that the percentage decrease in his average heart rate for the first 9 days of April compared to June equaled the percentage decrease in his average heart rate for the first 9 days of June compared to August. What was Jeff’s average heart rate for the first 9 days of August?",
+          "type": "Multiple Choice",
+          "options": [
+            "65.9",
+            "67.9",
+            "72",
+            "78.7"
+          ],
+          "answer": "A",
+          "explanation": "(78.7 – 72)/78.7 = 0.085; 72 * (1 – 0.085) = 65.9",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following pie chart illustrates the destination for U.S agricultural exports by share of value from 1995-1999 and 2011-2015. From 1995-1999, there was $200 billion worth of US agricultural exports. From 2011-2015, there was $800 billion worth of US agricultural exports.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/7.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "By how much has the value of US agricultural exports to South Asia increased, from 1995-99 to 2011-15?",
+          "type": "Multiple Choice",
+          "options": [
+            "$44 Billion",
+            "$48 Billion",
+            "$180 Billion",
+            "$224 Billion"
+          ],
+          "answer": "C",
+          "explanation": "0.28 * 800 – 0.22 * 200 = 180 (billion)",
+          "difficulty": 1
+        },
+        {
+          "text": "What total percentage, by value, of US agricultural exports (from 1995-1999 and 2011-2015 combined) were exported to Europe and Central Asia?",
+          "type": "Multiple Choice",
+          "options": [
+            "11%",
+            "12.8%",
+            "15.5%",
+            "20%"
+          ],
+          "answer": "B",
+          "explanation": "(0.2 * 200 + 0.11 * 800) / 1000 * 100 = 12.8%",
+          "difficulty": 1
+        },
+        {
+          "text": "By what percentage has the value of US agricultural exports to high income Asia and Pacific increased/ decreased from 1995-1999 to 2011-2015.",
+          "type": "Multiple Choice",
+          "options": [
+            "Decreased by 13%",
+            "Decreased by 42%",
+            "Increased by 142%",
+            "Increased by 242%"
+          ],
+          "answer": "C",
+          "explanation": "0.33 * 200 = 66; 0.2 * 800 = 160; (160 – 66)/66 * 100 = 142%",
+          "difficulty": 1
+        },
+        {
+          "text": "What was the average value of US agricultural exports to Asia from 1995-1999?",
+          "type": "Multiple Choice",
+          "options": [
+            "$66 Billion",
+            "$106 Billion",
+            "$150 Billion",
+            "Can’t tell"
+          ],
+          "answer": "D",
+          "explanation": "We don’t know specifically about the value of exports to Asia – as high income Asia and the pacific is combined",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following table displays the exam scores of 5 different students in math, science and history. Math exams were marked out of 100, science out of 120 and history out of 90. Recorded alongside their scores is their school and gender.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/8.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "One of the math papers had been marked incorrectly. After the paper had been correctly remarked, the range in math exam scores decreased by 20%. Whose paper had been incorrectly marked?",
+          "type": "Multiple Choice",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "Must’ve been the highest exam scorer – as 2 people had the lowest exam score of 50",
+          "difficulty": 1
+        },
+        {
+          "text": "What was the average exam percentage for the math and science exams (to the nearest integer)?",
+          "type": "Multiple Choice",
+          "options": [
+            "70%",
+            "71%",
+            "78%",
+            "79%"
+          ],
+          "answer": "B",
+          "explanation": "(380/500 + 400/600)/2 * 100 = 71%",
+          "difficulty": 1
+        },
+        {
+          "text": "The only student to fail an exam (record a score below 50%) scored equal to another student from school X and in subject Y. School X and subject Y respectively refer to:",
+          "type": "Multiple Choice",
+          "options": [
+            "Math, Central",
+            "History, West",
+            "West, History",
+            "Central, Math"
+          ],
+          "answer": "D",
+          "explanation": "Student 2 failed science. Scored equal to the male from the central school in maths",
+          "difficulty": 1
+        },
+        {
+          "text": "The results of a 6th student was recorded. As a result of this new student, the average math exam percentage increased to 80%. This student’s percentage in the science exam was half that of their math exam. What was the 6th students’ score (out of 120) in the science exam?",
+          "type": "Multiple Choice",
+          "options": [
+            "30",
+            "40",
+            "50",
+            "60"
+          ],
+          "answer": "D",
+          "explanation": "80 * 6 – 380 = 100; 50% in science exam; therefore, 60/120",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A toy company manufactures and sells two types of toys – termed set A toys and set B toys. Set A toys are designed for children below 12 years of age while set B toys are designed for children aged 12 years or above. For each set A toy sold, the company earns $50 in revenue. For each set B toy sold, the company earns $70 in revenue. Selling these toys is the company’s only source of revenue. The table below summarises the number of toys (set A and set B) sold by the toy company between 2012 and 2018.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/9.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What was the percentage increase in the number of toys sold (set A and set B) in 2018 compared with 2012?",
+          "type": "Multiple Choice",
+          "options": [
+            "72%",
+            "84.8%",
+            "97.5%",
+            "269.5%"
+          ],
+          "answer": "B",
+          "explanation": "(344 + 395 – 200 – 200)/(200 + 200) * 100 = 84.8%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage of the total revenue generated by the company in 2017 can be attributed to set B toys?",
+          "type": "Multiple Choice",
+          "options": [
+            "47.6%",
+            "52.4%",
+            "60.6%",
+            "68.4%"
+          ],
+          "answer": "C",
+          "explanation": "(352 * 70)/(320 * 50 + 352 * 70) * 100 = 60.6%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage of the company’s total revenue (from 2012 to 2018) can be attributed to the sale of set A toys?",
+          "type": "Multiple Choice",
+          "options": [
+            "40.3%",
+            "48.5%",
+            "55.3%",
+            "60.5%"
+          ],
+          "answer": "A",
+          "explanation": "(Sum of all set A * 50)/(Sum of all set A * 50 + Sum of all set B * 70) * 100 = 40.3%",
+          "difficulty": 1
+        },
+        {
+          "text": "If the income of the toy store manager is equal to the store’s revenue less tax (35% tax payed on revenue), in what year did the manager generate an income of approximately $29153?",
+          "type": "Multiple Choice",
+          "options": [
+            "2012",
+            "2014",
+            "2016",
+            "2018"
+          ],
+          "answer": "D",
+          "explanation": "29153/0.65 = 44850; 2018: 344 * 50 + 395 * 70 = 44850",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The graph below illustrates the prevalence of various sensory impairments amongst those aged above 70 in the United States. Suppose there are 15 million citizens aged 70 years or greater and 5 million citizens aged 80 years and over in the United States.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/10.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "How many citizens aged 70 years and over in the United States are not afflicted by a loss of feeling in their feet (closest to the nearest million)?",
+          "type": "Multiple Choice",
+          "options": [
+            "8 million",
+            "9 million",
+            "10 million",
+            "11 million"
+          ],
+          "answer": "D",
+          "explanation": "0.76 * 10 + 0.657 * 5 = 10.885 (million)",
+          "difficulty": 1
+        },
+        {
+          "text": "How many more of those 80 years and over in the United States are affected by hearing impairment than visual impairment?",
+          "type": "Multiple Choice",
+          "options": [
+            "1.04 million",
+            "2.04 million",
+            "3.04 million",
+            "4.04 million"
+          ],
+          "answer": "A",
+          "explanation": "(45.4 – 24.6)/100 * 5 = 1.04 (million)",
+          "difficulty": 1
+        },
+        {
+          "text": "Given that those who are aged 70 years and over and are afflicted by balance impairment make up 7% of the population of the United States, what is the population of the United States (to the nearest million)?",
+          "type": "Multiple Choice",
+          "options": [
+            "142",
+            "162",
+            "182",
+            "202"
+          ],
+          "answer": "B",
+          "explanation": "0.693 * 10 + 0.885 * 5 = 11.4; 11.4/0.07 = 162",
+          "difficulty": 1
+        },
+        {
+          "text": "Given that all those who have a loss of feeling in their feet have balance impairment, what percentage of those who have balance impairment also have a loss of feeling in their feet (aged 80 years and over in the United States)?",
+          "type": "Multiple Choice",
+          "options": [
+            "38.6%",
+            "38.7%",
+            "38.8%",
+            "38.9%"
+          ],
+          "answer": "C",
+          "explanation": "34.3/88.5 * 100 = 38.8%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following graph compares the money spent on transportation per year against the household income of families in a particular city. Note: in this city, money spent on transportation is tax-deductible – that is, families receive 25% of the money they spend on transportation back from the government at the end of the year.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/11.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage more do families with a household income of between $15 thousand and $20 thousand spend on transportation than families with a household income of between $5 thousand and $10 thousand (not considering the tax rebate)?",
+          "type": "Multiple Choice",
+          "options": [
+            "38.9%",
+            "138.9%",
+            "238.9%",
+            "338.9%"
+          ],
+          "answer": "B",
+          "explanation": "(4.3 – 1.8)/1.8 * 100 = 138.9%",
+          "difficulty": 1
+        },
+        {
+          "text": "Which household income bracket spends the most on transportation (not considering the tax rebate) as a percentage of their household income?",
+          "type": "Multiple Choice",
+          "options": [
+            "Less than $5 thousand",
+            "$5 thousand - $10 thousand",
+            "$40 thousand - $50 thousand",
+            "Can’t tell"
+          ],
+          "answer": "A",
+          "explanation": "The less than $5000 bracket spends more than 50% on transport – the others are not even close to this figure",
+          "difficulty": 1
+        },
+        {
+          "text": "Which household income bracket will receive the most money back (for money spent on transportation) from the government?",
+          "type": "Multiple Choice",
+          "options": [
+            "Less than $5 thousand",
+            "$5 thousand - $10 thousand",
+            "$40 thousand - $50 thousand",
+            "Greater than $50 thousand"
+          ],
+          "answer": "D",
+          "explanation": "The group spending the most money will receive the most money back. Hence, the greater than $50 thousand group is the answer",
+          "difficulty": 1
+        },
+        {
+          "text": "If families did not end up receiving a tax rebate at the end of the year, what percentage more would they pay on transportation than if they had received a tax rebate?",
+          "type": "Multiple Choice",
+          "options": [
+            "25%",
+            "33.3%",
+            "66.7%",
+            "Can’t tell"
+          ],
+          "answer": "B",
+          "explanation": "(100 – 75)/75 * 100 = 33.3%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following table illustrates the monthly sales for a large tech company. 50% of monthly sales are used to pay for research/development of tech products, 20% of monthly sales are used to pay staff and the remaining monthly sales is the company’s taxable revenue. The company must pay 30% of their taxable revenue to the tax office. The remaining money is defined as the company’s profit.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/12.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage of the company’s monthly sales is profit?",
+          "type": "Multiple Choice",
+          "options": [
+            "21%",
+            "30%",
+            "42%",
+            "Varies depending on the month"
+          ],
+          "answer": "A",
+          "explanation": "0.3 * 0.7 * 100 = 21%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage higher was the company’s profit in January 2017 than January 2016?",
+          "type": "Multiple Choice",
+          "options": [
+            "4.3%",
+            "5.3%",
+            "6.3%",
+            "7.3%"
+          ],
+          "answer": "B",
+          "explanation": "(Jan-17 sales – Jan 16 sales)/Jan 16 sales * 100 will give the answer. There is no need to calculate profit as profit is a set percentage of sales in both of these months",
+          "difficulty": 1
+        },
+        {
+          "text": "If the company reduced the money spent (monthly) on the research/development of tech products by 10%, what would be the resulting percentage increase in the company’s monthly profit?",
+          "type": "Multiple Choice",
+          "options": [
+            "33.3%",
+            "15%",
+            "16.7% ",
+            "Varies depending on the month"
+          ],
+          "answer": "A",
+          "explanation": "21% initially; new: 0.4 * 0.7 * 100 = 28%; (28 – 21)/21 * 100 = 33.3%",
+          "difficulty": 1
+        },
+        {
+          "text": "Which of the following must be true?",
+          "type": "Multiple Choice",
+          "options": [
+            "The company earnt the most profit in June 2017 (out of the months given) ",
+            "In January 2016, approximately $800,000 was given to the tax office by this company",
+            "The company’s profit did not exceed $1,000,000 for the months shown",
+            "The yearly profit for the company in 2017 was approximately $10,000,000"
+          ],
+          "answer": "C",
+          "explanation": "The sales is less than 4.76 (5/0.21) million for all the months shown",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Students and staff at a school were surveyed about ice cream flavours. When asked (what flavour of ice cream would you pick?) they could respond with either chocolate, vanilla or neither. The results are displayed below.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/13.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage of all those surveyed would pick chocolate or vanilla?",
+          "type": "Multiple Choice",
+          "options": [
+            "26%",
+            "40%",
+            "71%",
+            "74%"
+          ],
+          "answer": "D",
+          "explanation": "Sum of chocolate and vanilla columns/sum of all figures= 74%",
+          "difficulty": 1
+        },
+        {
+          "text": "Given that a respondent chose either chocolate or vanilla, what is the probability that they are an adult?",
+          "type": "Multiple Choice",
+          "options": [
+            "33.3%",
+            "50.5%",
+            "54.8%",
+            "57.6%"
+          ],
+          "answer": "C",
+          "explanation": "Adult and chocolate or vanilla / chocolate or vanilla total * 100 = 54.8%",
+          "difficulty": 1
+        },
+        {
+          "text": "If X number of teens changed their preference from Vanilla to chocolate, the number of responses for chocolate would be approximately 4.6% higher. The value of X is closest to: ",
+          "type": "Multiple Choice",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "1.046 * 107 = 112; 112 – 107 = 5",
+          "difficulty": 1
+        },
+        {
+          "text": "Amongst those who selected neither chocolate nor vanilla, approximately 40% would pick strawberry, 20% coffee and the rest either caramel or pistaccio. Given that the same number of respondents would pick caramel and pistachio, how many more respondents would pick vanilla than caramel? ",
+          "type": "Multiple Choice",
+          "options": [
+            "78",
+            "69",
+            "70",
+            "71"
+          ],
+          "answer": "A",
+          "explanation": "Caramel: 0.2 * 70 = 14; vanilla = 92; 92 – 14 = 78",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "DNA replication is a process that occurs in almost every cell of the human body. In order to determine the speed at which genes can be replicated by enzymes, scientists monitored the number of gene copies in a solution against time. The results are presented below.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/14.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage increase in the number of gene copies was recorded very 3 minutes?",
+          "type": "Multiple Choice",
+          "options": [
+            "100%",
+            "200%",
+            "300%",
+            "400%"
+          ],
+          "answer": "A",
+          "explanation": "Doubling = 100% increase",
+          "difficulty": 1
+        },
+        {
+          "text": "If the experiment was allowed to continue for another 12 minutes after the 21-minute mark, what would be the percentage increase in the number of gene copies (compared to the 21-minute mark)?",
+          "type": "Multiple Choice",
+          "options": [
+            "700%",
+            "800%",
+            "1500%",
+            "1600%"
+          ],
+          "answer": "C",
+          "explanation": "4 doubling events; * 16 = 1500% increase",
+          "difficulty": 1
+        },
+        {
+          "text": "Suppose there is a linear increase in the number of gene copies within each 3-minute interval. If this is the case, what is the percentage increase in the number of gene copies from the 10-minute mark to the 20-minute mark?",
+          "type": "Multiple Choice",
+          "options": [
             "700%",
             "800%",
             "900%",
             "1000%"
-            ],
-            "answer": "C",
-            "explanation": "(4800 + 3200 – 600 – 200)/(600+200) * 100 = 900% ",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "In order to increase the number of gene copies, the scientists decide to make a modification to the experiment. They will now start with 20% more gene copies (at the 0 minute-mark), the rate of duplication of the gene copies remains unchanged. How many more gene copies would be produced by 21-minute mark due to this change? ",
-            "type": "Multiple Choice",
-            "options": [
-              "1920",
-              "2020",
-              "2120",
-              "2220"
-            ],
-            "answer": "A",
-            "explanation": "75 * 1.2 = 90; 90 * 2^7 =11520; 11520 – 9600 = 1920 ",
-  
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "Within a particular city, a census was carried to determine the highest level of education undertaken by its inhabitants. Assume that all adult citizens responded. The results were tabulated and are displayed below.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/15.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage of all those surveyed within the city were women?",
-            "type": "Multiple Choice",
-            "options": [
-              "40.3%",
-              "45.3%",
-              "50.3%",
-              "55.3%"
-            ],
-            "answer": "C",
-            "explanation": "110989/(110989 + 109543) * 100 = 50.3%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Inhabitants of the city can obtain a doctoral degree from 3 different universities – A, B, C. 40% of doctoral degree holders in the city attended university C. While twice as many doctoral degree holders in the city attended university A than university B. How many doctoral degree holders attended university B?",
-            "type": "Multiple Choice",
-            "options": [
-              "6250",
-              "6410",
-              "7250",
-              "7410"
-            ],
-            "answer": "B",
-            "explanation": "32049 * 0.2 = 6410",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "20% of males with a professional degree work in the healthcare industry and 30% of females with a professional degree (as their highest level of education) work in the healthcare industry in this city. How many workers in the healthcare industry (in this city) have a professional degree as their highest level of education?",
-            "type": "Multiple Choice",
-            "options": [
-              "11722",
-              "12343",
-              "12987",
-              "14562"
-            ],
-            "answer": "A",
-            "explanation": "0.2 * 23501 + 0.3 * 23405 = 11722",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "The census’ data has now become outdated and, now, represents only 87% of inhabitants with a master’s degree as their highest level of education. How many of the city’s inhabitants now have master’s degree as their highest level of education?",
-            "type": "Multiple Choice",
-            "options": [
-              "74979",
-              "86183",
-              "99061",
-              "99134"
-            ],
-            "answer": "C",
-            "explanation": "86183/0.87 = 99061",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following table represents all the fruit and vegetable purchases made by Granny Smith at a grocery store. Beside each item is the number sold to Granny Smith and the price she paid per unit.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/16.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage more did Granny Smith spend on pears than red apples?",
-            "type": "Multiple Choice",
-            "options": [
-              "80%",
-              "180%",
-              "350%",
-              "450%"
-            ],
-            "answer": "C",
-            "explanation": "(5 * 0.45 – 2 * 0.25)/(2 * 0.25) * 100 = 350%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage of the total money spent on fruit and vegetables did Granny Smith spend on lemons?",
-            "type": "Multiple Choice",
-            "options": [
-              "25.0%",
-              "27.3%",
-              "29.6%",
-              "31.9%"
-            ],
-            "answer": "D",
-            "explanation": "Total money = items sold * price (add each item together) – 12.7; 9 * 0.45 / 12.7 * 100 = 31.9%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If Granny Smith decides to donate 1 of each item she bought to the food drive, what percentage of the total money spent was for the food drive?",
-            "type": "Multiple Choice",
-            "options": [
-              "16.9%",
-              "17.9%",
-              "18.9%",
-              "19.9%"
-            ],
-            "answer": "A",
-            "explanation": "Add the price column up / 12.7 * 100 = 16.9%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "The next time she visits the grocery, Granny Smith buys the same items and the same number of each item. However, due to recent droughts, the price of Apples (both green and red) have inflated by 50%. The other items cost the same. What percentage more will Granny Smith end up paying?",
-            "type": "Multiple Choice",
-            "options": [
-              "16.7%",
-              "17.2%",
-              "17.7%",
-              "18.4%"
-            ],
-            "answer": "B",
-            "explanation": "0.125 * 9 / 12.7 * 100 = 17.2%",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The table below depicts the populations of the 10 most populated nations worldwide (as of 2011) in addition to the continent that they are in and the percentage of the world population that they constitute.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/17.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Which of the following is the best estimate of the world’s population as of 2011?",
-            "type": "Multiple Choice",
-            "options": [
-              "70394460",
-              "703944600",
-              "7039446000",
-              "70394460000"
-            ],
-            "answer": "C",
-            "explanation": "China’s population / 0.1914 = ~7039446000",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Given that the world’s population has increased by 3% every year since 2011, approximately what was the world’s population in 2015?",
-            "type": "Multiple Choice",
-            "options": [
-              "7468148458",
-              "7692192912",
-              "7884179728",
-              "7922958670"
-            ],
-            "answer": "D",
-            "explanation": "7039446000 + 1.03^4 = 7922958670",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage larger is the population of China than the combined population of the American (North and South) nations that make up the top 10? ",
-            "type": "Multiple Choice",
-            "options": [
-              "165%",
-              "175%",
-              "185%",
-              "195%"
-            ],
-            "answer": "A",
-            "explanation": "(China – USA – Brazil)/(USA + Brazil) * 100 = 165%",         
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If China’s population grows by 20% (but the populations of all other nations worldwide stay the same), what percentage of the world population would China represent (in 2011)?",
-            "type": "Multiple Choice",
-            "options": [
-              "19.1%",
-              "22.1%",
-              "23.0%",
-              "39.1%"
-            ],
-            "answer": "B",
-            "explanation": "(China * 1.2)/( 7039446000 + China * 0.2) * 100 = 22.1%",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "Inside a cafe the 6 different drinks served are listed with their nutritional information to assist customers.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/18.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "If the recommended daily intake for sugar is 38g, what percentage of a person’s recommended daily sugar intake would 2 cappuccinos from this cafe constitute?",
-            "type": "Multiple Choice",
-            "options": [
-              "15.8%",
-              "31.6% ",
-              "36.8%",
-              "42.51%"
-            ],
-            "answer": "D",
-            "explanation": "16/38 * 100 = 42.1%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage more calories would a person take up by consuming 2 mochas as opposed to 3 Café Lattes from this cafe?",
-            "type": "Multiple Choice",
-            "options": [
-              "13.3%",
-              "15%",
-              "16.7%",
-              "20%"
-            ],
-            "answer": "A",
-            "explanation": "(2 * 170 – 3 * 100)/(3 * 100) * 100 = 13.3%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage higher is the caffeine content of the cold drink compared to the average of the 5 hot drinks at this café?",
-            "type": "Multiple Choice",
-            "options": [
-              "4.2%",
-              "5.2%",
-              "6.2%",
-              "7.2%"
-            ],
-            "answer": "C",
-            "explanation": "(120 – Average of 5 hot drinks)/average of 5 hot drinks * 100 = 6.2%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What is the smallest number of brewed coffees that would one have to drink to consume at least 60% of the calories of one Café Mocha (at this cafe)?",
-            "type": "Multiple Choice",
-            "options": [
-              "25",
-              "26",
-              "42",
-              "43"
-            ],
-            "answer": "B",
-            "explanation": "0.6 * 170 = 102; 102/4 = 25.5",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following pie chat illustrates the ages of students at a particular middle school. There are 1440 students at that middle school and all middle school students are aged between 13 and 16 years. Note: The arrow is pointing to a right angle (90 degrees).",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/19.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage of middle school students are 16 years old?",
-            "type": "Multiple Choice",
-            "options": [
-              "16.7%",
-              "30%",
-              "33.3%",
-              "60%"
-            ],
-            "answer": "A",
-            "explanation": "60/360 * 100 = 16.7%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "This month, 18 14-year-old students turn 15 and 10 15-year-old students turn 16. These were the only changes in age of middle school students. At the end of this month, what percentage of middle students will be 15 or older?",
-            "type": "Multiple Choice",
-            "options": [
-              "41.3%",
-              "42.3%",
-              "43.3%",
-              "44.3%"
-            ],
-            "answer": "D",
-            "explanation": "(95 + 60)/360 * 1440 + 18 = 638; 638/1440 * 100 = 44.3%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If 20% of 13-year-olds, 40% of 14-year-olds and all those aged 15 or above are studying chemistry in middle school, what percentage of middle school students are studying chemistry?",
-            "type": "Multiple Choice",
-            "options": [
-              "50.47%",
-              "60.83%",
-              "73.33%",
-              "76.42%"
-            ],
-            "answer": "B",
-            "explanation": "0.2 * 0.25 + 0.4 * 115/360 + 155/360 = 0.6083; 60.83%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "The number of teachers in the middle school represent a certain percentage (X%) of the students. For every 10 13/14-year-old students, there is 1 teacher; for every 20 15/16-year-old students, there is 1 teacher. What is X?",
-            "type": "Multiple Choice",
-            "options": [
-              "6.7%",
-              "7.8%",
-              "8.9%",
-              "10.0%"
-            ],
-            "answer": "B",
-            "explanation": "0.1 * (205/360) + 0.05 * (155/360) = 0.078",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following table breaks down the tax rate on income within specified ranges (annually). For example, if David earns $50,000, he will have to pay: 10% of the first $8925, 15% of the next $27325 ($36250 - $8925) and 25% of the final $13750 ($50000 - $36250) on tax. ",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/20.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "If Chris earns $80,000 per year, how much tax does he pay (to the nearest thousand)?",
-            "type": "Multiple Choice",
-            "options": [
-              "$11000",
-              "$14000",
-              "$15000",
-              "$16000"
-            ],
-            "answer": "D",
-            "explanation": "0.1 * 8925 + 0.15 * 27325 + 0.25 * 43750 = 16000",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If Chris earns $80,000 per year, what percentage of his earnings does he get to keep (if he gets to keep all earnings except tax)?",
-            "type": "Multiple Choice",
-            "options": [
-              "20%",
-              "30%",
-              "70%",
-              "80%"
-            ],
-            "answer": "D",
-            "explanation": "(80000 – 16000)/80000 * 100 = 80%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Chris earns twice as much as Matthew but half as much as Davin. Bill earns three times as much as Matthew. Out of the 4 individuals mentioned, who would pay the most tax?",
-            "type": "Multiple Choice",
-            "options": [
-              "Bill",
-              "Davin",
-              "Chris",
-              "Matthew"
-            ],
-            "answer": "B",
-            "explanation": "David earns the most money (4 times that of Matthew) and hence pays the most tax",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What is the most that someone can earn and still pay less than or equal to 20% tax (overall) on their earnings?",
-            "type": "Multiple Choice",
-            "options": [
+          ],
+          "answer": "C",
+          "explanation": "(4800 + 3200 – 600 – 200)/(600+200) * 100 = 900% ",
+          "difficulty": 1
+        },
+        {
+          "text": "In order to increase the number of gene copies, the scientists decide to make a modification to the experiment. They will now start with 20% more gene copies (at the 0 minute-mark), the rate of duplication of the gene copies remains unchanged. How many more gene copies would be produced by 21-minute mark due to this change? ",
+          "type": "Multiple Choice",
+          "options": [
+            "1920",
+            "2020",
+            "2120",
+            "2220"
+          ],
+          "answer": "A",
+          "explanation": "75 * 1.2 = 90; 90 * 2^7 =11520; 11520 – 9600 = 1920 ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Within a particular city, a census was carried to determine the highest level of education undertaken by its inhabitants. Assume that all adult citizens responded. The results were tabulated and are displayed below.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/15.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage of all those surveyed within the city were women?",
+          "type": "Multiple Choice",
+          "options": [
+            "40.3%",
+            "45.3%",
+            "50.3%",
+            "55.3%"
+          ],
+          "answer": "C",
+          "explanation": "110989/(110989 + 109543) * 100 = 50.3%",
+          "difficulty": 1
+        },
+        {
+          "text": "Inhabitants of the city can obtain a doctoral degree from 3 different universities – A, B, C. 40% of doctoral degree holders in the city attended university C. While twice as many doctoral degree holders in the city attended university A than university B. How many doctoral degree holders attended university B?",
+          "type": "Multiple Choice",
+          "options": [
+            "6250",
+            "6410",
+            "7250",
+            "7410"
+          ],
+          "answer": "B",
+          "explanation": "32049 * 0.2 = 6410",
+          "difficulty": 1
+        },
+        {
+          "text": "20% of males with a professional degree work in the healthcare industry and 30% of females with a professional degree (as their highest level of education) work in the healthcare industry in this city. How many workers in the healthcare industry (in this city) have a professional degree as their highest level of education?",
+          "type": "Multiple Choice",
+          "options": [
+            "11722",
+            "12343",
+            "12987",
+            "14562"
+          ],
+          "answer": "A",
+          "explanation": "0.2 * 23501 + 0.3 * 23405 = 11722",
+          "difficulty": 1
+        },
+        {
+          "text": "The census’ data has now become outdated and, now, represents only 87% of inhabitants with a master’s degree as their highest level of education. How many of the city’s inhabitants now have master’s degree as their highest level of education?",
+          "type": "Multiple Choice",
+          "options": [
+            "74979",
+            "86183",
+            "99061",
+            "99134"
+          ],
+          "answer": "C",
+          "explanation": "86183/0.87 = 99061",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following table represents all the fruit and vegetable purchases made by Granny Smith at a grocery store. Beside each item is the number sold to Granny Smith and the price she paid per unit.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/16.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage more did Granny Smith spend on pears than red apples?",
+          "type": "Multiple Choice",
+          "options": [
+            "80%",
+            "180%",
+            "350%",
+            "450%"
+          ],
+          "answer": "C",
+          "explanation": "(5 * 0.45 – 2 * 0.25)/(2 * 0.25) * 100 = 350%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage of the total money spent on fruit and vegetables did Granny Smith spend on lemons?",
+          "type": "Multiple Choice",
+          "options": [
+            "25.0%",
+            "27.3%",
+            "29.6%",
+            "31.9%"
+          ],
+          "answer": "D",
+          "explanation": "Total money = items sold * price (add each item together) – 12.7; 9 * 0.45 / 12.7 * 100 = 31.9%",
+          "difficulty": 1
+        },
+        {
+          "text": "If Granny Smith decides to donate 1 of each item she bought to the food drive, what percentage of the total money spent was for the food drive?",
+          "type": "Multiple Choice",
+          "options": [
+            "16.9%",
+            "17.9%",
+            "18.9%",
+            "19.9%"
+          ],
+          "answer": "A",
+          "explanation": "Add the price column up / 12.7 * 100 = 16.9%",
+          "difficulty": 1
+        },
+        {
+          "text": "The next time she visits the grocery, Granny Smith buys the same items and the same number of each item. However, due to recent droughts, the price of Apples (both green and red) have inflated by 50%. The other items cost the same. What percentage more will Granny Smith end up paying?",
+          "type": "Multiple Choice",
+          "options": [
+            "16.7%",
+            "17.2%",
+            "17.7%",
+            "18.4%"
+          ],
+          "answer": "B",
+          "explanation": "0.125 * 9 / 12.7 * 100 = 17.2%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The table below depicts the populations of the 10 most populated nations worldwide (as of 2011) in addition to the continent that they are in and the percentage of the world population that they constitute.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/17.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Which of the following is the best estimate of the world’s population as of 2011?",
+          "type": "Multiple Choice",
+          "options": [
+            "70394460",
+            "703944600",
+            "7039446000",
+            "70394460000"
+          ],
+          "answer": "C",
+          "explanation": "China’s population / 0.1914 = ~7039446000",
+          "difficulty": 1
+        },
+        {
+          "text": "Given that the world’s population has increased by 3% every year since 2011, approximately what was the world’s population in 2015?",
+          "type": "Multiple Choice",
+          "options": [
+            "7468148458",
+            "7692192912",
+            "7884179728",
+            "7922958670"
+          ],
+          "answer": "D",
+          "explanation": "7039446000 + 1.03^4 = 7922958670",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage larger is the population of China than the combined population of the American (North and South) nations that make up the top 10? ",
+          "type": "Multiple Choice",
+          "options": [
+            "165%",
+            "175%",
+            "185%",
+            "195%"
+          ],
+          "answer": "A",
+          "explanation": "(China – USA – Brazil)/(USA + Brazil) * 100 = 165%",
+          "difficulty": 1
+        },
+        {
+          "text": "If China’s population grows by 20% (but the populations of all other nations worldwide stay the same), what percentage of the world population would China represent (in 2011)?",
+          "type": "Multiple Choice",
+          "options": [
+            "19.1%",
+            "22.1%",
+            "23.0%",
+            "39.1%"
+          ],
+          "answer": "B",
+          "explanation": "(China * 1.2)/( 7039446000 + China * 0.2) * 100 = 22.1%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Inside a cafe the 6 different drinks served are listed with their nutritional information to assist customers.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/18.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "If the recommended daily intake for sugar is 38g, what percentage of a person’s recommended daily sugar intake would 2 cappuccinos from this cafe constitute?",
+          "type": "Multiple Choice",
+          "options": [
+            "15.8%",
+            "31.6% ",
+            "36.8%",
+            "42.51%"
+          ],
+          "answer": "D",
+          "explanation": "16/38 * 100 = 42.1%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage more calories would a person take up by consuming 2 mochas as opposed to 3 Café Lattes from this cafe?",
+          "type": "Multiple Choice",
+          "options": [
+            "13.3%",
+            "15%",
+            "16.7%",
+            "20%"
+          ],
+          "answer": "A",
+          "explanation": "(2 * 170 – 3 * 100)/(3 * 100) * 100 = 13.3%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage higher is the caffeine content of the cold drink compared to the average of the 5 hot drinks at this café?",
+          "type": "Multiple Choice",
+          "options": [
+            "4.2%",
+            "5.2%",
+            "6.2%",
+            "7.2%"
+          ],
+          "answer": "C",
+          "explanation": "(120 – Average of 5 hot drinks)/average of 5 hot drinks * 100 = 6.2%",
+          "difficulty": 1
+        },
+        {
+          "text": "What is the smallest number of brewed coffees that would one have to drink to consume at least 60% of the calories of one Café Mocha (at this cafe)?",
+          "type": "Multiple Choice",
+          "options": [
+            "25",
+            "26",
+            "42",
+            "43"
+          ],
+          "answer": "B",
+          "explanation": "0.6 * 170 = 102; 102/4 = 25.5",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following pie chat illustrates the ages of students at a particular middle school. There are 1440 students at that middle school and all middle school students are aged between 13 and 16 years. Note: The arrow is pointing to a right angle (90 degrees).",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/19.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage of middle school students are 16 years old?",
+          "type": "Multiple Choice",
+          "options": [
+            "16.7%",
+            "30%",
+            "33.3%",
+            "60%"
+          ],
+          "answer": "A",
+          "explanation": "60/360 * 100 = 16.7%",
+          "difficulty": 1
+        },
+        {
+          "text": "This month, 18 14-year-old students turn 15 and 10 15-year-old students turn 16. These were the only changes in age of middle school students. At the end of this month, what percentage of middle students will be 15 or older?",
+          "type": "Multiple Choice",
+          "options": [
+            "41.3%",
+            "42.3%",
+            "43.3%",
+            "44.3%"
+          ],
+          "answer": "D",
+          "explanation": "(95 + 60)/360 * 1440 + 18 = 638; 638/1440 * 100 = 44.3%",
+          "difficulty": 1
+        },
+        {
+          "text": "If 20% of 13-year-olds, 40% of 14-year-olds and all those aged 15 or above are studying chemistry in middle school, what percentage of middle school students are studying chemistry?",
+          "type": "Multiple Choice",
+          "options": [
+            "50.47%",
+            "60.83%",
+            "73.33%",
+            "76.42%"
+          ],
+          "answer": "B",
+          "explanation": "0.2 * 0.25 + 0.4 * 115/360 + 155/360 = 0.6083; 60.83%",
+          "difficulty": 1
+        },
+        {
+          "text": "The number of teachers in the middle school represent a certain percentage (X%) of the students. For every 10 13/14-year-old students, there is 1 teacher; for every 20 15/16-year-old students, there is 1 teacher. What is X?",
+          "type": "Multiple Choice",
+          "options": [
+            "6.7%",
+            "7.8%",
+            "8.9%",
+            "10.0%"
+          ],
+          "answer": "B",
+          "explanation": "0.1 * (205/360) + 0.05 * (155/360) = 0.078",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following table breaks down the tax rate on income within specified ranges (annually). For example, if David earns $50,000, he will have to pay: 10% of the first $8925, 15% of the next $27325 ($36250 - $8925) and 25% of the final $13750 ($50000 - $36250) on tax. ",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/20.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "If Chris earns $80,000 per year, how much tax does he pay (to the nearest thousand)?",
+          "type": "Multiple Choice",
+          "options": [
+            "$11000",
+            "$14000",
+            "$15000",
+            "$16000"
+          ],
+          "answer": "D",
+          "explanation": "0.1 * 8925 + 0.15 * 27325 + 0.25 * 43750 = 16000",
+          "difficulty": 1
+        },
+        {
+          "text": "If Chris earns $80,000 per year, what percentage of his earnings does he get to keep (if he gets to keep all earnings except tax)?",
+          "type": "Multiple Choice",
+          "options": [
+            "20%",
+            "30%",
+            "70%",
+            "80%"
+          ],
+          "answer": "D",
+          "explanation": "(80000 – 16000)/80000 * 100 = 80%",
+          "difficulty": 1
+        },
+        {
+          "text": "Chris earns twice as much as Matthew but half as much as Davin. Bill earns three times as much as Matthew. Out of the 4 individuals mentioned, who would pay the most tax?",
+          "type": "Multiple Choice",
+          "options": [
+            "Bill",
+            "Davin",
+            "Chris",
+            "Matthew"
+          ],
+          "answer": "B",
+          "explanation": "David earns the most money (4 times that of Matthew) and hence pays the most tax",
+          "difficulty": 1
+        },
+        {
+          "text": "What is the most that someone can earn and still pay less than or equal to 20% tax (overall) on their earnings?",
+          "type": "Multiple Choice",
+          "options": [
             "72350",
             "81425",
             "84595",
             "99950"
-            ],
-            "answer": "B",
-            "explanation": "From question 78 we know that Chris pays 20% tax and earns $80K. So anything slightly more than $80K will correlate to less than 20% tax",
-  
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following graph illustrates the change in average house price (in thousands) within a particular neighbourhood. In order to buy a house in this neighbourhood, buyers must pay an extra 8% in stamp duty (tax) in addition to the house price.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/21.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What was the approximate percentage rise in average house prices in this neighbourhood between January and April 2019?",
-            "type": "Multiple Choice",
-            "options": [
-              "7.8%",
-              "11.5%",
-              "12.1%",
-              "14.3%"
-            ],
-            "answer": "C",
-            "explanation": "(179 – 166)/166 * 100 = 7.8%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What was the approximate percentage rise in the average price paid by buyers for a house in the neighbourhood between February and October 2019?",
-            "type": "Multiple Choice",
-            "options": [
-              "1%",
-              "2%",
-              "3%",
-              "6%"
-            ],
-            "answer": "C",
-            "explanation": "(172 – 167)/167 * 100 = 3%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "How much more would Chris have to pay for a house that is 10% above the neighbourhood’s average house price in August as opposed to December 2019?",
-            "type": "Multiple Choice",
-            "options": [
-              "$11000",
-              "$11880",
-              "$12000",
-              "$12880"
-            ],
-            "answer": "B",
-            "explanation": "184 * 1.1 * 1.08 – 174 * 1.1 * 1.08 = $11.88 (K)",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Jim takes out a complete loan to pay for his house. He bought the house in June 2019 and it was 80% of the average house price in the neighbourhood at the time. The loan has an interest rate of 3% per annum - i.e/ the amount he has to pay back increases by 3% (from the previous year) every year. If he pays off his loan 4 years after taking the loan (in one go), how much money would he have to pay (to the nearest $5000)?",
-            "type": "Multiple Choice",
-            "options": [
-              "$180000",
-              "$185000",
-              "$190000",
-              "$195000"
-            ],
-            "answer": "A",
-            "explanation": "184 * 0.8 * 1.08 * 1.03^4 = $180000",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following table compares the average study time of 10 students in a year 4 class with the grade that they ended up receiving in a math test.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/22.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage higher was Cindy’s score than the average score achieved by the 10 students?",
-            "type": "Multiple Choice",
-            "options": [
-              "3.72%",
-              "3.85%",
-              "3.95%",
-              "3.97%"
-            ],
-            "answer": "D",
-            "explanation": "1(92 – Average)/Average * 100 = 3.95% (average = sum of all scores/10)",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage longer did Bob have to study for to match the average study time of the 9 other students?",
-            "type": "Multiple Choice",
-            "options": [
-              "69.4%",
-              "72.4%",
-              "77.4%",
-              "81.4%"
-            ],
-            "answer": "A",
-            "explanation": "(Average – Bob)/Bob * 100 = 69.4%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "In order to reduce the range of grades by 25%:",
-            "type": "Multiple Choice",
-            "options": [
-              "Thomas should have scored 4 marks lower",
-              "Thomas should have scored 2 marks higher",
-              "Marisa should have scored 2 marks lower",
-              "Marisa should have scored 4 marks higher"
-            ],
-            "answer": "D",
-            "explanation": "16 * 0.75 = 12; lowest score should’ve scored 4 marks higher",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "The average grade associated with the most reoccurring study time was what percentage higher than the average grade of all 10 students?",
-            "type": "Multiple Choice",
-            "options": [
-              "1.8%",
-              "2.4%",
-              "2.5%",
-              "2.7%"
-            ],
-            "answer": "B",
-            "explanation": "(93 + 88 + 91)/3 = 90.7; (90.7 – average)/average * 100 = 2.4%",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The table below represents the number of male and female first-year students participating in a variety of sports clubs at a university. All the possible sports clubs are shown. Each student can join at most 1 club. There are 500 first-year students at the university.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/23.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage of first-year students did not join a sports club?",
-            "type": "Multiple Choice",
-            "options": [
-              "3.7%",
-              "4.2%",
-              "4.4%",
-              "6.3%"
-            ],
-            "answer": "C",
-            "explanation": "500 – Sum of all students in the table = 22; 22/500 * 100 = 4.4%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage of the first-year students are male?",
-            "type": "Multiple Choice",
-            "options": [
-              "47%",
-              "50%",
-              "53%",
-              "Can’t tell"
-            ],
-            "answer": "D",
-            "explanation": "We don’t know how many male and female students didn’t join a sports club",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Given that a random first-year student is male who has joined a sports club, what is the probably that they have joined a sports club with the word ‘ball’ in its name?",
-            "type": "Multiple Choice",
-            "options": [
-              "5.4%",
-              "11.1%",
-              "11.5%",
-              "16.5%"
-            ],
-            "answer": "D",
-            "explanation": "Number of males in sports clubs with the word ‘ball’ in its name/number of males in a sports club * 100 = 16.5%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage more male than females first-year students joined a sports club at the university?",
-            "type": "Multiple Choice",
-            "options": [
-              "16.9%",
-              "20.3%",
-              "32.1%",
-              "36.4%"
-            ],
-            "answer": "A",
-            "explanation": "(Sum of male students in a sports club – sum of female students in a sports club)/(sum of female students in a sports club) * 100 = 16.9%",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following graph illustrates the average waiting time to see a GP at a clinic. After waiting, patients can see the GP for either a 15-minute or 30-minute consultation. 15-minute consultations cost $80 while 30-minute consultations cost $150. If a patient has been waiting for more than 1 hour, they are bulk billed – i.e. 20% of the consultation fee is waived.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/24.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Zara sees her GP at the clinic on a Monday for a 15-minute consultation. She will only pay:",
-            "type": "Multiple Choice",
-            "options": [
-              "$16",
-              "$64",
-              "$80",
-              "Can’t tell"
-            ],
-            "answer": "D",
-            "explanation": "The graph illustrates only the average waiting time",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Chris goes to see his GP on a Tuesday and has to wait twice the average waiting time. He subsequently sees his GP for a consultation. Chris only pays:",
-            "type": "Multiple Choice",
-            "options": [
-              "$30",
-              "$120 ",
-              "$150",
-              "Can’t tell"
-            ],
-            "answer": "D",
-            "explanation": "We don’t know whether Chris has booked a 15-minute or 30-minute consultation",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If 35% of the patients seen throughout the course of the week are seen on Monday, 20% on a Tuesday, 15% on a Wednesday, 10% on a Thursday and 20% on a Friday, what would be the average wait time for all patients seen throughout that week?",
-            "type": "Multiple Choice",
-            "options": [
-              "40 minutes",
-              "55.5 minutes",
-              "64 minutes",
-              "73.5 minutes"
-            ],
-            "answer": "D",
-            "explanation": "0.35 * 120 + 0.2 * 40 + 0.15 * 30 + 0.10 *  40 + 0.2 * 80 = 73.5",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What is the greatest percentage increase in average waiting time from one weekday the next (consecutively)?",
-            "type": "Multiple Choice",
-            "options": [
-              "100%",
-              "200%",
-              "300%",
-              "400%"
-            ],
-            "answer": "A",
-            "explanation": "Thursday (40) to Friday (80)",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following infographic represents the percentage of men and women in various workforce organisations/ industries in a particular country. All 15 million members of the workforce in this country work in these industries.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/25.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Given that 4 million workers work in healthcare, how many more women than men work in healthcare in this country?",
-            "type": "Multiple Choice",
-            "options": [
-              "0.44 million",
-              "0.88 million",
-              "1.56 million",
-              "2.44 million"
-            ],
-            "answer": "B",
-            "explanation": "0.22 * 4 = 0.88 million",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage increase in the number of male healthcare workers must be observed so that 50% of workers are male and 50% female in the healthcare industry in this country?",
-            "type": "Multiple Choice",
-            "options": [
-              "28%",
-              "32%",
-              "56%",
-              "64%"
-            ],
-            "answer": "C",
-            "explanation": "(61 – 39)/39 * 100 = 56",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Given that 6 million workers work in male dominated industries (where the percentage of males is greater than that of females) and the same number of workers work in each of these industries, how many females work in finance in this country?",
-            "type": "Multiple Choice",
-            "options": [
-              "230000",
-              "270000",
-              "410000",
-              "590000"
-            ],
-            "answer": "C",
-            "explanation": "0.41 * (6 million/6) = 410000",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "6 million workers work in male dominated industries (where the percentage of males is greater than that of females) and the same number of workers work in each of these industries. If X more females and X less males work in energy and mining, it will no longer be considered a male dominated industry. What is the smallest possible number that X represents?",
-            "type": "Multiple Choice",
-            "options": [
-              "250000",
-              "500000",
-              "750000",
-              "1000000"
-            ],
-            "answer": "A",
-            "explanation": "(0.75 – 0.25)/2 *  (6 million/6) = 250000",
-                      "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "A number of students attended a school festival where they had chance to purchase 1 food item (hot dogs/ pizzas) and 1 drink (soda/ water). Some students chose to purchase both a food item and a drink while others chose to purchase neither. The results are tabulated below.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/26.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage of students purchased a food item?",
-            "type": "Multiple Choice",
-            "options": [
-              "70%",
-              "75%",
-              "80%",
-              "85%"
-            ],
-            "answer": "D",
-            "explanation": "(200 – 30)/200 * 100 = 85%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage of students purchased a food item or a drink?",
-            "type": "Multiple Choice",
-            "options": [
-              "90%",
-              "92.5%",
-              "95%",
-              "97.5%"
-            ],
-            "answer": "D",
-            "explanation": "(Sum of all data – 10)/Sum of all data * 100 = 97/5%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Of those who purchased a food item or a drink, what percentage just purchased a drink?",
-            "type": "Multiple Choice",
-            "options": [
-              "5.1%",
-              "7.7%",
-              "12.8%",
-              "15.0%"
-            ],
-            "answer": "C",
-            "explanation": "50/(Sum of all data – 10) * 100 = 12.8%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Each hotdog was sold for 50% more than each pizza. What percentage more money was made from selling hotdogs than pizzas (in total)?",
-            "type": "Multiple Choice",
-            "options": [
-              "30.2%",
-              "44.8%",
-              "50%",
-              "Not enough information"
-            ],
-            "answer": "A",
-            "explanation": "(50 + 62 + 46) * 1.5 = 237; 120 + 58 + 4 = 182; (237 – 182)/182 * 100 = 30.2%",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following graph illustrates the sales of fiction books based on genre within a country – from 2006 to 2010. Assume there are only 5 genres of fiction books.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/27.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Approximately what was the percentage increase in romance sales between 2006 and 2007?",
-            "type": "Multiple Choice",
-            "options": [
-              "32%",
-              "35%",
-              "40%",
-              "44%"
-            ],
-            "answer": "C",
-            "explanation": "(115 – 83)/83 * 100 = ~40%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Approximately what percentage of total fictional book sales in 2007 can be attributed to those in the mystery genre?",
-            "type": "Multiple Choice",
-            "options": [
-              "29%",
-              "33%",
-              "37%",
-              "38% "
-            ],
-            "answer": "A",
-            "explanation": "82/(Sum of all other genres in 2007) * 100 = ~29%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If the percentage increase in the sales of young adult books from 2009 to 2010 is equal to the percentage increase in the sales of romance books from 2010 to 2011, what is the best estimate of the sales of romance books in 2011?",
-            "type": "Multiple Choice",
-            "options": [
-              "92400",
-              "94800",
-              "97650",
-              "99900"
-            ],
-            "answer": "B",
-            "explanation": "(29 – 26)/26 = 0.11; 1.11 * 86 = ~94.8 (K)",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Between which 2 years was the percentage increase in the sales of young adult books the highest?",
-            "type": "Multiple Choice",
-            "options": [
-              "2006-2007",
-              "2007-2008",
-              "2008-2009",
-              "2009-2010"
-            ],
-            "answer": "C",
-            "explanation": "Decrease from 2006 to 2007 and 2007 to 2008 could be seen and only a slight increase from 2009 to 2010. Hence, the answer is 2008-2009",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "A number of individuals were surveyed about the number of children they have. Respondents also varied in age. The following probability table illustrates the probability of randomly selecting an individual with a given number of children and age from the batch of respondents.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/28.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "What percentage of respondents have children?",
-            "type": "Multiple Choice",
-            "options": [
-              "19%",
-              "20%",
-              "61%",
-              "81%"
-            ],
-            "answer": "D",
-            "explanation": "1 – 0.020. – 0.07 – 0.10 = 0.81",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage of respondents are younger than 30 or had 3 or more children?",
-            "type": "Multiple Choice",
-            "options": [
-              "73%",
-              "80%",
-              "84%",
-              "90%"
-            ],
-            "answer": "B",
-            "explanation": "1 – 0.10 – 0.10 – 0.01 + 0.01 = 0.80",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Given that a randomly selected respondent has children, what is the chance that they are under 30?",
-            "type": "Multiple Choice",
-            "options": [
-              "86.4%",
-              "89.1%",
-              "90.0%",
-              "93.9%"
-            ],
-            "answer": "A",
-            "explanation": "(0.81 – 0.01 – 0.10)/0.81 * 100 = 86.4%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If 250 respondents have 2 children and a total of 1000 individuals were surveyed. How many respondents have 1 child?",
-            "type": "Multiple Choice",
-            "options": [
-              "300",
-              "360",
-              "400",
-              "Can’t tell"
-            ],
-            "answer": "B",
-            "explanation": "0.14 + 0.37 + 0.1 = 0.61; 0.61 * 1000 = 610; 610 – 250 = 360",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following pie chart illustrates the types and relative monetary sales of food sold at a supermarket on a given week. $260 worth of sardines was sold at the supermarket on that week.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/29.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "How many dollars’ worth of hot dogs were sold?",
-            "type": "Multiple Choice",
-            "options": [
-              "440",
-              "450",
-              "460",
-              "470"
-            ],
-            "answer": "D",
-            "explanation": "14.1/7.8 * 260 = 470",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If the same amount of sales occurred for pizza, wine and pasta and, collectively, they accounted for twice the amount of hot dog sales, how many dollars’ worth of pasta was sold?",
-            "type": "Multiple Choice",
-            "options": [
-              "$156.67",
-              "$200.00",
-              "$313.33",
-              "$400.00"
-            ],
-            "answer": "C",
-            "explanation": "470 * 2 = 940; 940/3 = $313.33",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "If the supermarket sourced (bought) the bologna for 30% of its sale price, how much money was made on bologna sales for that week?",
-            "type": "Multiple Choice",
-            "options": [
-              "$121.10",
-              "$403.67",
-              "$450.33",
-              "$576.67"
-            ],
-            "answer": "B",
-            "explanation": "17.3/7.8 * 260 = 576.7, 576.7 * 0.7 = $403.67",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "That week, 26 units of sardines were sold. The following week, the unit price of sardines was reduced by 15%; however, the number of sales of sardines increased by 15%. Was more money made on sardine sale the following weeks?",
-            "type": "Multiple Choice",
-            "options": [
-              "Yes; almost $6 more",
-              "Yes; almost $12 more",
-              "No; the same money was made",
-              "No; almost $6 less"
-            ],
-            "answer": "D",
-            "explanation": "260/26 = 10; 8.5 * 26 * 1.15 = $254.15; 300 – 254.15 = ~$6",
-            "difficulty": 1
-          }
-        ]
-      }
-      
-      {
-        "text": "The following table compares the average temperature in January 2010 (in a number of stations) with the historical ‘normal’ average temperature. All temperatures are given in degrees Fahrenheit.",
-        "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/30.JPG",
-        "category_id": 9,
-        "questions": [
-          {
-            "text": "Which station recorded the greatest percentage increase in average January 2010 temperature compared to the normal average temperature?",
-            "type": "Multiple Choice",
-            "options": [
-              "Spokane",
-              "Yakima",
-              "Wenatchee",
-              "SeaTac Airport"
-            ],
-            "answer": "A",
-            "explanation": "Spokane noted the highest increase (7.8) and had the lowest normal avg temperature; hence, the greatest percentage increase would’ve been noted in Spokane",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "Which station recorded the lowest percentage increase in average January 2010 temperature compared to the normal average temperature?",
-            "type": "Multiple Choice",
-            "options": [
-              "Spokane ",
-              "Bellingham",
-              "Olympia",
-              "Hoquiam"
-            ],
-            "answer": "D",
-            "explanation": "Hoquiam noted the lowest increase (4.4) and had the highest normal avg temperature; hence, the lowest percentage increase would’ve been noted in Spokane",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "What percentage higher is Belligham’s normal average temperature than the average of the 8 other cities’ normal average temperature?",
-            "type": "Multiple Choice",
-            "options": [
-              "9.4%",
-              "9.5%",
-              "9.8%",
-              "9.9%"
-            ],
-            "answer": "D",
-            "explanation": "(38.6 – Average)/average * 100 = 9.9%",          
-            "difficulty": 1
-          }
-        ]
-      },
-          {
-            "text": "To covert degrees Fahrenheit to degrees Celsius you: Subtract 32 from the Fahrenheit value and multiply by 5/9. What percentage higher is the degrees Fahrenheit value of Wenatchee’s average January 2010 temperature than the degrees Celsius value?",
-            "type": "Multiple Choice",
-            "options": [
-              "270%",
-              "370%",
-              "2700%",
-              "2800%"
-            ],
-            "answer": "C",
-            "explanation": "34.3; 34.2 – 32 = 2.2; 2.2 * 5/9 = 1.22; (34.2 – 1.22)/1.22 * 100 = ~2700%",
-            "difficulty": 1
-          }
-        ]
-      }
-        ]
-      }
+          ],
+          "answer": "B",
+          "explanation": "From question 78 we know that Chris pays 20% tax and earns $80K. So anything slightly more than $80K will correlate to less than 20% tax",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following graph illustrates the change in average house price (in thousands) within a particular neighbourhood. In order to buy a house in this neighbourhood, buyers must pay an extra 8% in stamp duty (tax) in addition to the house price.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/21.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What was the approximate percentage rise in average house prices in this neighbourhood between January and April 2019?",
+          "type": "Multiple Choice",
+          "options": [
+            "7.8%",
+            "11.5%",
+            "12.1%",
+            "14.3%"
+          ],
+          "answer": "C",
+          "explanation": "(179 – 166)/166 * 100 = 7.8%",
+          "difficulty": 1
+        },
+        {
+          "text": "What was the approximate percentage rise in the average price paid by buyers for a house in the neighbourhood between February and October 2019?",
+          "type": "Multiple Choice",
+          "options": [
+            "1%",
+            "2%",
+            "3%",
+            "6%"
+          ],
+          "answer": "C",
+          "explanation": "(172 – 167)/167 * 100 = 3%",
+          "difficulty": 1
+        },
+        {
+          "text": "How much more would Chris have to pay for a house that is 10% above the neighbourhood’s average house price in August as opposed to December 2019?",
+          "type": "Multiple Choice",
+          "options": [
+            "$11000",
+            "$11880",
+            "$12000",
+            "$12880"
+          ],
+          "answer": "B",
+          "explanation": "184 * 1.1 * 1.08 – 174 * 1.1 * 1.08 = $11.88 (K)",
+          "difficulty": 1
+        },
+        {
+          "text": "Jim takes out a complete loan to pay for his house. He bought the house in June 2019 and it was 80% of the average house price in the neighbourhood at the time. The loan has an interest rate of 3% per annum - i.e/ the amount he has to pay back increases by 3% (from the previous year) every year. If he pays off his loan 4 years after taking the loan (in one go), how much money would he have to pay (to the nearest $5000)?",
+          "type": "Multiple Choice",
+          "options": [
+            "$180000",
+            "$185000",
+            "$190000",
+            "$195000"
+          ],
+          "answer": "A",
+          "explanation": "184 * 0.8 * 1.08 * 1.03^4 = $180000",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following table compares the average study time of 10 students in a year 4 class with the grade that they ended up receiving in a math test.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/22.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage higher was Cindy’s score than the average score achieved by the 10 students?",
+          "type": "Multiple Choice",
+          "options": [
+            "3.72%",
+            "3.85%",
+            "3.95%",
+            "3.97%"
+          ],
+          "answer": "D",
+          "explanation": "1(92 – Average)/Average * 100 = 3.95% (average = sum of all scores/10)",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage longer did Bob have to study for to match the average study time of the 9 other students?",
+          "type": "Multiple Choice",
+          "options": [
+            "69.4%",
+            "72.4%",
+            "77.4%",
+            "81.4%"
+          ],
+          "answer": "A",
+          "explanation": "(Average – Bob)/Bob * 100 = 69.4%",
+          "difficulty": 1
+        },
+        {
+          "text": "In order to reduce the range of grades by 25%:",
+          "type": "Multiple Choice",
+          "options": [
+            "Thomas should have scored 4 marks lower",
+            "Thomas should have scored 2 marks higher",
+            "Marisa should have scored 2 marks lower",
+            "Marisa should have scored 4 marks higher"
+          ],
+          "answer": "D",
+          "explanation": "16 * 0.75 = 12; lowest score should’ve scored 4 marks higher",
+          "difficulty": 1
+        },
+        {
+          "text": "The average grade associated with the most reoccurring study time was what percentage higher than the average grade of all 10 students?",
+          "type": "Multiple Choice",
+          "options": [
+            "1.8%",
+            "2.4%",
+            "2.5%",
+            "2.7%"
+          ],
+          "answer": "B",
+          "explanation": "(93 + 88 + 91)/3 = 90.7; (90.7 – average)/average * 100 = 2.4%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The table below represents the number of male and female first-year students participating in a variety of sports clubs at a university. All the possible sports clubs are shown. Each student can join at most 1 club. There are 500 first-year students at the university.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/23.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage of first-year students did not join a sports club?",
+          "type": "Multiple Choice",
+          "options": [
+            "3.7%",
+            "4.2%",
+            "4.4%",
+            "6.3%"
+          ],
+          "answer": "C",
+          "explanation": "500 – Sum of all students in the table = 22; 22/500 * 100 = 4.4%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage of the first-year students are male?",
+          "type": "Multiple Choice",
+          "options": [
+            "47%",
+            "50%",
+            "53%",
+            "Can’t tell"
+          ],
+          "answer": "D",
+          "explanation": "We don’t know how many male and female students didn’t join a sports club",
+          "difficulty": 1
+        },
+        {
+          "text": "Given that a random first-year student is male who has joined a sports club, what is the probably that they have joined a sports club with the word ‘ball’ in its name?",
+          "type": "Multiple Choice",
+          "options": [
+            "5.4%",
+            "11.1%",
+            "11.5%",
+            "16.5%"
+          ],
+          "answer": "D",
+          "explanation": "Number of males in sports clubs with the word ‘ball’ in its name/number of males in a sports club * 100 = 16.5%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage more male than females first-year students joined a sports club at the university?",
+          "type": "Multiple Choice",
+          "options": [
+            "16.9%",
+            "20.3%",
+            "32.1%",
+            "36.4%"
+          ],
+          "answer": "A",
+          "explanation": "(Sum of male students in a sports club – sum of female students in a sports club)/(sum of female students in a sports club) * 100 = 16.9%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following graph illustrates the average waiting time to see a GP at a clinic. After waiting, patients can see the GP for either a 15-minute or 30-minute consultation. 15-minute consultations cost $80 while 30-minute consultations cost $150. If a patient has been waiting for more than 1 hour, they are bulk billed – i.e. 20% of the consultation fee is waived.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/24.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Zara sees her GP at the clinic on a Monday for a 15-minute consultation. She will only pay:",
+          "type": "Multiple Choice",
+          "options": [
+            "$16",
+            "$64",
+            "$80",
+            "Can’t tell"
+          ],
+          "answer": "D",
+          "explanation": "The graph illustrates only the average waiting time",
+          "difficulty": 1
+        },
+        {
+          "text": "Chris goes to see his GP on a Tuesday and has to wait twice the average waiting time. He subsequently sees his GP for a consultation. Chris only pays:",
+          "type": "Multiple Choice",
+          "options": [
+            "$30",
+            "$120 ",
+            "$150",
+            "Can’t tell"
+          ],
+          "answer": "D",
+          "explanation": "We don’t know whether Chris has booked a 15-minute or 30-minute consultation",
+          "difficulty": 1
+        },
+        {
+          "text": "If 35% of the patients seen throughout the course of the week are seen on Monday, 20% on a Tuesday, 15% on a Wednesday, 10% on a Thursday and 20% on a Friday, what would be the average wait time for all patients seen throughout that week?",
+          "type": "Multiple Choice",
+          "options": [
+            "40 minutes",
+            "55.5 minutes",
+            "64 minutes",
+            "73.5 minutes"
+          ],
+          "answer": "D",
+          "explanation": "0.35 * 120 + 0.2 * 40 + 0.15 * 30 + 0.10 *  40 + 0.2 * 80 = 73.5",
+          "difficulty": 1
+        },
+        {
+          "text": "What is the greatest percentage increase in average waiting time from one weekday the next (consecutively)?",
+          "type": "Multiple Choice",
+          "options": [
+            "100%",
+            "200%",
+            "300%",
+            "400%"
+          ],
+          "answer": "A",
+          "explanation": "Thursday (40) to Friday (80)",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following infographic represents the percentage of men and women in various workforce organisations/ industries in a particular country. All 15 million members of the workforce in this country work in these industries.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/25.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Given that 4 million workers work in healthcare, how many more women than men work in healthcare in this country?",
+          "type": "Multiple Choice",
+          "options": [
+            "0.44 million",
+            "0.88 million",
+            "1.56 million",
+            "2.44 million"
+          ],
+          "answer": "B",
+          "explanation": "0.22 * 4 = 0.88 million",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage increase in the number of male healthcare workers must be observed so that 50% of workers are male and 50% female in the healthcare industry in this country?",
+          "type": "Multiple Choice",
+          "options": [
+            "28%",
+            "32%",
+            "56%",
+            "64%"
+          ],
+          "answer": "C",
+          "explanation": "(61 – 39)/39 * 100 = 56",
+          "difficulty": 1
+        },
+        {
+          "text": "Given that 6 million workers work in male dominated industries (where the percentage of males is greater than that of females) and the same number of workers work in each of these industries, how many females work in finance in this country?",
+          "type": "Multiple Choice",
+          "options": [
+            "230000",
+            "270000",
+            "410000",
+            "590000"
+          ],
+          "answer": "C",
+          "explanation": "0.41 * (6 million/6) = 410000",
+          "difficulty": 1
+        },
+        {
+          "text": "6 million workers work in male dominated industries (where the percentage of males is greater than that of females) and the same number of workers work in each of these industries. If X more females and X less males work in energy and mining, it will no longer be considered a male dominated industry. What is the smallest possible number that X represents?",
+          "type": "Multiple Choice",
+          "options": [
+            "250000",
+            "500000",
+            "750000",
+            "1000000"
+          ],
+          "answer": "A",
+          "explanation": "(0.75 – 0.25)/2 *  (6 million/6) = 250000",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A number of students attended a school festival where they had chance to purchase 1 food item (hot dogs/ pizzas) and 1 drink (soda/ water). Some students chose to purchase both a food item and a drink while others chose to purchase neither. The results are tabulated below.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/26.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage of students purchased a food item?",
+          "type": "Multiple Choice",
+          "options": [
+            "70%",
+            "75%",
+            "80%",
+            "85%"
+          ],
+          "answer": "D",
+          "explanation": "(200 – 30)/200 * 100 = 85%",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage of students purchased a food item or a drink?",
+          "type": "Multiple Choice",
+          "options": [
+            "90%",
+            "92.5%",
+            "95%",
+            "97.5%"
+          ],
+          "answer": "D",
+          "explanation": "(Sum of all data – 10)/Sum of all data * 100 = 97/5%",
+          "difficulty": 1
+        },
+        {
+          "text": "Of those who purchased a food item or a drink, what percentage just purchased a drink?",
+          "type": "Multiple Choice",
+          "options": [
+            "5.1%",
+            "7.7%",
+            "12.8%",
+            "15.0%"
+          ],
+          "answer": "C",
+          "explanation": "50/(Sum of all data – 10) * 100 = 12.8%",
+          "difficulty": 1
+        },
+        {
+          "text": "Each hotdog was sold for 50% more than each pizza. What percentage more money was made from selling hotdogs than pizzas (in total)?",
+          "type": "Multiple Choice",
+          "options": [
+            "30.2%",
+            "44.8%",
+            "50%",
+            "Not enough information"
+          ],
+          "answer": "A",
+          "explanation": "(50 + 62 + 46) * 1.5 = 237; 120 + 58 + 4 = 182; (237 – 182)/182 * 100 = 30.2%",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following graph illustrates the sales of fiction books based on genre within a country – from 2006 to 2010. Assume there are only 5 genres of fiction books.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/27.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Approximately what was the percentage increase in romance sales between 2006 and 2007?",
+          "type": "Multiple Choice",
+          "options": [
+            "32%",
+            "35%",
+            "40%",
+            "44%"
+          ],
+          "answer": "C",
+          "explanation": "(115 – 83)/83 * 100 = ~40%",
+          "difficulty": 1
+        },
+        {
+          "text": "Approximately what percentage of total fictional book sales in 2007 can be attributed to those in the mystery genre?",
+          "type": "Multiple Choice",
+          "options": [
+            "29%",
+            "33%",
+            "37%",
+            "38% "
+          ],
+          "answer": "A",
+          "explanation": "82/(Sum of all other genres in 2007) * 100 = ~29%",
+          "difficulty": 1
+        },
+        {
+          "text": "If the percentage increase in the sales of young adult books from 2009 to 2010 is equal to the percentage increase in the sales of romance books from 2010 to 2011, what is the best estimate of the sales of romance books in 2011?",
+          "type": "Multiple Choice",
+          "options": [
+            "92400",
+            "94800",
+            "97650",
+            "99900"
+          ],
+          "answer": "B",
+          "explanation": "(29 – 26)/26 = 0.11; 1.11 * 86 = ~94.8 (K)",
+          "difficulty": 1
+        },
+        {
+          "text": "Between which 2 years was the percentage increase in the sales of young adult books the highest?",
+          "type": "Multiple Choice",
+          "options": [
+            "2006-2007",
+            "2007-2008",
+            "2008-2009",
+            "2009-2010"
+          ],
+          "answer": "C",
+          "explanation": "Decrease from 2006 to 2007 and 2007 to 2008 could be seen and only a slight increase from 2009 to 2010. Hence, the answer is 2008-2009",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A number of individuals were surveyed about the number of children they have. Respondents also varied in age. The following probability table illustrates the probability of randomly selecting an individual with a given number of children and age from the batch of respondents.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/28.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "What percentage of respondents have children?",
+          "type": "Multiple Choice",
+          "options": [
+            "19%",
+            "20%",
+            "61%",
+            "81%"
+          ],
+          "answer": "D",
+          "explanation": "1 – 0.020. – 0.07 – 0.10 = 0.81",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage of respondents are younger than 30 or had 3 or more children?",
+          "type": "Multiple Choice",
+          "options": [
+            "73%",
+            "80%",
+            "84%",
+            "90%"
+          ],
+          "answer": "B",
+          "explanation": "1 – 0.10 – 0.10 – 0.01 + 0.01 = 0.80",
+          "difficulty": 1
+        },
+        {
+          "text": "Given that a randomly selected respondent has children, what is the chance that they are under 30?",
+          "type": "Multiple Choice",
+          "options": [
+            "86.4%",
+            "89.1%",
+            "90.0%",
+            "93.9%"
+          ],
+          "answer": "A",
+          "explanation": "(0.81 – 0.01 – 0.10)/0.81 * 100 = 86.4%",
+          "difficulty": 1
+        },
+        {
+          "text": "If 250 respondents have 2 children and a total of 1000 individuals were surveyed. How many respondents have 1 child?",
+          "type": "Multiple Choice",
+          "options": [
+            "300",
+            "360",
+            "400",
+            "Can’t tell"
+          ],
+          "answer": "B",
+          "explanation": "0.14 + 0.37 + 0.1 = 0.61; 0.61 * 1000 = 610; 610 – 250 = 360",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following pie chart illustrates the types and relative monetary sales of food sold at a supermarket on a given week. $260 worth of sardines was sold at the supermarket on that week.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/29.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "How many dollars’ worth of hot dogs were sold?",
+          "type": "Multiple Choice",
+          "options": [
+            "440",
+            "450",
+            "460",
+            "470"
+          ],
+          "answer": "D",
+          "explanation": "14.1/7.8 * 260 = 470",
+          "difficulty": 1
+        },
+        {
+          "text": "If the same amount of sales occurred for pizza, wine and pasta and, collectively, they accounted for twice the amount of hot dog sales, how many dollars’ worth of pasta was sold?",
+          "type": "Multiple Choice",
+          "options": [
+            "$156.67",
+            "$200.00",
+            "$313.33",
+            "$400.00"
+          ],
+          "answer": "C",
+          "explanation": "470 * 2 = 940; 940/3 = $313.33",
+          "difficulty": 1
+        },
+        {
+          "text": "If the supermarket sourced (bought) the bologna for 30% of its sale price, how much money was made on bologna sales for that week?",
+          "type": "Multiple Choice",
+          "options": [
+            "$121.10",
+            "$403.67",
+            "$450.33",
+            "$576.67"
+          ],
+          "answer": "B",
+          "explanation": "17.3/7.8 * 260 = 576.7, 576.7 * 0.7 = $403.67",
+          "difficulty": 1
+        },
+        {
+          "text": "That week, 26 units of sardines were sold. The following week, the unit price of sardines was reduced by 15%; however, the number of sales of sardines increased by 15%. Was more money made on sardine sale the following weeks?",
+          "type": "Multiple Choice",
+          "options": [
+            "Yes; almost $6 more",
+            "Yes; almost $12 more",
+            "No; the same money was made",
+            "No; almost $6 less"
+          ],
+          "answer": "D",
+          "explanation": "260/26 = 10; 8.5 * 26 * 1.15 = $254.15; 300 – 254.15 = ~$6",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "The following table compares the average temperature in January 2010 (in a number of stations) with the historical ‘normal’ average temperature. All temperatures are given in degrees Fahrenheit.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Percentages/Batch 1 (Sahil)/30.JPG",
+      "category_id": 9,
+      "questions": [
+        {
+          "text": "Which station recorded the greatest percentage increase in average January 2010 temperature compared to the normal average temperature?",
+          "type": "Multiple Choice",
+          "options": [
+            "Spokane",
+            "Yakima",
+            "Wenatchee",
+            "SeaTac Airport"
+          ],
+          "answer": "A",
+          "explanation": "Spokane noted the highest increase (7.8) and had the lowest normal avg temperature; hence, the greatest percentage increase would’ve been noted in Spokane",
+          "difficulty": 1
+        },
+        {
+          "text": "Which station recorded the lowest percentage increase in average January 2010 temperature compared to the normal average temperature?",
+          "type": "Multiple Choice",
+          "options": [
+            "Spokane ",
+            "Bellingham",
+            "Olympia",
+            "Hoquiam"
+          ],
+          "answer": "D",
+          "explanation": "Hoquiam noted the lowest increase (4.4) and had the highest normal avg temperature; hence, the lowest percentage increase would’ve been noted in Spokane",
+          "difficulty": 1
+        },
+        {
+          "text": "What percentage higher is Belligham’s normal average temperature than the average of the 8 other cities’ normal average temperature?",
+          "type": "Multiple Choice",
+          "options": [
+            "9.4%",
+            "9.5%",
+            "9.8%",
+            "9.9%"
+          ],
+          "answer": "D",
+          "explanation": "(38.6 – Average)/average * 100 = 9.9%",
+          "difficulty": 1
+        },
+        {
+          "text": "To covert degrees Fahrenheit to degrees Celsius you: Subtract 32 from the Fahrenheit value and multiply by 5/9. What percentage higher is the degrees Fahrenheit value of Wenatchee’s average January 2010 temperature than the degrees Celsius value?",
+          "type": "Multiple Choice",
+          "options": [
+            "270%",
+            "370%",
+            "2700%",
+            "2800%"
+          ],
+          "answer": "C",
+          "explanation": "34.3; 34.2 – 32 = 2.2; 2.2 * 5/9 = 1.22; (34.2 – 1.22)/1.22 * 100 = ~2700%",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

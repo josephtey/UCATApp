@@ -23,14 +23,13 @@
                 "$3,000.00",
                 "$14,285.71",
                 "$4,285.71"
-               ],
+              ],
               "answer": "D",
               "explanation": "If in 1994, 30% of revenue went into costs, then 70% must have gone into profits. If the profit in 1994 was 10,000 dollars, then the total revenue must have been 10,000/0.7 = $14,285.71…, which means the costs = 0.30*14,285.71… = $4,285.71. Therefore, the correct answer is D. ",
               "difficulty": 1,
               "category_id": 21
-          },
-
-          {
+            },
+            {
               "text": "If the company had the same costs in 1996 as 1997, how much more profit did they make in 1997 compared to 1996?",
               "type": "Multiple Choice",
               "options": [
@@ -38,14 +37,13 @@
                 "$4,000",
                 "$6,000",
                 "$10,000"
-               ],
+              ],
               "answer": "B",
               "explanation": "If the costs in 1997 were 12,000 dollars and the costs were the same in 1996, then the profits in 1996 would have been (12,000/0.6)*0.4 = $8,000. The profits in 1997 would have been (12,000/0.5)*0.5 = $12,000. The difference then is $4,000. Therefore, the correct answer is B. ",
               "difficulty": 1,
               "category_id": 9
-          },
-
-          {
+            },
+            {
               "text": "Which of the following must have happened from 1998 to 1999?",
               "type": "Multiple Choice",
               "options": [
@@ -53,14 +51,13 @@
                 "The company’s profit went down",
                 "The company’s revenue went up",
                 "The company’s profits went up"
-               ],
+              ],
               "answer": "B",
               "explanation": "If the company’s revenue went down by 10% from 1998-99, but the costs stayed the same, then the profit must have decreased. Therefore, the correct answer is B. ",
               "difficulty": 1,
               "category_id": 9
-          },
-
-          {
+            },
+            {
               "text": "If they had not closed that factory down in 1997, how much more would they have had to pay in costs?",
               "type": "Multiple Choice",
               "options": [
@@ -68,15 +65,14 @@
                 "$4,000",
                 "$8,000",
                 "$9,000"
-               ],
+              ],
               "answer": "B",
               "explanation": "Their costs currently are $12,000. If they hadn’t closed down the factory and taken the 25% cut to costs, their costs would have been 12,000/0.75 = $16,000. Thus, they would have had to pay $4,000 more in costs. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 21
-          }
+            }
           ]
         },
-
         {
           "text": "The following graph shows the number of certain bacteria found in different parts of the body, in millions. The three types of bacteria are dark grey, light grey and black.",
           "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 10/2.PNG",
@@ -90,14 +86,13 @@
                 "Respiratory",
                 "Urinary",
                 "Not enough information"
-               ],
+              ],
               "answer": "A",
               "explanation": "By observation you can tell that Miscellaneous or Respiratory have the highest amount of bacteria, but Miscellaneous has 125.9 million, whereas Respiratory has 123.3 million. Therefore, the correct answer is A.",
               "difficulty": 1,
               "category_id": 11
-          },
-
-          {
+            },
+            {
               "text": "In the respiratory part of the body, what percentage of the total bacteria is dark grey bacteria?",
               "type": "Multiple Choice",
               "options": [
@@ -105,14 +100,13 @@
                 "25.2%",
                 "25.4%",
                 "29.9%"
-               ],
+              ],
               "answer": "B",
               "explanation": "31.1/123.3 * 100 = 25.2%. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 9
-          },
-
-          {
+            },
+            {
               "text": "Which part of the body has the highest proportion of dark grey bacteria, and what is it?",
               "type": "Multiple Choice",
               "options": [
@@ -120,14 +114,13 @@
                 "Miscellaneous, 0.33",
                 "Respiratory, 0.28",
                 "Urinary, 0.32"
-               ],
+              ],
               "answer": "D",
               "explanation": "Miscellaneous = 38.2/125.9 = 0.30…, Respiratory = 31.3/123.3 = 0.25…, Urinary = 23.2/72.7 = 0.319… = 0.32. Therefore, the correct answer is D.",
               "difficulty": 1,
               "category_id": 10
-          },
-
-          {
+            },
+            {
               "text": "Assuming these 3 parts encompass the whole body, if all the light grey bacteria were killed off, how many less bacteria would there be?",
               "type": "Multiple Choice",
               "options": [
@@ -135,15 +128,14 @@
                 "126,700",
                 "12.67 million",
                 "126,700,000"
-               ],
+              ],
               "answer": "D",
               "explanation": "Green bacteria = 42.8 + 56.3 + 27.6 = 126.7 million. Therefore, the correct answer is D.",
               "difficulty": 1,
               "category_id": 21
-          }
+            }
           ]
         },
-          
         {
           "text": "The following column chart displays the sales of 4 different branches of a certain company across a few years. Assume there were no costs.",
           "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 10/3.PNG",
@@ -157,14 +149,13 @@
                 "$1000",
                 "$200,000",
                 "$1,000,000"
-               ],
+              ],
               "answer": "D",
               "explanation": "200*5 = 1,000 thousand dollars = $1 million. Therefore, the correct answer is D.",
               "difficulty": 1,
               "category_id": 21
-          },
-
-          {
+            },
+            {
               "text": "What percentage of the total sales were contributed by the Southern branch, to the nearest whole percent?",
               "type": "Multiple Choice",
               "options": [
@@ -172,14 +163,13 @@
                 "30%",
                 "27%",
                 "54%"
-               ],
+              ],
               "answer": "B",
               "explanation": "Total sales = 490 + 560 + 605 + 610 + 640 = 2,905 thousand dollars. South sales = 120 + 150 + 180 + 200 + 220 = 870. Thus as a percentage: 870/2,905 = 29.9…% = 30%. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 9
-          },
-
-          {
+            },
+            {
               "text": "What was the average total sales for the Eastern branch from 2009-2011?",
               "type": "Multiple Choice",
               "options": [
@@ -187,14 +177,13 @@
                 "$153",
                 "$162,000",
                 "$153,000"
-               ],
+              ],
               "answer": "D",
               "explanation": "Average Eastern sales = (100 + 160 + 200)/3 = 153.33… thousand dollars, which is closest to $153,000. Therefore, the correct answer is D.",
               "difficulty": 1,
               "category_id": 11
-          },
-
-          {
+            },
+            {
               "text": "The company decides to close the branch that has consistently been decreasing in total sales from 2009-2013. Which branch is closing?",
               "type": "Multiple Choice",
               "options": [
@@ -202,15 +191,14 @@
                 "East",
                 "South",
                 "North"
-               ],
+              ],
               "answer": "A",
               "explanation": "By observation, we can see that the West (purple) branch has been decreasing every year from 2009-11, whereas North has been constant, South has been increasing and East has been overall increasing. Therefore, the correct answer is A.",
               "difficulty": 1,
               "category_id": 21
-          }
+            }
           ]
         },
-  
         {
           "text": "The following graph shows the percentage of a certain population that are in poverty in 2 different areas and as a percentage of the total population. The population in 1983 was 10 million. ",
           "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 10/4.PNG",
@@ -224,14 +212,13 @@
                 "5.55 million",
                 "4.08 million",
                 "5.92 million"
-               ],
+              ],
               "answer": "B",
               "explanation": "10 million * 0.445 = 4,450,000 people were in poverty. Therefore, 10 million – 4.45 million = 5.55 million people were not in poverty in 1983. Therefore, the correct answer is B. ",
               "difficulty": 1,
               "category_id": 9
-          },
-
-          {
+            },
+            {
               "text": "If the population grew by 12% from 1983 to 1993/94, how many more or less people were in poverty?",
               "type": "Multiple Choice",
               "options": [
@@ -239,14 +226,13 @@
                 "418,000 less",
                 "360,000 more",
                 "360,000 less"
-               ],
+              ],
               "answer": "B",
               "explanation": "10 million * 1.12 = 11.2 million in 1993/94. People in poverty in 1993/94 = 11.2 million * 0.36 = 4,032,000 people. People in poverty in 1983 = 10 million * 0.445 = 4,450,000 people. Thus, 4,450,000 – 4,032,000 = 418,000 people less. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 9
-          },
-
-          {
+            },
+            {
               "text": "What is the average rate of decrease in the percentage of people in poverty living rurally across the 6 time periods?",
               "type": "Multiple Choice",
               "options": [
@@ -254,14 +240,13 @@
                 "4.89%",
                 "5.86%",
                 "5.87%"
-               ],
+              ],
               "answer": "C",
               "explanation": "Note that rural poverty is the orange line. Thus, (56.4 – 27.1)/5 = 5.86% decrease per time period (we divide by 5, not 6, because there are 5 instance where the value changes, between the 6 periods). Therefore, the correct answer is C.",
               "difficulty": 1,
               "category_id": 11
-          },
-
-          {
+            },
+            {
               "text": "How many people who live in urban areas did not live in poverty in 1983, if the number of people living in urban areas was 40% of the population?",
               "type": "Multiple Choice",
               "options": [
@@ -269,15 +254,14 @@
                 "1,632,000",
                 "4,000,000",
                 "5,920,000"
-               ],
+              ],
               "answer": "A",
               "explanation": "Urban population 1983 = 0.4*10 million = 4 million. Thus, people living in urban areas in poverty = 4 million * 0.408 = 1.632 million. Thus, the number NOT living in poverty = 4 million – 1.632 million = 2.368 million. Therefore, the correct answer is A.",
               "difficulty": 1,
               "category_id": 9
-          }
-          ]  
-        },        
-        
+            }
+          ]
+        },
         {
           "text": "The following pie charts show the distribution of time spent by 150,000 students on smartphones versus 120,000 on tablets.",
           "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 10/5.PNG",
@@ -291,14 +275,13 @@
                 "15,900 fewer",
                 "16,800 more",
                 "18,800 fewer"
-               ],
+              ],
               "answer": "A",
               "explanation": "Games on smartphones = 150,000*0.35 = 52,500. Games on tablets = 120,000*0.57 = 68,400. Thus, 68,400 – 52,500 = 15,900 more students. Therefore, the correct answer is A.",
               "difficulty": 1,
               "category_id": 10
-          },
-
-          {
+            },
+            {
               "text": "What is the ratio of students reading the news on their smartphones to those reading the news on their tablets?",
               "type": "Multiple Choice",
               "options": [
@@ -306,14 +289,13 @@
                 "4:3",
                 "15:16",
                 "16:15"
-               ],
+              ],
               "answer": "B",
               "explanation": "New on smartphones : News on tablets = 150,000*0.03 : 120,000*0.04 = 4,500 : 4,800 = 45:48 = 15:16. Therefore, the correct answer is C.",
               "difficulty": 1,
               "category_id": 10
-          },
-
-          {
+            },
+            {
               "text": "What proportion of students use their tablets for social networking and utilities?",
               "type": "Multiple Choice",
               "options": [
@@ -321,14 +303,13 @@
                 "0.18",
                 "0.29",
                 "0.49"
-               ],
+              ],
               "answer": "B",
               "explanation": "Social networking + utilities = 15% + 3% = 18% = 0.18. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 10
-          },
-
-          {
+            },
+            {
               "text": "What is the ratio of students using their smartphones for music and videos to students using their smartphones for utilities to students using their tablets for social networking?",
               "type": "Multiple Choice",
               "options": [
@@ -336,15 +317,14 @@
                 "5:6:2",
                 "2:5:3",
                 "3:2:5"
-               ],
+              ],
               "answer": "C",
               "explanation": "Music and Videos on smartphones : Utilities on smartphones : Social networking on tablets = 150,000*0.08 : 150,000*0.20 : 120,000*0.15 = 12,000 : 30,000 : 18,000 = 12:30:18 = 6:15:9 = 2:5:3. Therefore, the answer is C.",
               "difficulty": 1,
               "category_id": 10
-          }
-          ] 
+            }
+          ]
         },
-  
         {
           "text": "The following diagram represents the outline of a floor plan for a house. The measurements are in metres.",
           "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 10/6.PNG",
@@ -358,14 +338,13 @@
                 "78m2",
                 "96m2",
                 "108m2"
-               ],
+              ],
               "answer": "B",
               "explanation": "We can either add the areas together or subtract from the larger rectangle. if we were to add, the total area of the two rectangles would be = (6*12) + (3*2) = 78 square metres (the length of the top protruding rectangle is 12 – 7 -2 = 3 metres, and the width is 8 – 6 = 2 metres). Therefore, the correct answer is B.  ",
               "difficulty": 1,
               "category_id": 2
-          },
-
-          {
+            },
+            {
               "text": "If the living room is going to be a square shape with length of 7 metres, can it fit in this house?",
               "type": "Multiple Choice",
               "options": [
@@ -373,14 +352,13 @@
                 "Yes, the right side of the house will be able to fit it",
                 "No, the area of the living room won’t fit anywhere",
                 "No, there won’t be enough space for the other rooms "
-               ],
+              ],
               "answer": "C",
               "explanation": "As the greatest width of the house is 8m, a 7x7 living room could fit width-wise IF the length is also 7m. However, in the part of the house where the width is 8m (the protruding component), the length is only 3m, not 7m. Therefore, the correct answer is C.",
               "difficulty": 1,
               "category_id": 12
-          },
-
-          {
+            },
+            {
               "text": "If the owners wanted to build a fence around the entire perimeter of the house, with the fence being 1 metre away from the sides of the house at all times, how many metres of fencing would they need?",
               "type": "Multiple Choice",
               "options": [
@@ -388,14 +366,13 @@
                 "40 metres",
                 "44 metres",
                 "50 metres"
-               ],
+              ],
               "answer": "D",
               "explanation": "If we were to add 1m distance to the lengths and widths of the house, starting at 12m length at the bottom and moving anticlockwise around the house, our new measurements would/could be 14m+10m+2m+2m+5m+2m+7m+8m = 50m. Therefore, the correct answer is D. https://in2med.com.au/wp-content/uploads/2021/01/QR-Mock-10-Worked-Solution.jpg",
               "difficulty": 1,
               "category_id": 12
-          },
-
-          {
+            },
+            {
               "text": "If house is going to be carpeted, and the carpet costs $1.50/square metre, how much is it going to cost for the whole house to be carpeted?",
               "type": "Multiple Choice",
               "options": [
@@ -403,15 +380,14 @@
                 "$117",
                 "$144",
                 "$162"
-               ],
+              ],
               "answer": "B",
               "explanation": "The area of the house is 78 square metres (Q21), therefore 1.50*78 = $117. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 12
-          }
-          ]  
-        }, 
-
+            }
+          ]
+        },
         {
           "text": "The following diagram displays the dimensions of a rectangular cake at a bird’s eye view. The height of the cake is 20mm. A piece has been cut out of the cat, represented by the dotted line. Note: 1cm = 10mm",
           "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 10/7.PNG",
@@ -425,14 +401,13 @@
                 "84cm^3",
                 "840mm^3",
                 "840cm^3"
-               ],
+              ],
               "answer": "B",
               "explanation": "Volume = 6*7*2 = 84 cubic centimetres (20mm = 2cm). Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 12
-          },
-
-          {
+            },
+            {
               "text": "What percentage of the total cake did the piece represent?",
               "type": "Multiple Choice",
               "options": [
@@ -440,14 +415,13 @@
                 "14%",
                 "28%",
                 "36%"
-               ],
+              ],
               "answer": "B",
               "explanation": "Area of the cut piece = 3*2 = 6cm^2. Area of the total cake = 7*6 = 42cm^2. Thus, 6/42 * 100 = 14.28…% = 14%. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 9
-          },
-
-          {
+            },
+            {
               "text": "How many more pieces of the same size can be cut from the remaining cake?",
               "type": "Multiple Choice",
               "options": [
@@ -455,14 +429,13 @@
                 "5",
                 "6 ",
                 "7"
-               ],
+              ],
               "answer": "B",
               "explanation": "Area of the cut piece = 3*2 = 6 squared cm. If the total side length of the cake is 6cm, and the side length of the piece is 2cm, we can fit 3 pieces across the side of the cake. However in terms of the length, we can only fit two pieces, as the length is 3cm per piece and the total cake length is 7cm, meaning we have 1cm of cake length leftover but we cannot use that to cut a piece of the same dimensions. Thus, we can cut 2*3 = 6 pieces from the cake in total (with the same dimensions as the model, 3*2). Since we have already cut 1, we can therefore cut 5 more. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 12
-          },
-
-          {
+            },
+            {
               "text": "If the icing of the cake covers the top and the sides, and is 5mm thick, approximately how much icing was used (assume the corners were not iced)?",
               "type": "Multiple Choice",
               "options": [
@@ -470,15 +443,14 @@
                 "47cm^3",
                 "50cm^3",
                 "55cm^3"
-               ],
+              ],
               "answer": "B",
               "explanation": "Surface area (minus the base) = (7*6) + (6*2)*2 + (7*2)*2 = 94 squared cm. Since the icing is 0.5cm thick (5mm), the volume of the icing would be 94*0.5 = 47cm^3 (assuming no extra icing for the corner depths).Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 12
-          }
+            }
           ]
         },
-  
         {
           "text": "The following graph shows the distance travelled by John as he walks from home to work each day of the week, with A = his home, and D = his work.",
           "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 10/8.PNG",
@@ -492,14 +464,13 @@
                 "1,000 m",
                 "2,500 m",
                 "5,000 m"
-               ],
+              ],
               "answer": "D",
               "explanation": "John travels 500 metres to work, which means to and from work he travels 1,000m. Thus, in a week, he would travel 1,000*5 = 5,000m. Therefore, the correct answer is D.",
               "difficulty": 1,
               "category_id": 13
-          },
-
-          {
+            },
+            {
               "text": "How much faster does John go from C-D than he does from A-B?",
               "type": "Multiple Choice",
               "options": [
@@ -507,14 +478,13 @@
                 "20 km/h",
                 "1.2 km/h",
                 "0.6 km/h"
-               ],
+              ],
               "answer": "D",
               "explanation": "Speed from C-D = d/t = (500 – 200)/(60 – 30) = 300/30 = 10m/min. Speed from A-B = d/t = 200/10 = 20m/min. Thus, John travelled 10m/min faster from A-B than C-D, which is equivalent to 600m/hour (we can convert m/min to m/hour by multiplying it by 60), which is equal to 0.6km/hour. Therefore, the correct answer is D.",
               "difficulty": 1,
               "category_id": 13
-          },
-
-          {
+            },
+            {
               "text": "Which of the following are possible situations to describe what happens between B to C?",
               "type": "Multiple Choice",
               "options": [
@@ -522,14 +492,13 @@
                 "John stops for a coffee break",
                 "John goes back home",
                 "John runs faster"
-               ],
+              ],
               "answer": "B",
               "explanation": "Between B and C John is stationary. Thus, of all the 4 options, only option B implies that he is stationary. Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 13
-          },
-
-          {
+            },
+            {
               "text": "What is John’s average speed to work?",
               "type": "Multiple Choice",
               "options": [
@@ -537,15 +506,14 @@
                 "0.5 km/h",
                 "8.33 m/h",
                 "500 m/min"
-               ],
+              ],
               "answer": "B",
               "explanation": "Speed = distance/time = d/t = 500/60 = 8.33…m/min = 500m/hour = 0.5km/hour (we can convert m/min to m/hour by multiplying it by 60). Therefore, the correct answer is B.",
               "difficulty": 1,
               "category_id": 11
-          }
-          ]  
+            }
+          ]
         },
-
         {
           "layout": "side by side",
           "questions": [
@@ -557,16 +525,14 @@
                 "Yes, in 2 hours he travels 108 kilometres",
                 "No, he is only travelling at 36km/h",
                 "No, he would have to travel 40km at least to be speeding"
-               ],
+              ],
               "answer": "A",
               "explanation": "Average speed = d/t = 36/0.5 = 72km/h. If the limit is 70km/h, he is travelling 2km over the limit. Therefore, the correct answer is A.",
               "difficulty": 1,
               "category_id": 13
-          }
+            }
           ]
         },
-  
-
         {
           "layout": "side by side",
           "questions": [
@@ -578,16 +544,14 @@
                 "6 kilometres",
                 "12 kilometres",
                 "13.5 kilometres"
-               ],
+              ],
               "answer": "D",
               "explanation": "We can make 2 equations using the t = d/s formula: t = d/4, and t = (d + 7.5)/9, if d = the ‘certain distance’. Thus, we can equate ‘t’ and combine the equations to get d/4 = (d + 7.5)/9, and we can transform/cross multiply this to get 9d = 4(d + 7.5), which can be simplified to 9d = 4d + 30, which can be simplified to 5d = 30, therefore d = 6km. Therefore, the correct answer is D. Note: the reason was use (d + 7.5) is because for this working out, ‘d’ = the distance covered when he goes at 4km/h; thus, when he goes at 9km/h, he will cover 7.5km more, hence, (d + 7.5)/9. ",
               "difficulty": 1,
               "category_id": 13
-          }
-          ]   
+            }
+          ]
         },
-
-
         {
           "layout": "side by side",
           "questions": [
@@ -599,16 +563,14 @@
                 "2,025 pages",
                 "3,240 pages",
                 "9,000 pages"
-               ],
+              ],
               "answer": "C",
               "explanation": "Printer X can print pages at a rate of 1800 pages/8hrs = 225 pages/hr. Thus, in 9 hours, Printer X can print 225*9 = 2,025 pages. Thus, if Printer Y can print the same number of pages in 5 hours that Printer X can in 9 hours, we know that Printer Y can print 2,025 pages/5hrs = 405 pages/hr. Thus, in 8 hours, Printer Y can print 405*8 = 3,240 pages. Therefore, the correct answer is C.",
               "difficulty": 1,
               "category_id": 13
-          }
+            }
           ]
         },
-  
-
         {
           "layout": "side by side",
           "questions": [
@@ -620,15 +582,14 @@
                 "Bernice, she can type 5 more words than Irina per minute",
                 "Irina, she can write more words in 77 minutes than Bernice",
                 "They have the same writing speed"
-               ],
+              ],
               "answer": "B",
               "explanation": "Bernice’s rate of typing = 1760 words/22mins = 80 words/min. Irina’s rate of typing = 5775 words/77mins = 75 words/min. Thus, Bernice has a faster typing rate (5 more words per minute than Irina). Therefore, the correct answer is B. ",
               "difficulty": 1,
               "category_id": 13
-          } 
-          ] 
+            }
+          ]
         }
-        
       ]
     }
   ]

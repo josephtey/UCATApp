@@ -344,10 +344,10 @@ export const import_exam = async (data) => {
 
           const options = ["A", "B", "C", "D"]
           let createdQuestion = await db_createQuestion(
-            question.type == "Multiple Choice" ? "MC" : "Drag and Drop" ? "DD" : "Multiple Choice (SJ)" ? "MCSJ" : "",
+            question.type == "Multiple Choice" ? "MC" : question.type == "Drag and Drop" ? "DD" : question.type == "Multiple Choice (SJ)" ? "MCSJ" : "",
             question.options,
             question.text ? question.text : null,
-            question.type == "Multiple Choice" ? question.options[options.indexOf(question.answer)] : question.answer.join(";"),
+            question.type == "Multiple Choice" || "Multiple Choice (SJ)" ? question.options[options.indexOf(question.answer)] : question.answer.join(";"),
             question.explanation ? question.explanation : null,
             question.difficulty ? question.difficulty : null,
             question.image ? question.image : null,
