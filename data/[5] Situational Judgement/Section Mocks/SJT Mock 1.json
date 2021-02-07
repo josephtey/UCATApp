@@ -1,0 +1,952 @@
+{
+  "exam": {
+    "name": "Situational Judgement 1",
+    "description": "Section mock",
+    "type": "Mock",
+    "time": 26
+  },
+  "sections": [
+    {
+      "name": "Situational Judgement",
+      "description": "Situational Judgement involves understanding real-world situations and identifying critical factors and appropriate behaviour in dealing with them",
+      "time": 26,
+      "stems": [
+        {
+          "text": "At a placement, a medical student, Alan, has been asked by the doctor to complete a minor procedure on a patient. However, he has never completed this procedure before and has only read about it in his textbooks. How appropriate are each of the following responses by Alan in this situation? Assume that he would say each of the following politely.",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "I do not have the knowledge or skill to do this",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is ok for Alan to be honest about this and he would need to be taught the theory and practice before attempting on a patient",
+              "difficulty": 1
+            },
+            {
+              "text": "I am happy to give it a shot",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "If Alan is apprehensive and unsure about performing the procedure he should express this to the doctor, not simply undertake the procedure",
+              "difficulty": 1
+            },
+            {
+              "text": "You should not ask a student to perform this operation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "The doctor was merely trying to provide a learning opportunity and this comment is rude and inflammatory. It is not terrible as it expressed Alan’s unwillingness to complete the procedure",
+              "difficulty": 1
+            },
+            {
+              "text": "I do not think it is appropriate for me to conduct the procedure as I have not done this before – what are your thoughts",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This comment is definitely appropriate as it expresses Alan’s apprehension and does so in a respectful manner",
+              "difficulty": 1
+            },
+            {
+              "text": "Could you remind me of the steps as I’m not very familiar with the procedure",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this comment does express Alan’s apprehension, it does not explicitly convey the fact that he is uncomfortable with completing the procedure",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A medical student, Vincent, is attending a placement at a GP clinic. While the aim of this placement is for him to practice clinical skills, he is asked to do tasks that don’t directly relate to this. It is only the first day of his placement, but he is worried that he won’t be able to properly practice these skills. How appropriate are each of the following responses by Vincent in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Complete the tasks without mentioning his concerns",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "Although this course of action does not have severe consequences, it would be appropriate for Vincent to express his concerns",
+              "difficulty": 1
+            },
+            {
+              "text": "Provide some examples of clinically related tasks that he could do to the GP",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "Although appropriate, it does not address the fact that the tasks he have been assigned are not clinically related",
+              "difficulty": 1
+            },
+            {
+              "text": "Seek advice from the academic tutor ",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "As the tutor will have the overall responsibility for work-based placements and ensuring the students get the most out of them, they should be made aware of the problem.",
+              "difficulty": 1
+            },
+            {
+              "text": "Complain directly to the faculty",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this is a way to express his grievances, the situation should first be resolved a local level and Vincent should express his concerns to the supervising GP/tutor",
+              "difficulty": 1
+            },
+            {
+              "text": "Not complete the tasks assigned",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It would be highly inappropriate to simply not work on the tasks assigned, if he is unhappy with what has been assigned, he should act professionally and vocalise his concerns",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Bill, a medical student, hears a nurse swearing loudly in the hospital. The patients in the waiting room appear to have heard this and seem uncomfortable. One patient actually goes to Bill to complain about the nurse. How appropriate are each of the following responses by Bill in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Tell the patient to talk directly to the nurse and vocalise her complain if the nurse swears again",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it may be reasonable for the patient to vocalise their concerns to the party involved, it relies on the patient waiting for this to happen again",
+              "difficulty": 1
+            },
+            {
+              "text": "Seek advice from a senior member of staff",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is appropriate for a medical student to talk to another senior member of staff about how to negotiate the situation.",
+              "difficulty": 1
+            },
+            {
+              "text": "Discuss the situation with other medical students at the hospital",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While discussing with peers may be useful, it does not provide the best nor most immediate solution to the issue. Discussion with senior members off staff is more appropriate",
+              "difficulty": 1
+            },
+            {
+              "text": "Apologise to the patient immediately",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is definitely appropriate to apologise to the patient – especially if the nurse has made them uncomfortable",
+              "difficulty": 1
+            },
+            {
+              "text": "Yell at the nurse to stop swearing",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This approach is far too confrontational and will only escalate the situation",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A medical student, Theresa, is observing a patient consultation at a GP clinic. The patient has presented with hyperglycaemia (high blood glucose levels). The doctor asks whether the patient has a family history of diabetes. The patient replies yes but Theresa notices the doctor No as the response to this question on the record. How appropriate are each of the following responses by Theresa in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Inform the doctor after the consultation that he appears to have made a mistake",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Waiting until the patient has left (provided the typed response doesn’t affect the care provided) is the best course of action. Doing so will not undermine trust in the doctor",
+              "difficulty": 1
+            },
+            {
+              "text": "Change the record after the doctor and the patient have left",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is very negligent practice and altering notes in this way is a form of professional misconduct",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the patient to repeat their answer",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may help the doctor realise his mistake, it is best to explicitly notify him of this after the consult",
+              "difficulty": 1
+            },
+            {
+              "text": "Do not say anything as you may have misheard the patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "If there is a potential that information has been incorrectly entered into the patient record, this should be explored further",
+              "difficulty": 1
+            },
+            {
+              "text": "After the consultation, ask the doctor if he recalls whether the patient has a family history of diabetes",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may help highlight the discrepancy in the patient’s notes, it would be best to explicitly state that Theresa believes that an error has been made",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A medical student, Ben, is interviewing an elderly patient, Jeff, who often gets confused. While Ben knows that this patient is one medication to manage his arthritis, Jeff is under the impression that he will need surgery for this and is afraid that he may not survive the surgery. The nurse tells Ben not to even bother with it as the patient is just a confused old man. How appropriate are each of the following responses by Ben in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Ask Jeff why he believes he needs an operation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is appropriate to explore the patient’s concerns further and this may help ascertain whether or not he has understood and retained the information about his condition’s management",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform the treating doctor that the patient is concerned about having surgery",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Whenever a patient is concerned or worried, they have the right to speak to a qualified member of staff if they feel this is necessary",
+              "difficulty": 1
+            },
+            {
+              "text": "Try to reassure Jeff",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is definitely appropriate to comfort worried patients and provide reassurance",
+              "difficulty": 1
+            },
+            {
+              "text": "Take the nurse’s advice and not bother with the patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This patient is evidently worried about a surgery that won’t happen and simply doing nothing is not the correct course of action. Ben should attempt to clarify the situation with the patient and reassure them",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell the nurse that she should be more empathetic of Jeff",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While Ben may believe this, saying it to the nurse will not necessarily help with the situation and may be perceived negatively by the nurse",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A number of medical students must prepare an oral presentation for one of their subjects. At the group’s preliminary meeting, a student, Brittany, appears to volunteer herself as the group leader, decides on a topic for the oral and begins to distribute tasks without consulting the other students. Another member, Jim, is not happy with Brittany’s approach. How appropriate are each of the following responses by Jim in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Suggest to Brittany privately that she asks the other group members for their opinions",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Brittany should be reminded that this is a group project and that other members should be able to contribute too. Privately doing so is definitely appropriate",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask other members on their thoughts of Brittany as group leader",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it may be useful in understanding the group’s dynamics, Jim should seek to ensure that all group members can contribute regardless",
+              "difficulty": 1
+            },
+            {
+              "text": "Report Brittany to the tutor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Communication between members is essential in a group environment and issues should be resolved locally if possible – not immediately escalated",
+              "difficulty": 1
+            },
+            {
+              "text": "Suggest that the group votes on a group leader instead",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may be a more democratic way of electing the group leader, it still does not resolve the issue of the other team members’ lack of opportunity to contribute",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Brittany to include the other team members in the discussion in front of the team",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While the sentiment of this statement is completely valid, it should be done privately to avoid conflict or embarrassment",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A medical student, Imad, is shadowing a doctor at a hospital. The doctor leaves the consulting room and Imad is left alone with the patient. The patient complains of a headache and asks Imad for some medication for this. Imad sees some Ibuprofen in the cabinet and reviews her records to ensure that she is not intolerant of this. The medication cabinet unlocked. The patient is clearly in a lot of pain. How appropriate are each of the following responses by Imad in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Retrieve the ibuprofen from the cabinet to help the patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is completely inappropriate for Imad to administer this himself, as a medical student, and this is completely unprofessional ",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform the nurse that the patient is complaining of a headache",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Not only does this ensure that the patient’s concern is passed on to a more senior member of staff, it also ensures that the medical student isn’t actually administering the medication",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell the patient that ibuprofen is in the medication cabinet if he needs it",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is unethical and negligent to encourage a patient to take their own medication and can lead to a variety of complications",
+              "difficulty": 1
+            },
+            {
+              "text": "Wait for the doctor to return and ask him about the headache medication",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this is an appropriate course of action as the medical student is not retrieving that medication, there is no telling how long the doctor will be and how long the patient will wait",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform the patient that he is unable to administer medication but offer some traditional herbal remedies that he has in his bag for pains",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is completely inappropriate for Imad to offer herbal remedies – while this may seem innocuous, they may interact with the patient’s current drugs and lead to an adverse reaction",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "James is a junior doctor at a GP clinic. The GP encourages James to give the next patient an injection. The patient, Natalie, appears nervous and when James attempts to administer the injection, she pulls back – leading to a small abrasion on her skin. This abrasion is not harmful at all, but she becomes even more nervous. How appropriate are each of the following responses by James in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Apologies but explain that this is not harmful whatsoever",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "As this was unplanned, it is appropriate to apologise and given that Natalie was noticeably distressed, it would be very appropriate to ensure that she knows the mistake will not cause long-term harm",
+              "difficulty": 1
+            },
+            {
+              "text": "Explain to Natalie that she should try not to move if possible",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Patient communication is important and it is highly appropriate for James to politely infrom Natalie of the importance of being still – while not imparting blame",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell Natalie to calm down",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is likely to be counterproductive as she is already distressed, and this will undoubtedly fuel her anxiety",
+              "difficulty": 1
+            },
+            {
+              "text": "Immediately try to inject Natalie again",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Natalie is already distressed, and this will undoubtedly immediately trying to inject her again will only fuel another anxious reaction and potentially result in her pulling back again",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the doctor to complete the injection",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While if he is uncomfortable administering the injection, James can ask the doctor; he should seek to calm the patient down and potentially try again – this will allow him to display resilience and refine his clincical skills",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "To treat her infection, a patient, Sophia, is administered with an antibiotic by her doctor. Just after this antibiotic has been administered, Chris, a medical student, realises that Sophia is allergic to this antibiotic after checking her records. Sophia does not appear to be having an immediate allergic reaction. How appropriate are each of the following responses by Chris in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Take no action as Sophia isn’t reacting",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Given that the notes state that Sophia is allergic, it would be extremely important to raise this issue immediately. Symptoms for an allergy don’t always show straight away",
+              "difficulty": 1
+            },
+            {
+              "text": "Point out this immediately to the doctor in front of Sophia",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this would help resolve the situation promptly, it may stress out Sophia and undermine her trust in the doctor",
+              "difficulty": 1
+            },
+            {
+              "text": "Got to her supervisor, who is in another treating room, to report this error",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "Whilst this error should ultimately be reported, this would also cause an unnecessary delay. The doctor should be informed immediately",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the doctor whether Sophia is allergic to this antibiotic",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may help the doctor to realise his mistake, it would be best to explicitly state the medical notes suggest that Sophia is allergic to this antibiotic",
+              "difficulty": 1
+            },
+            {
+              "text": "Wait till a reaction occurs to inform the doctor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Time is of the essence and an immediate response must be undertaken in this situation to resolve the issue",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Ralph, a junior doctor, is conducting a procedure that involves injecting a patient with medication. During the procedure, he accidentally stabs injects the wrong area. Ralph cannot see any cuts or bleeding due to this. He then injects the medication in the correct area. The hospitals policy states that any errors are reported. How appropriate are each of the following responses by Ralph in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Ask the patient if they are in pain",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "The patient may be able to report signs of discomfort from the initial or second injection – potentially indicating damage",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform the patient about the mistake and explain that there doesn’t seem to be any harm done",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "The policy states that patient and supervisors must be informed of all errors and the patient has the right to know",
+              "difficulty": 1
+            },
+            {
+              "text": "Wait to see if the patient realises",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is contradiction to hospital policy and the patient has the right to know if an error has been made",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform a senior doctor immediately",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it may be appropriate to inform a senior doctor, doing so immediately might not be necessary – considering that no damage has been done and Ralph has a patient to attend to",
+              "difficulty": 1
+            },
+            {
+              "text": "Apologise to the patient for the error",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is good medical practice and professional behaviour to acknowledge and apologise about any errors that may have been made",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Rosa and Louis are students that have worked on a group oral presentation together. Today they will present the project to the class and will be marked by the tutor. Rosa arrives late to the class and appears unsettled. She says that she has gotten some bad news and is quite upset. She has been unable to prepare for the oral as much as she’d hoped. How appropriate are each of the following responses by Louis in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Tell Rosa that he can present independently if she’d prefer that",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may be a possibility, both students have contributed to the project and it would be preferable that both have the opportunity to present",
+              "difficulty": 1
+            },
+            {
+              "text": "Reassure and console Rosa",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This will help calm Rosa down and comfort her – perhaps helping her regain her composure and motivation to present",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Rosa what the bad news was",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "Whilst this may help Louis understand her thought processes, Rosa might not feel comfortable divulging that information and has no obligation to do so",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform the tutor of the situation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "The tutor should be informed of the situation and Rosa’s difficulties immediately. Rescheduling may even be a possibility",
+              "difficulty": 1
+            },
+            {
+              "text": "Present together as planned",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "If Rosa is not in a state to present, she should not have to. Either way, the tutor should be first informed of the situation and a course of action decided",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A doctor, Marvin, is in the waiting room about to see the next patient. The next patient is Bobby, whom he has seen before and believes is homeless. This patient doesn’t seem to be very hygienic and has a bad body odour. Another doctor leaves their room afterwards and enters the waiting room to collect a patient. Bobby can go with either doctor but technically Marvin, who entered the waiting room first, should see Bobby. How appropriate are each of the following responses by Marvin in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Call Bobby in for the consultation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "If Marvin is the next available doctor, he should see Bobby and not doing so would be discriminatory.",
+              "difficulty": 1
+            },
+            {
+              "text": "Determine Bobby’s social history and see whether he needs extra support",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Based on Bobby’s presentation, it is possible that he may need extra social support and the doctor can direct him to this",
+              "difficulty": 1
+            },
+            {
+              "text": "Sanitise the room as Bobby gets up to leave",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is highly inappropriate as it may offend Bobby. This cleaning should be undertaken after the patient leaves ",
+              "difficulty": 1
+            },
+            {
+              "text": "Wait for the other doctor to call in the next patient (Bobby)",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "As it is Marvin’s responsibility to call in the next available patient, he should not leave this to the other doctor",
+              "difficulty": 1
+            },
+            {
+              "text": "Treat Bobby as friendly and amicably as he would any other patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It would be unethical and discriminatory for Marvin to treat Bobby differently just because of his appearance and odour",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "2 medical students, Amber and Denise, are about to enter the consulting room – where they will be asked to take blood from 2 patients. Denise is extremely nervous about this and has been panicking all day. She says she is feeling faint and does not want to enter the room. How appropriate are each of the following responses by Amber in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Remain with Denise outside the room to comfort Denise and not enter",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While it is advisable to comfort Denise, not entering the room would mean that they would be inconveniencing the patients and missing out on a valuable learning opportunity",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask a nurse entering the room to inform the supervisor that Denise is feeling unwell",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This is entirely appropriate and will allow Amber to stay and comfort Denise",
+              "difficulty": 1
+            },
+            {
+              "text": "Try to encourage Denise to enter the room and talk to the supervisor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Although she is feeling unwell, simply entering the room and talking to the supervisor will allow Denise to vocalise her concerns and discuss how to proceed with the supervisor",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell Denise to be resilient and take the patient’s blood as planned",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "If she is uncomfortable with doing so, Denise should not be forced whatsoever",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the receptionist to deal with Denise and enter the room to take the patient’s blood",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While not a terrible course of action as Denise is not left unattended, Amber should ideally stay with Denise to comfort her"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

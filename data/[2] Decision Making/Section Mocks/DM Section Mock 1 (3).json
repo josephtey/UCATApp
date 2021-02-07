@@ -14,6 +14,7 @@
         {
           "text": "Although only some Prancers can swim, all Prancers can jump. At the Olympics, there are some Prancers. All Jumpers at the Olympics can dive.",
           "category_id": 3,
+          "layout": "normal",
           "questions": [
             {
               "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",

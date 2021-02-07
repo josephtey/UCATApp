@@ -195,6 +195,10 @@ export const getSessionDetails = (session_id, student_id) => async dispatch => {
         currentSection = currentStructure.sections[0]
         currentQuestionOrder = currentSection.question_order
         sessionResponses = await db_getAllSectionResponses(sessionDetails.session_id, currentSection.section_id)
+
+        console.log("currentSection")
+        console.log(currentSection)
+
         currentQuestion = await db_getQuestionDetail(currentSection.question_order[0])
 
         // Getting question stem

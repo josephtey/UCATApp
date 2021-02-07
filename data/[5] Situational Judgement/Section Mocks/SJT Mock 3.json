@@ -1,0 +1,953 @@
+{
+  "exam": {
+    "name": "Situational Judgement 3",
+    "description": "Mock",
+    "type": "Exam",
+    "time": 26
+  },
+  "sections": [
+    {
+      "name": "Situational Judgement",
+      "description": "Situational Judgement involves understanding real-world situations and identifying critical factors and appropriate behaviour in dealing with them",
+      "time": 26,
+      "stems": [
+        {
+          "text": "A medical student, Ollie, is the leader of a social justice group at the university. A group member, Tyler, approaches Ollie with a complaint about one of the other group members, Alexa. Tyler insists that Alexa is not dedicating enough effort and believes that she is not passionate about the cause. He asks if Ollie can do something about this. How appropriate are each of the following responses by Ollie in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Wait till more complaints are received about Alexa",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "This option is inappropriate as it discredits Tyler’s observation. However, this course of action does not have severe consequences and gives Alexa a second chance",
+              "difficulty": 1
+            },
+            {
+              "text": "Suggest that Tyler directly talks to Alexa about this",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may allow Tyler to engage in open communication with Alexa, as the group leader, Ollie should be managing the situation more proactively",
+              "difficulty": 1
+            },
+            {
+              "text": "Privately speak to Alexa directly to raise these concerns",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is entirely appropriate to raise concerns with the individuals concerned and allow them to explain their actions",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Tyler to give Alexa a second chance",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While it is important for group members to be understanding of each other and not jump to conclusions, this response is dismissive of Tyler’s concerns",
+              "difficulty": 1
+            },
+            {
+              "text": "Take no action",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "A group member has approached Ollie with a concern and it is thus his obligation to acknowledge and take action to address this concern ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Ava is a medical student, and is with a junior doctor colleague, Lucas, seeing a patient and her young son (who is a toddler). The son seems to be very unsettled and Lucas reached out to calm him down; however, he scratches Lucas. While Lucas does not need medical treatment, it is evidently painful. Lucas yells out in anger, some people should get a handle on their children. How appropriate are each of the following responses by Ava in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Ask the patient if she is offended by Lucas’ remarks",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this allows Ava to understand the patient’s feelings, it is likely that she would be offended and asking for confirmation of this may be inflammatory",
+              "difficulty": 1
+            },
+            {
+              "text": "Say to the patient that Lucas would not normally speak in this way",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may help diffuse the situation, it would appear that Ava is making excuses for the unprofessional behaviour",
+              "difficulty": 1
+            },
+            {
+              "text": "Suggest to Lucas that he leaves the room for a short while to gather his thoughts",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This is very appropriate as it removes Lucas from the immediate situation and allows him to calm down",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the patient to leave her son in the waiting room with the nurse",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While the child in unsettled and has hurt Lucas, the main issue here is Lucas’ conduct towards the patient and removing the child may only compound the problem.",
+              "difficulty": 1
+            },
+            {
+              "text": "Scold the child for his behaviour",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is not Ava’s position to scold the child’s behaviour and doing so may only escalate the situation",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Hannah and Zoey are medical students, working at a hospital under the same supervisor. During a patient consultation, Hannah sees Zoey texting on her mobile phone. The patient does not say anything. How appropriate are each of the following responses by Hannah in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "After the consultation, privately remind Zoey of the code of conduct for professionals",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "To interrupt the consultation and tell her not to use a phone would undermine Zoey in front of the patient. Thus, reminding her of the importance of professionalism after the consultation is very appropriate",
+              "difficulty": 1
+            },
+            {
+              "text": "Monitor Zoey’s conduct for the rest of the placement to see if she keeps using her phone",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this may help Hannah determine whether this is a recurring issue, it doesn't help to resolve the misconduct as quickly as possible",
+              "difficulty": 1
+            },
+            {
+              "text": "Report Zoey to the supervisor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "It is best to resolve such conflicts at a local level, unless the issue of misconduct has compromised patient safety or resulted in a breach of patient confidentiality. Neither appear to be the case in this situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform Zoey that she will have to report this to the supervisor if she repeats such conduct",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is advisable for Hannah to resolve this issue at a local level the first time, however if the behaviour is repeated, the supervisor will need to be notified",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Zoey why she was using her phone",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may provide Hannah with some context pertaining to Zoey’s actions and her situation; regardless, Zoey should not be using a phone during the consultation",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Jay, a medical student, is tasked with administerial work at a clinic. He has the responsibility of using the clinic’s online system to book patients in and send through the patients’ details to the doctors. The receptionist has taught him how to do this, but he is struggling with the whole process. He prefers the manual process that he used in his old clinical placement. The receptionist asks Jay why he is taking so long. How appropriate are each of the following responses by Justin in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Inform the receptionist that he will change to a manual method rather than the online system",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Informing the receptionist that he will continue to do this manually is very inappropriate and it shows little respect to the clinic’s process and the receptionist ",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform the receptionist that he will take his time to learn the system",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While it does take time to learn new techniques, this response doesn't provide a satisfactory resolution to the receptionist's complaint and doesn’t seek to resolve the issue in a timely fashion.",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the receptionist for a demonstration of the process",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "If unsure, it is very appropriate for Jay to seek clarification from the receptionist – this is part of working as a team",
+              "difficulty": 1
+            },
+            {
+              "text": "Apologise to the receptionist and inform her that he will try to be quicker",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This response appropriately acknowledges the receptionist's complaint and also shows that Jay is able to reflect on the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the receptionist if she can complete the first few bookings with him",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "While this may help Jay learn how to use the online system, the receptionist may be busy with other administerial work and this should be respected and considered too",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Logan and Avery are medical students who are working in a clinic. They are both walking to the printer to collect recall letters for patients. These letters have been printed off by the receptionist. Avery loudly tells Logan that she thinks that they shouldn’t be asked to do these sorts of tasks, as medical students have better things to do with their time. The receptionist appears to have heard this comment and seems upset. How appropriate are each of the following responses by Logan in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Inform the supervisor of Avery’s comment",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While the supervisor would help resolve this situation, it is more appropriate for Logan and Avery to resolve the problem at a local level first. This would involve Ashraf informing Chloe of the impact of her comment, and Chloe talking to the reception staff. As such, this course of action would be appropriate, but not ideal",
+              "difficulty": 1
+            },
+            {
+              "text": "Explain privately to Avery that she may have upset the receptionist",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is very important for Logan to approach the issue privately and sensitively with Avery but to inform her of the consequences of her action",
+              "difficulty": 1
+            },
+            {
+              "text": "Approach the receptionist to apologise on Avery’s behalf",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While Logan could approach the receptionist and apologise to him/her, ideally, he should inform Avery of the effects of her comment and encourage her to apologise instead",
+              "difficulty": 1
+            },
+            {
+              "text": "Approach the receptionist and express his agreement with Avery",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is very inappropriate as it shows little respect towards the authority of the receptionist and will only upset him/her further",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Avery to pass her complaint on to her academic supervisor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While it would be more appropriate for Avery to raise her concern with the supervisor, this course of action doesn’t address the inflammatory nature of Avery’s comment",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Leena, a medical student, has a tutorial scheduled for tomorrow. However, Leena has just found out that she has been asked to attend an important meeting with the faculty at that same time. While this tutorial isn’t compulsory, it is a good learning experience. Leena’s friend, Jill, informs her that their class has the tutorial later today and there is an empty spot. Leena is free later today. How appropriate are each of the following responses by Leena in the situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Walk to the tutorial later today with Jill and ask if she can join in",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this is an appropriate course of action, the vacancy may have already filled by that time so she should get in contact with the tutor earlier",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell her tutor that she must be allowed to join the tutorial today",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is completely inappropriate for a student to tell a tutor what they must and must not do",
+              "difficulty": 1
+            },
+            {
+              "text": "Do not attend either tutorial as it is not compulsory",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Regardless of whether or not the tutorial is compulsory, if she believes that it will be a good learning experience, she should make an effort to attend",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Jill to send her notes from the tutorial, rather than attending herself",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "It would be preferable that Leena makes arrangements to attend the tutorial (and, thus, ensure that she gets the most of it) – rather than just relying on Jill’s notes",
+              "difficulty": 1
+            },
+            {
+              "text": "Contact Jill’s tutor and her own tutor to ask whether it would be a possibility to attend today’s tutorial",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This response displays strong communication skills and may allow Leena to attend the tutorial",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A dental student, Isaac, is at a dental clinic and talking to a patient of a similar age. The patient asks Isaac if he can provide her with details of his social media so that they can stay in touch. How appropriate are each of the following responses by Isaac in the situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Ask the supervising dentist for their opinion",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it is appropriate to seek guidance, the dentist may be occupied seeing other patients and may not be immediately available to discuss the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Politely tell her that he isn’t able to as this may introduce a conflict of interest",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It would be inappropriate for a healthcare professional to accept this request as it breaches professional boundaries",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform the patient that he will forward the details later but never do so",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is completely inappropriate for Isaac to lie to the patient in this scenario – he should seek to be open and honest",
+              "difficulty": 1
+            },
+            {
+              "text": "Send through his social media details as he is not a dentist yet",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is very inappropriate for a healthcare professional (dentist or dental student) to accept the patient’s request as it breaches professional boundaries",
+              "difficulty": 1
+            },
+            {
+              "text": "Advise her that he will have to check the clinic’s policy on that",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it is appropriate to check the clinic’s policy, even if it doesn’t explicitly state not to do so, it would still be inappropriate for Isaac to accept the patient’s request as it breaches professional boundaries",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "John is a medical student at a GP placement. When interacting with other patients, John notices the GP muttering and slurring slightly. When he gets up to thank a patient for their time, he sways slightly. John suspects that the doctor may have consumed alcohol. How appropriate are each of the following responses by John in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Ask the doctor if he is feeling ok",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This is an appropriate course of action as it will assist John in determining the doctor’s state and may even help to check whether he has having a medical episode",
+              "difficulty": 1
+            },
+            {
+              "text": "Take over the subsequent patient consultations if the doctor isn’t in a state to do so",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "As a medical student, John does not have the experience or expertise to take over a patient consultation and shouldn’t attempt to do so",
+              "difficulty": 1
+            },
+            {
+              "text": "Privately express his concerns to the supervisor and emphasise that he is unsure if this is actually the case",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "As patient care may be jeopardised, it is important for John to vocalise his concerns to a more senior member",
+              "difficulty": 1
+            },
+            {
+              "text": "Monitor the doctor for the rest of the day",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "While John should keep a close eye on the doctor to see if he is in a state to consult, he should not wait the whole day to take action ",
+              "difficulty": 1
+            },
+            {
+              "text": "Apologise to the patients on the doctor’s behalf",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "The doctor hasn’t explicitly done anything wrong to the patient nor is John sure that he has consumed alcohol. As such, apologising to the patients would be very inappropriate at this stage",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Jennifer, a medical student, is scrolling through her social media feed when she sees a picture of fellow medical student, Alicia, with a patient at a hospital. The picture has a caption ‘Brave Susan’ (assumably the patient’s name).  Jennifer knows Alicia personally and is not sure whether she got permission from Susan to post the photo. How important to take into account are the following considerations for Jennifer when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "She knows Alicia to be a responsible and kind individual",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Although this may be the case, it does not guarantee that he has received permission for uploading the photograph whatsoever",
+              "difficulty": 1
+            },
+            {
+              "text": "That many other students follow Alicia’s social media and are likely to check with her",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Jennifer should not rely on the likelihood of other students informing Alicia of this, Jennifer should see it as her responsibility to address the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Susan’s surname is not mentioned so it is less likely that she can be identified",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "While this may be true, Susan may be identified through the photograph and, regardless, consent should have been obtained",
+              "difficulty": 1
+            },
+            {
+              "text": "If consent has not been obtained, Susan may lose faith in the hospital and their staff’s ability to maintain confidentiality",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Patients at the hospital should feel confident that their information and identity will remain private and any breaches to this may impact the relationship between patients and staff",
+              "difficulty": 1
+            },
+            {
+              "text": "The Alicia may feel infringed upon if Jennifer raises the issue",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "The photo includes Susan, who is a hospital patient, so it is Jennifer’s responsibility to ensure that confidentiality has not been breeched",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Two medical students, Blake and Gavin, are on a placement at a GP clinic. When the GP leaves the room, Blake sees Gavin take some painkillers from the medicine cabinet. Gavin says that he has been having knee pain since an incident at a football match and needs these painkillers for that. How important to take into account are the following considerations for Blake when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Gavin may not have attained a prescription and has stolen them from the clinic",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Stealing is a serious offence, and it is particularly concerning to see a medical student engaging in such behaviour",
+              "difficulty": 1
+            },
+            {
+              "text": "That Gavin has knee pain and needs a painkiller",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Gavin’s knee pain is unimportant in this situation, he has stolen medication, and this must be reported",
+              "difficulty": 1
+            },
+            {
+              "text": "Gavin may be selling and distributing the painkillers",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Trafficking drugs is a serious offence and should be reported. Additionally, as painkillers can be addictive, distributing these may negatively impact others",
+              "difficulty": 1
+            },
+            {
+              "text": "Many hospital staff use hospital medication personally and are not reprimanded",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Irrespective of this fact, Blake needs to report this incident",
+              "difficulty": 1
+            },
+            {
+              "text": "Gavin may be addicted to the painkillers",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "B",
+              "explanation": "While this may need to be addressed in the long term, what is more pressing is the fact that Gavin has been stealing from the clinic and this needs to be addressed immediately",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A group of medical students are completing a group project. In the group there are four Australian students and one Malaysian student, Jaymi. The Malaysian student is not fluent in English and only recently moved from Malaysia. She has not been contributing much to the group or responding to reminders to complete her section by the due date. How important to take into account are the following considerations for the other group members when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Jaymi may be confused about the task and usure about how to reach out for help",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "It is important to understand the reasons behind Jaymi’s inability to contribute to the group and so the group members may need to take a more culturally sensitive approach when communicating with Jaymi",
+              "difficulty": 1
+            },
+            {
+              "text": "That Jaymi’s section can be completed by other group members",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Jaymi is responsible for her section, and others doing it for her will be detrimental for her learning – the group should collaborate to help resolve this situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Jaymi may be working through her section and almost be finished",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "While this may be a possibility, we cannot say this for sure and, thus, the group members should contact her and clearly communicate what needs to be done",
+              "difficulty": 1
+            },
+            {
+              "text": "Whether this assignment contributes substantially to their coursework score",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "While this may impact the group members’ approach to the assignment, it is best practice for all group members to communicate and work together, regardless of how important the assignment is ",
+              "difficulty": 1
+            },
+            {
+              "text": "That the academic tutor should be informed of this",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "It is best to resolve such issues as a team first, at a local level, and then, if needs be, the tutor can be informed",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Bill is a medical student working at a hospital placement. He sees a patient, a 9-year-old boy named Jeff, and notices that this boy has a number of cuts and bruises on his body. He is worried that this may be evidence of child abuse. How important to take into account are the following considerations for Bill when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Jeff’s cuts and bruises may be caused by something else",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "B",
+              "explanation": "It is important that Bill does not jump to conclusions about the cause of these cuts and bruises. However, it is still important to explore the potential of abuse further",
+              "difficulty": 1
+            },
+            {
+              "text": "That the doctor is made aware of this",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Bill should inform the patient’s doctor and his doctors would be legally obligated to report this if he believes that is if evidence of child abuse",
+              "difficulty": 1
+            },
+            {
+              "text": "What the guardians say about this",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "It is important to listen to what Jeff’s guardians say and to cross-check this with what Jeffs says – without imparting judgement or jumping to conclusions",
+              "difficulty": 1
+            },
+            {
+              "text": "That Bill doesn’t know the doctors in the hospital well",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Regardless of whether this is the case, Jeff still has the obligation to inform the doctor/doctors of Jeff’s cuts and bruises",
+              "difficulty": 1
+            },
+            {
+              "text": "That Jeff seems nervous and jittery",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "This cannot be taken as potential evidence of child abuse as Jeff might just be anxious being in a hospital environment",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Miles is a medical student. He has invested in a stem cell company on the share market and has done a lot of research into stem cell technology – and is convinced about the efficacy of this treatment in treating immune conditions. While at a hospital placement, a patient with a debilitating autoimmune condition asks Miles if he knows any potential treatments. She then mentions hearing about stem cells but not being sure of their efficacy. How important to take into account are the following considerations for Miles when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Stem cell technology could benefit the patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "While this may be the case, Miles shouldn’t provide any advice related to this treatment to the patient – as he is not qualified to so",
+              "difficulty": 1
+            },
+            {
+              "text": "Miles’ niche knowledge in stem cell technology having done research into it in the past",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Regardless of his knowledge in this subject, Miles is only a medical student and is not in a position to provide medical advice to a patient",
+              "difficulty": 1
+            },
+            {
+              "text": "That failing to give advice may cause him to appear uninformed to the patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "It would be unprofessional of Miles to advise the patient and, regardless of how they perceive him, he should not provide advice",
+              "difficulty": 1
+            },
+            {
+              "text": "Another treatment was already recommended by the patient’s doctor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "B",
+              "explanation": "It is important that Miles takes into account the recommendation made by the doctor and he should not provide advice himself. However, this does not mean that the patient should rule out alternative options and can explore other options with her doctor",
+              "difficulty": 1
+            },
+            {
+              "text": "That Miles’ supervisor is not around, and he can quietly inform the patient about what he knows",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Regardless of who is around, Miles should adhere to professional guidelines and not provide any advice",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

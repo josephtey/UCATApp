@@ -346,6 +346,10 @@ export const FlagButton = ({
 
   const [isFlagged, setFlagged] = useState(flagged)
 
+  useEffect(() => {
+    setFlagged(flagged)
+  }, [flagged])
+
   return (
     <FlagContainer
       onClick={() => {
