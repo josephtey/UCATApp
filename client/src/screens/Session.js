@@ -17,7 +17,8 @@ import { HotKeys } from "react-hotkeys";
 const keyMap = {
   SHOW_CALCULATOR: "alt+c",
   NEXT_QUESTION: ["space", "alt+n"],
-  TEST: "command+z"
+  PREVIOUS_QUESTION: "alt+p",
+  FLAG_QUESTION: "alt+f"
 };
 
 const mapDispatchToProps = { getSessionDetails, resetSessionDetail, finishSession, nextSection, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
@@ -93,11 +94,47 @@ const Session = (props) => {
     },
     NEXT_QUESTION: () => {
       if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0]) {
+        const oldActiveElement = document.activeElement;
+
         const currentQuestionId = props.session.currentQuestion.question_id
         const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
         const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
         props.getQuestionDetail(nextQuestion)
+
+        document.activeElement.blur();
+        setTimeout(() => {
+          oldActiveElement.focus();
+        }, 100);
       }
+    },
+    PREVIOUS_QUESTION: () => {
+      if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0]) {
+        const oldActiveElement = document.activeElement;
+
+        const currentQuestionId = props.session.currentQuestion.question_id
+        const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
+        const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex - 1]
+        props.getQuestionDetail(nextQuestion)
+
+        document.activeElement.blur();
+        setTimeout(() => {
+          oldActiveElement.focus();
+        }, 100);
+      }
+    },
+    FLAG_QUESTION: () => {
+      const oldActiveElement = document.activeElement;
+      props.flagResponse(
+        props.session.currentSession.session_id,
+        props.session.currentQuestion.question_id,
+        props.auth.userData.student_id,
+        props.session.currentSection.section_id,
+        true
+      )
+      document.activeElement.blur();
+      setTimeout(() => {
+        oldActiveElement.focus();
+      }, 100);
     }
   };
 
