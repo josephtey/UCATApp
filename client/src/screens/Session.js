@@ -61,7 +61,7 @@ const Timer = ({
   if (!timerStop) {
     return (
       <>
-        {timeLeft[1]} minutes {timeLeft[2]} seconds left
+        {timeLeft[1]} Mins:{timeLeft[2]} Secs left
       </>
     )
   } else {

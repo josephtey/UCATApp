@@ -4,7 +4,10 @@ import { RiFlag2Fill, RiFlag2Line } from "react-icons/ri";
 import { useDrag, useDrop } from 'react-dnd';
 import update from "immutability-helper";
 import { TiTick, TiTimes } from "react-icons/ti";
-import { BsCircle, BsCircleFill } from "react-icons/bs";
+import { ImRadioChecked, ImRadioUnchecked } from "react-icons/im";
+import { AiFillCloseSquare } from "react-icons/ai";
+import Draggable from 'react-draggable';
+
 
 export const ThemedModal = ({
   button,
@@ -110,9 +113,9 @@ export const RadioBox = ({
           >
             <RadioCircle>
               {selectedOption === item ?
-                <BsCircleFill />
+                <ImRadioChecked />
                 :
-                <BsCircle />
+                <ImRadioUnchecked />
               }
             </RadioCircle>
             <RadioContent>
@@ -302,9 +305,9 @@ export const RadioBoxAnswer = ({
           >
             <RadioCircle>
               {selectedValue() == item ?
-                <BsCircleFill />
+                <ImRadioChecked />
                 :
-                <BsCircle />
+                <ImRadioUnchecked />
               }
             </RadioCircle>
             <RadioContent>
@@ -367,6 +370,49 @@ export const FlagButton = ({
     </FlagContainer>
   )
 }
+
+export const DraggableWindow = ({
+  isOpen,
+  setClose,
+  children,
+  title
+}) => {
+
+  if (isOpen) {
+    return (
+      <Draggable>
+        <Window>
+          <WindowHeader>
+            <div>{title}</div>
+            <div onClick={setClose}>
+              <AiFillCloseSquare color="white" />
+            </div>
+          </WindowHeader>
+          {children}
+        </Window>
+      </Draggable>
+    )
+  } else {
+    return null
+  }
+}
+
+const WindowHeader = styled.div`
+  display: flex;
+  background: #056DAA;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: -2px;
+`
+const Window = styled.div`
+  position: absolute;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+`
 
 const FlagContainer = styled.div`
   cursor: pointer;

@@ -8,10 +8,10 @@ import TopBarSecondary from '../Session/TopBarSecondary'
 import { RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 import { BiCalculator, BiBook } from "react-icons/bi";
-import Modal from 'react-modal';
 import { TiTimes } from "react-icons/ti";
 import Calculator from '../Calculator/calculator'
-import { ThemedModal } from '../Shared/Elements'
+import { ThemedModal, DraggableWindow } from '../Shared/Elements'
+import Modal from 'react-modal';
 
 const mapDispatchToProps = { finishSession, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
 
@@ -30,8 +30,6 @@ const customStyles = {
   }
 };
 
-Modal.setAppElement('#root')
-
 const Question = (props) => {
   const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
   const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
@@ -48,6 +46,26 @@ const Question = (props) => {
 
   return (
     <>
+      <DraggableWindow
+        isOpen={calculatorModalIsOpen}
+        setClose={() => {
+          setCalculatorModalIsOpen(false)
+        }}
+        title="Calculator"
+      >
+        <Calculator />
+      </DraggableWindow>
+
+      <DraggableWindow
+        isOpen={scratchpadModalIsOpen}
+        setClose={() => {
+          setScratchpadModalIsOpen(false)
+        }}
+        title="Scratch Pad"
+      >
+        <textarea rows="20" cols="50"></textarea>
+      </DraggableWindow>
+
       {props.session.currentStem.layout === "side by side" || !props.session.currentStem.layout ?
         <Border />
         : null}
@@ -63,15 +81,6 @@ const Question = (props) => {
               >
                 <BiCalculator color="white" size={20} /> Calculator
               </TopLink>
-              <Modal
-                isOpen={calculatorModalIsOpen}
-                onRequestClose={() => {
-                  setCalculatorModalIsOpen(false)
-                }}
-                style={customStyles}
-              >
-                <Calculator />
-              </Modal>
 
               <TopLink
                 onClick={() => {
@@ -80,25 +89,6 @@ const Question = (props) => {
               >
                 <BiBook color="white" size={20} /> Scratch Pad
               </TopLink>
-              <Modal
-                isOpen={scratchpadModalIsOpen}
-                onRequestClose={() => {
-                  setScratchpadModalIsOpen(false)
-                }}
-                style={customStyles}
-              >
-                <ModalTitle>
-                  <ModalText>Scratch Pad</ModalText>
-                  <CloseButton
-                    onClick={() => {
-                      setScratchpadModalIsOpen(false)
-                    }}
-                  >
-                    <TiTimes size={30} />
-                  </CloseButton>
-                </ModalTitle>
-                <textarea rows="20" cols="50"></textarea>
-              </Modal>
             </>
           )
         }}
@@ -328,19 +318,19 @@ const Text = styled.div`
 
 const MainContent = styled.div`
   display: flex;
-  flex-direction: ${props => props.layout == "normal" ? "column" : "row"};
+  flex-direction: ${props => props.layout.toLowerCase() == "normal" ? "column" : "row"};
   align-items: flex-start;
 `
 
 const QuestionContent = styled.div`
-  ${props => props.layout == "normal" ? '' : 'flex: 2;'}
-  width: ${props => props.layout == "normal" ? '100%' : 0};
+  ${props => props.layout.toLowerCase() == "normal" ? '' : 'flex: 2;'}
+  width: ${props => props.layout.toLowerCase() == "normal" ? '100%' : 0};
   padding: 30px 0 50px 0;
 `
 
 const QuestionStem = styled.div`
-  ${props => props.layout == "normal" ? '' : 'flex: 3;'}
-  width: ${props => props.layout == "normal" ? 'auto' : 0};
+  ${props => props.layout.toLowerCase() == "normal" ? '' : 'flex: 3;'}
+  width: ${props => props.layout.toLowerCase() == "normal" ? 'auto' : 0};
   margin-right: 40px;
   font-family: arial;
   text-align: justify;
