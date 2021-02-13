@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
-import { getSessionDetails, resetSessionDetail, finishSession, nextSection } from '../actions/session'
+import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, getSessionDetails, resetSessionDetail, finishSession, nextSection } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import LogoImage from '../assets/in2medlogo.png'
@@ -11,8 +11,17 @@ import Review from '../components/Session/Review';
 import Start from '../components/Session/Start';
 import Results from '../components/Session/Results';
 
+import { HotKeys } from "react-hotkeys";
 
-const mapDispatchToProps = { getSessionDetails, resetSessionDetail, finishSession, nextSection }
+
+const keyMap = {
+  SHOW_CALCULATOR: "alt+c",
+  NEXT_QUESTION: ["space", "alt+n"],
+  TEST: "command+z"
+};
+
+const mapDispatchToProps = { getSessionDetails, resetSessionDetail, finishSession, nextSection, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
+
 
 const mapStateToProps = (state) => {
   return state
@@ -75,6 +84,22 @@ const Timer = ({
 }
 
 const Session = (props) => {
+  const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
+  const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
+
+  const handlers = {
+    SHOW_CALCULATOR: () => {
+      setCalculatorModalIsOpen(true)
+    },
+    NEXT_QUESTION: () => {
+      if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0]) {
+        const currentQuestionId = props.session.currentQuestion.question_id
+        const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
+        const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
+        props.getQuestionDetail(nextQuestion)
+      }
+    }
+  };
 
   useEffect(() => {
     props.getSessionDetails(props.match.params.session_id, props.auth.userData.student_id)
@@ -88,70 +113,62 @@ const Session = (props) => {
   if (!props.session.currentSession || !props.session.currentStructure) return null
 
   return (
-    <SessionContainer>
+    <HotKeys handlers={handlers} keyMap={keyMap}>
+      <SessionContainer>
 
-      <TopBar>
-        <TopBarInner>
-          <TopBarLeft>
-            {props.session.currentStructure && props.session.currentSection ?
-              <>
-                {props.session.currentStructure.name} - {props.session.currentSection.name}
-              </>
-              : null}
-          </TopBarLeft>
-          <TopBarRight>
-            {props.session.currentStructure.type === "Exam" || props.session.currentStructure.type === "Mock" ?
-              <>
-                {props.session.currentSession.start_time.length > 0 && props.session.currentSession.start_time.length != props.session.currentSession.end_time.length
-                  ? <Timer
-                    startTimestamp={props.session.currentSession.start_time[props.session.currentStructure.section_order.indexOf(props.session.currentSection.section_id)]}
-                    sectionTimeLength={props.session.currentSection.time}
-                    onFinished={() => {
-                      alert("You have run out of time!")
+        <TopBar>
+          <TopBarInner>
+            <TopBarLeft>
+              {props.session.currentStructure && props.session.currentSection ?
+                <>
+                  {props.session.currentStructure.name} - {props.session.currentSection.name}
+                </>
+                : null}
+            </TopBarLeft>
+            <TopBarRight>
+              {props.session.currentStructure.type === "Exam" || props.session.currentStructure.type === "Mock" ?
+                <>
+                  {props.session.currentSession.start_time.length > 0 && props.session.currentSession.start_time.length != props.session.currentSession.end_time.length
+                    ? <Timer
+                      startTimestamp={props.session.currentSession.start_time[props.session.currentStructure.section_order.indexOf(props.session.currentSection.section_id)]}
+                      sectionTimeLength={props.session.currentSection.time}
+                      onFinished={() => {
+                        alert("You have run out of time!")
 
-                      if (props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]) {
-                        const currentSectionId = props.session.currentSection.section_id
-                        const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
-                        props.nextSection(
-                          props.session.currentSession.session_id,
-                          props.session.currentStructure.section_order[currentSectionIndex + 1]
-                        )
-                      } else {
-                        props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
-                      }
+                        if (props.session.currentSection.section_id !== props.session.currentStructure.section_order.slice(-1)[0]) {
+                          const currentSectionId = props.session.currentSection.section_id
+                          const currentSectionIndex = props.session.currentStructure.section_order.indexOf(currentSectionId)
+                          props.nextSection(
+                            props.session.currentSession.session_id,
+                            props.session.currentStructure.section_order[currentSectionIndex + 1]
+                          )
+                        } else {
+                          props.finishSession(props.session.currentSession.session_id, props.session.currentStructure)
+                        }
 
-                    }}
-                  />
-                  : null}
-              </>
-              : null}
-          </TopBarRight>
-        </TopBarInner>
-      </TopBar>
+                      }}
+                    />
+                    : null}
+                </>
+                : null}
+            </TopBarRight>
+          </TopBarInner>
+        </TopBar>
 
-      <Container>
+        <Container>
 
-        {props.session.mode === "review" ? <Review />
-          : props.session.mode === "question" ?
-            <Question />
-            : props.session.mode === "answer" ?
-              <Answer />
-              : props.session.mode === "start" ?
-                <Start
-                  returnHome={() => {
-                    props.history.push(
-                      props.session.currentStructure.type === "Exam" ?
-                        '/exam/' + props.session.currentSession.structure_id
-                        : props.session.currentStructure.type === "Practice" ?
-                          '/practice/' + props.session.currentStructure.category_id
-                          : props.session.currentStructure.type === "Mock" ?
-                            '/mock/' + props.session.currentStructure.structure_id
-                            : null
-                    )
-                  }}
-                />
-                : props.session.mode === "results" ?
-                  <Results
+          {props.session.mode === "review" ? <Review />
+            : props.session.mode === "question" ?
+              <Question
+                scratchpadModalIsOpen={scratchpadModalIsOpen}
+                setScratchpadModalIsOpen={setScratchpadModalIsOpen}
+                calculatorModalIsOpen={calculatorModalIsOpen}
+                setCalculatorModalIsOpen={setCalculatorModalIsOpen}
+              />
+              : props.session.mode === "answer" ?
+                <Answer />
+                : props.session.mode === "start" ?
+                  <Start
                     returnHome={() => {
                       props.history.push(
                         props.session.currentStructure.type === "Exam" ?
@@ -164,10 +181,25 @@ const Session = (props) => {
                       )
                     }}
                   />
-                  : null
-        }
-      </Container>
-    </SessionContainer>
+                  : props.session.mode === "results" ?
+                    <Results
+                      returnHome={() => {
+                        props.history.push(
+                          props.session.currentStructure.type === "Exam" ?
+                            '/exam/' + props.session.currentSession.structure_id
+                            : props.session.currentStructure.type === "Practice" ?
+                              '/practice/' + props.session.currentStructure.category_id
+                              : props.session.currentStructure.type === "Mock" ?
+                                '/mock/' + props.session.currentStructure.structure_id
+                                : null
+                        )
+                      }}
+                    />
+                    : null
+          }
+        </Container>
+      </SessionContainer>
+    </HotKeys>
   )
 }
 

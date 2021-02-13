@@ -19,31 +19,38 @@ const PracticeSection = ({
   topic
 }) => {
   return (
-    <ExamList>
-      {categories.filter(category => category.topic === topic).map((category, i) => {
-        return (
-          <Card
-            onClick={() => {
-              props.history.push('/practice/' + category.category_id)
-            }}
-          >
-            <CardTop>
-              <CardHeading>{category.name}</CardHeading>
-            </CardTop>
+    <>
+      <SectionTitle>
+        {topic}
+      </SectionTitle>
+      <ExamList>
+        {categories.filter(category => category.topic === topic).map((category, i) => {
+          if (!["General Arithmetic"].includes(category.name)) {
+            return (
+              <Card
+                onClick={() => {
+                  props.history.push('/practice/' + category.category_id)
+                }}
+              >
+                <CardTop>
+                  <CardHeading>{category.name}</CardHeading>
+                </CardTop>
 
-            <CardBottom>
-              <CardLength>
-                {category.topic}
-              </CardLength>
-              <Button>
-                <AiOutlineArrowRight color="#f89800" size={25} />
-              </Button>
-            </CardBottom>
+                <CardBottom>
+                  <CardLength>
 
-          </Card>
-        )
-      })}
-    </ExamList>
+                  </CardLength>
+                  <Button>
+                    <AiOutlineArrowRight color="#f89800" size={25} />
+                  </Button>
+                </CardBottom>
+
+              </Card>
+            )
+          }
+        })}
+      </ExamList>
+    </>
   )
 }
 
@@ -101,13 +108,13 @@ const Container = styled.div`
 
 const ExamList = styled.div`
   display: flex;
-  margin-top: 20px;
+  margin-top: 21px;
   flex-wrap: wrap;
 `
 
 const CardHeading = styled.div`
-  font-family: Gilroy-Bold;
-  font-size: 22px
+  font-family: Gilroy-Medium;
+  font-size: 18px;
 `
 
 const CardText = styled.div`
@@ -147,5 +154,9 @@ const Card = styled.div`
   flex-direction: column;
   margin-bottom: 20px;
 `
-
+const SectionTitle = styled.div`
+  font-size: 20px;
+  font-family: Gilroy-Bold;
+  margin-top: 28px
+`
 export default connect(mapStateToProps, mapDispatchToProps)(Practice)

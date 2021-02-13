@@ -29,26 +29,49 @@ const Start = (props) => {
         }}
       />
       <Container>
-        <WelcomeMessage>
-          <UCATLogo src="https://practice.ucat.ac.uk/img/logo.png" />
+        {props.session.currentStructure.type === "Exam" || props.session.currentStructure.type === "Mock" ?
+          <>
+            <WelcomeMessage>
+              <UCATLogo src="https://practice.ucat.ac.uk/img/logo.png" />
           UCAT PRACTICE TEST
         </WelcomeMessage>
 
-        <Description>
-          <DescriptionTitle>
-            {props.session.currentSection.name}
-          </DescriptionTitle>
-          {descriptions[props.session.currentSection.name] ? descriptions[props.session.currentSection.name]() : null}
-        </Description>
+            <Description>
+              <DescriptionTitle>
+                {props.session.currentSection.name}
+              </DescriptionTitle>
+              {descriptions[props.session.currentSection.name] ? descriptions[props.session.currentSection.name]() : null}
+            </Description>
 
-        <Info>
-          In this section, you will have <b>{props.session.currentSection.time}</b> minutes to answer <b>{props.session.currentSection.question_order.length}</b> questions.
+            <Info>
+              In this section, you will have <b>{props.session.currentSection.time}</b> minutes to answer <b>{props.session.currentSection.question_order.length}</b> questions.
         </Info>
 
-        <Warning>
-          Once you start the timer, you cannot pause this section.
+            <Warning>
+              Once you start the timer, you cannot pause this section.
         </Warning>
+          </>
+          :
+          <>
+            <WelcomeMessage>
+              <UCATLogo src="https://practice.ucat.ac.uk/img/logo.png" />
+          UCAT PRACTICE
+        </WelcomeMessage>
+
+            <Description>
+              <DescriptionTitle>
+                {props.session.currentSection.name}
+              </DescriptionTitle>
+              {descriptions[props.session.currentSection.name] ? descriptions[props.session.currentSection.name]() : null}
+            </Description>
+
+            <Info>
+              In this section, you will be tested on <b>{props.session.currentSection.question_order.length}</b> practice questions related to your selected topic.
+        </Info>
+          </>
+        }
       </Container>
+
 
       <BottomBar
         leftContent={() => (

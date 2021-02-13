@@ -317,7 +317,7 @@ export const RadioBoxAnswer = ({
               </Content>
               <Result>
                 {item === selectedValue() && correctValue !== selectedValue() ?
-                  <Text color="red">Your answer: Wrong!</Text>
+                  <Text color="red">Your answer: Incorrect</Text>
                   : item === correctValue && correctValue !== selectedValue() ?
                     <Text color="green">Correct Answer</Text>
                     : item === selectedValue() && correctValue === selectedValue() ?
@@ -422,12 +422,12 @@ const FlagContainer = styled.div`
   align-items: center;
 `
 const RadioOption = styled.div`
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   max-width: 100%;
   display: flex;
   align-items: center;  
   cursor: pointer;
-  padding: 10px 0;
+  padding: 8px 0;
 `
 
 
@@ -515,7 +515,7 @@ const DraggableItem = styled.div`
 
 const DragAndDropOptions = styled.div`
   display: flex;
-  flex: 5;
+  flex: 2;
   flex-direction: column;
 `
 
@@ -560,6 +560,7 @@ const RadioContent = styled.div`
 
 const Content = styled.div`
   justify-content: space-between;
+  align-items: center;
   display: flex;
   width: 100%;
 `

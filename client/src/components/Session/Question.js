@@ -8,10 +8,9 @@ import TopBarSecondary from '../Session/TopBarSecondary'
 import { RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 import { BiCalculator, BiBook } from "react-icons/bi";
-import { TiTimes } from "react-icons/ti";
 import Calculator from '../Calculator/calculator'
 import { ThemedModal, DraggableWindow } from '../Shared/Elements'
-import Modal from 'react-modal';
+import { HotKeys } from "react-hotkeys";
 
 const mapDispatchToProps = { finishSession, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
 
@@ -19,20 +18,7 @@ const mapStateToProps = (state) => {
   return state
 }
 
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)'
-  }
-};
-
 const Question = (props) => {
-  const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
-  const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
 
   useDidMountEffect(() => {
     props.getSessionResponses(
@@ -47,9 +33,9 @@ const Question = (props) => {
   return (
     <>
       <DraggableWindow
-        isOpen={calculatorModalIsOpen}
+        isOpen={props.calculatorModalIsOpen}
         setClose={() => {
-          setCalculatorModalIsOpen(false)
+          props.setCalculatorModalIsOpen(false)
         }}
         title="Calculator"
       >
@@ -57,9 +43,9 @@ const Question = (props) => {
       </DraggableWindow>
 
       <DraggableWindow
-        isOpen={scratchpadModalIsOpen}
+        isOpen={props.scratchpadModalIsOpen}
         setClose={() => {
-          setScratchpadModalIsOpen(false)
+          props.setScratchpadModalIsOpen(false)
         }}
         title="Scratch Pad"
       >
@@ -76,7 +62,7 @@ const Question = (props) => {
             <>
               <TopLink
                 onClick={() => {
-                  setCalculatorModalIsOpen(true)
+                  props.setCalculatorModalIsOpen(true)
                 }}
               >
                 <BiCalculator color="white" size={20} /> Calculator
@@ -84,7 +70,7 @@ const Question = (props) => {
 
               <TopLink
                 onClick={() => {
-                  setScratchpadModalIsOpen(true)
+                  props.setScratchpadModalIsOpen(true)
                 }}
               >
                 <BiBook color="white" size={20} /> Scratch Pad

@@ -19,38 +19,110 @@ const Home = (props) => {
     props.getAllExams(props.type)
   }, [props.history.location.pathname])
 
+  const SectionMocks = ({
+    examList,
+    topic
+  }) => {
+    return (
+      <>
+        <SectionTitle>
+          {topic}
+        </SectionTitle>
+        <ExamList>
+          {examList.map((exam, i) => {
+            if (exam.name.includes(topic)) {
+              return (
+                <Card key={i}
+                  onClick={() => {
+                    props.history.push(`/${props.type.toLowerCase()}/` + exam.structure_id.toString())
+                  }}
+                >
+                  <CardTop>
+                    <CardHeading
+                      type="mock"
+                    >{exam.name}</CardHeading>
+                  </CardTop>
+
+                  <CardBottom>
+                    <CardLength>
+                      {exam.time} min
+                  </CardLength>
+                    <Button>
+                      <AiOutlineArrowRight color="#f89800" size={25} />
+                    </Button>
+                  </CardBottom>
+
+                </Card>
+              )
+            }
+          })}
+        </ExamList>
+      </>
+    )
+  }
+
   if (props.content.isFetchingExams) return <Loading />
   if (!props.content.allExams) return null
 
   return (
     <Container>
       <Title>{props.type}s</Title>
-      <ExamList>
-        {props.content.allExams.map((exam, i) => {
-          return (
-            <Card key={i}
-              onClick={() => {
-                props.history.push(`/${props.type.toLowerCase()}/` + exam.structure_id.toString())
-              }}
-            >
-              <CardTop>
-                <CardHeading>{exam.name}</CardHeading>
-                <CardText>{exam.description}</CardText>
-              </CardTop>
 
-              <CardBottom>
-                <CardLength>
-                  {exam.time} min
-                </CardLength>
-                <Button>
-                  <AiOutlineArrowRight color="#f89800" size={25} />
-                </Button>
-              </CardBottom>
+      {props.type === "Exam" ?
 
-            </Card>
-          )
-        })}
-      </ExamList>
+        <>
+          <ExamList>
+            {props.content.allExams.map((exam, i) => {
+              return (
+                <Card key={i}
+                  onClick={() => {
+                    props.history.push(`/${props.type.toLowerCase()}/` + exam.structure_id.toString())
+                  }}
+                >
+                  <CardTop>
+                    <CardHeading type="exam">{exam.name}</CardHeading>
+                  </CardTop>
+
+                  <CardBottom>
+                    <CardLength>
+                      {exam.time} min
+                  </CardLength>
+                    <Button>
+                      <AiOutlineArrowRight color="#f89800" size={25} />
+                    </Button>
+                  </CardBottom>
+
+                </Card>
+              )
+            })}
+          </ExamList>
+        </>
+        :
+        <>
+          <SectionMocks
+            topic="Verbal Reasoning"
+            examList={props.content.allExams}
+          />
+          <SectionMocks
+            examList={props.content.allExams}
+            topic="Decision Making"
+          />
+          <SectionMocks
+            examList={props.content.allExams}
+            topic="Quantitative Reasoning"
+          />
+          <SectionMocks
+            examList={props.content.allExams}
+            topic="Abstract Reasoning"
+          />
+          <SectionMocks
+            examList={props.content.allExams}
+            topic="Situational Judgement"
+          />
+        </>
+
+      }
+
     </Container>
   )
 }
@@ -73,8 +145,8 @@ const ExamList = styled.div`
 `
 
 const CardHeading = styled.div`
-  font-family: Gilroy-Bold;
-  font-size: 22px
+  font-family: ${props => props.type === "exam" ? "Gilroy-Bold" : "Gilroy-Medium"};
+  font-size: 20px;
 `
 
 const CardText = styled.div`
@@ -105,7 +177,7 @@ const Card = styled.div`
   padding: 20px;
   border-radius: 15px;
   width: 200px;
-  height: 200px;
+  height: 100px;
   margin-right: 20px;
   cursor: pointer;
   display: flex;
@@ -114,4 +186,9 @@ const Card = styled.div`
   margin-bottom: 20px;
 `
 
+const SectionTitle = styled.div`
+  font-size: 20px;
+  font-family: Gilroy-Bold;
+  margin-top: 28px
+`
 export default connect(mapStateToProps, mapDispatchToProps)(Home)

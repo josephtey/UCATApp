@@ -66,6 +66,8 @@ const PracticeTopic = (props) => {
           <Text>
             {props.content.categoryDetail.totalCompletedQuestions}/{props.content.categoryDetail.totalQuestions} Questions tested
           </Text>
+
+          <Text style={{ color: 'rgba(0,0,0,0.3)', marginTop: '40px' }}>To practice this topic, select the number of questions you want to practice on the right.</Text>
         </HeaderLeft>
 
         <HeaderRight>

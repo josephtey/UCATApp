@@ -25,8 +25,8 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)'
+    margin: '0 20px',
+    transform: 'translate(-50%, -50%)',
   }
 };
 
@@ -126,7 +126,14 @@ const Answer = (props) => {
                   </ExplanationTitle>
                   {props.session.currentQuestion.explanation ?
                     <ExplanationText>
-                      {props.session.currentQuestion.explanation}
+                      {props.session.currentQuestion.explanation.split("<br/>").map((para) => {
+                        return (
+                          <>
+                            {para} <br />
+                          </>
+                        )
+                      })}
+                      {}
                     </ExplanationText>
                     :
                     <ExplanationText>
