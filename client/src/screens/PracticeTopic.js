@@ -163,11 +163,16 @@ const PracticeTopic = (props) => {
                 }}
               >
 
-                <CardTitle>
-                  {new Date(session.start_time[0]).toLocaleDateString()}
-                </CardTitle>
+                <CardLeft>
+                  <CardTitle>
+                    {new Date(session.start_time[0]).toLocaleTimeString()} - {new Date(session.end_time[session.end_time.length - 1]).toLocaleTimeString()}
+                  </CardTitle>
+                  <CardSubtitle>
+                    {new Date(session.start_time[0]).toLocaleDateString()}
+                  </CardSubtitle>
+                </CardLeft>
                 <CardInfo>
-                  Score: {session.score}
+                  {session.score_breakdown[Object.keys(session.score_breakdown)[0]][0]} Correct | {session.score_breakdown[Object.keys(session.score_breakdown)[0]][2]} Partially Correct | {session.score_breakdown[Object.keys(session.score_breakdown)[0]][1]} Incorrect <br />
                 </CardInfo>
 
               </Card>
@@ -247,6 +252,13 @@ const DropdownMenu = styled.div`
   display: flex;
   flex-direction: column;
   margin-right: 15px;
+`
+const CardLeft = styled.div`
+
+`
+
+const CardSubtitle = styled.div`
+  
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(PracticeTopic)
