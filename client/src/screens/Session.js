@@ -105,22 +105,23 @@ const Session = (props) => {
       setCalculatorModalIsOpen(true)
     },
     NEXT_QUESTION: () => {
-      if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0]) {
-
-
+      if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0] && props.session.mode === "question") {
         const currentQuestionId = props.session.currentQuestion.question_id
         const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
         const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
+
         props.getQuestionDetail(nextQuestion)
 
       }
     },
     PREVIOUS_QUESTION: () => {
-      if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0]) {
+      if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0] && props.session.mode === "question") {
         const currentQuestionId = props.session.currentQuestion.question_id
         const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
         const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex - 1]
+
         props.getQuestionDetail(nextQuestion)
+
       }
     },
     FLAG_QUESTION: () => {

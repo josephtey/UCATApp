@@ -3,7 +3,7 @@ import ExampleExam from '../constants/example_exam.json'
 
 const db = axios.create({
   // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000'
-  baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000'
+  baseURL: 'http://ec2-13-239-117-211.ap-southeast-2.compute.amazonaws.com:3000'
 });
 
 export const db_getAllExams = async (type) => {
