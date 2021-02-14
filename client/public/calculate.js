@@ -106,7 +106,7 @@ function createStack(stack, operator, screenClear, allowOp) {
 
 
 // Keyboard Shortcuts
-document.addEventListener('keydown', (event) => {
+document.addEventListener('keyup', (event) => {
   const keyName = event.key;
 
   if (keyName === '+') {
