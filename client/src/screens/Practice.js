@@ -25,7 +25,7 @@ const PracticeSection = ({
       </SectionTitle>
       <ExamList>
         {categories.filter(category => category.topic === topic).map((category, i) => {
-          if (!["General Arithmetic"].includes(category.name)) {
+          if (!["General Arithmetic", "Perimeter/Area/Volume", "Ranking Appropriateness"].includes(category.name)) {
             return (
               <Card
                 onClick={() => {

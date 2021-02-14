@@ -11,14 +11,26 @@ import Review from '../components/Session/Review';
 import Start from '../components/Session/Start';
 import Results from '../components/Session/Results';
 
-import { HotKeys } from "react-hotkeys";
+import { GlobalHotKeys } from "react-hotkeys";
 
 
 const keyMap = {
   SHOW_CALCULATOR: "alt+c",
-  NEXT_QUESTION: ["space", "alt+n"],
-  PREVIOUS_QUESTION: "alt+p",
-  FLAG_QUESTION: "alt+f"
+  PREVIOUS_QUESTION: {
+    name: 'Previous Question',
+    sequence: 'alt+p',
+    action: 'keydown'
+  },
+  FLAG_QUESTION: {
+    name: 'Flag Question',
+    sequence: 'alt+f',
+    action: 'keydown'
+  },
+  NEXT_QUESTION: {
+    name: 'Next Question',
+    sequences: ['space', 'alt+n'],
+    action: 'keydown'
+  },
 };
 
 const mapDispatchToProps = { getSessionDetails, resetSessionDetail, finishSession, nextSection, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
@@ -94,47 +106,35 @@ const Session = (props) => {
     },
     NEXT_QUESTION: () => {
       if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder.slice(-1)[0]) {
-        const oldActiveElement = document.activeElement;
+
 
         const currentQuestionId = props.session.currentQuestion.question_id
         const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
         const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex + 1]
         props.getQuestionDetail(nextQuestion)
 
-        document.activeElement.blur();
-        setTimeout(() => {
-          oldActiveElement.focus();
-        }, 100);
       }
     },
     PREVIOUS_QUESTION: () => {
       if (props.session.currentQuestion.question_id !== props.session.currentQuestionOrder[0]) {
-        const oldActiveElement = document.activeElement;
-
         const currentQuestionId = props.session.currentQuestion.question_id
         const currentQuestionIndex = props.session.currentQuestionOrder.indexOf(currentQuestionId)
         const nextQuestion = props.session.currentQuestionOrder[currentQuestionIndex - 1]
         props.getQuestionDetail(nextQuestion)
-
-        document.activeElement.blur();
-        setTimeout(() => {
-          oldActiveElement.focus();
-        }, 100);
       }
     },
     FLAG_QUESTION: () => {
-      const oldActiveElement = document.activeElement;
+      const flagged = props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id) ?
+        props.session.sessionResponses.find(item => item.question_id === props.session.currentQuestion.question_id).flagged
+        : false
+
       props.flagResponse(
         props.session.currentSession.session_id,
         props.session.currentQuestion.question_id,
         props.auth.userData.student_id,
         props.session.currentSection.section_id,
-        true
+        !flagged
       )
-      document.activeElement.blur();
-      setTimeout(() => {
-        oldActiveElement.focus();
-      }, 100);
     }
   };
 
@@ -150,7 +150,7 @@ const Session = (props) => {
   if (!props.session.currentSession || !props.session.currentStructure) return null
 
   return (
-    <HotKeys handlers={handlers} keyMap={keyMap}>
+    <GlobalHotKeys handlers={handlers} keyMap={keyMap} allowChanges={true}>
       <SessionContainer>
 
         <TopBar>
@@ -236,7 +236,7 @@ const Session = (props) => {
           }
         </Container>
       </SessionContainer>
-    </HotKeys>
+    </GlobalHotKeys>
   )
 }
 
