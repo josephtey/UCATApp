@@ -25,6 +25,7 @@ export const initUser = (username, password) => async dispatch => {
 
     if (response.success) {
       const userInfo = jwt.decode(response.data.jwt)
+      console.log(userInfo)
 
       if (userInfo.roles.includes("ucat_content_subscriber")) {
 
