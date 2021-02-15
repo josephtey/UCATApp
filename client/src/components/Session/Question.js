@@ -52,7 +52,7 @@ const Question = (props) => {
         <textarea rows="20" cols="50"></textarea>
       </DraggableWindow>
 
-      {props.session.currentStem.layout === "side by side" || !props.session.currentStem.layout ?
+      {props.session.currentStem.layout.toLowerCase() === "side by side" || !props.session.currentStem.layout ?
         <Border />
         : null}
 
