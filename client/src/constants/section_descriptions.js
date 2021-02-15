@@ -105,5 +105,5 @@ export const descriptions = {
   "Quantitative Reasoning": quantitative_reasoning_description,
   "Verbal Reasoning": verbal_reasoning_description,
   "Abstract Reasoning": abstract_reasoning_description,
-  "Situational Judgment": situational_judgement_description
+  "Situational Judgement": situational_judgement_description
 }

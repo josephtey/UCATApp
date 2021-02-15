@@ -290,11 +290,6 @@ export const RadioBoxAnswer = ({
   images
 }) => {
 
-  useEffect(() => {
-    console.log(selectedValue, correctValue)
-  })
-
-
   return (
     <RadioElements>
       {options.map((item, i) => {
@@ -559,7 +554,7 @@ const RadioContent = styled.div`
 `
 
 const Content = styled.div`
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   display: flex;
   width: 100%;

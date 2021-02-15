@@ -83,7 +83,7 @@ const Timer = ({
   if (!timerStop) {
     return (
       <>
-        {timeLeft[1]} Mins:{timeLeft[2]} Secs left
+        {timeLeft[1]}:{timeLeft[2]} left
       </>
     )
   } else {
@@ -159,7 +159,17 @@ const Session = (props) => {
             <TopBarLeft>
               {props.session.currentStructure && props.session.currentSection ?
                 <>
-                  {props.session.currentStructure.name} - {props.session.currentSection.name}
+                  {props.session.currentStructure.type === "Exam" ?
+                    <>
+                      {props.session.currentStructure.name} - {props.session.currentSection.name}
+                    </>
+                    :
+                    <>
+                      {props.session.currentStructure.name}
+                    </>
+
+                  }
+
                 </>
                 : null}
             </TopBarLeft>

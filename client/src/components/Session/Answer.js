@@ -49,7 +49,7 @@ const Answer = (props) => {
 
   return (
     <>
-      {props.session.currentStem.layout === "side by side" || !props.session.currentStem.layout ?
+      {!props.session.currentStem.layout || props.session.currentStem.layout.toLowerCase() === "side by side" ?
         <Border />
         : null}
       <TopBarSecondary
@@ -176,7 +176,7 @@ const Answer = (props) => {
                     })}
                   </QuestionStemText>
                   : null}
-                <QuestionStemImage src={props.session.currentStem.image} />
+                <QuestionStemImage src={props.session.currentStem.image} category_id={props.session.currentStem.category_id} />
               </QuestionStem>
               : null}
             <QuestionContent
@@ -342,7 +342,7 @@ const QuestionStemText = styled.div`
 `
 
 const QuestionStemImage = styled.img`
-  max-width: 70%;
+  max-width: ${props => props.category_id === 17 ? '50%' : '70%'};
 `
 
 const QuestionImage = styled.img`
