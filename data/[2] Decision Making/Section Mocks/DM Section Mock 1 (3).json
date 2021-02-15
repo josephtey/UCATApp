@@ -1,0 +1,641 @@
+{
+  "exam": {
+    "name": "Decision Making 1",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 31
+  },
+  "sections": [
+    {
+      "name": "Decision Making",
+      "description": "Looks at your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information.",
+      "time": 31,
+      "stems": [
+        {
+          "text": "Although only some Prancers can swim, all Prancers can jump. At the Olympics, there are some Prancers. All Jumpers at the Olympics can dive.",
+          "category_id": 3,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "At the Olympics there are only Prancers",
+                "Some Prancers at the Olympics can swim",
+                "The Jumpers at the Olympics can dive",
+                "There are some Prancers who are not at the Olympics",
+                "The Prancers at the Olympics who swim, can also jump"
+              ],
+              "answer": [
+                "N",
+                "N",
+                "Y",
+                "Y",
+                "Y"
+              ],
+              "explanation": "1. We know that there are some Prancers at the Olympics, but we do not know that they are the only ones at the Olympics. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Only some Prancers can swim, so we don’t know whether these same Prancers are the ones at the Olympics since only some Prancers are at the Olympics, not all. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. All Jumpers at the Olympics can dive. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. If only some Prancers are at the Olympics, then it stands that at least one Prancer is not at the Olympics, so some Prancers are not at the Olympics. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Since all Prancers can jump, the Prancers that are at the Olympics who swim can also jump. Therefore, the correct answer is YES, as the conclusion does follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "This book is red. All journals are books. Journals can either be yellow, green or red. Some newspapers are journals.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "This book is a journal",
+                "If a journal is not yellow or green, it must be red",
+                "All books are journals",
+                "Some newspapers are books",
+                "Some newspapers are not books"
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "N",
+                "Y",
+                "N"
+              ],
+              "explanation": "1. All journals are books, but not all books are journals, so we don’t know if this book is a journal or not for sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since journals can be either yellow, green or red, if it is not yellow or green it must be red. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. All journals are books but not all books are journals. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>4. If some newspapers are journals and all journals are books, then those newspapers that are journals must also be books. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Although some newspapers are journals and those journals are books (therefore those newspapers that are journals must also be books), we do not know if perhaps newspapers are books by themselves (as in they are books but not journals). Thus we cannot say for certain whether some newspapers are not books, because all newspapers could be books for all we know. Therefore, the correct answer is NO, as the conclusion does not follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "All new employees at Dunvale Primary School must pass a first-aid certificate test within one month of working at the school. If they are part-time employees, they must do the certificate on a non-working day. Some volunteers at the school are exempt from the test. If an employee leaves for more than 10 weeks, they have to redo the first-aid certificate. If you fail the first aid certificate, you must wait two weeks before trying again.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "If a volunteer works on Fridays and Mondays, they must sit the test on Tuesday, Wednesday and Thursday.",
+                "If an employee leaves Dunvale Primary School and goes to Dinghall Primary School, they will have to redo the first-aid certificate",
+                "If a new employee starts working at the school at the start of February, and they take the test in February, they can continue working at the school regardless of the result.",
+                "Dunvale Primary School has volunteers",
+                "Donny is an employee who has returned after a 15-week backpacking trip across Europe. Even though he passed the first-aid test before, he still has to do it again."
+              ],
+              "answer": [
+                "N",
+                "N",
+                "N",
+                "Y",
+                "Y"
+              ],
+              "explanation": "1. Some volunteers are exempt from the test, so we do now know whether this volunteer needs to sit the test at all. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We do not know that Dinghall Primary School requires employees to sit a first aid test. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know the consequences for failing a first aid certificate for employees at the school (ie. whether they will be fired or not), so we cannot say for sure that they will continue to work at the school regardless of the result. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. It states that some volunteers at the school are exempt from the test, implying that there are already volunteers working at the school. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. As he has left for more than 10 weeks, he must redo the first aid certificate. Therefore, the correct answer is YES, as the conclusion does follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "All swimmers have long arms. Some basketballers have long arms, but all basketball players are tall. Most baseball players have good eyes.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "If someone is tall, they are a basketball player",
+                "Swimmers with good eyes may have short arms",
+                "Some baseball players have bad eyes",
+                "If someone has short arms and good eyes, they must be a basketball player",
+                "Baseball players are shorter than basketball players."
+              ],
+              "answer": [
+                "N",
+                "N",
+                "N",
+                "N",
+                "N"
+              ],
+              "explanation": "1. All basketball players are tall, but not all tall people are basketball players. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. All swimmers have long arms so no swimmers can have short arms regardless of their eyesight. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Although some baseball players do not have good eyes, we do not know that this means that they have bad eyes for sure (there could be more than just good and bad eyes, it is not binary in this case). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We have no information about the eyesight of basketball players and we do not know if there are any basketball players that have short arms – there could be but we don’t have any information for that. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>5. Although all basketball players are tall, we do not know if baseball players are also tall. Therefore, the correct answer is NO, as the conclusion does not follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Some purses are bags. All bags have handles. Handles can be either blue, black or yellow. Most wallets have yellow handles.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "If something has a blue handle, it must be a bag",
+                "Some purses have black handles",
+                "Some wallets do not have yellow handles",
+                "Some purses must have handles",
+                "If something has a yellow handle, it must be a wallet"
+              ],
+              "answer": [
+                "N",
+                "N",
+                "Y",
+                "Y",
+                "N"
+              ],
+              "explanation": "1. A bag must have a handle but that does not mean a blue handle can only belong to a bag (could belong to a wallet for example or something else). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Although some purses are bags and bag handles can black, blue or yellow, we don’t know that the purses that are bags will have black handles for sure (all the purses that are bags could have yellow handles for example). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If most wallets have yellow handles, then at least 1 wallet does not have a yellow handle. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. If some purses are bags and all bags have handles, then some purses must have handles. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. A bag could also have a yellow handle, and a purse that is a bag could have a yellow handle (among many other things that could have a yellow handle that are not mentioned here, but we don’t know for sure). Therefore, the correct answer is NO, as the conclusion does not follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Andrew earns the most amount of money out of any of the friends in the group.<br/>Benjamin earns more than Carla but has been earning $20.<br/>Dennis earns $5 more than Benjamin.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "Who earns the least amount of money?",
+              "type": "Multiple Choice",
+              "options": [
+                "Andrew",
+                "Benjamin",
+                "Carla",
+                "Dennis"
+              ],
+              "answer": "C",
+              "explanation": "If Dennis earns more than Benjamin, then he also earns more than Carla. Since Andrew earns the most, then he must earn more than Dennis. Thus Carla has to earn the least, as she earns less than Benjamin, Dennis and Andrew. Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Adam, Bella, Carrie and Denise are playing a game of Monopoly together. The aim of the game is not to be bankrupt first.<br/>Adam went bankrupt before Bella. <br/>Denise and Bella had the most amount of money at the start of the game.<br/>The player with the least amount of money at the start of the game did not come last.<br/>Carrie had more money than Adam at the start of the game.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "Who came last?",
+              "type": "Multiple Choice",
+              "options": [
+                "Adam or Carrie",
+                "Denise or Bella",
+                "Carrie or Denise",
+                "Bella or Adam"
+              ],
+              "answer": "C",
+              "explanation": "If Denise and Bella had the most amount of money at the start of the game, and Carrie had more money than Adam at the start, then Adam had the least amount of money at the start (as Carrie must have had less than Denise and Bella). Since we know the player with the least amount of money at the start of the game did not come last, we know that Adam did not come last. If Adam went bankrupt before Bella, then Bella did not come last either. Thus either Denise or Carrie came last. Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Fredrick mixes and sells drinks. Each drink can have up to 3 different flavours mixed in it, but it must have at least one flavour. One day he decides to include an additional flavour, so now his drinks can have up to 4 flavours in them.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "How many more flavour combinations can he have?",
+              "type": "Multiple Choice",
+              "options": [
+                "7",
+                "8",
+                "14",
+                "15"
+              ],
+              "answer": "B",
+              "explanation": "Initially he has 7 flavour combinations: Let’s say he has flavours X, Y and Z. Therefore, the combinations are XYZ, XY, XZ, ZY, X, Y, Z (7 combinations, since each combination can have UP TO 3 flavours, but at least 1). If he adds an extra flavour, say flavour W, then we have the following 15 combinations: WXYZ, WXY, WXZ, WYZ, XYZ, WX, WY, WZ, XY, XZ, ZY, W, X, Y, Z (15 combinations). Therefore 15 – 7 = 8 more combinations. Therefore, the correct answer is B. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Two counters move along a line with 12 spaces as such, from the first to twelfth:<br/>(1st space) _ _ _ _ _ _ _ _ _ _ _ _ (12th space)<br/> Both counters start on the first space. The first counter skips 2 spaces each time it moves. The second counter skips 1 space each time it moves. They both move at the same time.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "On what space do both counters meet?",
+              "type": "Multiple Choice",
+              "options": [
+                "3rd",
+                "7th",
+                "12th",
+                "None of them"
+              ],
+              "answer": "D",
+              "explanation": "If they both move at the same time, and one counter moves 1 more space than the other, with each move the first counter will just keep getting further and further away from the second counter, so it is impossible for them to meet. Therefore, the correct answer is D.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Sally, Craig, Fred and Molly each roll two six-sided dice. <br/>Molly scored 6.<br/>Sally scored 3 more than Fred and Craig combined.<br/>Fred did not get more than 5. <br/>Craig scored less than Fred but scored an even number below 5.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "Who must have achieved the highest score?",
+              "type": "Multiple Choice",
+              "options": [
+                "Sally",
+                "Craig",
+                "Fred",
+                "Molly"
+              ],
+              "answer": "A",
+              "explanation": "Craig could have scored either a 2 or 4. Therefore, the minimum combined score Fred and Craig could have received is 3 + 2 = 5 (Fred could not have gotten below 2, because Craig has to have scored an even number below Fred). Therefore, the lowest score Sally could have received is 5 + 3 = 8. If Molly scored a 6, then Sally must have received the highest score if the lowest she can possible get is an 8. Therefore, the correct answer is A.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Should the government implement tougher laws for people who drink drive? ",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, studies have shown that there is a direct correlation between increased severity of drink driving laws and decreased alcohol-related accidents ",
+                "Yes, it is wrong for people to drink drive and they deserve to be punished",
+                "No, an education campaign would be more beneficial ",
+                "No, tougher laws would not deter people from drink driving"
+              ],
+              "answer": "A",
+              "explanation": "Option A uses evidence to demonstrate the logical link between drink driving and tougher laws, which are the two key components of this question. Options B and C do not address both ‘tough laws’ and ‘drink driving’, and Option D has no evidence whereas Option A does, making A the strongest argument. Therefore, the correct answer is A.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Should workers be allowed to join a union in Australia? ",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, employers shouldn’t have the only say in employee conditions",
+                "Yes, employees supported by a union are 30% less likely to develop a chronic illness than those who aren’t ",
+                "No, employees are perfectly capable of advocating for themselves ",
+                "No, workers that were a part of a union were far less productive in a study undertaken in Canada. "
+              ],
+              "answer": "B",
+              "explanation": "Options A and C are more based in opinion rather than fact. Option B and D both use evidence, however the question is about Australia, not Canada so just because this happened in Canada does not entirely justify preventing workers from joining a union in Australia (different conditions, culture etc). Therefore, the correct answer and strongest argument is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Should social media companies have to take more responsibility for what happens on their platforms?",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, bullying only occurs on unregulated platforms",
+                "Yes, they made the platform, so they have a responsibility to maintain it",
+                "No, studies have shown that government regulation is far more effective in regulating than self-governance ",
+                "No, self-governance by social media companies could easily lead to a breach in privacy"
+              ],
+              "answer": "C",
+              "explanation": "Option C refers to evidence and although option D seems reasonable, in comparison to the evidence-based argument in Option C the other options are not the strongest argument. Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Should schools be responsible for educating their students in life skills? ",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, from 1990 to 2000, it was shown that students were twice as likely to adopt a skill from school than from their family ",
+                "Yes, schools have a moral obligation to give their students a holistic education",
+                "No, parents are perfectly capable of doing this themselves",
+                "No, it is much harder to teach life skills in a classroom than it is at home"
+              ],
+              "answer": "A",
+              "explanation": "Options C and D are more based in opinion rather than fact, and Option A clearly uses evidence to justify the benefits of schools educating students about life skills (as opposed to the implied alternative of parents/family). Therefore, the correct answer is A.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The following is a chart of Hippo’s stores across the world and the number of items sold in 2019.  <br/>Source: https://docs.mongodb.com/charts/master/chart-type-reference/column-bar-chart/",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/1.PNG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "In 2020, Denver will sell the most notepads",
+                "Binders are the second most popular item in every location",
+                "In Denver, approximately 1000 more notepads were sold than in London ",
+                "The number of pens, envelopes and binders sold overall are approximately equal.",
+                "San Diego has the least number of items sold, and is therefore the smallest store."
+              ],
+              "answer": [
+                "N",
+                "N",
+                "Y",
+                "Y",
+                "N"
+              ],
+              "explanation": "1. We cannot predict what will happen in the next year beyond the information presented in the graph. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. In Austin and New York, binders are not the second most popular item. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. About just under 2,200 notepads were sold in Denver, compared to just under 1,200 notepads in London, which is an approximate 1,000 difference. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. Without adding all of them together, on observation we can see that the 3 columns for pens, binders and envelopes are roughly the same in each location, so we can say overall the number of these items sold were approximately equal. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We cannot conclude that number of items sold is linked to the size of the store (the store could have had lower sales for multiple other reasons we don’t know). Therefore, the correct answer is NO, as the conclusion does not follow. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood sugar. Hyperglycaemia, or raised blood sugar, is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels. In 2014, 8.5% of adults aged 18 years and older had diabetes. In 2016, diabetes was the direct cause of 1.6 million deaths and in 2012 high blood glucose was the cause of another 2.2 million deaths.<br/>Source: https://www.who.int/",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "If someone’s pancreas cannot produce any insulin, they are likely to get diabetes",
+                "Hyperglycaemia can occur when there is not enough insulin to the regulate blood sugar",
+                "High blood glucose is the same as diabetes",
+                "In 2016, a total of 3.8 million deaths were caused by either diabetes or high blood glucose",
+                "Blood vessels will be damaged by diabetes"
+              ],
+              "answer": [
+                "Y",
+                "Y",
+                "N",
+                "N",
+                "N"
+              ],
+              "explanation": "1. If diabetes occurs when the pancreas does not produce enough insulin, then if stands if someone’s pancreas does not produce any insulin that they are likely to get diabetes. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. If hyperglycaemia is a common effect of uncontrolled diabetes, and diabetes is a result of insufficient production/use of insulin, which is a hormone that regulates blood sugar, then we can infer that hyperglycaemia can occur when there is not enough insulin to regulate the blood sugar. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We don’t know that diabetes and high blood glucose are the same thing, especially because the final line distinguishes the two as causing different amounts of deaths. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We only know the figures for deaths caused by diabetes in 2016, not high blood glucose (the stat provided is for 2012, not 2016). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Damage to blood vessels can be a result of uncontrolled diabetes, but if diabetes is controlled we do not know if there will still be any damages to blood vessels. Therefore, the correct answer is NO, as the conclusion does not follow. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The graph shows the population of some European countries between 1997 and 2007.<br/>Source: http://www.essaybuilder.net/BarCharts2.html",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/2.PNG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Germany is the largest country by population size in Europe",
+                "In terms of population, Germany and Poland have experienced the least population change between 1996 and 2007.",
+                "The total population of Spain, Turkey and Poland in 2007 is the same as the population of Germany in 1996.",
+                "The population of Europe has grown by 5.7 million people from 1996 to 2007",
+                "The population of Turkey has increased by approximately 18% from 1996 to 2007."
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "N",
+                "N",
+                "Y"
+              ],
+              "explanation": "1. We can only see “some European countries” in this graph, so we cannot say for certain that Germany is the largest country by population in Europe. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Germany’s population increased by 0.5 million, whilst Poland’s population decreased by 0.5 million, which were also just visually the lowest changes in the graph. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Total population of Spain, Turkey and Poland in 2007 is 156 million, whereas Germany’s 1996 population is only 81.8 million. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We do not know how the populations of the other countries in Europe fared, since we only have data for “some European countries”. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. (73.4 – 62.3)/62.3 = 0.17817… = 0.18 = 18% approximately. Therefore, the correct answer is YES, as the conclusion does follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The following is a graph of the number of pool related deaths in the countries below over a three year period.<br/>Source: https://docs.oracle.com/javafx/2/charts/bar-chart.htm",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/3.PNG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "2003 had the largest number of pool deaths in each of the five countries when compared to 2004 and 2005.",
+                "Italy is the only country out of the five surveyed that had an increase in the number of pool related deaths over the three years.",
+                "USA’s dramatic reduction in pool deaths from 2004 to 2005 is due to the new pool safety regulations that were introduced at the end of 2004.",
+                "Australia has the greatest cumulative number of deaths from 2003 – 2005 compared to the other four countries.",
+                "USA’s pool related deaths increased by approximately 250 from 2003 to 2004."
+              ],
+              "answer": [
+                "N",
+                "N",
+                "N",
+                "N",
+                "Y"
+              ],
+              "explanation": "1. In France and Italy the number of pool deaths in 2003 was lower than 2004 and 2005. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. France also had an increase in the number of pool deaths over the 3 years. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We have no information about this so we cannot assume. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Australia is not shown on this graph. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. The number of pool related deaths in the USA increased from approximately 500 to close to 750 in from 2003-2004, which is close to a 250 increase. Therefore, the correct answer is YES, as the conclusion does follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Bunnyville released 6 products: A, B, C, D, E, F. As a small company they decided to investigate the number of each product they planned to release (blue) and the numbers they actually released (red) in 2018. The y-axis shows the numbers released.<br/>Source: https://www.betterevaluation.org/en/evaluation-options/BarChart",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/4.PNG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "More Products A’s were released than any of the other five products.",
+                "The greatest discrepancy between planned product release and actual product release was with Product C and Product B",
+                "Product A will be the most popular product in the store in 2020",
+                "The estimate of the planned product release for Product E should have been increased by 30% to attain the actual product release numbers.",
+                "2/3 of the products had more than 6 of that type of product actually released."
+              ],
+              "answer": [
+                "Y",
+                "Y",
+                "N",
+                "N",
+                "Y"
+              ],
+              "explanation": "1. The red column for A on observation is higher than any other red column. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. Product B experienced a 6 unit discrepancy, and so did Product C. Product A and F had a 5 unit discrepancy, Product D and 4 and Product E had 3. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We can’t predict how popular Product A will be in the next 2 years. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If the planned product release of Product E was increased by 30%, they would have had a planned product release of 6.5, when the actual release number was 7. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Products A, C, D and E had more than 6 units actually released. Therefore 4/6 = 2/3, so the correct answer is YES.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A random group of 30 people took a survey on their favourite dog breed: breed A, B or C. A total of 20 people voted for C, 7 more people voted for A than B, no one voted for B only, and everyone voted. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/5.PNG",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "What is the value of Y?",
+              "type": "Multiple Choice",
+              "options": [
+                "2",
+                "3",
+                "6",
+                "10 "
+              ],
+              "answer": "C",
+              "explanation": "If 20 people voted for C, then X = 6. Therefore we know 14 people voted for B overall, and if 7 more people voted for A than B than we know 21 people voted for A, which means Y = 6. Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "In a small town, half of the 400 houses have both a fence and a mailbox. However, 100 of the houses do not have a fence and 150 houses do not have a mailbox.",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "How many houses have neither a fence nor a mailbox?",
+              "type": "Multiple Choice",
+              "options": [
+                "25",
+                "50",
+                "75",
+                "100"
+              ],
+              "answer": "B",
+              "explanation": "If half the 400 houses have both a fence + mailbox, then that’s 200 houses. If 100 do not have a fence and 150 do not have a mailbox, that means we have a total of 450 (if added altogether). Thus, we can deduce that there is an overlap of 50 houses between those that do not have a fence and those that do not have a mailbox, which means 50 houses do not have a fence and a mailbox. Therefore, the correct answer is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "In a classroom, 25 students are participating in a class survey. Fifteen students have black hair, but a third of those with black hair do not have brown eyes. If everyone in the class has at least either brown eyes or black hair, how many students have brown eyes but not black hair?",
+          "category_id": 7,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "5",
+                "10",
+                "15",
+                "20"
+              ],
+              "answer": "B",
+              "explanation": "15 students have black hair, and so a third of that means 5 students with black hair have brown eyes. If everyone in the class had either brown eyes or black hair, that means 10 students did not have black hair (25-15=10), but they must have had brown eyes then. Therefore, the correct answer is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "2 chocolateries, A and B sell chocolate. Chocolate can be either white, dark or milk. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/6.PNG",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "Which of the following is true? ",
+              "type": "Multiple Choice",
+              "options": [
+                "Both shops sell all 3 types of chocolate",
+                "Shop A only sells dark chocolate",
+                "Shop B only sells milk chocolate",
+                "White chocolate is the most popular type"
+              ],
+              "answer": "B",
+              "explanation": "The circle only overlaps with the arrow – therefore we can conclude that shop A only sells dark chocolate, not milk or white. Therefore, the correct answer is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "An athletics carnival is going to happen. There are 3 main running events: the 100m, 200m and 400m events. Half as many runners participate in the 400m event compared to the 100m event. There are one quarter the number of individuals who participate in all 3 events compared to the 200m event.",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "Which of the following represents this information?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/7.PNG",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/8.PNG",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/9.PNG",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 4/10.PNG"
+              ],
+              "answer": "C",
+              "explanation": "Option C is the correct answer. The top left circle represents 100m (12), the top right circle represents 200m (16), and the bottom circle represents 400m (6).",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Nirma is practising her darts skills. On her dart board, there are 5 circles. The inner circle is worth 1 point, the next circle is worth 2 points and so on until the 5th most outer circle is worth 5 points. She has two darts. What is the probability that she scores over 9 points?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "1/25",
+                "2/25",
+                "3/25",
+                "1/5"
+              ],
+              "answer": "A",
+              "explanation": "To score over 9 points, she would need a 5 and a 5, which is only one possibility of 25 (we know it’s 25 because she has 2 darts that can go for 5 different scores, so 5*5=25 possible combinations). Therefore 1/25, and the correct option is A.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Keanu runs a maths tuition centre in Australia. He notes that 2 in 5 students in his classes cannot do basic addition and subtraction, and that 10% of his students cannot speak English fluently. He then says that 40% of students in Australia cannot do basic subtraction and addition. Is he correct?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, as 2 in 5 converts to 40%",
+                "Yes, these statistics are coming from his classes",
+                "No, as he is generalising from a sample",
+                "No, as he may have incorrectly calculated the numbers"
+              ],
+              "answer": "C",
+              "explanation": "40% of students in his classes cannot do basic addition/subtraction. However, he is generalising from his smaller sample in claiming this same statistic for all of Australia. Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Chris tosses a fair coin and rolls a six-sided dice. He states that the probability of him getting an odd number and a tail together is a 1/2. Is he correct?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, as he has 0.5 chance of achieving a tail and the same for rolling an even number ",
+                "Yes, there are only 3 odd numbers on a six-sided dice",
+                "No, he is more likely to roll an odd number than toss a tail ",
+                "No, the answer is actually 0.25"
+              ],
+              "answer": "D",
+              "explanation": "Probability of getting an odd number = 3/6 = 1/2. Probability of getting a tail is 1/2. Thus, the probability of getting both is 1/2*1/2=1/4. Therefore, the correct answer is D.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "There is a 20% chance of rain on Tuesday. If it rains on one day, there is a 50% chance it rains the next day. If it doesn’t rain one day, there is a 30% chance that it does not rain again the next day. John wants to go out on Wednesday. Should he take an umbrella?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, there is a 0.56 chance that it rains on Wednesday",
+                "Yes, there is approximately a 2/3 chance that it rains on Wednesday",
+                "No, there is only a 1 in 10 chance that it rains on Wednesday",
+                "No, there is only a 50% chance of rain on Wednesday"
+              ],
+              "answer": "B",
+              "explanation": "Lets say R = Rain and R’ = not Rain. We want to find out the probability of RR and R’R (probability it will rain on Wednesday). Therefore RR + R’R = (0.2*0.5) + (0.8*0.7) = 0.1 + 0.56 = 0.66. Thus there is a 66% chance it will rain on Wednesday, which is close to 2/3. Therefore, the correct answer is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "James is playing a game at the school carnival. He has a 50% chance of hitting the target and winning $10. If he misses, he gets nothing. It costs $1 to play. James wants to play three rounds. Should he play? ",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, he only has a 1/8 chance of losing money",
+                "Yes, he has a 12.5% chance of earning $27",
+                "No, the risk of losing $3 is too much",
+                "No, he has a 50% chance of losing $3"
+              ],
+              "answer": "A",
+              "explanation": "If he plays 3 rounds, he spends $3. If he wins only one of the rounds, he gets $10, so he earns $7 overall. Therefore, we know he only needs to win 1 round of the 3 rounds to make it worthwhile for him to play. The only time he loses money is if he loses all 3 rounds, the probability for that being 0.5*0.5*0.5 = 0.125 = 12.5% = 1/8. Therefore, the correct answer is A (B is not correct because he has a 12.5% chance of losing money, the rest, 87.5%, is all gaining money). ",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

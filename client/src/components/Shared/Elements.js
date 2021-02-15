@@ -4,7 +4,10 @@ import { RiFlag2Fill, RiFlag2Line } from "react-icons/ri";
 import { useDrag, useDrop } from 'react-dnd';
 import update from "immutability-helper";
 import { TiTick, TiTimes } from "react-icons/ti";
-import { BsCircle, BsCircleFill } from "react-icons/bs";
+import { ImRadioChecked, ImRadioUnchecked } from "react-icons/im";
+import { AiFillCloseSquare } from "react-icons/ai";
+import Draggable from 'react-draggable';
+
 
 export const ThemedModal = ({
   button,
@@ -110,9 +113,9 @@ export const RadioBox = ({
           >
             <RadioCircle>
               {selectedOption === item ?
-                <BsCircleFill />
+                <ImRadioChecked />
                 :
-                <BsCircle />
+                <ImRadioUnchecked />
               }
             </RadioCircle>
             <RadioContent>
@@ -287,11 +290,6 @@ export const RadioBoxAnswer = ({
   images
 }) => {
 
-  useEffect(() => {
-    console.log(selectedValue, correctValue)
-  })
-
-
   return (
     <RadioElements>
       {options.map((item, i) => {
@@ -302,9 +300,9 @@ export const RadioBoxAnswer = ({
           >
             <RadioCircle>
               {selectedValue() == item ?
-                <BsCircleFill />
+                <ImRadioChecked />
                 :
-                <BsCircle />
+                <ImRadioUnchecked />
               }
             </RadioCircle>
             <RadioContent>
@@ -314,7 +312,7 @@ export const RadioBoxAnswer = ({
               </Content>
               <Result>
                 {item === selectedValue() && correctValue !== selectedValue() ?
-                  <Text color="red">Your answer: Wrong!</Text>
+                  <Text color="red">Your answer: Incorrect</Text>
                   : item === correctValue && correctValue !== selectedValue() ?
                     <Text color="green">Correct Answer</Text>
                     : item === selectedValue() && correctValue === selectedValue() ?
@@ -346,6 +344,10 @@ export const FlagButton = ({
 
   const [isFlagged, setFlagged] = useState(flagged)
 
+  useEffect(() => {
+    setFlagged(flagged)
+  }, [flagged])
+
   return (
     <FlagContainer
       onClick={() => {
@@ -364,6 +366,49 @@ export const FlagButton = ({
   )
 }
 
+export const DraggableWindow = ({
+  isOpen,
+  setClose,
+  children,
+  title
+}) => {
+
+  if (isOpen) {
+    return (
+      <Draggable>
+        <Window>
+          <WindowHeader>
+            <div>{title}</div>
+            <div onClick={setClose}>
+              <AiFillCloseSquare color="white" />
+            </div>
+          </WindowHeader>
+          {children}
+        </Window>
+      </Draggable>
+    )
+  } else {
+    return null
+  }
+}
+
+const WindowHeader = styled.div`
+  display: flex;
+  background: #056DAA;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: -2px;
+`
+const Window = styled.div`
+  position: absolute;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+`
+
 const FlagContainer = styled.div`
   cursor: pointer;
   margin-right: 10px;
@@ -372,12 +417,12 @@ const FlagContainer = styled.div`
   align-items: center;
 `
 const RadioOption = styled.div`
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   max-width: 100%;
   display: flex;
   align-items: center;  
   cursor: pointer;
-  padding: 10px 0;
+  padding: 8px 0;
 `
 
 
@@ -465,7 +510,7 @@ const DraggableItem = styled.div`
 
 const DragAndDropOptions = styled.div`
   display: flex;
-  flex: 5;
+  flex: 2;
   flex-direction: column;
 `
 
@@ -490,7 +535,7 @@ const DragAndDropResult = styled.div`
 `
 
 const RadioBoxImage = styled.img`
-  
+  width: 30%;
 `
 
 const RadioElements = styled.div`
@@ -509,7 +554,8 @@ const RadioContent = styled.div`
 `
 
 const Content = styled.div`
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
   display: flex;
   width: 100%;
 `

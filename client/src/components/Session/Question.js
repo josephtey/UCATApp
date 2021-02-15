@@ -8,10 +8,8 @@ import TopBarSecondary from '../Session/TopBarSecondary'
 import { RadioBox, FlagButton, DragAndDrop } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 import { BiCalculator, BiBook } from "react-icons/bi";
-import Modal from 'react-modal';
-import { TiTimes } from "react-icons/ti";
 import Calculator from '../Calculator/calculator'
-import { ThemedModal } from '../Shared/Elements'
+import { ThemedModal, DraggableWindow } from '../Shared/Elements'
 
 const mapDispatchToProps = { finishSession, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
 
@@ -19,22 +17,7 @@ const mapStateToProps = (state) => {
   return state
 }
 
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)'
-  }
-};
-
-Modal.setAppElement('#root')
-
 const Question = (props) => {
-  const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
-  const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
 
   useDidMountEffect(() => {
     props.getSessionResponses(
@@ -48,7 +31,27 @@ const Question = (props) => {
 
   return (
     <>
-      {props.session.currentStem.layout === "side by side" || !props.session.currentStem.layout ?
+      <DraggableWindow
+        isOpen={props.calculatorModalIsOpen}
+        setClose={() => {
+          props.setCalculatorModalIsOpen(false)
+        }}
+        title="Calculator"
+      >
+        <Calculator />
+      </DraggableWindow>
+
+      <DraggableWindow
+        isOpen={props.scratchpadModalIsOpen}
+        setClose={() => {
+          props.setScratchpadModalIsOpen(false)
+        }}
+        title="Scratch Pad"
+      >
+        <textarea rows="20" cols="50"></textarea>
+      </DraggableWindow>
+
+      {!props.session.currentStem.layout || props.session.currentStem.layout.toLowerCase() === "side by side" ?
         <Border />
         : null}
 
@@ -58,47 +61,19 @@ const Question = (props) => {
             <>
               <TopLink
                 onClick={() => {
-                  setCalculatorModalIsOpen(true)
+                  props.setCalculatorModalIsOpen(true)
                 }}
               >
                 <BiCalculator color="white" size={20} /> Calculator
               </TopLink>
-              <Modal
-                isOpen={calculatorModalIsOpen}
-                onRequestClose={() => {
-                  setCalculatorModalIsOpen(false)
-                }}
-                style={customStyles}
-              >
-                <Calculator />
-              </Modal>
 
               <TopLink
                 onClick={() => {
-                  setScratchpadModalIsOpen(true)
+                  props.setScratchpadModalIsOpen(true)
                 }}
               >
                 <BiBook color="white" size={20} /> Scratch Pad
               </TopLink>
-              <Modal
-                isOpen={scratchpadModalIsOpen}
-                onRequestClose={() => {
-                  setScratchpadModalIsOpen(false)
-                }}
-                style={customStyles}
-              >
-                <ModalTitle>
-                  <ModalText>Scratch Pad</ModalText>
-                  <CloseButton
-                    onClick={() => {
-                      setScratchpadModalIsOpen(false)
-                    }}
-                  >
-                    <TiTimes size={30} />
-                  </CloseButton>
-                </ModalTitle>
-                <textarea rows="20" cols="50"></textarea>
-              </Modal>
             </>
           )
         }}
@@ -150,7 +125,7 @@ const Question = (props) => {
                     })}
                   </QuestionStemText>
                   : null}
-                <QuestionStemImage src={props.session.currentStem.image} />
+                <QuestionStemImage src={props.session.currentStem.image} category_id={props.session.currentStem.category_id} />
               </QuestionStem>
               : null}
             <QuestionContent
@@ -328,26 +303,26 @@ const Text = styled.div`
 
 const MainContent = styled.div`
   display: flex;
-  flex-direction: ${props => props.layout == "normal" ? "column" : "row"};
+  flex-direction: ${props => props.layout.toLowerCase() == "normal" ? "column" : "row"};
   align-items: flex-start;
 `
 
 const QuestionContent = styled.div`
-  ${props => props.layout == "normal" ? '' : 'flex: 2;'}
-  width: ${props => props.layout == "normal" ? '100%' : 0};
+  ${props => props.layout.toLowerCase() == "normal" ? '' : 'flex: 2;'}
+  width: ${props => props.layout.toLowerCase() == "normal" ? '100%' : 0};
   padding: 30px 0 50px 0;
 `
 
 const QuestionStem = styled.div`
-  ${props => props.layout == "normal" ? '' : 'flex: 3;'}
-  width: ${props => props.layout == "normal" ? 'auto' : 0};
+  ${props => props.layout.toLowerCase() == "normal" ? '' : 'flex: 3;'}
+  width: ${props => props.layout.toLowerCase() == "normal" ? 'auto' : 0};
   margin-right: 40px;
   font-family: arial;
   text-align: justify;
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding-right: 30px;
   padding-top: 30px;
 `
@@ -357,7 +332,7 @@ const QuestionStemText = styled.div`
 `
 
 const QuestionStemImage = styled.img`
-  max-width: 70%;
+  max-width: ${props => props.category_id === 17 ? '50%' : '70%'};
 `
 
 const QuestionImage = styled.img`

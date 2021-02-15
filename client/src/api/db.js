@@ -1,8 +1,9 @@
 import axios from 'axios'
-import ExampleExam from '../constants/example_exam.json'
 
 const db = axios.create({
-  baseURL: 'http://localhost:3000'
+  // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000'
+  baseURL: 'http://ec2-13-239-117-211.ap-southeast-2.compute.amazonaws.com:3000'
+  // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000'
 });
 
 export const db_getAllExams = async (type) => {
@@ -184,7 +185,8 @@ export const db_createQuestion = async (type,
   difficulty,
   image,
   option_images,
-  stem_id) => {
+  stem_id,
+  category_id) => {
 
 
   const response = await db.put(`/questions`, {
@@ -196,7 +198,8 @@ export const db_createQuestion = async (type,
     difficulty,
     image,
     option_images,
-    stem_id
+    stem_id,
+    category_id
   })
 
   return response.data
@@ -280,16 +283,18 @@ export const import_questions = async (data) => {
         // Create questions
         console.log("ATTEMPTING TO CREATE QUESTION: ", question)
 
+        const options = ["A", "B", "C", "D"]
         let createdQuestion = await db_createQuestion(
-          question.type == "Multiple Choice" ? "MC" : "DD",
+          question.type == "Multiple Choice" ? "MC" : question.type == "Drag and Drop" ? "DD" : question.type == "Multiple Choice (SJ)" ? "MCSJ" : "",
           question.options,
           question.text ? question.text : null,
-          question.type == "Multiple Choice" ? question.answer : question.answer.join(";"),
+          question.type == "Multiple Choice" || question.type == "Multiple Choice (SJ)" ? question.options[options.indexOf(question.answer)] : question.answer.join(";"),
           question.explanation ? question.explanation : null,
           question.difficulty ? question.difficulty : null,
           question.image ? question.image : null,
           question.option_images ? question.option_images : null,
-          createdStem.stem_id
+          createdStem.stem_id,
+          question.category_id ? question.category_id : stem.category_id
         )
 
         console.log("CREATED QUESTION: ", createdQuestion)
@@ -338,16 +343,18 @@ export const import_exam = async (data) => {
           // Create questions
           console.log("ATTEMPTING TO CREATE QUESTION: ", question)
 
+          const options = ["A", "B", "C", "D"]
           let createdQuestion = await db_createQuestion(
-            question.type == "Multiple Choice" ? "MC" : "Drag and Drop" ? "DD" : "Multiple Choice (SJ)" ? "MCSJ" : "",
+            question.type == "Multiple Choice" ? "MC" : question.type == "Drag and Drop" ? "DD" : question.type == "Multiple Choice (SJ)" ? "MCSJ" : "",
             question.options,
             question.text ? question.text : null,
-            question.type == "Multiple Choice" ? question.answer : question.answer.join(";"),
+            question.type == "Multiple Choice" || question.type == "Multiple Choice (SJ)" ? question.options[options.indexOf(question.answer)] : question.answer.join(";"),
             question.explanation ? question.explanation : null,
             question.difficulty ? question.difficulty : null,
             question.image ? question.image : null,
             question.option_images ? question.option_images : null,
-            createdStem.stem_id
+            createdStem.stem_id,
+            question.category_id ? question.category_id : stem.category_id
           )
 
           console.log("CREATED QUESTION: ", createdQuestion)

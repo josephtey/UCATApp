@@ -1,0 +1,1122 @@
+{
+  "stems": [
+    {
+      "text": "Some Yangas are Yingas. No Yongas are Yingas. Some Yongas are Yangas. All Yungas are Yingas. Most Yongas are Yengas.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some Yangas are not Yongas",
+            "Some Yungas are Yangas",
+            "A Yanga cannot be a Yenga",
+            "If a Yinga is a Yanga, it cannot be a Yonga",
+            "If a Yunga is a Yenga, it is also a Yanga"
+          ],
+          "answer": [
+            "Yes",
+            "Yes",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. If some Yangas are Yingas, and no Yongas are Yingas, then those Yangas that are Yingas cannot be Yongas (as no Yingas are Yongas). Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. If all Yungas are Yingas, and some Yangas are Yingas, then those Yangas that are Yingas must also be Yungas. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We do not know if a Yanga can be Yengas (we know that a Yanga that is a Yinga cannot be a Yonga, and most Yongas are Yengas, however a Yanga that is not a Yinga could be a Yonga as well, we don’t know). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. No Yongas are Yingas, so no Yingas can be Yongas. Therefore, the correct answer is YES, regardless if it is a Yanga or not.<br/>5. It could be, but we do not know for sure since we know that only some Yangas are Yingas. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Most cakes are pancakes. No muffins are cakes. Some cupcakes are cakes. All crumpets are muffins. ",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some cupcakes are pancakes",
+            "Some cakes are muffins",
+            "Crumpets cannot be cakes",
+            "No muffins are pancakes",
+            "Cupcakes cannot be muffins"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "Yes",
+            "No",
+            "No"
+          ],
+          "explanation": "Although some cupcakes are cakes, at least 1 cake is not a pancake (‘most’), so we cannot be certain that the cupcakes that are cakes will be pancakes too. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. No muffins are cakes, so no cakes can be muffins. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If all crumpets are muffins and no muffins are cakes, then no crumpets can be cakes. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. Muffins could be pancakes, but we have no information about that. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. At least 1 cupcake is not a cake, meaning that cupcake could be a muffin, but we don’t know for sure. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Some crabs are shellfish. No shellfish are shrimps. All prawns are shrimps. Most shellfish are land-dwelling creatures.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Shrimps are water-dwelling creatures",
+            "Some crabs are shrimps",
+            "Prawns cannot be crabs",
+            "If a crab is a shellfish, it cannot be a shrimp",
+            "Most crabs are shellfish"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. Shrimps could be water-dwelling creatures, we do not know as we have no information about that. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. At least 1 crab is not a shellfish, which means it could be a shrimp, but we can’t be sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. At least 1 crab is not a shellfish, which means it could be a shrimp, and since all prawns are shrimps it could be a prawn as well, but we can’t be sure that some prawns are definitely crabs (or definitely not crabs) Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. No shellfish are shrimps, so a crab that is a shellfish cannot be a shrimp. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We only know that some crabs are shellfish, not necessarily most (which implies greater than 50%, but some also include less than half). Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "No Zips are Zops. Some Zaps are Zops. All Zups are Zips. Most Zops are Zeps.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some Zups are Zeps",
+            "A Zip cannot be a Zep",
+            "A Zop cannot be a Zip",
+            "A Zap that is a Zop cannot be a Zup",
+            "Some Zaps are Zeps"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "explanation": "If all Zups are Zips and no Zips are Zops, then no Zups can be Zops either. However, since only ‘most’ Zops are Zeps, we can’t be sure that no Zups are Zeps. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since only ‘most’ Zops are Zeps, even though no Zips are Zops, we can’t be sure that no Zups are Zeps. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If no Zips are Zops, then a Zop cannot be a Zip. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. If no Zips are Zops, and all Zups are Zips, then no Zops can be Zups since no Zops are Zips. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Some Zaps are Zops, however we do not know that the Zaps that are Zops will definitely be Zeps too. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "No Ands are Buts. Some Cans are Buts. All Dids are Ands. Most Buts are Ends. A few Ands are Cans.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some Buts are Ands",
+            "Some Dids are Cans",
+            "A few Ends are Dids",
+            "Ands cannot be Ends",
+            "Dids cannot be Buts"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. If no Ands are Buts, then no Buts can be Ands. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If all Dids are Ands and a few Ands are Cans, then some Dids could be Cans, however, we do not know that all Ands are Dids, therefore the few Ands that are Cans may not also be Dids. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Since only ‘most’ Buts are Ends, the few Ends that are not Buts could be Dids, but we don’t know for sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since only ‘most’ Buts are Ends, the few Ends that are not Buts could be Ands, but we don’t know for sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If all Dids are Ands and no Ands are Buts, then no Dids can be Buts. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "No chairs are tables. Some desks are tables. All stools are chairs. Most tables are flat objects. Some desks are flat objects.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Desks that are tables must be flat objects",
+            "Some stools are chairs",
+            "Chairs cannot be desks",
+            "A table that is a desk could also be a flat object",
+            "Chairs are not flat objects"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. Only ‘most’ tables are flat objects, so the desks that are tables may not end up being flat objects. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If all stools are chairs, then the statement ‘some stools are chairs’ is incorrect, as this implies that at least 1 stool is not a chair, which we know is not the case. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If a desk is a table it cannot be a chair, but a chair could be a desk that is not a table, we don’t know. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. This is a possibility as some desks are tables and most tables are flat objects, and we know at least 1 desk is a flat object (some desks are flat objects). Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We do not know that the only flat objects are tables and desks, so a chair could be flat we don’t know. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Some Loks are Laks. All Liks are Luks. No Liks are Loks. Most Loks are Leks. Some Laks are Leks.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "All Luks cannot be Loks",
+            "Some Laks that are Leks could be Loks",
+            "Some Luks can be Leks",
+            "Most Laks are Leks",
+            "Luks cannot be Laks"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. We know that some Luks are not Loks, since all Liks are Luks and no Liks are Loks, however the Luks that are not Liks would be Loks for all we know. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since some Laks are Leks and most Loks are Leks, some Laks that are Leks could be Loks, however not certain but it is still a possibility. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We cannot draw a connection between Luks being Leks for certain. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Although some Laks are Leks, we do not know that most Laks are Leks (it could only be a few). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. A Luk could be a Lak, but we don’t have enough information to determine that a Luk cannot be a Lak for sure. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Some rectangles are squares. No circles are squares. All ovals are circles. Most squares are diamonds. ",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "A circle cannot be a diamond",
+            "If a rectangle is a square, it cannot be a circle",
+            "Some ovals can be rectangles",
+            "If an oval is a rectangle, is cannot also be a square",
+            "A rectangle could be a diamond"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          "explanation": "1. Only ‘most’ squares are diamonds, so a diamond that is not a square could be a circle, but we don’t have enough information to be certain that this is a possibility, or not a possibility. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since no circles are squares, no squares can be circles, so a rectangle that is a square cannot be a circle. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We do not know for sure that an oval can be a rectangle (we do not know if a circle is a rectangle for sure, but it could be), so we do not have enough information to determine this. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since all ovals are circles and no circles are squares, if an oval is a rectangle it cannot also be a square. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Some rectangles are squares and most squares are diamonds, so a rectangle could be a diamond (we don’t know for sure though). Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All pulaties are pilaties. Most polaties are pelaties. Some pelaties are palaties. No pilaties are polaties. Some palaties are polaties.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some pulaties are pelaties",
+            "If a palatie is a pulatie, it is also a pelatie",
+            "Most polaties are also palaties",
+            "A pulatie cannot be a polatie",
+            "Only a few pilaties are palaties"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. Although all pulaties are pilaties and no pilaties are polaties, and most polaties are pelaties, not all pelaties are polaties, which means they could be both pilaties or pulaties, but we cannot be sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We do not know for sure that a pulatie will be a pelatie. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Although most polaties are pelaties, and some pelaties are palaties, we do not know what proportion of pelaties are palaties (it may only be a few), so we cannot say for sure that most polaties are also palaties. Also, only some palaties are polaties (last statement), so we don’t know that most polaties are therefore palaties. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. All pulaties are pilaties, and no pilaties are polaties. Thus, no pulaties can be polaties. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We don’t have enough information to determine whether only a few pilaties are palaties. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All Wums are Wims. Most Woms are Wems. No Wims are Woms. A few Wums are Wams. Some Wams are Woms.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "No Wims are Wams",
+            "A Wum cannot be a Wom",
+            "If a Wam is a Wum it must also be a Wim",
+            "If a Wum is a Wam it cannot be a Wom",
+            "Only a few Woms are Wems"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. If all Wums are Wims, then at least some Wims are Wums. However, just because a few Wums are Wams does not mean that the ‘some’ Wims that are Wums will be Wams as well – it also does not mean that they are not, so we don’t know for sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If all Wums are Wims and no Wims are Woms, then no Wums can be Woms. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Since all Wums are Wims, if a Wum is a Wam is must also be a Wim regardless. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. Since all Wums are Wims and no Wims are Woms, if a Wum is a Wam it cannot be a Wom regardless. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Most Woms are Wems implies that more than half but less than all Woms are Wems. Since ‘most’ is more than half and ‘a few’ cannot be more than half, the correct answer is NO.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "This object is a box. All boxes are made of cardboard. ",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "This object is made of cardboard",
+            "All objects are made of cardboard",
+            "All objects are boxes",
+            "At least some objects are made of cardboard",
+            "Not all boxes are objects"
+          ],
+          "answer": [
+            "Yes",
+            "No",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. Since this object is a box and all boxes are made of cardboard, this object must be made of cardboard. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We only know that this object is made of cardboard, not all objects. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We only know that this object is a box, not all objects. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We know at least 1 object is made of cardboard (this one), so we can say that at least some objects are made of cardboard. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. ‘Not all’ boxes are objects implies that 0 boxes could be objects, however we know at least 1 box is an object. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "This plant is a tree. Not all trees have branches.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "All plants have branches",
+            "This plant has a branch",
+            "All trees without branches are not plants",
+            "If a plant has a branch, it is a tree",
+            "Some plants are trees"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. For all we know 0 trees could have branches, let alone all plants. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. This plant could have a branch, it’s not impossible, but we don’t know for certain. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not have any information about this. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We cannot be certain of this as we are not even certain that even 1 tree has a branch (since ‘not all’ includes 0). <br/>5. This plant is a tree, so at least some plants are trees. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Some cats are domesticated animals. Cats only have 4 legs. This animal is not domesticated. ",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "This animal does not have 4 legs",
+            "This animal cannot be a cat",
+            "Most 4 legged animals are domesticated",
+            "Some domesticated animals have 4 legs",
+            "This animal is a dog"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. We do not know this for sure, as we do not know if this animal is a cat or if cats are the only things with 4 legs. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Only some cats are domesticated, so some cats are not domesticated, so we cannot be sure that this animal is a cat. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know if cats are the only 4 legged animals, and we do not know if most 4 legged animals are domesticated anyway. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If some cats are domesticated animals and cats only have 4 legs, then some domesticated animals must have 4 legs. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We have no information about this. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "This book is a crime novel. Most crime novels have words, but not all books with words have pictures.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some books with words contain pictures",
+            "A crime novel cannot have only pictures",
+            "This book does not contain pictures",
+            "Some books with pictures could be crime novels",
+            "This book must have words"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. ‘Not all’ books with words have pictures implies that no books with words could have pictures, so we cannot be certain that some books have words and contain pictures. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Most crime novels have words, so those crime novels cannot have only pictures (the others might though). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know that crime novels do not contain pictures, but we do not know if they do either. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We have no information to justify this possibility, as we do not know if it is possible that crime novels can have pictures (if it said some crime novels have pictures, then it would be a possibility). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Most crime novels have words, not every one, so we cannot be sure that this book will have words. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "This phone is black. All black phones are wireless, but only some wireless phones have internet.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "This phone has internet",
+            "Some white phones have internet",
+            "Wireless phones can only be black",
+            "A phone that is not black could have internet",
+            "This phone is wireless"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. Only some wireless phones have internet, and we cannot even be sure that the wireless phones that have internet are black phones (all the wireless phones with internet would be blue for all we know). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We do not know anything about white phones. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We only know that black phones are all wireless, not that all wireless phones are black. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. This could be a possibility theoretically, but we have no information to justify that this could be a possibility based on the statements provided (the only phones we know for sure that exist are black ones, but at the same time we cannot say that they are the only phones that exist). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If this phone is black and all black phones are wireless, this phone must be wireless. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All tigers have stripes. This creature does not have stripes, but it has sharp claws. No creatures with sharp claws can be tigers.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some tigers have sharp teeth",
+            "This creature is not a tiger",
+            "A creature without stripes could be a tiger",
+            "Tigers do not have sharp claws",
+            "Some creatures do not have stripes"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          "explanation": "1. We have no information about sharp teeth. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If all tigers have stripes and this creature does not have stripes, it cannot be a tiger. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Since all tigers have stripes, a creature without stripes cannot be a tiger. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If no creatures with sharp claws are tigers, then tigers cannot have sharp claws. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. If this creature does not have stripes, then it stands that some creatures do not have stripes. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All students from School X got As in Maths. Some students got Bs in Science, but most students got As in English. To pass the year, all students need to get 2 As. Students only do 2 subjects.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "All students will be able to pass",
+            "Some students will not pass",
+            "Students who did Maths will pass",
+            "Most students who did English and Maths will pass",
+            "Not many students will pass this year"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. We do not know that all students got 2 As, only that everyone got at least 1 A. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If some students got Bs in Science, then they would not have received 2 As and passed. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. This is not for certain, as some students who did Maths (and English) will pass, but other than those people, we do not know. In addition, if some students got Bs in Science, they must not have passed, and since everyone does Maths we know some Maths students did not pass. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since most students who did English will pass as they received an A, it stands that most students who did English and Maths will pass (as everyone did Maths and got an A). Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We do not know the proportion of students that will pass or not pass. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "At Company A, there are only 3 jobs. All applicants over 20 years old are approved for Job X. All applicants for Job Y are accepted if they are under 25 years old. Job Z requires applicants to have at least 2 previous jobs at the company.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "An applicant who is 23 will get Job Z",
+            "An employee working at Job Z must have worked in Job X previously",
+            "Most people are not accepted for Job X",
+            "Only people who have had Job X and Job Y can apply for Job Z",
+            "Job Z is harder to get than Job Y"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. We do not know the age requirement for Job Z, or if this person previously had at least 2 jobs. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If there are only 3 jobs in the company, then if someone got Job Z, they must have worked in Job X and Y previously. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We do not know the proportion of people who apply and get accepted or rejected into Job X. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If there are only 3 jobs in the company, then if someone got Job Z, they must have worked in Job X and Y previously. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We do not know which is harder or easier or what makes something hard. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "To be selected for entry at University X, students must have completed 2 extra-curricular activities and at least one contact sport as well as get As in at least 3 subjects, and one of the As must be in English. Contact sports include AFL, Boxing, Rugby, Soccer and Wrestling. ",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Josh does boxing and got straight As in all his subjects. He will get selected for entry at this university.",
+            "Joanne did not get an A in Maths but she is very strong in English. All she needs to gain selection is to play a sport and 2 extracurricular activities.",
+            "A student who is not good at English is disadvantaged by this system.",
+            "Alex got As in all her subjects, completed 2 extracurricular activities and plays rugby for her school. She will get selected for entry at this university.",
+            "Ken got an A in English as well as Maths and Science, plays AFL and does 2 extra-curricular activities. He will get into the university."
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. We do not know of Josh completed 2 extra-curricular activities, so we cannot be sure he will be selected. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Just because she is very strong in English does not mean she will get an A. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We cannot make this assertion, as just because someone is not good at English does not mean they cannot get an A (because this implies that an A means they do well in English, or that students who are good at English are more likely to get As). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We do not know if Alex got an A in English, as she got As in all her subjects but we do not know if one of those subjects was English. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. He fulfils all the requirements, so he will get selected for entry. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Not all girls wear skirts. All the students at Summer High are girls. No dropouts at the school wear skirts.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Skirts are worn by every student at Summer High",
+            "Some girls wear skirts at Summer High",
+            "No girls at the Summer High are dropouts",
+            "If some girls wear skirts at Summer High, the school will have no dropouts",
+            "Some boys are dropouts"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. Since not all girls wear skirts and all the students at Summer High are girls, not all the students at Summer High wear skirts. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Although we established that not all the students at Summer High wear skirts, that could also mean that no students at the school wear skirts, so we cannot be certain that at least one (some) students wear skirts. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know that there are no dropouts at Summer High, or if there are dropouts either (all the students are girls anyway so that aspect of the statement is irrelevant anyway). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If some girls wear skirts at the school, then some girls do not, and those girls could be dropouts. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We do not know if boys can be dropouts in general anyway. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Some athletes are runners. All soccer players are athletes. No athletes go on TV.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some soccer players go on TV",
+            "Some runners are soccer players",
+            "A runner who goes on TV is not an athlete",
+            "A footy player who is an athlete cannot go on TV",
+            "Sports players do not appear on TV"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. Since all soccer players ae athletes and no athletes go on TV, we know that no soccer players go on TV. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If all soccer players are athletes, and some athletes are runners, then we know some soccer players must be runners. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Since no athletes go on TV, if a runner goes on TV, they cannot be an athlete. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. Since no athletes go on TV, anyone, including a footy player, who is an athlete, cannot go on TV as well. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We have no information on sports players in general. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "No clouds are white. Not all clouds produce rain. All shade is produced from clouds. ",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "A cloud that produces shade cannot produce rain",
+            "A grey cloud produces rain",
+            "Something that is white cannot be a cloud",
+            "If rain falls from the sky, it was produced from a cloud",
+            "If there is shade, a cloud has produced it"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "Yes",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. We know that not all clouds produce rain, however that could mean that no clouds produce rain as well, we can’t be sure. So we cannot be sure whether a cloud that produce shade can or cannot produce rain. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We cannot be sure that a grey cloud produces rain, because we do not know if grey clouds even exist according to our information, and we do not know for certain whether a cloud can even produce rain (all we know is that not all clouds can produce rain, that could mean none as well). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If no clouds are white, something that is white cannot be a cloud. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. We do not know first of all that clouds are even in the sky, and secondly, we do not know that all clouds will certainly produce rain. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If all shade is produced from clouds, then if there is shade somewhere, it must have come from a cloud. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All criminals go to jail. Not all criminals are guilty. A tax worker cannot be a criminal.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some guilty people are criminals",
+            "Tax workers are not guilty people",
+            "A tax worker cannot go to jail",
+            "A criminal who is not guilty must be in jail",
+            "Some criminals are innocent"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          "explanation": "1. If not all criminals are guilty people, then no criminals could be guilty people as well. Thus, we cannot be certain that at least some criminals are guilty people. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Even though tax workers cannot be criminals, they could still be guilty people for all we know, but we don’t have any information on that. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Although tax workers cannot be criminals and therefore cannot go to jail as a criminal, they could still go to jail (just not as a criminal). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. All criminals go to jail, whether they are guilty or not guilty. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Not all criminals are guilty people, so at least 1 criminal is not guilty, and therefore must be innocent. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "This robot has 1 button. Only green robots have red buttons. Not all robots have flashing lights.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If this robot has a red button, it must be green",
+            "This robot cannot have an orange button",
+            "If this robot is green, it must have a red button",
+            "If this robot has a yellow button, it cannot be green",
+            "This robot has flashing lights"
+          ],
+          "answer": [
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. Since only green robots have red buttons, if this robot has a red button, the robot must be green. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We do not know that this robot cannot have an orange button; we have no information on that. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Only green robots have red buttons, but that does not mean that all green robots have red buttons (only that red buttons can only be found on green robots, not any other coloured robots). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. A green robot does not necessarily have to have a red button, all we know is that red buttons can only be on green robots, not any other coloured robots. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We do not know for certain if this robot has flashing lights. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Some headphones have the noise-cancelling feature. Noise-cancelling does not work all the time. No headphones are wireless, and not all black earphones are headphones. This earphone’s only feature is noise-cancelling.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Earphones can have noise-cancelling features",
+            "This earphone must be black",
+            "Wireless objects cannot be headphones",
+            "If this earphone is a headphone, it must be wireless",
+            "The feature on this earphone may stop working sometimes"
+          ],
+          "answer": [
+            "Yes",
+            "No",
+            "Yes",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. Since this earphone’s only feature is noise-cancelling, that means earphones can have noise-cancelling features. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We have no information on the colour of this earphone. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Since no headphones are wireless, if an object is wireless, it cannot be a headphone. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. No headphones are wireless, so if this earphone is a headphone, it cannot be wireless. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Noise-cancelling does not work all the time, and since the only feature on this earphone is noise-cancelling, the feature on this earphone may stop working sometimes. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Either Adam or Bob will get the scholarship. Only Bob is not a graduate of School X. Some graduates of School X received an A in English. No student from City Y got the scholarship.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Adam is a graduate of School X",
+            "Adam received an A in English",
+            "If Bob lives in City X, he will get the scholarship",
+            "Bob did not get an A in English",
+            "Adam could not be living in City Y if he does not get the scholarship"
+          ],
+          "answer": [
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. If only Bob is not a graduate of School X, that means Adam must have been a graduate of School X. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. Adam could have received an A in English, as he graduated from School X, however we do not know this for sure as some graduates did not receive an A and Adam could have been one of them. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Just because no one from City Y got the scholarship, does not mean someone from City X will. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Bob could have gotten an A in English at his school, all we know is that he didn’t graduate from School X. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Since no one from City Y got the scholarship, if Adam didn’t get the scholarship, it is a possibility that he lives in City Y (ie. it is not an impossibility). Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Only Chris and Samantha are running for class president. Person with the highest votes wins. All students who completed the Gold Award will get their votes multiplied by 2. Some students who got a High Distinction also completed the Gold Award.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If Chris becomes class president, he must have completed the Gold Award",
+            "If there are only 19 students in a class of 39 students voting for Samantha and she becomes class president, she must have completed the Gold Award",
+            "If Chris completed the Gold Award, he must have got a High Distinction too",
+            "The student who has a High Distinction is more likely to become class president",
+            "There is a possibility that both students received the same amount of total votes in a class of 30, with one person having completed the Gold Award"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. Samantha could have completed the Gold Award and become class president as well, we do not know the number of students in the class and the votes to determine this. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since she only has 19/39 votes, in order to become class president and get the majority, she needs to have the completed the Gold Award to multiple her votes to 38, beating Chris who would have 20/39 votes. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Some students who got a High Distinction also completed the Gold Award, but this is not a certainty (only ‘some’) and we do not know if Chris falls into this category. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. The presence of a High Distinction has no bearing on the votes. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. This is a possibility, as the person with the Gold Award could have received 10 votes (meaning they actually got 20), and the other person receives 20 votes as well. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All pigs are pink. Some pink animals have three legs, but none of the three-legged animals have toes. This animal has a tail.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If this animal is pink. then some pigs must have tails",
+            "If this animal has 3 legs, it must be pink",
+            "If this animal has toes, it cannot have three legs",
+            "If this animal is a pig, then some pink animals have tails",
+            "Not all animals are pink"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. If this animal has a tail, and is pink, then some pigs could have tails however we do not know whether this animal is a pig for sure (all pigs are pink, but not all pink animals are pigs). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Only some animals that are pink have 3 legs, so this animal being pink if it has 3 legs is not a certainty. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Since none of the three-legged animals have toes, if this animal has toes, it cannot have 3 legs. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. This animal has a tail, so if this animal is a pig, then some pigs must have tails. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We do not know if there are any other animals than pigs, and even if there are we do not know if they are pink or not pink. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Some dogs are loyal. All dogs must have a collar. Not all animals with a collar have sharp teeth. This animal has sharp teeth.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "This animal cannot be a dog",
+            "This animal is loyal",
+            "If this animal is loyal, it must be a dog",
+            "If this animal is a dog, it must have a collar",
+            "A dog that is loyal could have sharp teeth"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          "explanation": "1. Since not all animals with a collar have sharp teeth, that means not all dogs have sharp teeth as well (since all dogs have a collar). Thus, this animal might not be a dog even if it has sharp teeth. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We do not know for sure if this animal is a dog, and even then only some dogs are loyal. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We know that some dogs are loyal, but that does not mean that the only loyal animals are dogs. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since all dogs must have a collar, if this animal is a dog, it must have a collar. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. A dog that is loyal has a collar, and not all animals with a collar have sharp teeth (but this also means that an animal with a collar COULD have sharp teeth, we don’t know for sure). It is not certain, but it is a possibility. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "This crossword is a puzzle. All puzzles are difficult to solve.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "All crosswords are difficult to solve",
+            "Some puzzles are crosswords",
+            "Puzzles that are difficult to solve could be crosswords",
+            "A crossword that is not difficult to solve cannot be a puzzle",
+            "All puzzles are crosswords"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. We know that this crossword is a puzzle, but we do not know that all crosswords are puzzles (and are therefore difficult to solve). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If this crossword is a puzzle, then some crosswords have to be puzzles. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Since this crossword is a puzzle and all puzzles are difficult to solve, this crossword must be difficult to solve. Thus, some puzzles that are difficult to solve could be crosswords. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. Since all puzzles are difficult to solve, a crossword that is not difficult to solve cannot be a puzzle. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We know that this crossword is a puzzle, and therefore a puzzle CAN be a crossword, but we do not know that all puzzles have to be crosswords. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All the flowers in a garden are either red of pink. Most of the red flowers have flowered, but none of the pink ones attract bees.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If a flower attracts bees, it must be red",
+            "None of the flowers that attract bees have flowered",
+            "Some of the red flowers do not attract bees",
+            "If a flower has flowered and attracts bees, it could be orange",
+            "All of the flowers that have flowered must be red"
+          ],
+          "answer": [
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. Since none of the pink flowers attract bees, if one flower does, it must be red since there are only 2 types of flowers in the garden. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We do not know if any of the flowers attract bees, only that the pink ones do not. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know if any of the flowers attract bees, or even if the red ones do not, only that the pink ones do not. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. It could not be orange as there are only 2 types of flowers in the garden: red or pink. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. There is nothing to say that the pink flowers have not flowered. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A conference has male and female attendees. All the males are scientists, but only some of the female attendees are researchers. Not all the scientists present at the conference were also researchers.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "All the scientists at the conference were males",
+            "Some of the male attendees were researches",
+            "None of the female attendees were scientists",
+            "Some of the researchers present were not scientists",
+            "If a male was a researcher, there was at least one scientist who was also a researcher"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          "explanation": "1. All the males were scientists, but that doesn’t mean that all the scientists at the conference were males. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. For all we know, all the researchers could have been female. We do not have enough information to deduce that any males were researchers, or if any were not. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Some of the female attendees could have been scientists, we don’t know – just because all the males were scientists does not mean all the scientists present were males. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If not all the scientists present were researchers, then it stands that at least one of the scientists was not a researcher (which means that that researcher was not a scientist). Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Since all the males were scientists, if one male was a researcher then it stands that at least one male was a scientist and a researcher (so there was a scientist who was a researcher too). Therefore, the correct answer is YES, as the conclusion does follow. ",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A party has both teenagers and adults in attendance. Some of the teenagers only enjoy playing footy. The rest of the people at the party only like going to the theatre.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "All the adults at the party enjoy going to the theatre",
+            "Some of the teenagers do not like going to the theatre",
+            "If a teenager enjoys going to the theatre, they must not like footy",
+            "Some of the people who like going to the theatre also enjoy footy",
+            "More people enjoy going to the theatre than playing footy"
+          ],
+          "answer": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "No",
+            "No"
+          ],
+          "explanation": "1. Since ‘the rest’ of the people includes some teenagers and all the adults, it stands that all the adults like going to the theatre. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. If some of the teenagers only enjoy playing footy, and ‘the rest’ of the people only like going to the theatre, that implies that those teenagers who enjoy playing footy do not like going to the theatre. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Since none of the teenagers who only like playing footy enjoy going to the theatre, it stands that the teenagers that only like going to the theatre do not enjoy playing footy. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. Since some of the teenagers ‘only’ like playing footy and the rest of the people ‘only’ like going to the theatre, there cannot be any overlap. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We do not know how many teenagers and adults are at the party, so we cannot make this conclusion. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Company X earns money by selling products like Product Y at a higher value than they buy it from Manufacturer Z. Company X loses money if they do not sell all their Product Ys.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If Manufacturer Z increase their selling price, Company X will be forced to increase their selling price too",
+            "If Company X is losing money, they must still have Product Ys remaining",
+            "If Manufacturer Z stops selling Product Y to Company X, Company X will begin to lose money",
+            "If the sale price of Product Y at Company X decreases but the selling price of Product Y at Manufacturer Z remains constant, Company X will make less money",
+            "Company X depends on Manufacturer Z to continue selling them Product Y at a low cost"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. The selling price that Company X sells for may be a lot higher than what Manufacturer Z sells for, so if Manufacturer Z increases their selling price Company X may just end up making less profit, not necessarily being forced to increase their selling price. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Company X loses money if they do not sell all their Product Ys, however that doesn’t mean that not selling all their Product Ys is the only way they could lose money. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Company X loses money only if they do not sell ALL their Product Ys – if they don’t buy any to start with from Manufacturer Z, they won’t need to sell all of them to not lose money. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Company X is still buying Product Y at the same price, but selling it for lower, so therefore making less profit. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We do not know that Manufacturer X is their only supplier of Product Y, or that Company X depends on getting a low price from them. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All giant pandas eat bamboo. All red pandas are small. This panda is either a giant or red panda.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If this panda is not small, it eats bamboo",
+            "If this panda is not a giant panda, it does not eat bamboo",
+            "This panda can eat bamboo and be large",
+            "This panda is neither small nor eats bamboo",
+            "This panda is a giant panda"
+          ],
+          "answer": [
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. Since giant pandas eat bamboo and red pandas are small, if this panda is not small it has to be a giant panda which eats bamboo. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We do not know if red pandas eat bamboo, so if it is not a giant panda it could eat bamboo, it might also not eat bamboo, we don’t know for sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know that giant pandas are large, so we cannot say this statement is true for certain. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. This panda has to be small or eats bamboo, because it has to be either a giant panda which eats bamboo or a red panda which is small. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. This panda could also be a red panda. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All red carpets come from China. Some green carpets come from Canada, but only high quality carpets are allowed into England.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If a red carpet comes into England, it must be of high quality",
+            "Not all green carpets will be of high quality",
+            "If someone ordered a green carpet, it must have come from Canada",
+            "If someone ordered a red carpet, it cannot have come from Canada",
+            "China only produces red carpets"
+          ],
+          "answer": [
+            "Yes",
+            "No",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "explanation": "1. Since only high quality carpets are allowed into England, if a red carpet came into England it must be high quality. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We have no information to determine if this is true or not. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Only some green carpets come from Canada, which implies that some green carpets can come from elsewhere, so we cannot be sure where this one came from. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since all red carpets come from China, if someone ordered a red carpet it cannot have come from Canada, only China. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. All red carpets come from China, but that does not mean that China only produces red carpets. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Citizens of Country X are allowed into Country Y. Citizens from Country Z are only allowed into Country W, however citizens of Country X cannot enter Country Z.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Citizens from Country X cannot travel to Country Y if they must stop in Country Z",
+            "If someone came into Country Y, they must be from Country X",
+            "If a citizen of Country Z goes to Country X, they have to travel to Country W first",
+            "Citizens of Country Y are allowed into Country X",
+            "A citizen of Country Z and X can enter Country W"
+          ],
+          "answer": [
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. Since citizens of Country X cannot enter Country Z, if they would need to stop in Country Z on the way to Country Y, they would not be able to go to Country Y. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We do not know that Country Y only allowed citizens of Country X to enter. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Since citizens of Country Z are only allowed into Country W, they cannot go to Country X even if they stopped in Country W first. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We have no information about where the citizens of Country Y are able to go. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. A citizen of Country X may or may not be able to ender Country W; we do not know if citizens of Country X are allowed or not allowed into Country W, even if they are a citizen of Country Z. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Some fruits are orange. All fruits with seeds are either red or grow on trees. This supermarket only sells two colours of fruit, orange and red.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If a fruit in this supermarket is orange, it must grow on trees",
+            "Fruits at this supermarket are either red or do not have seeds",
+            "There is a red fruit in this supermarket, therefore it must have seeds",
+            "If a fruit in this supermarket has seeds and grows on trees, it must be orange",
+            "No fruits in this supermarket that are red grow on trees"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          "explanation": "1. We do not know of orange fruits even grow on trees, we have no information on this. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We have no information about this and what types of fruit are at the market, apart from the fact that there are only 2 colours. We do not know what colour fruits without seeds will have. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. A fruit with seeds can be red, but not all red fruits must have seeds. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If this fruit grows on trees and has seeds, it cannot be red. Therefore it must be orange. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Fruits in this supermarket that are red could possibly grow on trees if they didn’t have any seeds, but we don’t know this for sure. All we know is fruits that have seeds and are red cannot grow on trees (but the statement does not specify if this fruit has seeds or not). Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A product can only be put for sale if it passes safety guidelines and an inspection. Not all products put forward for examination this year were put up for sale.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some products did not pass safety guidelines",
+            "Most products passed an inspection",
+            "If a product passes safety guidelines and an inspection it will be sold",
+            "If a product passes an inspection, it will be put up for sale",
+            "A product that was not sold must have failed on some of the safety guidelines"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "explanation": "1. If some products put forward for examination were not put up for sale, and a product can only be put for sale if it passes safety guidelines and an inspection, then it follows that these products did not pass either the safety guidelines or inspection – which one however, we do not know. They could have passed the safety guidelines but failed the inspection for example, so we cannot be certain that any failed the safety guidelines (only that one of those two criteria were failed). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We do not know what proportion of products passed, only that not all were put up for sale/passed. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. It will be put up for sale, but that does not mean it will be sold. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. The product would also need to pass safety guidelines to be put up for sale. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. The sale of a product is not affected by the safety guidelines according to the information we have, all we know is that the safety guidelines affect whether a product can be put up for sale or not. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All tests are hard. This quiz is a test. Not all quizzes have more than 10 questions.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "This quiz has more than 10 questions",
+            "Not all quizzes are easy",
+            "If a quiz has more than 10 questions, it must be hard",
+            "If a test has more than 10 questions, it is a quiz",
+            "Some quizzes are hard"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. Not all quizzes have more than 10 questions, so we can’t be sure that this quiz will have more than 10 questions for sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We do not know if any quiz is easy – all we know is one quiz is hard because it is a test. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. There is no relationship between quizzes having more than 10 questions and the quiz being hard, and we only knot that one quiz is hard because it is a test. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We do not know anything about tests having more than 10 questions. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If this quiz is a test and all tests are hard, then some quizzes must be hard. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All computers are fast technologies. Some fast technologies do not have fast internet speeds. This computer is not slow.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Some fast technologies have slow internet speeds",
+            "This computer is fast",
+            "If a computer is a fast technology, it will have fast internet speeds",
+            "If a fast technology is not slow, it is a computer",
+            "This computer is a fast technology"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. Just because some fast technologies do not have fast internet speeds does not mean that they have slow internet speeds (they could have normal internet speeds etc). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If this computer is not slow, it could be fast, but we can’t be sure (it could be normal for example). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know that computers will have fast internet speeds (since all computers are fast technologies) at all. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Just because this computer is not slow, does not mean that if any fast technology is not slow it is a computer (other computers could be fast etc). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If all computers are fast technologies, then this computer is a fast technology. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "All books have pages. Textbooks are the only types of books that have words. Children’s books have pictures but not words. Words and pictures can only be found on a page.",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "Something that is not a book cannot have words or pictures",
+            "If a book has a picture in it, it is a children’s book",
+            "A children’s book cannot be a textbook",
+            "A comic book has pictures",
+            "If a novel is a book, it could have words in it"
+          ],
+          "answer": [
+            "No",
+            "No",
+            "Yes",
+            "No",
+            "No"
+          ],
+          "explanation": "1. We do not know this for sure, as we don’t know if words and pictures can only be found in books (other things could have pages too). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Textbooks could have pictures too, but we can’t be sure, and we do not know that Children’s books and Textbooks are the only 2 types of books. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Since a Children’s book cannot have words, and a Textbook is the only type of book with words, then a Children’s book cannot be a Textbook. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. We do not know anything about comic books (ie. if they have pages etc). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If a novel is a book, and all books are pages, the novel still could not have words in it because Textbooks are the only types of books with words in them. Therefore, the correct answer is NO, as the conclusion does not follow.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "This mouse is either a captivity-bred or free-born mouse. Captivity-bred mice do not have pink tails. ",
+      "category_id": 3,
+      "questions": [
+        {
+          "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+          "type": "Drag and Drop",
+          "options": [
+            "If a mouse is not a captivity-bred mouse, it has a pink tail",
+            "If this mouse has a pink tail, it cannot be captivity-bred",
+            "There are only two types of mice",
+            "Free-born mice could have pink tails",
+            "If this mouse is not captivity-bred, it must be a free-born mouse"
+          ],
+          "answer": [
+            "No",
+            "Yes",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "explanation": "1. We do not know that free-born mice have pink tails, only that captivity-bred mice do not have pink tails. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since captivity-bred mice do not have pink tails, if this mouse has a pink tail, it cannot be captivity-bred. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We know that this mouse is either captivity-bred or free-born, but we do not know if these are the only two types of mice for all mice. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. There is nothing to suggest that free born mice could have pink tails (it could, but there is nothing here to justify this being a possibility). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Since this mouse is either captivity-bred or free-born, if it is not captivity-bred, it must be free-born. Therefore, the correct answer is YES, as the conclusion does follow.",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

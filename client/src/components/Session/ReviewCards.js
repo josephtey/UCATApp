@@ -14,17 +14,21 @@ const ReviewCards = ({
           const answered = responses.find(item => item.question_id === question_id)
 
           return (
-            <Card key={i} onClick={() => {
-              onClick(question_id, section)
-            }}
+            <Card key={i}
             >
               <CardLeft>
-                {answered && answered.flagged ?
-                  <RiFlag2Fill color={'black'} size={20} />
-                  :
-                  <RiFlag2Line color={'black'} size={20} />
-                }
-                <Text color="black">Question {i + 1}</Text>
+                <div onClick={() => {
+
+                }}>
+                  {answered && answered.flagged ?
+                    <RiFlag2Fill color={'black'} size={20} />
+                    :
+                    <RiFlag2Line color={'black'} size={20} />
+                  }
+                </div>
+                <Text color="black" onClick={() => {
+                  onClick(question_id, section)
+                }}>Question {i + 1}</Text>
               </CardLeft>
               <CardRight>
                 {answered && answered.value ?

@@ -1,0 +1,685 @@
+{
+    "exam": {
+      "name": "Decision Making 1",
+      "description": "Section Mock",
+      "type": "Mock",
+      "time": 31
+    },
+    "sections": [
+      {
+        "name": "Decision Making",
+        "description": "Looks at your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information.",
+        "time": 31,
+        "stems": [
+          
+          {
+            "text": "Not all musicians are AMEB certified, but all musicians who are AMEB certified have excellent piano and violin playing skills. Some musicians who are AMEB certified know how to play the guitar. ",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "All musicians with excellent piano and violin playing skills are AMEB certified",
+                  "Not all musicians who are AMEB certified know how to play the guitar",
+                  "Some musicians who are not AMEB certified have excellent piano and violin playing skills",
+                  "If a musician knows how to play the guitar, he must be AMEB certified",
+                  "The musicians who play the piano and are AMEB certified also have excellent violin playing skills"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "N",
+                  "Y"
+                ],
+                "explanation": "1. All musicians who are AMEB certified have excellent piano and violin playing skills, however that does not mean that everyone who has an AMEB certification has excellent piano and violin skills. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Some = More than 1, less than All. Not All = Less than All. Therefore, according to the statement, there could be no musicians that play the guitar. However the question stem states that there are some, so at least one musician plays the guitar. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>3. This could be the case, but there is nothing in the stem to suggest that it must be or is the case. Therefore, as it falls under the ‘can’t tell’ category, as we cannot be certain, the answer is NO. <br/>4. There is nothing to suggest that a musician must be AMEB certified to play the guitar. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. All musicians who are AMEB certified have excellent piano and violin playing anyway, so this musician must have excellent violin skills. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Great Barrier Reef’s greatest coral bleaching event happened in 1997. The increase in carbon in the water led to 100,000km of corals bleached and the death of 7,000 fish. ",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "The world’s worst coral bleaching event happened in 1997",
+                  "Most fish died from a 1997 coral bleaching event",
+                  "Coral bleaching should be prevented at all costs",
+                  "If the carbon levels were to increase in the water again, more fish may die",
+                  "There has not been a bigger coral bleaching event in the Great Barrier Reef since 1997"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "Y",
+                  "Y"
+                ],
+                "explanation": "1. There is nothing to suggest that this event was the worst. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We do not know if 7,000 fish is most fish or not, as we do not know the overall fish population. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>3. We do not have any information about this statement, so it would be an assumption. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If the increase in carbon in the water led to the coral bleaching, then it is a possibility that more fish may die if it happens again. Therefore, the correct answer is YES, as the conclusion does follow. (note: this says ‘may’, not ‘will’’)<br/>5. As this event is the greatest coral bleaching event for the Great Barrier Reef, there has not been a bigger one since 1977. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "A mountain is a type of hill. All hills have slopes and valleys. Some valleys have dunes, but if there are no dunes in the valleys, then there will be waterfalls. ",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "A mountain has slopes and valleys",
+                  "If a mountain does not have a dune, it will have a waterfall.",
+                  "All hills are mountains",
+                  "If something has a waterfall, it must be a mountain",
+                  "Some valleys do not have dunes"
+                ],
+                "answer": [
+                  "Y",
+                  "Y",
+                  "N",
+                  "N",
+                  "Y"
+                ],
+                "explanation": "1. A mountain is a hill and all hills have slopes and valleys, therefore a mountain will have slopes an valleys. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. A mountain has valleys, so if there are no dunes in the valleys then there will be waterfalls in these valleys in these mountains. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. All mountains are hills, but not all hills are mountains (mountains are a type of hill. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Although mountains may have waterfalls, just because something has a waterfall doesn’t mean it is a mountain (could be another type of hill). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If some valleys have dunes, then at least 1 valley does not have a dune. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "All cats that meow loudly are black. Cat B meows loudly. Cat A is not black.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Cats that meow softly are not black",
+                  "Cat A does not meow loudly",
+                  "Cat B must be black",
+                  "There may be some white cats that meow loudly",
+                  "Cat B and Cat A are different colours"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "Y",
+                  "N",
+                  "Y"
+                ],
+                "explanation": "1. This is an assumption – we do not know anything about cats that meow softly. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If Cat A meows loudly, it will be black. Since it is not black, it cannot meow loudly then. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Since all cats that meow loudly are black, and cat B meows loudly, it must be black. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. There is no information about white cats here. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If Cat B meows loudly it must be black, and since Cat A is not black it must be another colour to Cat B. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "In a specific swimming pool, some male instructors are athletes, and no male instructors can run a marathon.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "There are female instructors at the swimming pool",
+                  "If there was an instructor who could run a marathon, it cannot be a male.",
+                  "At Tobbias Swimming Pool, there are male instructors who are athletes",
+                  "Marathon runners are not instructors at the swimming pool",
+                  "Some male instructors are not athletes"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "N",
+                  "Y"
+                ],
+                "explanation": "1. We do not know if there are any female instructors here. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Given that no male instructor can run a marathon, if the instructor could run a marathon they cannot be a male. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We do not know anything about Tobias Swimming pool, and we do not know if this specific swimming pool is Tobias Swimming pool. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. There could be marathon runners that are instructors at the swimming pool, as they could be female, but we don’t know for sure, however we can’t say definitively that they are not. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. If some male instructors are athletes, then at least 1 male instructor is not an athlete. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Gerard has some beans and some cans that he needs to sort. If he puts one bean into each of the cans he has, he has seven beans left over. However, if he puts two beans in each can instead, he is left with two beans.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many cans does he have?",
+                "type": "Multiple Choice",
+                "options": [
+                  "5",
+                  "6",
+                  "7",
+                  "8"
+                ],
+                "answer": "A",
+                "explanation": "If we make 2 simultaneous equations, where b = beans and c = cans: (1) b = c + 7, (2) b = 2c + 2. If we solve for c by equating the two equations, so that c + 7 = 2c + 2, we get that c = 5. Alternatively, you could work through the answer options by subbing them into the question. Therefore the answer is A. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Two dots move around an octagon along its corners. Dot 1 moves around the octagon 2 corners at a time clockwise, whereas Dot 2 moves around the octagon 3 corners at a time anti-clockwise. Both dots moves at the same time.",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/1-logic.jpg",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Where should they be placed at the beginning if they are to meet at the same corner on their 3rd move? ",
+                "type": "Multiple Choice",
+                "options": [
+                  "Dot 1 at A, Dot 2 at H",
+                  "Dot 1 at A, Dot 2 at G",
+                  "Dot 1 at F, Dot 2 at C",
+                  "Dot 1 at F, Dot 2 at B"
+                ],
+                "answer": "A",
+                "explanation": "The easiest way to figure this problem out is to use the answer options and check if each one works. Note that if Dot 1 moves around 2 corners at a time, that means it essentially skips 1 spot, whereas Dot 2 skips 2 spots. Also remember that they are going opposite directions. Therefore the answer is A. If Dot 1 starts at A, it will end at G, and if Dot 2 starts at H, it will end at G as well. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A school has 3 sessions a day. On Monday, a total of 80 students attended at least 1 of the 3 sessions.<br/>16 students attended only the first session.<br/>16 students attended only the first and second session.<br/>12 students attended only the third class.<br/>No students attended both the first and third session.<br/>18 students attended only the second and third session.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many students attended the second session altogether?",
+                "type": "Multiple Choice",
+                "options": [
+                  "18",
+                  "36",
+                  "34",
+                  "52"
+                ],
+                "answer": "D",
+                "explanation": "You could draw a Venn diagram for this problem, but can be solved without one. Given we know 80 students attended, we can subtract 16 and 12 from 80 to give us 52 (essentially all the numbers that are not in the circle representing the 2nd session). Therefore the answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Four people gathered to buy one thing in a souvenir shop in Australia, each from four other countries, either America, India, China or New Zealand. There were only 3 types of souvenirs in the shop. Each item was purchased by at least one person.<br/>The person from India bought a boomerang as a souvenir.<br/>The Chinese person and American did not buy the same souvenir as anyone else.<br/>The beer stubby was not bought by the New Zealander.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be false?",
+                "type": "Multiple Choice",
+                "options": [
+                  "The New Zealander bought a teacup",
+                  "The Chinese person did not buy the beer stubby",
+                  "The Indian bought the same thing as the New Zealander ",
+                  "Either the Chinese or American person bought the beer stubby"
+                ],
+                "answer": "A",
+                "explanation": "Given that there are only 3 souvenir types in the shop, and the Indian already bought one type, and the Chinese and American must have different types to anyone else, the New Zealander has to have the same type as the Indian. Therefore he must have a boomerang, not a teacup. Therefore, the answer is A. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Nicole, Nikki, Neal and Nabi went to a theme park, and each went on 4 separate rides, either the roller coaster, the spin wheel, the maze and the giant swing. The four events cost $35, $45, $50 or $60 (not in order).<br/>Nicole chose to ride the roller coaster and paid $15 less than Nabi.<br/>Nabi hates spin wheels but did not pay the most for his ride.<br/>Nikki went on either the giant swing or paid $50. ",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "If Neal spent more than Nikki on his ride, which ride cost $45?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Roller Coaster",
+                  "Spin Wheel",
+                  "Maze",
+                  "Giant Swing"
+                ],
+                "answer": "D",
+                "explanation": "Given that Nikki went on either the giant swing or paid 50 dollars, we know that the giant swing is not $50. Since Neal spent more than Nikki on his ride, he cannot have paid $35 since it is the lowest. Nicole paid either 35 or 45 dollars since she paid 15 dollars less than Nabi. Therefore Nabi paid either 50 or 60 dollars and since he did not pay the most, he must have paid $50. Therefore Nikki went on the giant swing. If Neal spent more than Nikki on his ride, he would have had to pay $60 (since Nikki has to now pay $35 since Nabi is paying $50). Therefore the giant swing has to be $45 (only price remaining for Nikki). Therefore the answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          
+          {
+            "text": "Would schools be a safer environment if harsher punishments were implemented for bullying? ",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, students would learn better if they didn’t have to worry about bullying ",
+                  "Yes, a psychological study showed that the fear of punishment is a direct deterrent for most bullies",
+                  "No, bullies would begin bullying more as an act of defiance against the rules ",
+                  "No, this could impede on the education of children deemed ‘bullies’  "
+                ],
+                "answer": "B",
+                "explanation": "Answer option B is the strongest because it refers to evidence and focuses on the relationship between punishment and reducing bullying – the other options do not deal with the problem of reducing bullying or use opinions and assumptions.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should shooting be removed from the Olympic Games? ",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, it promotes violence to children",
+                  "Yes, shooting events are the least popular in the games ",
+                  "No, it has a rich history in the games and is therefore an essential element",
+                  "No, in the past 50 years, shooting events have generated more than 5% of the Olympics total revenue "
+                ],
+                "answer": "D",
+                "explanation": "Answer option D is the strongest as it provides an evidence-based argument that is not based on opinion or assumptions like the other 3 options.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should scoring systems be removed from sport for children under 10?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, if kids get too caught up in the scores from young ages, it would detract from the true value of sport",
+                  "Yes, this would shift the dynamic towards good sportsmanship in later years ",
+                  "No, psychologists recommend competitive sport from early ages as a means of developing healthy coping mechanisms to deal with failure ",
+                  "No, sport is competitive by nature and this shouldn’t be changed"
+                ],
+                "answer": "C",
+                "explanation": "Answer option C is the strongest because it is based on evidence and professional recommendations and deals with all the elements of the question (such as the young age of the children). Option A is not the strongest because although valid it is not based on evidence like Option C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should there be a blanket ban on contact sports? ",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, without contact sports there would be far less traumatic brain injuries",
+                  "Yes, there is no good way to mitigate the risk of contact sports without getting rid of them completely",
+                  "No, this is an infringement on freedom",
+                  "No, it has been shown that with proper protective gear and strict adherence to the rules, the risk posed by contact sports can be minimised "
+                ],
+                "answer": "D",
+                "explanation": "Answer option D is the strongest because it is based on evidence and provides logical reasoning, whereas the other arguments rely on more emotional arguments. Option B is not the strongest because is does not rely on evidence like option D, albeit not a totally incorrect response.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Dementia is a syndrome – usually of a chronic or progressive nature – in which there is deterioration in cognitive function (i.e. the ability to process thought) beyond what might be expected from normal ageing. It affects memory, thinking, orientation, comprehension, calculation, learning capacity, language, and judgement. Consciousness is not affected. The impairment in cognitive function is commonly accompanied, and occasionally preceded, by deterioration in emotional control, social behaviour, or motivation. Dementia results from a variety of diseases and injuries that primarily or secondarily affect the brain, such as Alzheimer's disease or stroke. <br/>Source: https://www.who.int/",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Dementia mostly affects people who are old",
+                  "People with the onset of dementia may experience unstable emotions",
+                  "Someone with Alzheimer’s disease will have dementia",
+                  "If someone gets hit in the head, they could possibly get dementia",
+                  "A person with dementia will never lose consciousness"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "Y",
+                  "N"
+                ],                
+                "explanation": "1. Although dementia is linked to age in the passage, we don’t know who is mostly affected by it. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>2. The passage states “the impairment in cognitive function is commonly accompanied… by deterioration in emotional control” – unstable emotions can be inferred from a lack of emotional control. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Dementia results from Alzheimer’s yes, however the passages does not state that it is a certainty, as dementia “results from a variety of diseases”. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. The passage states that dementia can result from injuries to the brain, Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Although consciousness is not affected we don’t know if a person with dementia will NEVER lose consciousness/ Therefore, the correct answer is NO, as the conclusion does not follow. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Company Electrobill has conducted a survey of the Watt household and has measured their energy usage per month over two years.<br/>Source: https://support.goldensoftware.com/hc/en-us/articles/115005366867-Creating-and-Using-Bar-Charts-in-Grapher",      
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 5/1.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "In both 2008 and 2009, September was the month with the greatest energy usage.",
+                  "In February, the Watt household used more electricity in 2008 than they did in 2009.",
+                  "If a Kilowatt-hour cost $50, the Watt family would have paid $22500 for energy in April 2008.",
+                  "The increase in energy use in January 2008 was because of a relative visiting the Watt family",
+                  "In May, the energy usage for both 2008 and 2009 was approximately similar in the Watt household."
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "N",
+                  "Y"
+                ],                
+                "explanation": "1. January had the highest energy usage in 2008/9. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. On observation, the dark blue representing 2008 is greater than the lighter blue representing 2009. It is close to around 200 kilowatt-hours/month higher. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. They used 550 kilowatt-hours in April 2008, not 450, therefore the total should be $27,500, not $22,500. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. There is no indication about a relative. Therefore, the answer is NO as it is an assumption.<br/>5. The values for 2008 and 2009 are roughly 50 kilowatt-hours apart, so it can be deemed as approximately similar. Therefore, the correct answer is YES, as the conclusion does follow. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+          {
+            "text": "Emily, a Year 10 student, has decided that she wants to be a doctor. Over the past 4 years she has been monitoring certain conditions, such as coughing, sneezing and scratching her hair. She records the number of times she does either of these activities for a week in March for every year from 2014 to 2017. Her chart is seen below.  Dark blue = sneezing. Medium blue = coughing. Light blue = scratching her hair. <br/>Source: https://google.github.io/charts/flutter/example/bar_charts/grouped.html",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 5/2.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Emily’s sneezing 100 times in a week in 2016 is the result of a sandstorm that triggered her allergic response.",
+                  "In 2015, on average, Emily may have coughed 7 times a day.",
+                  "Emily’s total sneezing in the data collected in 2014, 2015 and 2017 is equal to her total sneezing in the data collected for 2016.",
+                  "If Emily measured the number of times, she sneezed in a week in January instead of March, her total number of sneezes would be lower.",
+                  "Emily’s number of coughs in the one week in 2016 is approximately 10% of her number of sneezes in one week in 2016."
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "N",
+                  "Y"
+                ],                
+                "explanation": "1. We have no information about a sandstorm, so this would be an assumption. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. 50/7 days = roughly 7 coughs a day. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. The sneezing data collected in 2014, 15 and 17 is more than that collected in 2016. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We don’t know this for sure so this would be an extrapolation and assumption beyond the graph. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. 10/100 = 10%. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "The chart below demonstrates how empires have changed over time in relation to the year and land area occupied.<br/>Source: https://www.aploris.com/blog/charts/bar-chart-showing-the-largest-historical-empires-by-world-land-area/",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 5/3.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "The area occupied by the Spanish Empire, Portuguese Empire and Yuan Dynasty is approximately equal to the area occupied by the British Empire.",
+                  "Given that the population of the world was 1.6 billion in 1895, the Russian Empire would have more people than the Qing Dynasty.",
+                  "According to the graph, the total world area was 149 million square kilometres in 1920.",
+                  "The Second French Colonial Empire is the third oldest empire in the world.",
+                  "The Abbasid caliphate and Second French colonial empire combines covered approximately the same total area as the Russian empire. "
+                ],
+                "answer": [
+                  "Y",
+                  "N",
+                  "Y",
+                  "N",
+                  "Y"
+                ],                
+                "explanation": "1. The area occupied by those 3 empires is 35.1 million km2 and the British empire has 35.5 million km2. Therefore, the correct answer is YES, as the conclusion does follow. <br/>2. We have no information about the distribution of the population and the population in 1790 either. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If 0.238*x = 35.5 (British Empire), therefore x=149. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. It is the equal newest empire, the third oldest empire is the Mongol Empire. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Those two empires had about 22.6 million km2, whereas the Russian empire has 22.9 million km2. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "The graph shows the median number of beds available in different US hospitals for patients.<br/>Source: https://www.alanapirrone.com.au/blog/tag/back-to-back+bar+chart",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 5/4.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "The number of beds in the Outpatient MHF has increased by 7 beds from 2018 to 2019.",
+                  "The number of beds in the Veteran admin MC in 2019 has more than doubled from 2018",
+                  "In both 2018 and 2019, public psych hospitals have at least two times more beds available than private psych hospitals.",
+                  "Beds in RCT’s for children and adults have decreased from 2018 to 2019.",
+                  "The median number of beds in General hospitals in the United Kingdom in 2019 was 32"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "Y",
+                  "Y",
+                  "N"
+                ],                
+                "explanation": "1. It has decreased by 7 beds. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. 29*2=58, and 58<62. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. 162/2=81, and 81>67 (2018). 136/2=68, and 68>45 (2019). Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. They have decreased from 59 to 38. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. This data is for the US, not United Kingdom. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+
+          {
+            "text": "A survey of 100 people compared people’s favourite clothing brand between brand A, B and C.",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 5/5.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which of the following is true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "More people voted for B than A",
+                  "Not everyone voted",
+                  "More than half voted for A ",
+                  "B was the least popular brand"
+                ],
+                "answer": "D",
+                "explanation": "When added up altogether, the total preference for A = 49, B = 46, C = 48. Therefore, the answer is B. (Note: you don’t actually have to use the number 5 in your calculations as it applies to all 3 categories). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+          {
+            "text": "A tech company sells tablets, computers and phones. Some of these devices have a touch screen.",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 5/6.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which of the following is false?",
+                "type": "Multiple Choice",
+                "options": [
+                  "All computers have touch screens",
+                  "All phones have touch screens",
+                  "Both computers and phones only have touch screens",
+                  "Only some computers have touch screens "
+                ],
+                "answer": "A",
+                "explanation": "Some computers have touch screens, not all of them, as the rectangle and arrow do not completely overlap. Therefore, the answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Thirty-five students in a class shared the contents of their lunchboxes with the rest of the class. Twenty students had both fruits and vegetables in their lunchboxes. However, 14 students did not have fruits in their lunchbox and 11 students had vegetables only in their lunchbox. ",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "How many students did not have vegetables nor fruits in their lunchbox?",
+                "type": "Multiple Choice",
+                "options": [
+                  "3",
+                  "5",
+                  "18",
+                  "25"
+                ],
+                "answer": "A",
+                "explanation": "If 20 students had both types in their lunchbox, then 15 did not have both (one type or none). If 14 students did not have fruits and 11 had vegetables only, therefore 3 did not have either (and 1 had fruits only). Therefore, the answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "In a school nurse’s notes she has a list of 47 students’ health records. The only allergies that students can have are to eggs and peanuts. A total of 20 students had an allergy to only one thing, but there is 1 more student with allergies to both things than those students with no allergies. How many students are not allergic to both eggs and peanuts?",
+            "category_id": 7,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "8",
+                  "9",
+                  "21",
+                  "33"
+                ],
+                "answer": "D",
+                "explanation": "If 20 students had an allergy to one thing, then 27 had an allergy to both or none. If 1 more had an allergy to both than none, then we can deduce that 13 had an allergy to none and 14 had an allergy to both. Therefore the number of students who are not allergic to both (so one + none) = 20 + 13 = 33. Therefore, the answer is D. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "A survey of 160 university students and the emotions they had experienced over the last week were recorded.",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 5/7.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "What does the letter D represent?",
+                "type": "Multiple Choice",
+                "options": [
+                  "University students who had experienced anxiety and frustration",
+                  "University students who had experienced excitement and frustration",
+                  "University students who had experienced happiness and frustration",
+                  "University students who had experienced excitement and anxiety"
+                ],
+                "answer": "C",
+                "explanation": "D sits in the circle and square intersection, which is the intersection between happiness and frustration. Therefore, the answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "A netball coach has to choose between Gina and Michaela to be selected for their netball team. Michaela makes 63% of shots that she takes and shoots an average of 5 times per game. Gina misses 0.37 of shots she takes and shoots an average of 6 times per game. Who should the coach choose? ",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Gina, because she has a higher shooting accuracy. ",
+                  "Gina, because she is likely to score more points for the team than Michaela",
+                  "Michaela, because is she the more accurate player. ",
+                  "Michaela, because she has a 22% chance of making all 5 shots"
+                ],
+                "answer": "B",
+                "explanation": "They both have the same accuracy ( as 1 – 0.37 = 0.63 or 63% for Gina), however Gina shoots an average of 1 more time than Michaela. Therefore, the answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Malone’s fabric company can buy printers from Company A or Company B. Maintenance of both company’s printers costs $150. Company A’s printer costs $210, but the probability that it will require maintenance is 0.82. Company B’s printer costs $190 and will not require maintenance 18% of the time. Which company should Malone buy the printer from? ",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Company A, because it is $20 cheaper",
+                  "Company B, because it is $20 cheaper",
+                  "Company A, because it has a higher chance of needing maintenance",
+                  "Company B, because it’s maintenance would cost less. "
+                ],
+                "answer": "B",
+                "explanation": "Both company printers require maintenance 82% of the time, however company B’s printer costs $20 less than that of company A. Therefore, the answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Peter has a bag of marbles that he is playing with, that has 5 green marbles, 6 blue marbles and 7 red marbles. If he picks out 2 red marbles on the first try, what is the probability that he will pick out a green marble on his second try?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "5/18",
+                  "5/16",
+                  "1/5",
+                  "1/4"
+                ],
+                "answer": "B",
+                "explanation": "There are 18 marbles to start with, but if 2 red marbles are removed on the first try, there remains only 16. Since the number of green marbles hasn’t changed, the probability of getting a green marble on the second try is 5/16 (not 5/18 because 2 red ones have been removed already). Therefore, the answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "On Monday there is a 30% chance of rain. If it rains on one day, there is a 70% chance it rains again the next day. If it does not rain one day, there is a 4 in 5 chance that it rains the next day. What is the chance that it rains on Tuesday?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "0.21",
+                  "0.56",
+                  "0.77",
+                  "0.89"
+                ],
+                "answer": "C",
+                "explanation": "We have to calculate to options here and add them together. Let’s say R = rain and R’ = no rain. We need to calculate RR and R’R (that is, rain Monday rain Tuesday, and no rain Monday rain Tuesday). Therefore, since RR = 0.3*0.7 = 0.21, and R’R = 0.7*0.8 = 0.56, adding these two together gives us a total probability of 0.21 + 0.56 = 0.77. Therefore, the answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Orin and Pippin are in an egg carrying competition, where each competitor has to carry an egg in a spoon without it falling for 10 metres. The chance that Orin drops his egg is 1/15. The chance that Pippin drops his egg is 3 times Orin’s chance. What is the probability that both of them drop their eggs?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "1/75",
+                  "3/75",
+                  "1/225",
+                  "1/15"
+                ],
+                "answer": "A",
+                "explanation": "The chance of Pippin dropping his eggs is 3 * 1/15 = 3/15 = 1/5. The chance that both of them drop it is equal to 1/15 * 1/5 = 1/75 (15*5 = 75, therefore you know it is 1/75 as 1*1=1). Therefore, the answer is A.",
+                "difficulty": 1
+              }
+            ]
+          }
+          
+        ]
+      }
+    ]
+  }

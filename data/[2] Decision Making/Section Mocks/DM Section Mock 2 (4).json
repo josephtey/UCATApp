@@ -1,0 +1,633 @@
+{
+  "exam": {
+    "name": "Decision Making 2",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 31
+  },
+  "sections": [
+    {
+      "name": "Decision Making",
+      "description": "Looks at your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information.",
+      "time": 31,
+      "stems": [
+        {
+          "text": "Everyone in Country X speaks Language A. Not everyone who speaks Language A can speak Language B, but some people in Country Y can speak Language B. This person speaks one language.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "If this person is in Country X, they must speak Language A",
+                "Someone speaks Language A and B",
+                "People in Country Y can speak 2 languages",
+                "This person cannot live in Country Y if they speak Language A",
+                "If this person speaks Language B, they cannot live in Country X"
+              ],
+              "answer": [
+                "Y",
+                "N",
+                "N",
+                "N",
+                "Y"
+              ],
+              "explanation": "1. Everyone in Country X speaks Language A, so if this person is in Country X they will also speak Language A. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. All we know is that not everyone who speaks Language A can speak B, but we do not know based off this that at least 1 person speaks both languages (maybe no one who speaks Language A speaks Language B). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Only some people in Country Y speak Language B, so the rest may not speak any language for all we know. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We don’t know for certain whether Country Y has any people who speak Language A, but we also don’t know whether it does. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Since this person can only speak one language, if they are in Country X they must speak Language A, so they cannot then also speak Language B. Therefore, the correct answer is YES, as the conclusion does follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Leanne has a garden that can grow roses and daisies. Roses can either be randomly pink or white, but daises can only be white. This summer, Leanne wants to only grow one colour of flower.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "She is growing daises",
+                "She cannot grow roses",
+                "She cannot grow roses and daisies",
+                "If all the roses in her garden are not pink, she could grow daises as well",
+                "If she is not growing roses, she must be growing daisies"
+              ],
+              "answer": [
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y"
+              ],
+              "explanation": "1. Since roses can be randomly pink or white, and she wants to grow only one colour of flower, she has to be growing daisies which are only one colour (white). Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. Since roses can be randomly pink or white, and she wants to grow only one colour of flower, she cannot be growing roses. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Since roses can be randomly pink or white, and she wants to grow only one colour of flower, she cannot be growing roses and daisies, even though they can both be white. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. In this case all the roses would be white, and since daisies are only white and she wants one colour in her garden she could grow the white daisies as well. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. She only has 2 types of flowers that can grow in her garden, so if it’s not roses it must be daisies. Therefore, the correct answer is YES, as the conclusion does follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "All Quacks are Quonks. Most Lacks are Lenks. No Quonks are Lacks. A few Quacks are Danks. Some Danks are Lacks.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "No Quonks are Danks",
+                "A Quack cannot be a Lack",
+                "If a Dank is a Quack it must also be a Quonk",
+                "If a Quack is a Dank it cannot be a Lack",
+                "Only a few Lacks are Lenks"
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "Y",
+                "Y",
+                "N"
+              ],
+              "explanation": "1. If all Quacks are Quonks, then at least some Quonks must be Quacks. If a few Quacks are Danks, then it is a possibility that some Quonks can be Danks. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If no Quonks are Lacks, then a Quack cannot be a Lack, since all Quacks are Quonks. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Since all Quacks are Quonks, if a Dank is a Quack it must also be a Quonk. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. A Quack cannot be a Lack anyway (see question b), regardless if it is a Dank or not. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. If most Lanks are Lenks, then we know more than half of the Lanks are Lenks. ‘A few’ is less than half, so therefore we know there cannot be only a few Lanks that are Lenks. Therefore, the correct answer is NO, as the conclusion does not follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "All ants are bugs. Some bugs can fly, but not all ants have four legs. This bug has four legs.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "This bug is an ant",
+                "If this bug is an ant, at least one ant has four legs",
+                "If this bug can fly, it cannot be an ant",
+                "Some bugs have four legs",
+                "This bug can fly"
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "N",
+                "Y",
+                "N"
+              ],
+              "explanation": "1. All ants are bugs, but not all bugs are ants. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since this bug has four legs, if this bug is an ant, then at least 1 ant will have four legs. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We don’t know that ants can or cannot fly. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We know that this bug has four legs, so therefore it stands that at least 1 bug has for legs. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Although some bugs can fly, we do not know whether this bug can fly for sure. Therefore, the correct answer is NO, as the conclusion does not follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Apples can be green or red. All apples are fruit, and some fruits will go bad.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Some red fruits will go bad",
+                "All green apples are fruits",
+                "Not all fruits that go bad are apples",
+                "Some apples will go bad",
+                "If a green fruit goes bad, it could be an apple"
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "N",
+                "N",
+                "Y"
+              ],
+              "explanation": "1. Even though apples can be red, we don’t know if any apples are actually red (and we don’t know that there are any other red fruits). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If all apples are fruits, then all green apples are also fruits. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We don’t know that there are any other fruits apart from apples. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We don’t know that apples are the only fruits out there, so it is not certain that some apples will go bad. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Since apples can be green and are fruits, it is a possibility that if a green fruit goes bad it is an apple. Therefore, the correct answer is YES, as the conclusion does follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Jimmy has red, purple and blue boxes. All boxes of the same colour have the same height. A stack of three red boxes, five purple boxes and two blue boxes, has a total height of 86cm. A stack of boxes containing four red boxes, six purple boxes and two blue boxes has a total height of 136cm.",
+          "questions": [
+            {
+              "text": "Which of the following is most likely the total height of a stack containing eight red boxes, eight purple boxes and two blue boxes?",
+              "type": "Multiple Choice",
+              "options": [
+                "400cm",
+                "416cm",
+                "483cm",
+                "536cm"
+              ],
+              "answer": "B",
+              "explanation": "We can make 3 simultaneous equations from this: (1) 3r + 5p + 2b = 86, (2) 4r + 6p + 2b = 136, (3) 8r + 8p + 2b = ?. If we subtract (1) from (2), we get r + p = 50. If we multiply this equation by 8 (to sub into (3)), then we get 8r + 8p = 400. Subbing 8r + 8p into (3), we get 400 + 2b = ?. Therefore, we can now guess the correct answer by eliminating the options we have. We know it cannot be 400, because 400 + 2b has to be greater than 400 (as b is not 0). We know it cannot be 536 as 2b cannot equal 136 (since equation (2) = 136 as a whole). Between B and C, B seems more reasonable and for C to be correct, 2b would have to equal 83, and since equation (1) equals 86, it is impossible for 2b = 83. Therefore, the correct answer is B, 416. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Paige is deciding which colour dress to buy herself for a wedding, located outside in the sun, and what car she is going to drive in. She would like to match her dress with the car. She likes blue and white dresses, but blue stands out too much in the sun. She also likes the red dress, however the bride has strictly said no one is to wear white. Th only other alternative is yellow. She has a blue Nissan and a red Cadillac.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "Which dress does she have to go in?",
+              "type": "Multiple Choice",
+              "options": [
+                "Blue",
+                "White",
+                "Red",
+                "Yellow"
+              ],
+              "answer": "C",
+              "explanation": "Since blue stands out too much in the sun and the bride said no white, then she has to wear yellow or red. Since she only has a blue or red car, and she wants to match her dress to the car, she must wear the red dress (there is no yellow car). Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A school teacher was conducting a group class experiment to see who was the tallest and shortest students in the class.<br/>Peter is shorter than Pam.<br/>Priyanka is taller than Penny.<br/>Porter is taller than Priyanka but shorter than Peter.<br/>Peter and Pam are heavier than Priyanka.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "Who are the tallest and shortest students?",
+              "type": "Multiple Choice",
+              "options": [
+                "Priyanka (tallest) and Pam (shortest)",
+                "Penny (tallest) and Porter (shortest)",
+                "Peter (tallest) and Priyanka (shortest)",
+                "Pam (tallest) and Penny (shortest)"
+              ],
+              "answer": "D",
+              "explanation": "We know from the third statement that Peter is taller than Porter and Priyanka, and we know from the 2nd statement that Priyanka is taller than Penny. If Pam is taller than Peter, then Pam must be taller than everyone else (since Peter is taller than Porter, Priyanka and Penny, who is the shortest as she is shorter than Priyanka). Therefore, the correct answer is D. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Amy is older than Ben by 1 year.<br/>The age difference between Amy and Cadon is 19 months.<br/>Ben is 2 years senior to Dan.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "Who is the youngest?",
+              "type": "Multiple Choice",
+              "options": [
+                "Amy",
+                "Ben",
+                "Cadon",
+                "Dan"
+              ],
+              "answer": "D",
+              "explanation": "If Amy is older than Ben by 1 year, then Amy must be older than Dan by 3 years. If there is a 19 month difference between Amy and Cadon, Cadon can either be older than her by 19 months or younger – however even if he is younger, 19 months is less than 3 years, so he must be older than Dan. Thus, Dan is the youngest. Therefore, the correct answer is D.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Zenting, Shien, Yen and Zhu are playing with two 6-sided dice, each person rolling both dice once.<br/>Zhu rolls an even number.<br/>Yen rolls more than Zhu, but rolls an odd number under 7. <br/>Shien scored lower than Yen, but did not roll an odd number. <br/>Zenting lost one of the dice and so just rolled one, but still got 3 times Shien’s score.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "What did Shien get?",
+              "type": "Multiple Choice",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "B",
+              "explanation": "If Zenting lost one of the dice and still tripled Shien’s score, then Shien could only have gotten a total of 1 or 2 (since 1*3 = 3 and 2*3 = 6, which is the highest number on one die. Since Shien rolled two dice, she could not have gotten 1 (the lowest you can get is 1+1=2). Therefore, we know she got 2, so the correct answer is B. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Should law enforcement agencies be able to bypass security measures on devices in order to obtain evidence and information for their investigations?",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, the police should be able to do whatever they need to serve justice",
+                "Yes, 60% of investigations end in failure ",
+                "No, in the majority of cases not much useful information is found on these devices",
+                "No, this is a violation of privacy and people’s rights"
+              ],
+              "answer": "C",
+              "explanation": "The problem raised in the question is about the need to obtain evidence and information for law enforcement investigations from devices, and the only answer that addresses the ‘devices’ component of the question which is essentially the whole point of the issue, is option C. Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Should the Australian government force migrants to live rurally in order to reduce urbanisation and the populations in metro areas?",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, there are too many people in metro areas currently",
+                "Yes, this would ensure that the population grows evenly across the country rather than in a smaller area",
+                "No, locals have been shown to want to live rurally more than migrants",
+                "No, this would be unfair on the migrants"
+              ],
+              "answer": "B",
+              "explanation": "The problem raised in the question is the need to reduce urbanisation and population in metro areas, and the solution is forcing migrants to live rurally. Option B is the only one that addresses the problem of population growth and the prospect of rural location. Option A addresses population in metro areas but not urbanisation like option B does. Therefore, the correct answer is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Should developed countries do more to support developing countries with poorer economies?",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, trials in Africa have shown that the aid of developing countries improves the economic stability of developing countries",
+                "Yes, developed countries have the ability and capability to aid other countries and should do so",
+                "No, it is not the responsibility of developed countries to spend their own resources on helping other less developed countries",
+                "No, they got themselves into this situation, they can get themselves out"
+              ],
+              "answer": "A",
+              "explanation": "The problem raised in this question is the need to help developing countries with poorer economics, and option A uses evidence to demonstrate that this problem can be helped with the aid of developed countries. Therefore, the correct answer is A. Option C seems reasonable, but does not touch on the problem raised in the question (the poorer economies of developing countries. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Career counselling should be made mandatory in all schools so that students don’t fall into unemployment once they leave school.",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, studies show that 40% of school-leavers are unemployed",
+                "Yes, not everyone knows what they want to do when they’re in high school",
+                "No, school-leaver unemployment has been linked to poorer exam results",
+                "No, career counselling has been shown to be ineffective in giving young people career directions"
+              ],
+              "answer": "D",
+              "explanation": "The problem raised in this question is the need to reduce the amount of students that fall into unemployment after leaving school. Option A is just a fact, not an argument, and whilst option C points the finger at another cause, it does not address the ineffectiveness of career counselling (just because exam results are causing this does not mean career counselling won’t help). Option D has evidence and demonstrates why career counselling is not the solution for this particular problem. Therefore, the correct answer is D.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "At an electronics store, only 3 types of devices are sold. The graph below shows the number of devices sold each month this year. Desktops are sold for $300, Laptops are sold for $500, and Tablets are sold for $150.<br/>Source: https://www.techonthenet.com/excel/charts/line_chart2016.php",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 3/1.PNG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "In January the store made a profit of at least $40,500 ",
+                "More laptops were sold at the store in the first 4 months combined than desktops in the last 4 months combined",
+                "In July, more than 90 tablets are likely to be sold at the store",
+                "The decrease in sales of laptops is likely due to more people buying tablets from the store instead",
+                "The number of desktops and tablets sold were the same in one month"
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "N",
+                "N",
+                "N"
+              ],
+              "explanation": "1. The store raised $40,500 in revenue, however revenue and profit are not the same things – profit is revenue minus costs. We cannot know the profit since we do not know the costs. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>2. On observation, the orange line for laptops is consistently higher for the first four months than the blue line for desktops is in the last four months. Therefore, the correct answer is YES, as the conclusion does follow. <br/>3. We cannot predict based on the information in this graph. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We cannot provide a reason for the decline based purely on the information we have in the graph. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Although the blue and orange lines intersect, the monthly sales are depicted with the dots, not the lines, as there are no months in between Feb and March. Therefore, the correct answer is NO, as the conclusion does not follow. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Safe and readily available water is important for public health, whether it is used for drinking, domestic use, food production or recreational purposes. Improved water supply and sanitation, and better management of water resources, can boost countries’ economic growth and can contribute greatly to poverty reduction. In 2010, the UN General Assembly explicitly recognized the human right to water and sanitation. Everyone has the right to sufficient, continuous, safe, acceptable, physically accessible, and affordable water for personal and domestic use.<br/>Source: https://www.who.int/",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "There are only 4 uses of safe and readily available water",
+                "One of the causes of poverty is unsafe and unavailable drinking water",
+                "Everyone has access to sufficient and affordable water for personal use",
+                "Countries with poor economic growth are not managing their water resources properly",
+                "A company using water to clean their buildings does not come under the UN General Assembly’s definition of a human right to water and sanitation"
+              ],
+              "answer": [
+                "N",
+                "N",
+                "N",
+                "N",
+                "Y"
+              ],
+              "explanation": "1. There are 4 uses provided in the passage but there is nothing to suggest that these are the only 4 uses for safe and readily available water. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. There is no connection made between safe and readily available water and the reduction in poverty. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Although everyone has the right to sufficient and affordable water for personal use, we cannot infer based on this information that everyone does. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We cannot infer that just because countries have poor economic growth that they are not managing their water properly, as their poor economic growth could be coming from something else. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. The UN General Assembly’s definition covers personal and domestic use, and a company using water to clean their buildings is more corporate (at least we know it is not personal or domestic). Therefore, the correct answer is YES, as the conclusion does follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The following line graph shows the average monthly temperature (in degrees Celsius) of 3 different cities over the course of a year in 2019. If the temperature rises above 30 degrees Celsius it is considered hot. If the temperature falls below 10 degrees Celsius, it is considered cold.<br/>Source: https://www.ielts-mentor.com/writing-sample/academic-writing-task-1/3022-average-monthly-temperatures-in-three-cities",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 3/2.PNG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "In one month only this year, the average monthly temperature of two cities was the same",
+                "Paris experienced more cold days than hot days this year",
+                "Sydney is located in the Southern Hemisphere as the temperatures follow an inverse trend to the other two cities",
+                "The maximum average monthly temperature of Dubai was more than 7 times greater than the minimum average monthly temperature of Paris this year",
+                "Next year, the temperatures are likely to follow similar trends"
+              ],
+              "answer": [
+                "Y",
+                "N",
+                "N",
+                "Y",
+                "N"
+              ],
+              "explanation": "1. In September, Sydney and Paris had the same average monthly temperature and that was the only instance of two cities having the same average monthly temperature. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. Since all we have are averages, we do not know if the averages are a product of one really low outlier that brings down the average. Although this is highly unlikely in the real world, just based off the information in the graph, we cannot assume that Paris had more cold days than hot days (they could have had more hot days than cold days, but a few really cold days would have brought down the average). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We cannot jump to this conclusion as we have no information as to the temperature trends of the hemispheres. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Max Average Monthly Temp for Dubai = 36 degrees. Min Average Monthly Temp for Paris = 5. Since 5*7=35, and 36>35, this is true. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We cannot tell what will happen next year just based off this information, that would be an extrapolation or a prediction. Therefore, the correct answer is NO, as the conclusion does not follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A person who is not able to hear as well as someone with normal hearing – hearing thresholds of 25 dB or better in both ears – is said to have hearing loss. Hearing loss may be mild, moderate, severe, or profound. It can affect one ear or both ears, and leads to difficulty in hearing conversational speech or loud sounds. 'Hard of hearing' refers to people with hearing loss ranging from mild to severe. People who are hard of hearing usually communicate through spoken language and can benefit from hearing aids, cochlear implants, and other assistive devices as well as captioning. People with more significant hearing losses may benefit from cochlear implants. 'Deaf' people mostly have profound hearing loss, which implies very little or no hearing. They often use sign language for communication.<br/>Source: https://www.who.int/",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Someone with normal hearing can hear a sound which is at 25dB",
+                "Someone with hearing loss could hear sounds of 25dB",
+                "People who are hard of hearing do not have severe hearing loss",
+                "A person with profound hearing loss will benefit from cochlear implants",
+                "Sign language is just as effective as speaking"
+              ],
+              "answer": [
+                "Y",
+                "Y",
+                "N",
+                "N",
+                "N"
+              ],
+              "explanation": "1. If normal hearing includes a threshold of 25dB or better, than someone with normal hearing would be able to hearing a sound at 25dB. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We know that hearing loss can affect one or both ears, so a loss in one ear does not necessarily mean they will not be able to hear something at 25dB in their other ear. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. They could have mild or severe hearing loss, so it is a possibility that they could have severe hearing loss. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We do not know for certain whether this person WILL benefit for sure, although they might. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We do not know the comparative effectiveness of sign language to speaking. Therefore, the correct answer is NO, as the conclusion does not follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Jimmy’s homework assignment was to collect data on the cars in his neighbourhood. <br/>Source: https://www.open.edu/openlearn/ocw/mod/oucontent/view.php?id=84740&section=5",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 3/4.PNG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "There was a total of 10 cars the morning Jimmy collected his data",
+                "The number of grey cars and red cars is equal to the number of black, blue and white cars.",
+                "If the number of grey cars was reduced by 25%, there would be more black cars",
+                "If Jimmy surveyed another 9 cars, which resulted in the number of cars for each colour being the same, the proportion of red cars in the new 9 cars surveyed was 1/3. ",
+                "Jimmy repeats his experiment tomorrow and surveys 22 cars. 2 of those cars will be white."
+              ],
+              "answer": [
+                "N",
+                "N",
+                "N",
+                "Y",
+                "N"
+              ],
+              "explanation": "1. 4 + 3 + 1 + 2 + 1 = 11, not 10. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Grey/Red = 4 + 1 = 5. Black/Blue/White = 3 + 2 + 1 = 6. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. If the number of grey cars was reduced by 25%, there would be 3 grey cars, which would be the same amount as black. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If he surveyed another 9 cars, there will be a total of 20 cars (11+9). If all the cars ended up having the same totals, then they would each have a total of 4. That means 3 more red cars were spotted (3+1=4) in the new batch of 9, and 3/9 is 1/3. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We do not know what cars he will see tomorrow. Therefore, the correct answer is NO, as the conclusion does not follow.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The head office of a company is auditing 2 of its restaurants, restaurant A and B. The audit focussed specifically on their machinery, which can be categorised as either efficient or inefficient.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 3/5.PNG",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "Which of the following is true?",
+              "type": "Multiple Choice",
+              "options": [
+                "All of restaurant B’s machines are efficient ",
+                "Some of restaurant B’s machines are efficient and the rest are inefficient",
+                "Restaurant A only has efficient machines",
+                "All the efficient machines are at restaurant A"
+              ],
+              "answer": "D",
+              "explanation": "None of the efficient machines (diamond) are in restaurant B (arrow), and all of the efficient machines are in restaurant A (triangle). We can therefore conclude that all the efficient machines that this company has between its 2 restaurants are in restaurant A, not B. Therefore, the correct answer is D. We do not know if all of restaurant B’s machines are inefficient based on this information (they could just be not working for example). X",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A survey of 30 pizza shops revealed the following diagram, comparing the most popular orders.  ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 3/6.PNG",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "Which of the following is false? ",
+              "type": "Multiple Choice",
+              "options": [
+                "Pepperoni is more popular than Hawaiian pizza",
+                "No pizza shop’s most popular order was garlic bread and a soft drink ",
+                "12 pizza shop’s most popular order included Hawaiian pizza",
+                "Soft drinks were the least popular menu item "
+              ],
+              "answer": "B",
+              "explanation": "There is no overlap between the heart and the diamond, so we can conclude that no shop’s most popular order was soft drink and garlic bread. Therefore, the correct answer is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A flight has 3 seating classes: economy, business and first class. There are 10 males who are in economy, but twice that amount in first class. On the other hand, there are 3 females in business class but only 12 people in business class overall. There are half as many females in economy as there are people in first class overall, however there are only 26 people in economy class overall.",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "How many people are there in total on the flight?",
+              "type": "Multiple Choice",
+              "options": [
+                "39",
+                "57",
+                "66",
+                "70"
+              ],
+              "answer": "D",
+              "explanation": "There are 10 males in economy, and 20 males in first class. If there are 3 females in business class out of 12 people, then 9 males are in business class. If there are 26 people in economy, there must be 16 females in economy. If there are half as many females in economy as people first class overall, there must be 32 people in first class. Therefore 26 (economy) + 32 (first class) + 12 (business) = 70 people. Therefore, the correct answer is D. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "There are 12 people at a party. A third of the people at the party are drinking. There are 2 more women than men at this party. If there is only one man drinking at this party, how many women are not drinking at the party?",
+          "category_id": 7,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "0 ",
+                "1",
+                "4",
+                "7"
+              ],
+              "answer": "C",
+              "explanation": "There must be 4 people who are drinking, a third of 12. If there are 2 more women than men, then there must be 7 women and 5 men. If only 1 man drinks, that means 3 women drink. If 3 women drink, that means 4 women don’t. Therefore, the correct answer is C. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A class of 16 kids are voting for their school captain. Student A, B and C campaigned. The votes are as follows: 4 more people voted for A than B, 5 people in total voted for C, no one voted for A and B, and everyone voted. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 3/7.PNG",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "What is the value of Z?",
+              "type": "Multiple Choice",
+              "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "answer": "C",
+              "explanation": "If 5 people in total voted for C, then X and Y are 0. Therefore, if 16 people voted, then Z = 16 – 3 – 2 – 5 = 6 (and 6 + 3 + 2 = 11, which is 4 more than 5 + 2 = 7). Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Sammy has a bag of marbles with 5 green marbles, 6 black marbles and 4 yellow marbles. He pulls two out without looking, then puts one back. What is the probability, that the remaining marble he pulls out is black?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "1/3",
+                "2/5",
+                "3/5",
+                "2/3"
+              ],
+              "answer": "B",
+              "explanation": "Even though he puts one marble back and he only puts it back after he’s taken out both marbles, it’s practically the same as only taking out one marble in terms of probability. Therefore, 6/15 = 2/5. Therefore, the correct answer is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Ben is tossing a biased die, where you are 4 times more likely to get a 5 than not get a 5. If the numbers 1, 2, 3, 4, and 6 have the same probability, how many more times likely is Ben to toss a 5 than a 2?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "4 times",
+                "8 times",
+                "10 times ",
+                "20 times"
+              ],
+              "answer": "D",
+              "explanation": "If the probability of tossing a 5 than not tossing a 5 (ie. tossing a 1,2,3,4,6) is 4 times greater, then we can say that the probability of tossing a 5 is 4/5, and the probability of not tossing a 5 is 1/5. We can also conclude that the probability of getting a 2 out of the 5 different non-5 numbers (1,2,3,4,6) is 1/5. So overall, the probability of tossing a 2 is 1/5 * 1/5 = 1/25 (you have to first ‘not toss a five’, and then you have to also ‘toss a 2’ essentially). In other words, the probability of tossing each of the 6 numbers is as follows: 1 = 1/25, 2 = 1/25, 3 = 1/25, 4 = 1/25, 5 = 4/5, 6 = 1/25. If you add up all these fractions, you get 1, and if you add up all the probabilities for ‘non-5’ numbers, you will get 1/5. So if we make 1/25 and 4/5 into common denominators, we get 4/100 and 80/100 respectively. Thus we can conclude that tossing a 5 is 20 times more likely than tossing a 2. Therefore, the correct answer is D.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Rianna is tossing two unfair coins, where heads is 20% more likely to land than tails. Rianna tosses the coin twice – what is the probability that she tosses a heads and a tails together?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "0.25",
+                "0.50",
+                "0.24",
+                "0.48"
+              ],
+              "answer": "D",
+              "explanation": "If heads is 20% more likely to land than tails, the probability of getting H = 60%, and T = 40%. Therefore probability of a heads and tails in 2 tosses together is HT and TH, which is 0.60*0.40 + 0.40*0.60 = 0.48. Therefore, the correct answer is D. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "In a school class, the boys and girls have their test marks revealed. Four in eight boys passed but 10 out of the total of 40 boys in the class got an A+. Three in five girls passed the test but out of the total of 32 girls, only 8 got an A+. The teacher said the group with the greater proportion of pass marks and A+ marks will get lollies. Who gets the lollies?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Boys, as they got 2 more A+ marks",
+                "Boys, as 25% got an A+",
+                "Girls, as they had a 60% pass rate",
+                "Girls, as they had more people who passed"
+              ],
+              "answer": "C",
+              "explanation": "50% of the boys passed, and 25% of the boys got an A+. 60% of the girls passed, but 25% of the girls got an A+. Therefore, since they both have the same proportion of people who got A+, the lollies will go to the girls as they have a greater proportion who passed. Therefore, the correct answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Harry rolls two six-sided dice and her friend Ryan adds up the scores of both dice. Harry only sees the result of the first die, not the second. The first dice roll scored a 5. Harry states that he has a 1/6 chance of scoring more than 10 in total. Is he correct?",
+          "category_id": 8,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes, the dice only has 6 sides",
+                "Yes, he has a 1/6 chance of rolling a 6",
+                "No, he has a 5/6 chance not 1/6",
+                "No, he cannot actually score more than 10 "
+              ],
+              "answer": "B",
+              "explanation": "If he rolled a 5 first, the 6 totals he could get from the second roll are 6, 7, 8, 9, 10 and 11. Therefore he has a 1/6 chance of scoring ABOVE 10 (only 11 is above 10, which requires a 6 on the second die). Therefore, the correct answer is B.",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

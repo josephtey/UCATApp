@@ -1,0 +1,1229 @@
+{
+	"stems": [
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 1.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 1A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 1B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 1C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 1D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Clockwise rotation of circle in corners",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 2.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 2A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 2B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 2C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 2D.jpg"
+				],
+				"answer": "D",
+				"explanation": "Middle shape alternates even and odd",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 3.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 3A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 3B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 3C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 3D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Solid circles = +1; Whites = must be linear arrangement, even number",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/AR-Qs-Sequences-4.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 4A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 4B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/AR-Qs-Sequences-4C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/AR-Qs-Sequences-4D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Number of intersections increases in consecutive prime numbers",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 5.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 5A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 5B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 5C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 5D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Triangles distractors, Lightning moves up/down by 1/3 every square",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 6.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 6A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 6B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 6C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 6D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Big shape on left, small shape(s) on right, then alternating",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/AR-Qs-Sequences-7.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 7A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/AR-Qs-Sequences-7B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 7C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 7D.jpg"
+				],
+				"answer": "B",
+				"explanation": "Number of up arrows increases by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 8.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 8A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 8B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 8C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 8D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Alternating curved and straight edge; Number of sides distractor",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 9.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 9A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 9B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 9C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 9D.jpg"
+				],
+				"answer": "D",
+				"explanation": "Total number of lines increasing by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 10.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 10A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 10B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 10C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 10D.jpg"
+				],
+				"answer": "D",
+				"explanation": "Right angled triangle must be present",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 11.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 11A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 11B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 11C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 11D.jpg"
+				],
+				"answer": "A",
+				"explanation": "The number of sides increases in a prime number sequence",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 12.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 12A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 12B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 12C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 12D.jpg"
+				],
+				"answer": "B",
+				"explanation": "The arrow rotates 90 degrees clockwise each time",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 13.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 13A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 13B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 13C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 13D.jpg"
+				],
+				"answer": "A",
+				"explanation": "The circle alternates between black and grey; The arrow moves anticlockwise around the inner shape; The inner shape increases in the number of sides by one",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 14.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 14A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 14B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 14C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 14D.jpg"
+				],
+				"answer": "C",
+				"explanation": "The number of grey circles decreases (same number of total circles though)",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 15.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 15A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 15B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 15C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 15D.jpg"
+				],
+				"answer": "A",
+				"explanation": "The white circle moves around the box anticlockwise, the arrow switches; between pointing up and down",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 16.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 16A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 16B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 16C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 16D.jpg"
+				],
+				"answer": "C",
+				"explanation": "The number of circles inside the smiley face increases by 2",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 17.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 17A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 17B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 17C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 17D.jpg"
+				],
+				"answer": "D",
+				"explanation": "The number of arrowheads alternates between even and odd",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 18.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 18A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 18B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 18C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 18D.jpg"
+				],
+				"answer": "D",
+				"explanation": "The black half alternates between left and right; The shapes move up and a new shape moves into the bottom place",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 19.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 19A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 19B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 19C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 19D.jpg"
+				],
+				"answer": "B",
+				"explanation": "The square moves left to right; The triangle moves around the square anticlockwise; The circle moves in an N shape (and repeats)",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 20.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 20A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 20B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 20C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 20D.jpg"
+				],
+				"answer": "D",
+				"explanation": "Shapes alternate between open and closed; Number of circles increases by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 21.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 21A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 21B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 21C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 21D.jpg"
+				],
+				"answer": "D",
+				"explanation": "The number of enclosed spaces increases by 2",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 22.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 22A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 22B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 22C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 22D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Go down in the alphabet by 5 letters",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 23.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 23A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 23B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 23C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 23D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Factors of 20 in ascending order",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 24.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 24A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 24B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 24C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 24D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Number of crosses increase by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 25.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 25A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 25B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 25C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 25D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Numbers go up by 3,4,5,6; Letter corresponds to the number in the alphabet",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 26.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 26A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 26B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 26C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 26D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Number of corners increase by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 27.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 27A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 27B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 27C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 27D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Squares: Black becomes Dotted, Dotted becomes White, White become Grey, Grey becomes Black; The number of dots inside circle increases by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 28.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 28A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 28B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 28C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 28D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Top shape swaps with bottom; Top shape is shaded. In each sequence the next shape downwards becomes shaded.",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 29.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 29A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 29B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 29C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 29D.jpg"
+				],
+				"answer": "B",
+				"explanation": "One more enclosed space than before (shaded shapes don’t count); One more shape than before",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 30.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 30A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 30B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 30C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 30D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Number of intersections increase by 1; Number of lines decrease by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 31.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 31A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 31B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 31C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 31D.jpg"
+				],
+				"answer": "B",
+				"explanation": "Each shape in a row moves right one spot. Right most shape becomes the outer shape; Grey arc flips each sequence",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 32.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 32A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 32B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 32C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 32D.jpg"
+				],
+				"answer": "B",
+				"explanation": "Number of corners increases by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 33.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 33A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 33B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 33C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 33D.jpg"
+				],
+				"answer": "D",
+				"explanation": "After each sequence the 1st shape rotates 90°, 2nd changes from shaded to unshaded, 3rd shape stays the same, 4th shape gains an edge",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 34.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 34A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 34B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 34C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 34D.jpg"
+				],
+				"answer": "D",
+				"explanation": "X rotates 45° clockwise; Each shape gains 1 side",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 35.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 35A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 35B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 35C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 35D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Number of sides of odd shape increasing by 2; Number of sides of even shape decreases by 2",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 36.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 36A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 36B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 36C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 36D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Triangular number sequence, increases by 1, 2,3,4,5; Must be also in triangular formation",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 37.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 37A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 37B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 37C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 37D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Number of dots are doubled",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 38.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 38A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 38B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 38C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 38D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Each arrow rotates 45° clockwise; Each arrow alternates between grey shade, dot, unshaded, shaded clockwise",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 39.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 39A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 39B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 39C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 39D.jpg"
+				],
+				"answer": "D",
+				"explanation": "Shaded circles increase in size; Unshaded circles decrease size",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 40.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 40A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 40B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 40C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 40D.jpg"
+				],
+				"answer": "B",
+				"explanation": "Number of enclosed regions decrease by 1 each sequence",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 41.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 41A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 41B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 41C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 41D.jpg"
+				],
+				"answer": "B",
+				"explanation": "Minute hand moves clockwise by 2; Hour hand moves anti-clockwise by 2",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 42.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 42A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 42B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 42C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 42D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Number of points where stars’ corners touch increases by 1",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 43.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 43A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 43B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 43C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 43D.jpg"
+				],
+				"answer": "B",
+				"explanation": "Total number of sides on shape increase by 1; Number of lines decreases by 2",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 44.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 44A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 44B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 44C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 44D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Total number of sides decreases by 1; Shaded shapes are double its number of sides",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 45.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 45A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 45B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 45C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 45D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Circle alternates from unshaded to shaded; Shapes move clockwise around the circle,; Shape on the left gains a side",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 46.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 46A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 46B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 46C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 46D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Number of shapes double; Number of dots halve",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 47.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 47A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 47B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 47C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 47D.jpg"
+				],
+				"answer": "C",
+				"explanation": "Diagonal line alternates from left to right to right to left; Add two dots to one half; Subtract two dots to the other half",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 48.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 48A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 48B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 48C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 48D.jpg"
+				],
+				"answer": "A",
+				"explanation": "Central pentagon rotates 45° clockwise; Shapes on corner move to the next corner anti-clockwise; Top left and bottom right shapes are black and grey respectively; Top right corner becomes a new shape",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 49.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 49A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 49B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 49C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 49D.jpg"
+				],
+				"answer": "D",
+				"explanation": "Central shapes increase by 1; Central shapes enclosed space (excluding shaded shapes) increase by 1; Bottom right corner shape equals number of enclosed space between the central shapes",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 50.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 50A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 50B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 50C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 50D.jpg"
+				],
+				"answer": "B",
+				"explanation": "The hour hand moves clockwise 3 spaces; The minute hand moves anti-clockwise 3 spaces",
+				"difficulty": 1
+			}]
+		},
+
+		{
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 51.jpg",
+			"category_id": 16,
+			"questions": [{
+				"text": "Which figure completes the series?",
+				"type": "Multiple Choice",
+				"options": [
+					"A",
+					"B",
+					"C",
+					"D"
+				],
+				"option_images": [
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 51A.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 51B.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 51C.jpg",
+					"https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Questions/AR Qs - Sequences/AR Qs - Sequences 51D.jpg"
+				],
+				"answer": "B",
+				"explanation": "Up arrow= black shade, Right arrow = grey shade, Down + left arrow = unshaded; Top arrow rotates clockwise 90° and bottom arrow rotates clockwise 180°; Shapes on the corners move anti- clockwise to the corners in two steps",
+				"difficulty": 1
+			}]
+		}
+
+	]
+}

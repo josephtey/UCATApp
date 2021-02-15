@@ -1,0 +1,714 @@
+{
+  "stems": [
+    {
+      "text": "A patient has been told that he has 6 months to live and there are no feasible treatments available. He insists, however, on a course of treatment that the doctor knows is unlikely to have any positive impacts on the patient’s longevity. How important to take into account are the following considerations for the doctor when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "The right of the patient to be autonomously involved in his own treatment",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Patients with adequate mental capacity have the right to be involved in decisions regarding their treatment – this is a fundamental pillar of medical ethics",
+          "difficulty": 1
+        },
+        {
+          "text": "That the medical team have more experience and expertise when it comes to choosing treatments",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "B",
+          "explanation": "While this may be true, the patient still has a role in deciding his treatment and should be listened to by the treating team",
+          "difficulty": 1
+        },
+        {
+          "text": "Being positive and optimistic",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "B",
+          "explanation": "While it is important to maintain a positive outlook for the patient, this should not cloud the doctor’s understanding of the risks and limitations associated with ‘futile’ treatment",
+          "difficulty": 1
+        },
+        {
+          "text": "That the patient might not have a clear understanding of the treatment and its pros and cons",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "It is essential that the patient is adequately informed about a treatment before they commit to that course of action",
+          "difficulty": 1
+        },
+        {
+          "text": "That the doctor does not believe that the pros of this treatment outweigh the cons",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "B",
+          "explanation": "While the doctor’s professional opinion should be valued, the patient’s views, thoughts and desires should also be considered",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A medical student, Petunia, has noticed her friend Joshua’s abrupt behaviour with patients. He doesn’t always ask for consent, often speaks in a condescending tone and can be quite rough as well. Most patients, however, don’t say anything about it. How important to take into account are the following considerations for Petunia when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "The effect Joshua might be having on the reputation of the healthcare profession in the eyes of patients",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "B",
+          "explanation": "While it is important for medical students to uphold the reputation of the healthcare profession, there are other more pressing concerns including the impacts on patient welfare and trust",
+          "difficulty": 1
+        },
+        {
+          "text": "Patients may not be comfortable sharing information with Joshua or other doctors",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "This shows that Joshua’s actions are negatively impacting doctor-patient relationships and patient care",
+          "difficulty": 1
+        },
+        {
+          "text": "That Joshua does not have malicious intents and often does so without realising",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "C",
+          "explanation": "Irrespective of the reason behind Joshua’s actions, patient care may be compromised, and action should be taken. The fact that Joshua does so without realising should, however, be an incentive to alert him to the effect he is having on patients",
+          "difficulty": 1
+        },
+        {
+          "text": "That Joshua’s behaviour may make patients more reluctant to allow medical students to interview/exam them",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "B",
+          "explanation": "While this is definitely true, there are other more pressing concerns including the impacts on patient welfare and trust",
+          "difficulty": 1
+        },
+        {
+          "text": "How Joshua will feel if Petunia raises the issue with the supervisor",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "Patient welfare is the utmost priority here and regardless of how Joshua will react or feel, the issue must be dealt with",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Cindy is a junior doctor and is known for being forgetful; however, she is working on this. The previous day, a senior doctor had asked Cindy and Kathy, another medical student, to conduct a test on a patient. It was decided that Cindy would carry out the test but has forgotten to do so. The next day, the doctor asks for the results of the test. Kathy says nothing. How important to take into account are the following considerations for Cindy when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "Displaying honesty to the doctor",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Honesty and integrity are essential amongst healthcare professionals and admitting mistakes is pivotal",
+          "difficulty": 1
+        },
+        {
+          "text": "That the doctor may get frustrated if he realises that she made another mistake",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "To withhold information on this basis would be unprofessional – Cindy should own up to her mistake",
+          "difficulty": 1
+        },
+        {
+          "text": "That she can blame Kathy for the issue",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "Blaming Kathy, when it was agreed that Cindy would conduct the test, would be deceptive and highly unethical",
+          "difficulty": 1
+        },
+        {
+          "text": "Taking action to reduce the likelihood of this happening again",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Everyone makes mistakes, the key is to reflect and learn from one’s errors in a professional manner to reduce the risk of them happening again",
+          "difficulty": 1
+        },
+        {
+          "text": "That the doctor didn’t remind Cindy or Kathy to conduct the test",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "It is not the doctor’s obligation to remind Cindy to conduct the test – she should have made note of this requirement herself",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Raman makes clinical skills notes which he sends to the medical cohort to help others in their preparation. Upon reviewing Raman’s notes, Matthew sees a picture of a patient from a consultation, this patient has not been deidentified and his name is visible. How important are the following considerations for Matthew when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "That another student will likely report this",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "It is incorrect to assume that another student would take action – Matthew should take a more proactive approach",
+          "difficulty": 1
+        },
+        {
+          "text": "That Raman’s notes help out the whole cohort",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "C",
+          "explanation": "While this may be the case, patient information has been made available and, hence, action needs to be taken",
+          "difficulty": 1
+        },
+        {
+          "text": "That the faculty should be alerted to this immediately",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "B",
+          "explanation": "While alerting the faculty to this will help resolve the situation, Raman should be first notified",
+          "difficulty": 1
+        },
+        {
+          "text": "That Raman should be alerted to this immediately",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Raman may have unknowingly included this photo in his notes and should be alerted urgently so he can rectify this",
+          "difficulty": 1
+        },
+        {
+          "text": "That the patient is very easy-going and probably wouldn’t mind",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "Patient confidentiality must be upheld and, regardless of the patient’s nature, their private information should not be revealed to the medical cohort",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Michael has noticed that his friend, Robert, has changed recently. He has become withdrawn, antisocial and rude; he doesn’t even want to attend social events. He is studying medicine along with Michael and Michael believes that Robert might be having a hard time at home. How important to take into account are the following considerations for Michael when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "That he should be there for Robert, if he needs someone to talk to",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "As a friend, Michael should seek to keep an open channel of communication with Robert and provide support",
+          "difficulty": 1
+        },
+        {
+          "text": "Robert will return to his normal self soon so he should not intervene",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "C",
+          "explanation": "While this may occur, Michael shouldn’t rely on this assumption. Potentially, Robert’s frame of mind could get worse instead",
+          "difficulty": 1
+        },
+        {
+          "text": "That Robert may not want to talk",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "While this should shape Michael’s approach to the situation, Michael should seek to open up dialogue regardless – especially being a close friend and given that Robert’s behaviour may be affecting others",
+          "difficulty": 1
+        },
+        {
+          "text": "That Robert’s grades are being affected and it may impact his ability to be a doctor in the future",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Robert’s frame of mind may have reverberating impacts on his life and his career and, hence, Michael should seek to help him out in this scenario",
+          "difficulty": 1
+        },
+        {
+          "text": "That there are support services for Robert to utilise and he may not be aware of these",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Michael should definitely outline the support services available for Robert to utilise to help him through this difficult time",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "A medical student, Gloria, is working on a hospital ward. A patient, Bill, with severe back pain, is ready to be discharged. Gloria observes Bill taking a walking stick, from the hospital supplies without consulting anyone. Gloria knows that staff must provide permission for any of the supplies to be taken by a patient. How important to take into account are the following considerations for Gloria when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "That Bill should not leave with the walking stick that has not been authorised",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "It is against hospital policy to do so and this walking stick may be not suited for Bill or designated for someone else",
+          "difficulty": 1
+        },
+        {
+          "text": "That none of the other stuff appears to have noticed",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "Regardless of whether others have seen this action, it is essential for Gloria to intervene in this situation",
+          "difficulty": 1
+        },
+        {
+          "text": "That Bill needs the stick to help him walk",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "While this may be the case, it still needs to be properly authorised by hospital staff regardless",
+          "difficulty": 1
+        },
+        {
+          "text": "That there are plenty of walking sticks in the supplies",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "This is completely irrelevant. It is hospital policy to authorise the transferral of supplies and this must be done regardless",
+          "difficulty": 1
+        },
+        {
+          "text": "That hospital staff should be notified of this",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "It is essential that hospital policy is upheld and Gloria notifies the members of staff",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Dr Garthwaite has referred one of her patients to see a surgeon for an operation. While she knows that this surgeon is excellent at what he does, the patient appears uncomfortable. He states that he hasn’t heard good things about surgeon. How important to take into account are the following considerations for Dr Garthwaite when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "That she is confident in the surgeon’s abilities",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "The surgeon’s abilities will directly affect the outcome of the patient’s operation and if she is confident in him, she should tell this to the patient",
+          "difficulty": 1
+        },
+        {
+          "text": "That there is no evidence of malpractice by the surgeon",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "This is very important as the patient’s concerns are founded on rumours only and her opinion on this should be based on facts",
+          "difficulty": 1
+        },
+        {
+          "text": "That she should explore the patient’s concerns further",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "It is very appropriate to listen to the concerns of the patient and hear them out – to help reassure the patient",
+          "difficulty": 1
+        },
+        {
+          "text": "Ask the patient if she should check whether another surgeon is free",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "C",
+          "explanation": "While this recognises the patient’s concerns, the doctor should seek to flesh out these concerns further and see whether there is a basis to them",
+          "difficulty": 1
+        },
+        {
+          "text": "That the surgeon is a friend of Dr Garthwaite",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "Personal acquaintances should not dictate Dr Garthwaite’s approach to the scenario – the priority is the patient’s outcome",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Kathryn is a GP, and she is undertaking a consultation with Mrs Green, a 42 year-old woman. Mrs Green has had 2 children in the past 3 years and she is in the early stages of her 3rd. Kathryn has previously told Mrs Green that, after 35, the risk of genetic abnormalities of the child and potentially life-threatening birth complications increases exponentially. How important to take into account are the following considerations for Kathryn when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "That if she does not inform Mrs Green again about these risks, Mrs Green may become pregnant again and risk birth complications/genetic abnormalities",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Without imparting judgement, it is very important for the doctor to explain the risks and potential health complications to the patient",
+          "difficulty": 1
+        },
+        {
+          "text": "That the information about these risks is provided respectfully",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Advice should always be delivered in a respectful and caring way so as not to upset Mrs the patient",
+          "difficulty": 1
+        },
+        {
+          "text": "That Mrs Green is given all the information she needs to make informed decisions in the future",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Kathryn cannot enforce any behaviour/courses of action to be carried out by the patient, she can only provide advice and help Mrs Green make a decision",
+          "difficulty": 1
+        },
+        {
+          "text": "That Mrs Green should be told not to have another child due to the risks associated",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "Kathryn cannot enforce any behaviour/courses of action to be carried out by the patient, she can only provide advice and help Mrs Green make a decision",
+          "difficulty": 1
+        },
+        {
+          "text": "That Mrs Green should be told to abort her child due to the risks associated",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "Kathryn cannot enforce any behaviour/courses of action to be carried out by the patient, she can only provide advice and help Mrs Green make a decision",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "During a GP placement, Julia observes Lawrence, another medical student, taking a video on his mobile phone. While the university/clinic policy allows this for educational purposes, anything related to patient information cannot be discussed. Patient information and the patient’s name has been discussed during the consult. How important to take into account are the following considerations for Julia when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "That importance of following policy",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Policy is in place to protect all those involved and should always be adhered to",
+          "difficulty": 1
+        },
+        {
+          "text": "That she does not know whether Lawrence has gotten permission to record",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Lawrence may or may not have been given permission to record the consult – either way, Julia shouldn't make an assumption until she has found out the facts",
+          "difficulty": 1
+        },
+        {
+          "text": "Maintaining the confidentiality of patient information",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "All patients have the fundamental right to privacy and all medical practitioners must strive to maintain this confidentiality – recording without permission may be a breach of this",
+          "difficulty": 1
+        },
+        {
+          "text": "That the patient’s name and information has been mentioned",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Recording this is strictly against the policy and thus this is an essential consideration",
+          "difficulty": 1
+        },
+        {
+          "text": "Recording the interaction may help Lawrence’s learning",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "D",
+          "explanation": "Patient welfare and privacy must come before this notion; hence, relatively, the benefit to Lawrence’s learning has no bearing whatsoever",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "text": "Jim and Dylan are currently junior doctors working together ad have been good friends since medical school. Recently, Jim has noticed Dylan’s behaviour change. He appears frustrated and confused and has been making more errors recently. Dylan tells Jim that he has been having issues with his relationship and is striggling at the moment. How important to take into account are the following considerations for Jim when deciding how to respond to the situation?",
+      "category_id": 19,
+      "questions": [
+        {
+          "text": "That other staff may have more of a workload due to Dylan’s behaviour and errors",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "B",
+          "explanation": "While the workload of staff is an important consideration, it is more important to consider the direct effects on Chris' own patients",
+          "difficulty": 1
+        },
+        {
+          "text": "That Dylan has been making mistakes when interacting with patients",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "While mistakes are part of the process, they should be learned from. Repeated mistakes may be putting patient welfare at risk",
+          "difficulty": 1
+        },
+        {
+          "text": "That Dylan has been abrupt with patients",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "Being irritable or abrupt with patients is unacceptable, this can impact patient trust and is not professional",
+          "difficulty": 1
+        },
+        {
+          "text": "That Dylan has been rude with other staff",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "A",
+          "explanation": "This is unprofessional, may erode working relationships in the hospital and may ultimately jeopardise patient care",
+          "difficulty": 1
+        },
+        {
+          "text": "That Dylan might need his space to deal with the situation and doesn’t want to talk about it",
+          "type": "Multiple Choice (SJ)",
+          "options": [
+            "Very important",
+            "Important",
+            "Of minor importance",
+            "Not important at all"
+          ],
+          "answer": "C",
+          "explanation": "While this may be true, the welfare and impacts of his behaviour on patient and staff are the primary concern here and his behaviour should be addressed regardless",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

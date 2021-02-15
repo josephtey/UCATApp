@@ -13,6 +13,47 @@ const mapStateToProps = (state) => {
   return state
 }
 
+const PracticeSection = ({
+  props,
+  categories,
+  topic
+}) => {
+  return (
+    <>
+      <SectionTitle>
+        {topic}
+      </SectionTitle>
+      <ExamList>
+        {categories.filter(category => category.topic === topic).map((category, i) => {
+          if (!["General Arithmetic", "Perimeter/Area/Volume", "Ranking Appropriateness"].includes(category.name)) {
+            return (
+              <Card
+                onClick={() => {
+                  props.history.push('/practice/' + category.category_id)
+                }}
+              >
+                <CardTop>
+                  <CardHeading>{category.name}</CardHeading>
+                </CardTop>
+
+                <CardBottom>
+                  <CardLength>
+
+                  </CardLength>
+                  <Button>
+                    <AiOutlineArrowRight color="#f89800" size={25} />
+                  </Button>
+                </CardBottom>
+
+              </Card>
+            )
+          }
+        })}
+      </ExamList>
+    </>
+  )
+}
+
 const Practice = (props) => {
 
   useEffect(() => {
@@ -25,31 +66,31 @@ const Practice = (props) => {
   return (
     <Container>
       <Title>Practice</Title>
-      <ExamList>
-        {props.content.categories.map((category, i) => {
-          return (
-            <Card
-              onClick={() => {
-                props.history.push('/practice/' + category.category_id)
-              }}
-            >
-              <CardTop>
-                <CardHeading>{category.name}</CardHeading>
-              </CardTop>
-
-              <CardBottom>
-                <CardLength>
-                  {category.topic}
-                </CardLength>
-                <Button>
-                  <AiOutlineArrowRight color="#f89800" size={25} />
-                </Button>
-              </CardBottom>
-
-            </Card>
-          )
-        })}
-      </ExamList>
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Verbal Reasoning"
+      />
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Decision Making"
+      />
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Quantitative Reasoning"
+      />
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Abstract Reasoning"
+      />
+      <PracticeSection
+        props={props}
+        categories={props.content.categories}
+        topic="Situational Judgement"
+      />
     </Container>
   )
 }
@@ -67,13 +108,13 @@ const Container = styled.div`
 
 const ExamList = styled.div`
   display: flex;
-  margin-top: 20px;
+  margin-top: 21px;
   flex-wrap: wrap;
 `
 
 const CardHeading = styled.div`
-  font-family: Gilroy-Bold;
-  font-size: 22px
+  font-family: Gilroy-Medium;
+  font-size: 18px;
 `
 
 const CardText = styled.div`
@@ -113,5 +154,9 @@ const Card = styled.div`
   flex-direction: column;
   margin-bottom: 20px;
 `
-
+const SectionTitle = styled.div`
+  font-size: 20px;
+  font-family: Gilroy-Bold;
+  margin-top: 28px
+`
 export default connect(mapStateToProps, mapDispatchToProps)(Practice)

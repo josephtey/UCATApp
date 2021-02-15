@@ -25,8 +25,8 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)'
+    margin: '0 20px',
+    transform: 'translate(-50%, -50%)',
   }
 };
 
@@ -49,7 +49,7 @@ const Answer = (props) => {
 
   return (
     <>
-      {props.session.currentStem.layout === "side by side" || !props.session.currentStem.layout ?
+      {!props.session.currentStem.layout || props.session.currentStem.layout.toLowerCase() === "side by side" ?
         <Border />
         : null}
       <TopBarSecondary
@@ -126,7 +126,14 @@ const Answer = (props) => {
                   </ExplanationTitle>
                   {props.session.currentQuestion.explanation ?
                     <ExplanationText>
-                      {props.session.currentQuestion.explanation}
+                      {props.session.currentQuestion.explanation.split("<br/>").map((para) => {
+                        return (
+                          <>
+                            {para} <br />
+                          </>
+                        )
+                      })}
+                      {}
                     </ExplanationText>
                     :
                     <ExplanationText>
@@ -169,7 +176,7 @@ const Answer = (props) => {
                     })}
                   </QuestionStemText>
                   : null}
-                <QuestionStemImage src={props.session.currentStem.image} />
+                <QuestionStemImage src={props.session.currentStem.image} category_id={props.session.currentStem.category_id} />
               </QuestionStem>
               : null}
             <QuestionContent
@@ -325,7 +332,7 @@ const QuestionStem = styled.div`
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding-right: 30px;
   padding-top: 30px;
 `
@@ -335,7 +342,7 @@ const QuestionStemText = styled.div`
 `
 
 const QuestionStemImage = styled.img`
-  max-width: 70%;
+  max-width: ${props => props.category_id === 17 ? '50%' : '70%'};
 `
 
 const QuestionImage = styled.img`

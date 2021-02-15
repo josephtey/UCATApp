@@ -1,0 +1,638 @@
+{
+  "exam": {
+    "name": "Decision Making 3",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 31
+  },
+  "sections": [
+    {
+      "name": "Decision Making",
+      "description": "Looks at your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information.",
+      "time": 31,
+      "stems": [
+        {
+          "text": "No professionals are unemployed.<br/>All lawyers are professionals.<br/>Some lawyers are university graduates.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "No lawyer is unemployed.",
+                "Some university graduates are unemployed.",
+                "Some university graduates are lawyers.",
+                "All university graduates are employed.",
+                "If an individual is unemployed, they cannot be a lawyer."
+              ],
+              "answer": [
+                "Y",
+                "N",
+                "Y",
+                "N",
+                "Y"
+              ],
+              "explanation": "1.All lawyers are professionals, and no professionals are unemployed. <br/>2.We do not know whether some university graduates are unemployed. <br/>3.Some lawyers are university graduates; hence some university graduates are lawyers. <br/>4.Some (we don’t know whether all) university graduates are employed. <br/>5.No lawyer is unemployed hence if an individual is unemployed, they cannot be a lawyer",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Squawks and Pecks are types of birds.<br/>Neither Squawks nor Pecks have tails but they both have feathers.<br/>Squawks cannot fly and Pecks cannot swim.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Not all birds have feathers.",
+                "If a bird does not have a tail, it may be a Squawk or a Peck.",
+                "Squawks are tailless and featherless.",
+                "A creature may have feathers but not be able to fly.",
+                "Pecks can fly."
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "N",
+                "Y",
+                "N"
+              ],
+              "explanation": "1.We do not know of any examples of birds without feathers. <br/>2.Neither Squawks nor Pecks have tails hence if a bird does not have a tail, it may be a Squawk or a Peck. <br/>3.Squawks are tailless but have feathers. <br/>4.Squawks have feathers but cannot fly. <br/>5.Pecks may not be able to fly",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "All inhabitants of an island can be classified as Sens or Dens.<br/>All Sens are herbivores.<br/>Dens may be herbivorous or omnivorous.<br/>Only Sens in the southern half of the island eat berries. <br/>Inhabitants of the island are slim or stocky (there are a number of each type).<br/>All herbivorous inhabitants are slim.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "All Sens on the island are slim.",
+                "All inhabitants of the island are either slim or Dens.",
+                "Dens in the northern half of the island do not eat berries.",
+                "Some Dens on the island have to be stocky.",
+                "All the omnivorous Dens on the island are stocky."
+              ],
+              "answer": [
+                "Y",
+                "N",
+                "N",
+                "Y",
+                "N"
+              ],
+              "explanation": "1.All herbivorous inhabitants are slim and all Sens are herbivores.<br/>2.Some inhabitants may be slim and Dens.<br/>3.Dens in the northern half of the island may eat berries – we do not know.<br/>4.As all inhabitants of the island are slim or stocky and all herbivorous inhabitants are slim, some omnivorous Dens must be stocky.<br/>5.Some, but not necessarily all, the omnivorous Dens on the island are stocky",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Fruits are growing on a tree.<br/>There are green-coloured fruits growing in addition to guavas.<br/>No other fruits are growing except for red apples.",
+          "category_id": 3,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Some of the fruits growing on the tree are red.",
+                "There are no green apples growing on the tree. Yes/ No",
+                "There are at most 3 different types of fruit growing on the true.",
+                "If the guavas are not green, there are 3 different colours of fruit growing on the tree.",
+                "Bananas cannot be growing on the tree."
+              ],
+              "answer": [
+                "Y",
+                "N",
+                "N",
+                "Y",
+                "N"
+              ],
+              "explanation": "1.Red apples are growing.<br/>2.The green-coloured fruit may be green apples.<br/>3.There may be multiple types of green coloured fruits.<br/>4.The guavas, green-coloured fruits and 3 apples would be 3 different colours.<br/>5.Bananas may be growing on the tree (and be the green-coloured fruit)",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Bill is stacking containers on top of each other. 6 small containers, 2 medium containers and 5 large containers stack up to a height of 56cm. On the contrary, 2 small containers, 1 medium container and 1 large container stacks up to 14cm. ",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "How many cm do 4 small containers and 6 large containers stack up to?",
+              "type": "Multiple Choice",
+              "options": [
+                "28cm",
+                "42cm",
+                "56cm",
+                "70cm"
+              ],
+              "answer": "C",
+              "explanation": "6 small containers, 2 medium containers and 5 large containers = 56cm … 1<br/>2 small containers, 1 medium container and 1 large container = 14cm<br/>4 small containers, 2 medium containers and 2 large containers = 28cm … 2<br/>1-2: 2 small containers and 3 large containers = 28cm<br/>4 small containers and 6 large containers = 56cm",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "There 5 different letters stacked in Chris’ mailbox, sent from Jim, Andy, Mary, Fiona and Michael. There are 3 letters in between Mary and Michael’s letters. Jim’s letter is above Andy’s but below Michael’s. Fiona’s letter is closer to Andy’s than Jim’s. ",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "Whose sent the letter in the middle of the pile?",
+              "type": "Multiple Choice",
+              "options": [
+                "Mary",
+                "Jim",
+                "Andy",
+                "Fiona"
+              ],
+              "answer": "C",
+              "explanation": "Top to bottom: Michael, Jim, Andy, Fiona, Mary",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "4 friends, Axel, Brandon, Clara and Danielle, are standing in separate corners of a rectangular room.<br/>Axel and Danielle are diagonally opposite to each other.<br/>Danielle is closest to Clara.<br/>Brandon is in position 1.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/1 (logic).JPG",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "Which of the following is true?",
+              "type": "Multiple Choice",
+              "options": [
+                "Axel is in position 3",
+                "Clara is closest to Axel",
+                "Danielle is in position 4",
+                "Brandon is furthest from Danielle"
+              ],
+              "answer": "A",
+              "explanation": "1 = Brandon, 4 = Clara, 2 = Danielle, 3 = Axel",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "4 friend, Jean, Claudia, Rakesh and Jill invest varying amounts in a startup business. <br/>Collectively they invested $8600.<br/>Both Claudia and Rakesh invested the most money.<br/>Jill invested a sum equal to the average of 2 other friends.<br/>Jill invested $600 more than Jean.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "What as the least amount of money invested by one of the friends?",
+              "type": "Multiple Choice",
+              "options": [
+                "$1200",
+                "$1400",
+                "$1600",
+                "$1800"
+              ],
+              "answer": "B",
+              "explanation": "Let J = money invested by Jill and C = money invested by Claudia. 2C + J + (J - 600) = 8600; 2J = (J – 600) + C; C = J + 600; 2J + 1200 + 2J – 600 = 8600; J = 2000; 2000 – 600 = 1400",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "2 counters (A and B) are placed on the circumference of a circle of radius 10cm.<br/>Each turn, counter A is moved 15 degrees clockwise along the circle’s circumference, while counter B is moved 10 degrees anticlockwise.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/2 (logic).JPG",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "If they finish at exactly the same spot after the 4th turn, how much further did counter A travel than counter B (in cm)? ",
+              "type": "Multiple Choice",
+              "options": [
+                "3.5cm",
+                "7cm",
+                "10.5cm",
+                "14cm"
+              ],
+              "answer": "A",
+              "explanation": "Counter A = 60 degrees, B = 40 degrees; 2 x pi x 10 x 20/360 = 3.5",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Bob has a number of bricks and a number of wheelbarrows.<br/>If he puts 5 bricks in each wheelbarrow, he has 7 bricks left over.<br/>If he puts 7 bricks in each wheelbarrow, he has 1 brick left over.",
+          "category_id": 4,
+          "questions": [
+            {
+              "text": "How many bricks does Bob have?",
+              "type": "Multiple Choice",
+              "options": [
+                "17",
+                "22",
+                "27",
+                "32"
+              ],
+              "answer": "B",
+              "explanation": "Trial and error for each option. 22 bricks and 3 wheelbarrows; 15 + 7 or 21 + 1",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "From a scientific research perspective, should experimentation on embryonic stem cells be banned?",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as the harnessing of embryonic stem cells often kills the embryo. Thus, the ethical implications of embryonic stem cell research far outweigh any benefits.",
+                "Yes; as the use of induced pluripotent stem cells (harnessed from body tissue) is a far more ethical way to conduct research.",
+                "No; despite the ethical implications of using embryonic stem cells, experimentation can potentially lead to ground-breaking medical and scientific discoveries – such as the ability to artificially create organs.",
+                "No; as embryonic stem cells show a higher flexibility/differentiability than other alternative (such as induced pluripotent cells)."
+              ],
+              "answer": "C",
+              "explanation": "A and B do not show an understanding of the scientific research perspective and option D fails to show an understanding of opposing viewpoints",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "To combat their decreasing popularity and reduced revenue, should conventional bookstores offer substantial discounts on their books?",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as if books are discounted, more people will be encouraged to buy them",
+                "Yes; as a major reason why paperback books are decreasing in popularity is their price compared to eBooks",
+                "No; as people may not be enticed to buy paperback books purely because of reduced prices",
+                "No; as price may not be the only reason why paperback books are decreasing in popularity – for example, the rise of eBooks may also be a factor. Substantially decreasing book prices may only further reduce revenue"
+              ],
+              "answer": "D",
+              "explanation": "Option D demonstrates an understanding of factors other than price that may be contributing to their decreasing popularity and how this may not help in addressing the reduced revenue",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Should medical marijuana be legalised in the best interest of patients?",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as medicinal marijuana has the potential to greatly reduce the suffering of patients with chronic illnesses and relieve the spasticity of muscles in patients with conditions such as multiple sclerosis and paralysis",
+                "Yes; as marijuana has been safely used a natural medicinal agent for centuries without any negative side effects",
+                "No; as Marijuana is an illicit drug and is thus highly addictive and potentially detrimental for patients’ mental state",
+                "No; while medicinal marijuana may assist with pain relief in the short term for patients, it carries a high risk of abuse, addiction and can affect the memory of patients in the long term"
+              ],
+              "answer": "D",
+              "explanation": "D shows the most multifaceted view of the issue at hand – splitting up the issue into the short term and the long term. The other options do not acknowledge the opposing side",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "From a philanthropic standpoint, should abortion be legalised worldwide?",
+          "category_id": 5,
+          "questions": [
+            {
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as abortion may be necessary for both the foetus (who would otherwise have severe deformities, decreased quality of life and may not live past infancy) and/ or the mother (who might, for example, have been a victim of sexual violence) ",
+                "Yes; as all women should have the right to autonomy and the freedom to elect for an abortion",
+                "No; legalising abortion will essentially be condoning foeticide – an act frowned upon by many religions",
+                "No; legalising abortion may open up further ethical issues such as gender selection "
+              ],
+              "answer": "A",
+              "explanation": "Option A is the most detailed argument and provides examples of scenarios when abortion would be suitable philanthropically",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The following graphs show the activity of 4 different enzymes at varying pH levels.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/3.JPG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Cholinesterase functions best only at pH8.",
+                "Pepsin breaks down peptide bonds in proteins.",
+                "Papain activity is largely unaffected by pH changes.",
+                "Pepsin may be suited for the stomach, where the pH is approximately 2.",
+                "pH always affects enzyme activity."
+              ],
+              "answer": [
+                "N",
+                "N",
+                "Y",
+                "Y",
+                "N"
+              ],
+              "explanation": "1.Cholinesterase functions best above a pH of 8.<br/>2.We are provided no information about what pepsin does.<br/>3.Papain maintains its activity at different pH values.<br/>4,Pepsin functions best at around a pH of 2.<br/>5.pH may not impact enzyme activity; e.g papain maintains its activity at different pH values",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Over 100,000 tons of SO2 were emitted in 2009 in Minnesota. Current scientific evidence links SO2 exposure with adverse impacts on the respiratory system. In recent reviews of the standard, EPA has determined that even short-term exposure to high levels of SO2 can have a detrimental effect on breathing function, particular for those that suffer from asthma. SO2 also reacts with other chemicals in the air to form tiny sulfate particles, contributing to levels of particulate matter. SO2 also reacts with other chemicals in the air to form acids, which fall to the earth as acid rain. Acid rain damages forests and crops, changes the makeup of soil, and makes lakes and streams acidic and unsuitable for fish.<br/>Source: https://www.pca.state.mn.us/air/sulfur-dioxide ",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "The air in Minnesota is relatively polluted.",
+                "People with asthma are particularly at risk of breathing difficulties caused by SO2.",
+                "SO2 is highly reactive.",
+                "SO2 can react to form particles and acids.",
+                "Acid rain can affect both flora and fauna detrimentally."
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "N",
+                "Y",
+                "Y"
+              ],
+              "explanation": "1.We do not know whether the air in Minnesota is polluted relatively.<br/>2.Even short-term exposure to high levels of SO2 can have a detrimental effect on breathing function, particular for those that suffer from asthma.<br/>3.While SO2 may react with other chemicals we do not know whether SO2 is highly reactive.<br/>4.SO2 also reacts with other chemicals in the air to form tiny sulfate particles and also reacts with other chemicals in the air to form acids.<br/>5.Acid rain damages forests and crops and makes lakes and streams acidic and unsuitable for fish",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The disability-adjusted life year (DALY) is a measure of overall disease burden, expressed as the number of years lost due to ill-health, disability or early death. It was developed in the 1990s as a way of comparing the overall health and life expectancy of different countries.The DALY is becoming increasingly common in the field of public health and health impact assessment (HIA). It not only includes the potential years of life lost due to premature death, but also includes equivalent years of 'healthy' life lost by virtue of being in states of poor health or disability. In so doing, mortality and morbidity are combined into a single, common metric.<br/>Source: https://en.wikipedia.org/wiki/Disability-adjusted_life_year ",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "A high DALY score correlates to a low burden of disease.",
+                "DALYs can be used as a standardised means to compare the health of different countries.",
+                "HIA may use DALYs.",
+                "DALYs only consider mortality.",
+                "DALYs don’t only consider the potential years of life lost due to early death."
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "Y",
+                "N",
+                "Y"
+              ],
+              "explanation": "1.A high DALY score correlates to a high burden of disease.<br/>2.It was developed in the 1990s as a way of comparing the overall health and life expectancy of different countries.<br/>3.The DALY is becoming increasingly common in the field of public health and HIA.<br/>4.Mortality and morbidity are combined into a single, common metric.<br/>5.DALYs not only include “the potential years of life lost due to premature death”",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A lithium-ion battery or Li-ion battery (abbreviated as LIB) is a type of rechargeable battery. Lithium-ion batteries are commonly used for portable electronics and electric vehicles and are growing in popularity for military and aerospace applications. In the batteries, lithium ions move from the negative electrode through an electrolyte to the positive electrode during discharge, and back when recharging. Li-ion batteries use a lithium compound as the material at the positive electrode and typically graphite at the negative electrode. The batteries have a high energy density, no memory effect and low self-discharge. They can however be a safety hazard since they contain a flammable electrolyte, and if damaged or incorrectly charged can lead to explosions and fires. Samsung was forced to recall Galaxy Note 7 handsets following lithium-ion fires, and there have been several incidents involving batteries on Boeing 787 planes.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/4.JPG",
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "Lithium-ion batteries don’t necessarily use lithium ions.",
+                "LIBs are rechargeable.",
+                "LIBs can be said to be dense in energy.",
+                "Lithium ions move through a flammable material in LIBs.",
+                "Most planes use LIBs."
+              ],
+              "answer": [
+                "N",
+                "Y",
+                "Y",
+                "Y",
+                "N"
+              ],
+              "explanation": "1.Lithium ions move from the negative electrode through an electrolyte – hence Lithium-ion batteries use lithium ions.<br/>2.LIBS are a type of rechargeable battery.<br/>3.The batteries have a high energy density.<br/>4.Lithium ions move from the negative electrode through an electrolyte and the electrolyte is flammable.<br/>5.We do not know whether most planes use LIBs",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "category_id": 6,
+          "questions": [
+            {
+              "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+              "type": "Drag and Drop",
+              "options": [
+                "For 2 months of the year, my expenses outweighed my income.",
+                "My expenses were lowest in April.",
+                "My income was lowest in March.",
+                "Given that a drop in the share market occurred for 2 months in the year, this drop occurred in May and June. Yes /No",
+                "I had the most money (in my bank account) in April."
+              ],
+              "answer": [
+                "Y",
+                "Y",
+                "N",
+                "N",
+                "N"
+              ],
+              "explanation": "1.For may and June, my expenses outweighed my income.<br/>2.My expenses were lowest in April.<br/>3.My income was lowest in May.<br/>4.We do not know when the share market drop was or how it impacted my earnings.<br/>5.We cannot comment on the money in the bank account as we don’t even know if money was stored there or if expenses were deducted from that account",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "All students at a school must study mathematics. They may also study one or more science subjects (chemistry, biology and/or physics). All students studying science must study chemistry. Additionally, they may study biology, physics or biology and physics.",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "Which of the following diagrams best represents the above situation?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/5.JPG",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/6.JPG",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/7.JPG",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/8.JPG"
+              ],
+              "answer": "C",
+              "explanation": "An overlap between biology and physics must be seen within chemistry (and within maths even more broadly). This is only shown by option C. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The sports played by members of the class were documented and displayed in the following Venn diagram.<br/>Rectangle = Tennis<br/>Star = Cricket<br/>Pentagon = AFL<br/>Circle = Soccer",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/9.JPG",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "Which letter represents the students who play cricket, tennis and AFL? ",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B ",
+                "C",
+                "D"
+              ],
+              "answer": "A",
+              "explanation": "Overlap between star, rectangle and pentagon",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Of the 50,000 houses in a city: 30,000 have a backyard., 40,000 have a front yard, 15000 have a pool, 20% have a pool, front yard and backyard, 22,000 have a front yard and backyard, 13,000 have a pool and backyard,12000 have a pool and front yard.",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "How many houses in the city have neither a pool nor front yard nor backyard?",
+              "type": "Multiple Choice",
+              "options": [
+                "1000",
+                "2000",
+                "3000",
+                "4000"
+              ],
+              "answer": "B",
+              "explanation": "Create a 3-way Venn diagram or, mathematically: 50,000 – 30,000 – 40,000 – 15,000 + 10,000 + 22,000 + 13,000 + 12,000 = 2,000",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A survey was conducted to determine how residents of a nursing home spend their free time.<br/>Square = Card games <br/>Circle = Television<br/>Star = Knitting<br/>Rhombus = Sport",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 10/10.JPG",
+          "category_id": 7,
+          "questions": [
+            {
+              "text": "Which of the following is true according to the diagram?",
+              "type": "Multiple Choice",
+              "options": [
+                "The majority of residents play card games",
+                "More residents play card games and watch TV than knit and watch TV",
+                "20 more residents watch TV than knit",
+                "Watching TV is the most popular leisure activity"
+              ],
+              "answer": "C",
+              "explanation": "3 + 19 = 22 residents knit while 19 + 8 + 8 + 7 = 42 watch TV. Hence, 20 more residents watch TV than knit",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Chris and Kim are playing a game where they each roll a standard, fair 6-sided dice twice.<br/>If the product of her rolls is 16, Kim wins.<br/>If the product of his rolls is 8, Chris wins.",
+          "category_id": 8,
+          "questions": [
+            {
+              "text": "Chris and Kim both have an equal chance of winning.",
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as they both have a 1 in 36 chance of winning ",
+                "Yes; as they both have a 1 in 18 chance of winning",
+                "No; Chris is more likely to win",
+                "No; Kim is more likely to win "
+              ],
+              "answer": "C",
+              "explanation": "For Chris to win, he must roll a 2,4 or 4,2; for Kim to win she can only roll a 4,4. Hence, Chris is more likely to win",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Ben and Jerry each toss a dice.<br/>If Ben tosses an odd number, he wins.<br/>If Jerry tosses an even number, he wins.",
+          "category_id": 8,
+          "questions": [
+            {
+              "text": "What is the probability that neither Ben nor Jerry is an outright winner?",
+              "type": "Multiple Choice",
+              "options": [
+                "0",
+                "1/4",
+                "1/3",
+                "½"
+              ],
+              "answer": "D",
+              "explanation": "Ben tosses an even number and Jerry an odd or Jerry tosses an even number and Ben an odd. 1/2 x 1/2 + 1/2 x 1/2 = 1/2",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Members of the public may regularly take the bus, train, both or neither.<br/>The probability that a randomly selected member of the public regularly takes the bus is 0.4.<br/>The probability that a randomly selected member of the public regularly takes the train is 0.6.<br/>The probability that a randomly selected member of the public neither takes the train nor bus regularly is 0.3.",
+          "category_id": 8,
+          "questions": [
+            {
+              "text": "More members of the public take both the train and bus regularly than neither the train nor bus regularly.",
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as 40% of members of the public take both the train and bus regularly",
+                "Yes; as 30% of members of the public take both the train and bus regularly",
+                "No; as numbers cannot be determined from probabilities",
+                "No; as the same number of members of the public take both the train and bus regularly and neither the train nor bus regularly"
+              ],
+              "answer": "D",
+              "explanation": "Bus or train = 1 – 0.3 = 0.7; Bus and train = 0.4 + 0.6 – 0.7 = 0.3. Hence the same number of members of the public take both the train and bus regularly and neither the train nor bus regularly.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "A child receives one version of a gene from his mother and one version of a gene from his father.<br/>The mother has one faulty version of the gene and one normal version of the gene.<br/>The father has one faulty version of the gene and one normal version of the gene.<br/>To express the faulty version of the gene, the child must have 2 copies of the faulty versions of the gene.",
+          "category_id": 8,
+          "questions": [
+            {
+              "text": "The probability that the child expresses the faulty version of the gene is ½.",
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as the mother and father each have 1 faulty version of the gene (out of 2 total versions)",
+                "Yes; as 2/4=1/2",
+                "No; the probability that the child expresses the faulty version of the gene is 1 in 4",
+                "No; the probability that the child expresses the faulty version of the gene is 1 in 8"
+              ],
+              "answer": "C",
+              "explanation": "1/2 x 1/2 = 1/4",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Jalal has scored 3000 basketball free throws out of a total of 4000 free throws taken and has maintained that conversion rate throughout his career.<br/>In a match, Jalal takes 3 free throws and misses all of them.<br/>He is fouled and has to take another free throw.",
+          "category_id": 8,
+          "questions": [
+            {
+              "text": "The probability that Jalal scores this free throw is approximately 3/4.",
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as this is his 4th free throw of the match and he has scored 3 thus far",
+                "Yes; as he has a past success rate of ~75%",
+                "No; the probability is less than 3/4 because he has missed the previous 3 free throws and, hence, is unlikely to score this free throw",
+                "No; the probability is more than 3/4 because he has missed the previous 3 free throws and must score free throws at a greater accuracy for the rest of this game to match his past 75% success rate"
+              ],
+              "answer": "A",
+              "explanation": "We cannot base the probability of Jalal scoring purely based on the last 3 shots, a larger sample is more accurate so we will refer back to his past success rate of ~75%",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "]Tests A and B can be used to detect the presence of a virus. The tests always give either a positive or negative reading for the presence of the virus – not necessarily correctly though.<br/>With test A, 1% of tests come back negative when an individual has the virus, while 3% of tests come back positive when an individual does not have the virus.<br/>With test B, 97% of tests come back negative when an individual does not have the virus, while 98% of tests come back positive when an individual has the virus.",
+          "category_id": 8,
+          "questions": [
+            {
+              "text": "Based on only the statistics provided above, should a hospital use test A in preference to test B?",
+              "type": "Multiple Choice",
+              "options": [
+                "Yes; as test A is more likely to give back a positive reading when an individual has the virus",
+                "Yes; as test A is less likely to give back a positive reading when an individual does not have the virus",
+                "No; as test B is less likely to give back a negative reading when an individual has the virus",
+                "No; as test B is more likely to give back a negative reading when an individual does not have the virus"
+              ],
+              "answer": "A",
+              "explanation": "While 3% of tests come back positive when an individual does not have the virus for both, for test A 99% of tests come back positive when an individual has the virus while for test B 98% of tests come back positive when an individual has the virus.",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

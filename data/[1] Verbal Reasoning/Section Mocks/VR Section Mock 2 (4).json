@@ -1,0 +1,630 @@
+{
+  "exam": {
+    "name": "Verbal Reasoning 2",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 21
+  },
+  "sections": [
+    {
+      "name": "Verbal Reasoning",
+      "time": 21,
+      "stems": [
+        {
+          "text": "The French Revolution was a period of far-reaching social and political upheaval in France and its colonies beginning in 1789. The Revolution overthrew the monarchy, established a republic, catalyzed violent periods of political turmoil, and finally culminated in a dictatorship under Napoleon who brought many of its principles to areas he conquered in Western Europe and beyond. Inspired by liberal and radical ideas, the Revolution made a profound impression on the course of modern history, triggering the global decline of absolute monarchies while replacing them with republics and liberal democracies. Through the Revolutionary Wars, it unleashed a wave of global conflicts that extended from the Caribbean to the Middle East. Historians widely regard the Revolution as one of the most important events in human history. <br/>The causes of the French Revolution are complex and are still debated among historians. Following the Seven Years' War and the American Revolutionary War, the French government was deeply in debt. It attempted to restore its financial status through unpopular taxation schemes, which were heavily regressive. Leading up to the Revolution, years of bad harvests worsened by deregulation of the grain industry and environmental problems also inflamed popular resentment of the privileges enjoyed by the aristocracy and the Catholic clergy of the established church. Some historians hold something similar to what Thomas Jefferson proclaimed: that France had 'been awakened by our [American] Revolution.' Demands for change were formulated in terms of Enlightenment ideals and contributed to the convocation of the Estates General in May 1789. During the first year of the Revolution, members of the Third Estate (commoners) took control, the Bastille was attacked in July, the Declaration of the Rights of Man and of the Citizen was passed in August, and the Women's March on Versailles forced the royal court back to Paris in October. A central event of the first stage, in August 1789, was the abolition of feudalism and the old rules and privileges left over from the Ancien Régime.<br/>The next few years featured political struggles between various liberal assemblies and right-wing supporters of the monarchy intent on thwarting major reforms. The Republic was proclaimed in September 1792 after the French victory at Valmy. In a momentous event that led to international condemnation, Louis XVI was executed in January 1793.<br/>Source: https://en.wikipedia.org/wiki/French_Revolution",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "The French Revolution overthrew the monarchy in 1789.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "The passage states that the French Revolution began in 1789, however we do not know exactly when the monarchy was overthrown (the execution of Louis XVI is not the same as the overthrowing of the monarchy). Therefore, the answer is C. ",
+              "difficulty": 1
+            },
+            {
+              "text": "The French Revolution was internationally condemned.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "All we know is that Louis XVI’s death was condemned internationally, however we do not know that the entire revolution was condemned internationally. Therefore, the answer is C. ",
+              "difficulty": 1
+            },
+            {
+              "text": "The deeply regressive policies of the French government were the primary cause of the French Revolution.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "The passage provides no clear cause as the primary reason for the revolution, and does not claim the regressive policies of the government as the primary cause of the revolution. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "The American Revolution inspired the French Revolution to take place.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although “some historians [think that] France had ‘been awakened by our [American] revolution’”, we do not know for sure that the American revolution actually inspired the French Revolution. Therefore, the answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The use of beheading machines in Europe long predates such use during the French Revolution in 1792. An early example of the principle is found in the High History of the Holy Grail, dated to about 1210, albeit fictional. <br/>The Halifax Gibbet was a wooden structure consisting of two wooden uprights, capped by a horizontal beam, of a total height of 4.5 metres (15 ft). The blade was an axe head weighing 3.5 kg (7.7 lb), attached to the bottom of a massive wooden block that slid up and down in grooves in the uprights. This device was mounted on a large square platform 1.25 metres (4 ft) high. The first recorded execution in Halifax dates from 1280, but that execution may have been by sword, axe, or gibbet. The machine remained in use until Oliver Cromwell forbade capital punishment for petty theft. It was used for the last time, for the execution of two criminals on a single day, on 30 April 1650.<br/>A Hans Weiditz (1495-1537) woodcut illustration from the 1532 edition of Petrarch's De remediis utriusque fortunae, or Remedies for Both Good and Bad Fortune shows a device similar to the Halifax Gibbet in the background being used for an execution. Holinshed's Chronicles of 1577 included a picture of 'The execution of Murcod Ballagh near Merton in Ireland in 1307' showing a similar execution machine, suggesting its early use in Ireland. <br/>The Maiden was constructed in 1564 for the Provost and Magistrates of Edinburgh, and was in use from April 1565 to 1710. One of those executed was James Douglas, 4th Earl of Morton, in 1581, and a 1644 publication began circulating the legend that Morton himself commissioned the Maiden after he had seen the Halifax Gibbet. The Maiden was readily dismantled for storage and transport, and it is now on display in the National Museum of Scotland.<br/>Source: https://en.wikipedia.org/wiki/Guillotine",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "The first recorded use of beheading devices in the passage was about 1210.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "The first use of beheading machines was in 1280 (2nd paragraph) – the passage mentions 1210 however this event was “fictional”. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "Oliver Cromwell supported the use of capital punishment and beheading machines.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "All we know is that Oliver Cromwell “forbade capital punishment for petty theft”, but we do know whether he kept it for other crimes or did not support it overall. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "The Halifax Gibbet was the first known beheading machine.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "There is nothing in the text to suggest that this machine was the first beheading machine – despite the first recorded execution being in Halifax, we do not know what exactly was used, as it may not have been a beheading machine that was used. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "It is likely that a model similar to that of the Halifax Gibbet was used in Ireland.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "The 3rd paragraph states that that the woodcut illustration of Hans Weiditz showed a similar execution machine to the Halifax Gibbet, “suggesting its early use in Ireland”. Therefore, the answer is A.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Louis XVI, born Louis-Auguste, was the last king of France before the fall of the monarchy during the French Revolution. He was referred to as citizen Louis Capet during the four months before he was guillotined. In 1765, at the death of his father, Louis, son and heir apparent of Louis XV, Louis-Auguste became the new dauphin of France. Upon his grandfather's death on 10 May 1774, he assumed the title 'king of France and Navarre', which he used until 4 September 1791, when he received the title of 'king of the French' until the monarchy was abolished on 21 September 1792.<br/>The first part of his reign was marked by attempts to reform the French government in accordance with Enlightenment ideas. These included efforts to abolish serfdom, remove the taille (land tax) and the corvée (labour tax), and increase tolerance toward non-Catholics as well as the abolition of the death penalty for deserters. The French nobility reacted to the proposed reforms with hostility, and successfully opposed their implementation. Louis implemented deregulation of the grain market, advocated by his economic liberal minister Turgot, but it resulted in an increase in bread prices. In periods of bad harvests, it would lead to food scarcity which would prompt the masses to revolt. From 1776, Louis XVI actively supported the North American colonists, who were seeking their independence from Great Britain, which was realised in the 1783 Treaty of Paris. The ensuing debt and financial crisis contributed to the unpopularity of the Ancien Régime. <br/>Louis's indecisiveness and conservatism led some elements of the people of France to view him as a symbol of the perceived tyranny of the Ancien Régime, and his popularity deteriorated progressively. His disastrous flight to Varennes in June 1791, four months before the constitutional monarchy was declared, seemed to justify the rumors that the king tied his hopes of political salvation to the prospects of foreign intervention. The credibility of the king was deeply undermined, and the abolition of the monarchy and the establishment of a republic became an ever-increasing possibility.<br/>Source: https://en.wikipedia.org/wiki/Louis_XVI_of_France",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "After the 4 September 1791, Navarre was no longer a part of the French empire.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "All we know is that Louis XVI “assumed the title ‘king of France and Navarre’, which he used until 4 September 1791”, however the reason for it changing simply to “king of France” is not stated so we cannot make any assumptions as to what happened. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "Louis XVI’s attempts at progressive reforms were followed up by poor policies that would result in negative consequences.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "We know that Louis XVI had “attempts to reform the French government” such as removing land tax and labour tax, however these progressive policies were followed up with poorer policies at the recommendation of the French nobility after they reacted poorly. For example, “deregulation of the grain market” resulted in “an increase in bread prices” – therefore we can infer that this poor policy resulted in negative consequences. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "Louis XVI’s incompetency was the main contributing factor to the demise of the monarchy.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although the passages references his incompetency throughout the passage, we do not know whether it was the main contributing factor to the monarchy’s demise. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "Louis XVI chose not to financially support the North American colonists in their fight for independence against Great Britain.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "The 2nd passage states that “Louis XVI actively supported the North American colonists, who were seeking their independence from Great Britain”. We know that France suffered debt and a financial crisis follow this, so we can infer that Louis XVI was financially supporting them. Therefore, the answer is B. ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Famed naturalist and television personality David Frederick Attenborough was born on May 8, 1926, in a suburb of London, England. The second of three boys born to a university principal and a writer, he and his brothers would all find great success in their chosen careers, which would take them far from the city of Leicester, where they were raised. David’s older brother Richard would become an Academy Award-winning actor and director, and his younger brother, John would become a top executive at the Italian car company Alfa Romeo.<br/>Despite the relative urban surroundings in which he lived, Attenborough’s fascination with the natural world developed early and by the age of seven, he had assembled a sizable collection of bird eggs and fossils. He attended a lecture by famous naturalist Grey Owl in 1936 which deepened his interest in the subject, and after graduating from high school, he was awarded a scholarship to study the natural sciences at the University of Cambridge. Upon completing his studies in 1947, Attenborough was called to serve for two years in the Royal Navy. However, any hopes he had that this would be his chance to see the world were dashed when he was posted to a ship in Wales.<br/>In 1949, Attenborough returned to London and found work as an editor for an educational publisher. The following year he began a training program with the BBC. In 1952, Attenborough completed his training and began working for the television station as a producer, marking the beginning of what would be a milestone career, both at the BBC and beyond.<br/>At the BBC, Attenborough faced two obstacles. First, the station had little to no programming devoted to the natural sciences, and second, his boss thought that Attenborough’s teeth were too big for him to be an on-air personality. Despite these hindrances, however, Attenborough persevered, taking small steps forward on the path toward his ultimate destiny. He started out producing the quiz show Animal, Vegetable, Mineral? and then moved on to co-host a program called The Pattern of Animals with naturalist Sir Julian Huxley.",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "Attenborough’s interest in nature started when he was seven years old.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "We know that his “fascination with the natural world developed early” and by the age of 7 “he had assembled a sizable collection of bird eggs and fossils”, however we do not know that his fascination in general started at age 7. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "Attenborough attended a lecture by Grey Owl during his high school years.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "The 2nd paragraph states that “he attended a lecture by famous naturalist Grey Owl in 1936… and after graduating from high school…”, however we do not know at what point he attended this lecture, as he would have been 9-10 years old when he attended this. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "Attenborough’s first job was working as an editor for the BBC.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "His first job at the BBC was as a producer (3rd paragraph), and he was an editor for an educational publisher. Although we do not know what his first job is, we can determine that he could not have been an editor at the BBC as his first job as he started working at the BBC as a producer. We could say that his first job was actually in the navy. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "Hosting the program The Pattern of Animals was the height of Attenborough’s career.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "We do not know whether hosting this program was the height of his career, as the text does not provide any information pertaining to how significant it was in his career. Therefore, the answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Worldwide an estimated 200 000 homicides occur among youth 10–29 years of age each year, making it the fourth leading cause of death for people in this age group. Youth homicide rates vary dramatically between and within countries. Globally, 83% of youth homicide victims are males, and in all countries males also constitute the majority of perpetrators. Rates of youth homicide among females are much lower than rates among males almost everywhere. In the years 2000-2012, rates of youth homicide decreased in most countries, although the decrease has been greater in high-income countries than in low- and middle-income countries.<br/>For every young person killed by violence, more sustain injuries that require hospital treatment. Firearm attacks end more often in fatal injuries than assaults that involve fists, feet, knives, and blunt objects.<br/>Sexual violence also affects a significant proportion of youth. For example, 3–24% of women surveyed in the “WHO Multi-country study on women's health and domestic violence” reported that their first sexual experience was forced.<br/>Physical fighting and bullying are also common among young people. A study of 40 developing countries showed that an average of 42% of boys and 37% of girls were exposed to bullying.<br/>Youth homicide and non-fatal violence not only contribute greatly to the global burden of premature death, injury and disability, but also have a serious, often lifelong, impact on a person's psychological and social functioning. This can affect victims' families, friends and communities. Youth violence increases the costs of health, welfare and criminal justice services; reduces productivity; decreases the value of property.<br/>Source: https://www.who.int/",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "If someone is a male, they are more likely to commit suicide than if they were a girl.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although “rates of youth homicide amongst females are much lower than rates among males almost everywhere”, this does not mean that if someone is a male they are more likely to commit suicide as homicide and suicide are different things. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "The majority of fatal injuries are caused by firearm attacks.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "We don’t know what proportion of fatal injuries are caused by firearm attacks, only that they are more likely to result in fatal injuries than other types of assaults. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "Less than 40% of girls globally are exposed to bullying.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "This statistic in the 4th paragraph refers to “a study of 40 developing countries”, not the entire world, so we cannot extrapolate this statistic beyond the data set of this study to an entire global scale. Therefore, the answer is C.",
+              "difficulty": 1
+            },
+            {
+              "text": "Youth violence is the primary cause of premature death globally.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although “youth homicide… contribute[s] greatly to the global burden of premature death”, we do not know whether it is the primary cause, all we know is that is contributes significantly. Therefore, the answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "There is growing concern about the health consequences of biodiversity loss. Biodiversity changes affect ecosystem functioning and significant disruptions of ecosystems can result in life sustaining ecosystem goods and services. Biodiversity loss also means that we are losing, before discovery, many of nature's chemicals and genes, of the kind that have already provided humankind with enormous health benefits.<br/>Biodiversity plays a crucial role in human nutrition through its influence on world food production, as it ensures the sustainable productivity of soils and provides the genetic resources for all crops, livestock, and marine species harvested for food. Access to a sufficiency of a nutritious variety of food is a fundamental determinant of health.<br/>Nutrition and biodiversity are linked at many levels: the ecosystem, with food production as an ecosystem service; the species in the ecosystem and the genetic diversity within species. Nutritional composition between foods and among varieties/cultivars/breeds of the same food can differ dramatically, affecting micronutrient availability in the diet. Healthy local diets, with adequate average levels of nutrients intake, necessitates maintenance of high biodiversity levels.<br/>Intensified and enhanced food production through irrigation, use of fertilizer, plant protection (pesticides) or the introduction of crop varieties and cropping patterns affect biodiversity, and thus impact global nutritional status and human health. Habitat simplification, species loss and species succession often enhance communities vulnerabilities as a function of environmental receptivity to ill health.<br/>Source: https://www.who.int/",
+          "category_id": 1,
+          "questions": [
+            {
+              "text": "All of nature’s chemicals and genes have been discovered.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "The 1st paragraph states that “biodiversity loss also means that we are losing, before discovery, many of nature’s chemicals and genes…” – therefore we can infer that if some chemicals and genes have not been discovered yet before we lose them to biodiversity loss, we have not discovered all of natures chemicals and genes. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "Biodiversity and nutrition can only be linked through the idea of food production as an ecosystem service.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "B",
+              "explanation": "The 3rd paragraph states that “nutrition and biodiversity are linked at many levels”, so therefore the idea of food production as an ecosystem service is not the ONLY link. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "Low biodiversity levels are likely to result in the reduction of healthy local diets with enough average nutritional intake.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "A",
+              "explanation": "If “healthy local diets, with adequate average levels of nutrients intake, necessitates maintenance of high biodiversity levels”, then we can infer that if biodiversity levels are low, there is likely to be lower amounts of healthy local diets with enough average nutritional intake. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "Biodiversity is the main environmental factor influencing human health.",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can't tell"
+              ],
+              "answer": "C",
+              "explanation": "Although human health is affected by changes to biodiversity (4th paragraph), we do not that biodiversity is the MAIN environmental factor influencing human health. Therefore, the answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The Great Pyramid and the Pyramid of Khafre are the largest pyramids built in ancient Egypt, and they have historically been common as emblems of ancient Egypt in the Western imagination. They were popularised in Hellenistic times, when the Great Pyramid was listed by Antipater of Sidon as one of the Seven Wonders of the World. It is by far the oldest of the ancient Wonders and the only one still in existence.<br/>Most construction theories are based on the idea that the pyramids were built by moving huge stones from a quarry and dragging and lifting them into place. The disagreements center on the method by which the stones were conveyed and placed and how possible the method was.<br/>In building the pyramids, the architects might have developed their techniques over time. They would select a site on a relatively flat area of bedrock—not sand—which provided a stable foundation. After carefully surveying the site and laying down the first level of stones, they constructed the pyramids in horizontal levels, one on top of the other.<br/>For the Great Pyramid of Giza, most of the stone for the interior seems to have been quarried immediately to the south of the construction site. The smooth exterior of the pyramid was made of a fine grade of white limestone that was quarried across the Nile. These exterior blocks had to be carefully cut, transported by river barge to Giza, and dragged up ramps to the construction site. Only a few exterior blocks remain in place at the bottom of the Great Pyramid. During the Middle Ages (5th century to 15th century), people may have taken the rest away for building projects in the city of Cairo. <br/>To ensure that the pyramid remained symmetrical, the exterior casing stones all had to be equal in height and width. Workers might have marked all the blocks to indicate the angle of the pyramid wall and trimmed the surfaces carefully so that the blocks fit together. <br/>Source: https://en.wikipedia.org/wiki/Giza_pyramid_complex",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "The Pyramid of Khafre is",
+              "type": "Multiple Choice",
+              "options": [
+                "The official emblem of ancient Egypt",
+                "The only remaining Wonder of the 7 Wonders of the World",
+                "The oldest ancient Wonder",
+                "One of the biggest pyramids in ancient Egypt"
+              ],
+              "answer": "D",
+              "explanation": "In the 1st paragraph it states that “the Great Pyramid and the Pyramid of Khafre are the largest pyramids built in ancient Egypt”. Therefore, the answer is D.",
+              "difficulty": 1
+            },
+            {
+              "text": "The stones used for the construction of the Great Pyramid were sourced from",
+              "type": "Multiple Choice",
+              "options": [
+                "Limestone from the river Nile",
+                "Quarries south of the building site",
+                "A river barge in Giza",
+                "Mines of bedrock near the construction site"
+              ],
+              "answer": "B",
+              "explanation": "The 4th paragraph states that “most of the stone for the interior seems to have been quarried immediately to the south of the construction site”. Whilst the smooth exterior was made from limestone, they did not come from the Nile. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, the Pyramids were definitely built",
+              "type": "Multiple Choice",
+              "options": [
+                "By moving big stones and lifting them into place",
+                "Dragging stones from a quarry to the site of construction",
+                "With the help of architects",
+                "On flat areas of sand"
+              ],
+              "answer": "C",
+              "explanation": "The 3rd paragraph states that “in building the pyramids, the architects might have developed their techniques over time”. Therefore, the answer is C, as we know architects were involved in the building of the pyramids. The other answers are more speculative and less definite.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, the Pyramids are likely to",
+              "type": "Multiple Choice",
+              "options": [
+                "be slowly eroding over time",
+                "have the same width and height",
+                "have a smooth limestone surface",
+                "remain symmetrical to this day"
+              ],
+              "answer": "D",
+              "explanation": "Although we cannot be certain that the Pyramids remain symmetrical to this day, according to the passage, they were constructed in such a way so that they remained symmetrical so theoretically they are likely to still be symmetrical (final paragraph). Therefore, the answer is D.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "The American Revolution was a colonial revolt which occurred between 1765 and 1783. The American Patriots in the Thirteen Colonies defeated the British in the American Revolutionary War (1775–1783), winning independence from Great Britain and establishing the United States of America.<br/>The American colonials proclaimed 'no taxation without representation' starting with the Stamp Act Congress in 1765. They rejected the authority of the British Parliament to tax them because they had no representatives in that governing body. Protests steadily escalated to the Boston Massacre in 1770 and the burning of the Gaspee in Rhode Island in 1772, followed by the Boston Tea Party in December 1773. The British responded by closing Boston Harbor and enacting a series of punitive laws which effectively rescinded Massachusetts Bay Colony's rights of self-government. The other colonies rallied behind Massachusetts, and a group of American Patriot leaders set up their own government in late 1774 at the Continental Congress to coordinate their resistance of Britain; other colonists retained their allegiance to the Crown and were known as Loyalists or Tories.<br/>Tensions erupted into battle between Patriot militia and British regulars when King George's forces attempted to destroy Colonial military supplies at Lexington and Concord on April 19, 1775. The conflict then developed into war, during which the Patriots (and later their French allies) fought the British and Loyalists in the Revolutionary War. Each of the thirteen colonies formed a Provincial Congress which assumed power from the former colonial governments, suppressed Loyalism, and recruited a Continental Army led by General George Washington. The Continental Congress declared King George a tyrant who trampled the colonists' rights as Englishmen, and they declared the colonies free and independent states on July 2, 1776. The Patriot leadership professed the political philosophies of liberalism and republicanism to reject monarchy and aristocracy, and they proclaimed that all men are created equal.<br/>Among the significant results of the Revolution were American independence and friendly economic trade with Britain. After years of a weak central government, the Americans adopted the United States Constitution, establishing a strong national government which included an executive, a national judiciary, and a bicameral Congress representing states in the Senate and the population in the House of Representatives. The Revolution also resulted in the migration of around 60,000 Loyalists to other British territories, particularly to British North America (Canada), although the great majority remained in the United States.<br/>Source: https://en.wikipedia.org/wiki/American_Revolution ",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "The initial American resistance was towards",
+              "type": "Multiple Choice",
+              "options": [
+                "The imposition of British taxes on American society solely",
+                "The contradiction between Britain taxing Americans without them being represented in their taxing government",
+                "The lack of US representatives in the British government",
+                "The violence used by Britain against Americans"
+              ],
+              "answer": "C",
+              "explanation": "The 2nd paragraph states that the Americans “rejected the authority of the British Parliament to tax them because they had no representatives in that governing body”. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "The revolutionary force, the American patriots, acted",
+              "type": "Multiple Choice",
+              "options": [
+                "With the help of the French",
+                "With the whole nation supporting them",
+                "Without much support from their nation",
+                "Alongside the Loyalists and Tories"
+              ],
+              "answer": "A",
+              "explanation": "The 3rd paragraph states that the Patriots had French allies at some point in the revolution. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, the first non-British governing body during the revolution was",
+              "type": "Multiple Choice",
+              "options": [
+                "The American Patriots",
+                "The Provincial Congress",
+                "The Continental Congress",
+                "The Senate"
+              ],
+              "answer": "B",
+              "explanation": "The 3rd paragraph states that “each of the thirteen colonies formed a Provincial Congress which assumed power from the former colonial governments”. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, following the revolutionary war,",
+              "type": "Multiple Choice",
+              "options": [
+                "Britain severed all economic ties with America",
+                "The American government were immediately successful",
+                "The United States Constitution was adopted immediately",
+                "Mass movement of Loyalists took place"
+              ],
+              "answer": "D",
+              "explanation": "The final paragraph states that “the Revolution also resulted in the migration of around 60,000 Loyalists to other British territories” – thus the best answer of the four options is D.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Epictetus maintains that the foundation of all philosophy is self-knowledge, that is, the conviction of our ignorance and gullibility ought to be the first subject of our study. Logic provides valid reasoning and certainty in judgment, but it is subordinate to practical needs. The first and most necessary part of philosophy concerns the application of doctrine, for example, that people should not lie. The second concerns reasons, e.g. why people should not lie. While the third, lastly, examines and establishes the reasons. This is the logical part, which finds reasons, shows what is a reason, and that a given reason is a correct one. This last part is necessary, but only on account of the second, which again is rendered necessary by the first. <br/>Both the Discourses and the Enchiridion begin by distinguishing between those things in our power (prohairetic things) and those things not in our power (aprohairetic things). <br/>That alone is in our power, which is our own work; and in this class are our opinions, impulses, desires, and aversions. What, on the contrary, is not in our power, are our bodies, possessions, glory, and power. Any delusion on this point leads to the greatest errors, misfortunes, and troubles, and to the slavery of the soul. <br/>We have no power over external things, and the good that ought to be the object of our earnest pursuit, is to be found only within ourselves. <br/>The determination between what is good and what is not good is made by the capacity for choice (prohairesis). Prohairesis allows us to act, and gives us the kind of freedom that only rational animals have. It is determined by our reason, which of all our faculties, sees and tests itself and everything else. It is the correct use of the impressions (phantasia) that bombard the mind that is in our power: <br/>Source: https://en.wikipedia.org/wiki/Epictetus#Psychology",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "Epictetus claims that people have:",
+              "type": "Multiple Choice",
+              "options": [
+                "No power over aprohairetic things",
+                "Logical flaws that need to be addressed prior to commencing philosophical study",
+                "Control over our own bodies",
+                "Inherently self-serving beliefs and values"
+              ],
+              "answer": "A",
+              "explanation": "The 4th paragraph states that “we have no power over external things”, and the 2nd paragraph states that “those things not in our power” are aprohairetic things. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, the reasons behind what is ‘good’ and what is ‘not good’ can be traced back to:",
+              "type": "Multiple Choice",
+              "options": [
+                "The original values instilled in society ",
+                "The choices that rational animals make",
+                "Trial and error to determine what is the most beneficial choice in every situation",
+                "Capacity for decision-making and choice"
+              ],
+              "answer": "D",
+              "explanation": "The final paragraph states that “the determination between what is good and what is not good is made by the capacity for choice” – therefore the answer is D.",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, which of the following examples represent the three accurate stages that Epictetus claims are necessary in philosophy:",
+              "type": "Multiple Choice",
+              "options": [
+                "Murder is wrong, reasons for murder being wrong, further discussion of the reasons.",
+                "Stealing is wrong, reasons for stealing being acceptable, further discussion of reasons for and against stealing.",
+                "Generosity is right, reasons for generosity being right, examples of generosity that has benefitted society.",
+                "Cleaning is boring, reasons for cleaning being neutral, further discussion of the reasons."
+              ],
+              "answer": "A",
+              "explanation": "Option A is consistent with the idea of murder being wrong, whereas option B switched between stealing being wrong and acceptable. Option C’s final stage is not in line with the final stage, which should be about further discussion of the reasons. Option D is also inconsistent in terms of its stance on cleaning. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "The difference between prohairetic things and aprohairetic things is:",
+              "type": "Multiple Choice",
+              "options": [
+                "Prohairetic things are controlled by external influences, such as fate and destiny, whereas aprohairetic things are controlled by internal influences, such as impulses and ideas. ",
+                "Prohairetic things can be ‘good’ and ‘not good’, whereas aprohairetic things can only be ‘not good’.",
+                "Aprohairetic things cannot be controlled by people, whereas prohairetic things can be controlled by people.",
+                "Aprohairetic things are inherently scary because they are out of one’s control, whereas prohairetic things are less scary because one can control it."
+              ],
+              "answer": "C",
+              "explanation": "The 2nd paragraph states that prohairetic things are “things within our power” and aprohairetic things are “things not in our power” – power implies a degree of control and influence, so therefore the answer is C.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Savannas are subject to regular wildfires and the ecosystem appears to be the result of human use of fire. For example, Native Americans created the Pre-Columbian savannas of North America by periodically burning where fire-resistant plants were the dominant species. Pine barrens in scattered locations from New Jersey to coastal New England are remnants of these savannas. Aboriginal burning appears to have been responsible for the widespread occurrence of savanna in tropical Australia and New Guinea, and savannas in India are a result of human fire use. The maquis shrub savannas of the Mediterranean region were likewise created and maintained by anthropogenic fire. <br/>These fires are usually confined to the herbaceous layer and do little long term damage to mature trees. However, these fires either kill or suppress tree seedlings, thus preventing the establishment of a continuous tree canopy which would prevent further grass growth. Prior to European settlement aboriginal land use practices, including fire, influenced vegetation and may have maintained and modified savanna flora. It has been suggested by many authors that aboriginal burning created a structurally more open savanna landscape. Aboriginal burning certainly created a habitat mosaic that probably increased biodiversity and changed the geographic range of numerous woodland species. It has been suggested by many authors that with the removal or alteration of traditional burning regimes many savannas are being replaced by forest and shrub thickets with little herbaceous layer.<br/>The consumption of herbage by introduced grazers in savanna woodlands has led to a reduction in the amount of fuel available for burning and resulted in fewer and cooler fires. The introduction of exotic pasture legumes has also led to a reduction in the need to burn to produce a flush of green growth because legumes retain high nutrient levels throughout the year, and because fires can have a negative impact on legume populations which causes a reluctance to burn.<br/>Source: https://en.wikipedia.org/wiki/Savanna",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "From the passage, it is clear that human fire use has created savannas in all the following places except",
+              "type": "Multiple Choice",
+              "options": [
+                "India",
+                "New Guinea",
+                "New England",
+                "Kenya"
+              ],
+              "answer": "D",
+              "explanation": "Kenya is the only country not mentioned in the passage (1st paragraph mentions New England, New Guinea, and India). Therefore, the answer is D.",
+              "difficulty": 1
+            },
+            {
+              "text": "The increased biodiversity of the savannah landscape could most likely be attributed to which of the following?",
+              "type": "Multiple Choice",
+              "options": [
+                "Aboriginal burning practises",
+                "Aboriginal land practises",
+                "The range of woodland species",
+                "A structurally open savannah landscape"
+              ],
+              "answer": "A",
+              "explanation": "Of the options, option A is the best option as in the 1st paragraph it states that “Aboriginal burning appears to have been responsible for the widespread occurrence of savanna in tropical Australia and New Guinea”. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "All of the following are valid examples of the potential negatives of human fire use except",
+              "type": "Multiple Choice",
+              "options": [
+                "Savannas are being replaced by forests",
+                "The development of a continuous tree canopy",
+                "Suppression of tree seedlings",
+                "Changes in woodland structure"
+              ],
+              "answer": "D",
+              "explanation": "Human fire use “suppress tree seedlings” (2nd paragraph), prevent the “establishment of a continuous tree canopy” (2nd paragraph), and “traditional burning regimes [have led to] many savannas being replaced by forest…” (2nd paragraph, end). Option D is not mentioned. Therefore, the answer is D.",
+              "difficulty": 1
+            },
+            {
+              "text": "The most likely reason out of the following for the downturn in savannah burning by humans is",
+              "type": "Multiple Choice",
+              "options": [
+                "The new pasture legumes’ existence",
+                "Humans eating some of the legumes grown in woodlands",
+                "The high nutrient levels of legumes throughout the year",
+                "The green and exotic colours of these legumes"
+              ],
+              "answer": "B",
+              "explanation": "The 3rd paragraph states that “fires can have a negative impact on legume populations which causes a reluctance to burn”. Therefore, of the four options provided, option B is the most correct and plausible answer based on the information in the passage. Therefore, the answer is B.",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "South Australia was officially established as a British Province in England in February 1836. The first Governor proclaimed the commencement of colonial government in South Australia on 28 December 1836, near The Old Gum Tree in what is now the suburb of Glenelg North. The event is commemorated in South Australia as Proclamation Day. The site of the colony's capital was surveyed and laid out by Colonel William Light, the first Surveyor-General of South Australia, with his own original, unique, topographically sensitive design. Claims of the design being by the architect George Strickland Kingston have been thoroughly debunked. The city was named after Adelaide of Saxe-Meiningen, queen consort to King William IV at the time. <br/>Adelaide was established as a planned colony of free immigrants, promising civil liberties and freedom from religious persecution, based upon the ideas of Edward Gibbon Wakefield. Wakefield had read accounts of Australian settlement while in prison in London for attempting to abduct an heiress, and realised that the eastern colonies suffered from a lack of available labour, due to the practice of giving land grants to all arrivals. Wakefield's idea was for the Government to survey and sell the land at a rate that would maintain land values high enough to be unaffordable for labourers and journeymen. Funds raised from the sale of land were to be used to bring out working-class emigrants, who would have to work hard for the monied settlers to ever afford their own land. As a result of this policy, Adelaide does not share the convict settlement history of other Australian cities like Sydney, Brisbane and Hobart.<br/>As it was believed that in a colony of free settlers there would be little crime, no provision was made for a gaol in Colonel Light's 1837 plan. But by mid-1837 the South Australian Register was warning of escaped convicts from New South Wales and tenders for a temporary gaol were sought. Following a burglary, a murder, and two attempted murders in Adelaide during March 1838, Governor Hindmarsh created the South Australian Police Force (now the South Australia Police) in April 1838 under 21-year-old Henry Inman. The first sheriff, Samuel Smart, was wounded during a robbery, and on 2 May 1838 in Adelaide one of the offenders, Michael Magee, became the first person to be hanged in South Australia. William Baker Ashton was appointed governor of the temporary gaol in 1839, and in 1840 George Strickland Kingston was commissioned to design Adelaide's new gaol. Construction of Adelaide Gaol commenced in 1841.<br/>Source: https://en.wikipedia.org/wiki/Adelaide (edited)",
+          "category_id": 2,
+          "questions": [
+            {
+              "text": "Of the following, who most likely had the greatest effect on the creation of the city of Adelaide?",
+              "type": "Multiple Choice",
+              "options": [
+                "George Strickland Kingston",
+                "Colonel William Light",
+                "Adelaide of Saxe-Meiningen",
+                "Edward Gibbon Wakefield"
+              ],
+              "answer": "B",
+              "explanation": "Colonel William Light surveyed and laid out the site of the colony’s capital and was the first Surveyor-General of South Australia (1st paragraph), and he designed the capital. Of the four people mentioned, he had the greatest impact on the CREATION of the city. Therefore, the answer is B.",
+              "difficulty": 1
+            },
+            {
+              "text": "The fact Adelaide does not share the same convict settlement history of Sydney can most likely be attributed to",
+              "type": "Multiple Choice",
+              "options": [
+                "Adelaide’s lack of available labour",
+                "Giving free land to anyone who arrived in Adelaide",
+                "Selling land to emigrants rather than giving it away for free",
+                "Keeping the land unaffordable for emigrants so they had to work for it"
+              ],
+              "answer": "D",
+              "explanation": "The 2nd paragraph states that as a result of Wakefield’s idea to keep the land “unaffordable enough for labourers and journeymen”, using the money to bring out working-class emigrants who had to work to afford land, “Adelaide does not share the convict settlement history of other Australian cities”. Therefore, the answer is D.",
+              "difficulty": 1
+            },
+            {
+              "text": "Based on the information in the passage, Adelaide’s initial lack of crime was not due to any of the following except",
+              "type": "Multiple Choice",
+              "options": [
+                "It was a colony made up of settlers with little intention to commit crimes",
+                "The meticulous and topologically specific planning of the Colonel ",
+                "The formation of the South Australian Police Force",
+                "The threat of being hanged for crimes"
+              ],
+              "answer": "A",
+              "explanation": "The 3rd paragraph states that “as it was believed that in a colony of free settlers there would be little crime…”, we can infer that they believed that these settlers did not have any intention to commit crimes. Therefore, the answer is A.",
+              "difficulty": 1
+            },
+            {
+              "text": "All of the following are definitely true except",
+              "type": "Multiple Choice",
+              "options": [
+                "Adelaide’s infrastructure was designed by at least 2 different people ",
+                "It took 4 years for the first gaol to be established after Adelaide’s inception",
+                "Henry Inman was of a higher rank than Samuel Smart at the time of Smart being wounded",
+                "Michael Magee was the first person to be hanged in Adelaide"
+              ],
+              "answer": "B",
+              "explanation": "Adelaide’s inception can be inferred to have been in 1837 (in Colonel Light’s 1837 Plan – which we can infer would be the plan for the city). We know that a temporary gaol existed in 1839, so the first gaol was established sometime between 1837 and 1839 (not within 4 years). Therefore, the answer is B. ",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

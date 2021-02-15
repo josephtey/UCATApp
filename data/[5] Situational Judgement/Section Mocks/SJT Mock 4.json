@@ -1,0 +1,953 @@
+{
+  "exam": {
+    "name": "Situational Judgement 4",
+    "description": "Section mock",
+    "type": "Mock",
+    "time": 26
+  },
+  "sections": [
+    {
+      "name": "Situational Judgement",
+      "description": "Situational Judgement involves understanding real-world situations and identifying critical factors and appropriate behaviour in dealing with them",
+      "time": 26,
+      "stems": [
+        {
+          "text": "Eloise is a junior doctor who has been working at a practice for a number of years. Today, she heard news that one of her patients passed away today, and she feels devastated – even though she keeps trying to tell herself that it wasn’t her fault. How important to take into account are the following considerations for Eloise when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Eloise is likely to experience a number of deaths over her career as a doctor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "While this may be true, it is never easy to deal with the death of a patient and this fact won’t help Eloise’s mental state",
+              "difficulty": 1
+            },
+            {
+              "text": "That the patient had a terminal illness and was bound to pass away",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "This fact will not help Eloise and is not the focus of the scenario, her need to express and deal with her grief over her patient's passing is the crux here",
+              "difficulty": 1
+            },
+            {
+              "text": "That Eloise is aware that it wasn’t her fault that the patient passed away",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Eloise’s self-awareness is very important in this situation, and, after giving it some time, it may help her come to terms with the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "That Eloise has a strong support network",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "It is very important that Eloise relies upon her support network to help her through this tough time and negotiate her overwhelming emotions",
+              "difficulty": 1
+            },
+            {
+              "text": "That the hospital has a counselling service for staff",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "B",
+              "explanation": "While not an immediate concern, this counselling service may be useful for Eloise in the future – if she feels the need for it",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Two medical students, Rachel and Sherry, enter a consulting room and see a patient lying on the bed, unconscious. The doctor said that this patient has recently had a stroke. The students read the notes with regards to his social history, the patient is a regular smoker and drinker. The patient also appears to be overweight. Once they leave the room, Sherry states that with his lifestyle and his state, the patient is a ticking time bomb. She then says that people should take better care of themselves. How appropriate are each of the following responses by Rachel in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Say nothing",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While not awful as remaining silent will show that Rachel does not agree with Sherry nor want to discuss the matter further, it would be appropriate to express her disagreement ",
+              "difficulty": 1
+            },
+            {
+              "text": "Politely express that Sherry’s comments are unfair",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is important for doctors and medical students to be empathetic and understanding – not judgemental. It is thus appropriate for Rachel to politely point this out in a non-confrontational manner",
+              "difficulty": 1
+            },
+            {
+              "text": "Report Sherry’s comment to the supervisor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "This is a disproportionate response to the issue at hand, it should be resolved at a local level first and raised with Sherry instead",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform Sherry about how there may be other factors, including genetic and socioeconomic, that we aren’t aware of",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This is a polite way to alert Sherry to the importance of empathy and consideration for patients",
+              "difficulty": 1
+            },
+            {
+              "text": "Express her agreement to avoid conflict",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is highly inappropriate as it will only serve to reinforce Sherry’s judgemental views of the patient",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Jerry is a senior doctor working at a GP clinic. He is seeing an elderly patient, Theo, for a sore throat. Jerry believes that this is just a cold and a number of further tests rules out the potential of anything more serious. Jerry tells Theo this and says that he should get some rest over the next few days. Theo insists that he gets some medication or antibiotics. How appropriate are each of the following responses by Jerry in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Give Theo additional medication",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Jerry should not allow himself to be bullied by the patient and should administer medication only for appropriate reasons",
+              "difficulty": 1
+            },
+            {
+              "text": "Examine Theo once more to determine whether this may be helpful ",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "One examination should suffice, and Jerry’s time is a consideration; however, doing so will display Jerry’s consideration of Theo’s concerns and may help allay them",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell Theo not to pester him for medication",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is a very rude and inflammatory thing to say and will only escalate the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Reiterate what he has just said about the fact that Theo’s sore throat is likely to be a cold",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Repeating himself and telling Theo what he already knows is not going to address the situation and make him more cooperative",
+              "difficulty": 1
+            },
+            {
+              "text": "Give Theo a placebo",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is not at all appropriate to give a patient a placebo in this situation and doing so will be dishonest and deceptive ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Sophia is working as a medical student at a hospital. Her supervisor is very strict and has set a number of tasks to be done in a very short period of time. Sophia feels that a lot of the tasks are not relevant to her clinical skills and believes they aren’t explained properly. How appropriate are each of the following responses by Sophia in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Seek advice from her academic mentor responsible for this placement",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Any concerns should be passed on to the relevant member of staff responsible for the unit",
+              "difficulty": 1
+            },
+            {
+              "text": "Politely ask the supervisor for more times and more thorough explanations",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this may help alleviate the strain placed on Sophia, the supervisor may be rushed for time and not be able to facilitate Sophia’s requests ",
+              "difficulty": 1
+            },
+            {
+              "text": "Work harder to impress the supervisor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While not terrible, if Sophia has concerns and wishes to complete more clinically related tasks, she should express her concerns",
+              "difficulty": 1
+            },
+            {
+              "text": "Complain about her supervisor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "Sophia should seek to resolve the issue locally first and perhaps vocalise her concerns with the supervisor before escalating ",
+              "difficulty": 1
+            },
+            {
+              "text": "Not complete the tasks",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Sophia shouldn’t simply cease completing the tasks assigned to her, she should communicate her concerns and resolve the issue",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Brayden is a dental student at a clinic. He notices the dentist, Dr Lee, bring out an anaesthetic that he will inject into the patient. After reviewing the patient notes, Brayden notices that she is allergic to that anaesthetic. How appropriate are each of the following responses by Brayden in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Discuss this with Dr Lee as soon as possible",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "The situation should be resolved immediately to prevent the patient being administered that anaesthetic",
+              "difficulty": 1
+            },
+            {
+              "text": "Let Dr Lee know after the procedure",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Brayden should not delay the communication of this information – as it may result in the patient taking the anaesthetic that they are allergic to",
+              "difficulty": 1
+            },
+            {
+              "text": "Swap the anaesthetic for one that the patient is not allergic to",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is very inappropriate to change the prescription without the proper (Dr Lee’s) authority",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the patient if they are allergic to anything",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it is important to confirm whether the patient is allergic to this anaesthetic, the matter should be raised with Dr Lee first ",
+              "difficulty": 1
+            },
+            {
+              "text": "Take no action as there must have been a mistake in the notes",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Action must be taken to avoid the administration of an anaesthetic that may cause an allergic reaction, Brayden cannot assume an error in the notes has been made",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Raj is a GP. As he enters the reception area, intending to collect the next patient, he is approached by a different patient, Margaret. Margaret insists she had an appointment and has been waiting for a long time. Raj checks his booking schedule and does not see Margaret’s appointment next, or for the rest of the day for that matter. How appropriate are each of the following responses by Raj in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Ask the receptionist if they know what’s happened",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is appropriate to gather more information so that Raj can then work on resolving the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Quickly squeeze Margaret in before seeing the next patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "Raj should treat each patient with the attention, and for a sufficient time, and should not rush as this may compromise patient care",
+              "difficulty": 1
+            },
+            {
+              "text": "Apologise to Margaret for her wait",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is both suitable and professional for Raj to apologise for Margaret’s wait",
+              "difficulty": 1
+            },
+            {
+              "text": "After the situation is resolved, look into what error has been made and try to rectify it so this does not occur in the future",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is very important for doctors and health systems as a whole to review any errors and ensure that these mistakes do not repeat",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell Margaret that she hasn’t booked in and he can’t see her today",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is inappropriate on two fronts – Raj shouldn’t impart blame on Margaret (as the clinic might have made a booking error) and, secondly, he should try to resolve the situation such that Margaret can be seen (by Raj, if he has a gap, or another doctor)",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "You are a medical student at a clinical placement in a medical hospital. You notice a young boy walking by himself in one of the wards, with no parents nearby. You have a patient consultation to attend in 5 minutes.  How appropriate are each of the following responses for you to take in this scenario?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Ignore the boy as you have a consultation to attend to and it is not your duty to help out",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is very inappropriate as it is unreasonable to assume that somebody else will resolve the situation and the welfare of the boy should be the main priority",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask a passing nurse to tend to the boy",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this is better than doing nothing, the nurse might be busy and there is no guarantee that s/he will tend to the boy",
+              "difficulty": 1
+            },
+            {
+              "text": "Approach the boy and ask him where his parents are",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is essential that you gather more information about the boy’s situation and determine where his parents are in order to decide how to progress further",
+              "difficulty": 1
+            },
+            {
+              "text": "Lead the boy to the children’s play area and then attend the consultation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "While this may not sound bad on the surface, all you will be doing is moving the boy to another location (away from where the parents perhaps left him)",
+              "difficulty": 1
+            },
+            {
+              "text": "Inform your supervisor that you may be a bit late to the consultation and tend to the boy/help him find his parents",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This is the most appropriate course of action – as it is professional to inform others when you have been delayed and resolving the issue with the boy is the major priority",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "You are the captain of your school’s soccer team. 2 team members have been arguing and now refuse to talk to each other. How appropriate are each of the following responses for you to take in this scenario?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Do not take action and let them resolve the situation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "As the team captain, you should try to take action to rectify the situation and, as they are not talking, it is highly unlikely they will be able to do resolve it themselves",
+              "difficulty": 1
+            },
+            {
+              "text": "Apologise to the teammates on behalf of the other",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "This is only a temporary fix to the issue and the team members should resolve the issue (and apologise) to one another – not via a third party",
+              "difficulty": 1
+            },
+            {
+              "text": "Complain to the coach",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While not awful, it is best to resolve such disputes locally first – rather than escalating the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask both team members, privately, for their perspective on the dispute",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is definitely appropriate for the captain here to attempt to investigate the situation further so that he can determine how to progress",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the coach for advice",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "It is appropriate to approach others for advice; however, the captain should first attempt to resolve the situation himself before doing so",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "You have received a poor mark in your first assignment as a 3rd year medical student. You believe that you did not deserve that mark and your assessor has marked you unfairly. How appropriate are each of the following responses for you to take in this scenario?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Complain to your academic tutor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this may help resolve the issue if you believe unfair marking has taken pace, it is important to review the assessor’s feedback and take some time to process the feedback without immediately making a complaint",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask other students what they were scored by this assessor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "This may help determine whether this assessor is a strict marker, however other students do not have an obligation to divulge their marks and other students’ marks won’t provide a definite indication of unfair marking",
+              "difficulty": 1
+            },
+            {
+              "text": "Review the assessor’s feedback, reflect on your work and then choose how to proceed",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is extremely important to objectively reflect on your marks and determine how to improve rather than simply raise a complaint ",
+              "difficulty": 1
+            },
+            {
+              "text": "Understand that the feedback/grades will balance out over time",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this may help you rationalise the situation, it is not reasonable to assume that this will naturally happen – the situation must be addressed actively",
+              "difficulty": 1
+            },
+            {
+              "text": "Approach the assessor directly to complain about their marking",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "You should first seek to determine if there is any truth to the marking and take some time to process the feedback without immediately making a complaint. Directly confronting the assessor is also not advisable whatsoever",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "You are a medical student at a clinical placement in a medical hospital. You notice a young boy walking by himself in one of the wards, with no parents nearby. The boy looks upset. How appropriate are each of the following responses for you to take in this scenario?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Do not take any action",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "If the boy is lost, as it seems, you must take action immediately for the welfare of the boy and not assume others will take action instead",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the boy to return to the waiting area",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While the boy may have wandered off from his parents in the waiting area, you do not know for sure whether this is the case – you may simply be leading him away from his parents",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the boy if he knows where his parents are",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is extremely important to determine whether the boy is, in fact, lost and use this information to determine how to proceed with this ",
+              "difficulty": 1
+            },
+            {
+              "text": "Approach the boy and try to comfort/reassure him",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "The boy is evidently upset and, hence, it would definitely be appropriate to try to first comfort him",
+              "difficulty": 1
+            },
+            {
+              "text": "Get advice from your supervisor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it is appropriate to seek advice from a supervisor when you are unsure, the situation is urgent and by the time you consult your supervisor the boy might have walked off – so this isn’t the most feasible course of action",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Your friend has both wanted to study art since the beginning of high school. Although she still wants to study art, her parents are adamant that she should study medicine. How appropriate are each of the following responses for you to take in this scenario?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Tell her to go against what her parents have said and follow her dreams",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While she should be encouraged to follow her passion, rather than choose a course purely based on parental advice, doing so in the manner suggested by this response is likely to be controversial and, potentially, spark disharmony in their household",
+              "difficulty": 1
+            },
+            {
+              "text": "Encourage her to vocalise her passion to study art to her parents",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is important for your friend to communicate their aspirations to their parents rather than remain quiet and feed into the misconception that she will study medicine",
+              "difficulty": 1
+            },
+            {
+              "text": "Encourage her to study medicine due to the ability to help others",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this is a valid point and it is ok to express the benefits of study medicine to your friend, she has already expressed her passion to study art",
+              "difficulty": 1
+            },
+            {
+              "text": "Talk to your friend’s parents directly and tell them about her aspirations",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It would be very inappropriate for you personally to approach the parents and, instead, she should be encouraged to discuss with her parents",
+              "difficulty": 1
+            },
+            {
+              "text": "Be understanding and empathetic to your friend’s difficult situation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "As a friend, you should be there to support her and provide reassurance ",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "Your friend wishes to study medicine but is not sure which path to follow to do so. She has been offered a position in biomedicine, with guaranteed entry into postgraduate medicine. She also has the option to study undergraduate medicine at an interstate university. How appropriate are each of the following responses for you to take in this scenario?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Encourage your friend to study undergraduate medicine as it is a shorter course",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "The length of the course alone should not be a reason to consider undergraduate medicine – you should check in with your friend before making such a recommendation ",
+              "difficulty": 1
+            },
+            {
+              "text": "Encourage your friend to do additional research into the entry pathways to determine which is a better fit for her situation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Before making any decision regarding a career path, conducting extra research is definitely advisable",
+              "difficulty": 1
+            },
+            {
+              "text": "Encourage her to discuss these options with a qualified career’s counsellor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "A career counsellor will likely provide your friend with extra information and assist her in the decision-making process",
+              "difficulty": 1
+            },
+            {
+              "text": "Encourage her to study postgraduate medicine as you heard, from a family friend, that students who graduate via this pathway tend to be more mature by the time they become a doctor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this may be true, anecdotal evidence alone should not be used to dictate your friend’s path",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell your friend that it is completely up to her",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this is true in essence, such a remark is not helpful whatsoever and, instead, a more proactive response (such as encouraging her to consult a career’s counsellor) would be far more appropriate",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "You are a first-year medical student working on a group task with 5 other classmates. This task contributes 30% to your coursework grade and is, hence, a major assignment. The deadline is fast approaching, and a number of group members haven’t finished their sections yet. For every day late the assignment is submitted, 10 % of the available marks are deducted.How appropriate are each of the following responses for you to take in this scenario?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Do nothing as it is not your responsibility to take care of the other students’ sections",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is very inappropriate as, in a group environment, members should seek to collaborate and check in on each other – rather than solely focusing on their own work",
+              "difficulty": 1
+            },
+            {
+              "text": "Organise a meeting to check in with the progress of the other group members",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "A meeting would be a great chance to communicate with the other group members and see how they’re going on their sections",
+              "difficulty": 1
+            },
+            {
+              "text": "Once you have finished your section, ask the group members if they require any additional assistance",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it is appropriate to offer this assistance, doing so after you have finished your section may be too late – instead, you should ask the group members about their progress beforehand",
+              "difficulty": 1
+            },
+            {
+              "text": "Complain to the academic tutor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While it is not extremely inappropriate to notify the tutor, you should first seek to consult the group members and resolve the situation at a local level before escalating it",
+              "difficulty": 1
+            },
+            {
+              "text": "Organise a work schedule for the other group members to adhere to in order to finish their sections by the due date",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this may help the group finish in time, you should not force them to follow a schedule that you have created – rather open, two-way communication is paramount",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

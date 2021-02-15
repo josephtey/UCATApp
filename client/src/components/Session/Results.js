@@ -62,7 +62,9 @@ const Results = (props) => {
                   <SectionScore>
                     {props.session.currentSession.score_breakdown[section.section_id.toString()][0]} Correct | {props.session.currentSession.score_breakdown[section.section_id.toString()][2]} Partially Correct | {props.session.currentSession.score_breakdown[section.section_id.toString()][1]} Incorrect <br />
                     <br />
-                    Score: {props.session.currentSession.score_breakdown[section.section_id.toString() + "_scaled"]}
+                    <span style={{ color: 'green' }}>
+                      Score: {props.session.currentSession.score_breakdown[section.section_id.toString() + "_scaled"]}
+                    </span>
                   </SectionScore>
                 </SectionHeader>
 
@@ -152,11 +154,12 @@ const SectionHeader = styled.div`
 `
 
 const SectionScore = styled.div`
-  opacity: 0.3;
+  color: black;
   padding-bottom: 10px;
 `
 
 const SectionBox = styled.div`
+  margin: 15px 0;
 `
 
 const LinkLeft = styled.div`

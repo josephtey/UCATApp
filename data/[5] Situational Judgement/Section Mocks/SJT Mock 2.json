@@ -1,0 +1,953 @@
+{
+  "exam": {
+    "name": "Situational Judgement 2",
+    "description": "Section mock",
+    "type": "Mock",
+    "time": 26
+  },
+  "sections": [
+    {
+      "name": "Situational Judgement",
+      "description": "Situational Judgement involves understanding real-world situations and identifying critical factors and appropriate behaviour in dealing with them",
+      "time": 26,
+      "stems": [
+        {
+          "text": " During a class, the lecturer asks for dental students to volunteer as mentors. Tim likes the idea of being a mentor and believes that he would be able to provide some useful advice. He isn’t sure however whether he’ll be able to commit much time to mentor next year. How important to take into account are the following considerations for Tim when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "That he believes he will be able to provide useful advice",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "If Tim thinks that he can provide useful advice and help others, he should do so to help new students and provide them with guidance",
+              "difficulty": 1
+            },
+            {
+              "text": "That he never had a mentor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "Regardless of whether or not he had a mentor, Tim should be willing to mentor other students if he is keen to do so",
+              "difficulty": 1
+            },
+            {
+              "text": "That he may be able to provide unique advice to help out new students",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "If Tim has self-efficacy in his ability to help put as a mentor, this should be a reason to get involved to help others",
+              "difficulty": 1
+            },
+            {
+              "text": "That he has no obligation to help others",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Philanthropically it would be great for Tim to be involved in education and teaching newer students – regardless of whether or not there is an obligation there",
+              "difficulty": 1
+            },
+            {
+              "text": "That he has limited time this year",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "B",
+              "explanation": "While Tim must weigh up his own commitments as schedule when making a decision, he may be able to mentor despite this limited time by effectively allocating his time between his various endeavours",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " A medical student, Aaron, who has been completing a placement at a hospital, is approached by his supervisor. The supervisor informs Aaron that a few of the doctors have mentioned that his manner with patients and other stuff can be abrupt and dismissive. The supervisor urges Aaron to work on this. How important to take into account are the following considerations for Aaron when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "How Aaron’s behaviour has made patients feel",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "It is essential that Aaron considers the effect of his behaviour on his patients – as they may feel uncomfortable in his presence",
+              "difficulty": 1
+            },
+            {
+              "text": "The impact that his demeanour is having on his work relationships",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Team working and effective communication is essential in the medical industry and , if this is compromised, patient care may be also affected",
+              "difficulty": 1
+            },
+            {
+              "text": "That the doctors are overreacting",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "It is important for Aaron to take this feedback on board and strive for self-betterment – rather than merely putting this down to an overreaction",
+              "difficulty": 1
+            },
+            {
+              "text": "That his grades/assessment results in this placement might suffer if he doesn’t adjust his manner",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "B",
+              "explanation": "While this is important, the effect of Aaron’s demeanour on the hospital’s patients and the staff is more of a concern",
+              "difficulty": 1
+            },
+            {
+              "text": "That no patients have told him of this yet",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "While the fact that no patients have complained yet is a good sign, the feedback of the supervising doctors should still be taken on board and the patients may not have felt comfortable to complain",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " Mackenzie is a second medical student and is having a discussion with her mentor, Thomas – who is a final year medical student. Mackenzie brings up her upcoming medical law assignment and Thomas says not to stress about it – as he just copied his assignment from a website. Mackenzie is taken aback as Thomas has a reputation of being an honest, hardworking student. It is university policy to report any current or past incidents of academic misconduct. How important to take into account are the following considerations for Mackenzie when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Robert’s reputation as an honest, hardworking student",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Robert’s reputation offers him no protection from these alleged activities and this should not be considered",
+              "difficulty": 1
+            },
+            {
+              "text": "University policy",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "If it is required for the medical school to know about academic misconduct, this should be heeded",
+              "difficulty": 1
+            },
+            {
+              "text": "That Mackenzie could do the same if Robert got away with it",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Cheating on an assignment constitutes academic misconduct, Mackenzie should not even consider engaging in this",
+              "difficulty": 1
+            },
+            {
+              "text": "That this happened a while ago",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "This is irrelevant as university policy requires students to report past examples of academic misconduct",
+              "difficulty": 1
+            },
+            {
+              "text": "The other students may also have cheated on this assignment",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "While this may be the case and is important to consider, the situation at hand is focussing on Robert and that should be the main focus",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " Caroline is a junior doctor at a rural hospital and is asked to conduct a procedure on a patient by the receptionist. The receptionist warns Caroline that this patient has been waiting a while and is very irritated. Caroline is worried about interacting with the patient but knows that the receptionist often exaggerates. How important to take into account are the following considerations for Caroline when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "The urgency of the procedure",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "It is important to consider the urgency of the procedure, the patient’s potential discomfort and the need to conduct the procedure to alleviate the patient’s symptoms",
+              "difficulty": 1
+            },
+            {
+              "text": "The receptionist’s history of exaggeration",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "While it is important to consider that the patient might not actually be very agitated, it would be inappropriate for Caroline to simply dismiss what the receptionist has said",
+              "difficulty": 1
+            },
+            {
+              "text": "Caroline’s safety",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Health professionals' safety is a major concern and Caroline should not put herself in a situation where she might be in danger; with that being said, there is no reason to suggest that the patient poses a threat to Caroline",
+              "difficulty": 1
+            },
+            {
+              "text": "The urgency of the patient's symptoms",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Being a doctor, particularly at a rural hospital which may be understaffed, means you have a responsibility to treat many patients and alleviate their symptoms as a matter of urgency",
+              "difficulty": 1
+            },
+            {
+              "text": "The availability of more senior doctors to assist her",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "B",
+              "explanation": "If the patient is irate, it may be appropriate for a more senior colleague to accompany her; however, before doing so, she must ensure that she is adequately informed about the scenario",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " Cameron is a very talented medical student and is often praised for his meticulous nature. While attending to one patient, the doctor asks for the results that she had asked Cameron to print out earlier in the day. Cameron realises that he has completely forgotten to do so. How important to take into account are the following considerations for Cameron when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "The impact on the relationship with the doctor if she does not accept responsibility for his mistake",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Openness and honesty are fundamental to the medical industry and trust can only be built if relationships are open and honest with all members of the team",
+              "difficulty": 1
+            },
+            {
+              "text": "That mistakes happen and he can quickly print the results out now",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "It is important to identify why this mistake was made and to take action to ensure that it doesn’t again in the future",
+              "difficulty": 1
+            },
+            {
+              "text": "Cameron’s reputation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "If he has made a mistake, Cameron should own up to it – regardless of the effect on his reputation",
+              "difficulty": 1
+            },
+            {
+              "text": "That Cameron’s mistake may inconvenience the doctor and the patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "This is very important to consider and highlights the need for Cameron to be more careful and attentive in the future",
+              "difficulty": 1
+            },
+            {
+              "text": "That if he admits that he has made a mistake, the supervising doctor may mark him down when providing feedback",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Irrespective of the impact that this will have on have on his mark, Cameron should accept his error and take steps to ensure it doesn’t happen again in the future",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " Alyssa, a medical student, notices a question on a forum from another medical student, Jim. Jim has posted information about a clinical encounter he had, without mentioning the name of the patient. He has asked a question about the potential diagnosis. Alyssa realises that Jim has included some patient identifiable information. How important to take into account are the following considerations for Alyssa when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "That Jim may not have meant to include the patient-identifiable information",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Whether or not Jim intended to do this is irrelevant, the priority here is to close this breach in confidentiality as swiftly as possible",
+              "difficulty": 1
+            },
+            {
+              "text": "That the hospital the patient attended is not included",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Even though this might be the case, patient-identifiable data has been published and the patient's privacy has been breached",
+              "difficulty": 1
+            },
+            {
+              "text": "The potential negative impacts on the patient",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "The patient's welfare and confidentiality are paramount here, as such, the breach must be closed as quickly as possible",
+              "difficulty": 1
+            },
+            {
+              "text": "That it is university policy to report any breaches in confidentiality",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Alyssa must abide by the medical school’s policy and take adequate steps to report and rectify this breach in confidentiality",
+              "difficulty": 1
+            },
+            {
+              "text": "That many medical students use this forum and someone else is likely to apologise",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "While this might be the case, Alyssa still should take a proactive approach in reporting this breach – rather than simply assuming that another student will",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " An elderly patient, Margaret is waiting in hospital – about to undergo hip surgery. A medical student, Lucy, notices that Margaret seems to be sad and upset. None of the other staff appear to take note of this. When she mentions this to a nurse, the nurse says that Margaret is too emotional. How important to take into account are the following considerations for Lucy when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "That there may be other issues that Margaret is facing",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Lucy should not make assumptions about Margaret’s situations and there may be issues in the background that she is not aware of rather than her impending surgery",
+              "difficulty": 1
+            },
+            {
+              "text": "Margaret’s emotional well-being",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Patient health and wellbeing should be a priority – this includes not just physical, but emotional and social too",
+              "difficulty": 1
+            },
+            {
+              "text": "Margaret’s reputation for being too emotional",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Regardless of this, it is the duty of the medical team to determine why she is upset and take action to help her feel at ease",
+              "difficulty": 1
+            },
+            {
+              "text": "Whether the surgery has been explained properly to Margaret",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "It is important to clearly explain the treatment process to patients and a lack of clarity surrounding this may leave them feeling confused or nervous",
+              "difficulty": 1
+            },
+            {
+              "text": "That the other staff don’t take notice of this",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "C",
+              "explanation": "Regardless of whether the other staff take notice, if Lucy thinks Margaret is upset, she should act appropriately to resolve this situation. This may still be of minor importance however as it means that Margaret may not be comforted or tended to by any of the other staff",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " As part of an assessment, two students, Adrian and Jeremy are required to deliver their findings after interviewing a patient. On the morning of the presentation, Adrian calls Jeremy saying that he won’t be able to present as he had too much alcohol at a party last night. He admits that his drinking is a problem. How important to take into account are the following considerations for Jeremy when deciding how to respond to the situation?",
+          "category_id": 19,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "That the tutor knows that Adrian will not be able to present",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "Jeremy should keep an open channel of communication with his tutor and inform them of this – potentially rescheduling if possible",
+              "difficulty": 1
+            },
+            {
+              "text": "Do not pursue Adrian’s drinking problem further to respect his privacy",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "This is a serious problem for Adrian and it is also a fitness to practice issue – which may impact patient care in the future if it isn’t addressed",
+              "difficulty": 1
+            },
+            {
+              "text": "That Adrian should present regardless as previously decided",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "If he is not in a state to do so, Adrian should not be forced to go to university and present – he may still be suffering the after-effects of his binge drinking",
+              "difficulty": 1
+            },
+            {
+              "text": "The effect of Adrian’s drinking on his ability to practice in the future",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "A",
+              "explanation": "If this issue lingers on, patient care may be compromised on the future and as such, this is a very important consideration",
+              "difficulty": 1
+            },
+            {
+              "text": "That many medical students binge drink alcohol",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very important",
+                "Important",
+                "Of minor importance",
+                "Not important at all"
+              ],
+              "answer": "D",
+              "explanation": "Although many students may do so, doesn’t mean that it is acceptable – particularly amongst future doctors",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " A medical student, Clara, is met by a discernibly upset patient in the waiting room. The patient explains that while waiting to be seen, she heard the doctor discussing her test results out loud and that she is worried that other patients may have heard. The patient wants to know what will be done to resolve this. How appropriate are each of the following responses by Clara in this situation? Assume that he would say each of the following politely.",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Rest assured – your results are completely confidential",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this may help placate the patient, Clara cannot make these promises; she does not have all the information about who the doctor has been discussing with and whether or not there has been a breach in confidentiality",
+              "difficulty": 1
+            },
+            {
+              "text": "You should follow the formal hospital complaint process if you wish to make a complaint",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is suitable to direct the patient to the formal channels to make a complaint and ensures that this is done correctly",
+              "difficulty": 1
+            },
+            {
+              "text": "What were the results that the doctor divulged publicly",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This does not help or address the current patient's concerns, and it may seem like Clara is trying to ascertain the patients results, which she has no right to know",
+              "difficulty": 1
+            },
+            {
+              "text": "I do apologise and I will look into this right away",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is completely appropriate to apologise to the patient for the situation and reassure her that action will be taken",
+              "difficulty": 1
+            },
+            {
+              "text": "Sorry I cannot help – I’m just a medical student",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is very dismissive of the patient’s concerns and does not help out the situation. Clara should do her best to close this breach in confidentiality",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " Emma is a medical student undertaking a hospital placement. A patient, Adrian, approaches her. He says that he was told to take an antibiotic by his doctor but doesn’t want to take it. Adrian says that when he was last prescribed something by this doctor, he had an adverse reaction to it and thinks the same thing will happen again. He seems agitated and demands that Emma takes back the medication, although he needs it to treat an infection. How appropriate are each of the following responses by Emma in this situation? Assume that each of the following responses would be said politely.",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "It’s up to you if you want to take the antibiotic or not",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "This response does not address the patient's concerns is quite dismissive of them.  However, it is not awful as the statement respects the patient’s autonomy",
+              "difficulty": 1
+            },
+            {
+              "text": "Why do you think you will have an adverse reaction again?",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This is entirely appropriate as it takes the patient's concerns seriously and assists Emma in gaining more information about the nature of the patients concerns",
+              "difficulty": 1
+            },
+            {
+              "text": "Sir can you please calm down – there are other patients here",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "The patient has concerns and being asked to calm down would be counterproductive – likely to be perceived as dismissive and it may lead to an escalation of the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Did you express your concerns to the doctor who prescribed it to you?",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While this is a reasonable question, that will allow Emma to gain more information about the situation, it does not help the patient at the moment",
+              "difficulty": 1
+            },
+            {
+              "text": "Would you like me to direct you to a doctor?",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "As a medical student Emma is not yet qualified to prescribe medications or comment on the safety of the medication – as such, it is very appropriate to direct her to a doctor",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " A number of dental students have an oral presentation that they are to deliver as a group. A couple of days before presenting each member is practicing their section in front of the group. When Connor presents, he seems to be stumbling over his words and does not seem to have a good understanding of his section’s content, according to Claire. None of the other group members comment on this – instead saying that he did well. How appropriate are each of the following responses by Claire in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Privately provide Connor with the feedback in a constructive manner",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "Claire must ensure that the feedback is constructive – asking Connor how she felt it went, discussing things he did well and focusing on improvements. By doing so in private, Conno may feel more comfortable with this",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the other group members if they have any improvements for Connor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "It is better than letting this issue go unaddressed, however, vocalising these issues privately with Connor would be advisable",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Connor privately if he’d like to practice his section with her again some time before the presentation",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "By doing so, Claire will be offering support and a practical solution – without appearing condescending or putting a negative spin on Connor’s presentation",
+              "difficulty": 1
+            },
+            {
+              "text": "Mention her concerns in front of the group and ask if any of the others agree",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it is appropriate for Claire to voice her concerns, in a constructive manner, it may be better to do this privately to avoid embarrassment for Connor",
+              "difficulty": 1
+            },
+            {
+              "text": "Suggest that she presents Connor’s section too (instead of him)",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "This is very inappropriate as it is Connor’s right to present his section and Claire should focus on assisting him to do so as best as possible – not simply taking up this role instead of him",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " Evan is a medical student and is shadowing a GP. The GP is running almost an hour behind due to delays earlier in the day. Evan takes a quick break to go to the toilet – which is next to the waiting room. While returning to the GP’s room, a patient approaches him and begins to complain about the wait time. He appears agitated and wants to be seen immediately. How appropriate are each of the following responses by Evan in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Tell the patient that the doctor will see him next",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "It is not appropriate to simply promise the patient they can be seen next – others may have been waiting longer than this patient and patients should be seen in the order of their booking",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the doctor if anything can be done about the wait time",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "B",
+              "explanation": "While it is appropriate to seek to reduce wait time, it is likely that the GP is busy and, potentially, stressed and asking him to speed up or rush the appointments may have a detrimental impact on patient care",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask the patient to relax and have a seat",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This comment is likely to anger the patient and does not help in resolving his concerns whatsoever",
+              "difficulty": 1
+            },
+            {
+              "text": "Apologise to the patient for their wait",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is very appropriate for Evan to apologise to the patient for their inconvenience and doing so may help placate the situation",
+              "difficulty": 1
+            },
+            {
+              "text": "Tell the patient he will be soon shortly",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this may help diffuse the situation, if Evan doesn’t actually know how late the GP is running or when this patient is booked in, he shouldn’t be making such promises",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": " A number of dental students are working on a group project – focused on ways to improve the oral health of individuals from impoverished areas. The group members are assigned a section to complete and begin to work. It quickly becomes apparent, however, that one student, Chris, is not passionate about the project or working/contributing to the expected standard. How appropriate are each of the following responses by the other group members in this situation?",
+          "category_id": 20,
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Privately explain to Chris that his mentality is affecting the output and morale of the group",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is important for Chris to understand the consequences of his actions. Approaching him in private is acceptable as he won’t be embarrassed in front of the group",
+              "difficulty": 1
+            },
+            {
+              "text": "Agree to distribute Chris’ work among the other group members",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "D",
+              "explanation": "This is very inappropriate as it may burden the other group members and restrict Chris’ learning, Chris should be approached first in order for the remainder of the group to seek clarification, rather than making assumptions about his contributions",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Chris if he would prefer to work on a different section",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "This response shows the group’s willingness to resolve the problem and reach a compromise to ensure all members are content",
+              "difficulty": 1
+            },
+            {
+              "text": "Ask Chris why he doesn’t seem to be engaged in this project",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "A",
+              "explanation": "It is important for the group to explore why Chris is displaying this behaviour and these root causes can be then addressed potentially",
+              "difficulty": 1
+            },
+            {
+              "text": "Complain to the tutor",
+              "type": "Multiple Choice (SJ)",
+              "options": [
+                "Very Appropriate",
+                "Appropriate but not ideal",
+                "Inappropriate but not awful",
+                "Very inappropriate"
+              ],
+              "answer": "C",
+              "explanation": "While this may help rectify Chris’ behaviour, any issues should be first resolved at a local level rather than escalated",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

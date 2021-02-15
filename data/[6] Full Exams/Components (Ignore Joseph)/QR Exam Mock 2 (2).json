@@ -1,0 +1,631 @@
+{
+  "exam": {
+    "name": "QR Section Mock 2",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 24
+  },
+  "sections": [
+    {
+      "name": "Quantitative Reasoning",
+      "time": 24,
+      "stems": [
+        {
+          "text": "The following graph shows the distance travelled by a person on their bike to and from their house over a 30 second time period (at the 30 second mark they did not make it back home).",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 2/1.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What was the biker’s average speed for the first 7 seconds, to the nearest whole number?",
+              "type": "Multiple Choice",
+              "options": [
+                "10 m/s",
+                "11 m/s",
+                "12 m/s",
+                "13 m/s"
+               ],
+              "answer": "B",
+              "explanation": "At 7 seconds the biker travelled 80m, therefore using the formula s = d/t = 80/7 = 11.42…m/s = 11m/s (average speed). Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "At which of the following time intervals has he been travelling at an average speed 12m/s?",
+              "type": "Multiple Choice",
+              "options": [
+                "25 seconds",
+                "30 seconds",
+                "10 seconds",
+                "7 seconds"
+               ],
+              "answer": "C",
+              "explanation": "At 10 seconds he has travelled 120 metres, thus the average speed over those 10 seconds would be 120/10 = 12m/s.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "If the biker did another 30 second ride but on a different route, but his speed consistently matched the same average speed he travelled between 10 and 15 seconds of his original 30 seconds, how far did he travel the second time around?",
+              "type": "Multiple Choice",
+              "options": [
+                "20 metres",
+                "80 metres",
+                "100 metres",
+                "120 metres"
+               ],
+              "answer": "D",
+              "explanation": "In 10-15 seconds, he travelled 20m (140-120 = 20). Therefore, his average speed during those 5 seconds would have been 20/5 = 4m/s. Therefore, if he travelled 30 seconds at this speed, his distance covered would be 30*4 = 120m. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "How far did the biker travel over the 30 seconds? ",
+              "type": "Multiple Choice",
+              "options": [
+                "50 metres",
+                "140 metres",
+                "190 metres",
+                "230 metres"
+               ],
+              "answer": "D",
+              "explanation": "After 15 seconds he was 140m away from his house, and from 15-30 seconds he travelled about 90m back. Therefore, 140 + 90 = 230m in total. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+
+          ] 
+        },
+
+        {
+          "text": "The following graph highlights several mental disorders and the annual percentage of patients who came into a certain hospital from 1985 to 2005.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 2/2.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "If 5% of patients had OCD in 1985, by how much did the percentage of patients with Bipolar increase from 1990 to 1995?",
+              "type": "Multiple Choice",
+              "options": [
+                "0%",
+                "5%",
+                "10%",
+                "15%"
+               ],
+              "answer": "B",
+              "explanation": "Bipolar 1990 = 5%. Bipolar 1995 = 10%. Therefore, there was a 5% increase. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If 185,000 patients came to the hospital in 2000, how many of these patients had anxiety?",
+              "type": "Multiple Choice",
+              "options": [
+                "27,750 patients",
+                "18,500 patients",
+                "55,500 patients",
+                "83,250 patients"
+               ],
+              "answer": "C",
+              "explanation": "185,000*0.30 = 55,500. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If there were 1,300 patients who came into the hospital in 1985 with depression, how many patients came in with anxiety in the same year?",
+              "type": "Multiple Choice",
+              "options": [
+                "234 patients",
+                "390 patients",
+                "650 patients",
+                "780 patients"
+               ],
+              "answer": "C",
+              "explanation": "If 1,300 patients came in with depression in 1985 (60%), then the total amount of patients = 1,300/0.60 = 2,166.66… .Therefore, number of anxiety patients in 1985 = 0.30*2,166.66… = 650. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "In how many years were the number of Bipolar and OCD patients coming to the hospital the same?",
+              "type": "Multiple Choice",
+              "options": [
+                "3 years",
+                "6 years",
+                "7 years",
+                "Can’t tell"
+               ],
+              "answer": "C",
+              "explanation": "From 1985-1990 and during one year in between 2000 and 2005, the two lines for Bipolar and OCD intersect/overlap. Therefore, we know there were the same number of patients for both for 7 years. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 21
+          }
+          ] 
+        },
+
+        {
+          "text": "The following graph shows the acceptance rate (%) of college applications to College X from 2000 to 2007. In 2004, 250 students applied to College X. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 2/3.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "If the number of students who applied to College X increased by 20% from 2004 to 2006, how many students got accepted in 2006?",
+              "type": "Multiple Choice",
+              "options": [
+                "50 students",
+                "75 students",
+                "150 students",
+                "300 students "
+               ],
+              "answer": "C",
+              "explanation": "If the number of applicants increased by 20% from 250 in 2004 to 2006, then in 2006 the number of applicants would be 300. In 2006, however, the acceptance rate was at 50%. Therefore, only 150 applicants were accepted. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the same number of students applied to College X in 2004 and 2007, how many fewer students were accepted in 2007 than in 2001?",
+              "type": "Multiple Choice",
+              "options": [
+                "50 students",
+                "150 students",
+                "175 students",
+                "225 students"
+               ],
+              "answer": "C",
+              "explanation": "In 2004, the acceptance rate was 90% whereas in 2007, the acceptance rate was 20%. There is a 70% difference in acceptance rates, and if the number of students remained the same in both years, then the difference in numbers = 0.70*250 = 175 students. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If 600 students got accepted into College X in 2002, but how much did the number of students who applied change from 2002 to 2004?",
+              "type": "Multiple Choice",
+              "options": [
+                "Increase of 150 students",
+                "Increase of 550 students",
+                "Decrease of 550 students",
+                "Decrease of 150 students"
+               ],
+              "answer": "C",
+              "explanation": "If 600 students got accepted in 2002 at a rate of 75%, then the total who applied would be 600/0.75 = 800 total. Therefore, the difference between 800 students applying in 2002 and 250 students applying in 2004 is a decrease in 550 students applying to College X. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the same number of students apply to College X every year, what is the percentage decrease from the number of students who got accepted in 2001 to those who got accepted in 2007?",
+              "type": "Multiple Choice",
+              "options": [
+                "20% decrease",
+                "30% decrease",
+                "50% decrease",
+                "60% decrease "
+               ],
+              "answer": "C",
+              "explanation": "If every year has the same number of applicants, let’s just say that there were 100 applicants for simplicity. Therefore, in 2001, 0.40*100 = 40 applicants were accepted. In 2007, 0.20*100 = 20 applicants were accepted. Thus, we can see that there was a (40 – 20)/40 = 50% decrease in applicants from 2001-2007. Therefore, the correct answer is C (alternatively you can just look at the percentages and see that 20% is half of 40% etc, but some people may find it easier to thing of it in numbers rather than percentage). ",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ] 
+        },
+
+        {
+          "text": "The following graph shows the reasons why people did not report a crime to the police. A total of 100,000 people did not report a crime to the police. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 2/4.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "How many people who did not report a crime to the police stated why they didn’t?",
+              "type": "Multiple Choice",
+              "options": [
+                "24,000",
+                "35,000",
+                "76,000",
+                "84,000"
+               ],
+              "answer": "C",
+              "explanation": "Did not state why = 24%, therefore we know 76% did state why. Therefore, 100,000*0.76 = 76,000. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "How many more people did not report a crime to the police because they police would do nothing about it than those who did not have insurance?",
+              "type": "Multiple Choice",
+              "options": [
+                "1,000",
+                "5,000",
+                "6,000",
+                "11,000"
+               ],
+              "answer": "B",
+              "explanation": "Police would do nothing about it = 6%. No insurance = 1%. Therefore we can see there is a 5% difference here. Thus, 5% of 100,000 = 5,000. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What is the ratio of people who did not report a crime to the police because the perpetrator was known to them to those who had other reasons?",
+              "type": "Multiple Choice",
+              "options": [
+                "1:10",
+                "10:1",
+                "1:5",
+                "5:1 "
+               ],
+              "answer": "C",
+              "explanation": "Perpetrator was known to me = 2%. Other reasons = 10%. The ratio of 2%:10% = 2:10 = 1:5. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "If the police encouraged all those who thought their crime was not serious enough to be reported to report all these crimes, but the percentage of those who did not state why remains the same, how many people now did not state why?",
+              "type": "Multiple Choice",
+              "options": [
+                "24,000",
+                "19,920",
+                "20,000",
+                "18,430"
+               ],
+              "answer": "B",
+              "explanation": "Not serious enough/no loss = 17%, and 17% of 100,000 is 17,000. Therefore if all these people reported the crime to the police, only 83,000 people would remain. Thus, if the percentage of those who did not state why remains the same, then 24% of 83,000 = 19,920 people who did not state why. Therefore, the correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ] 
+        },
+
+        {
+          "text": "The diagram below shows the plans for a house going to be built. Note that the builders only have 148m of wood to build the frame of the house with (not including the door, only the walls, floor and roof). It is not to scale. Note that the centre of the roof is aligned with the centre of the front wall. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 2/5.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "The width and the height of the door are in a 2:3 ratio. How much plaster would the builder need for the front wall of the house, if it was to cover the entire wall area?",
+              "type": "Multiple Choice",
+              "options": [
+                "22m2",
+                "22.5m2",
+                "24m2",
+                "25.5.75m2"
+               ],
+              "answer": "B",
+              "explanation": "Total area of the front of the house (inc. door) = 6*4 = 24m2. Width of the door has to be 1m, if it is in a 2:3 ratio with the 1.5m height. Therefore, the area of the door is 1*1.5 = 1.5m2. Therefore the area of the front wall of the house without the door is 24 – 1.5 = 22.5m2. Therefore, the correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+          {
+              "text": "How much wood is required to build the triangular frames of the roof, for only the front of the house?",
+              "type": "Multiple Choice",
+              "options": [
+                "18m",
+                "16m",
+                "58m",
+                "42m"
+               ],
+              "answer": "A",
+              "explanation": "Bottom edge of the triangle is 1+6+1 = 8m long, therefore, using the formula for finding the diagonal, b = 4m, and a = 3m from the diagram. Thus, c2 = 9 + 16 = 25. Thus, c = 5m (since c cannot be -5). Therefore the perimeter of the frame = 5 + 5 + 8 = 18m. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+          {
+              "text": "How long (depth) can the house possibly be at a maximum, assuming the wood needed to build the frame in between the two faces of the house is connected to the 7 vertices of this diagram of the front of the house (dotted line)? (don’t include the door frame)",
+              "type": "Multiple Choice",
+              "options": [
+                "10m",
+                "12m",
+                "15m",
+                "18m"
+               ],
+              "answer": "B",
+              "explanation": "The roof frame calculated in Q18 is 18m, and we can calculate the rest of the perimeter of the front to be 4 + 6 + 4 = 14m. Therefore the wood needed for the front of the house is 18 + 14 = 32m. The back will also be 32m. Since only 148m of wood is available, we have 148 – 32 – 32 = 84m for the length. Since we have 7 vertices to connect, 84/7 = 12m for each one. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 12
+          },
+
+          {
+              "text": "If the front door is 1m wide, what is the maximum number of 2m x 2m windows can the builder put into the front of the house on the front wall?",
+              "type": "Multiple Choice",
+              "options": [
+                "2",
+                "4",
+                "5",
+                "6 "
+               ],
+              "answer": "C",
+              "explanation": "The remaining wall space after the door is (4*6) – (1*1.5) = 22.5m2. The space either side of the door is 2.5m wide, therefore you can only have 1 window on either side of the door, lengthways. In terms of height, since the wall is 4m tall, you could technically have 2 windows vertically on either side. However, there is a space on top of the door, meaning you could have 3 windows lengthways above the door height and then 2 windows next to the door on either side. Thus, the maximum number of windows you could have is 5. Therefore, the correct answer is C. ",
+              "difficulty": 1,
+              "category_id": 12
+          }
+          ] 
+        },
+
+        {
+          "text": "James drives his car at a speed of 30km/h on suburban roads, however he must slow down to 10km/h when driving over speedbumps. It takes him 10 seconds to drive over a speed bump. Assume that he can instantaneously reduce his speed.",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "If he is driving down a suburban road with 4 speed bumps for 5 minutes, how far does he go approximately, to the closest value below?",
+              "type": "Multiple Choice",
+              "options": [
+                "2.17km",
+                "2.5km",
+                "2.27km",
+                "2.28km"
+               ],
+              "answer": "D",
+              "explanation": "If he drives over 4 speed bumps, that’s 40 seconds it takes him in total to go over them at 10km/h – therefore we can calculate that the distance he travelled over the speed bumps is d = s*t = 10*(40/60/60) = 0.1111km. The distance for the remaining 4 minutes and 20 seconds: d = s*t = 30*(4.3333/60) = 2.1666km. Therefore, in total 0.111+2.1666 = 2.2777…km. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "James can travel twice as fast on city roads, however he has to stop for 3 minutes at any traffic light. One day James drives 10km in the city, stopping at 3 traffic lights. How long did he spend driving?",
+              "type": "Multiple Choice",
+              "options": [
+                "9 minutes",
+                "10 minutes",
+                "19 minutes",
+                "20 minutes"
+               ],
+              "answer": "C",
+              "explanation": "If he drives at 60km/h in the city, and he drives 10km, he spent t = d/s = 10/60 = 0.1666 hours = 10 minutes driving. If he has to stop at 3 traffic lights for 3 minutes, that’s an extra 9 minutes, adding to make 19 minutes total. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ] 
+        },
+
+        {
+          "text": "The following graph shows the depreciation (decrease) in the value of Sally’s car as the years progressed following her purchase of the car in 2001.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 2/6.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What is the percentage depreciation of Sally’s car in the first year?",
+              "type": "Multiple Choice",
+              "options": [
+                "6.25%",
+                "6.66%",
+                "6.67%",
+                "$1,500"
+               ],
+              "answer": "A",
+              "explanation": "24,000 – 22,500 = $1,500. Therefore % depreciation is 1,500/24,000 * 100 = 6.25%. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "What is the average rate of percentage annual depreciation from 2004-2007, to the nearest whole percent?",
+              "type": "Multiple Choice",
+              "options": [
+                "15%",
+                "20%",
+                "30%",
+                "35%"
+               ],
+              "answer": "C",
+              "explanation": "2004-5: (17,500-14,500)/17,500 * 100 = 17.1428…% <br/> 2005-6: (14,500-10,000)/14,500 * 100 = 31.0344…% <br/> 2006-7: (10,000-5,800)/10,000 * 100 = 42% <br/> Therefore the average: (17.1…+31.03…+42)/3 = 30.05…% per year <br/> Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "If she added a new engine to her car in 2006 which increased the value of the car by 25%, but the percentage depreciation remained the same, what would the value of her car be in 2007?",
+              "type": "Multiple Choice",
+              "options": [
+                "$5,250",
+                "$7,250",
+                "$8,300",
+                "$12,500"
+               ],
+              "answer": "B",
+              "explanation": "1.25*10,000 = $12,500 after the new engine. The percentage depreciation from 2006-07 = (10,000-5,800)/5,800 = 0.42 = 42%. Therefore 12,500 * 0.58 = $7,250 (1 – 0.42 = 0.58). Therefore, the correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If Sally wants to sell her car before at loses more than 50% of its value, how much does she lose off the original price of the car?",
+              "type": "Multiple Choice",
+              "options": [
+                "$9,500",
+                "$12,000",
+                "$14,000",
+                "$14,500"
+               ],
+              "answer": "A",
+              "explanation": "A 50% loss of value would be $12,000. Thus she has to sell it before in 2005, so 24,000 – 14,500 = $9,500. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+
+          ] 
+        },
+
+        {
+          "text": "The two pie charts below show how the popularity of certain transport modes in Cambridge has changed from 2008 to 2018. The figures are in percentages. The same number of people were in Cambridge in 2008 and 2018.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 2/7.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What proportion of all the people who rode bicycles in 2008 and 2018 combined rode in bicycles 2008?",
+              "type": "Multiple Choice",
+              "options": [
+                "0.56",
+                "0.47 ",
+                "0.36",
+                "0.30"
+               ],
+              "answer": "C",
+              "explanation": "People riding bicycles in 2008 and 2018 = 17 + 30 = 47 (assuming for the sake of working out that there are 100 people in 2008 and 2018). Therefore 17/47 = 0.3617… = 0.36. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "If 10,000 people were in Cambridge in 2008, how many more people drove cars in 2008 compared to 2018?",
+              "type": "Multiple Choice",
+              "options": [
+                "2,000",
+                "2,200",
+                "4,000",
+                "4,200"
+               ],
+              "answer": "B",
+              "explanation": "Cars in 2008 = 0.42 * 10,000 = 4,200. Cars in 2018 = 0.20 * 10,000 = 2,000. There is a 2,200 difference. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "How many forms of transport experienced an increase in user numbers from 2008 to 2018?",
+              "type": "Multiple Choice",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+               ],
+              "answer": "B",
+              "explanation": "Bicycles and Buses experienced a user increase (we can use the percentages as a guide on the chart because the population remained the same). Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What is the ratio of people riding busses in 2008 to those riding a bicycle in 2018, if there were three times as many people in Cambridge in 2018 than 2008?",
+              "type": "Multiple Choice",
+              "options": [
+                "1:3",
+                "3:1",
+                "1:1",
+                "1:2"
+               ],
+              "answer": "A",
+              "explanation": "Since there is an equal proportion of people using busses in 2008 to bicycles in 2018 (30%), if the population in 2018 is 3 times bigger than that of 2008, we know the ratio will be 1:3 (Busses 2008: Bicycles 2018). Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ] 
+        },
+
+        {
+          "text": "The table below compared the number of people smoking and their weights, organizing them by degrees of smoking and weight, in a survey.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 2/8.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What proportion of non-smokers are overweight, to the closest value below?",
+              "type": "Multiple Choice",
+              "options": [
+                "0.67",
+                "0.76",
+                "0.57",
+                "0.75"
+               ],
+              "answer": "B",
+              "explanation": "Number of overweight non-smokers = 2499 – 53 – 543 = 1,903. Therefore the proportion is 1,903/2499 = 0.7615… . Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "How many people were surveyed?",
+              "type": "Multiple Choice",
+              "options": [
+                "5,167",
+                "5,209",
+                "5,176",
+                "5,125"
+               ],
+              "answer": "B",
+              "explanation": "We know 42 people are missing from the data, therefore 5167+42 = 5,209 people in total responded to this survey. Therefore, the correct answer is B. ",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What is the average number of people across all smoking categories who are underweight, to the closest person?",
+              "type": "Multiple Choice",
+              "options": [
+                "35",
+                "36",
+                "37",
+                "38"
+               ],
+              "answer": "B",
+              "explanation": "Since the total of underweight people is 178, we can find the average by dividing that by 5: 178/5 = 35.6 = 36. Therefore, the correct answer is B, to the nearest person.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What percentage of the people who responded to the survey were very heavy smokers or overweight?",
+              "type": "Multiple Choice",
+              "options": [
+                "70%",
+                "71%",
+                "77%",
+                "78%"
+               ],
+              "answer": "A",
+              "explanation": "Very Heavy smokers = 469, Overweight = 3527, Heavy smokers and Overweight = 325. Therefore the total number of heavy smokers or overweight = 469 + 3527 – 325 = 3,671. If the total number of respondees was 5,167 + 42 = 5,209, then the percentage of the heavy smokers or overweight people in the survey = 3,671/5,209 * 100 = 70.47…%. Therefore, the correct answer is A, to the nearest percent. ",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ] 
+        },
+  
+
+        {
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "Joe bought 4 kilograms of apples at the cost of $15. How much would he pay for 11 kilograms of the same apples in the same shop?",
+              "type": "Multiple Choice",
+              "options": [
+                "$60",
+                "$51.65",
+                "$41.25",
+                "$32.55"
+               ],
+              "answer": "C",
+              "explanation": "15/4 = $3.75/kg for the apples. Therefore 3.75 * 11 = $41.25 for 11 kg. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ] 
+        },
+
+        {
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "The distance between two cities on the map is 15 centimetres. The scales on the map is 1.25 centimetres to 15 kilometres. What is the real distance, in kilometres, between the two cities?",
+              "type": "Multiple Choice",
+              "options": [
+                "180 km",
+                "18.75km",
+                "1800km",
+                "281.25km"
+               ],
+              "answer": "A",
+              "explanation": "15cm/1.25cm = 12 times greater. Thus, 12 * 15km = 180km. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ] 
+        }
+        
+      ]
+    }
+  ]
+}

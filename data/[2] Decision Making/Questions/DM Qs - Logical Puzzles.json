@@ -1,0 +1,2558 @@
+{
+    "stems": [
+      
+        {
+            "text": "Amy, Bell, Cassy and Drew have 1 car each. The cars are either yellow, blue, green or black. <br/> Amy does not like green cars, but Drew either drives green or blue. <br/>Bell prefers to drive cars which match her dress.<br/>Cassy drives the blue car.<br/>Bell only owns yellow and green dresses. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Drew owns the black car",
+                  "Bell owns the green car",
+                  "Amy owns the yellow car",
+                  "Drew does not own the yellow car"
+                ],
+                "answer": "D",
+                "explanation": "Since Cassy drives the blue car, that means Drew drives the green car, which means Bell owns the yellow car, so Amy owns the black car. Therefore, the correct answer is D as it must be true.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel ran a 100m sprint race, each obtaining a time.<br/>Andrew did not come last.<br/>Ben ran faster than Daniel, but slower than Andrew.<br/>Carl ran in 10 seconds.<br/>Daniel was 1 second slower than Carl.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew came first",
+                  "Ben beat Carl",
+                  "Carl came second",
+                  "Daniel came last"
+                ],
+                "answer": "D",
+                "explanation": "We know Andrew is faster than Ben and Daniel, and if Daniel is slower than Carl, then the only thing we know for certain is that Daniel is last (the other 3 are faster than Daniel, but we don’t know the positions apart from the fact that Andrew is faster than Ben). Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel played a game of cricket, with their batting scores recorded.<br/>Ben scored more runs than Andrew.<br/>Daniel made a century (100 runs).<br/>Carl stopped playing when he reached 50 runs. <br/>Andrew scored more runs than Carl.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Carl scored the least amount of runs",
+                  "Andrew scored the most runs",
+                  "Daniel scored the most runs",
+                  "Ben scored more than a century"
+                ],
+                "answer": "A",
+                "explanation": "If Carl made 50 runs, and Daniel made 100 runs, and Andrew scored more runs than Carl, and Ben scored more runs than Andrew, then we know Carl made the least number of runs for sure. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel played some basketball after school, each recording the amount of shots they made.<br/>Daniel made 4 shots.<br/>Ben made more shots than Carl, but less than Daniel.<br/>Carl made either 2 shots or 4 shots.<br/>Andrew made 2 more shots than Ben.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Daniel made the most shots",
+                  "Andrew made more shots than Daniel",
+                  "Carl made the least amount of shots",
+                  "Ben made the second highest amount of shots"
+                ],
+                "answer": "C",
+                "explanation": "Since Ben made more shots than Carl but less than Daniel, so less than 4, then Carl could not have scored more than 2 shots. Thus, If Carl made 2 shots, Daniel made 4 shots, that means Ben made 3 shots and Andrew made 5 shots. Therefore, the correct answer is C, as Carl made the least number of shots (2). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel played a round robin of tennis together (3 games each), with the winner of each game getting 2 points, and a draw scoring 1 point for each player.<br/>Andrew won all of his games.<br/>Ben won 1 more game than Daniel and scored 3.<br/>Daniel scored 5 less than Andrew.<br/>Carl lost 2 of his games.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Carl got the least amount of points",
+                  "There was more than 1 draw in the round robin",
+                  "Daniel got the lowest points",
+                  "Ben drew with Carl in a game"
+                ],
+                "answer": "C",
+                "explanation": "If Andrew won all his games, he must have received 6 points. That means Daniel scored 1 point, which means he lost 2 games and drew one game. If Ben won 1 more game than Daniel he must have won 1 game, drawing one and losing one to get 3 points in total. Since Carl only lost 2 of his games, he must have won the other one (since Ben and Daniel have 1 draw each, we can deduce that the draw was between them both). Therefore, the correct answer is C, as Daniel as 1 point, Carl has 2, Ben has 3 and Andrew has 6.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel played a game of golf, each recording the number of hole-in-ones they made.<br/>Ben is terrible at golf.<br/>Andrew made 2 more hole-in-ones than Ben. <br/>Carl made more hole-in-ones than Andrew.<br/>Daniel made 3 hole-in-ones. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Ben made the least amount of hole-in-ones",
+                  "Daniel made the most amount of hole-in-ones",
+                  "Carl made more hole-in-ones than Ben",
+                  "Daniel made more hole-in-ones than Ben"
+                ],
+                "answer": "C",
+                "explanation": "If Carl got more hole-in-ones than Andrew, he must have gotten more than Ben as well since Andrew got more than Ben. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel played a game of rugby during lunchtime at school. Each time one of them dropped the ball, they would sit on the bench for 10 minutes.<br/>Andrew sat on the bench a total of 3 times.<br/>Daniel spent 10 minutes less on the bench than Ben.<br/>Ben dropped the ball 4 times more than Carl.<br/>Carl never dropped the ball.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Ben spent the shortest time on the bench",
+                  "Daniel spent the same amount of time on the bench as Andrew",
+                  "Carl is an elite rugby player",
+                  "Andrew spent the third most time on the bench. "
+                ],
+                "answer": "B",
+                "explanation": "Andrew spent 30 minutes on the bench, Ben must have spent 40 minutes on the bench since Carl never dropped the ball, which means Daniel spent 30 minutes on the bench same as Andrew. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel played a game of AFL on Saturday. A goal is worth 6 points and they recorded the amount of goals scored by each of them.<br/>Ben scored a total of 18 points.<br/>Andrew scored more points than Ben but less than Carl.<br/>Carl scored 3 times less points than Daniel.<br/>Ben is not very good at AFL.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who scored the most amount of points?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew",
+                  "Ben",
+                  "Carl",
+                  "Daniel"
+                ],
+                "answer": "D",
+                "explanation": "Ben scored 3 goals, which means Andrew scored more goals than Ben and Carl scored more goals than Andrew. If Carl scored 3 times less points than Daniel, Daniel must have scored the most goals, and therefore the most points. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel love playing soccer. One day, they decided to play a game with each other.<br/>Andrew scored the most amount of goals.<br/>Daniel scored less than Carl.<br/>Carl scored 4 goals.<br/>Ben did not score more than 3 goals. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Ben scored the third highest amount of goals",
+                  "Daniel scored the third highest amount of goals",
+                  "Carl scored the second highest amount of goals",
+                  "Ben scored the second highest amount of goals"
+                ],
+                "answer": "C",
+                "explanation": "Daniel scored less than 4 goals, but Ben did not score higher than 3, so we know that the bottom 2 goal scorers are Daniel or Ben, then followed by Carl and then Andrew who scored the most. Therefore, the correct answer is C (we can’t be sure who scored the least out of Daniel and Ben, only that they are bottom 2). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel decided to play a game of doubles table tennis. Daniel and Carl played against Andrew and Ben.<br/>Daniel made the most aces in his team.<br/>Ben and Andrew made more than 6 aces collectively.<br/>Carl made less than 3 aces.<br/>Andrew made more aces than Daniel.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who MUST have scored the most aces?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew",
+                  "Ben",
+                  "Carl",
+                  "Daniel"
+                ],
+                "answer": "A",
+                "explanation": "Daniel scored more aces than Carl, and Andrew scored more aces than Daniel. If Carl made less than 3 aces, that means Daniel made at least 4 aces, which means Andrew made at least 5 aces, which means Ben could only have made a maximum of 1 ace of the team of Ben+Andrew only made 6 aces together. Thus, we can conclude that Andrew made the most aces. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel went for a cycling race – they each crossed the finish line.<br/>Andrew crossed the finish line 10 seconds before Carl.<br/>Carl crossed the finish line after Daniel.<br/>Ben is a better cyclist than Andrew.<br/>Andrew and Ben had a difference of 4 seconds in their finish times.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew finished in 1st place",
+                  "Ben came last",
+                  "Carl came in 3rd place",
+                  "Ben finished before Carl"
+                ],
+                "answer": "D",
+                "explanation": "Carl crossed the finish line after Daniel and Andrew, and since Andrew and Ben had a difference of only 4 seconds whereas Andrew crossed the finish line 10 seconds before Carl, we can deduce that Ben was either 4 seconds ahead of Andrew or 4 seconds behind – either way, he crossed the finish line before Carl. Thus, we know Carl came last. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel took each drove from the shops to their respective homes, each different distances from the shops.<br/>Ben took the shortest time to drive to his home.<br/>Carl lives the furthest from the shops.<br/>Andrew arrived at his home after Ben but drove slower.<br/>Daniel cannot drive faster than Carl, but arrived home before Carl.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Ben lives the closest to the shops",
+                  "Andrew lives closer to the shops than Ben",
+                  "Carl took the longest to drive home",
+                  "Daniel lives closer to the shops than Carl"
+                ],
+                "answer": "D",
+                "explanation": "If Daniel cannot drive faster than Carl but arrived home before Carl, that means Daniel must live closer to the shops than Carl (ie. if Daniel was driving as fast as Carl, as his maximum speed, and arrived before Carl, then Daniel must live closer having to drive a shorter distance). Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel met up on the weekend to have a go at some archery. They counted and recorded the number of bullseyes each of them hit.<br/>Carl hit 4 bullseyes.<br/>Andrew hit more bullseyes than Ben but less than Carl.<br/>Daniel hit 2 more bullseyes than Andrew.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Ben hit the least amount of bullseyes",
+                  "Carl hit the most amount of bullseyes",
+                  "Daniel hit the second highest amount of bullseyes",
+                  "Ben hit at least one bullseye"
+                ],
+                "answer": "A",
+                "explanation": "Andrew hit less than 4 bullseyes, and if Daniel hit 2 more than Andrew, we know that Ben must have hit less bullseyes than everyone since he hit less than Andrew (and thus less than Daniel and Carl by default). Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel joined the Olympics and tried their hand at the javelin. The distances each of them threw were recorded.<br/>Andrew threw his javelin further than Carl.<br/>Daniel landed his javelin 3 metres behind Andrew’s.<br/>Ben’s javelin did not go the furthest.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Based off this information, who must have thrown their javelin the furthest?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew",
+                  "Ben",
+                  "Carl",
+                  "Daniel"
+                ],
+                "answer": "A",
+                "explanation": "Daniel landed his javelin behind Andrew’s, whose landed before Carl’s. If Ben’s javelin did not go the furthest, it must have been Andrew’s, because his went further than Daniel’s and Carl’s. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel tried their hand at the pole vault at the Olympics. The heights each of them reached were recorded.<br/>Andrew vaulted higher than Daniel.<br/>Ben vaulted over 20 metres.<br/>Daniel did not make it over 18 metres.<br/>Carl vaulted over a height lower than Ben managed to vault over.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who did not reach the lowest height for certain?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew and Carl",
+                  "Ben and Andrew",
+                  "Carl and Daniel",
+                  "Ben and Daniel"
+                ],
+                "answer": "B",
+                "explanation": "We can deduce that Carl vaulted lower than Ben, who vaulted higher than Daniel. Since Andrew vaulted higher than Daniel, we do not know if he vaulted higher or lower than Ben or Carl. All we know is that Ben vaulted higher than Daniel and Carl, so he definitely was not last, and so was Andrew, since he vaulted higher than Daniel. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "In an athletics tournament, Andrew, Ben, Carl and Daniel competed in the long jump, with the distances they made recorded.<br/>Carl jumped further than Andrew but 1 metre less than Ben.<br/>Ben jumped further than Daniel.<br/>Andrew jumped more than 2.2 metres.<br/>Daniel was unable to jump more than 2.2 metres.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who made the second lowest distance?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew",
+                  "Ben",
+                  "Carl",
+                  "Daniel"
+                ],
+                "answer": "A",
+                "explanation": "Andrew jumped further than Daniel, and Ben jumped further than Daniel, and Carl jumped further than Andrew but less than Ben. Thus, the order from highest distance to lowest distance is Ben, Carl, Andrew, Daniel. Therefore, the correct answer is A (second lowest distance).",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel went to a surfing tournament and the received scores for the moves that they pulled off. Scores given were only 0, 1, 3 or 5, and only 2 moves were performed by each person.<br/>Ben scored the lowest of the four.<br/>Andrew was the only one to score a multiple of 3.<br/>Daniel scored more than Ben but less than Andrew.<br/>Carl scored the only individual score of 3 of all the four.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "What scores could Daniel have scored?",
+                "type": "Multiple Choice",
+                "options": [
+                  "1 and 3",
+                  "1 and 5",
+                  "0 and 1",
+                  "0 and 0"
+                ],
+                "answer": "C",
+                "explanation": "Andrew could have scored a 3 (0 + 3) or 6 (3 + 3, 5 + 1). If Carl scored the only individual 3, then Andrew must have scored a 5 + 1 = 6. If Daniel scored less than Andrew, he must have scored a 1 + 0, 1 + 1, or 5 + 0 (he can’t score 0 since Ben got the lowest score). Of the four options, only C is correct. Therefore, the correct answer is C. Alternatively, without calculating anything, you could look at the answer and eliminate: A is wrong because Carl scored the only 3, B is wrong because Andrew scored the only multiple of 3, and D is wrong because Ben scored the lowest of everyone. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel played a boxing round robin, where 3 games were played between the four to decide a winner: Two rounds were played first between two players in each round, and the winners of those two rounds played each other. <br/>Andrew only played Ben.<br/>Daniel beat Carl less times than Ben beat Andrew.<br/>Carl did not win the competition. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who won the round robin?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew",
+                  "Ben",
+                  "Carl",
+                  "Daniel"
+                ],
+                "answer": "B",
+                "explanation": "If Andrew only played Ben, then Andrew must have lost his match with Ben (which means Daniel and Carl played each other in the first round). We know Ben beat Andrew once, so that must mean Daniel did not beat Carl. Thus, we can deduce that Ben and Carl played in the second round. If Carl did not win, then Ben won. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel entered a weightlifting competition to see who could lift the heaviest weight.<br/>Daniel lifted 10kg.<br/>Andrew lifted less than Daniel but more than Ben.<br/>Ben was not able to lift more than 8kg.<br/>Carl did not lift less than Andrew. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew lifted the second most",
+                  "Daniel lifted the most",
+                  "Andrew lifted 9kg",
+                  "Ben lifted less than Carl"
+                ],
+                "answer": "D",
+                "explanation": "We know that Andrew lifted less than Daniel but more than Ben, and since Carl did not lift less than Andrew, we know Ben must have lifted lower than Carl and Andrew (and therefore Daniel). Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Ben, Carl and Daniel went on a fishing trip and they recorded how many fish they each caught. Whoever caught the biggest fish would win $10.<br/>Andrew caught more fish than Ben. <br/>Daniel did not catch the biggest fish.<br/>The most amount of fish caught was 12.<br/>Carl caught 2 more fish than Andrew, but 1 less than Daniel.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew caught the most amount of fish",
+                  "Carl won $10",
+                  "Daniel caught 12 fish",
+                  "Ben did not catch the least amount of fish"
+                ],
+                "answer": "C",
+                "explanation": "If Carl caught 2 more fish than Andrew, he must have also caught more fish than Ben. Thus if Daniel caught 1 more fish than Carl, Daniel must have caught the most fish out of everyone, which was 12 fish. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Four students, Andy, Betty, Chris and Dennis compared their marks on the recent maths test they did.<br/>Andy scored the highest.<br/>Betty scored more than Dennis.<br/>Chris did not score as high as Betty.<br/>Dennis scored 25/40 on the test.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following cannot be concluded?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Chris scored the 3rd highest",
+                  "Andy scored more than Betty",
+                  "Betty scored the second highest",
+                  "Betty scored more than 25/40 on the test."
+                ],
+                "answer": "A",
+                "explanation": "Betty scored more than Dennis (so more than 25/40), and if Chris did not score has high as Betty, that means Betty scored more than Dennis and Chris. Since Andy scored the highest, more than Betty, the means Betty must have scored the second highest of the four students. Therefore, the correct answer is A, as the other 3 statements have been proven to be true in this explanation and we can’t be sure who got the higher mark out of Chris and Dennis (note: question asks which CANNOT be concluded).",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Four kids, Amy, Bob, Cathy and Dom are students in a classroom.<br/>Amy is older than Bob by 1 year.<br/>Bob is 3 years senior to Dom.<br/>The age difference between Amy and Cathy is 19 months.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who is the youngest?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Amy",
+                  "Bob",
+                  "Cathy",
+                  "Dom"
+                ],
+                "answer": "D",
+                "explanation": "Amy is older than Bob by 1 year, who is 3 years older than Dom, which means Dom is 2 years younger than Amy. If the difference between Amy and Cathy is 19 months (1 year and 7 months), the oldest (7 months older than Bob), or second youngest (5 months older than Dom). Thus, Dom has to be the youngest regardless of whether Cathy is younger or older than Amy. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Four athletes, Amy, Bob, Cathy and Dom were concerned about their weights.<br/>Bob is heavier than Dom.<br/>Dom does not weigh the least of the four.<br/>Cathy weights 50kg.<br/>Amy weights 20kg less than Cathy. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following could be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Dom is the heaviest",
+                  "Cathy is the lightest",
+                  "Dom is the third heaviest",
+                  "Amy is the fourth lightest"
+                ],
+                "answer": "C",
+                "explanation": "Dom cannot be the heaviest since Bob weighs more than him (A is eliminated). Cathy weighs more than Amy so she cannot be the lightest (B is eliminated). Dom could be the 3rd or 2nd heaviest (since he is not the heaviest or the lightest, so option C could be true. Amy cannot be the fourth lightest, because that would mean she is the heaviest (as she weights less than Cathy). Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Four kids, Amy, Bob, Cathy and Dom wanted to go on a ride at a theme park which had a 1 metre height restriction.<br/>Amy is 20cm taller than the third tallest kid.<br/>Dom is not the shortest of the four.<br/>Cathy is shorter than Dom.<br/>Bob is the only kid who is not allowed on the ride.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Dom is 20cm shorter than Amy",
+                  "Amy is the tallest of the four.",
+                  "Amy is 120cm tall.",
+                  "Amy cannot be 115cm tall"
+                ],
+                "answer": "D",
+                "explanation": "Bob must be shorter than 1 metre = 100cm, which means the other 3 are all taller than 100cm, rendering Bob the shortest kid. Amy cannot be 115cm tall as she is 20cm taller than the third tallest kid, which cannot be Ben as he is the shortest, which means the minimum height Amy could be must be more than 120cm. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Anthony, Bella, Cody and Derrick work as a policeman, doctor, engineer and lawyer, and wear shirts of red, blue, green or white. <br/>The policeman is not Bella.<br/>Anthony is either the doctor or engineer and wears a white shirt.<br/>The lawyer wears a red shirt. <br/>Cody does not wear blue or green.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true? ",
+                "type": "Multiple Choice",
+                "options": [
+                  "Derrick is wearing a blue shirt",
+                  "Derrick is the policeman",
+                  "Derrick is the engineer",
+                  "Derrick is wearing a red shirt"
+                ],
+                "answer": "B",
+                "explanation": "If Cody does not wear green or blue, and cannot wear white because Anthony wears that, Cody must wear red, meaning he is the lawyer. If Anthony is either the doctor or engineer, that means Derrick must be the policeman as Bella cannot be the policeman (Bella has to be either the doctor or engineer too if Cody is the lawyer). Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Mr Adam, Mr Bob, Miss Cassie and Miss Denise own a Ferrari, a Porsche, a Toyota and a Honda.<br/>Mr Adam does not own the Honda.<br/>Either Mr Bob or Miss Denise owns the Toyota.<br/>Miss Cassie cannot afford a Ferrari.<br/>The Honda belongs to a male.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who owns the Porsche?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Mr Adam",
+                  "Mr Bob",
+                  "Miss Cassie",
+                  "Miss Denise"
+                ],
+                "answer": "C",
+                "explanation": "The Honda belongs to Mr Bob since Mr Adam does not own it, meaning that Miss Denise must own the Toyota. Since Miss Cassie does not own the Ferrari, she must own the Porsche (and Mr Adam owns the Ferrari). Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Mr Andy, Mr Ban, Miss Coolie and Miss Dany own cars of colours green, blue, black and brown. <br/>Neither Mr Ban nor Miss Coolie own the black car.<br/>The brown car belongs to a female.<br/>Miss Dany owns the green car.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which car belongs to Mr Andy?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Black",
+                  "Blue",
+                  "Green",
+                  "Brown"
+                ],
+                "answer": "A",
+                "explanation": "If Miss Dany owns the green car, then Miss Coolie must own the brown car. If Mr Ban does not own the black car, then Mr Andy must own the black car (and Mr Ban owns the blue car). Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Adam, Bob, Cassie and Denise own different bikes. There is a blue, green, red and yellow bike, branded as BMX, Mountain, Road, and Tricycle.<br/>Adam owns the Mountain bike.<br/>The BMX is not red or blue.<br/>Cassie cannot ride a Road bike or a BMX bike.<br/>Either Denise or Bob own a green bike or a BMX.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who owns the yellow bike if Denise owns the Road bike?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Adam",
+                  "Bob",
+                  "Cassie ",
+                  "Denise"
+                ],
+                "answer": "B",
+                "explanation": "Cassie has to own the Tricycle, since she cannot ride the Road or BMX bike and Andrew owns the Mountain bike. Either Denise or Bob own the BMX or the green bike, meaning the BMX cannot be green, meaning it must be yellow. If Denise owns the Road bike, that means Bob must own the yellow BMX. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Bob, Cassie and Denise own houses. There is a blue, green, red and orange house, each with numbers 1, 2, 3, or 4.<br/>Adam’s house has an even number.<br/>Neither Denise nor Cassie own the blue house.<br/>The green house is associated with number 1.<br/>Bob owns the orange house at number 2.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following could NOT be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "House number 4 is red",
+                  "Denise owns the red house",
+                  "Cassie owns the green house",
+                  "House number 3 is red"
+                ],
+                "answer": "A",
+                "explanation": "Adam’s house is either 2 or 4. If Bob owns house 2, then Adam owns house 4, which has to be blue because Bob owns orange house 2, house 1 is green and neither Denise or Cassie own the blue house (meaning Adam must own the blue house at number 4). Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Bob, Cassie and Denise own houses on the beach. There is a pink, red, yellow and orange house.<br/>Adam’s house is in between Cassie’s and Bob’s.<br/>Denise’s house is next to the orange house only.<br/>Bob does not own the pink or orange house. <br/>The yellow house only has one neighbour but does not belong to Denise. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who owns the orange house?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Adam",
+                  "Bob",
+                  "Cassie",
+                  "Denise"
+                ],
+                "answer": "C",
+                "explanation": "We know Bob and Denise do not own the orange house. We also know Denise’s house is on one end since she only has 1 neighbour, and the yellow house must be second from the other end since it only has 1 neighbour which is not Denise. The orange house must be next to the yellow house in the middle, and since Adam’s house is next to Bob’s and Cassie’s, Bob must own the house on the end, meaning Adam owns the red house next to him and Cassie owns the orange house next to Adam. Therefore, the correct answer is C. The order of houses would look like: Denise (pink) – Cassie (orange) – Adam (red) – Bob (yellow).",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Adam, Bob, Cassie and Denise roll two six-sided dice. The total of both sides showing is added to produce their individual score.<br/>Adam scored higher than Denise.<br/>Cassie scored only 3.<br/>Bob scored double Cassie but 3 less than Adam.<br/>Denise got a 4 and another number less than 3. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who must have got the second lowest score?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Adam",
+                  "Bob",
+                  "Cassie ",
+                  "Denise"
+                ],
+                "answer": "D",
+                "explanation": "Bob must have scored 6, which means Adam scored 9, and the highest number Denise could have received is a 6 (4 + 2), and the lowest is 5 (4 + 1). Thus, we know that Cassie (3) scored the lowest, and Denise scored second lowest. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Bob, Cassie and Denise each rolled one six-sided dice and scored the number facing up.<br/>Bob scored 2 more than Denise.<br/>Adam did not score the highest.<br/>Cassie scored less than Adam but did not score 2.<br/>The person who scored 2 came last.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who scored 2?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Adam",
+                  "Bob",
+                  "Cassie ",
+                  "Denise"
+                ],
+                "answer": "D",
+                "explanation": "If Cassie scored less than Adam and Denise scored less than Bob, we know neither Bob nor Adam scored the lowest score of 2. However we also know that Cassie did not score 2 – therefore Denise must have scored the lowest score of 2. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Bob, Cassie and Denise measured their heights and weights.<br/>The tallest person weighed the second most.<br/>Denise was not the lightest person, but was taller than Bob.<br/>Adam weighed more than Cassie.<br/>Cassie was taller than Denise and weighed more than her. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who was the tallest person?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Adam ",
+                  "Bob",
+                  "Cassie",
+                  "Denise"
+                ],
+                "answer": "C",
+                "explanation": "Cassie was taller than Denise who was taller than Bob, which means the tallest person is either Cassie or Adam. Since Adam weighed more than Cassie who weighed more than Denise who must have weighed more than Bob since she was not the lightest, that means Adam weighs the most, and Cassie weighs the second most, meaning Cassie is the tallest person. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Andrew, Belinda, Cody and Diana each like to play either AFL, soccer, cricket and rugby.<br/>Andrew hates rugby..<br/>Cody plays either cricket or rugby.<br/>AFL is played by a either Belinda or Diana.<br/>Soccer is not played by either Diana or Andrew. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew plays cricket",
+                  "Cody plays cricket",
+                  "Diana plays AFL",
+                  "Belinda plays AFL"
+                ],
+                "answer": "C",
+                "explanation": "If Cody plays cricket or rugby, that means Belinda has to play soccer since neither Diana or Andrew play soccer (ie. Cody cannot play soccer so Belinda has to). Thus, Diana has to play AFL. Therefore, the correct answer is C (since Andrew hates rugby and doesn’t play AFL or soccer, he must play cricket, meaning Cody plays rugby, meaning Belinda plays soccer, meaning Diana plays AFL). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Belinda, Cody, and Diana play a game of Monopoly, where the aim is to go bankrupt last.<br/>Belinda was not the first one to go bankrupt.<br/>Cody went bankrupt before Andrew, but after Diana.<br/>The first person to go bankrupt was not Andrew.<br/>Diana was the winner of the game.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who went bankrupt first?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew ",
+                  "Belinda",
+                  "Cody",
+                  "Diana"
+                ],
+                "answer": "C",
+                "explanation": "The first person to go bankrupt was either Diana or Cody, and since Diana won the game she came bankrupt last. Thus, Cody went bankrupt first. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Belinda, Cody and Diana have between them, 8 children. <br/>Andrew has 2 more children than Cody.<br/>Cody is not married.<br/>Belinda and Diana have the same amount of children. <br/>Diana likes to play with her child/children.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "If Belinda cannot have more than 2 children, which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew has the most children",
+                  "Cody has 0 children",
+                  "Belinda and Diana have 1 child each",
+                  "Belinda has fewer children than Cody"
+                ],
+                "answer": "A",
+                "explanation": "Belinda and Diana can have either 1 child each, 2 children each or 3 children each maximum (because Andrew has 2 more than Cody, so at minimum Andrew has 2 children). Since Belinda cannot have more than 2 children, that means Belinda and Diana can only have 1 or 2 children each. If they have 2 children each, that means Andrew has 3 children and Cody has 1 child. If they have 1 child each, that means Andrew has 4 children and Cody has 2. In each of these scenarios, Andrew has the most amount of children. Therefore, the correct answer is A. (Note: Diana and Belinda cannot have 0 children because Diana likes to play with her child/children, meaning she has at least 1). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Andrew, Belinda, Cody and Diana have either 1, 2, 3, or 4 kids. There are only 4 girls between the children of these four people.<br/>Belinda has 3 kids.<br/>Cody has 1 more kid than Diana but 2 less than Andrew.<br/>Diana and Andrew only have boys.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following could be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Belinda has 3 girls",
+                  "Diana has 2 boys",
+                  "Andrew has 3 boys",
+                  "Cody has no girls"
+                ],
+                "answer": "A",
+                "explanation": "If Cody has 1 more kid than Diana but 2 less than Andrew, he must have 2 kids, meaning Diana has 1 kid, Andrew has 4 kids, and we know already that Belinda has 3 kids. If Diana and Andrew only have boys, that means Cody and Belinda have 4 girls between their 5 children combined. Therefore, the correct answer is A (Diana only has 1 kid, Andrew has 4 boys, Cody has to have at least 1 girl). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Belinda, Cody and Diana are four students comparing their height and age.<br/>Cody is taller than Diana, who is younger than Andrew.<br/>Belinda is the youngest but not the shortest.<br/>Andrew is taller than Belinda but shorter than Diana. <br/>The oldest person is not the tallest.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who is the oldest person?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andrew",
+                  "Belinda",
+                  "Cody ",
+                  "Diana"
+                ],
+                "answer": "A",
+                "explanation": "If Belinda is not the shortest, then Diana must be the tallest as Andrew is taller than Belinda but shorter than Diana, meaning Cody is also then the shortest. Since Diana is not the oldest (as she is tallest), and she can’t be the youngest (which is Belinda), she can be either 2nd or 3rd oldest. Since Cody is younger than Andrew, that means Andrew must be the oldest. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andrew, Belinda, Cody and Diana are playing a game of golf, where the lowest score wins.<br/>Andrew did not win.<br/>Belinda scored higher than Andrew but lower than Cody.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Diana won",
+                  "Cody won",
+                  "Andrew came last ",
+                  "Belinda came last"
+                ],
+                "answer": "A",
+                "explanation": "If Belinda scored more than Andrew but less than Cody, and Andrew did not win (ie. did not score the lowest), then we know the order from lowest score to highest score here is Andrew, Belinda, Cody. If Andrew did not win, then we know Diana must have scored the lowest and beaten Andrew. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Andrew, Belinda, Cody and Diana are counting up their savings.<br/>Diana has$100 more than Cody.<br/>Cody has the lowest savings total of everyone.<br/>Belinda has twice as much as Diana, but $10 less than Andrew.<br/>Andrew has Cody plus Diana’s savings put together, plus $110.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How much does Cody have?",
+                "type": "Multiple Choice",
+                "options": [
+                  "$50",
+                  "$60",
+                  "$70",
+                  "$80"
+                ],
+                "answer": "D",
+                "explanation": "By trial and error, using the 4 answer options, the correct answer will be D, $80. If Cody = $80, then Diana = $180, so Belinda = $360, and Andrew = $370. If Cody + Diana + 110 = 80 + 180 + 110 = 370, then we know $80 for Cody works. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Bernard, Carrie and Dianne recently visited a country in Europe by themselves, from a selection of Britain, France, Germany or Spain.<br/>Adam did not visit Britain or France.<br/>Bernard and Dianne were the only two to visit the same country.<br/>Carrie visited Germany. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Bernard visited France",
+                  "Dianne did not visit France.",
+                  "Bernard and Dianne could not have visited Britain.",
+                  "Adam visited Spain."
+                ],
+                "answer": "D",
+                "explanation": "Adam must have visited Spain, since Carrie visited Germany and Adam did not visited Britain/France, which means Bernard and Dianne either both went to Britain or France. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Four tourists visited each visited one of four countries – Australia, America, China or India. Each had an accent.<br/>The tourist with an Indian accent visited China.<br/>Australia was not visited by the tourist with an American or Chinese accent.<br/>No two tourists visited the same place.<br/>The tourist with an American accent chose not to visit America.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who visited America?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Tourist with Indian accent",
+                  "Tourist with Australian accent",
+                  "Tourist with Chinese accent",
+                  "Tourist with American accent"
+                ],
+                "answer": "C",
+                "explanation": "Australia must have been visited by the tourist with the Australian accent, since the tourist with an Indian accent visited China and the tourist with the American or Chinese accent did not visit Australia. That means if the tourist with an American accent did not visit America, the tourist with the Chinese accent must have. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Four people, a Sri Lankan, an Armenian, an American and a Mexican met up in a bar and shook hands.<br/>The Mexican only shook the Sri Lankan and American’s hands.<br/>The Armenian only shook hands with two other people.<br/>The Sri Lankan did not shake hands with the American. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "In total, how many handshakes took place?",
+                "type": "Multiple Choice",
+                "options": [
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "answer": "B",
+                "explanation": "The Mexican shook 2 hands (Sri Lankan and American). The Armenian shook 2 hands (Sri Lankan and American – not Mexican because the Mexican only shook 2 hands). Since the Sri Lankan did not shake hands with the American, only 4 handshakes took place. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Botsy, Cary and Donny compared the size of their shoes – either a 5, 6, 7, or 8.<br/>Adam had the second biggest shoe size.<br/>Donny and Cary had a difference in shoe size of 2. <br/>Cary did not have the smallest shoe size.<br/>Botsy did not have shoe size 8.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Botsy has shoe size 5",
+                  "Donny has the biggest shoe size",
+                  "Carrie has the biggest shoe size",
+                  "Donny had shoe size 6"
+                ],
+                "answer": "A",
+                "explanation": "Adam had shoe size 7, which means Donny and Cary have either the 6 or 8 size shoe, leaving Botsy with the size 5 shoe. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Botsy, Cary and Donny compared the colours of their shoes – either blue, green, yellow or black.<br/>Adam had shoes with a colour starting with the letter ‘b’.<br/>Botsy did not have the yellow shoes.<br/>The blue shoes either belonged to Botsy or Cary.<br/>Donny detests the colour green.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who has the black shoes?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Adam",
+                  "Botsy",
+                  "Cary",
+                  "Donny"
+                ],
+                "answer": "A",
+                "explanation": "Adam had black shoes, since either Cary or Botsy had blue shoes, and Adam has to have either black or blue shoes (starting with b). Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Adam, Botsy, Cary and Donny wanted to buy shoes of different sizes and colours – options are red, green, yellow or orange. <br/>Adam likes green shoes but his feet are not the biggest of the four friends.<br/>Cary does not like red shoes.<br/>Donny prefers yellow and has the smallest shoe size of the group.<br/>Botsy bought the same coloured shoes as Cary but has a shoe size smaller than Adam.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "What colour and sized shoes did Botsy buy?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Second smallest size and orange",
+                  "Third smallest size and orange",
+                  "Second smallest size and red",
+                  "Third smallest size and red"
+                ],
+                "answer": "B",
+                "explanation": "If Adam likes green shoes, Donny likes yellow shoes and Cary did not buy red, Cary must have bought orange shoes which means Botsy also bought orange shoes. Since Botsy has a shoe size smaller than Adam, and Donny has the smallest shoe size, Botsy can have either the 2nd or 3rd smallest shoe size – given that Adam does not have the biggest feet, Botsy must have the 3rd smallest shoe size (and Adam 2nd). Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Four tourists from America, Spain, France and Russia bought different coloured T-shirts – red, green, orange, blue.<br/>The tourist from France bought a blue t-shirt.<br/>The tourists from America bought the same coloured shirt as the tourist from Russia. <br/>The red shirt was bought by either the Spanish tourist or the American tourist. <br/>The Spanish tourist detests the colours green and orange, but the Russian prefers red or green.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which colour shirt did the Russian tourist buy?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Red ",
+                  "Green",
+                  "Orange",
+                  "Blue"
+                ],
+                "answer": "B",
+                "explanation": "If the French tourist bought blue, and the Spanish tourist hates green and orange, the Spanish tourist must have bought red, leaving the American to buy either green or orange. If the Russian prefers red or green, and red is taken by the Spanish tourist, then the Russian must have bought the green (and so did the American). Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Four friends, Adam, Ben, Chris and Dan tried to wear matching belts and shoes. <br/>Ben correctly wore a matching pair of shoes and belt.<br/>Chris wore the only brown shoes in the group.<br/>Adam and Dan wore the same colour belt.<br/>Black shoes were worn by 2 people in the group.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following is impossible?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Ben wore a black belt",
+                  "Chris wore a black belt",
+                  "Adam and Ben wore black shoes and blue shoes",
+                  "Adam and Chris wore black belts and both had matching shoes"
+                ],
+                "answer": "D",
+                "explanation": "We know Chris wore brown shoes, which means in order to have a matching pair of shoes to a black belt according to option D, he would need to have black shoes. Thus, we know option D is impossible as Chris cannot have a black belt and matching shoes. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+          {
+            "text": "Adam, Ben, Chris and Dan were going to a high school formal.<br/>Adam arrived first.<br/>The person/people who arrived last came in a sedan.<br/>Chris and Dan arrived together in the same vehicle, not a limo.<br/>Ben arrived after Chris and Dan.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be false?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Chris and Dan arrived directly after Adam",
+                  "Ben arrived after Adam",
+                  "The person who came in a limo was Adam",
+                  "If Ben arrived in a limo, Chris arrived in a sedan"
+                ],
+                "answer": "D",
+                "explanation": "If Ben arrived after Chris and Dan, and Adam arrived first, then Ben must have arrived last, meaning he came in a sedan. Thus, option D cannot be true because Ben cannot have arrived in a limo. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Ben, Chris and Dan got each other gifts for Christmas, each wrapped in either red, green, blue or yellow wrapping paper.<br/>Chris did not use blue wrapping paper.<br/>Ben only received a gift from Adam in yellow wrapping paper.<br/>Dan received a gift from everyone except from another person who used blue wrapping paper.<br/>Adam received two gifts in total, one from Chris and the other in red wrapping paper. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who use the blue wrapping paper?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Adam",
+                  "Ben",
+                  "Chris",
+                  "Dan "
+                ],
+                "answer": "B",
+                "explanation": "Chris did not use blue wrapping paper, which means Dan received a gift from Chris and Adam did not receive a gift in blue wrapping paper. Since the other gift Adam received was in red wrapping paper, either Dan or Ben must have used red wrapping paper. Since Dan received a gift from everyone except the person using blue wrapping paper, the person using blue wrapping paper must be Ben. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andy, Bean, Connie and Dominic visited a hat shop to purchase hats from a selection of straw hats, baseball caps, flatbacks and fedoras. <br/>Andy bought a baseball cap, but Bean did not.<br/>Straw hats were only bought by one person.<br/>Dominic and Bean bought the same type of hat.<br/>Connie did not buy the fedora.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following cannot be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andy and Connie both bought baseball caps",
+                  "A straw hat was not bought by Dominic",
+                  "Andy was the only one to buy a baseball cap",
+                  "Dominic bought a baseball cap"
+                ],
+                "answer": "D",
+                "explanation": "Dominic and Bean bought the flatbacks or the fedoras, since Bean did not buy a baseball cap and the straw hats were bought by only one person. Therefore, the correct answer is D, as Dominic and Bean bought the same hat (and as stated previously, Bean did not buy the baseball cap, so it is impossible that Dominic bought a baseball cap). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+          {
+            "text": "Andy, Bean, Connie and Dominic decided to match their hats to their shirts. Hat colours can either be red, green, yellow or orange, and only one of each colour hat can be worn by the four people.<br/>Andy wore a hat and shirt of the same colour.<br/>Only two people wore matching shirts and hats.<br/>Neither Connie nor Dominic wore orange or green hats.<br/>Bean and Dominic chose to wear red shirts, but only one chose to match their hat. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be false?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andy wore a green hat",
+                  "Bean wore a green hat",
+                  "Connie wore a red hat",
+                  "Dominic wore a red hat"
+                ],
+                "answer": "C",
+                "explanation": "If neither Connie nor Dominic wore orange or green hats, they must have worn red or yellow hats (since only one of each hat colour can be worn by a person). Since Bean and Dominic wore red shirts but only one matched it with a red hat, we know Connie could not have worn a red hat (and thus must have worn yellow, leaving Dominic to wear the red hat). Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andy, Bean, Connie and Dominic chose to compare their hat sizes after purchasing different hats at the hat store, with hat sizes increasing in increments of 1.<br/>Bean has the biggest hat size of the four friends.<br/>Dominic does not have the smallest hat size.<br/>Connie and Andy are within 1 hat size of each other.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who has the second biggest hat size?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Andy",
+                  "Bean",
+                  "Connie",
+                  "Dominic"
+                ],
+                "answer": "D",
+                "explanation": "If Connie and Andy are within 1 hat size of each other, and they only go up by increments of 1, that means Connie and Andy have to either be the 3rd biggest and 4th biggest, or 2nd biggest and 3rd biggest (since Bean has the biggest hat size). Since Dominic does not have the smallest hat size (and therefore cannot by 4th biggest), we know that Connie and Andy have to be 3rd and 4th biggest (but who is which we don’t know), and Dominic therefore has to have the 2nd biggest hat size. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Andy, Bean, Connie and Dominic went to the shopping centre to find a good toy store to visit – choosing from Kmart, Target, Big W or Myer.<br/>Connie prefers to go to Kmart or Target.<br/>Bean and Andy don’t mind any store as long as it’s not Myer.<br/>Big W is not favoured by any of the four friends except Andy and Bean.<br/>Dominic can’t visit Target.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which store should they go to?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Kmart",
+                  "Target",
+                  "Big W",
+                  "Myer"
+                ],
+                "answer": "A",
+                "explanation": "Since Dominic can’t visit Target and Connie prefers to go to Kmart or Target (and Bean and Andy do not want to go to Myer, and Dominic and Connie do not want to go to Big W), we can deduce that Kmart is the only common ground. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+          {
+            "text": "Andy, Bean, Connie and Dominic choose to call each other to congratulate each other on getting into Woods University. Someone does not call another person back if they already received a call from that person. <br/>Andy only calls Connie and Dominic.<br/>Bean did not receive a call from Connie.<br/>Dominic talked to Connie and one other person.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many calls were made?",
+                "type": "Multiple Choice",
+                "options": [
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "answer": "B",
+                "explanation": "Andy made 2 calls (Connie and Dominic). Dominic made 2 calls (Connie and Andy), however since Andy already called Dominic we have a total of 3 calls so far. Given that Andy did not talk to Bean, Dominic did not talk to Bean and Connie did not talk to Bean, we can conclude that Bean talked to nobody. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Alice, Bane, Caden and Danny met up for drinks at a bar.<br/>Alice and Bane were the only two who ordered the same drink.<br/>Danny was the only one who drank vodka.<br/>Caden ordered either the water or the wine.<br/>Bane is intolerant towards beer or wine.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Alice drank water",
+                  "Caden ordered wine",
+                  "Bane did not drink water ",
+                  "Alice did not drink beer"
+                ],
+                "answer": "D",
+                "explanation": "If Bane cannot drink beer or wine, then Alice did not drink beer or wine either since Alice and Bane both drank the same drink. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Alice, Bane, Caden and Danny wanted to take a taxi to their hotel after a night out. The taxi cost $20. No one had more than $10.<br/>Bane and Caden had the same amount of money.<br/>Danny did not have more than $5.<br/>Alice had the most amount of money. <br/>Bane had $3 less than Danny. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "What is the minimum amount of money that Alice needs to spend for them to be able to afford the taxi?",
+                "type": "Multiple Choice",
+                "options": [
+                  "$8",
+                  "$9",
+                  "$11",
+                  "$17"
+                ],
+                "answer": "C",
+                "explanation": "If Bane had $3 less than Danny, that means the smallest amount of money Danny could have had would be $3. Thus, if Danny had $3, then Bane and Caden had $0, meaning that the maximum amount Alice would need to spend would be $17 for them to afford the taxi. However, if Danny had his maximum of $5, then Caden and Bane would have $2 each, meaning Alice would only need to have $11. Thus, the minimum amount of money Alice would need to have/spend is $11 (maximum is $17). Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+          {
+            "text": "Alice, Bane, Caden and Danny flew in economy class on a plane that had one aisle with 2 seats on either side. The four of them sat in 2 rows of 2, one row behind the other on the same side of the aisle. <br/>Alice and Bane did not want to sit together.<br/>Danny sat directly behind Bane.<br/>Caden chose to sit on the seat closest to the aisle. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who sat next to each other?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Alice and Caden",
+                  "Danny and Alice",
+                  "Caden and Danny",
+                  "Bane and Danny"
+                ],
+                "answer": "B",
+                "explanation": "If Alice and Bane did not sit together, and Danny sat directly behind Bane, that means that Alice sat next to Danny behind Caden. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Alice, Bane, Caden and Danny sat in a movie theatre in the same row, starting from the aisle and going 4 seats in. <br/>Neither Bane nor Caden sat on the aisle seat.<br/>Alice does not like sitting next to Caden.<br/>Caden did not sit next to Danny.<br/>Bane prefers to sit next to Alice.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who sat in the aisle seat?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Alice",
+                  "Bane",
+                  "Caden",
+                  "Danny"
+                ],
+                "answer": "D",
+                "explanation": "Either Alice or Danny sat in the aisle seat, but if Caden did not sit next to Danny and Alice does not sit next to Caden, then it is impossible for Caden to sit in the second seat in from the aisle. Thus, either Bane or Alice/Danny can sit in the second seat in from the aisle – however if Bane prefers to sit next to Alice, then we only have one combination possible: (aisle) DABC. Therefore, the correct answer is D, as Danny must sit in the aisle so he is separated from Caden and they do not sit next to each other.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Alice, Bane, Caden and Danny compared their citizenships during National Citizenship Week at school.<br/>Bane and Alice did not have any common citizenships<br/>Danny is a citizen of Australia and America.<br/>Only 3 of the kids are citizens of Australia. <br/>Caden and Alice share only 1 common citizenship, but only have 2 citizenships between the two of them.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who does not have an Australian citizenship?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Alice ",
+                  "Bane",
+                  "Caden",
+                  "Danny"
+                ],
+                "answer": "B",
+                "explanation": "If Bane and Alice do not have any common citizenships and only 3 of the kids are citizens of Australia, either Bane or Alice are not Australian citizens. If Caden and Alice only share one common citizenship, it must be the Australian citizenship, as Alice/Caden can only have one citizenship each – if Caden and Alice were to share an Indian citizenship for example, then Caden would have to have 2 citizenships (Aus + Ind). Thus, if Alice has the Australian citizenship, Bane must be the one who does not. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+          {
+            "text": "A tuition centre is open for 3 classes every weekday. On Friday, a total of 40 students attended at least 1 of the 3 classes.<br/>No students attended both the first and third class.<br/>9 students attended only the second and third classes.<br/>8 students attended only the first class.<br/>6 students attended only the third class.<br/>8 students attended only the first and second classes.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many students attended the second class altogether?",
+                "type": "Multiple Choice",
+                "options": [
+                  "9",
+                  "18",
+                  "17",
+                  "26"
+                ],
+                "answer": "D",
+                "explanation": "A Venn diagram can be drawn to represent this information, however it can be solved without one: We know 8 + 9 = 17 students attended the ‘first+second’ and ‘third+second’ classes, so we only need to figure out how many students attended ‘only the second class’. Since no students attended the ‘first+third’ class, the number of students that attended ‘only the second class’ = total students – ‘first+second’ – ‘third+second’ – ‘only first’ – ‘only third’ = 40 – 8 – 9 – 6 – 8 = 9. Thus, 9 students only attended the second class. Thus, altogether, 17 + 9 = 26 students attended the second class. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A dog training school is working with 4 different dogs to identify their weights.<br/>Ben is lighter than Renold.<br/>Chris is lighter than Rover.<br/>Dennis is heavier than Rover but lighter than Ben.<br/>Rover is lighter than Ben and Renold.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who are the heaviest and lightest dogs?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Chris (heaviest) and Dennis (lightest)",
+                  "Renold (heaviest) and Chris (lightest)",
+                  "Rover (heaviest) and Renold (lightest)",
+                  "Ben (heaviest) and Rover (lightest)"
+                ],
+                "answer": "B",
+                "explanation": "If Rover is lighter than Ben and Renold, then we know Chris must be lighter than Ben and Renold (since Chris is lighter than Rover). Thus, our order from lightest to heaviest is currently Chris, Rover, Ben, Renold (we know Ben is lighter than Renold). If Dennis is heavier than Rover but lighter than Ben, he would fit in the middle, so the final order from lightest to heaviest would be: Chris, Rover, Dennis, Ben, Renold. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Aden, Benny, Chris, Dean and Ethan were the only competitors in a swimming race. They each wore a different coloured swimming cap (red, green, blue, orange, black).<br/>Dean swam faster than Joel but not Aden.<br/>Ethan did not come last.<br/>The boy in the blue cap beat the boys wearing black and red caps.<br/>The boy in the green cap came third and was not Benny or Ethan.<br/>Aden did not swim slower than Ethan.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Benny came fourth",
+                  "Dean was wearing the green cap",
+                  "The boy in the red cap came last",
+                  "Ethan did not come first"
+                ],
+                "answer": "D",
+                "explanation": "Ethan did not come 5th (last) or 3rd, so he could have come 1st, 2nd or 4th. If Aden swam faster than Ethan, then Ethan could not have come 1st, meaning Ethan came either 2nd or 4th. Therefore, the correct answer is D. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+          {
+            "text": "Aaron, Bernie, Carrell and Don booked appointments for a doctor on the same day, at either 11:00, 11:30, 12:00 or 12:30.<br/>Bernie booked an appointment for either 11:30 or 12:30.<br/>Aaron and Don’s appointments were 1 hour apart. <br/>Carrell did not book an appointment after Aaron. <br/>Aaron and Bernie travelled together so booked appointments right after each other. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who booked the appointment at 11:00?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Aaron",
+                  "Bernie",
+                  "Carrell",
+                  "Don"
+                ],
+                "answer": "D",
+                "explanation": "Aaron and Don must’ve booked the 11:00 and 12:00 slots, since Bernie booked one of the 11:30 and 12:30 slots. Thus, if Carell did not book an appointment after Aaron (ie. Carell had his appointment before Aaron), Aaron must have booked the 12:00 slot and Don must have booked the 11:00 slot (therefore, Carell must have booked the 11:30 appointment and Bernie booked the 12:30 appointment, which fits in with the statement that Aaron and Bernie had consecutive appointments). Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A local school held an athletics day which involved three events – Long Jump, 100m sprint and Shotput. A total of 30 kids took part in the athletics day.<br/>5 students only chose to do Shotput.<br/>10 students chose to do a combination of 2 different events.<br/>The school banned students from doing both the Long Jump and the 100m Sprint together. <br/>Only 3 students chose to do Long Jump by itself.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many students chose to do the 100m sprint by itself?",
+                "type": "Multiple Choice",
+                "options": [
+                  "10",
+                  "12",
+                  "15",
+                  "17"
+                ],
+                "answer": "B",
+                "explanation": "A Venn diagram could be used to solve this, however it can still be solved without one: If no students did the ‘Long Jump + 100m Sprint’, then we know 10 students did the ‘Long Jump + Shotput’ and ‘Shotput + 100m Sprint’ together. Thus, we the number of students who chose ‘only 100m sprint’ = total students – (‘Long Jump + Shotput’ and ‘Shotput + 100m Sprint’) – ‘only Shotput’ – ‘only Long Jump’ = 30 – 10 – 5 – 3 = 12. Therefore, the correct answer is B. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Alysha, Benjamin, Christo and Diego were booked in for detentions after school, at four different times one after each other. Each detention time slot was 30 mins.<br/>Alysha finished her detention at 5:30pm.<br/>Christo had his detention before Benjamin, but after Diego. <br/>Diego did not have his detention first.<br/>Benjamin started his detention at 6:30pm.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "When did the first detention begin?",
+                "type": "Multiple Choice",
+                "options": [
+                  "5:00pm",
+                  "5:30pm",
+                  "6:00pm",
+                  "6:30pm"
+                ],
+                "answer": "A",
+                "explanation": "If Benjamin started his detention at 6:30pm, then Diego must have had his detention at either 5:00pm or 6:00pm (given Alysha had her detention at 5:30pm). If Chris had his detention after Diego however, that means Chris must have had the detention in the 6:00pm slot, and Diego in the 5:00pm slot. Thus, the final results are Diego (5:00pm), Alysha (5:30pm), Chris (6:00pm), Benjamin (6:30pm). Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+          {
+            "text": "At Summerville High students have the option of selecting History, Geography, Politics as their elective subjects. Students may select up to 2 subjects in total from this selection. A total of 50 students were given this option.<br/>Only 10 students selected Geography.<br/>15 students selected History and Politics together. <br/>The same amount of students chose to do Geography and Politics and chose History and Geography.<br/>Only 5 students chose to do History by itself.<br/>A total of 23 students chose to do History.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many students chose to do only Politics?",
+                "type": "Multiple Choice",
+                "options": [
+                  "10",
+                  "17",
+                  "20",
+                  "27 "
+                ],
+                "answer": "C",
+                "explanation": "A Venn diagram could be drawn for the question, but it can be solved without one as well: If a total of 23 students chose to do History, and 10 students chose to do Geography, we can find the total number of students who did not choose ‘only Politics’ by adding these two values together. However, we need to find the overlap between the two, which is represented by ‘History + Geography’ because if we add the 23 students who chose History to the 10 students who chose Geography, we will be repeating ‘History + Geography’ twice in our calculations. The overlap: If 23 students chose to do History, and 5 chose ‘only History’ and 15 chose ‘History + Politics’, that means 3 must have chosen ‘History + Geography’ (since no student can choose all 3 subjects). Thus the overlap = 3, so the total number of students that did not choose ‘only Politics’ = 23 + 10 – 3 = 30. Thus, 50 – 30 = 20 students must have chosen ‘only Politics’. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "At a local carpentry convention 3 different types of woods were on display – Oak, Pine and Mahogany. 20 different carpenters displayed their works here as well.<br/>Only one type of wood was used per work.<br/>The number of works in Pine and Oak were the same.<br/>The number of works in Mahogany was half of that in Oak.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many works were in Pine?",
+                "type": "Multiple Choice",
+                "options": [
+                  "2",
+                  "4",
+                  "6",
+                  "8"
+                ],
+                "answer": "D",
+                "explanation": "If we make the number of works in Oak the value of n, then we can say: If Oak = n, then Pine = n, and Mahogany = 0.5n. Thus, the total number of works = 20 = n + n + 0.5n. Thus, 20 = 2.5n, so n = 8. If Pine = n, then Pine = 8. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Four horses, Fast Lightning, Rapido Donet, Speedy Gonaz and Quick Quincy, ran a horse race. Each of them wore a different coloured saddle – red, green, yellow, or brown.<br/>Fast Lightning did not come in last place.<br/>The horse with the red saddle finished the race before Speedy Gonaz.<br/>The horses in the yellow and brown saddles finished one after each other.<br/>Quick Quincy wore the brown saddle and came in second last place.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "The horse with the red saddle finished before the one in the yellow saddle.",
+                  "The horse with the yellow saddle came in first place",
+                  "Speedy Gonaz came in first place ",
+                  "Fast Lightning had the green saddle"
+                ],
+                "answer": "A",
+                "explanation": "If Quicky Quincy wore a brown saddle and came in second last place, that means the horse in the yellow saddle either came last or 2nd place, which means the horse in the red saddle came either 2nd or 1st. If the horse in the yellow saddle came last, then the horse in the yellow saddle came 2nd or 1st. If the horse in the yellow saddle came 2nd, then the horse in the red saddle must have come 1st (not last, because it finished ahead of Speed Gonaz). Therefore, the correct answer must be A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Five different fruits were weighed in a supermarket – a banana, an apple, an orange, a pear and a mango.<br/>The orange is lighter than the mango and the apple.<br/>The pear is heavier than the orange but lighter than the mango.<br/>The banana is lighter than the orange.<br/>The apple is heavier than the mango.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who are the heaviest and lightest fruits?",
+                "type": "Multiple Choice",
+                "options": [
+                  "The banana (heaviest) and the pear (lightest)",
+                  "The apple (heaviest) and the banana (lightest)",
+                  "The orange (heaviest) and the apple (lightest)",
+                  "The mango (heaviest) and the orange (lightest)"
+                ],
+                "answer": "B",
+                "explanation": "If the banana is lighter than the orange, than it must be lighter than the mango and the apply and the pear as well. Thus, the order of fruit from lightest to heaviest so far is banana, orange, mango/apple/pear. If the apple is heavier than the mango, but the pear is lighter than the mango, the new order from lightest to heaviest is banana, orange, pear, mango, apple. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Aaron, Bernie, Carrell and Don travelled by train from Mildura to Melbourne, with trains departing from Mildura at only 10:00am, 11:00am, 12:00pm or 1:00pm, all taking the same amount of time to reach Melbourne. <br/>Bernie and Don travelled on the same train.<br/>Aaron’s train left the station 2 hours before Don’s.<br/>Carrell missed his 11:00am train but caught another later train alone.<br/>Don arrived in Melbourne before Carrell. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which train did not carry any of these four people?",
+                "type": "Multiple Choice",
+                "options": [
+                  "10:00am",
+                  "11:00am",
+                  "12:00pm ",
+                  "1:00pm"
+                ],
+                "answer": "B",
+                "explanation": "Aaron and Dan’s trains can either be 10:00am and 12:00pm respectively or 11:00am or 1:00pm respectively. If Don arrived before Carell, and Carell departed Mildura at either 12:00pm or 1:00pm (since he missed the 11:00am), Don must have departed at 12:00pm (if it were at 1:00pm he would not have arrived before Carell) – and therefore Carell’s train departs at 1:00pm, and Aaron’s train must depart at 10:00am, meaning Bernie must have travelled on the 12:00pm train with Don. No one travelled on the 11:00am train. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Ricky, Sachin, Brian and Graeme played in a game of cricket, each batting during the game and scoring a certain amount of runs with their different coloured bats (green, orange, white and blue).<br/>Ricky did not use the green or orange bats.<br/>The player who scored the most amount of runs used the blue bat.<br/>Sachin and Brian did not score the most amount of runs, but did not score the lowest either. <br/>Graeme scored less runs than Ricky and chose to use a white bat.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following could be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Sachin used a blue bat",
+                  "Graeme score the second most amount of runs",
+                  "Brian used an orange bat",
+                  "Ricky scored the least amount of runs. "
+                ],
+                "answer": "C",
+                "explanation": "Ricky used either the blue or white bats (since he did not use green or orange). If Graeme used the white bat, then Ricky must have used the blue bat, meaning he scored the most amount of runs (therefore option A and D are incorrect). Since Graeme scored less than Ricky, but neither Sachin nor Brian scored the lowest, Graeme must have scored the least amount of runs (therefore option B is incorrect). Therefore, the correct answer is C, as Brian could have used either the orange or green bat.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Lionel, Roneldi, Wayne and Nimar played a game of soccer in which a total of 8 goals were scored and each wore a different coloured top.<br/>Lionel scored more goals than Wayne, but was not the one wearing red.<br/>Wayne and Roneldi scored the same amount of goals – an even number.<br/>The player who scored the least amount of goals wore black.<br/>Everyone scored at least one goal. <br/>Wayne wore blue.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Roneldi scored the most amount of goals",
+                  "No one scored more than 2 goals",
+                  "The player in the red top scored 2 goals",
+                  "Lionel wore a green top. "
+                ],
+                "answer": "C",
+                "explanation": "Lionel, Roneldi, Wayne and Nimar scored a total of 8 goals. If Wayne and Roneldi scored the same even number, the possible number of goals is 2 or 4. However, it cannot be 4 as 4 x 2 = 8, and Lionel and Nimar scored at least one goal. Thus, Wayne and Roneldi scored 2 goals each. Lional scored more than Wayne and Roneldi, so he must have scored 3 goals ( 3 + 2 + 2 + 1 = 8). Therefore, Nimar scored 1 goal and wore black. Wayne scored 2 goals and wore blue. Roneldi scored 2 goals and wore red. Lionel scored 3 goals. Thus, C is correct.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A sanctuary for giraffes is comparing heights of 4 different giraffes they have in preparation for an upcoming exhibition.<br/>Gerald is shorter than George.<br/>Gina is taller than Gianni but shorter than Gerald.<br/>Gianni is shorter than Gerald and George.<br/>Greg is shorter than Gianni.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who are the heaviest and lightest dogs?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Greg (tallest) and Gina (shortest)",
+                  "George (tallest) and Greg (shortest)",
+                  "Gianni (tallest) and George (shortest)",
+                  "Gerald (tallest) and Gianni (shortest)"
+                ],
+                "answer": "B",
+                "explanation": "The order from tallest to shortest is George, Gerald, Dina, Gianni, Greg. Therefore, B is correct.  ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Allie, Beck, Courtney and Danielle are going to buy ice creams at a store. At this store you can get either 1 scoop, 2 scoops or 3 scoops of ice cream. Alternatively they could not get any ice cream. <br/>Beck and Allie got the same amount of scoops in their ice creams.<br/>Danielle got one less scoop than Courtney.<br/>Courtney got 3 scoops of ice cream. <br/>The shop owner said there were only 9 scoops total he could give to the four girls combined. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "How many scoops did Allie get?",
+                "type": "Multiple Choice",
+                "options": [
+                  "0",
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "answer": "C",
+                "explanation": "Between Courtney (3) and Danielle (2), 5 scoops have already been used. Thus, 4 scoops are left to divide equally between the 2 remaining girls. Therefore, Allie and Beck both got 2 scoops each and B is the correct answer.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+          {
+            "text": "Allie, Beck, Courtney and Danielle decided to visit an ice cream shop one hot summer day along the beach. This particular shop served flavours of vanilla, chocolate, rainbow or mint.<br/>Beck did not get chocolate or rainbow.<br/>Allie got the same flavour as Courtney.<br/>Danielle was the only person to get mint flavoured ice cream.<br/>No one ended up getting chocolate ice cream.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Beck got mint flavoured ice cream",
+                  "Courtney chose to get rainbow flavoured ice cream ",
+                  "Allie chose to get vanilla flavoured ice cream",
+                  "Beck got vanilla flavoured ice cream"
+                ],
+                "answer": "D",
+                "explanation": "Because Danielle was the only person who got mint, Beck must have chosen vanilla, as she did not chose chocolate or rainbow. Thus, D is correct.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Allie, Beck, Courtney and Danielle thought they might like some ice cream on a particularly hot day on the weekend. They visited a big ice cream stand in the park that had flavours of chocolate, vanilla, cookies & cream, as well as different scoop amounts, varying from 1, 2, 3 or 4.<br/>None of the girls got the same amount of scoops.<br/>Beck got 1 scoop of vanilla and 1 scoop of chocolate.<br/>Allie does not like cookies & cream but had only 1 scoop of ice cream.<br/>Danielle chose to get the same flavour of ice cream as Courtney.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Courtney was the only one to get 3 scoops of ice cream. ",
+                  "Danielle got cookies & cream flavoured ice cream.",
+                  "Courtney got more scoops of ice cream than Beck.",
+                  "Allie got vanilla flavoured ice cream. "
+                ],
+                "answer": "C",
+                "explanation": "Beck got two scoops of ice-cream and Allie had 1 scoop. This means Courtney and Danielle must have 3 or 4 scoops of ice-cream. With either option (if Courtney got 3 or if she got 4 scoops), Courtney still got more scoops than Beck. Hence, C is correct.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Anika, Benito, Coby and Dolly bought played at an arcade and each won a certain amount of tickets. <br/>Anika won more tickets than Coby, but less than Dolly.<br/>Coby won half the amount of tickets as Dolly. <br/>Dolly won 26 tickets.<br/>Benito won 15 less tickets than Dolly. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who won the least amount of tickets?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Anika",
+                  "Benito",
+                  "Coby",
+                  "Dolly"
+                ],
+                "answer": "B",
+                "explanation": "The order from most to least tickets is Dolly (26), Anika (somewhere from 13 – 26), Coby (13) and Benito (11). Thus, B is the correct answer.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+          {
+            "text": "Anika, Benito, Coby, and Dolly went out for lunch together at a local restaurant and each ordered a drink and one food item off the menu. The four drinks were either green, yellow, red or clear.<br/>Coby ordered a clear water and the same food item as Anika. <br/>Dolly was not the one who ordered a burger, and drank a green drink.<br/>Anika does not like drinking red liquids.<br/>The person who ordered the red liquid ordered a steak.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following is definitely true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Anika ordered the burger",
+                  "Benito ordered the yellow drink",
+                  "Dolly ordered some chips",
+                  "Coby ordered a steak "
+                ],
+                "answer": "A",
+                "explanation": "Anika does not like drinking red liquids so we know she did not order a steak. Since Dolly was not the one who ordered a burger, we know Anika and Coby must have ordered burgers (since Coby ordered the same thing as Anika, and someone must have ordered a burger – given the phrasing of the second statement, ‘Dolly was not THE ONE who order a burger’, which implies that a burger was ordered by at least one other person). Therefore, the correct answer is A.  ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A car accident occurred on a main road, with emergency services arriving within 20 minutes. <br/>The police arrived 9 minutes before the paramedics.<br/>The firefighters were not the first on scene.<br/>The road management officers arrived 4 minutes before the firefighters.<br/>The paramedics arrived 12 minutes after the car accident occurred. ",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following could NOT have happened?",
+                "type": "Multiple Choice",
+                "options": [
+                  "The police arrived on the scene first",
+                  "The road management officers arrived on the scene before the paramedics",
+                  "The firefighters arrived on scene before the police",
+                  "The paramedics arrived directly after the firefighters "
+                ],
+                "answer": "C",
+                "explanation": "The question tells us that the police (3 mins after) came before the paramedics (12 mins after the accident), and that the road management officers came before the firefighters. However, since this happened within 20 minutes, then the firefighters must have come 20 minutes after the accident. This means that they arrived on scene after the police. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "John, Amy, Carter and Dan ordered different computers each. Each of the computers was a different colour – blue, green, orange and black.<br/>John did not buy the black computer.<br/>Carter bought either the green or the orange computer. <br/>Amy originally chose the same colour as John before changing, but at no point chose a green or orange computer.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Carter bought the orange computer",
+                  "Amy bought the black computer",
+                  "Dan bought the green computer",
+                  "John bought the blue computer"
+                ],
+                "answer": "D",
+                "explanation": "John bought either the green, orange or blue computer, according to the first statement. However, if Amy did not originally choose to buy a green or orange computer, then John did not choose to buy a green or orange computer, and must have therefore bought a blue computer. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A school has 3 classes, A, B and C. 40 students are sorted into 3 different classes, with some students being accidentally put into 2 of the same classes. <br/>2 students were put into both class A and B, but not C.<br/>Only 3 students were put into all 3 classes.<br/>The number of students in class B only and class C only were the same.<br/>The number of students in both class B and C but not A was 11. No students were in classes A and C together without being in class B",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following cannot be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "The number of students in class A total is 20",
+                  "There are 5 students each in class B only and class C only ",
+                  "There are more students in class B than C",
+                  "There are no students in class A only"
+                ],
+                "answer": "A",
+                "explanation": "This question likely requires a Venn Diagram, with a trial and error approach, where you fill in the 'known' information and go through each answer option to see which is FALSE. All we know from the stem is that the intersection between A and B circles in the Venn diagram is 2, the intersection between all 3 circles (A, B, C) is 3 and the intersection between B and C circles is 11. If we trial the first answer option A, where class A has 20 students in total, that would mean the number of students in the A circle only would be 15 (because 20 - 2 - 3 = 15). Thus, the number of students in only B and only C would be 9/2, which is impossible (because there are 40 students in total, 40 - 2 - 3 - 11 - 15 = 9, and the number of students in only B and only C is meant to be equal). Therefore A is correct.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          
+
+
+
+
+
+
+    {
+      "text": "Leon has an assortment of red, green and yellow pencils. Pencils of the same colour have the same length. A line of 1 green, 2 yellow and 3 red pencils has a total length of 40cm. Whereas, a line of 6 green, 4 yellow and 2 red pencils has a total length of 100cm. ",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "How much longer is each green pencil than each red pencil?",
+          "type": "Multiple Choice",
+          "options": [
+            "3cm",
+            "4cm",
+            "5cm",
+            "6cm"
+          ],
+          "answer": "C",
+          "explanation": "2 green, 4 yellow and 6 red pencils=80cm, 6 green, 4 yellow and 2 red pencils=100cm <br/> Therefore, 4 green pencils have a length of 100-80=20cm more than 4 red pencils; hence each green pencil is 20/4=5cm longer",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "John has a pile of 6 exam papers on his desk. <br/>His Maths exam paper is not at the bottom of the pile.<br/>The number of papers above the Maths exam paper is greater than the number below it.<br/>The Chemistry exam paper is the 3rd from the bottom.<br/>There are two exam papers between the Chemistry and the English exam paper.",
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following correctly lists the following exam papers from highest to lowest in the pile?",
+          "type": "Multiple Choice",
+          "options": [
+            "Maths, Chemistry, English",
+            "Maths, English, Chemistry",
+            "English, Maths, Chemistry",
+            "English, Chemistry, Maths"
+          ],
+          "answer": "D",
+          "explanation": "From top to bottom: 1. English, 2/3. Unknown, 4. Chemistry, 5. Maths, 6. Unknown",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "A mechanic repairs trucks, cars, boats and planes. Each of these repairs occurs within a different workshop (A, B, C, D) - situated in region 1, 2, 3 or 4.<br/>Truck repair does not occur in workshop A nor region 4.<br/>Planes are repaired in workshop B and boats are repaired in region 3.<br/>Workshop C is in region 2 and workshop A is not in region 4.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Logic Puzzles/Batch 1 (Sahil)/1.JPG",
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following must be true?",
+          "type": "Multiple Choice",
+          "options": [
+            "Planes are repaired in workshop A, region 4",
+            "Boats are repaired in workshop D, region 3",
+            "Trucks are repaired in workshop C, region 1",
+            "Cars are repaired in workshop A, region 2"
+          ],
+          "answer": "B",
+          "explanation": "Boats – D3, Planes – B4 , Truck C2, Cars A1",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "There are 46 strawberry, 32 peppermint and a number of honeycomb chocolates in a box. Doug wants 3 peppermint chocolates. The minimum number of chocolates that Doug should pick randomly from the box to ensure that there are 3 peppermint chocolates is 65.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "How many honeycomb chocolates are there in the box?",
+          "type": "Multiple Choice",
+          "options": [
+            "14",
+            "15",
+            "16",
+            "17"
+          ],
+          "answer": "C",
+          "explanation": "46+X+3=65; therefore, X=16",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "4 friends, Adam, Ben, Chris and David, are sharing an apartment. The apartment has 4 bedrooms (1,2,3,4)<br/>Adam and Chris are in diagonally opposite rooms.<br/>Chris’ room is closer to Ben’s room than David’s room.<br/>Adam’s room is closer to David’s room than Ben’s room.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Logic Puzzles/Batch 1 (Sahil)/2.JPG",
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following must be true?",
+          "type": "Multiple Choice",
+          "options": [
+            "Chris stays in room closest to Ben",
+            "Ben stays in room number 1",
+            "Adam’s room number is the lowest",
+            "Chris stays in the room closest to David"
+          ],
+          "answer": "A",
+          "explanation": "1/3 have to be Adam and Chris and 4/2 have to be Ben and David. Or, 4/2 have to be Adam and Chris and 1/3 have to be Ben and David. Chris and Ben have to be on the same sides (4/3 or 1/2) and same with Adam and David",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "4 friend, David, Eli, Finn and Gavin, went to the casino and they all won some money.<br/>Collectively, they won $2800.<br/>Both Eli and Gavin won the most money.<br/>David won a sum of money that was equal to the average of the 3 other friends.<br/>Gavin won $600 more than Finn.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "How much money did David and Finn win collectively?",
+          "type": "Multiple Choice",
+          "options": [
+            "$1800",
+            "$1600",
+            "$1200",
+            "$1000"
+          ],
+          "answer": "D",
+          "explanation": "Let G= the amount of money Gavin won; G+G+(G-600)+1/3(3G-600)=2800, 4G=3600, G=900<br/>Therefore, Finn won $300 and David won 1/3(2100)=$700",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "At the local grocery, Rajesh bought a number of grapes, which was the average number of grapes that Anne and Jim bought. Paul bought 16 grapes and Greg bought half as many grapes as Paul. Anne bought more grapes than Greg but fewer than Paul. Jim bought 2 more grapes than Anne. Collectively they bought 54 grapes.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following must be true?",
+          "type": "Multiple Choice",
+          "options": [
+            "Jim bought 10 grapes",
+            "Rajesh bought 10 grapes",
+            "Anne bought 10 grapes",
+            "Nobody bought 10 grapes"
+          ],
+          "answer": "B",
+          "explanation": "Let R= the number of grapes that Rajesh bought; R+2R+16+8=54; R=10",
+          "difficulty": 1
+        }
+      ]
+    },
+
+
+    {
+      "text": "Below is the layout of a school - with each shape representing a different amenity. For convenience, the drink taps are located equidistant from the playground and the gymnasium.<br/>The Library is located farthest away from the playground.<br/>The classroom is denoted by the square.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Logic Puzzles/Batch 1 (Sahil)/3.JPG",
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following amenities is represented by the diamond?",
+          "type": "Multiple Choice",
+          "options": [
+            "Library",
+            "Office",
+            "Playground",
+            "Gymnasium"
+          ],
+          "answer": "D",
+          "explanation": "Classroom=Square, Drink taps=Circle, Gymnasium=Diamond, Playground=Pentagon, Triangle=Library",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Adam, Ben, Cindy, David and Ellis each own a dog. The dogs are either black or yellow in colour.<br/>3 dogs are Labradors and the rest are Poodles.<br/>All the Poodles are black while the Labradors are either black or yellow.<br/>Adam and Ellis do not have Labradors.<br/>Of Ben, Cindy and David, only David has a black dog.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following is true?",
+          "type": "Multiple Choice",
+          "options": [
+            "Adam owns a yellow Poodle",
+            "David owns a black Poodle",
+            "Ben owns a yellow Labrador",
+            "Cindy owns a black Labrador"
+          ],
+          "answer": "C",
+          "explanation": "A and E=Black poodles, D=Black poodle/lab, B and C=Yellow lab",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Five soccer players, each from different teams - Barcelona, Real Madrid, Juventus, Liverpool and Arsenal, wore guernseys and boots of different colours - red, green, yellow, brown and blue.<br/>No two players wore guernseys and boots of the same colour.<br/>The Arsenal player wore a blue guernsey, His boots were neither yellow nor brown.<br/>The Liverpool player wore a yellow guernsey.<br/>The Juventus player wore red boots and a guernsey of the same colour as the Arsenal player’s boots.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following is true?",
+          "type": "Multiple Choice",
+          "options": [
+            "The Real Madrid player wore a brown or red guernsey",
+            "The Arsenal player wore red boots",
+            "The Barcelona player wore green boots",
+            "The Juventus player wore a red guernsey"
+          ],
+          "answer": "A",
+          "explanation": "Arsenal=Blue guernsey, green boots, Liverpool=Yellow guernsey, Juventus=Green guernsey, red boots, Real Madrid=Red/brown guernsey, brown/blue boots",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Anne, Ben, Cindy and David each worked on an assignment for a different subject one fortnight - French, maths, English and chemistry. The time taken for each of the assignments were 10, 14, 22 and 32 hours (not in any order).<br/>Cindy worked on either maths or English.<br/>Collectively Anne and Ben took 2 hours longer than Cindy to complete their assignments.<br/>The French assignment took the longest to complete.<br/>Ben spent more time than Anne and worked on the English assignment.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following is true?",
+          "type": "Multiple Choice",
+          "options": [
+            "Anne spent 14 hours on the chemistry assignment",
+            "Ben spent 22 hours on the on the English assignment",
+            "Cindy spent 14 hours on the maths assignment",
+            "Collectively, Cindy and Anne spent the same amount of time working on their assignments as David"
+          ],
+          "answer": "D",
+          "explanation": "C=Maths and 22hrs, A=Chemistry and 10hrs, B=English and 14 hrs, D=French and 34 hrs",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "5 friends were deciding on which activity to choose for an outing (based on affordability and enjoyment) - out of bowling, tennis, movies and laser tag. The rates for these activities are $15, $20, $30 & $40 (not in any order). Each activity was ranked (from 1-4) depending on how enjoyable it was perceived to be.<br/>The movies are twice as expensive as bowling and ranked 3rd for enjoyment.<br/>Laser tag was the most expensive activity.<br/>Tennis was ranked 1 higher than the movies for enjoyment.<br/>Bowling was not ranked last for enjoyment.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which activity should the group of friends choose?",
+          "type": "Multiple Choice",
+          "options": [
+            "Laser tag; because it is the most expensive but the most enjoyable activity",
+            "Tennis; because it is the cheapest and most enjoyable activity",
+            "Bowling; because it is the cheapest and most enjoyable activity",
+            "Not enough information provided"
+          ],
+          "answer": "C",
+          "explanation": "Movies= $30 and 3rd, Laser tag=$40 and 4th, Bowling=$15 and 1st, Tennis= $20 and 2nd ",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "4 shoppers, Rajesh, Kiran, Mandy and Lee, bought groceries from the local store. Each shopper bought a different food item, orange, apple, banana or cereal, and all the items were priced differently. The prices of the items were $3, $4, $7 and $8 (not in any order)<br/>Rajesh spent $1 more than Mandy but did not pay the highest amount.<br/>Lee spent twice as much as another shopper and purchased a banana.<br/>Neither Kiran nor Mandy ever purchase apples.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following must be true?",
+          "type": "Multiple Choice",
+          "options": [
+            "The Banana cost $7 and was purchased by Lee",
+            "Rajesh spent $8 on an apple",
+            "Oranges cost more than apples",
+            "The cost of an orange is an odd number"
+          ],
+          "answer": "D",
+          "explanation": "L=Banana and $8, R=Apple and $4, M=Orange/Cereal and $3, K= Orange/Cereal and $7",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Jenny has more money than Jane.<br/> If Jane gives $30 to Jenny, Jenny would have 5 times as much money as Jane.<br/>However, if Jenny gives Jane $10, they will both have the same amount of money.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "How much money would Jenny have to give Jane so that Jane has twice as much money as Jenny?",
+          "type": "Multiple Choice",
+          "options": [
+            "$10",
+            "$20",
+            "$30",
+            "$40"
+          ],
+          "answer": "C",
+          "explanation": "Let A=Jane’s money, E = Jenny’s money;<br/>5(A-30)=E+30<br/>A+10=E-10; E=A+20<br/>5(A-30)=A+50<br/>A=$50, E=$70<br/>50+30=2(70-30)",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "A chemistry olympiad team (of 25 students) is selected from four schools; A, B, C and D.<br/>School A has the most students in the olympiad team.<br/>School B has one-half as many students as school A in the team but twice as many students as school C.<br/>The remaining 4 students are from school D.<br/>Schools A and D have as many girls in the team as boys.<br/>School B has as many as boys in the team as school A has girls.<br/>School C is an all-girls school.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "How many girls are in the chemistry olympiad team?",
+          "type": "Multiple Choice",
+          "options": [
+            "9",
+            "11",
+            "13",
+            "15"
+          ],
+          "answer": "B",
+          "explanation": "A=12 and 6 girls, B=6 and 0 girls, C=3 and 3 girls, D=4 and 2 girls",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "A group of 5 friends, Angela, Beth, Chris, David and Ebony, want to establish who is the tallest and shortest in the group. The following is known:<br/>There are more friends taller than Ebony than shorter than her.<br/>Chris is shorter than Beth but taller than David.<br/>Angela is the closest in height to Beth (but still is slightly shorter than her).",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following cannot be definitively stated?",
+          "type": "Multiple Choice",
+          "options": [
+            "Ebony is the shortest in the group",
+            "There are as many friends shorter than Chris as there are taller than him",
+            "Beth is the tallest in the group",
+            "Angela is taller than David"
+          ],
+          "answer": "A",
+          "explanation": "Shortest to tallest: E/D C AB",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "The 54 people at a music venue.<br/>All of those in attendance are either adults or children, male or female.<br/>There are 6 more males than females.<br/>Of the 29 adults, 15 are female.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "How many more male children are there than female children?",
+          "type": "Multiple Choice",
+          "options": [
+            "2",
+            "7",
+            "9",
+            "16"
+          ],
+          "answer": "B",
+          "explanation": "25 kids: 16 males, 9 females; 29 adults – 14 males, 15 females",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "In a class of 8 students, the average score in the past maths test was 80%.<br/>Only 2 students received a perfect score.<br/>Only 1 student received 90%.<br/>Only 2 students received 80%.<br/>Only 1 student scored a 70%.<br/>Of the remaining students, Jeremy failed the test and Chris scored 30% higher than Jeremy.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "What was Chris’s score?",
+          "type": "Multiple Choice",
+          "options": [
+            "75%",
+            "55%",
+            "80%",
+            "65%"
+          ],
+          "answer": "A",
+          "explanation": "Let J=Jeremy’s score; J+J+30+70+160+90+200=8*80; J=45%, 45+30=75",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Your three friends, Jim, Bob and Elliot, live relatively close to you.<br/>Jim’s house and Bob’s house are each 7 kilometres away from your house.<br/>However, Jim’s house is 12 kilometres away from Bob’s house.<br/>Elliot’s house is 4 kilometres away from my house, on the straight road I use to get to Jim’s house.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following must be true?",
+          "type": "Multiple Choice",
+          "options": [
+            "If Bob travels to Elliot’s house, he must pass my house",
+            "It takes just as long for me to get to Jim’s house as Bob’s house",
+            "Elliot’s house is closer to Jim’s house than my house",
+            "A round trip, from my house to Bob’s to Jim’s to Elliot’s and back to mine, will be at least 31 kilometres"
+          ],
+          "answer": "C",
+          "explanation": "Jim to you: 7km, Bob to you: 7km, Jim to Bob: 12km, Elliot to you: 4km, Jim to Elliot: 3km",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Christian, a chef, can mix up to 3 different spices in his curries (any more than this and the dish becomes too spicy for his customers). At the moment, he only has three spices available to use in his curries. However, he decides to purchase an additional spice.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "With this purchase, is 10 the number of additional curry styles that Christian can now create (with up to 3 spices)?",
+          "type": "Multiple Choice",
+          "options": [
+            "Yes, there will be 10 additional curry styles",
+            "No, there will be 15 additional curry styles",
+            "No, there will be 3 additional curry styles",
+            "No, there will be 7 additional curry styles"
+          ],
+          "answer": "D",
+          "explanation": "3 spices: 3+3x2= 9, 4 spices=4+4x3=16",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "There are 6 people lining up for movie tickets - 2 girls (Jane and Jill) and 4 boys (Mark, Michael, John and Gab).<br/>The girls are separated by 2 boys.<br/>Jane is ahead of Jill but directly behind Mark.<br/>Gab is at the front of the line.<br/>There 2 people in between Mark and John.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following is definitely true?",
+          "type": "Multiple Choice",
+          "options": [
+            "Jill will be the 4th person to receive her ticket",
+            "John is in front of Michael in the line",
+            "A girl is the last person in the line",
+            "The two people at the back of the line have the same initials"
+          ],
+          "answer": "C",
+          "explanation": "Front to back: Gab, Mark, Jane, Michael, John, Jill",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Sandstone blocks, marble blocks and granite blocks each have differing weights - 1, 2 and 3kg respectively.<br/>Alan, Bob and Callum are tasked with carrying 3 blocks - marble, sandstone or granite.<br/>Alan is carrying 2 granite blocks.<br/>The 3 blocks carried by Callum are the same.<br/>Bob is carrying one sandstone block.<br/>Only one person is carrying granite blocks.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following is definitely true?",
+          "type": "Multiple Choice",
+          "options": [
+            "Bob is carrying more weight than Callum",
+            "Callum is carrying more weight than Bob",
+            "Alan is carrying the most weight",
+            "Alan is carrying exactly twice as much weight as Bob"
+          ],
+          "answer": "C",
+          "explanation": "A: 2 granite, 1 Sandstone/granite, 7/8kg; B: 1 sandstone, 2 marble, 4kg; C: 3 Sandstone or marble, 4kg or 6kg",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "A hotel has 5 floors numbered 1 to 5 - including 2 floors with solely apartment suites, 1 floor with a pool, 1 floor with a gym and 1 floor with a conference hall.<br/>The 2 apartment suites are located on odd-numbered floors – with numerous floors separating them.<br/>For convenience, the gym and the pool are on adjacent floors.<br/>There are more floors above the conference hall than there are below it.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "If it takes the elevator 10 seconds to move up or down a floor, how long would it take to travel from the conference hall to the uppermost apartment suite by elevator?",
+          "type": "Multiple Choice",
+          "options": [
+            "10 seconds",
+            "20 seconds",
+            "30 seconds",
+            "40 seconds"
+          ],
+          "answer": "C",
+          "explanation": "1: Apartment, 2: Conference hall, 3: Gym/pool, 4: Gym/pool, 5: Apartment",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "4 boats were docked at a harbour, in bays 1, 2, 3, 4. The boats included a yacht, a dinghy, a catamaran and a fishing vessel.<br/>The boats were painted different colours - black, white, silver and red.<br/>The yacht was not silver.<br/>The silver vessel was parked next to the catamaran.<br/>The dinghy and the fishing vessel each only had one neighbouring boat.<br/>The boat docked at 3 was black and not the yacht.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Logic Puzzles/Batch 1 (Sahil)/4.JPG",
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following combinations must be true?",
+          "type": "Multiple Choice",
+          "options": [
+            "Catamaran + Black",
+            "Yacht + Black",
+            "Dinghy + Black",
+            "Fishing vessel + Black"
+          ],
+          "answer": "A",
+          "explanation": "1: Dinghy/vessel, 2: Yacht, 3: Black catamaran, 4: Silver dinghy/vessel",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "A shop sells drinks, coffee, tea, juice and milkshakes, through the course of the day. At the start of one day, there were 11L, 9L, 18L and 10L of drink available (not in any order) and, by the end of the day, there were 5L, 9L, 3L and 1L of drink remaining (not in any order) - any decrease in volume can be attributed to sales.<br/>The same volume of coffee and tea was sold throughout the course of the day.<br/>The volumes of milkshakes and juice did not halve throughout the course of the course of the day.<br/>There was initially 18L of juice.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Based on the volume of sales for that particular day, the manager of the shop will determine the store’s least popular drink and cease its production/ sale. Based on the above data, which drink should the manager stop selling?",
+          "type": "Multiple Choice",
+          "options": [
+            "Coffee",
+            "Tea",
+            "Juice",
+            "Milkshakes"
+          ],
+          "answer": "D",
+          "explanation": "Coffee/tea: 11-5 and 9-3, Juice: 18-1, milkshake: 10-9",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Logic Puzzles/Batch 1 (Sahil)/5.JPG",
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "What does ‘?’ represent?",
+          "type": "Multiple Choice",
+          "options": [
+            "Circle",
+            "Square",
+            "Triangle",
+            "Arrow"
+          ],
+          "answer": "A",
+          "explanation": "Combining the first 2 equations: 2 squares + 1 circle = 1 triangle – 1 square<br/>Combining the above equation with the 3rd equation: 2 squares + 1 circle = 4 squares – 1 circle – 1 square; therefore, rearranging, 2 circles = 1 square<br/>With the 4th equation, the value of the left is 9 circles, and the right is 8 circles. To balance this out, the question mark must equal 1 circle",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "William was Chris and Janes’ first child. In 1975, Chris and Jane (who just turned 40) adopted Anna. By 1992, Anna was one-third of Jane’s age. In 2000, William, who was 5 years more than half Chris’ age at the time, married Joanne. In 2002, Joanne and William had their first child, Tyrone &, thus, Chris was a first-time grandfather at age 62.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "How many years older is Will than Anna?",
+          "type": "Multiple Choice",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "answer": "D",
+          "explanation": "Anna was born in 1992 – (57/3) = 1973, Chris in 2000 – (60/2 + 5) = 1965",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Brian is at a toy shop that sells RC cars, toy soldiers, bouncy balls, teddy bears and dolls. They cost $4, $6, $10, $12, $17 in no particular order. He has a $20 allowance to spend at the shop.<br/>He can buy 2 teddy bears and 2 bouncy balls without receiving any change.<br/>Or, he can buy 2 bouncy balls and 1 doll without receiving any change.<br/>If he buys an RC car, he cannot buy anything else in the shop.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following statements is false?",
+          "type": "Multiple Choice",
+          "options": [
+            "The RC car costs the most",
+            "Dolls are $2 more expensive than toy soldiers",
+            "Brian cannot afford 2 toy soldiers",
+            "1 teddy bear and 1 bouncy ball costs as much as a toy soldier"
+          ],
+          "answer": "C",
+          "explanation": "TB = $6, BB = $4, Doll = $12, RC = $17, TS = $10 ",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Bob is a photographer. 6 photographs adorn his wall, arranged as follows.<br/>There are 2 black-and-white and 4 coloured photographs.<br/>Photograph 5 is black and white.<br/>Both black-and-white photographs were taken before the year 2000.<br/>Photographs 4 and 6 were taken in 2005.<br/>The black-and-white photographs are not vertically adjacent.",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Logic Puzzles/Batch 1 (Sahil)/6.JPG",
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Photographs 1 and 3 are:",
+          "type": "Multiple Choice",
+          "options": [
+            "2 black-and-white photographs",
+            "1 black-and-white photograph and 1 coloured photograph",
+            "2 coloured photographs",
+            "Insufficient information provided"
+          ],
+          "answer": "B",
+          "explanation": "5 = B & W, 6 = Coloured, 4 = Coloured, 2 = Coloured, 1/3= B & W/coloured",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "A mathematician asks Chris to think of a number between 1 and 10 and perform the following operations (sequentially) on it:<br/>Multiply the number by 3.<br/>Then add 6.<br/>Then subtract 3.<br/>Then divide by 3.<br/>Finally subtract the original number.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following is false?",
+          "type": "Multiple Choice",
+          "options": [
+            "Chris will finish with the same number, irrespective of his starting number",
+            "Chris will always finish with a 1",
+            "Chris will finish with a number less than 5",
+            "Chris will finish with a number greater than 2"
+          ],
+          "answer": "D",
+          "explanation": "Let X be the original number; 3X+6-3=3X+3, (3X+3)/3=X+1, X+1-X=1 ",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "A game is played at a carnival stall.<br/>You must pay $2 to play the game.<br/>You first flip a coin; If the coin lands on tails, the game ends. If the coin lands on heads, you get $1 and are allowed to flip again.<br/>The second time you flip a coin; If the coin lands on tails, the game ends. If the coin lands on heads, you get a further $1 and are allowed to flip again.<br/>The third time you flip a coin; If the coin lands on tails, the game ends. If the coin lands on heads, you get $8.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "If I play 16 games, in how many games would I be expected to break even or win money?",
+          "type": "Multiple Choice",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "Pr(HHT, HHH)= (1/2x1/2x1/2) + (1/2x1/2x1/2) = 1/4<br/>1/4 x 16 = 4",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "  In a barn there are pigs, chicken and sheep.<br/>There are 90 animals, total, in the barn.<br/>There are twice as many pigs as sheep in the barn.<br/>Each pig and sheep have 4 legs, while each chicken has 2 legs.<br/>There are 330 legs, total, in the barn.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "How many more pigs are there than chickens in the barn?",
+          "type": "Multiple Choice",
+          "options": [
+            "10",
+            "20",
+            "25",
+            "35"
+          ],
+          "answer": "D",
+          "explanation": "Let S be the number of sheep and C the number of chickens<br/>S + 2S + C = 90, i.e/ 6S + 2C = 180<br/>4 x 3S + 2C = 330<br/>Second equation – first: 6S = 150, S = 25<br/>50 pigs and 15 chickens (via substitution)",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "",
+      "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Questions/Logic Puzzles/Batch 1 (Sahil)/7.JPG",
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "What does ‘?’ represent?",
+          "type": "Multiple Choice",
+          "options": [
+            "Triangle",
+            "Rectangle",
+            "Circle ",
+            "Star"
+          ],
+          "answer": "A",
+          "explanation": "Let triangle be 1 unit<br/>Circle is 3 units. Star is 6 – 1 = 5 units<br/>2 stars = 10 units, 3 circles = 9 units<br/>Therefore the question mark is 10 – 9 = 1 unit",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "The heights of 5 plants in a garden are measured and recorded by a gardener. He wishes to determine the tallest and shortest plants in the garden.<br/>The rosebush is shorter than the cactus.<br/>The sunflower is shorter than the daisy.<br/>The bluebell is taller than the daisy but shorter than the rosebush.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which of the following correctly lists the tallest and shortest plants respectively?",
+          "type": "Multiple Choice",
+          "options": [
+            "Daisy, rosebush",
+            "Cactus, rosebush",
+            "Cactus, sunflower",
+            "Daisy, sunflower"
+          ],
+          "answer": "C",
+          "explanation": "Shortest to tallest: Sunflower, Daisy, Bluebell, Rosebush, Cactus, ",
+          "difficulty": 1
+        }
+      ]
+    },
+
+    {
+      "text": "Chris surveyed 20 classmates about their favourite sport.<br/>All 20 respondents chose one of five sports (cricket, soccer, basketball, tennis & AFL) as their favourite sport.<br/>2 more respondents chose tennis than cricket.<br/>Twice as many respondents chose basketball than tennis.<br/>One more respondent chose AFL than cricket.<br/>AFL was equally popular as soccer.",
+
+      "category_id": 4,
+      "questions": [
+        {
+          "text": "Which was the second most popular sport?",
+          "type": "Multiple Choice",
+          "options": [
+            "Basketball",
+            "Tennis",
+            "Cricket",
+            "Both AFL and soccer"
+          ],
+          "answer": "B",
+          "explanation": "C + 2 = T<br/>2T = B<br/>C + 1 = A<br/>S = A<br/>C = T – 2, B = 2T, A = T – 1, S = T – 1 ",
+          "difficulty": 1
+        }
+      ]
+    }
+
+       
+      
+    ]
+  }

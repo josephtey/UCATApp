@@ -105,7 +105,95 @@ function createStack(stack, operator, screenClear, allowOp) {
 }
 
 
+// Keyboard Shortcuts
+document.addEventListener('keyup', (event) => {
+  const keyName = event.key;
 
+  if (keyName === '+') {
+    if (allowOp) {
+      if (stack.length == 0) {
+        stack.push(output.textContent);
+        stack.push("+");
+      } else if (stack.length == 2) {
+        stack.push(output.textContent);
+        let result = evaluate(stack);
+        display(result);
+        stack = [result, "+"];
+      }
+      screenClear = true;
+      allowOp = false;
+    }
+  } else if (keyName === '-') {
+    if (allowOp) {
+      if (stack.length == 0) {
+        stack.push(output.textContent);
+        stack.push("-");
+      } else if (stack.length == 2) {
+        stack.push(output.textContent);
+        let result = evaluate(stack);
+        display(result);
+        stack = [result, "-"];
+      }
+      screenClear = true;
+      allowOp = false;
+    }
+  } else if (keyName === '/') {
+    if (allowOp) {
+      if (stack.length == 0) {
+        stack.push(output.textContent);
+        stack.push("/");
+      } else if (stack.length == 2) {
+        stack.push(output.textContent);
+        let result = evaluate(stack);
+        display(result);
+        stack = [result, "/"];
+      }
+      screenClear = true;
+      allowOp = false;
+    }
+  } else if (keyName === '*') {
+    if (allowOp) {
+      if (stack.length == 0) {
+        stack.push(output.textContent);
+        stack.push("*");
+      } else if (stack.length == 2) {
+        stack.push(output.textContent);
+        let result = evaluate(stack);
+        display(result);
+        stack = [result, "*"];
+      }
+      screenClear = true;
+      allowOp = false;
+    }
+  } else if (keyName === '=' || keyName === "Enter") {
+    if (allowOp) {
+      if (stack.length == 2) {
+        stack.push(output.textContent);
+        let result = evaluate(stack);
+        display(result);
+        stack = [];
+      }
+      screenClear = true;
+      allowOp = true;
+    }
+  } else if (["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "."].includes(keyName)) {
+    const number = keyName
+
+    if (output.textContent.charAt(0) === "0" &&
+      output.textContent.length == 1) {
+      output.textContent = "";
+    }
+    if (screenClear) { output.textContent = ""; }
+    if (output.textContent.length < 16) {
+      output.textContent += number;
+      screenClear = false;
+    }
+    if (output.textContent.charAt(0) === ".") {
+      output.textContent = "0.";
+    }
+    allowOp = true;
+  }
+}, false);
 
 //Add
 addButton.addEventListener("click", () => {

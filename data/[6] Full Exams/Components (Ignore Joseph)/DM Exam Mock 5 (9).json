@@ -1,0 +1,715 @@
+{
+    "exam": {
+      "name": "Decision Making 1",
+      "description": "Section Mock",
+      "type": "Mock",
+      "time": 31
+    },
+    "sections": [
+      {
+        "name": "Decision Making",
+        "description": "Looks at your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information.",
+        "time": 31,
+        "stems": [
+          
+          {
+            "text": "Some Azzas are Bazzas. All Cazzas are Bazzas. Not all Dazzas are Azzas, but no Dazzas are Cazzas.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Some Azzas are Cazzas",
+                  "Most Dazzas are Azzas",
+                  "If a Dazza is an Azza, it must also be a Bazza",
+                  "A Cazza cannot be a Dazza",
+                  "There are some Azzas that are not Dazzas"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "Y",
+                  "Y"
+                ],
+                "explanation": "1. Whilst all Cazzas are Bazzas, that does not mean that all Bazzas are Cazzas. Therefore, if some Azzas are Bazzas, those Azzas that are Bazzas could be a part of the Bazzas that are not Cazzas. We do not know for sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We know that not all Dazzas are Azzas, but that could mean that no Dazzas are Azzas as well. Thus we don’t know if most Dazzas are even Azzas. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>3. Only some Azzas are Bazzas, so even if a Dazza is an Azza, it is not guaranteed to also be a Bazza.<br/>4. If no Dazzas are Cazzas, then no Cazzas are Dazzas (if a Cazza was a Dazza, that would mean a Dazza would also be a Cazza then). Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We know that not all Dazzas are Azzas, so at least 1 Dazza is not an Azza. Thus, at least 1 Azza is then also not a Dazza. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "No athletes are taller than 6ft. All baseball players are shorter than 6ft, but most basketball players are taller than 6ft. Not all football players work full time, but athletes must work full time.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "A football player that does not work full time cannot be an athlete",
+                  "All basketball players are athletes",
+                  "All baseball players are athletes",
+                  "If an athlete is 5ft, they cannot be a basketball player",
+                  "Some football players are athletes"
+                ],
+                "answer": [
+                  "Y",
+                  "N",
+                  "N",
+                  "N",
+                  "N"
+                ],
+                "explanation": "1. Since all athletes work full time, if the football player does not work full time they cannot be an athlete. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. Most basketball players are taller than 6ft, and since no athletes are taller than 6ft, most basketball players are not athletes. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Even though all baseball players are shorter than 6ft, and no athletes are taller than 6ft, we don’t know that baseball players can even be athletes. Also, all the athletes could be 6ft exactly, in which case the baseball players could not be athletes. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since most basketball players are taller than 6ft, at least 1 basketball player is not taller than 6ft, so they could be an athlete (since athletes are not taller than 6ft). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We have no information about football players being athletes or any connection between the two. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "This animal is a monkey. All monkeys have fingers, but only some animals have a tail.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "This animal has a tail",
+                  "This animal has fingers",
+                  "Some monkeys have tails",
+                  "This animal cannot have a tail and fingers",
+                  "Not all animals have fingers"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "N",
+                  "N"
+                ],
+                "explanation": "1. Since only some animals have a tail, we don’t know for certain whether this animal has a tail. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Since this animal is a monkey and all monkeys have fingers, this animal will also have fingers. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. As far as we know at least 1 monkey is an animal (because this animal is a monkey), but we do not know if any monkeys have tails at all, since only some animals have tails. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. There is nothing to suggest that this animal could not have a tail, but we don’t know if it does either. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We know at least 1 animal has fingers, since this animal is a monkey and all monkeys have fingers. Therefore, the term ‘not all’ would not be correct, as ‘not all’ includes none as well (not all could be anything but all). Since the term ‘not all’ can include 0/none, and we know at least 1 animal for certain has fingers, the answer is NO.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Some trees grow leaves, but those which do don’t grow yellow leaves. In winter, all the leaves on trees will fall. This tree has leaves currently.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "In summer, trees will have leaves",
+                  "Currently it is not winter",
+                  "This tree has green leaves",
+                  "This tree does not have yellow leaves",
+                  "Some trees do not grow leaves"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "Y",
+                  "Y"
+                ],
+                "explanation": "1. We don’t know what happens in summer. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. If in winter all the leaves will fall from the tree, and currently this tree has leaves, then it cannot be winter. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. We do not know what colour this tree’s leave are (all we know is that they are not yellow). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since the trees that grow leaves do not grow yellow leaves, and this tree has leaves, we know this tree cannot have yellow leaves. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. If some trees grow leaves, then at least 1 tree does not grow leaves. Therefore, the correct answer is YES, as the conclusion does follow. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Most biscuits are vanilla cookies. Some shortbreads are biscuits, but no chocolate cookies are biscuits. All oven-baked foods are chocolate cookies.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "A food that has been oven-baked cannot be a cookie",
+                  "Some shortbreads are vanilla cookies",
+                  "Biscuits cannot be baked",
+                  "Biscuits cannot have chocolate",
+                  "An oven-baked food cannot be a biscuit"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "N",
+                  "Y"
+                ],
+                "explanation": "1. We know that all oven-baked foods are chocolate cookies, so if a food was oven-baked it must be a chocolate cookie (which is a cookie). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Even though some shortbreads are biscuits and most biscuits are vanilla cookies, at least 1 shortbread is not a biscuit, and at least 1 biscuit is not a vanilla cookie. Thus we cannot conclude that some shortbreads are vanilla cookies for certain, as all the shortbreads that are biscuits may be outside the ‘most’ biscuits that are vanilla cookies. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know if oven-baking is the only way to bake, Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We do not know that chocolate cookies are the only things that have chocolates in them, and nothing suggests that biscuits cannot have chocolates in them. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. All oven-baked foods are chocolate cookies, so if a food is oven-baked it cannot be a biscuit. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Amy, Benjamin, Carl and Derrick played a typing game. The winner was the person who could type a passage the fastest.<br/>Benjamin did not type the passage the fastest.<br/>Carl typed the passage in 40 seconds.<br/>Amy typed the passage faster than Carl but slower than Benjamin.<br/>Derrick came second last in the previous typing competition.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who typed the fastest?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Amy",
+                  "Benjamin ",
+                  "Carl",
+                  "Derrick"
+                ],
+                "answer": "D",
+                "explanation": "If Amy typed faster than Carl but slower than Benjamin, then we know Benjamin typed faster than both Amy and Carl. Since he did not type the passage the fastest, we know Derrick has to be the fastest. Therefore, the answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A shelter has 4 different dogs, Shelly, Guff, Mitso and Gavin. Each of the dogs are either, black, brown, white or grey.<br/>Shelly is not brown.<br/>The white dog has a name starting with G.<br/>Mitso was either black or grey.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Shelly is grey",
+                  "The white dog is named Gavin",
+                  "Guff can either be brown or white",
+                  "If Gavin is white, Mitso must be black"
+                ],
+                "answer": "C",
+                "explanation": "Shelly is not brown, but we do not know what colour she is. The white dog could be Gavin or Guff. If Gavin is white, then Guff is not white, but we don’t know how that affects Mitso’s colour because Guff would be black or grey. Guff can be white because he starts with G, and he could be brown (but not grey or black because if Guff is grey, then Mitso is black and Gavin is white, which leaves Shelly to be brown which she cannot. If Guff is black, then Mitso is grey, Gavin is white and Shelly is again brown which she cannot). Therefore, the answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "In an athletics tournament, Sally, Don, Ken and Allie competed in the long jump, with the distances they made recorded.<br/>Sally jumped more than 4.5 metres.<br/>Ken jumped further than Sally but 2 metres less than Don.<br/>Allie was unable to jump more than 4.5 metres.<br/>Don jumped further than Allie.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who made the third highest distance?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Sally",
+                  "Don",
+                  "Ken",
+                  "Allie"
+                ],
+                "answer": "A",
+                "explanation": "If Ken jumped further than Sally but less than Don, we know Don jumped further than Sally. If Don also jumped further than Allie we know he had the highest distance. If Allie did not jump more than 4.5m, she did not jump higher than Sally. Thus we can deduce she jumped the shortest distance. Since Ken jumped further than Sally we know she came third in height. Therefore, the answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+          {
+            "text": "Jean, Dhivyan, Bowan and Kate measured their heights and weights.<br/>Kate was not the lightest person, but was taller than Dhivyan.<br/>Bowan weighed less than Jean.<br/>The person who weighed the second most was the tallest.<br/>Bowan was taller than Kate and weighed more than her. ",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who was the tallest person?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Jean",
+                  "Dhivyan",
+                  "Bowan",
+                  "Kate"
+                ],
+                "answer": "C",
+                "explanation": "If Bowan is taller than Kate, and Kate is taller than Dhivyan, we know Bowan is at least the second tallest. Since Bowen weighed less than Jean, but weighed more than Kate who was not the lightest person, we know Bowen was the second heaviest person. Thus since the second heaviest person is the tallest, we know Bowan is the tallest. Therefore, the answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Adam, Ben, Caddy and Dean have 4 different cars between them – a Porsche, a Ferrari, a Nissan and a Lexus. Each have a different profession.<br/>Adam owns either the Ferrari or Lexus.<br/>The engineer owns the Lexus.<br/>Caddy is a nurse, but someone else is a police officer.<br/>Dean owns a Ferrari and is not a police officer.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Dean is a doctor",
+                  "Caddy owns the Porsche",
+                  "Adam is not an engineer",
+                  "Ben is a police officer"
+                ],
+                "answer": "D",
+                "explanation": "If Dean owns a Ferrari, then Adam owns the Lexus which then makes him the engineer. If Dean is not a police officer, and Caddy is a nurse, then the only person remaining who could be a police officer is Ben (since Adam is the engineer). Therefore, the answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Should people who are financially struggling be allowed to own a dog?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, people have a right to own whatever they like",
+                  "Yes, a report shows that most people who cannot afford a dog still manage to support it",
+                  "No, over 40% of people who are financially struggling choose not to own a dog because they feel they can’t support it",
+                  "No, they do not have enough money to support a dog as well"
+                ],
+                "answer": "B",
+                "explanation": "Although both B and C refer to evidence, option B addresses the idea that the question is about, which is whether people who are financially struggling have the means to support a dog (implied), whereas C is more of a fact rather than an argument. Therefore, the answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should the government fine people who put non-recyclable materials in the recycling bin to encourage people to recycle correctly?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, recycling plants will waste time sorting out non-recyclable materials, reducing the time they have to recycle",
+                  "Yes, a financial disincentive would likely prevent people from incorrectly recycling things",
+                  "No, this would be too impractical to implement and monitor",
+                  "No, it is more effective to conduct awareness raising campaigns rather than fines"
+                ],
+                "answer": "B",
+                "explanation": "Option B focuses on the problem in the question which is about people putting non-recyclable materials in the recycling bin. whereas the other options focus on irrelevant aspects of the issue or don’t even address the actual problem. Therefore, the answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+          {
+            "text": "Should suburban houses have a height restriction?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, as this would keep suburbs more aesthetic",
+                  "Yes, houses that are too high have been shown to pose safety risks",
+                  "No, houses with more floors and height look better ",
+                  "No, people should be able to decide what they do with their land"
+                ],
+                "answer": "B",
+                "explanation": "Option B is the only one with evidence, and it also addresses a possible reason for having a height restriction that is logical and reasonable, whereas options A, C and D are more opinion based. Therefore, the answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should students not be allowed to go travelling on holiday during exam periods to improve results?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, this would allow students to study more effectively",
+                  "Yes, it has been shown that holidays disrupt a student’s studying ability",
+                  "No, airfares are usually cheaper during this period",
+                  "No, students should be allowed to study how and when they like"
+                ],
+                "answer": "B",
+                "explanation": "Option B is the only one with evidence, and it also addresses the central idea of going on holidays improving results. Option A is similar but lacks evidence and specificity to holidays and their role in student study. Therefore, the answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+            
+
+          {
+            "text": "The following graph shows changing monthly average temperatures in 4 different cities, London, Tokyo, New York and Berlin over 2019. ",      
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/1.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "In January 2020, the average temperature for Berlin will be approximately -1 degree Celsius",
+                  "In 2019, the monthly average temperature in the four cities followed a similar trend",
+                  "In only 4 months in 2019 did at least 2 of the cities have the same monthly average temperature",
+                  "Berlin is hotter on average than London",
+                  "Tokyo had the highest monthly average temperature of all the four cities for every month in 2019"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "Y",
+                  "N",
+                  "N"
+                ],               
+                "explanation": "1. We cannot extrapolate beyond the data set given for 2019. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>2. The four lines follow a similar shape and temperature trends in 2019. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. In February (New York + Berlin), March (New York + London), April (Berlin + London), September (Berlin + London). Note that June/July between Tokyo and New York are close but not the same (compared to the other instances). Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. This is a generalisation, which we cannot make based simply on this information in the graph. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. In June, New York had a higher temperature than Tokyo. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "The following graph shows the population in each Australian state and territory from 1901 to 2007.",      
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/2.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "The state/territory with the highest population in 2000 was the ACT",
+                  "The population of Australia in 1901 was approximately 4 million",
+                  "From 1901-2007, Vic. consistently had a higher population than NSW",
+                  "In 2020, the ACT will continue to have the smallest population of all the states and territories",
+                  "SA and QLD had approximately the same population in 1965"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "N",
+                  "N"
+                ],                
+                "explanation": "1. The ACT has the smallest population in 2000 (NSW had the highest). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. The graph show the population of all the states together at 4 million in 1901. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. NSW mostly had a higher population than Vic. from 1901-2007. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We cannot extrapolate or predict from the information in the graph. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. QLD had a higher population than SA on observation of the graph in 1965. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "The following graph shows the total sales of 3 different types of insurance packages sold by a particular company over 3 years. ",      
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/3.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "The Deluxe package is the most expensive insurance package sold by this company",
+                  "Sales of Deluxe packages in 2018 were higher than sales of Platinum packages in 2019",
+                  "There is an increasing trend in sales for each type of package each year",
+                  "The demand for Alpha packages has increased from 2017-2019",
+                  "Sale of Deluxe packages in 2017 were more than double that of Alpha packages in 2017"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "N",
+                  "Y"
+                ],                
+                "explanation": "1. We do not know any of the prices of these packages. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. On observation, the sales of Deluxe packages in 2018 (orange) are higher than Platinum (orange). Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. Deluxe has a decreasing trend in sales across the years. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We only know that the sales have increased, however that does not mean demand has increased (maybe they increased the number of packages available). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. On observation the bar for Deluxe in 2017 (blue) is close to double in height than Alpha (blue). Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "The degree of change undergone by a coal as it matures from peat is known as coalification. Coalification has an important bearing on coal's physical and chemical properties and is referred to as the 'rank' of the coal. Ranking is determined by the degree of transformation of the original plant material to carbon (carbon content). The ranks of coals, from those with the least carbon to those with the most carbon, are lignite, sub-bituminous, bituminous and anthracite.",      
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Peat is the earliest form of coal",
+                  "Coalification influences the carbon content of coal",
+                  "Peat can become lignite coal",
+                  "Bituminous coal has the second highest carbon content of coal ranks",
+                  "Coalification will always transform a piece of coal’s physical properties"
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "Y",
+                  "Y",
+                  "N"
+                ],                
+                "explanation": "1. Coal matures from peat, so we can infer that peat is the first form of coal. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. Given that the ranks of coals are ranked based on the amount of carbon in them, and then coalification is referred to as the rank of the coal, we can infer that coalification has a bearing on the carbon content of coal. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. If coal matures from peat, then the matured product can include lignite coal (as it is a type of coal). Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. We don’t know definitively if coalification will ALWAYS transform coal’s physical properties, as it can also change its chemical properties (so it may not necessarily both all the time). Therefore, the correct answer is NO, as the conclusion does not follow. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "VOCs are a group of carbon-based chemicals that easily evaporate at room temperature. Many common household materials and products, such as paint and cleaning products, give off VOCs. Breathing low levels of VOCs for long periods of time may increase some people’s risk of health problems. Several studies suggest that exposure to VOCs may make symptoms worse in people who have asthma or are particularly sensitive to chemicals. VOCs particularly affect indoor air quality—concentrations of many VOCs are consistently higher indoors (up to 10 times higher) than outdoors.",      
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "If someone breathes in VOCs, they will develop health issues",
+                  "Many households have VOCs",
+                  "Low levels of VOCs indoors are toxic",
+                  "If an asthmatic person consistently inhales VOCs, their symptoms are likely to deteriorate",
+                  "If a bathroom was just painted, VOCs are likely to be present in the air"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "Y",
+                  "Y"
+                ],                
+                "explanation": "1. Although breathing VOCs increases health risks, we do not know if it causes health problems every time. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Although these VOC-producing products and materials are common household things, the presence of VOCs is not certain in many households (we don’t know if they have preventative measures or things that remove VOCs). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not have enough information to determine whether low-levels of VOCs indoors are toxic – although they may increase health risks we not know whether the VOCs are directly toxic to humans or how the VOCs cause these health risks. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Several studies suggest that exposure to VOCs may make symptoms worse in people who have asthma. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Since paint is mentioned as a VOC-producing item, we can infer that VOCs are likely to be present in the air just after painting a room. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "An election of 30 voters is held and 3 candidates, A, B, and C campaigned. The votes are as follows: 2 more people voted for only candidate A than only candidate B, only 6 people voted for both candidate B and C, no one voted for all three, and everyone voted. ",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/4.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "What value is X?",
+                "type": "Multiple Choice",
+                "options": [
+                  "9",
+                  "10",
+                  "14",
+                  "20"
+                ],
+                "answer": "B",
+                "explanation": "If only 6 people voted for both B and C, then Y=6. If 2 more people voted for only candidate A than candidate B, then Z=5. Therefore if everyone voted and no one voted for all three, X=10. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+          {
+            "text": "An aquarium is made up of 4 types of fish, Lfish, Pfish, Zfish and Xfish. The following represents the different possible combinations of fish in a tank.",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/5.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which of the following is represented by F?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Lfish, Pfish, Zfish",
+                  "Lfish, Xfish, Zfish",
+                  "Xfish, Zfish, Pfish",
+                  "Pfish, Lfish, Xfish"
+                ],
+                "answer": "B",
+                "explanation": "F is in the overlap between rectangle, square and oval, which represent Xfish, Zfish and Lfish. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+          
+          {
+            "text": "A survey of 240 actors and doctors revealed the following diagram, comparing those that are unemployed and also paid well.",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/6.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which of the following based on the diagram is true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Actors are all underpaid",
+                  "Some actors are unemployed but not doctors",
+                  "Some doctors who are actors are paid well",
+                  "Someone can be an unemployed doctor who is paid well"
+                ],
+                "answer": "B",
+                "explanation": "There is an overlap between the circle and rectangle only, indicating that those actors are underpaid but not doctors (or well paid either). Therefore, the correct answer is B. Actors cannot be paid well as the rectangle and triangle do not overlap, so therefore C cannot be correct. A is an assumption as not being paid well is not the same as being underpaid (you could be paid normally or adequately too). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "The following diagram shows the number of employees in different companies, Wyatt’s Water, Cuppo’s Chairs, Lenny’s Lighting and Dillon’s Desks. Employees sometimes work for multiple companies.",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/7.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which companies has the most employees?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Wyatt’s Water",
+                  "Cuppo’s Chairs",
+                  "Lenny’s Lighting ",
+                  "Dillon’s Desks"
+                ],
+                "answer": "B",
+                "explanation": "Cuppo’s Chairs = 33, Wyatt’s Water = 31, Lenny’s Lightning = 32, Dillon’s Desks = 31. Therefore, the correct answer is B, Cuppo’s Chairs. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+          {
+            "text": "A rally remote control car race is going to happen. Cars can be equipped with Rockets, Blades or Spikes to damage other cars. Twice as many cars have Rockets than those with Blades. Half the amount of cars with Spikes have Blades. The same number of cars have Rockets as Spikes.",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which of the following represents this information?",
+                "type": "Multiple Choice",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "option_images": [
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/8.PNG",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/9.PNG",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/10.PNG",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 9/11.PNG"
+                ],
+                "answer": "A",
+                "explanation": "The top left represents Spikes (24 total), the bottom circle represents Blades (12 total), and the top right circle represents Rockets (24 total). Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Dan tosses a coin 3 times, with a 50% chance of landing on heads or tails. He tosses the coin for the first time, but does not look at the coin which has tails facing upwards. Is Dan correct in stating that there is a 25% chance of getting all three tosses as tails?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, both heads and tails have an equal 0.5 chance of landing",
+                  "Yes, as the first toss was tails, the chance of getting the next two as tails as well is 0.25",
+                  "No, the probability of getting all three tosses as tails is 0.125",
+                  "No, Dan does not really have enough information to decide"
+                ],
+                "answer": "C",
+                "explanation": "Given that he does not look, his prediction is not influenced by what the outcome of his first toss is. Therefore the probability of getting all 3 tosses as tails is 0.5*0.5*0.5 = 0.125. Therefore, the correct answer is C (25% would be correct if he had seen that the first toss showed tails, but he didn’t see it). ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Steph and Jocelyn play a game of tossing dice. If they land on an even number facing up on the dice, they get 1 point. If an odd number is facing up once they roll, they do not get anything. The winner gets the most points Steph has 3 turns, and Jocelyn has already rolled a 4, 5, and 2. Which of the following must be true?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "In order to win, Steph needs to get even numbers on each roll",
+                  "Steph has a 2/3 chance of beating Jocelyn",
+                  "If Steph rolls a 6 as her first roll, she cannot win",
+                  "If Steph rolls an odd number on her last roll, she will win anyway"
+                ],
+                "answer": "A",
+                "explanation": "Option B is incorrect because she has 2/3 chance of drawing, not winning. In order to win, she needs all 3 to be even (therefore options C and D are incorrect). Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "A drug testing company decides to test its new drug on a sample of 200 people. Half the sample received a placebo, and of the remaining people, 20% experienced side effects and 1 in 10 people said they felt no effect. The company cannot market their drug if there is equal to or more than a 1/10 chance of side effects occurring in the overall sample. Based off this information, can the company market their drug?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, the drug is safe as less than half experienced side effects",
+                  "Yes, less than 1/10 people experienced side effects",
+                  "No, 40 people in the sample experienced side effects, which is more than 20 people",
+                  "No, 10% of people experienced side effects in the sample"
+                ],
+                "answer": "D",
+                "explanation": "20 people experienced side effects (20% of 100 people, since the group was split in half), and 20 people is 10% of the broader sample of 200. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Two hospitals, A and B, are being surveyed for their bed quality and capacity. Hospital A has 300 beds, but only 80% are in usable condition.<br/>Hospital B has 250 beds, but only 10% are in unusable condition.<br/>Which hospital would be better if lots of patients suddenly came in needing beds?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "A, because it has more usable beds",
+                  "A, because only 60 beds are unusable",
+                  "B, because a lower percentage of beds are unusable",
+                  "B, because 90% of its beds are in usable condition"
+                ],
+                "answer": "A",
+                "explanation": "Hospital A has 0.8*300 = 240 usable beds. Hospital B has 0.90*250 = 225 usable beds. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "3 students attend lectures. The probability of Student A attending a lecture is 3/5, Student B is 40% and Student C is 0.5. A lecture is scheduled for next Monday. What is the probability all 3 students attending this?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "There is not enough information to calculate this probability",
+                  "3 in 25",
+                  "6%",
+                  "3/10"
+                ],
+                "answer": "B",
+                "explanation": "The combined probability of them all turning up is 0.6*0.4*0.5 = 0.12. Note that 3/25 = 0.12. Therefore, the correct answer is B. ",
+                "difficulty": 1
+              }
+            ]
+          }      
+          
+        ]
+      }
+    ]
+  }

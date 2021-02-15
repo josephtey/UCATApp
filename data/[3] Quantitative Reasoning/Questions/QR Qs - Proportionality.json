@@ -1,0 +1,2080 @@
+{
+	"stems": [{
+			"text": "A group of individuals were surveyed. Both their gender and eye colour were recorded and tabulated (as shown below).",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/1.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What proportion of the females surveyed have blue eyes?",
+					"type": "Multiple Choice",
+					"options": [
+						"2/17",
+						"3/17",
+						"2/15",
+						"3/15"
+					],
+					"answer": "A",
+					"explanation": "10/85 = 2/17",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of those with blue eyes are female?",
+					"type": "Multiple Choice",
+					"options": [
+						"2/17",
+						"10/167",
+						"5/11",
+						"6/11"
+					],
+					"answer": "C",
+					"explanation": "10/22 = 5/11",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the ratio of males to females amongst those surveyed?",
+					"type": "Multiple Choice",
+					"options": [
+						"82:167",
+						"85:167",
+						"82:85",
+						"85:82"
+					],
+					"answer": "C",
+					"explanation": "Sum of males = 82, sum of females = 85",
+					"difficulty": 1
+				},
+				{
+					"text": "If X number more males were surveyed, the ratio of females to males surveyed would be 17:20. What is the value of X?",
+					"type": "Multiple Choice",
+					"options": [
+						"12",
+						"14",
+						"16",
+						"18"
+					],
+					"answer": "D",
+					"explanation": "17:20 = 85:100; 100 – 82 = 18",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "A sample of civilians from a town was randomly selected, and their age recorded. They were asked to select their level of tertiary education. All civilians from this town have a high school diploma only, a 2-year degree or a 4-year degree. The results are shown below. Suppose that the ratios of those holding each diploma/ degree type (within each age group) of the sample are representative of the town in its entirety.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/2.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What proportion of those between 18 and 25 within this town have a 2-year degree or a 4-year degree? ",
+					"type": "Multiple Choice",
+					"options": [
+						"13/38",
+						"15/38",
+						"23/25",
+						"25/23"
+					],
+					"answer": "B",
+					"explanation": "(12 + 3)/(12 + 3 + 23)",
+					"difficulty": 1
+				},
+				{
+					"text": "If there are 3652 civilians in the town aged between 26 and 35, how many of have hold a high school diploma only? ",
+					"type": "Multiple Choice",
+					"options": [
+						"1175",
+						"1246",
+						"1328",
+						"1524"
+					],
+					"answer": "C",
+					"explanation": "16/(16 + 19 + 9) * 3652 = 1328",
+					"difficulty": 1
+				},
+				{
+					"text": "If there are under 2000 civilians aged between 36 and 45 in the town, what is the highest possible number of civilians in the town that are aged between 36 and 45 and have a 2-year degree?",
+					"type": "Multiple Choice",
+					"options": [
+						"846",
+						"999",
+						"1000",
+						"Can’t tell"
+					],
+					"answer": "B",
+					"explanation": "13/26 = 0.5; 2000 * 0.5 = 1000; however, less than 2000 hence the answer is 999",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the ratio of the number of civilians within the town aged above 26 to the number of civilians in the town aged below 26?",
+					"type": "Multiple Choice",
+					"options": [
+						"37:19",
+						"19:37",
+						"37:112",
+						"Can’t tell"
+					],
+					"answer": "D",
+					"explanation": "We do not know the number of civilians below age 18 and we only know of civilians who have degrees or diplomas",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "After completing year 12 at a local high school, the graduating class was asked how likely they would be to recommend this school to others. They could choose between 7 responses and the results are displayed in the graph below.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/3.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "Of those who are more likely than unlikely to recommend this school to others, what proportion would definitely recommend this school to others?",
+					"type": "Multiple Choice",
+					"options": [
+						"Below 1/20",
+						"Between 1/20 & 1/10",
+						"Approximately 1/7",
+						"Approximately 1/5"
+					],
+					"answer": "B",
+					"explanation": "30/(30+120+200) = 0.086; Between 0.05 and 0.1",
+					"difficulty": 1
+				},
+				{
+					"text": "If 20 students changed their response from definitely to likely, what increase would there be in the proportion of respondents who are likely to recommend this school to others (out of those who are more likely than unlikely to recommend this school to others)?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.01",
+						"0.03",
+						"0.05",
+						"0.07"
+					],
+					"answer": "C",
+					"explanation": "220/350 – 200/350 = 0.057",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the approximate ratio of those who responded with neutral compared to those who responded with definitely or not at all likely?",
+					"type": "Multiple Choice",
+					"options": [
+						"10:9",
+						"8:9",
+						"9:8",
+						"11:9"
+					],
+					"answer": "D",
+					"explanation": "330:(240 + 30) = 330:270",
+					"difficulty": 1
+				},
+				{
+					"text": "For the ratio of those who responded with neutral compared to those who responded with definitely or not at all likely to be 1:1; approximately how many students must change their response from neutral to definitely or not at all likely? ",
+					"type": "Multiple Choice",
+					"options": [
+						"15",
+						"30",
+						"45",
+						"60"
+					],
+					"answer": "B",
+					"explanation": "(330 – 270)/2 = 30",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "Two containers (A and B) with an open top are used to store water. Container A is a cube and container B is a rectangular prism with a variable width (denoted by ‘?’). Assume that the material used to make the containers is of negligible thickness and the whole containers are filled with water.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/4.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "If the value of ‘?’ is 5cm, what proportion of the volume of water that container A can hold can container B hold?",
+					"type": "Multiple Choice",
+					"options": [
+						"2/5",
+						"4/9",
+						"5/9",
+						"3/8"
+					],
+					"answer": "C",
+					"explanation": "(6 * 4 * 5)/(6 * 6 * 6) = 5/9",
+					"difficulty": 1
+				},
+				{
+					"text": "If container B can hold half the volume of water as container A, what is the value of ‘?’?",
+					"type": "Multiple Choice",
+					"options": [
+						"4.5cm",
+						"5cm",
+						"5.5cm",
+						"6cm"
+					],
+					"answer": "A",
+					"explanation": "(6 * 6 * 6)/(2 * 4 * 6) = 4.5",
+					"difficulty": 1
+				},
+				{
+					"text": "For container A to hold 4 times as much water as it does now, the length of container A must be multiplied by factor X. What is the value of X?",
+					"type": "Multiple Choice",
+					"options": [
+						"1.33",
+						"1.59",
+						"2",
+						"4"
+					],
+					"answer": "B",
+					"explanation": "Cubed root of 4 (4^1/3) = 1.59; no cube root function on the calculator so cube each of the options to see which is closest to 4",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the simplified ratio of the volume of water that can be held by container A to the volume of water that can be held by container B?",
+					"type": "Multiple Choice",
+					"options": [
+						"?:9 ",
+						"9:?",
+						"1:?",
+						"Can’t tell"
+					],
+					"answer": "B",
+					"explanation": "6 * 6 *6:4 * 6 * ? = 9:?",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following table illustrates the number of sales and price per item of the five models of computer sold by a computer store in the month of February. The revenue of the computer store is the money generated from the sales of these 5 computer models. The earnings of the computer store are equal to the revenue less 30% tax.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/5.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What is the ratio of the computer stores monthly revenue to its earnings?",
+					"type": "Multiple Choice",
+					"options": [
+						"7:10",
+						"1.42:1",
+						"1.3:1",
+						"1:1.3"
+					],
+					"answer": "B",
+					"explanation": "100:70 = 1.42:1",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of the company’s February revenue can be attributed to the sale of AT350 computers?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.04",
+						"0.06",
+						"0.08",
+						"0.10"
+					],
+					"answer": "C",
+					"explanation": "120 * 20(29476) = 0.08",
+					"difficulty": 1
+				},
+				{
+					"text": "How many more sales of U32 computers must be recorded so that the sales of U32 computers accounts for two-fifths of the company’s February revenue (assuming the sales of other computer models do not increase)? ",
+					"type": "Multiple Choice",
+					"options": [
+						"45",
+						"52",
+						"58",
+						"67"
+					],
+					"answer": "D",
+					"explanation": "2/5 * (29476 + x) = 98 * 80 + x; x = 6584; 6584/98 = 67",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the most simplified ratio of the money generated from the sales of model AP14 to model CDP3 in February?",
+					"type": "Multiple Choice",
+					"options": [
+						"4400:6156",
+						"2200:3137",
+						"1100:1625",
+						"1100:1539"
+					],
+					"answer": "D",
+					"explanation": "110 * 40:162 * 38 = 1100:1539",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following graph compares the time taken for all customers to be allocated a table at a busy restaurant – on one Friday and Saturday night. Wait times were all between 20 and 45 minutes and were rounded to the nearest 5 minutes.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/6.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What proportion of customers had a wait time greater than 30 minutes on Friday night?",
+					"type": "Multiple Choice",
+					"options": [
+						"31/108",
+						"25/54",
+						"31/54",
+						"77/108"
+					],
+					"answer": "A",
+					"explanation": "(33 + 20 + 9)/216 = 31/108",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of customers who had to wait more than 35 minutes went to the restaurant on Friday night?",
+					"type": "Multiple Choice",
+					"options": [
+						"21/86",
+						"29/86",
+						"45/86",
+						"57/86"
+					],
+					"answer": "B",
+					"explanation": "(20 + 9)/(20 + 9 + 40 + 17) = 29/86",
+					"difficulty": 1
+				},
+				{
+					"text": "If X more customers went to the restaurant on Friday night, the ratio of the number of customers who went to the restaurant on Friday night to the number of customers who went to the restaurant on Saturday night would be 1:1. What is the value of X?",
+					"type": "Multiple Choice",
+					"options": [
+						"53",
+						"58",
+						"63",
+						"68"
+					],
+					"answer": "D",
+					"explanation": "Friday night: 216 customers; Saturday night: 284 customer; 284 – 216 = 68",
+					"difficulty": 1
+				},
+				{
+					"text": "If the ratios of customer waiting times (all between 20 and 45 minutes) were the same on Friday and Sunday and 864 customers went to the restaurant on Sunday, how many customers had to wait 25 minutes or less on Sunday?  ",
+					"type": "Multiple Choice",
+					"options": [
+						"116",
+						"232",
+						"348",
+						"464"
+					],
+					"answer": "D",
+					"explanation": "864 * (70 + 46)/216 = 464",
+
+
+
+
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The number of books sold at David’s bookstore from May to October (months 5 to 10) this year is shown the graph below.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/7.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "Approximately what proportion of the books sold from May to October this year were sold in October?",
+					"type": "Multiple Choice",
+					"options": [
+						"30%",
+						"40%",
+						"50%",
+						"60%"
+					],
+					"answer": "B",
+					"explanation": "5000/12500 * 100 = 40%",
+					"difficulty": 1
+				},
+				{
+					"text": "Approximately what proportion of books sold from May to August were sold in June or July?",
+					"type": "Multiple Choice",
+					"options": [
+						"35%",
+						"40%",
+						"45%",
+						"50%"
+					],
+					"answer": "B",
+					"explanation": "(1500 + 1000)/6200 = ~40%",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the approximate ratio of books sold in May to books sold in October?",
+					"type": "Multiple Choice",
+					"options": [
+						"2:1",
+						"1:2",
+						"5:2",
+						"2:5"
+					],
+					"answer": "D",
+					"explanation": "2000:5000 = 2:5",
+					"difficulty": 1
+				},
+				{
+					"text": "Suppose that all David’s revenue comes from selling books at his books store. From May to July he sold books for $20 each; however, from August to October, he sold books for half as much. Approximately what proportion of the revenue that David generated from May to October can be attributed to book sales between August and October?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.47",
+						"0.52",
+						"0.58",
+						"0.63"
+					],
+					"answer": "A",
+					"explanation": "(10 * sum of months 8 to 10)/(10 * sum of months 8 to 10 + 20 * sum of months 5 to 7) = 0.47",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following pie chart illustrates the percentage of vehicle types that an auto company sold in the year 2000. In that year, 35000 vehicles were sold (total).",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/8.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What proportion of vehicles sold in 2000 by the auto company were sedans?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.25",
+						"0.33",
+						"0.58",
+						"Can’t tell"
+					],
+					"answer": "D",
+					"explanation": "There may have been other sedans (not just 2 door and 4 door) in the ‘others’ category",
+					"difficulty": 1
+				},
+				{
+					"text": "How many more trucks than SUVs were sold in 2000?",
+					"type": "Multiple Choice",
+					"options": [
+						"1400",
+						"4550",
+						"5950",
+						"10500"
+					],
+					"answer": "A",
+					"explanation": "(0.17 – 0.13) * 35000 = 1400",
+					"difficulty": 1
+				},
+				{
+					"text": "Given that 30% of vehicles within the ‘other’ category were sports cars and four times as many sports cars were sold than limousines, how many more sports cars than limousines were sold in 2000?",
+					"type": "Multiple Choice",
+					"options": [
+						"315",
+						"945",
+						"985",
+						"1260"
+					],
+					"answer": "B",
+					"explanation": "0.12 * 35 = 4.2; 4.2 * (0.3 – 0.075) = 0.945 (K)",
+					"difficulty": 1
+				},
+				{
+					"text": "If 4-door sedans were sold for an average of $30000 while 2-door sedans were sold for an average of $20000 in 2000, what is the approximate ratio of the money generated from the sale of 4-door sedans to the sale of 2-door sedans?",
+					"type": "Multiple Choice",
+					"options": [
+						"1:1",
+						"3:2",
+						"2:1",
+						"5:2"
+					],
+					"answer": "C",
+					"explanation": "4-door: 0.33 * 30 = 9.9; 2-door: 0.25 * 20 = 5; 9.9:5 = ~2:1",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following graph and table provide statistics on the number and gender of those attending a National Youth Convention from 1995 to 1998.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/9.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "How many more boys attended the conference than girls in 1996?",
+					"type": "Multiple Choice",
+					"options": [
+						"98",
+						"102",
+						"111",
+						"114"
+					],
+					"answer": "C",
+					"explanation": "0.1 * 1108 = 111",
+					"difficulty": 1
+				},
+				{
+					"text": "What was the ratio of boys to girls attending the conference in 1998?",
+					"type": "Multiple Choice",
+					"options": [
+						"3.5:10",
+						"3:7",
+						"1:2",
+						"7:13"
+					],
+					"answer": "D",
+					"explanation": "35%:65% = 7:13",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of those who attended the conference in 1997 and 1998 were girls?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.4",
+						"0.55",
+						"0.6",
+						"0.65"
+					],
+					"answer": "B",
+					"explanation": "(0.4 * 1520 + 0.65 * 2244)/(1520 + 2244) = 0.55",
+					"difficulty": 1
+				},
+				{
+					"text": "So that the ratio of girls to boys in 1998 in attendance was 3:2, how many more boys should have attended the conference (given the number of girls in attendance remains the same)?",
+					"type": "Multiple Choice",
+					"options": [
+						"93",
+						"123",
+						"181",
+						"187"
+					],
+					"answer": "D",
+					"explanation": "Original ratio: 1458:785; 2/3 * 1458 = 972; 972 – 785 = 187",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following pie charts illustrate the populations of countries of the European Union by percentage – in 1998 and 2007. Assume that the population of the European union was 400 million in 1998 and the ratio of the population of the European Union in 1998 to the population of the European Union in 2007 was 6:7. ",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/10.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What was the population of the European Union in 2007?",
+					"type": "Multiple Choice",
+					"options": [
+						"400 million",
+						"466 million",
+						"467 million",
+						"Can’t tell"
+					],
+					"answer": "C",
+					"explanation": "400 * 7/6 = 467",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the approximate ratio of the population of Germany in 2007 to its population in 1998?",
+					"type": "Multiple Choice",
+					"options": [
+						"1.03:1",
+						"1:1.03",
+						"1.13:1",
+						"1.17:1"
+					],
+					"answer": "C",
+					"explanation": "0.166 * 467:0.171 * 400 = 1.13:1  ",
+					"difficulty": 1
+				},
+				{
+					"text": "If one-third of the population of ‘all other countries’ in the European Union in 1998 and 2007 can be attributed to Belgium, by how much has the population of Belgium grown for 1998 to 2007?",
+					"type": "Multiple Choice",
+					"options": [
+						"7 million",
+						"8 million",
+						"9 million",
+						"10 million "
+					],
+					"answer": "A",
+					"explanation": "Approximately: 1/3 * 0.295 * (467 – 400) = 6.6 (million)",
+					"difficulty": 1
+				},
+				{
+					"text": "What was the ratio of the population of France to the population of Italy in 2007?",
+					"type": "Multiple Choice",
+					"options": [
+						"104:100",
+						"175:160",
+						"220:100",
+						"512:476"
+					],
+					"answer": "D",
+					"explanation": "12.8:11.9 = 512:476",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following table compares the sales at 3 different Cafes, each located in different parts of England, over the course of a month. All the Cafes sold only the products listed below.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/11.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "Which fraction most closely represents the proportion of sales in the London Cafe that were tea?",
+					"type": "Multiple Choice",
+					"options": [
+						"1/5",
+						"1/4",
+						"7/24",
+						"1/3"
+					],
+					"answer": "B",
+					"explanation": "982/sum of London sales = ~1/4",
+					"difficulty": 1
+				},
+				{
+					"text": "The ratio of tea sold to fruit at each of the Cafes can be represented by the ratio X:1. For which Cafe is the value of X the largest?",
+					"type": "Multiple Choice",
+					"options": [
+						"London",
+						"Manchester",
+						"Birmingham",
+						"Can’t tell"
+					],
+					"answer": "A",
+					"explanation": "More tea sales than fruit sales is observed in the London store only; hence X will be largest there",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of total juice sales (among the 3 Cafes) for the month occurred at the Manchester Cafe?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.17",
+						"0.23",
+						"0.26",
+						"0.30"
+					],
+					"answer": "C",
+					"explanation": "548/(548 + 606 + 922) = 0.26",
+					"difficulty": 1
+				},
+				{
+					"text": "Another Cafe, in Brighton, sold the same 5 items in the same ratio as the Birmingham Cafe but sold 16384 items for the month. How many more biscuits were sold at the Brighton Cafe than the Manchester Cafe for that month?",
+					"type": "Multiple Choice",
+					"options": [
+						"284",
+						"1284",
+						"2084",
+						"2840"
+					],
+					"answer": "C",
+					"explanation": "16384/sum of all Birmingham sales = 4096; 16384 / 4096 = 4; 4 * 760 – 956 = 2084",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following pie charts compare the sales and expenses (in thousands) for a company in each of the four quarters of 2018. The company’s revenue is defined as its sales minus expenses. If the revenue of the company is negative for a quarter, it can be said to have lost money for that quarter.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/12.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What proportion of quarters (in 2018) did the company lose money?",
+					"type": "Multiple Choice",
+					"options": [
+						"0",
+						"1/4",
+						"1/2",
+						"3/4"
+					],
+					"answer": "C",
+					"explanation": "For 2 quarters the expenses outweighed the sales; 2/4 = 1/2",
+					"difficulty": 1
+				},
+				{
+					"text": "What was the company’s net revenue for 2018?",
+					"type": "Multiple Choice",
+					"options": [
+						"9300",
+						"9650",
+						"9800",
+						"9950"
+					],
+					"answer": "A",
+					"explanation": "Sum of sales – sum of expenses = 9/3 (K)",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of the company’s expenses for the year occurred in quarter 1?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.37",
+						"0.41",
+						"0.44",
+						"0.48"
+					],
+					"answer": "C",
+					"explanation": "220.9/sum of expenses = 0.44",
+					"difficulty": 1
+				},
+				{
+					"text": "In 2019, the company’s total sales were 1.5 times the sales the previous year. However, the company’s sales in quarter 1 was only five-sixths that of the previous year. What proportion of sales in 2019 occurred in quarters 2 to 4?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.25",
+						"0.50",
+						"0.75",
+						"Can’t tell"
+					],
+					"answer": "C",
+					"explanation": "5/6 * 230.2 = 191.8; (Sum of sales * 1.5 – 191.8)/(sum of sales * 1.5) = 0.75",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The components/ ingredients of vegetable chips and their percentage (by weight) was listed on the back of the packet. Assume that the weight of the packaging is negligible.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/13.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What is the ratio of carbohydrate to vitamin D in the vegetable chips (by mass)?",
+					"type": "Multiple Choice",
+					"options": [
+						"8:2",
+						"8:3",
+						"8:5",
+						"8:7"
+					],
+					"answer": "B",
+					"explanation": "16:6 = 8:3",
+					"difficulty": 1
+				},
+				{
+					"text": "If the maximum daily intake of sodium is 50 grams per day, how many 30 grams packets of vegetable chips can one eat before going above their daily intake of sodium?",
+					"type": "Multiple Choice",
+					"options": [
+						"3",
+						"4",
+						"5",
+						"6"
+					],
+					"answer": "C",
+					"explanation": "30 * 0.3 = 9; 50/9 = 5.6; 6 would be over; hence 5 is the answer",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the ratio (by weight) of potassium found in a 100-gram packet of vegetable chips to fat in a 30-gram packet of vegetable chips?",
+					"type": "Multiple Choice",
+					"options": [
+						"1:1",
+						"40:39",
+						"39:40",
+						"80:79"
+					],
+					"answer": "B",
+					"explanation": "100 * 0.04 : 30 * 0.13 = 40:39",
+					"difficulty": 1
+				},
+				{
+					"text": "If the weight of fat was halved in a 30g packet of vegetable chips (while the weight of the other components was unchanged), what would be the new weight of the vegetable chips?",
+					"type": "Multiple Choice",
+					"options": [
+						"27.10g",
+						"27.55g",
+						"27.95g",
+						"28.05g"
+					],
+					"answer": "D",
+					"explanation": "0.13 * 30 = 3.9; 3.9/2=1.95; 30 – 1.95 = 28.05",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The sales (in $) of various products at a store, between 2011 and 2013, are shown below. These are the only products sold at the store. The earnings of the store are equal to total sales less 35% tax.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/14.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "Which product had the most sales at the store between 2011 and 2013?",
+					"type": "Multiple Choice",
+					"options": [
+						"Books",
+						"Board games",
+						"CDs",
+						"DVDs"
+					],
+					"answer": "C",
+					"explanation": "Sum each of the rows; by inspection you can see CDs will be the highest ($5.1 million)",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of the store’s total sales in 2011 could be attributed to the sales of CDs and DVDs?",
+					"type": "Multiple Choice",
+					"options": [
+						"27/43",
+						"27/45",
+						"29/42",
+						"29/46"
+					],
+					"answer": "D",
+					"explanation": "2+0.9/(1.1+ 0.6 + 2 + 0.9) = 29/46",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the closest ratio of the store’s earnings in 2012 to the store’s earnings in 2013?",
+					"type": "Multiple Choice",
+					"options": [
+						"1:1.04 ",
+						"1.04:1",
+						"0.96:1",
+						"1:0.96"
+					],
+					"answer": "C",
+					"explanation": "Sum of 2012 sales column/sum of 2013 sales column = 0.96",
+					"difficulty": 1
+				},
+				{
+					"text": "In order to increase the number of sales, the store began a promotional campaign in 2014. The promotional campaign was so successful that total sales in 2014 were 1.5 times that of the previous year. In addition, the proportion of board game sales (of the total sales in 2014) rose to 0.3 while the monetary value of book sales remained unchanged from 2013. How much more was the value of board game sales than book sales in 2014? ",
+					"type": "Multiple Choice",
+					"options": [
+						"$405150",
+						"$415250",
+						"$425520",
+						"$422250"
+					],
+					"answer": "B",
+					"explanation": "Sum of 2013 sales * 1.5 = 7.72; 0.3 * 7.72 – 1.9 = $0.41525 (million)",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following graph illustrates the amount (in mg) of iron that can be absorbed by consuming certain foods. Note that the recommended daily intake of (dietary) iron is 20mg for adults and half of that for children. On the x-axis, C refers to cup and T refers to tablespoon.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/15.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "If the dietary iron content of one egg (shown above) is in relation to an average sized egg of 50g, what is the approximate dietary iron content of an egg that is 80g?",
+					"type": "Multiple Choice",
+					"options": [
+						"1.12g",
+						"1.24g",
+						"1.36g",
+						"1.48g"
+					],
+					"answer": "C",
+					"explanation": "8/5 * 0.85 = 1.36",
+					"difficulty": 1
+				},
+				{
+					"text": "If each cashew weighs 2g, how many cashews alone would an adult have to consume to reach the recommended daily intake of dietary iron?",
+					"type": "Multiple Choice",
+					"options": [
+						"35",
+						"78",
+						"143",
+						"176"
+					],
+					"answer": "D",
+					"explanation": "20/1.7 = 11.8; 11.8 * 15 = 176",
+					"difficulty": 1
+				},
+				{
+					"text": "If each cup of oats weighs 30g and each date weighs 1g, what ratio (in weight) of oats alone to dates alone would an adult have to consume to reach the recommended daily intake of dietary iron?",
+					"type": "Multiple Choice",
+					"options": [
+						"3:2",
+						"5:3",
+						"7:5",
+						"9:7"
+					],
+					"answer": "C",
+					"explanation": "3/15:1/7 = 7:5",
+					"difficulty": 1
+				},
+				{
+					"text": "If each whole wheat biscuit can be bought for 70 cents and both an adult and a child reach their recommended daily intake of dietary iron by consuming wheat biscuits alone, how much more would the adult spend on wheat biscuits than the child?",
+					"type": "Multiple Choice",
+					"options": [
+						"$4.83",
+						"$6.90",
+						"$9.66",
+						"$13.79"
+					],
+					"answer": "A",
+					"explanation": "10/1.45 * 0.7 = 4.83",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following table lists out the ingredients (and quantities) required to make 1 serving of beef sausages.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/16.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What proportion (by weight) of each beef sausage serving is comprised of salt and steak spice?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.010",
+						"0.012",
+						"0.014",
+						"0.016"
+					],
+					"answer": "B",
+					"explanation": "(0.7 + 0.5)/100 = 0.012",
+					"difficulty": 1
+				},
+				{
+					"text": "Jim has to make 600g of beef sausages for his family one night. At the butcher, lean ground beef is $30 per kilogram. How much money will Jim spend on buying lean ground beef to make the beef sausages (to the nearest dollar)?",
+					"type": "Multiple Choice",
+					"options": [
+						"$12",
+						"$13",
+						"$14",
+						"$15"
+					],
+					"answer": "D",
+					"explanation": "167 * 3 = 501; 0.501 * 30 = $15",
+					"difficulty": 1
+				},
+				{
+					"text": "If Chris is making 4 servings of beef sausages, how much more canola oil than dried beer extract will he use?",
+					"type": "Multiple Choice",
+					"options": [
+						"2.0g",
+						"2.4g",
+						"2.6g",
+						"3.0g"
+					],
+					"answer": "B",
+					"explanation": "(2.6 – 2.0) * 4 = 2.4g",
+					"difficulty": 1
+				},
+				{
+					"text": "If Mary has 10g of salt, 10g of steak spice and over 2kg of all the other ingredients in her pantry, what is the largest amount (weight) of steak sausages that Mary can make without having to shop for more produce? ",
+					"type": "Multiple Choice",
+					"options": [
+						"1.43kg",
+						"1.57kg",
+						"1.83kg",
+						"2.00kg"
+					],
+					"answer": "A",
+					"explanation": "Salt is limiting; 10/1.4 = 7.15; 7.15 * 0.2 = 1.43kg",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The table below compares the various grades concrete and the ratio of the three materials (cement, sand and aggregate) required to create each grade of concrete. Assume that cement, sand and aggregate are the only materials required to make concrete.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/17.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "If Jill mixes 30 grams of cements, 22.5 grams of sand and 45 grams of aggregate together, which grade of concrete will she create?",
+					"type": "Multiple Choice",
+					"options": [
+						"M25",
+						"M30",
+						"M35",
+						"M40"
+					],
+					"answer": "B",
+					"explanation": "Divide each by 30; 1:0.75:1.5",
+					"difficulty": 1
+				},
+				{
+					"text": "If somebody wishes to create 99 kilograms of M20 concrete, how many grams of sand will they require?",
+					"type": "Multiple Choice",
+					"options": [
+						"24",
+						"27",
+						"24000",
+						"27000"
+					],
+					"answer": "D",
+					"explanation": "1.5/(1 + 1.5 + 3) * 99000 = 27000",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the ratio of the weight of aggregate mixed in 48 kg of M5 concrete to the weight of aggregate mixed in 70kg of M25 concrete?",
+					"type": "Multiple Choice",
+					"options": [
+						"5:1",
+						"24:35",
+						"8:9",
+						"6:7"
+					],
+					"answer": "D",
+					"explanation": "10/16 * 48 = 30; 2/4 * 70 = 35; 30:35 = 6:7",
+					"difficulty": 1
+				},
+				{
+					"text": "Bob initially mixes 15kg of cement & 11.25kg of Sand. He trips over his buckets and, mistakenly, X kg extra sand and Y kg extra aggregate are added to the mixture. As a result, he ends up with M25 concrete instead of M30 concrete. What are the values of X and Y respectively? ",
+					"type": "Multiple Choice",
+					"options": [
+						"1.5 and 3",
+						"3 and 6",
+						"3.75 and 7.5",
+						"4.25 and 8.5"
+					],
+					"answer": "C",
+					"explanation": "1:1:2 instead of 1:0.75:1.5; ended up with 15:15:30 instead of 15:11.25:22.5; 15 – 11.25 = 3.75; 30 – 22.5 = 7.5",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "A random sample of 15 students’ SAT scores (in verbal and math) were recorded and tabulated (as shown below). These scores were subsequently analysed by the test writer.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/18.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What proportion of math scores was greater than 650 in the sample?",
+					"type": "Multiple Choice",
+					"options": [
+						"4/15",
+						"1/3",
+						"2/5",
+						"7/15"
+					],
+					"answer": "B",
+					"explanation": "5 out of 15 were higher than 650; 5/15 = 1/3",
+					"difficulty": 1
+				},
+				{
+					"text": "The ratio of a student’s math score to his/her verbal score is denoted by X:1. Based on this sample, what is the highest possible value of X?",
+					"type": "Multiple Choice",
+					"options": [
+						"1.48",
+						"1.50",
+						"1.53",
+						"1.56"
+					],
+					"answer": "C",
+					"explanation": "530/380 = 1.53",
+					"difficulty": 1
+				},
+				{
+					"text": "The test writer wishes to scale the verbal scores up – such that the proportion of students with a higher verbal score than math score is at least 1 in 3. If X (a constant number) marks are added on to each student’s verbal score to achieve this (within the sample), what is the lowest possible value of X (given that it is a multiple of 10)? ",
+					"type": "Multiple Choice",
+					"options": [
+						"80",
+						"90",
+						"110",
+						"120"
+					],
+					"answer": "D",
+					"explanation": "For 5 students at least to score higher in verbal than maths, 120 points must be added to all the students verbal scores – this can be solved by determining the 5 students with the highest value of Verbal – math score",
+					"difficulty": 1
+				},
+				{
+					"text": "If the verbal scores of students were multiplied by 1.2, what proportion of students would have a higher verbal score than math score in the sample?",
+					"type": "Multiple Choice",
+					"options": [
+						"1/5",
+						"4/15",
+						"1/3",
+						"2/5"
+					],
+					"answer": "A",
+					"explanation": "3 of the 15 students would have a higher verbal than math score; 3/15 = 1/5",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following table illustrates the ratios of red, yellow and orange paint used in making Zack’s special paint mixture. Paint is sold at the shop in buckets only - each filled with 20 cups of red, yellow or orange paint. Each bucket of paint costs Zack $5. Paint may be left over.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/19.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "How many cups of yellow paint are required to make 128 cups worth of Zack’s paint mixture? ",
+					"type": "Multiple Choice",
+					"options": [
+						"35",
+						"40",
+						"45",
+						"50"
+					],
+					"answer": "B",
+					"explanation": "128/(3 + 5 + 8) = 8; 8 * 5 = 40 ",
+					"difficulty": 1
+				},
+				{
+					"text": "How many buckets of paint must be bought to produce 208 cups worth of Zack’s paint mixture?",
+					"type": "Multiple Choice",
+					"options": [
+						"10",
+						"11",
+						"12",
+						"13"
+					],
+					"answer": "C",
+					"explanation": "208/16 = 13; 13 * 3 = 39; 13 * 5 = 65; 13 * 8 = 104; 2 + 4 + 6 = 12",
+					"difficulty": 1
+				},
+				{
+					"text": "Zach has 35 left over cups of yellow paint, and he buys a number of buckets of red paint and orange paint. In order to make 112 cups of his paint mixture, how much money will Zack have to spend on red and orange paint?",
+					"type": "Multiple Choice",
+					"options": [
+						"$19.25",
+						"$20",
+						"$25",
+						"$35"
+					],
+					"answer": "C",
+					"explanation": "112/16 = 7; 3 * 7 = 21; 8 * 7 = 56; 2 + 3 = 5; 5 * 5 = $25",
+					"difficulty": 1
+				},
+				{
+					"text": "In making which of the following volumes of Zack’s paint mixture will Zack spend the most amount of money on paint per cup of his paint mixture?",
+					"type": "Multiple Choice",
+					"options": [
+						"16 cups",
+						"32 cups",
+						"48 cups",
+						"64 cups"
+					],
+					"answer": "A",
+					"explanation": "16 cups = 3:5:8 – as paint can only be bought in buckets of 20, the majority will be going to waste",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "A landscaper has ordered a variety of decorative cubic sculptures to put on display in the community garden (shown below).",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/20.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What is the surface area to volume ratio of the cube with side length 3m (given that the bottom face of the cube is not counted in its surface area)?",
+					"type": "Multiple Choice",
+					"options": [
+						"2:1",
+						"5:3",
+						"3:2",
+						"1:1"
+					],
+					"answer": "B",
+					"explanation": "3 * 3 * 5:3 * 3 * 3 = 5:3",
+					"difficulty": 1
+				},
+				{
+					"text": "The surface of the cube with side length 2m must be painted black. Each cup of black paint covers half a square metre. Black paint can be bought by the bucket and each bucket is filled with 10 cups of black paint. If each bucket of black paint costs $10, how much will be spent on painting the surface of the cube with side length 2m (given that the bottom face is not painted)?",
+					"type": "Multiple Choice",
+					"options": [
+						"$20",
+						"$30",
+						"$40",
+						"$50"
+					],
+					"answer": "C",
+					"explanation": "2 * 2 * 5 = 20; 20/0.5 = 40 cups; 40/10 * 10 = $40",
+					"difficulty": 1
+				},
+				{
+					"text": "If the side length of a 113cm cube is quadrupled, what will be the ratio of the cubes initial volume to its final volume?  ",
+					"type": "Multiple Choice",
+					"options": [
+						"4:1",
+						"16:1",
+						"64:1",
+						"256:1"
+					],
+					"answer": "C",
+					"explanation": "4 * 4 * 4 = 64",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the smallest possible length of a cube’s side such that the surface area to volume ratio of the cube itself is less than 1.5:1 (given that the bottom face of the cube is not counted in its surface area) to two decimal places?",
+					"type": "Multiple Choice",
+					"options": [
+						"3.1",
+						"3.17",
+						"3.33",
+						"3.34"
+					],
+					"answer": "D",
+					"explanation": "Technique 1: Trial and error; technique 2: 5x^2/x^3=1.5; x = 3.333; x = 3.4 (if 3.3, the ratio will be greater than 1.5)",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The table compares the temperature to the resistance (in ohms) displayed by a wire conducting an electrical current.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/21.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "By what proportion does the resistance of the wire increase with each 1 degree Celsius increase in temperature (as a proportion of the previous resistance)? ",
+					"type": "Multiple Choice",
+					"options": [
+						"0.0038",
+						"0.38",
+						"3.8",
+						"Variable"
+					],
+					"answer": "D",
+					"explanation": "While the increase is 0.38 ohms consistently, the proportion will change as the resistance increases",
+					"difficulty": 1
+				},
+				{
+					"text": "Which of the following most closely represents the ratio of resistance to temperature at 30 degrees Celsius (given that the above trend continues)?",
+					"type": "Multiple Choice",
+					"options": [
+						"3.33:1",
+						"6.8:2",
+						"3.44:1",
+						"6.91:2"
+					],
+					"answer": "D",
+					"explanation": "102.28 + 4 * 0.38:30 = ~6.91:2",
+					"difficulty": 1
+				},
+				{
+					"text": "The ratio of resistance to temperature is given by X:1. Given that the above trend continues, what is the lowest possible temperature such that X is greater than 3?",
+					"type": "Multiple Choice",
+					"options": [
+						"36",
+						"37",
+						"35",
+						"39"
+					],
+					"answer": "C",
+					"explanation": "(102.28 + 0.38x)/(26 + x) = 3, x = 9.3; 26 + 9.3 = 35.3",
+					"difficulty": 1
+				},
+				{
+					"text": "If the initial temperature in a room is 26 degrees Celsius and it drops by 2 degrees Celsius every hour for 5 hours, what will be the proportion of the final resistance (compared to the initial resistance) after 5 hours?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.945",
+						"0.963",
+						"0.985",
+						"1.023"
+					],
+					"answer": "B",
+					"explanation": "(102.28 – 10 * 0.38)/102.28 = 0.963",
+
+
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "At a birthday party all the children in attendance played a game (poker, trivial pursuit, monopoly or Wii bowling) and ate a snack (pizza rolls, chips and dip or cookies). ",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/22.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What proportion of the children in attendance ate cookies?",
+					"type": "Multiple Choice",
+					"options": [
+						"6/23",
+						"1/3",
+						"8/23",
+						"41/115"
+					],
+					"answer": "A",
+					"explanation": "(12 + 7 + 7 + 4)/115 = 6/23",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of those who played trivial pursuit or monopoly ate pizza rolls or chips and dip?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.64",
+						"0.72",
+						"0.75",
+						"0.79"
+					],
+					"answer": "D",
+					"explanation": "(8 + 14 + 14 + 17)/(8 + 14 + 14 + 17 + 7 +7) = 0.79",
+					"difficulty": 1
+				},
+				{
+					"text": "The host chooses to invite 15 more kids and they each play monopoly or wii bowling and eat chips and dip or cookies. What is the decrease in proportion of those who played poker and ate pizza rolls (out of all those who attended) as a result of the 15 extra kids?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.001",
+						"0.01",
+						"0.1",
+						"1"
+					],
+					"answer": "B",
+					"explanation": "10/115 – 10/130 = 0.01",
+					"difficulty": 1
+				},
+				{
+					"text": "Which of the following represents the ratio of those who did not eat cookies to those who did not play poker?",
+					"type": "Multiple Choice",
+					"options": [
+						"17:16",
+						"16:17",
+						"18:17",
+						"17:18"
+					],
+					"answer": "D",
+					"explanation": "(115 – 12 – 7 – 7 – 4):(115 – 10 – 3 -12) = 17:18",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The table below represents the proportion of total operating revenue that various universities receive from overseas student fees – from 2012 to 2016.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/23.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "Which university averaged the highest proportion of fees from overseas students (from 2012 to 2016)?",
+					"type": "Multiple Choice",
+					"options": [
+						"Curtin",
+						"ECU",
+						"Murdoch",
+						"UWA"
+					],
+					"answer": "A",
+					"explanation": "Every year Curtin received the highest (or equal highest) percentage",
+					"difficulty": 1
+				},
+				{
+					"text": "If the total operating revenue of Curtin was $20 million in 2012 but 1.18 times that figure in 2013, did the fees from overseas students at Curtin increase or decrease from 2012 to 2013?",
+					"type": "Multiple Choice",
+					"options": [
+						"Increased by $116000",
+						"Increased by $112000",
+						"Decreased by $112000",
+						"Decreased by $116000"
+					],
+					"answer": "D",
+					"explanation": "0.23 * 20 = 4.6; 0.19 * 20 * 1.18 = 4.484; 4.6 – 4.484 = $0.116 (million)",
+					"difficulty": 1
+				},
+				{
+					"text": "If the total operating revenue of Murdoch was $30 million in 2014 and $2 million worth of overseas fees were derived from European students, what proportion of overseas fees were not derived from European students?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.2",
+						"0.4",
+						"0.6",
+						"0.8"
+					],
+					"answer": "C",
+					"explanation": "30 * 0.17 = 5.1; (5.1 – 2)/5.1 = ~0.6",
+					"difficulty": 1
+				},
+				{
+					"text": "Suppose all operating revenue from UWA is generated from student fees and all students are either overseas or Australian and must pay fees. If each overseas student must pay 2.5 times the average fees of Australian students, what was the ratio of overseas students to Australian students at UWA in 2016?",
+					"type": "Multiple Choice",
+					"options": [
+						"52:870",
+						"57:820",
+						"13:100",
+						"13:87"
+					],
+					"answer": "A",
+					"explanation": "13:87; 13 * 2/5:87 = 5.2:87 = 52:870",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "4 different fishing companies in 4 different countries, Spain, France, Italy and Grecia (Greece), are keeping a tally of the number and types of fish caught over the course of one month. The following table lists all fish caught.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/24.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "Approximately what proportion of fish caught over the month (by these 4 companies) were swordfish?",
+					"type": "Multiple Choice",
+					"options": [
+						"1/2",
+						"1/3",
+						"1/4",
+						"1/5"
+					],
+					"answer": "B",
+					"explanation": "Sum of swordfish row/sum of all data = ~1/3 ",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of all Sea bream caught over the course of the month by the 4 companies was caught by the Spanish company?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.25",
+						"0.27",
+						"0.29",
+						"0.31"
+					],
+					"answer": "D",
+					"explanation": "69/sum of sea bream row = 0.31",
+					"difficulty": 1
+				},
+				{
+					"text": "If each Hake is sold for 3.5 times the value of each Sole, what was the ratio of money generated from the sale of Sole to the sale of Hake by the French company?",
+					"type": "Multiple Choice",
+					"options": [
+						"108:30",
+						"378:30",
+						"108:105",
+						"Cannot be calculated without the value of Hake or Sole "
+					],
+					"answer": "C",
+					"explanation": "108:30 * 7/2 = 108:105",
+					"difficulty": 1
+				},
+				{
+					"text": "The fishing company located in which country caught the largest proportion of fish for the month?",
+					"type": "Multiple Choice",
+					"options": [
+						"Spain",
+						"France",
+						"Italy",
+						"Grecia"
+					],
+					"answer": "A",
+					"explanation": "Sum each of the columns. The highest total will be the Spain column",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "At a store, red and blue marbles are sold in bags. The number of red and blue marbles in each bag is shown below; e.g the smallest bag that can be bought has 15 marbles in it (7 red and 8 blue). Marbles can only be bought in the bag sizes as shown below. Bags with less than 50 marbles total cost $1 per marble while bags with more than 50 marbles total cost 50c per marble.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 2 (Sahil)/25.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "If Chris wishes to buy a bag of marbles with the greatest proportion of red marbles, keep the blue marbles and give the red marbles to his sister, how many red marbles will his sister receive?",
+					"type": "Multiple Choice",
+					"options": [
+						"14",
+						"21",
+						"35",
+						"42"
+					],
+					"answer": "B",
+					"explanation": "21:23 is the greatest ratio of red to blue marbles – 21 red marbles",
+					"difficulty": 1
+				},
+				{
+					"text": "If Jim wants to buy at least 173 marbles by buying a number of bags with the same number of marbles, what is the lowest amount of money he will have to spend?",
+					"type": "Multiple Choice",
+					"options": [
+						"$82.5",
+						"$90",
+						"$97.5",
+						"$100"
+					],
+					"answer": "B",
+					"explanation": "3 bags each with 60 marbles will be bought. 180 * 0.5 = $90",
+					"difficulty": 1
+				},
+				{
+					"text": "Jill and Anne each have a certain number of red and blue marbles. If Jill gives Anne 6 red marbles, they will have the same number of red marbles. If Anne gives away 6 blue marbles (not to Jill), she will have exactly 1.5 times as many blue marbles as Jill. If Jill has 30 red marbles and Anne has 102 marbles total, how many more marbles does Anne have then Jill? ",
+					"type": "Multiple Choice",
+					"options": [
+						"5",
+						"10",
+						"15",
+						"20"
+					],
+					"answer": "D",
+					"explanation": "Anne has 18 red marbles (30 – 12). Jill has 102 – 18 = 84 blue marbles. 78 * 2/3 = 52; Jill has 52 + 30 = 82 marbles; 102 – 82 = 20",
+					"difficulty": 1
+				},
+				{
+					"text": "If Mary buys one of each bag of marbles, what proportion of the total will be spent on buying red marbles?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.45",
+						"0.46",
+						"0.47",
+						"0.48"
+					],
+					"answer": "B",
+					"explanation": "((7 + 14 + 21) * 1 + (28 + 35 + 42) * 0.5)/total spent = 0.46",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following graph shows the changes in the distribution of visitors to different types of tourist attractions in Britain between 1981 and 1999.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/1.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "By how many tourists (to the closest hundred thousand) did the Wildlife Parks and Zoo attractions increase in from 1981 to 1999?",
+					"type": "Multiple Choice",
+					"options": [
+						"12.4 million",
+						"1.5 million",
+						"2.5 million",
+						"2.6 million"
+					],
+					"answer": "D",
+					"explanation": "0.09 * 41.5 – 0.04 * 29.1 = 2.6",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the closest ratio between tourists visiting Theme parks in 1981 and Theme parks in 1999?",
+					"type": "Multiple Choice",
+					"options": [
+						"23:14",
+						"14:23",
+						"4:5",
+						"5:4"
+					],
+					"answer": "B",
+					"explanation": "0.33 * 29.1:0.36*41.5 = ~14:23",
+					"difficulty": 1
+				},
+				{
+					"text": "Which tourist attraction increased in visitor numbers by the smallest amount from 1981 to 1999?",
+					"type": "Multiple Choice",
+					"options": [
+						"Wildlife Parks and Zoos",
+						"Theme Parks",
+						"Museums and Galleries",
+						"Historic Houses and Monuments"
+					],
+					"answer": "C",
+					"explanation": "Museums and galleries was the only category that saw a percentage drop",
+					"difficulty": 1
+				},
+				{
+					"text": "Which of the following increased by the greatest amount from 1981 to 1999?",
+					"type": "Multiple Choice",
+					"options": [
+						"Wildlife Parks and Zoos ",
+						"Theme Parks",
+						"Museums and Galleries ",
+						"Historic Houses and Monuments"
+					],
+					"answer": "B",
+					"explanation": "Theme parks saw the equal highest percentage increase and made up a larger percentage than Wildlife Parks and Zoos; hence, it would’ve increased by the greatest amount",
+
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following graph depicts federal spending on education and training in 1998 and 2008.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/2.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "Which educational sector’s federal spending increased the most in terms of its proportion of overall spending from 1998 to 2008?",
+					"type": "Multiple Choice",
+					"options": [
+						"Elementary, secondary and vocational education",
+						"Higher education",
+						"Training and employment",
+						"Other"
+					],
+					"answer": "A",
+					"explanation": "The greatest percentage increase was (39.7 – 23.3)/23.3 * 100 = 70.4%",
+					"difficulty": 1
+				},
+				{
+					"text": "The proportion of federal funding going towards training and employment in 2008 is",
+					"type": "Multiple Choice",
+					"options": [
+						"0.0559",
+						"0.5590",
+						"5.5900",
+						"55.900"
+					],
+					"answer": "A",
+					"explanation": "5.2/2008 total = 0.0559",
+					"difficulty": 1
+				},
+				{
+					"text": "Which educational sector’s federal spending remained constant (to 2 decimal places) in terms of its proportion of overall spending from 1998 to 2008?",
+					"type": "Multiple Choice",
+					"options": [
+						"Higher education",
+						"Training and employment",
+						"None of them ",
+						"Other"
+					],
+					"answer": "A",
+					"explanation": "Higher education remained steady as a proportion of 0.27",
+					"difficulty": 1
+				},
+				{
+					"text": "The proportion of funding of ‘Other’ educational sectors changed from 1998 to 2008 by approximately:",
+					"type": "Multiple Choice",
+					"options": [
+						"+0.03",
+						"-0.03",
+						"+0.02",
+						"-0.02"
+					],
+					"answer": "D",
+					"explanation": "17.3/total in 1998 – 23.1/total in 2008 = -0.02",
+
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The graph below shows how different sectors contribute to the economy in 2000 and 2016. The total GDP was 50 billion dollars in 2000, increasing by 60 billion in 2016.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/3.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "How much did Healthcare and Education contribute to the total GDP in 2016?",
+					"type": "Multiple Choice",
+					"options": [
+						"10.2 billion dollars",
+						"19.1 billion dollars",
+						"8.5 billion dollars",
+						"18.7 billion dollars"
+					],
+					"answer": "D",
+					"explanation": "0.17 * 110 = 18.7",
+					"difficulty": 1
+				},
+				{
+					"text": "The ratio of Government contribution to GDP in 2000 to 2016 is closest to",
+					"type": "Multiple Choice",
+					"options": [
+						"3:5",
+						"5:3",
+						"10:9",
+						"9:10"
+					],
+					"answer": "A",
+					"explanation": "0.12 * 50:0.09 * 110 = 3:5",
+					"difficulty": 1
+				},
+				{
+					"text": "Of the following sectors, which saw the smallest increase in its contribution to the GDP from 2000 to 2016?",
+					"type": "Multiple Choice",
+					"options": [
+						"Government",
+						"Agriculture",
+						"Leisure and Hospitality",
+						"Healthcare and Education"
+					],
+					"answer": "B",
+					"explanation": "Agriculture dropped by 10% (the most of any of the sectors)",
+					"difficulty": 1
+				},
+				{
+					"text": "The ratio of Construction contribution to GDP in 2016 to Manufacturing in 2000 is approximately",
+					"type": "Multiple Choice",
+					"options": [
+						"11:4",
+						"4:11",
+						"22:3",
+						"33:10"
+					],
+					"answer": "A",
+					"explanation": "0.1 * 110:0.08*50 = 11:4",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following graph highlights the changes in the production of energy sources to the power grid in 1980 and 1990. In 1980 the power grid was creating 3 trillion kilowatts of energy, and in 1990 it was 1 trillion.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/4.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "From 1990 to 1980, the energy production of natural gas changed in kilowatts by",
+					"type": "Multiple Choice",
+					"options": [
+						"+0.53 trillion",
+						"-0.53 trillion",
+						"+0.25 trillion",
+						"-0.25 trillion"
+					],
+					"answer": "B",
+					"explanation": "0.25 – 0.26 * 3 = -0.53",
+					"difficulty": 1
+				},
+				{
+					"text": "The ratio of hydroelectric energy production in 1980 to that of nuclear power in 1980 is approximately",
+					"type": "Multiple Choice",
+					"options": [
+						"1:1",
+						"2:1",
+						"2:3",
+						"3:2"
+					],
+					"answer": "A",
+					"explanation": "5:5 = 1:1",
+					"difficulty": 1
+				},
+				{
+					"text": "Which of the energy sources experienced an increase in energy production from 1980 to 1990?",
+					"type": "Multiple Choice",
+					"options": [
+						"Oil",
+						"Coal",
+						"Nuclear power",
+						"None"
+					],
+					"answer": "D",
+					"explanation": "None of the energy sources saw their percentage contribution more than triple",
+					"difficulty": 1
+				},
+				{
+					"text": "Which of the following energy sources experienced the greatest change from 1980 to 1990 as a proportion of the total power supply to the power grid?",
+					"type": "Multiple Choice",
+					"options": [
+						"Oil",
+						"Natural Gas",
+						"Coal",
+						"None"
+					],
+					"answer": "A",
+					"explanation": "Oil saw the largest (9%) change in proportion of the total power supply to the power grid",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The charts below show agricultural production in 2 different regions of the country. The total agricultural production in the Western region is 40 tonnes.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/5.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "In how many categories did the agricultural production in the Western Region exceed 6 tonnes?",
+					"type": "Multiple Choice",
+					"options": [
+						"1",
+						"2",
+						"3",
+						"4"
+					],
+					"answer": "B",
+					"explanation": "6/40 * 100 = 15%; only 2 categories exceeded 15%",
+					"difficulty": 1
+				},
+				{
+					"text": "If the same amount of dairy was produced in the Western Region as the Eastern Region, how much grain was produced in the Eastern region?",
+					"type": "Multiple Choice",
+					"options": [
+						"3 tonnes",
+						"4 tonnes",
+						"5 tonnes",
+						"6 tonnes"
+					],
+					"answer": "A",
+					"explanation": "0.45 * 40 = 18; 18/3 = 6; 6/2 = 3",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the ratio of meat produced in the Eastern region to the meat produced in the Western Region if the Eastern region produced four times as much agricultural produce as the Western region?",
+					"type": "Multiple Choice",
+					"options": [
+						"4:1",
+						"1:4",
+						"1:1",
+						"4:2"
+					],
+					"answer": "A",
+					"explanation": "4 times as much produce and both are 35%; 4:1",
+					"difficulty": 1
+				},
+				{
+					"text": "If the Eastern region produced double the amount of vegetables as the Western region, how much more dairy did the Western region produce compared to the Eastern region?",
+					"type": "Multiple Choice",
+					"options": [
+						"0 times more",
+						"1 times more",
+						"2 times more",
+						"3 times more"
+					],
+					"answer": "A",
+					"explanation": "Twice as much agricultutral product in the western region; 15/30 * 2 = 1; therefore, same amount of dairy produced",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "These charts show the annual spending of a school in 1981, 1991 and 2001.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/6.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "If the annual spending by the school consistently decreased from 1981 to 1991, which category of spending also consistently decreased from 1981 to 2001?",
+					"type": "Multiple Choice",
+					"options": [
+						"Teachers’ salaries",
+						"Other workers’ salaries",
+						"Resources",
+						"Furniture and Equipment"
+					],
+					"answer": "B",
+					"explanation": "The only category to decrease from 1981 to 1991 to 2001 (percentage-wise) was ‘Other workers’ salaries’",
+					"difficulty": 1
+				},
+				{
+					"text": "If the ratio of insurance spending in 2001 to 1991 is 5:2, and the school spent a total of 200,000 dollars in 2001, how much did the school spend in dollars in total in 1991 (to the closest hundred)?",
+					"type": "Multiple Choice",
+					"options": [
+						"213,000",
+						"213,200",
+						"213,300",
+						"213,400"
+					],
+					"answer": "C",
+					"explanation": "(8/3) / (5/2) = 1.067; 1.067 * 200,000 = ~213,300",
+					"difficulty": 1
+				},
+				{
+					"text": "If the total school spending in 1981 was 300,000 dollars, what amount of school spending was on resources in 2001 if it was triple that of spending on resources in 1981?",
+					"type": "Multiple Choice",
+					"options": [
+						"45,000 dollars",
+						"135,000 dollars",
+						"150,000 dollars",
+						"500,000 dollars"
+					],
+					"answer": "B",
+					"explanation": "Resource spending in 1981 = 300,000 * 0.15 = 45,000 <br/> Triple this is 135,000 dollars.",
+					"difficulty": 1
+				},
+				{
+					"text": "What proportion of money spent on teacher’s salaries in total was spent before 2001, if the total spending in 1981 was 25,000 and increased by 10,000 each 10 year block (rounded to 3 decimal places)?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.575 ",
+						"0.576",
+						"0.577",
+						"0.578"
+					],
+					"answer": "B",
+					"explanation": "(25 + 35)/(25 + 35 + 45) = 0.576",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The charts below give information on the age of the populations of Yemen and Italy in 2000 and projections for 2050. The population of Yemen in 2000 was 20 million. The population of Italy in 2050 is projected to be 50 million.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/7.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "What is the closest ratio of people in Yemen aged 60+ years in 2000 to the number of projected people under 14 years in Italy in 2050?",
+					"type": "Multiple Choice",
+					"options": [
+						"1:3",
+						"3:1",
+						"1:8",
+						"8:1"
+					],
+					"answer": "C",
+					"explanation": "0.036 * 20:0.115 * 50 = 1:8",
+					"difficulty": 1
+				},
+				{
+					"text": "If there will be the same number of people aged 15-59 years in Italy in 2050 as was in 2000, what was the population of Italy in 2000?",
+					"type": "Multiple Choice",
+					"options": [
+						"37.5 million",
+						"50 million",
+						"47.5 million",
+						"40 million"
+					],
+					"answer": "A",
+					"explanation": "46.2/61.6 * 50 = 37.5",
+					"difficulty": 1
+				},
+				{
+					"text": "If the population of Italy in 2000 was half that of the population of Yemen in 2000, what proportion of the population in Italy in 2000 were under the age of 14?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.250",
+						"0.143",
+						"0.500",
+						"0.115"
+					],
+					"answer": "B",
+					"explanation": "Just directly use the percentage 14.3% = 0.143",
+					"difficulty": 1
+				},
+				{
+					"text": "How many people are projected to be under 14 years in Yemen in 2050 if the population is in a 2:3 ratio with the population of Italy in 2050?",
+					"type": "Multiple Choice",
+					"options": [
+						"12.33 million",
+						"19.09 million",
+						"20 million",
+						"25.01 million"
+					],
+					"answer": "A",
+					"explanation": "2/3 * 50 * 0.37 = 12.33 ",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The following graphs show the percentages of sodium, saturated fats and added sugars in typical meals consumed by John Smith.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/ProportionalityBatch 1 (Raman)/8.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "If John’s breakfast weighs 200 grams, what is the ratio of sodium consumption to saturated fat?",
+					"type": "Multiple Choice",
+					"options": [
+						"8:7",
+						"7:8",
+						"8:6",
+						"6:8"
+					],
+					"answer": "B",
+					"explanation": "14:16 = 7:8",
+					"difficulty": 1
+				},
+				{
+					"text": "If John’s dinner weighs 500 grams and his lunch weighed 350 grams. but he had no breakfast or snacks, what is the closest ratio of his saturated fat consumption to added sugars for the day?",
+					"type": "Multiple Choice",
+					"options": [
+						"3:2",
+						"1:2",
+						"2:3 ",
+						"2:1"
+					],
+					"answer": "A",
+					"explanation": "500 * 0.37 + 350 * 0.26:500 * 0.23 + 350 * 0.19",
+					"difficulty": 1
+				},
+				{
+					"text": "John has a 50g breakfast, a 0.05kg dinner, a 30g lunch and a 20g snack. Which meal should John skip if he wants to reduce his sodium and added sugar consumption?",
+					"type": "Multiple Choice",
+					"options": [
+						"Breakfast ",
+						"Lunch",
+						"Dinner",
+						"Snacks"
+					],
+					"answer": "C",
+					"explanation": "Sodium is highest in dinner and added sugar is second highest in dinner; dinner is also the equal heaviest meal. Mathematically, sodium and added sugar consumption would be highest at dinner",
+					"difficulty": 1
+				},
+				{
+					"text": "If John plans to eat 500g worth of snacks, how much additional added sugar would he be consuming if he ate 1kg worth of snacks instead?",
+					"type": "Multiple Choice",
+					"options": [
+						"500g",
+						"2.10kg",
+						"0.210kg",
+						"0.5kg"
+					],
+					"answer": "C",
+					"explanation": "0.5 * 0.42 = 0.21",
+
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The charts below give information about different types of waste disposed of in Australia in 1960 and 2011. The amount of green waste in 1960 disposed of was 10kg. ",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/9.JPG",
+			"category_id": 10,
+			"questions": [{
+					"text": "How much waste was disposed of in 2011 if it was double that of 1960?",
+					"type": "Multiple Choice",
+					"options": [
+						"20kg",
+						"111kg",
+						"222kg",
+						"10kg"
+					],
+					"answer": "C",
+					"explanation": "1960: 10/0.09 = 111; 111 * 2 = 222",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the ratio of green waste in 1960 to green waste in 2011 if there was 1000kg of waste disposed of in 2011?",
+					"type": "Multiple Choice",
+					"options": [
+						"1:9",
+						"1:1",
+						"10:1",
+						"1:10"
+					],
+					"answer": "A",
+					"explanation": "10:1000*0.09 = 1:9",
+					"difficulty": 1
+				},
+				{
+					"text": "If 125,480kg of metal was disposed of in 2011, what proportion of wood was disposed of 2011?",
+					"type": "Multiple Choice",
+					"options": [
+						"0.04",
+						"0.08",
+						"0.09",
+						"0.18"
+					],
+					"answer": "B",
+					"explanation": "Still 8% (0.08) of wood was disposed",
+					"difficulty": 1
+				},
+				{
+					"text": "How much more plastic was disposed in 2011 than 1960 if 150kg of waste was disposed of in 2011?",
+					"type": "Multiple Choice",
+					"options": [
+						"8.88kg",
+						"8.89kg",
+						"18.1kg",
+						"27.0kg"
+					],
+					"answer": "C",
+					"explanation": "150 * 0.18 – 111 * 0.08 = 18.1 ",
+					"difficulty": 1
+				}
+			]
+		},
+
+		{
+			"text": "The Ashdown Museum gave out a survey to all visitors to find out the satisfaction of their visitors to the museum before and after their recent refurbishment. Numbers are in percentages on the pie chart.",
+			"image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Questions/Proportionality/Batch 1 (Raman)/10.JPG",
+			"category_id": 10,
+			"questions": [
+
+				{
+					"text": "How many visitors in total did not respond to the satisfaction survey?",
+					"type": "Multiple Choice",
+					"options": [
+						"3,700",
+						"4,600",
+						"8,300",
+						"16,600"
+					],
+					"answer": "C",
+					"explanation": "0.05 * 74 + 0.05 * 92 = 8.3 (thousand) ",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the approximate ratio of visitors who were ‘satisfied’ after the refurbishment to those who were ‘satisfied’ before the refurbishment?",
+					"type": "Multiple Choice",
+					"options": [
+						"3:4",
+						"4:3",
+						"3:5",
+						"5:3"
+					],
+					"answer": "D",
+					"explanation": "0.4 * 92:0.3 * 74 = 5:3",
+					"difficulty": 1
+				},
+				{
+					"text": "What is the closest ratio of people who were ‘dissatisfied’ or ‘very dissatisfied’ after the refurbishment to those before?",
+					"type": "Multiple Choice",
+					"options": [
+						"3:8",
+						"2:1",
+						"1:2",
+						"3:5"
+					],
+					"answer": "C",
+					"explanation": "0.2 * 92:0.5 * 74 = ~1:2",
+					"difficulty": 1
+				},
+				{
+					"text": "Which category had the greatest increase in number from before to after the refurbishment?",
+					"type": "Multiple Choice",
+					"options": [
+						"Very satisfied",
+						"Satisfied",
+						"Dissatisfied",
+						"Very dissatisfied"
+					],
+					"answer": "A",
+					"explanation": "Greatest percentage increase (of 20%) could be seen with the ‘very satisfied’ category",
+					"difficulty": 1
+				}
+
+			]
+		}
+
+	]
+}

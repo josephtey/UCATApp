@@ -1,0 +1,642 @@
+{
+  "exam": {
+    "name": "Verbal Reasoning 5",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 21
+  },
+  "sections": [
+    {
+      "name": "Verbal Reasoning",
+      "description": "Looks at your ability to think logically about written information",
+      "time": 21,
+      "stems": [
+        {
+          "text": "https://zidbits.com/2014/05/why-are-the-middle-east-and-north-africa-deserts/<br/>In the Southern Hemisphere, there’s the Kalahari, the Atacama Desert, the Australian Outback (Great Victoria, Great Sandy), and the Namib. In the Northern Hemisphere, there’s the Sahara, the American Southwest, the Arabian Desert, the Lut Desert and the Thar Desert. These deserts all have something in common — they exist at or near 30° latitude. The reason for this similarity is due to a system of 'air conveyor belts 'which move vast amounts of air in the Earth’s upper atmosphere. The conveyor belt responsible for these deserts is known as the Hadley Cell. <br/>The Earth receives massive amounts of sunlight every day, and the equator receives more sunlight than anywhere else on the planet. This vast amount of sunlight creates a lot of heat. Since hot air rises, the air at the equator will rise high up into the earth’s atmosphere after being heated by the sun. From there, it’s carried northward where it begins to cool. After sufficient cooling, it begins to fall back down towards the ground. This system of rising and falling air is the Hadley Cell. When the warm air rises at the equator, it’s filled with a lot of moisture and water vapor. As that vapor-rich air continues to rise, it’s free to expand in the lower pressure atmosphere. This expansion also slightly cools the warm air. This change causes the moisture within the air to condense which results in heavy rains. This process is the reason why there tends to be a lot of rain near the equator and is why the tropics are so wet. <br/>The air hasn’t finished its journey, however. Now dry as a bone, the warm air continues its journey and follows the Hadley cell convection belt. Once that dry air has cooled enough, it descends. This descent happens at ± 30° latitude. If the region has no other source of moisture, either from local weather climates or interactions with other weather systems, the area will dry out and eventually become a desert.",
+          "category_id": 1,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "The Thar desert is in the Northern Hemisphere",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 1 states that 'in the Northern Hemisphere, there’s the Sahara, the American Southwest, the Arabian Desert, the Lut Desert and the Thar Desert'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "The Kalahari Desert exists at 30° longitude",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "Can’t tell",
+              "explanation": "While paragraph 1 states that 'these deserts all have something in common — they exist at or near 30° latitude', we cannot comment on the longitude; hence, the answer is can’t tell",
+              "difficulty": 1
+            },
+            {
+              "text": "The Hadley Cell can be used to explain the skewed distribution of rainfall worldwide",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 2 states that 'This process is the reason why there tends to be a lot of rain near the equator and is why the tropics are so wet'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, warm air can rise only if it is dry",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "False",
+              "explanation": "Paragraph 2 states that 'when the warm air rises at the equator, it’s filled with a lot of moisture and water vapor'; hence, the answer is false",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "https://www.history.com/news/how-infectious-diseases-spread-myth-superstition-theories<br/>Throughout the centuries, plague arrived in wave after devastating wave, taking numerous forms—from bubonic (which affects the lymphatic system) to pneumonic (which attacks the lungs) to septicemic (which infiltrates the bloodstream). Perhaps the most virulent occurrence came in the mid 1300s with the black death, which felled more than 20 million people across Europe alone. While it’s largely believed that bacteria-carrying fleas were the main culprit, 'experts' at the time found other explanations—especially in astrology and broadly formed ideas of noxious vapors as a breeding ground for pestilence. <br/>In 1348, for example, King Philip VI of France asked the greatest medical minds at the University of Paris to report back to him on the causes of the bubonic plague. In a detailed document submitted to the crown, they blamed 'the configuration of the heavens.' Specifically, they wrote that, in 1345, 'at one hour after noon on 20 March, there was a major conjunction of three planets [Saturn, Mars and Jupiter] in Aquarius.' Adding to that, they noted, a lunar eclipse occurred around the same time. <br/>Citing ancient philosophers such as Albertus Magnus and aristotle, the Parisian medical scholars went on to connect the dots between planets and pestilence: 'For Jupiter, being wet and hot, draws up evil vapors from the earth and Mars, because it is immoderately hot and dry, then ignites the vapors, and as a result there were lightning, sparks, noxious vapors and fires throughout the air.' Terrestrial winds, they went on, spread the noxious airs widely, smiting down 'the life force' of anyone who ingested it into their lungs: 'This corrupted air, when breathed in, necessarily penetrates to the heart and corrupts the substance of the spirit there and rots the surrounding moisture, and the heat thus caused destroys the life force, and this is the immediate cause of the present epidemic. <br/>A few centuries later, those noxious vapors were given another label: 'miasma.' If it smelled bad, people reasoned, it must carry disease. That explains why, during the plague of 1665, some doctors donned beak-shaped masks filled with sweet-smelling flowers—to protect themselves from infection.",
+          "category_id": 1,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "The bubonic plague infiltrated the bloodstream of victims",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "False",
+              "explanation": "Paragraph 1 states that it 'affects the lymphatic system'; hence, the answer is false",
+              "difficulty": 1
+            },
+            {
+              "text": "It is believed that bacteria-carrying fleas were the cause of the Black Death",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 1 states that 'it’s largely believed that bacteria-carrying fleas were the main culprit'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "The Parisian medical scholars partly blamed the bubonic plague on pestilence",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 2 states that 'the Parisian medical scholars went on to connect the dots between planets and pestilence'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "Medical scholars of the time believed that the plague of 1665 was carried solely by bad-smelling vapours",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "Can’t tell",
+              "explanation": "While this was the case, it is unclear whether they believed that this alone (solely) was the mode of transmission",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "http://www.healthcarebusinesstech.com/medical-technology/ <br/>In today’s world, technology plays an important role in every industry as well as in our personal lives. Out of all of the industries that technology plays a crucial role in, healthcare is definitely one of the most important. This merger is responsible for improving and saving countless lives all around the world. <br/>Medical technology is a broad field where innovation plays a crucial role in sustaining health. Areas like biotechnology, pharmaceuticals, information technology, the development of medical devices and equipment, and more have all made significant contributions to improving the health of people all around the world. From small innovations like adhesive bandages and ankle braces, to larger, more complex technologies like MRI machines, artificial organs, and robotic prosthetic limbs, technology has undoubtedly made an incredible impact on medicine. <br/>In the healthcare industry, the dependence on medical technology cannot be overstated, and as a result of the development of these brilliant innovations, healthcare practitioners can continue to find ways to improve their practice – from better diagnosis, surgical procedures, and improved patient care. As technology in the world of healthcare continues to evolve, rules and regulations concerning its use must be established and adjusted to adapt to the new methods of administering care. <br/>Regulations like HIPAA and its Privacy and Security Act target the concerns about the confidentiality of patient information and the steps that must be taken to maintain privacy in our digital world. Medical providers and healthcare administration must be careful when choosing to implement new products and technologies into their services and should ensure that all technologies are 'HIPAA compliant' before investing in their implementation. Other initiatives, like the 2010 Health Care Reform bill, state the steps that must be taken by hospitals and other care providers to integrate medical technology into their practices.",
+          "category_id": 2,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "All of the following are areas of medical technology mentioned in the text, except:",
+              "type": "Multiple Choice",
+              "options": [
+                "Information technology",
+                "Pharmaceuticals",
+                "Immunology",
+                "Biotechnology"
+              ],
+              "answer": "Immunology",
+              "explanation": "Paragraph 2 alludes to 'biotechnology, pharmaceuticals, information technology, the development of medical devices and equipment'; hence, the answer is C",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, an example of 'small' medical innovation is:",
+              "type": "Multiple Choice",
+              "options": [
+                "MRI machines",
+                "Ankle braces",
+                "Prosthetic limbs",
+                "Artificial organs"
+              ],
+              "answer": "Ankle braces",
+              "explanation": "Paragraph 2 states that 'small innovations like adhesive bandages and ankle braces'; hence, the answer is B",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following would the author of this passage most likely agree with?",
+              "type": "Multiple Choice",
+              "options": [
+                "The importance of medical technology is rarely understated",
+                "Medical providers and healthcare administration should unreservedly embrace new medical technologies",
+                "The dangers of emerging medical technology have been well documented",
+                "Emerging medical technology can allow healthcare practitioners to improve their practice"
+              ],
+              "answer": "Emerging medical technology can allow healthcare practitioners to improve their practice",
+              "explanation": "Paragraph 3 states that 'as a result of the development of these brilliant innovations, healthcare practitioners can continue to find ways to improve their practice'; hence, the answer is D",
+              "difficulty": 1
+            },
+            {
+              "text": "Before investing in their implementation, medical providers and healthcare administration should ensure that new products and technologies are:",
+              "type": "Multiple Choice",
+              "options": [
+                "HIPAA compliant",
+                "Affordable",
+                "Scalable",
+                "Covered under the Health Care Reform bill"
+              ],
+              "answer": "HIPAA compliant",
+              "explanation": "Paragraph 4 states that medical providers 'should ensure that all technologies are 'HIPAA compliant'; hence, the answer is A",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "https://www.theguardian.com/environment/2020/apr/07/volcanic-activity-triggered-triassic-climate-change? <br/>Volcanic eruptions played an important and direct role in triggering the extreme climate that killed off swathes of life at the end of the Triassic period 201 million years ago, researchers have found. Experts say they have discovered bubbles of carbon dioxide trapped in volcanic rocks dating to the end of the Triassic, backing up the theory that such activity contributed to the greenhouse climate that is believed to have been behind the mass extinction. This biotic crisis wiped out almost half of the existing species of the late Triassic in both marine and terrestrial realms, said Manfredo Capriolo of the University of Padova in Italy, a co-author of the study. <br/>While Capriolo noted the end-Triassic mass extinction has long been known to have been caused by extreme climate change, and that there was large-scale volcanic activity at the time, he said it had been unclear whether the volcanic activity directly contributed to the extinction event. Among other possibilities, he said, it could have been that magma caused the emission of gases as it flowed into shallow sediments.<br/>The new work, said Capriolo, shows that carbon dioxide released directly by volcanic activity would indeed have made a large contribution to the devastating climate change of the time. Indeed the team say the amount of carbon emissions released in a single pulse of eruptions – which would have resulted in about 100,000 km3 of lava being spewed forth over 500 years – is on a par with the total expected to be produced by human activity over the 21st century, assuming a 2C rise in global temperature above pre-industrial levels. <br/>That, they say, offers a sobering warning for today. [This] suggests that the end - Triassic climatic and environmental changes, driven by CO2 emissions, may have been similar to those predicted for the near future, the team write.",
+          "category_id": 2,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "The bubbles of carbon dioxide in volcanic rocks dating to the end of the Triassic provides evidence of:",
+              "type": "Multiple Choice",
+              "options": [
+                "Volcanic activity",
+                "The biotic crisis",
+                "The greenhouse climate",
+                "The link between volcanic activity and the greenhouse climate"
+              ],
+              "answer": "The link between volcanic activity and the greenhouse climate",
+              "explanation": "Paragraph 1 states that 'experts say they have discovered bubbles of carbon dioxide trapped in volcanic rocks dating to the end of the Triassic, backing up the theory that such activity contributed to the greenhouse climate'; hence, the answer is D",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, which of the following could have caused the extreme climate change seen at the end of the Triassic period?",
+              "type": "Multiple Choice",
+              "options": [
+                "Magma flowing into shallow sediments",
+                "Damages to the ozone layer",
+                "Asteroid impact",
+                "Sulfur dioxide emissions"
+              ],
+              "answer": "Magma flowing into shallow sediments",
+              "explanation": "Paragraph 2 states that 'it could have been that magma caused the emission of gases as it flowed into shallow sediments'; hence, the answer is A",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following is most likely true?",
+              "type": "Multiple Choice",
+              "options": [
+                "100,000km3 of lava is expected to be produced by human activity in the 21st century",
+                "The end-Triassic climatic and environmental changes are similar to those that have already been seen in the 21st century",
+                "Carbon dioxide released from volcanic activity can impact climate",
+                "Capriolo does not believe that volcanic activity contributed to the end-Triassic extinction"
+              ],
+              "answer": "Carbon dioxide released from volcanic activity can impact climate",
+              "explanation": "Paragraph 3 states that 'carbon dioxide released directly by volcanic activity would indeed have made a large contribution to the devastating climate change of the time'; hence, the answer is C",
+              "difficulty": 1
+            },
+            {
+              "text": "The author is likely to agree with each of the following, except:",
+              "type": "Multiple Choice",
+              "options": [
+                "The climate changes seen in the end-Triassic are not dissimilar to those predicted for the near future",
+                "The extinction event had a substantial impact on both marine and terrestrial life",
+                "Further research into the end-Triassic extinction event can provide valuable lessons for modern society",
+                "An extinction event the size of the end-Triassic extinction may occur if humanity does not change their ways"
+              ],
+              "answer": "An extinction event the size of the end-Triassic extinction may occur if humanity does not change their ways",
+              "explanation": "Paragraph 4 states that 'the end-Triassic climatic and environmental changes, driven by CO2 emissions, may have been similar to those predicted for the near future'; hence, the answer is D",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "https://aeon.co/essays/the-future-is-nano-and-it-will-revolutionise-medical-science? <br/>In the mid-1980s, evidence started to emerge from labs across the world confirming that scientists were finally able to reach the nano level in experimental conditions and not just with their theories. Working at scales defined in millionths of a millimetre, Richard Smalley, Robert Curl and Harold Kroto reported the discovery of ‘buckminsterfullerene’ – a nanosized polyhedron, with 32 faces fused into a cage-like, soccer-ball structure, and with carbon atoms sitting in each of its 60 vertices. These miniature ‘Bucky’ balls (named for their similarity to the geodesic dome structures made by the architect R Buckminster Fuller in the 1950s), are found in tiny quantities in soot, in interstellar space and in the atmospheres of carbon-rich red giant stars, but Kroto was able to recreate them in chemical reactions in the lab while visiting Rice University in Texas. Then, in 1991, Nadrian Seeman’s lab at New York University used 10 artificial strands of DNA to create the first human-made nanostructure, connecting up the DNA strands to resemble the edges of a cube, so marking the beginning of the field now known as ‘DNA nanotechnology’. Clever scientists with broad visions started to realise that a new kind of technology, prophesied by Richard Feynman in the 1950s, was finally materialising, as researchers achieved the capacity to visualise, fabricate and manipulate matter at the nanometre scale. <br/>The term nanotechnology was coined in 1974 by the Japanese scientist Norio Taniguchi to describe semiconductor processes involving engineering at the nanoscale, but it entered public debate only with the publication of K Eric Drexler’s influential Engines of Creation (1986), a hyperbolic book of futuristic scientific imaginings of what might be achieved on the scale of the unimaginably small. Drexler’s book sparked longlasting controversies, notably focused on the weak scientific grounding of some of his ideas; but nothing stuck more to the public consciousness than his prediction of a hypothetical ‘grey goo’, scourge of a global dystopia involving out-of-control self-replicating machines devouring all life on Earth.",
+          "category_id": 1,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "Scientists theorised about the nano level before the mid 1980s",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 1 states that 'In the mid-1980s, evidence started to emerge from labs across the world confirming that scientists were finally able to reach the nano level in experimental conditions and not just with their theories'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "The discovery of ‘bucky balls’ was credited to R Buckminster Fuller",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "False",
+              "explanation": "Paragraph 2 states that 'miniature ‘Bucky’ balls (named for their similarity to the geodesic dome structures made by the architect R Buckminster Fuller in the 1950s)'; hence, the answer is false",
+              "difficulty": 1
+            },
+            {
+              "text": "The first human-made nano structure was composed of DNA",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 2 states that 'New York University used 10 artificial strands of DNA to create the first human-made nanostructure'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "K Eric Drexler’s influential 'Engines of Creation' had a strong evidential basis",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "False",
+              "explanation": "Paragraph 3 states that 'Engines of Creation (1986), a hyperbolic book of futuristic scientific imaginings of what might be achieved on the scale of the unimaginably small'; hence, the answer is false",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "https://www.bbc.com/news/science-environment-52204434? <br/>Some flowers can recover with remarkable speed after a major accident, such as being walked upon by humans.Scientists found that species including orchid and sweet pea could re-orient themselves in 10-48 hours after an injury. These plants are able to bend, twist and reposition their stems to ensure that they reproduce. But others such as buttercups fail to bounce back after damage. The remarkable abilities of some flowers to recover quickly from serious injury, have been previously overlooked by science, say the authors of this new work. <br/>Researchers looked at 23 native and cultivated flower species in the UK, Europe, Australia and North and South America. They examined species which had suffered accidents and they also carried out experiments where the flowers were tethered at either 45 or 90 degrees off their normal orientation. For many flowers, their ability to reproduce depends on the careful alignment of their sexual organs or stigma and their nectar tubes in order for a visiting pollinator to help them make seeds. The scientists found that when these species were damaged, they could accurately reposition their sexual organs. <br/> The common spotted orchid does it largely by just bending the main stem, said Prof Scott Armbruster from the University of Portsmouth who led the research. It's pretty quick, within a day or two, it's reoriented its main stem so that now all the flowers are in the right position, he told BBC News. The slightly more interesting ones were where each individual flower re - orients on its own, by the sub stem, that's what's called the pedicel connecting the flower to the main stem, and that is bending or twisting.And that 's what you see with aconitum.<br/>These rapid recovering species were usually bilaterally symmetrical flowers, which is where the left- and right-hand sides mirror each other. Examples of these types of flowers include snapdragon, orchid and sweet pea.",
+          "category_id": 2,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "The following plants can bounce back after injury except",
+              "type": "Multiple Choice",
+              "options": [
+                "Orchids",
+                "Sweet peas",
+                "Snapdragon",
+                "Buttercups"
+              ],
+              "answer": "Buttercups",
+              "explanation": "Paragraph 1 states that 'but others such as buttercups fail to bounce back after damage'; hence, the answer is D",
+              "difficulty": 1
+            },
+            {
+              "text": "Normal orientation of plants (specifically flowers) is vital for:",
+              "type": "Multiple Choice",
+              "options": [
+                "Water transport",
+                "Reproduction",
+                "Photosynthesis",
+                "Nutrient absorption"
+              ],
+              "answer": "Reproduction",
+              "explanation": "Paragraph 2 states that 'for many flowers, their ability to reproduce depends on the careful alignment of their sexual organs or stigma'; hence, the answer is B",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following is most likely another name for the reproductive organs of plants?",
+              "type": "Multiple Choice",
+              "options": [
+                "Stigma",
+                "Tubules",
+                "Pollinators",
+                "Anther"
+              ],
+              "answer": "Stigma",
+              "explanation": "Paragraph 2 states that 'their ability to reproduce depends on the careful alignment of their sexual organs or stigma'; hence, the answer is A",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, the aconitum is special in that:",
+              "type": "Multiple Choice",
+              "options": [
+                "It is bilaterally symmetrical",
+                "It can recover rapidly",
+                "Its individual flowers re-orient on their own",
+                "It has a pedicel connecting the flower to the main stem"
+              ],
+              "answer": "Its individual flowers re-orient on their own",
+              "explanation": "Paragraph 3 states that 'more interesting ones were where each individual flower re-orients on its own, by the sub stem, that's what's called the pedicel connecting the flower to the main stem, and that is bending or twisting. And that's what you see with aconitum'; hence, the answer is C",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "https://www.history.com/topics/middle-ages/crusades<br/>The Crusades were a series of religious wars between Christians and Muslims started primarily to secure control of holy sites considered sacred by both groups. In all, eight major Crusade expeditions occurred between 1096 and 1291. The bloody, violent and often ruthless conflicts propelled the status of European Christians, making them major players in the fight for land in the Middle East. By the end of the 11th century, Western Europe had emerged as a significant power in its own right, though it still lagged behind other Mediterranean civilizations, such as that of the Byzantine Empire (formerly the eastern half of the Roman Empire) and the Islamic Empire of the Middle East and North Africa. <br/>However, Byzantium had lost considerable territory to the invading Seljuk Turks. After years of chaos and civil war, the general Alexius Comnenus seized the Byzantine throne in 1081 and consolidated control over the remaining empire as Emperor Alexius I. <br/>In 1095, Alexius sent envoys to Pope Urban II asking for mercenary troops from the West to help confront the Turkish threat. Though relations between Christians in the East and West had long been fractious, Alexius’s request came at a time when the situation was improving. In November 1095, at the Council of Clermont in southern France, the Pope called on Western Christians to take up arms to aid the Byzantines and recapture the Holy Land from Muslim control. This marked the beginning of the Crusades. Pope Urban’s plea was met with a tremendous response, both among the military elite as well as ordinary citizens. Those who joined the armed pilgrimage wore a cross as a symbol of the Church.",
+          "category_id": 1,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "There were 8 crusades expeditions spanning over 200 years",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "False",
+              "explanation": "Paragraph 1 states that 'eight major Crusade expeditions occurred between 1096 and 1291'; hence, the answer is false",
+              "difficulty": 1
+            },
+            {
+              "text": "The Byzantine Empire was once the western half of the Roman Empire",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "False",
+              "explanation": "Paragraph 1 states that 'such as that of the Byzantine Empire (formerly the eastern half of the Roman Empire)'; hence, the answer is false",
+              "difficulty": 1
+            },
+            {
+              "text": "Emperor Alexis I was formerly known as General Alexius Comnenus",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 2 states that 'general Alexius Comnenus seized the Byzantine throne in 1081 and consolidated control over the remaining empire as Emperor Alexius I'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "The mercenary troops sent by Pope Urban II to Alexius helped the West conquer the Turkish threat",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "Can’t tell",
+              "explanation": "While paragraph 2 states that 'Alexius sent envoys to Pope Urban II asking for mercenary troops from the West to help confront the Turkish threat' we do not know whether this assisted the West in conquering the Turkish threat; hence, the answer is can’t tell",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968<br/>The impacts of climate change on species and ecosystems are already evident. Poleward shifts in the geographic distributions of species, catastrophic forest fires and mass bleaching of coral reefs all bear the fingerprints of climate change. But what will the world’s biodiversity look like in the future? <br/>Projections indicate that unless emissions are rapidly reduced the climate crisis will get substantially worse. Up to 50% of species are forecast to lose most of their suitable climate conditions by 2100 under the highest greenhouse gas emissions scenario. <br/>But we still lack answers to some basic questions. When will species be exposed to potentially dangerous climate conditions? Will this occur in the next decade or only later in the century? Will the exposure of species accumulate gradually, one species at a time? Or should we expect abrupt jumps as the climate limits of multiple species are exceeded? Our understanding of when and how abruptly climate driven disruptions of biodiversity will occur is limited because biodiversity forecasts typically focus on individual snapshots of the future. We took a different route. We used annual projections of temperature and precipitation from 1850 to 2100 across more than 30,000 marine and terrestrial species to estimate the timing of species exposure to potentially dangerous climate conditions<br/>Based on these projections, we estimate that climate change could cause sudden biodiversity losses. These could occur much sooner this century than had been expected. This new analysis indicates that a high percentage of species in local ecosystems could be exposed to potentially dangerous climate conditions simultaneously. Rather than slowly sliding down a climate change slope, many ecosystems face a cliff edge.",
+          "category_id": 1,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "Over 50% of species are predicted to lose most of their suitable climate conditions by the end of the 21st century",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "False",
+              "explanation": "Paragraph 2 states that 'up to 50% of species are forecast to lose most of their suitable climate conditions by 2100 under the highest greenhouse gas emissions scenario'; hence, the answer is false",
+              "difficulty": 1
+            },
+            {
+              "text": "Annual projections of precipitation could be made/sourced from as early as the 1850s",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 3 states that 'we used annual projections of temperature and precipitation from 1850 to 2100 across more than 30,000 marine and terrestrial species to estimate the timing of species exposure to potentially dangerous climate conditions'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "A holistic approach to predicting future climatic conditions is more useful for scientists than individual snapshots of the future",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "Can’t tell",
+              "explanation": "There is no information to prove or refute this comment",
+              "difficulty": 1
+            },
+            {
+              "text": "The author expects biodiversity loss to be high and sudden as a result of climate change",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 4 states that 'rather than slowly sliding down a climate change slope, many ecosystems face a cliff edge'; hence, the answer is true",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "https://www.nasa.gov/mission_pages/mer/overview/index.html <br/>NASA's twin robot geologists, the Mars Exploration Rovers, launched toward Mars on June 10 and July 7, 2003, in search of answers about the history of water on Mars. They landed on Mars January 3 and January 24 PST, 2004 (January 4 and January 25 UTC, 2004).The Mars Exploration Rover mission is part of NASA 's Mars Exploration Program, a long-term effort of robotic exploration of the red planet. <br/>Primary among the mission's scientific goals is to searchfor and characterize a wide range of rocks and soils that hold clues to past water activity on Mars.The spacecraft are targeted to sites on opposite sides of Mars that appear to have been affected by liquid water in the past.The landing sites are at Gusev Crater,a possible former lake in a giant impact crater,and Meridiani Planum,where mineral deposits(hematite) suggest Mars had a wet past. <br/> After the airbag - protected landing craft settled onto the surface and opened,the rovers rolled out to take panoramic images.These images give scientists the information they need to select promising geological targets that tell part of the story of water in Mars ' past. Then, the rovers drive to those locations to perform on-site scientific investigations. Before landing, the goal for each rover was to drive up to 40 meters (about 44 yards) in a single day, for a total of up to one 1 kilometer (about three-quarters of a mile). Both goals have been far exceeded. <br/>Moving from place to place, the rovers perform on-site geological investigations. Each rover is sort of the mechanical equivalent of a geologist walking the surface of Mars. The mast-mounted cameras are mounted 1.5 meters (5 feet) high and provide 360-degree, stereoscopic, humanlike views of the terrain. The robotic arm is capable of movement in much the same way as a human arm with an elbow and wrist and can place instruments directly up against rock and soil targets of interest. In the mechanical ‘fist’ of the arm is a microscopic camera that serves the same purpose as a geologist's handheld magnifying lens.The Rock Abrasion Tool serves the purpose of a geologist 's rock hammer to expose the insides of rocks.",
+          "category_id": 1,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "The Mars Exploration Rovers were launched and landed within one month of each other",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "True",
+              "explanation": "Paragraph 1 states that 'the Mars Exploration Rovers, launched toward Mars on June 10 and July 7, 2003, in search of answers about the history of water on Mars. They landed on Mars January 3 and January 24 PST, 2004'; hence, the answer is true",
+              "difficulty": 1
+            },
+            {
+              "text": "Mars has been affected by liquid water in the past",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "Can’t tell",
+              "explanation": "While paragraph 1 states that parts of Mars 'appear to have been affected by liquid water in the past' we cannot say this definitively; hence, the answer is can’t tell",
+              "difficulty": 1
+            },
+            {
+              "text": "The rovers cannot drive more than a total of one kilometer",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "False",
+              "explanation": "Paragraph 3 states that 'the goal for each rover was to drive up to 40 meters (about 44 yards) in a single day, for a total of up to one 1 kilometer (about three-quarters of a mile). Both goals have been far exceeded'; hence, the answer is false",
+              "difficulty": 1
+            },
+            {
+              "text": "The Rock Abrasian Tool is able to crush rocks to expose their insides",
+              "type": "Multiple Choice",
+              "options": [
+                "True",
+                "False",
+                "Can’t tell"
+              ],
+              "answer": "Can’t tell",
+              "explanation": "We aren’t given any conclusive information on how this tool works; hence, the answer is can’t tell",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "http://envlaw.com.au/synopsis-common-law/<br/>The Common Law is the law created by decisions of judges, which act as binding precedents for later decisions. It is a system that applies in many countries that inherited their legal system from England. Countries that inherited their legal system from France, which has a system known as 'Civil Law' dating from Napoleonic times, place much less weight on previous decisions of their courts. Although now largely superseded by legislation at Commonwealth and State levels, the Common Law continues to provide important principles that directly impact upon and shape the Australian and New Zealand environmental legal systems. <br/> Causes of actionThe main groundsfor why a person can sue another in a court,what lawyers call 'causes of action',at Common Law relevant to environmental issues are: Private nuisance(unreasonable interference with the use of property, including due to smoke, noise or vibration from a neighbour’ s property);Public nuisance(unreasonable interference with a public right, including due to pollution, where the person affected has suffered some special damage greater than the public generally);Riparian user rights(rights of a person owning property adjoining a watercourse to use water and to prevent other users from unreasonably interfering with the quantity or quality of the water);Negligence(breach of a duty to take reasonable care to avoid damage to people or property, for example, manufacturing goods that cause cancer);Trespass(a direct interference with or invasion of private land, including by pollution or littering). <br/> Other general principles of the Common Law permeate the Australian environmental legal system. For example, the concept of standing (the legal right to commence court action) has often been a major constraint on public interest litigation to protect the environment. Environmental legislation now often provides widened standing to protect the environment but where it does not the Common Law rules remain an obstacle.",
+          "category_id": 2,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "According to the passage, Common Law directly shapes the legal systems of the following nations, except:",
+              "type": "Multiple Choice",
+              "options": [
+                "Britain",
+                "Australia",
+                "New Zealand",
+                "France"
+              ],
+              "answer": "France",
+              "explanation": "Paragraph 1 states that 'Countries that inherited their legal system from France, which has a system known as Civil Law'; hence, the answer is D",
+              "difficulty": 1
+            },
+            {
+              "text": "If one person sues another for littering on their lawn, which main ground will this most likely fall under?",
+              "type": "Multiple Choice",
+              "options": [
+                "Private nuisance",
+                "Public nuisance",
+                "Negligence",
+                "Trespass"
+              ],
+              "answer": "Trespass",
+              "explanation": "Paragraph 2 states that 'Trespass (a direct interference with or invasion of private land, including by pollution or littering)'; hence, the answer is D",
+              "difficulty": 1
+            },
+            {
+              "text": "According to the passage, riparian user rights refer to which resource?",
+              "type": "Multiple Choice",
+              "options": [
+                "Water",
+                "Food",
+                "Land",
+                "Livestock"
+              ],
+              "answer": "Water",
+              "explanation": "Paragraph 2 states that 'riparian user rights (rights of a person owning property adjoining a watercourse to use water and to prevent other users from unreasonably interfering with the quantity or quality of the water)'; hence, the answer is A",
+              "difficulty": 1
+            },
+            {
+              "text": "From a legal perspective, ‘standing’ refers to:",
+              "type": "Multiple Choice",
+              "options": [
+                "The right to refuse court action",
+                "The right to commence court action",
+                "The right to enforce common law",
+                "The right to enforce environmental legislation"
+              ],
+              "answer": "The right to commence court action",
+              "explanation": "Paragraph 3 states that 'the concept of standing (the legal right to commence court action)'; hence, the answer is B",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "text": "https://www.nature.com/articles/d41586-020-00965-x<br/>The coronavirus pandemic has brought chaos to lives and economies around the world. But efforts to curb the spread of the virus might mean that the planet itself is moving a little less. Researchers who study Earth’s movement are reporting a drop in seismic noise — the hum of vibrations in the planet’s crust — that could be the result of transport networks and other human activities being shut down. They say this could allow detectors to spot smaller earthquakes and boost efforts to monitor volcanic activity and other seismic events. <br/>A noise reduction of this magnitude is usually only experienced briefly around Christmas, says Thomas Lecocq, a seismologist the Royal Observatory of Belgium in Brussels, where the drop has been observed. Just as natural events such as earthquakes cause Earth’s crust to move, so do vibrations caused by moving vehicles and industrial machinery. And although the effects from individual sources might be small, together they produce background noise, which reduces seismologists’ ability to detect other signals occurring at the same frequency.If lockdownscontinue inthe coming months,city - based detectors around the world might be better than usual at detecting the locations of earthquake aftershocks,says Andy Frassetto,a seismologist at the Incorporated Research Institutionsfor Seismology in Washington DC.The fall in noise could also benefit seismologists who use naturally occurring background vibrations,such as those from crashing ocean waves,to probe Earth’ s crust.Because volcanic activity and changing water tables affect how fast these natural waves travel,scientists can study these events by monitoring how long it takes a wave to reach a given detector.A fall in human - induced noise could boost the sensitivity of detectors to natural waves at similar frequencies,says Lecocq,whose team plans to begin testing this. 'There’s a big chance indeed it could lead to better measurements,' he says.",
+          "category_id": 2,
+          "layout": "Normal",
+          "questions": [
+            {
+              "text": "Seismic noise can be best described as:",
+              "type": "Multiple Choice",
+              "options": [
+                "The hum of vibrations in the earth’s mantle",
+                "The hum of vibrations in the earth’s crust",
+                "Vibrations emitted by earthquakes",
+                "Vibrations emitted by human activity"
+              ],
+              "answer": "The hum of vibrations in the earth’s crust",
+              "explanation": "Paragraph 1 states that 'seismic noise — the hum of vibrations in the planet’s crust'; hence, the answer is B",
+              "difficulty": 1
+            },
+            {
+              "text": "Movement in the earth’s crust can be caused by the following, except:",
+              "type": "Multiple Choice",
+              "options": [
+                "Moving vehicles",
+                "Industrial machinery",
+                "Earthquakes",
+                "Fracking"
+              ],
+              "answer": "Fracking",
+              "explanation": "Paragraph 2 states that 'Just as natural events such as earthquakes cause Earth’s crust to move, so do vibrations caused by moving vehicles and industrial machinery'; hence, the answer is D",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following is true according to the passage?",
+              "type": "Multiple Choice",
+              "options": [
+                "The coronavirus pandemic has brought nothing but chaos to the world",
+                "A fall in human-induced noise could boost the sensitivity of detectors to natural waves at similar frequencies",
+                "Natural waves travel at a set speed",
+                "Natural waves can be used to predict the occurrence of earthquakes"
+              ],
+              "answer": "A fall in human-induced noise could boost the sensitivity of detectors to natural waves at similar frequencies",
+              "explanation": "Paragraph 3 states that 'A fall in human-induced noise could boost the sensitivity of detectors to natural waves at similar frequencies, says Lecocq,'; hence, the answer is B",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following is a positive most likely associated with a drop in seismic noise?",
+              "type": "Multiple Choice",
+              "options": [
+                "More frequent natural waves",
+                "Less naturally occurring background vibration",
+                "An enhanced ability to monitor seismic events",
+                "Less frequent earthquakes/volcanic eruptions"
+              ],
+              "answer": "An enhanced ability to monitor seismic events",
+              "explanation": "Paragraph 1 states that 'They say this could allow detectors to spot smaller earthquakes and boost efforts to monitor volcanic activity and other seismic events'; hence, the answer is C",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

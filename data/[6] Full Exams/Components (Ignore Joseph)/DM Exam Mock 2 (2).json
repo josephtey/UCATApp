@@ -1,0 +1,680 @@
+{
+    "exam": {
+      "name": "Decision Making 1",
+      "description": "Section Mock",
+      "type": "Mock",
+      "time": 31
+    },
+    "sections": [
+      {
+        "name": "Decision Making",
+        "description": "Looks at your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information.",
+        "time": 31,
+        "stems": [
+          
+          {
+            "text": "Some laptops can fold in half, but not all the laptops that can fold in half are touchscreen. All phones are touchscreen as well.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Some touchscreen laptops can fold in half",
+                  "Some phones can fold in half",
+                  "If a phone can fold in half will also be touchscreen",
+                  "Some laptops can fold in half but not be touchscreen",
+                  "Most laptops are touchscreen"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "Y",
+                  "Y",
+                  "N"
+                ],
+                "explanation": "1. We do not know that a laptop that can fold in half is definitely touchscreen (‘not all’ only means not 100%, but it also includes 0/none). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We don’t have any information about phones folding in half. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Since all phones are touchscreen, one that can fold in half will also be touchscreen. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. ‘Not all’ implies that at least 1 laptop that can fold in half is not touchscreen. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We don’t even know if one laptop that can fold in half is touchscreen for sure. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Some Pops are Paps. All Pips are Pups. No Pips are Pops. Most Pops are Peps. Some Paps are Peps.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Some Pups are be Peps",
+                  "Most Paps are Peps",
+                  "Pups cannot be Paps",
+                  "All Pups cannot be Pops",
+                  "Some Paps that are Peps could be Pops"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "N",
+                  "Y"
+                ],
+                "explanation": "1. If all Pips are Pups, then we know at least some Pups are Pips too, which means these Pups cannot be Pops. But the trail stops there and we do not know for sure whether these Pups or Pups in general are Peps. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. We do not know the proportion of Paps that are Peps – only that some Paps are Peps (there could only be 1 Pap that is a Pep). Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. There is nothing to suggest that all Pups cannot be Paps. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. If all Pips are Pups, then we know at least some Pups are Pips too, which means these Pups cannot be Pops, however we do not know about the Pups that are not Pips. Therefore, the correct answer is NO, as the conclusion does not follow. <br/>5. Since most Pops are Peps, the Paps that are Peps COULD be Pops (but we don’t know for certain). Since the statement is phrased like ‘these particular Paps COULD be Pops’, the correct answer is YES.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Snakes only eat frogs and fish. Both frogs and fish eat insects, but a fish that has eaten an insect cannot be eaten by a snake. Snakes, frogs and fish die if they do not eat.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "If a snake eats something, it must be a frog",
+                  "If a fish eats an insect, it cannot be eaten by anything",
+                  "If the frogs eat all the insects, snakes will only eat fish",
+                  "If the frogs and fish disappear, the snakes will die",
+                  "A snake could eat an insect"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "Y",
+                  "N"
+                ],
+                "explanation": "1. It could have eaten a fish. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. All we know is that it can’t be eaten by a snake, but we don’t know if anything else eats the fish. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. The snakes could still eat the frogs, but all this means is that snakes will always be able to eat the fish since they can’t eat insects. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since the snakes only eat frogs and fish and will die if they do not eat, the snakes will die if the frogs and fish disappear. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. A snake can only eat frogs and fish. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "All acrobats are bald. Some bald people are dancers. All clowns are acrobats as well. ",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Some acrobats can be bald and a clown",
+                  "Some clowns are dancers",
+                  "Some dancers must be acrobats",
+                  "Not all clowns who are acrobats are bald",
+                  "A clown who is a dancer must be bald"
+                ],
+                "answer": [
+                  "Y",
+                  "N",
+                  "N",
+                  "N",
+                  "N"
+                ],
+                "explanation": "1. Some acrobats are clowns (as all clowns are acrobats), and all acrobats are bald. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. We don’t know if clowns are dancers for sure. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. Just because some dancers are bald does not mean that some have to be acrobats. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. All clowns who are acrobats must be bald as all acrobats are bald. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Since all clowns are acrobats and all acrobats must be bald, the clown must be bald anyway. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "This object is green. Some green things are found outside.",
+            "category_id": 3,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "This object was found outside",
+                  "All objects that are green must be found outside",
+                  "All green things must be objects",
+                  "If an object is found outside, it must be green",
+                  "This object could be found outside"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "N",
+                  "N",
+                  "Y"
+                ],
+                "explanation": "1. Only some green things are found outside, so we cannot be certain that this object was found outside. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Only some green things are found outside, so we cannot say that all objects that are green must be found outside. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. We do not know whether this is true as all we know is that this one object is green. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. We don’t know that all the objects found outside are green. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. Given that this object is green and some green things are found outside, this object COULD be found outside. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          
+          {
+            "text": "Three friends buy ice-cream with toppings, with flavours of either chocolate, vanilla, choc-chip or lemon.<br/>Nima gets the chocolate flavoured ice-cream.<br/>The vanilla flavoured ice-cream cannot have sprinkles as toppings.<br/>The sprinkles were on two different ice-creams, but cannot be put on a lemon flavoured ice-cream.<br/>Ken does not like sprinkles or lemon.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which ice-cream flavour was not chosen?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Chocolate",
+                  "Vanilla",
+                  "Choc-chip",
+                  "Lemon"
+                ],
+                "answer": "D",
+                "explanation": "We know that the chocolate flavour was chosen. Since vanilla flavoured ice-cream cannot have sprinkles, and the sprinkles were on two difference ice-creams except chocolate, we can conclude that the sprinkles were on the chocolate and choc-chip ice-cream – meaning that the choc-chip was chosen. If Ken does not like sprinkles, he could have chosen lemon or vanilla, but since he doesn’t like lemon he must have chosen vanilla. Therefore, the correct answer is D. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+          {
+            "text": "Immunisations expire 8 months after they are given. <br/>At School X, students are given immunisation Y in July every year.<br/>Felix got his immunisation Y in May earlier this year before he changed schools. <br/>Someone cannot have more than 1 immunisation within a 6 month period. <br/>Students must be immunised at all times.",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Felix can get another immunisation with the school in July this year",
+                  "Felix will have to go 6 months without an immunisation next year ",
+                  "Felix will have to get 3 immunisations minimum next year",
+                  "Felix cannot have his next immunisation with School X"
+                ],
+                "answer": "D",
+                "explanation": "Since Felix got his immunisation in May, the earliest he can get his next one is around November – since School X immunises students with immunisation Y in July, Felix cannot have his next immunisation with the school. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Andy, Bingo, Cam, Drake and Eli have a car each. The cars are either green, orange or red in colour.<br/>Three cars are sedans and the rest are 4WDs.<br/>None of the 4WDs are green.<br/>Bingo and Eli do not own orange cars but drive sedans.<br/>Andy loves to drive around his orange sedan.",
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Which of the following MUST be true?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Bingo drives a red car",
+                  "Cam drives a red car",
+                  "Drake drives a 4WD",
+                  "Cam does not drive an orange car"
+                ],
+                "answer": "C",
+                "explanation": "There are 2 4WDs. All the sedans are orange (owned by Bingo, Eli and Andy). Thus Drake and Cam own the 2 4WDs. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Four friends decided to meet up for coffee after not having seen each other for a while, scheduling a meet-up at 5:00pm.<br/>Jerome was the only person to come on time.<br/>Irina came after Jerome but before Henry.<br/>Lawson arrived 10 minutes late due to traffic.<br/>Rebecca and Lawson drove together and saw Henry behind them in traffic. ",
+      
+            "category_id": 4,
+            "questions": [
+              {
+                "text": "Who could have arrived before Lawson?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Rebecca and Jerome",
+                  "Irina and Jerome",
+                  "Irina and Rebecca",
+                  "Henry and Jerome"
+                ],
+                "answer": "B",
+                "explanation": "Jerome came at 5.00pm. Lawson and Rebecca arrived at 5.10pm. Henry arrived after Lawson and Rebecca, and after Irina. We do not know if Irina arrived before Lawson/Rebecca or after them, however it is a possibility that she arrived before them. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Keagan has a bunch of highlighters; yellow, green and pink. All the highlighters of the same colour have the same height. One day in school, he is bored and decides to stack them up to see how high he can get them. He manages to stack 2 yellow highlighters, 2 green highlighters and 2 pink highlighters that reached a height of 40cm before it falls down. He then manages to stack 3 yellow highlighters, 3 green highlighters and 2 pink highlighters to a height of 50cm before it falls down again. Which of the following is the height of a stack that contains 5 yellow highlighters, 5 green highlighters and 3 pink highlighters?",
+                "type": "Multiple Choice",
+                "options": [
+                  "80",
+                  "90",
+                  "100",
+                  "110"
+                ],
+                "answer": "A",
+                "explanation": "You can make 3 equations from this question: (1) 2y + 2g + 2p = 40, (2) 3y + 3g + 2p = 50, (3) 5y + 5g + 3p = ?. We can convert (1) and (2) to 2p = 40 – 2y – 2g, and 2p = 50 – 3y – 3g. Using simultaneous equations, we can equate these rearranged equations to 40 – 2y – 2g = 50 – 3y – 3g, and simplify the equation so that 10 = y + g. Now we can multiple this by 2 so we get 20 = 2y + 2g, and substitute this into (1) so that 20 + 2p = 40, so therefore p = 10. We can also multiple 10 = y + g by 5 to get 50 = 5y + 5g to substitute into the last equation, so that 50 + 3p = ?. Since we know p=10, we can solve the equation to be 80. Therefore, the correct answer is A. ALTERNATIVELY, you can guess the answer after finding the equation 10 = y + g. If you multiply this by 5 to sub into the last equation so you get 50 + 3p = ?, you can guess that the answer has to be lower than 90 (because if 2y + 2g + 2p = 40, then how can 3p = 40 for 50 + 3p = 90?). Since the only answer below 90 is A, the answer you will get is A. ",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Should alcohol-serving venues check whether a patron is driving before they serve them more than the safe limit for drinking, in order to reduce drink-driving accidents?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, 80% of lives lost on the roads are due to drink-driving accidents",
+                  "Yes, most drink-driving accidents occur on the way back from having alcohol at an alcohol-serving venue like a bar",
+                  "No, the safe limit for drinking is different for everyone so would be hard to implement",
+                  "No, this would be terrible for business"
+                ],
+                "answer": "B",
+                "explanation": "Option A and B are the only two that address the problem of drink-driving accidents which is raised in the question, however B provides a logical explanation as to why the proposed solution will work whereas A does not address the alcohol-serving venues as mentioned in the question. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should the government make vaccines mandatory for the population in order to reduce rates of disease and infection?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, low rates of disease and infection have been shown to rely on more people being vaccinated",
+                  "Yes, the government has a responsibility to protect the interests of the population",
+                  "No, people have a right to do what they want to do",
+                  "No, because some people may have an allergic reaction to certain vaccines"
+                ],
+                "answer": "A",
+                "explanation": "Option A is the only one that uses evidence, and addresses the problem raised in the question which is the need to reduce rates of disease and infection. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should the use of mobile phones when walking be banned to prevent jay-walking accidents, where people get hit on the road?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, 50% of pedestrian-car collisions occur due to the pedestrian being distracted by their phone",
+                  "Yes, people are too addicted to their mobile phones and it would be healthy for them",
+                  "No, people have a right to use their phones when they like",
+                  "No, this would be too difficult to enforce and implement"
+                ],
+                "answer": "A",
+                "explanation": "The problem raised in this question is the need to reduce jay-walking accidents, and option A is the only option that addresses this problem and justifies the relevance of mobile phones with evidence. Therefore, the correct answer is A.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Should prospective dog owners have to go a stringent checking and vetting process before they get a dog in order to reduce the number of dogs being sent to the pound and abandoned?",
+            "category_id": 5,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, most abandoned dogs come from homes where they were receiving inappropriate treatment and care",
+                  "Yes, people need to be held accountable for their actions",
+                  "No, this would deter many prospective dog owners from getting a dog if they had to undergo such stringent measures",
+                  "No, people who want a dog should be able to get it"
+                ],
+                "answer": "A",
+                "explanation": "The problem raised in this question is the need to reduce the number of dogs being sent to the pound, and so option A states that the problem is most of these dogs come from homes with poor treatment and so this solution of checking more thoroughly would therefore have an impact on the number of dogs sent to the pound. Therefore, the correct answer is A. Option C seems reasonable but does not address the problem of reducing dogs at the pound.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "The following bar graph shows the number of pints of beer sold at a certain bar in a year, and the types of brands that were sold. Each brand of beer costs $5.50 per pint. Last year sales were much worse.<br/>Source: https://sites.google.com/site/mathclc/graphs",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 2/1.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Sales this year for the bar were, on average, quite good",
+                  "Duff Original is a more popular brand of beer than Bud Light",
+                  "If the bar’s costs for stocking Duff Original were 1 million dollars this year, they earned $540,000 profit",
+                  "The bar sells 8 types of beers",
+                  "Next year, sales are likely to go up again as well"
+                ],
+                "answer": [
+                  "N",
+                  "N",
+                  "Y",
+                  "N",
+                  "N"
+                ],                
+                "explanation": "1. We don’t know what classified as ‘good’ for the sales at this bar. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. At this particular bar Duff Original has more sales, but that doesn’t mean it is more popular in general than Bud Light. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. The total revenue earned at this bar from Duff Original is 280,000*5.50 = 1,540,000. If the costs were 1,000,000, then the remaining profit is 540,000 dollars. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. The bar sells 7 types of beers + the ‘other’ category, and we don’t know how many beers fall under that. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. We don’t know what is going to happen next year, this would be predicting which we cannot do from the information in this graph. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Cancer is the second leading cause of death globally, and is responsible for 9.6 million deaths in 2018. Globally, 1 in 6 deaths is due to cancer. Approximately 70% of deaths from cancer occur in low- and middle-income countries. Cancer arises from the transformation of normal cells into tumour cells in a multistage process that generally progresses from a pre-cancerous lesion to a malignant tumour. Ageing is another fundamental factor for the development of cancer. The incidence of cancer rises dramatically with age, most likely due to a build-up of risks for specific cancers that increase with age. The overall risk accumulation is combined with the tendency for cellular repair mechanisms to be less effective as a person grows older.<br/>Source: https://www.who.int/",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "The leading cause of death in the world will have resulted in more than 9.6 million deaths in 2018",
+                  "In 2018, approximately 57.6 million people died in the world",
+                  "Close to 6.72 million people from low-income countries died of cancer",
+                  "An older person is generally more likely to get cancer than a child",
+                  "Cellular repair mechanisms tend to become less useful as a person ages"
+                ],
+                "answer": [
+                  "Y",
+                  "Y",
+                  "N",
+                  "Y",
+                  "N"
+                ],                
+                "explanation": "1. If cancer is the second leading cause of death and is responsible for 9.6 million deaths in 2018, the leading cause of death must have been responsible for more deaths. Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. If 9.6 million people died from cancer in 2018 and 1/6 deaths are due to cancer, then 9.6 million * 6 = 57.6 million people died in the world in 2018. Therefore, the correct answer is YES, as the conclusion does follow.<br/>3. 0.70 * 9.6 million = 6.72 million people. However, 70% represents low and middle income countries, so we can’t say that all these deaths were just from low income countries. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. Since the “incidence of cancer rises dramatically with age”, we can infer that an older person is more likely in general to get cancer than a child. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Since “the overall risk accumulation is combined with the tendency for cellular repair mechanisms to be less effective as a person grows older”, we can infer that they are not as useful (less effective) as a person ages. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+      
+      
+          {
+            "text": "A total of 400 students at Jinabong High School were surveyed to see what genre of movie they liked, in order to decide which genre of movie they would watch at the school’s next movie night. <br/>Source: https://sites.google.com/site/mathclc/graphs",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 2/2.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "More than a quarter of the students preferred Romance or Drama",
+                  "At the next movie night, they will be watching a comedy movie",
+                  "Action is a more popular genre amongst these students than Horror",
+                  "The same number of students like Science Fiction, Drama and Foreign films as those who like Comedy films",
+                  "16 more students liked Action movies over Drama movies"
+                ],
+                "answer": [
+                  "Y",
+                  "N",
+                  "Y",
+                  "N",
+                  "Y"
+                ],                
+                "explanation": "1. Romance + Drama = 14% + 14% = 28%, which is more than a quarter (25%). Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. That is making an assumption that just because it is the most popular choice, it will get chosen at the next movie night. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. 18% prefer action whereas 11% prefer horror. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. Science fiction + Drama + Foreign = 30%, Comedy = 27%. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>5. 18% - 14% = 4%. 4% of 400 students is 16. Therefore, the correct answer is YES, as the conclusion does follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Company A is planning its 2020 budget. In order to allocate its resources appropriately it reviews the amount of money spent on drinks (actual) compared to the money allocated for it (budget) in 2019. The y-axis shows the number of dollars spent on each item. <br/>Source: https://peltiertech.com/clustered-stacked-column-bar-charts/",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 2/3.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "More money was spent on coffee than allocated in 2019",
+                  "More money should be allocated for milk in 2020",
+                  "If coffee costs $4 per a packet, approximately 1000 packets were bought in 2019",
+                  "Out of these three options, coffee cost the most money for Company A",
+                  "Tea is the only condiment that required more money in 2019 than the money allocated for it."
+                ],
+                "answer": [
+                  "Y",
+                  "N",
+                  "Y",
+                  "Y",
+                  "N"
+                ],                
+                "explanation": "1. The Actual bar is higher in total than the Budget bar for Coffee (both quarters as this is for the whole year of 2019). Therefore, the correct answer is YES, as the conclusion does follow.<br/>2. The budget for milk for the whole year is greater than what was spent. Furthermore, we do not know if the company will even buy milk in 2020 for example, as this would be making a judgement beyond the data in the graph. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>3. $4000 was spent on coffee in 2019, which means 1000 packets of coffee were bought for $4 each. Therefore, the correct answer is YES, as the conclusion does follow.<br/>4. The Actual bar for coffee (whole year) is higher than the other 2 drinks by observation. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. Coffee also required more money than was allocated. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+          {
+            "text": "The bar chart above demonstrates the sum awards won by directors in various genres, with the results collated from an independent survey. Some directors chose not to respond.<br/>Source: https://docs.mongodb.com/charts/master/chart-type-reference/column-bar-chart/",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 2/4.PNG",
+            "category_id": 6,
+            "questions": [
+              {
+                "text": "Place 'Yes' if the conclusion does follow. Place 'No' if the conclusion does not follow.",
+                "type": "Drag and Drop",
+                "options": [
+                  "Steven Spielberg has won awards in more genres than any other director",
+                  "At least 3 directors surveyed have won over 300 awards each.",
+                  "If each award was accompanied by a $20 prize, Ang Lee would have $40000 in cash prizes.",
+                  "From those who responded to the survey, the greatest number of awards in comedy has gone to Lee Unkrich",
+                  "David Fincher and Curtis Hanson have collaborated on several projects, as seen by their similar award achievements."
+                ],
+                "answer": [
+                  "N",
+                  "Y",
+                  "N",
+                  "Y",
+                  "N"
+                ],                
+                "explanation": "1. Given that some directors chose not to respond, we don’t know for sure whether Steven Spielberg has won award in more genres than any other director. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>2. Ethan/Joel Coen, Lee Unkrich and Steven Spielberg have won more than 300 awards each. Therefore, the correct answer is YES, as the conclusion does follow. <br/>3. Ang Lee has won 200 awards, so 200*20 = $4000, not $40,000. Therefore, the correct answer is NO, as the conclusion does not follow.<br/>4. He has won about 100 comedy awards, and the only other surveyed director to have won a comedy award or come close is Roberto Benigni with less than 100, maybe 50. Therefore, the correct answer is YES, as the conclusion does follow.<br/>5. We cannot tell what awards correlate to which projects, so this would be an assumption. Therefore, the correct answer is NO, as the conclusion does not follow.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "In a bar they serve 2 drinks, Drink A and Drink B. They only served 30 drinks in total one night, and equal amounts of Drink A and Drink B. Eight of the Drink B drinks had sugar, whereas 13 of the Drink A drinks did not have sugar. ",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "How many more drinks have sugar than do not have sugar?",
+                "type": "Multiple Choice",
+                "options": [
+                  "5",
+                  "10",
+                  "15",
+                  "20"
+                ],
+                "answer": "B",
+                "explanation": "15 of each drink was sold that night, so 8 of Drink B had sugar so 7 did not, and 2 of Drink A had sugar and 13 did not. Therefore in total 10 had sugar and 20 did not. So the difference is 10. Therefore, the correct answer is B.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "A local golf club sells 2 types of golf clubs, drivers and putters, in two colours, gold and silver. In one week they told 40 clubs. Seventeen of the 19 putters sold were in silver, however all the drivers sold were in gold. ",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "How many gold golf clubs were sold?",
+                "type": "Multiple Choice",
+                "options": [
+                  "2",
+                  "17",
+                  "21",
+                  "23"
+                ],
+                "answer": "D",
+                "explanation": "If 19 putters were sold then 21 drivers must have been sold. If 17 putters were in silver than 2 must have been in gold. Therefore 21 + 2 = 23 gold golf clubs. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+          {
+            "text": "Fifty people went to get tested for a certain disease. Half of the people who went to get tested received a positive result, however 40% of the results that showed positive were false positives (incorrect results). If there were 20 results for negative that were true negatives (correct results), how many people received incorrect results?",
+                "type": "Multiple Choice",
+                "options": [
+                  "5",
+                  "10",
+                  "15",
+                  "25"
+                ],
+                "answer": "C",
+                "explanation": "If half of 50 got a positive, then 40% of 25 = 10 people who got false positives. If 20 people who got negative got true negatives, then 5 people got false negatives. 10 + 5 = 15. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A bakery sells many different types of bread. The bread can be either hard-crusted or soft crusted and a quick seller or unpopular variety.  ",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 2/5.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which of the following combinations doesn’t exist? ",
+                "type": "Multiple Choice",
+                "options": [
+                  "An unpopular loaf that is hard crusted",
+                  "An unpopular loaf that is soft crusted",
+                  "A quick selling loaf that is soft crusted",
+                  "A quick selling loaf that is hard crusted"
+                ],
+                "answer": "C",
+                "explanation": "The diamond (quick seller) and crescent (soft crusted) do not overlap. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+      
+      
+      
+          {
+            "text": "A candy maker makes lollipops with different colour combinations. ",
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/DM Images/Mock 2/6.PNG",
+            "category_id": 7,
+            "questions": [
+              {
+                "text": "Which of the following is represented by the question mark?",
+                "type": "Multiple Choice",
+                "options": [
+                  "Yellow, Blue, Pink",
+                  "Green, Pink, Blue",
+                  "Blue, Yellow, Green",
+                  "Pink, Green, Yellow"
+                ],
+                "answer": "C",
+                "explanation": "The question mark is in the overlap between the triangle (blue), oval (yellow), and rectangle (green). Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+
+          {
+            "text": "Company Y and X both sell a detergent. For Company X, 20% of customers return their product but 60% of their total stock is sold initially. For Company Y, 3 in 8 customers choose to return their product but 80% of their stock gets sold initially. Assume both companies have the same amount of stock for the same price, and customers all buy the same amount of product. Which Company sold more of its stock?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Company X, as only 12% of stock is returned",
+                  "Company X, as they get less returns",
+                  "Company Y, as they sell a greater proportion of their products overall",
+                  "Company Y, as they sell a greater proportion of their products initially"
+                ],
+                "answer": "C",
+                "explanation": "Company X ultimately sells 40% of its products after returns, and Company Y sells 42.5% of its stock after returns. Therefore, Company Y sold more of their stock as they sell a greater proportion of their products overall. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "A fair coin is tossed and a 6-sided die are rolled at the same time. What is the probability that a heads and an even number are achieved?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "1/36",
+                  "2/3",
+                  "1/4",
+                  "1/2 "
+                ],
+                "answer": "C",
+                "explanation": "Probability of a heads is 0.5, and probability of an even number is 3/6 = 0.5 as well. Therefore 0.5*0.5 = 0.25 = 1/4. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Kenny and Lenny play a game where they roll a die that is biased towards certain numbers, and the winner is the one who rolls a 5 first. The probability of getting a 3, 4 or 5 is double that of the other numbers. Kenny rolls first. Do they both have the same chance of winning?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, as they are both using the same biased die",
+                  "Yes, the biased nature of the dice doesn’t affect the numbers rolled",
+                  "No, as Lenny can only win if Kenny loses on his turn",
+                  "No, Kenny has a higher chance of winning as the numbers are biased "
+                ],
+                "answer": "C",
+                "explanation": "Since Kenny goes first, and the winner is the first person to get a 5, Kenny has a greater chance of winning (he can win on the first turn without Lenny even having a turn). Therefore, the correct answer is C. ",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Hospital X only has 30 emergency beds, whereas Hospital Y has 40 emergency beds. Hospital Y can boost its supplies with an extra 30 beds from its supply of 200, whereas Hospital X can boost its supplies with an extra 50 beds from its supply of 150. Which hospital should boost its supplies of emergency beds, keeping in mind that their total supply of beds is required in use for the rest of the hospital?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Hospital X – they only take a third of their total supply of beds to boost emergency bed numbers",
+                  "Hospital X – they can get 10 more emergency beds than Hospital Y",
+                  "Hospital Y – they have a greater supply to boost from",
+                  "Hospital Y – they only take 15% of their total bed supply to boost emergency bed numbers and only have 10 less beds initially than Hospital X"
+                ],
+                "answer": "D",
+                "explanation": "Hospital X can take 15% of its supply to have 60 emergency beds, whereas Hospital Y can take 1/3 of its supply (33.33%) to have 90 emergency beds. Of the 4 options presented, option D is the most reasonable as a lower percentage of the overall supply it taken by hospital X. Therefore, the correct answer is D.",
+                "difficulty": 1
+              }
+            ]
+          },
+      
+      
+          {
+            "text": "Jacob and Fred play a game where they both toss a coin. The second person loses if they both get the same side of the coin as the first person, and they win if they get different sides. Jacob tosses first and gets a head. Has Fred’s chance of winning on his toss changed?",
+            "category_id": 8,
+            "questions": [
+              {
+                "type": "Multiple Choice",
+                "options": [
+                  "Yes, it is now 75%",
+                  "Yes, it has decreased from 1/2",
+                  "No, what Jacob tosses does not influence his own toss",
+                  "No, it is still 0.25, hasn’t changed from before"
+                ],
+                "answer": "C",
+                "explanation": "Fred’s chance of winning is 50% and losing is 50% still, regardless of what Jacob tossed. Therefore, the correct answer is C.",
+                "difficulty": 1
+              }
+            ]
+          }      
+            
+          
+        ]
+      }
+    ]
+  }

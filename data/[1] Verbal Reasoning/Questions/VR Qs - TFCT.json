@@ -1,0 +1,976 @@
+  {
+    "stems": [
+      {
+        "text": "The crusades were a series of religious wars in western Asia and Europe initiated, supported and sometimes directed by the Catholic Church between the 11th and the 17th century. The crusades differed from other religious conflicts in that they were considered a penance by the participants that brought forgiveness for confessed sin. The scope of the crusades is debated: some historians restrict it to armed pilgrimages to Jerusalem, others expand it to all Catholic military campaigns with a promise of spiritual benefits, or to all Catholic 'holy wars' or those with the main characteristic of religious fervour. The best-known crusades are those fought against the Muslims of the eastern Mediterranean for the Holy Land between 1096 and 1271. Crusades were also fought from the 12th century against the Iberian Moors, the Ottoman Empire and for a variety of other reasons. These included fighting pagans, the suppression of heresy and the resolution of conflict between Catholic groups.<br/>In 1095 Pope Urban II proclaimed the First Crusade at the Council of Clermont. He encouraged military support for the Byzantine Emperor Alexios I against the Seljuk Turks and an armed pilgrimage to Jerusalem. The enthusiastic response across all social strata in western Europe established a precedent. Volunteers became crusaders by taking a public vow for various reasons: mass ascension into Heaven at Jerusalem, satisfying feudal obligations, the opportunity for glory and honour, or for economic and political gain. Four Crusader states were established, generally known collectively as the Outremer: the County of Edessa, the Principality of Antioch, the Kingdom of Jerusalem and the County of Tripoli. The crusaders were eventually pushed back, and after a mainland presence of nearly two centuries, the last city Acre fell in 1291.<br/>The Reconquista, the struggle between the Christians and Muslims in the Iberian Peninsula, was proclaimed a crusade after several years in 1123 and ended with the fall of Emirate of Granada in 1492. The Northern Crusades that brought the pagan tribes of north-eastern Europe under Christian German, Danish or Swedish control were considered crusades from 1147. Pope Innocent III began the practice of the papacy proclaiming political crusades against disobedient Christian rulers in 1199. From 1208 in Languedoc, crusading was used against heretics. This continued in Savoy and Bohemia in the 15th century and against Protestants in the 16th century. Crusading was used in response to the rise of the Ottoman Empire in the mid-14th century, only ending with the War of the Holy League in 1699.<br/>Source: https://en.wikipedia.org/wiki/The_crusades (edited)",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "According to all historians, the crusades only involved armed pilgrimages to Jerusalem.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "In the 1st paragraph, it states that “some historians restrict [the scope of the crusades] to armed pilgrimages to Jerusalem, others expand it to al Catholic military campaigns with a promise of spiritual belief” – thus, we know that not all historians believed that the crusades only involved armed pilgrimages to Jerusalem. Therefore, the correct answer is B. ",
+            "difficulty": 1
+          },
+          {
+            "text": "Most crusaders volunteered to satisfy Feudal obligations and reach Heaven.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "In the 2nd paragraph it states that volunteers became crusades for many reasons including satisfying feudal obligations, so we cannot determine whether most crusaders volunteered for this reason or not. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Prior to 1123, The Reconquista was not classified as a crusade.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "Since the Reconquista was proclaimed the crusade in 1123, we can infer that prior to 1123, it was not classified as a crusade. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "The last crusade occurred in 1699.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "In the final paragraph, it states that “Crusading was used in response to the rise of the Ottoman Empire… only ending with the War of the Holy League in 1699”. Thus, we can infer that the last crusade ended in 1699. Therefore, the correct answer is A.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "The Great Stink was an event in central London in July and August 1858 during which the hot weather exacerbated the smell of untreated human waste and industrial effluent that was present on the banks of the River Thames. The problem had been mounting for some years, with an ageing and inadequate sewer system that emptied directly into the Thames. The miasma from the effluent was thought to transmit contagious diseases, and three outbreaks of cholera before the Great Stink were blamed on the ongoing problems with the river.<br/>The smell, and fears of its possible effects, prompted action from the local and national administrators who had been considering possible solutions for the problem. The authorities accepted a proposal from the civil engineer Joseph Bazalgette to move the effluent eastwards along a series of interconnecting sewers that sloped towards outfalls beyond the metropolitan area. Work on high-, mid- and low-level systems for the new Northern and Southern Outfall Sewers started at the beginning of 1859 and lasted until 1875. To aid the drainage, pumping stations were placed to lift the sewage from lower levels into higher pipes. Two of the more ornate stations, Abbey Mills in Stratford and Crossness on the Erith Marshes, are listed for protection by English Heritage. Bazalgette's plan introduced the three embankments to London in which the sewers ran—the Victoria, Chelsea and Albert Embankments.<br/>Bazalgette's work ensured that sewage was no longer dumped onto the shores of the Thames and brought an end to the cholera outbreaks; his actions are thought to have saved more lives than the efforts of any other Victorian official. His sewer system operates into the 21st century, servicing a city that has grown to a population of over eight million. The historian Peter Ackroyd is amongst few who argue that Bazalgette should be considered a hero of London.<br/>Source: https://en.wikipedia.org/wiki/Great_Stink",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "The cause of smell during The Great Stink was very hot weather.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "The cause of the Great Stink was the smell of untreated human waste and industrial effluent, only made worse by the hot weather (but without the smell, the hot weather would have no effect). Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "The Great Stink immediately resulted in Joseph Bazalgette’s proposal to move the effluent along interconnecting sewers.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We do not know whether the Great Stink immediately resulted in his proposal, only that it eventually resulted in Bazalgette’s proposal. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Cholera is non-existent in London due to Bazalgette’s work.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "Bazalgette’s work brought an “end to the cholera outbreak”, however we do not know if cholera is still non-existent in London. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Joseph Bazalgette is well-known as a hero of London following his work.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "Historian Peter Ackroyd is amongst few who argue that Bazalgette should be considered a hero – thus, we can say that this is not a well-known argument/fact, since only a few people argue this. Therefore, the correct answer is B.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "During this period, European powers came to dominate most of the world. Although the most developed regions of European classical civilization were more urbanized than any other region of the world, European civilization had undergone a lengthy period of gradual decline and collapse. During the Early Modern Period, Europe was able to regain its dominance; historians still debate the causes.<br/>Europe's success in this period stands in contrast to other regions. For example, one of the most advanced civilizations of the Middle Ages was China. It had developed an advanced monetary economy by 1000 CE. China had a free peasantry who were no longer subsistence farmers, and could sell their produce and actively participate in the market. According to Adam Smith, writing in the 18th century, China had long been one of the richest, most fertile, best cultivated, most industrious, most urbanized, and most prosperous countries in the world. It enjoyed a technological advantage and had a monopoly in cast iron production, piston bellows, suspension bridge construction, printing, and the compass. However, it seemed to have long since stopped progressing. Marco Polo, who visited China in the 13th century, describes its cultivation, industry, and populousness almost in the same terms as travellers would in the 18th century.<br/>One theory of Europe's rise holds that Europe's geography played an important role in its success. The Middle East, India and China are all ringed by mountains and oceans but, once past these outer barriers, are nearly flat. By contrast, the Pyrenees, Alps, Apennines, Carpathians and other mountain ranges run through Europe, and the continent is also divided by several seas. This gave Europe some degree of protection from the peril of Central Asian invaders. Before the era of firearms, these nomads were militarily superior to the agricultural states on the periphery of the Eurasian continent and, as they broke out into the plains of northern India or the valleys of China, were all but unstoppable. These invasions were often devastating. The Golden Age of Islam was ended by the Mongol sack of Baghdad in 1258. India and China were subject to periodic invasions, and Russia spent a couple of centuries under the Mongol-Tatar yoke. Central and western Europe, logistically more distant from the Central Asian heartland, proved less vulnerable to these threats.<br/>Source: https://en.wikipedia.org/wiki/History_of_the_world#Early_modern_period",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "The causes of the reassertion of European dominance during the Early Modern Period are well-known.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "In the 1st paragraph. it states that “Europe was able to regain its dominance; historians still debate the causes” – thus, it is not clear what the causes of their dominance were (ie. they are not well-known). Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "China was more advanced than many European countries during the Middle Ages.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "Even though China was one of the most advanced civilisations of the Middle Ages, we cannot say based on this passage that it was more advanced than most European countries, as we would be making an assumption there. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "The geography of the Middle East was the main factor in preventing it from rising to the same level of success as Europe.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "There is not enough information in the passage to be able to come to this conclusion. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "The Golden Age of Islam occurred before the era of firearms.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "In the 3rd paragraph, it states that “before the era of firearms, these nomads were militarily superior…”, and that “these invasions were often devastating”, with the Golden Age of Islam being ended by the Mongol sack of Baghdad in 1258. We can infer that the Mongol sack of Baghdad was one of “these invasions”, based on the context of the sentence, and thus we can infer that the Golden Age of Islam ended before the era of firearms. Therefore, the correct answer is A.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "The Great Recession met the IMF criteria for being a global recession only in the single calendar year 2009. That IMF definition requires a decline in annual real-world GDP per capita. Despite the fact that quarterly data are being used as recession definition criteria by all G20 members, representing 85% of the world GDP, the International Monetary Fund (IMF) has decided—in the absence of a complete data set—not to declare/measure global recessions according to quarterly GDP data. The seasonally adjusted PPP weighted real GDP for the G20 zone, however, is a good indicator for the world GDP, and it was measured to have suffered a direct quarter on quarter decline during the three quarters from Q3 2008 until Q1 2009, which more accurately mark when the recession took place at the global level.<br/>The years leading up to the crisis were characterized by an exorbitant rise in asset prices and associated boom in economic demand. Further, the U.S. shadow banking system (i.e., non-depository financial institutions such as investment banks) had grown to rival the depository system yet was not subject to the same regulatory oversight, making it vulnerable to a bank run. <br/>US mortgage-backed securities, which had risks that were hard to assess, were marketed around the world, as they offered higher yields than U.S. government bonds. Many of these securities were backed by subprime mortgages, which collapsed in value when the U.S. housing bubble burst during 2006 and homeowners began to default on their mortgage payments in large numbers starting in 2007. <br/>The global recession that followed resulted in a sharp drop in international trade, rising unemployment and slumping commodity prices. Several economists predicted that recovery might not appear until 2011 and that the recession would be the worst since the Great Depression of the 1930s. Economist Paul Krugman once commented on this as seemingly the beginning of 'a second Great Depression'.<br/>Source: https://en.wikipedia.org/wiki/Great_Recession",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "In 2009, there was a decrease in the yearly real-world GDP per-capita.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "The IMF definition for global recession requires a decline in annual real-world GDP per-capita. Since there was a global recession in 2009, we can infer that in 2009 there was a decrease in the yearly real-world GDP per-capita. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "The U.S shadow banking system’s vulnerability was responsible for the Great Recession.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "There is no information to suggest that the U.S. shadow banking system’s vulnerability was responsible for the Great Recession. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "In 2006, homeowners rarely defaulted on their mortgage payments.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "Just because homeowners began to default on their mortgage payments in large numbers starting in 2007, does not necessarily mean that before 2007, they were rarely defaulting (might have just been in average/medium numbers, just not large numbers for example). Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "The Great Recession is also commonly known as the second Great Depression.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "Only economist Paul Krugman has called the Great Recession as the second Great Depression according to the text, so it is not commonly known as this as far as we know. Therefore, the correct answer is B.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "An essay is, generally, a piece of writing that gives the author's own argument — but the definition is vague, overlapping with those of a paper, an article, a pamphlet, and a short story. Essays have traditionally been sub-classified as formal and informal. Formal essays are characterized by 'serious purpose, dignity, logical organization, length,'whereas the informal essay is characterized by the personal element (self-revelation, individual tastes and experiences, confidential manner), humour, graceful style, rambling structure, unconventionality or novelty of theme,' etc.<br/>Essays are commonly used as literary criticism, political manifestos, learned arguments, observations of daily life, recollections, and reflections of the author. Almost all modern essays are written in prose, but works in verse have been dubbed essays (e.g., Alexander Pope's An Essay on Criticism and An Essay on Man). While brevity usually defines an essay, voluminous works like John Locke's An Essay Concerning Human Understanding and Thomas Malthus's An Essay on the Principle of Population are counterexamples.<br/>In some countries (e.g., the United States and Canada), essays have become a major part of formal education. Secondary students are taught structured essay formats to improve their writing skills; admission essays are often used by universities in selecting applicants, and in the humanities and social sciences essays are often used as a way of assessing the performance of students during final exams.<br/>The concept of an 'essay' has been extended to other media beyond writing. A film essay is a movie that often incorporates documentary filmmaking styles and focuses more on the evolution of a theme or idea. A photographic essay covers a topic with a linked series of photographs that may have accompanying text or captions.<br/>Source: https://en.wikipedia.org/wiki/Essay",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "A secret, personalised diary entry that explores a person’s daily experiences could be an example of an informal essay.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "An informal essay is characterised by the personal element (self-revelation, individual tastes and experiences), which could also be a personalised diary entry that is secret (confidential) and explores a person’s daily experiences. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "All modern essays are written in prose.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "In the 2nd paragraph: “almost all modern essays are written in prose”. Thus, we know that not every modern essay is written in prose. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "Essays should be short but, in some circumstances, very long essays are acceptable.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We do not have any information on the length of an essay. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Teaching structured essay formats to young students will improve their writing ability.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "Teaching structure essay formats to secondary students is intended to improve their writing skills, however there is nothing to suggest that it will definitely improve their writing skills, so we can’t be sure. Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "A lack of ventilation indoors concentrates air pollution where people often spend the majority of their time. Radon (Rn) gas, a carcinogen, is exuded from the Earth in certain locations and trapped inside houses.<br/>Building materials including carpeting and plywood emit formaldehyde (H2CO) gas. Paint and solvents give off volatile organic compounds (VOCs) as they dry. Lead paint can degenerate into dust and be inhaled. Intentional air pollution is introduced with the use of air fresheners, incense, and other scented items. Controlled wood fires in stoves and fireplaces can add significant amounts of smoke particulates into the air, inside and out. Indoor pollution fatalities may be caused by using pesticides and other chemical sprays indoors without proper ventilation.<br/>Carbon monoxide poisoning and fatalities are often caused by faulty vents and chimneys, or by the burning of charcoal indoors or in a confined space, such as a tent. Chronic carbon monoxide poisoning can result even from poorly-adjusted pilot lights. Traps are built into all domestic plumbing to keep sewer gas and hydrogen sulfide out of interiors for safety. Clothing emits tetrachloroethylene, or other dry cleaning fluids, for days after dry cleaning.<br/>Though its use has now been banned in many countries, the extensive use of asbestos in industrial and domestic environments in the past has left a potentially very dangerous material in many localities. Asbestosis is a chronic inflammatory medical condition affecting the tissue of the lungs. It only occurs after long-term, heavy exposure to asbestos from asbestos-containing materials in structures. Sufferers of this have severe dyspnea (shortness of breath) and are at an increased risk regarding several different types of lung cancer. As clear explanations are not always stressed in non-technical literature, care should be taken to distinguish between several forms of relevant diseases. According to the World Health Organization (WHO), these may defined as; asbestosis, lung cancer, and Peritoneal Mesothelioma (generally a very rare form of cancer, when more widespread it is almost always associated with prolonged exposure to asbestos).<br/>Source: https://en.wikipedia.org/wiki/Air_pollution",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "Pesticides can be a form of air pollution.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "The 2nd paragraph states that indoor pollution fatalities may be caused by using pesticides indoors without proper ventilation, and the 1st paragraph mentions how a lack of ventilation indoors concentrates air pollution, so we can infer that pesticides may be a form of air pollution. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "The use of pesticides and chemical sprays indoors has resulted in deaths.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "Indoor pollution fatalities may be caused by using pesticides and other chemical sprays indoor without proper ventilation, however we are not sure whether indoor pollution fatalities have been caused by this (only that they might be). Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Sewer gas and hydrogen sulphide are potentially dangerous gases.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "Since traps are built into all domestic plumbing to keep sewer gas and hydrogen sulfide out of interiors, we can infer that these two gases are potentially dangerous (otherwise they would not be kept outside interiors for safety). Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "Shortness of breath is a symptom of short-term exposure to asbestos.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "The 3rd paragraph states that long, heavy exposure to asbestos causes asbestosis, and sufferers of this have shortness of breath (so shortness of breath is a symptom of long-term exposure to asbestos, not short-term). Therefore, the correct answer is B.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "The United States emerged as a world economic and military power after 1890. The main episode was the Spanish–American War, which began when Spain refused American demands to reform its oppressive policies in Cuba. The 'splendid little war', as only one official called it, involved a series of quick American victories on land and at sea. At the subsequent Treaty of Paris peace negotiation the United States acquired the Philippines, Puerto Rico, and Guam from Spain.<br/>Cuba became an independent country, under close American tutelage. Although the war itself was widely popular, the peace terms proved controversial. William Jennings Bryan led his Democratic Party in opposition to control of the Philippines, which he denounced as imperialism unbecoming to American democracy. President William McKinley defended the acquisition and was riding high as the nation had returned to prosperity and felt triumphant in the war. McKinley easily defeated Bryan in a rematch in the 1900 presidential election. <br/>After defeating an insurrection by Filipino nationalists, the United States engaged in a large-scale program to modernize the economy of the Philippines and dramatically upgrade the public health facilities. By 1908, however, Americans lost interest in an empire and turned their international attention to the Caribbean, especially the building of the Panama Canal. In 1912 when Arizona became the final mainland state, the American Frontier came to an end. The canal opened in 1914 and increased trade with Japan and the rest of the Far East. A key innovation was the Open Door Policy, whereby the imperial powers were given equal access to Chinese business, with not one of them allowed to take control of China.",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "The Spanish-American War is also well-known as the Splendid Little War.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "Only one official called the Spanish-American war the splendid little war, so this other name is not well-known. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "The Treaty of Paris involved a peace negotiation and settlement between Spain and America.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "We can infer that the Treaty of Paris was between Spain and America, using context from the paragraph that describes a war between the Spanish and Americans, and how the United States received some territories from Spain in the settlement. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "William Jennings Bryan ran against William McKinley for the presidency prior to the 1900 election.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "Since the 2nd paragraph states that McKinley easily defeated Bryan in a rematch in the 1900 presidential election, we can infer that they contested the election once prior (since this time it was a rematch). Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "The United States successfully modernised the economy of the Philippines.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "The United States engaged in a program to modernise the economy of the Philippines, however we have no further information as to whether this was successful or not. Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "Many sections of the country had reason to be dissatisfied with the existing autocracy. Nicholas II was a deeply conservative ruler and maintained a strict authoritarian system. Individuals and society in general were expected to show self-restraint, devotion to community, deference to the social hierarchy and a sense of duty to the country. <br/>This vision of the Romanov monarchy left him unaware of the state of his country. With a firm belief that his power to rule was granted by Divine Right, Nicholas assumed that the Russian people were devoted to him with unquestioning loyalty. This ironclad belief rendered Nicholas unwilling to allow the progressive reforms that might have alleviated the suffering of the Russian people. Even after the 1905 Revolution spurred the Tsar to decree limited civil rights and democratic representation, he worked to limit even these liberties in order to preserve the ultimate authority of the crown.<br/>Despite constant oppression, the desire of the people for democratic participation in government decisions was strong. Since the Age of Enlightenment, Russian intellectuals had promoted Enlightenment ideals such as the dignity of the individual and the rectitude of democratic representation. These ideals were championed most vociferously by Russia's liberals, although populists, Marxists, and anarchists also claimed to support democratic reforms. A growing opposition movement had begun to challenge the Romanov monarchy openly well before the turmoil of World War I.<br/>Dissatisfaction with Russian autocracy culminated in the huge national upheaval that followed the Bloody Sunday massacre of January 1905, in which hundreds of unarmed protesters were shot by the Tsar's troops. Workers responded to the massacre with a crippling general strike, forcing Nicholas to put forth the October Manifesto, which established a democratically elected parliament (the State Duma). Although the Tsar accepted the 1906 Fundamental State Laws one year later, he subsequently dismissed the first two Dumas when they proved uncooperative. Unfulfilled hopes of democracy fuelled revolutionary ideas and violent outbursts targeted at the monarchy.<br/>Source: https://en.wikipedia.org/wiki/Russian_Revolution",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "Nicholas II was detached from the issues his people were facing.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "The 2nd paragraph states that “this vision of the Romanov monarchy left him unaware of the state of his country” – we can infer that the Tsar did not know what issues his people were facing as a result, and was detached from the state of his country. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "Tsar Nicholas II was in favour of civil rights and democratic representation.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "In the 2nd paragraph, although the Tsar decreed limited civil rights and democratic representation, it only came after a revolution and he worked to limit even these liberties. Thus, we can infer that he was not in favour of granting civil rights or democratic representation to the people. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "The Bloody Sunday massacre was the immediate cause of the workers’ general strike.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "In the 4th paragraph it states that “working responded to the massacre with a crippling general strike”, revealing a direct link between the massacre causing the general strike. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "The people’s hopes of democracy fuelled the revolution which toppled the Tsar’s autocracy.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "There is no mention of the Tsar’s autocracy being toppled by a revolution. Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "Adolescence is a crucial period for developing and maintaining social and emotional habits important for mental well-being. These include adopting healthy sleep patterns; taking regular exercise; developing coping, problem-solving, and interpersonal skills; and learning to manage emotions. Supportive environments in the family, at school and in the wider community are also important. An estimated 10–20% of adolescents globally experience mental health conditions, yet these remain underdiagnosed and undertreated.<br/>Multiple factors determine mental health outcomes. The more risk factors adolescents are exposed to, the greater the potential impact on their mental health. Factors that can contribute to stress during adolescence include a desire for greater autonomy, pressure to conform with peers, exploration of sexual identity, and increased access to and use of technology. Media influence and gender norms can exacerbate the disparity between an adolescent’s lived reality and their perceptions or aspirations for the future. Other important determinants include the quality of their home life and relationships with peers. Violence (including harsh parenting and bullying) and socioeconomic problems are recognized risks to mental health. Children and adolescents are especially vulnerable to sexual violence, which has a clear association with detrimental mental health.<br/>Some adolescents are at greater risk of mental health conditions due to their living conditions, stigma, discrimination or exclusion, or lack of access to quality support and services. These include adolescents living in humanitarian and fragile settings; adolescents with chronic illness, autism spectrum disorder, an intellectual disability or other neurological condition; pregnant adolescents, adolescent parents, or those in early and/or forced marriages; orphans; and adolescents from minority ethnic or sexual backgrounds or other discriminated groups.<br/>Source: https://www.who.int/",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "Regular exercise and health sleep patterns are significant for adolescent mental wellbeing.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "The 1st paragraph states that “adolescence is a crucial period for developing and maintaining social and emotional habits important for mental well-being”, and that some of these important habits include “adopting healthy sleep patterns” and “regular exercise”. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "Adolescent desire to conform is the main cause of stress during adolescence.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "This is one factor that contributes to stress in adolescents, however we do not know if it is the main cause. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "It is debated whether harsh parenting poses a risk to an adolescent’s mental wellbeing.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "The 2nd paragraph states that “violence (including harsh parenting and bullying)… are recognised risks to mental health”. Thus, we can infer that harsh parenting is a recognised risk to adolescent mental health, and as such is not debated. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "Adolescents with poor living conditions will definitely develop mental health conditions.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "Some adolescents are at a greater risk of mental health conditions due to their living conditions, however we do not know if their living conditions will definitely lead to them having mental health conditions (only that it is a greater risk). Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "The harmful use of alcohol is one of the leading risk factors for population health worldwide and has a direct impact on many health-related targets of the Sustainable Development Goals (SDGs), including those for maternal and child health, infectious diseases (HIV, viral hepatitis, tuberculosis), noncommunicable diseases and mental health, injuries and poisonings. Alcohol is specifically mentioned under the World Health Organisation’s (WHO) health target 3.5: “Strengthen the prevention and treatment of substance use, including narcotic drug abuse and harmful use of alcohol”.<br/>WHO emphasizes the development, implementation and evaluation of cost-effective interventions for harmful use of alcohol as well as creating, compiling and disseminating scientific information on alcohol use and dependence, and related health and social consequences.<br/>The “Global strategy to reduce the harmful use of alcohol”, negotiated and agreed by WHO Member States in 2010, represents international consensus that reducing the harmful use of alcohol and its associated health and social burden is a public health priority. The strategy provides guidance for action at all levels, including 10 recommended target areas for policy options and interventions for national action to reduce the harmful use of alcohol and the main components for global action to support and complement activities at country level.<br/>The update of the evidence on cost-effectiveness of policy options and interventions undertaken in the context of an update of Appendix 3 of the Global Action Plan for the Prevention and Control of Noncommunicable Diseases 2013-2020 resulted in a new set of enabling and focused recommended actions to reduce the harmful use of alcohol. The most cost-effective actions, or “best buys”, include increasing taxes on alcoholic beverages, enacting and enforcing bans or comprehensive restrictions on exposure to alcohol advertising across multiple types of media, and enacting and enforcing restrictions on the physical availability of retailed alcohol.<br/>Source: https://www.who.int/",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "WHO aims to prevent the consumption of alcohol.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "WHO aims to “strengthen the prevention and treatment of substance use, including… harmful use of alcohol”. Thus, they aim to prevent the harmful use of alcohol, not alcohol in general. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "Not all interventions for harmful use of alcohol are cost-effective.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "Although WHO emphasises the use of cost-effective interventions for the harmful use of alcohol, we do not know if cost-effective interventions are the only form of intervention or not. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "WHO is the only organisation or entity that is taking action against harmful alcohol use.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "In the 3rd paragraph, it mentions “national action to reduce the harmful use of alcohol” and “the main components for global action to support and complement activities at a country level”, both of which can be used to infer that countries are also taking action at a national level in addition to WHO’s efforts – thus, WHO is not the only entity that is taking action against harmful alcohol use. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "It has been shown that increasing taxes on alcohol reduces consumption of alcohol.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "The most cost-effective actions include “increasing taxes on alcohol beverages”, meaning that for the cost of increasing taxes on alcohol beverages, the effectiveness has been high, so we can infer that increasing taxes on alcohol does have some effect in reduce the harmful use of alcohol. However, the statement refers more broadly to the idea that increasing taxes reduces the consumption of alcohol overall (not just the harmful use), which goes beyond the scope of the passage. Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "During the Russian Empire, a policy of Russification was followed, in order to impose the Russian language and culture on conquered people in territory adjacent to Russia itself. In this way, the Russian Empire aimed to gradually, and permanently, expand its territory by erasing foreign cultures. Foreign languages within its territory were banned, as were foreign religions.<br/>The Soviet regime in the 1920s tried to win the trust of non-Russians by promoting their ethnic cultures and establishing for them many of the characteristic institutional forms of the nation-state. However the early Soviet regime during the 1900s was more hostile to even voluntary assimilation, and tried to derussify assimilated non-Russians. Parents and students not interested in the promotion of their national languages were labeled as displaying 'abnormal attitudes'. The authorities concluded that minorities unaware of their ethnicities had to be subjected to Belarusization, Yiddishization, Polonization etc.<br/>By the early 1930s this extreme multiculturalist policy proved unworkable and the Soviet regime introduced a limited russification for practical reasons; voluntary assimilation, which was often a popular demand, was allowed. The list of nationalities was reduced from 172 in 1927 to 98 in 1939 by revoking support for small nations in order to merge them into bigger ones. For example, Abkhazia was merged into Georgia and thousands of ethnic Georgians were sent to Abkhazia.  The Abkhaz alphabet was changed to a Georgian base, Abkhazian schools were closed and replaced with Georgian schools, the Abkhaz language was banned. The ruling elite was purged of ethnic Abkhaz and by 1952 over 80% of the 228 top party and government officials and enterprise managers in Abkhazia were ethnic Georgians (there remained 34 Abkhaz, 7 Russians and 3 Armenians in these positions). <br/>Russians were now presented as the most advanced and least chauvinist people of the Soviet Union. <br/>Source: https://en.wikipedia.org/wiki/Colonization",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "The main objective of Russification was the erase foreign cultures.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "The 1st paragraph states that the purpose of Russification was to “impose the Russian language and culture on conquered people in territory adjacent to Russia”, and to “expand its territory by erasing foreign culture”. Erasing foreign culture was one goal, however we do not know that it was the main goal among all of these. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "The Soviet regime’s attitude towards non-Russians changed during the period 1900-1930.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "In the 1920s, the Soviet regime tried to win the trust of non-Russians by promoting their ethnic cultures, however in the 1900s the regime was hostile to voluntary assimilation and tried to derussify assimilated non-Russians. Thus, we can see that the Soviet regime’s attitude did change from more hostile to less hostile, even if the ultimate goal was similar. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "In 12 years the list of nationalities in the Soviet regime was more than halved.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "From 1927 to 1939, the list of nationalities was reduced from 172 to 98. As a percentage, 98/172 = 57% approximately, which means that less than half the nationalities on the list were removed (approx. 43%), not more than half. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "The people of Abkhazia were opposed to the Soviet regime’s decision to merge their country into Georgia.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We have no information about the Abhazian view of the merge. Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "Dr Tedros Adhanom Ghebreyesus was elected as WHO Director-General for a five-year term by WHO Member States at the Seventieth World Health Assembly in May 2017. He is the first WHO Director-General to have been elected from multiple candidates by the World Health Assembly, and is the first person from the WHO African Region to serve as WHO's chief technical and administrative officer. Immediately after taking office on 1 July 2017 Dr Tedros outlined five key priorities for the Organization: universal health coverage; health emergencies; women’s, children’s and adolescents’ health; health impacts of climate and environmental change; and a transformed WHO.<br/>Prior to his election as WHO Director-General, Dr Tedros served as Ethiopia’s Minister of Foreign Affairs from 2012–2016. In this role he led efforts to negotiate the Addis Ababa Action Agenda, in which 193 countries committed to the financing necessary to achieve the Sustainable Development Goals. Dr Tedros served as Ethiopia’s Minister of Health from 2005–2012, where he led a comprehensive reform of the country’s health system. All roads lead to universal health coverage for Dr Tedros, and he has demonstrated what it takes to expand access to health care with limited resources. The transformation he led as Ethiopia’s Minister of Health improved access to health care for millions of people. Under his leadership Ethiopia invested in critical health infrastructure, expanded its health workforce, and developed innovative health financing mechanisms.<br/>Beyond Ethiopia, Dr Tedros’ global leadership on malaria, HIV/AIDS, and maternal and child health has been immensely impactful. He was elected as Chair of the Global Fund to Fight AIDS, Tuberculosis, and Malaria Board in 2009, and previously served as Chair of the Roll Back Malaria Partnership Board, and Co-chair of the Partnership for Maternal, Newborn and Child Health Board. Born in the city of Asmara, Eritrea, Dr Tedros holds a Doctorate of Philosophy (PhD) in Community Health from the University of Nottingham and a Master of Science (MSc) in Immunology of Infectious Diseases from the University of London. Dr Tedros is globally recognised as a health scholar, researcher, and diplomat with first-hand experience in research, operations, and leadership in emergency responses to epidemics.<br/>Source: https://www.who.int/dg/biography",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "The health ramifications of environmental and climatic change were a priority for the new WHO Director-General elected in May 2017.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "The health ramifications of climate and environmental change were a top priority for Tedros, who was elected as WHO Director-General in May 2017. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "Dr Tedros’ reforms of Ethiopia’s health system resulted in him becoming the WHO Director-General.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We do not know if his reforms of Ethiopia’s health system led to him becoming the WHO Director-General. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Dr Tedros has significant knowledge on the subject of children’s health.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "He served as Co-chair of the Partnership for Maternal, Newborn and Child Health Board, so it can be inferred that he has a certain level of knowledge on children’s health, but how much, we can’t really judge simply from this information alone (maybe he was more involved on the maternal issues for example). Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "A new WHO Director-General will be elected in May 2021.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "He was elected for a 5 year term beginning in May 2017, meaning the next Director-General will be elected in May 2022. Therefore, the correct answer is B.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "Actress Lisa Kudrow was born on July 30, 1963, in Encino, California. Her father, Lee, was a physician with a specialty in studying headaches, and her mother, Nedra, was a travel agent. The youngest of three children, she grew up in a middle-class Jewish family. As a teenager, Kudrow excelled at tennis and played on the varsity team at Taft High School in Los Angeles. <br/>After earning a degree in biology from Vassar College in Poughkeepsie, New York, Kudrow returned to Los Angeles to work with her father and follow a career in research. Her brother's childhood friend, comedian Jon Lovitz, encouraged Lisa to perform, and she tried to break into acting while continuing to work for her father as a medical researcher. Eventually Kudrow became a member of the renowned Los Angeles improv comedy troupe The Groundlings. She honed her comedic skills there and with other improv groups, including Unexpected Company, alongside Conan O'Brien, and the Transformers Comedy Group. <br/>Kudrow's early foray into television comedies was marked by ups and downs. She unsuccessfully auditioned for Saturday Night Live in 1990, but did land the role of Ursula, the spacey waitress on the sitcom Mad About You in 1992. She then appeared on a few episodes of the Bob Newhart show Bob in 1993. However, after being cast that same year for the role of Roz in Frasier, she was replaced during the filming of the pilot episode by Peri Gilpin.<br/>Kudrow's biggest break came when she was cast as Phoebe Buffay, the lovable folk-singing massage therapist, on the sitcom Friends. The show became an instant hit after premiering in 1994, and Kudrow went on to earn an Emmy Award in 1998 and a Screen Actors Guild Award in 2000 for her work on the prime-time comedy. She also reprised her role as Ursula from Mad About You, who appeared on Friends as Phoebe's twin sister. During the ninth and 10th seasons of Friends, Kudrow, along with her female castmates and friends Courteney Cox and Jennifer Aniston, became the highest paid TV actresses of all time, receiving $1 million per episode. <br/>Source: https://www.biography.com/actor/lisa-kudrow",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "Kudrow got her big comedy break working in The Groundlings.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We know that Kudrow got her biggest break in comedy in Friends, however we do not know if one of her big breaks was also in The Groundlings or not (it does not specify). Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Conan O’Brien helped Kudrow hone her comedic skills.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "All we know is that she worked with Conan O’Brien, honing her comedy skills, but we do not know if Conan helped her hone them or not. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Kudrow had never played the character Ursula after Mad About You.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "Kudrow did reprise the role of Ursula from Mad About You in her later show, Friends (paragraph 4). Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "Kudrow was the highest paid actress on the TV show Friends.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "She was one of the highest paid actresses on Friends, but we do not know if she was the highest paid actress on the show. Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "The giant panda, also known as panda bear or simply panda, is a bear native to south central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. The name 'giant panda' is sometimes used to distinguish it from the red panda, a neighbouring mustelid. Though it belongs to the order Carnivora, the giant panda is a folivore, with bamboo shoots and leaves making up more than 99% of its diet. Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents, or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food. <br/>The giant panda lives in a few mountain ranges in central China, mainly in Sichuan, but also in neighbouring Shaanxi and Gansu. As a result of farming, deforestation, and other development, the giant panda has been driven out of the lowland areas where it once lived.<br/>The giant panda is a conservation-reliant vulnerable species. A 2007 report showed 239 pandas living in captivity inside China and another 27 outside the country. As of December 2014, 49 giant pandas lived in captivity outside China, living in 18 zoos in 13 different countries. Wild population estimates vary; one estimate shows that there are about 1,590 individuals living in the wild, while a 2006 study via DNA analysis estimated that this figure could be as high as 2,000 to 3,000. Some reports also show that the number of giant pandas in the wild is on the rise. In March 2015, conservation news site Mongabay stated that the wild giant panda population had increased by 268, or 16.8%, to 1,864. In 2016, the IUCN reclassified the species from 'endangered' to 'vulnerable'.<br/>While the dragon has often served as China's national symbol, internationally the giant panda has often filled this role. As such, it is becoming widely used within China in international contexts, for example, appearing since 1982 on gold panda bullion coins and as one of the five Fuwa mascots of the Beijing Olympics.<br/>Source: https://en.wikipedia.org/wiki/Giant_panda",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "Wild giant pandas only eat bamboo shoots and leaves.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "Giant pandas in the wild will occasionally eat “other grasses, wild tubers, or even meat in the form of birds, rodents or carrion”, not just bamboo. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "The Giant Panda no longer lives in the lowland areas in China.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "We know that the giant panda “has been driven out of the lowland areas where it once lived” (2nd paragraph), so we can infer that there are no more giant pandas living in these lowland areas anymore. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "Giant Pandas in captivity are more likely to survive in Chinese Zoos than those abroad.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We have no information about the lifespan of giant pandas in the wild versus in captivity. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "The Giant Panda is the primary symbol of China.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "The giant panda has internationally filled in the role of China’s national symbol, which is often the dragon. Thus, we cannot say for sure that the giant panda is the primary symbol of China (it could be the dragon). Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "Tigers are thought to be mainly nocturnal predators, but in areas where humans are absent, remote-controlled, hidden camera traps recorded them hunting in daylight. They generally hunt alone and ambush their prey as most other cats do, overpowering them from any angle, using their body size and strength to knock the prey off balance. Successful hunts usually require the tiger to almost simultaneously leap onto its prey, knock it over, and grab the throat or nape with its teeth. Despite their large size, tigers can reach speeds of about 49–65 km/h (30–40 mph) but only in short bursts; consequently, tigers must be close to their prey before they break cover. If the prey catches wind of the tiger's presence before this, the tiger usually abandons the hunt rather than chase prey or battle it head-on. Horizontal leaps of up to 10 m (33 ft) have been reported, although leaps of around half this distance are more typical. One to 20 hunts, including stalking near potential prey, ends in a successful kill. <br/>When hunting larger animals, tigers prefer to bite the throat and use their powerful forelimbs to hold onto the prey, often simultaneously wrestling it to the ground. The tiger remains latched onto the neck until its target dies of strangulation. By this method, gaurs and water buffaloes weighing over a ton have been killed by tigers weighing about a sixth as much. Although they can kill healthy adults, tigers often select the calves or infirm of very large species. Healthy adult prey of this type can be dangerous to tackle, as long, strong horns, legs and tusks are all potentially fatal to the tiger. No other extant land predator routinely takes on prey this large on its own. <br/>With smaller prey, such as monkeys and hares, the tiger bites the nape, often breaking the spinal cord, piercing the windpipe, or severing the jugular vein or common carotid artery. Though rarely observed, some tigers have been recorded to kill prey by swiping with their paws, which are powerful enough to smash the skulls of domestic cattle, and break the backs of sloth bears.<br/>Source: https://en.wikipedia.org/wiki/Tiger",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "Tigers have been seen hunting in daylight by humans.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "According to the 1st paragraph, “remote-controlled, hidden camera traps recorded [tigers] hunting in daylight”, however there is no mention of humans ever seeing a tiger hunting in daylight, so we cannot be sure if a human has seen a tiger hunting in daylight. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "The tiger’s stamina is what enables it to kill its prey.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "According to the 1st paragraph, “successful hunts usually require the tiger to almost simultaneously leap onto its prey, knock it over, and grab the throat or nape with tis teeth”. Thus, we know that all these other factors play into a successful kill, not just stamina (which they actually do not have a lot of, since the next sentences describes how they can only reach top speeds in short bursts). Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "95% of a tiger’s hunts ends in failure.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "If 1/20 hunts end in success, then 19/20 end in failure, which equates to 95$. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "The tiger’s only method of killing prey is through strangulation.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "The tiger does kill via strangulation (2nd paragraph), however we do not know if this is the only method that the tiger kills its prey (only one, that is used to kill larger animals). Therefore, the correct answer is C (although in the 1st paragraph it states that the tiger grabs the preys throat as well, we do not know if the method of death is still strangulation or not). ",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "Brussels is a region of Belgium comprising 19 municipalities, including the City of Brussels, which is the capital of Belgium. The Brussels-Capital Region is located in the central portion of the country and is a part of both the French Community of Belgium and the Flemish Community, but is separate from the Flemish Region (which forms an enclave) and the Walloon Region. Brussels is the most densely populated and the richest region in Belgium in terms of GDP per capita. It covers 162 km2 (63 sq miles), a relatively small area compared to the two other regions. It is also part of a large conurbation* extending towards Ghent, Antwerp, Leuven and Walloon Brabant, home to over 5 million people. <br/>Brussels grew from a small rural settlement on the river Senne to become an important city-region in Europe. Since the end of the Second World War, it has been a major centre for international politics and home to numerous international organisations, politicians, diplomats and civil servants. Brussels is the de facto capital of the European Union (EU), as it hosts a number of principal EU institutions, including its administrative-legislative, executive-political, and legislative branches (though the judicial branch is located in Luxembourg, and the European Parliament meets for a minority of the year in Strasbourg). Its name is sometimes used metonymically to describe the EU and its institutions. The secretariat of the Benelux and headquarters of NATO are also located in Brussels. As the economic capital of Belgium and one of the top financial centres of Western Europe with Euronext Brussels, it is classified as an Alpha global city. Brussels is a hub for rail, road and air traffic, sometimes earning the moniker 'Crossroads of Europe'. The Brussels Metro is the only rapid transit system in Belgium. In addition, both its airport and railway stations are the largest and busiest in the country.<br/>*conurbation – extended urban area, consisting of several towns merging with suburbs of central city<br/>Source: https://en.wikipedia.org/wiki/Brussels",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "Brussels is the official capital city of the EU.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "Brussels is the “de facto capital of the European Union”, so we can infer that it is not the official capital in this case. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "Brussels is home to around 5 million people.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "Brussels is part of a large conurbation extending towards Ghent, Antwerp, Leuven and Walloon Brabant, home to over 5 million people (this is the population of the conurbation, not just Brussels alone, since Brussels is only a part of this conurbation). Therefore, the correct answer is B, as Brussels must be home to less than 5 million people. ",
+            "difficulty": 1
+          },
+          {
+            "text": "The judicial branch of the EU is the only EU institution to not be located in Brussels.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We do not know if there are any other branches that are not located in Brussels, as the passage does not specify if the only branch not located in Brussels is the judicial branch in Luxembourg. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "Brussels it the only Alpha global city in Belgium.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We do not know if it is the ONLY Alpha global city in Belgium. Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "The earliest report about acid rain in the United States was from the chemical evidence from Hubbard Brook Valley. In 1972, a group of scientists including Gene Likens discovered the rain that was deposited at White Mountains of New Hampshire was acidic. The pH measuring the acidity of the sample was measured to be 4.03 at Hubbard Brook. The Hubbard Brook Ecosystem Study followed up with a series of research that analysed the environmental effects of acid rain. Acid rain that mixed with stream water at Hubbard Brook was neutralized by the alumina from soils. The result of this research indicates the chemical reaction between acid rain and aluminium leads to increasing rate of soil weathering. Experimental research was done to examine the effects of increased acidity in stream on ecological species. In 1980, a group of scientists modified the acidity of Norris Brook, New Hampshire, and observed the change in species' behaviours. There was a decrease in species diversity, an increase in community dominants, and a decrease in the food web complexity. <br/>In 1980, the US Congress passed an Acid Deposition Act. This Act established an 18-year assessment and research program under the direction of the National Acidic Precipitation Assessment Program (NAPAP). NAPAP looked at the entire problem from a scientific perspective. It enlarged a network of monitoring sites to determine how acidic the precipitation actually was, and to determine long-term trends, and established a network for dry deposition. It looked at the effects of acid rain and funded research on the effects of acid precipitation on freshwater and terrestrial ecosystems, historical buildings, monuments, and building materials. It also funded extensive studies on atmospheric processes and potential control programs.<br/>From the start, policy advocates from all sides attempted to influence NAPAP activities to support their particular policy advocacy efforts, or to disparage those of their opponents. For the US Government's scientific enterprise, a significant impact of NAPAP were lessons learned in the assessment process and in environmental research management to a relatively large group of scientists, program managers and the public.<br/>Source: https://en.wikipedia.org/wiki/Acid_rain",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "A pH of 4.03 could be acidic.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "If the pH of the sample at Hubbard Brook was 4.03, and the earliest report of acid rain was in Hubbard Brook, we can infer that a pH of 4.03 could be acidic. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "A recent fall of acid rain on an ecosystem near a stream could negatively affect the diversity of species in that ecosystem.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "There was a “decrease in the species diversity” after the acidity of Norris Brook was modified by scientists (paragraph 1) – thus, if acid rain falls on an ecosystem near a stream, it could reduce the species diversity. Therefore, the correct answer is A.",
+            "difficulty": 1
+          },
+          {
+            "text": "The research conducted by NAPAP was useful in understanding more about acid rain.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We know the objectives of NAPAP in regards to acid rain, but we do not know if NAPAP was actually useful in understanding more about acid rain; all we know is that it was useful in teaching lessons about the assessment process and in environmental research management. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "The most important consequence of NAPAP was the lessons learned on assessment processes and environmental research management for scientists, program managers and the public.",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "We do not know if this was the most important consequence, all we know is that these lessons learned in the assessment process and in environmental research management were significant. Therefore, the correct answer is C.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "text": "YouTube is an American video-sharing platform headquartered in San Bruno, California. Three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—created the service in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries.<br/>YouTube allows users to upload, view, rate, share, add to playlists, report, comment on videos, and subscribe to other users. It offers a wide variety of user-generated and corporate media videos. Available content includes video clips, TV show clips, music videos, short and documentary films, audio recordings, movie trailers, live streams, and other content such as video blogging, short original videos, and educational videos. Most content on YouTube is uploaded by individuals, but media corporations including CBS, the BBC, Vevo, and Hulu offer some of their material via YouTube as part of the YouTube partnership program. Unregistered users can only watch (but not upload) videos on the site, while registered users are also permitted to upload an unlimited number of videos and add comments to videos. Videos deemed potentially inappropriate are available only to registered users affirming themselves to be at least 18 years old.<br/>YouTube and selected creators earn advertising revenue from Google AdSense, a program which targets ads according to site content and audience. The vast majority of its videos are free to view, but there are exceptions, including subscription-based premium channels, film rentals, as well as YouTube Music and YouTube Premium, subscription services respectively offering premium and ad-free music streaming, and ad-free access to all content, including exclusive content commissioned from notable personalities. As of February 2017, there were more than 400 hours of content uploaded to YouTube each minute, and one billion hours of content being watched on YouTube every day. As of August 2018, the website is ranked as the second-most popular site in the world, just behind Google. As of May 2019, more than 500 hours of video content are uploaded to YouTube every minute. Based on reported quarterly advertising revenue, YouTube is estimated to have US$15 billion in annual revenues.<br/>Source: https://en.wikipedia.org/wiki/YouTube",
+        "category_id": 1,
+        "questions": [
+          {
+            "text": "Every quarter, YouTube earns 3.75 billion dollars",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "C",
+            "explanation": "Although YouTube earns an estimated $15 billion in annual revenues (3rd paragraph), this is only an estimate and we do not know if the earnings are consistent across each quarter. Therefore, the correct answer is C.",
+            "difficulty": 1
+          },
+          {
+            "text": "All users on YouTube must be registered to watch videos",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "B",
+            "explanation": "In the 2nd paragraph it states that “unregistered users can only watch (but not upload) videos on the site”, which means users on YouTube do not have to be registered to watch videos. Therefore, the correct answer is B.",
+            "difficulty": 1
+          },
+          {
+            "text": "The number of hours of content uploaded per minute on YouTube has increased from February 2017 to May 2019",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "As of February 2017, there were more than 400 hours of content uploaded each minute (3rd paragraph), whereas as of May 2019, more than 500 hours of video content are uploaded every minute (3rd paragraph). Therefore, the correct answer is A. ",
+            "difficulty": 1
+          },
+          {
+            "text": "The most popular site in the world is Google",
+            "type": "Multiple Choice",
+            "options": [
+              "True",
+              "False",
+              "Can't tell"
+            ],
+            "answer": "A",
+            "explanation": "According to the 3rd paragraph, “the website is ranked as the second-most popular site in the world, just behind Google”, which means that Google is the most popular site in the world. Therefore, the correct answer is A.",
+            "difficulty": 1
+          }
+        ]
+      }
+    ]
+  }

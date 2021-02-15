@@ -1,0 +1,626 @@
+{
+  "exam": {
+    "name": "QR Section Mock 7",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 24
+  },
+  "sections": [
+    {
+      "name": "Quantitative Reasoning",
+      "time": 24,
+      "stems": [
+        {
+          "text": "The following graphs shows the distribution of annual spending by an average person in two different countries, both in dollars. The amount of money spent a year on health care in Japan by the average person is 3,000 dollars.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/1.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "How much money does the average Japanese person spend on healthcare and food?",
+              "type": "Multiple Choice",
+              "options": [
+                "$900",
+                "$12,000",
+                "$15,000",
+                "$18,000"
+               ],
+              "answer": "C",
+              "explanation": "Healthcare + Food = 6% + 24% = 30%. If healthcare spending = 3000 dollars, then overall spending = 3000/0.06 = 50,000 dollars. Thus, 30% of 50,000 dollars = $15,000. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "If the average Malaysian person spends half as much on transport than an average Japanese person, how much does the average Malaysian spend overall?",
+              "type": "Multiple Choice",
+              "options": [
+                "10,000",
+                "30,000",
+                "50,000",
+                "100,000"
+               ],
+              "answer": "C",
+              "explanation": "If overall spending in Japan is $50,000 (3000/0.06 = 50,000), then the average Japanese person spends 0.2*50,000 = 10,000 dollars on transport. If the average Malaysian spends half as much, they must spend $5,000. Thus, overall, the average Malaysian spends 5,000/0.10 = $50,000 as well. Therefore, the correct answer is C. ",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What is the ratio of average Japanese spending on transport to that of the average Malaysian person, if the overall spending for the average Malaysian person is $20,000?",
+              "type": "Multiple Choice",
+              "options": [
+                "1:4",
+                "4:1",
+                "1:5",
+                "5:1"
+               ],
+              "answer": "D",
+              "explanation": "If overall spending in Japan is $50,000 (3000/0.06 = 50,000), then the average Japanese person spends 0.2*50,000 = 10,000 dollars on transport. If the overall spending in Malaysia is $20,000, then the average Malaysian person spends 0.1*20,000 = $2,000 on transport. Therefore, the ration of Japan:Malaysia = 10,000:2,000 = 5:1. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What is the closest ratio of total spending of the average Malaysian person to the average Japanese person, if the average Malaysian person spends $20,000 on housing?",
+              "type": "Multiple Choice",
+              "options": [
+                "17:20",
+                "20:17",
+                "7:8",
+                "8:7"
+               ],
+              "answer": "B",
+              "explanation": "Overall spending in Japan is $50,000 (3000/0.06 = 50,000). If $20,000 is spent by the average Malaysian on housing, then overall spending = 20,000/0.34 = $58,823.52… . Thus, the ratio of Malaysia:Japan = 58,823… : 50,000. As a decimal, this would be 1.17647059… . If we look at option B, 20/17 = 1.17647059… . Therefore, we can deduce that the correct answer is closest to B. ",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ]
+        },
+
+        {
+          "text": "The following line graph shows the tourist number of two different cities in 2019. In 2017, there were a total of 20 tourists who visited city A in June.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/2.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "If twice the amount of tourists came to City B than City A in June 2017, how many tourists visited City B in June?",
+              "type": "Multiple Choice",
+              "options": [
+                "20 tourists",
+                "23 tourists",
+                "36 tourists",
+                "40 tourists"
+               ],
+              "answer": "D",
+              "explanation": "City A in June 2017 = 20. Thus, 40 came to City B in June 2017. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "What was the approximate average rate of monthly change in tourist numbers to City B over the 6 months?",
+              "type": "Multiple Choice",
+              "options": [
+                "+0.4 tourists",
+                "-0.4 tourists",
+                "+0.33 tourists",
+                "-0.33 tourists"
+               ],
+              "answer": "B",
+              "explanation": "Instead of calculating the change each month, we can just use the start and end values and divide by 5 (not 6, as there are 5 instances where the monthly value changes, but there are 6 months). Thus, (12 – 14)/5 = -0.4. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "How much greater was the net change in tourist numbers to City A than City B, from June to September?",
+              "type": "Multiple Choice",
+              "options": [
+                "2 tourists",
+                "5 tourists",
+                "7 tourists",
+                "9 tourists"
+               ],
+              "answer": "C",
+              "explanation": "June-September Net Change for City A = +5. June-September Net Change or City B = -2. Thus, the net change from June to September for City A compared to City B would be +7. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 10
+          },
+
+          {
+              "text": "If the average monthly increase in tourists for City A from June-September continued to December, how many tourists would there have been in November in City A (rounding your answer down)?",
+              "type": "Multiple Choice",
+              "options": [
+                "16 tourists",
+                "17 tourists ",
+                "18 tourists",
+                "19 tourists"
+               ],
+              "answer": "C",
+              "explanation": "Average monthly increase June-Sep = (15 – 10)/3 = 1.666… tourists/month. Thus, 15 + 1.666… + 1.666… = 18.333… tourists in November. Therefore, the correct answer is C, rounding down.",
+              "difficulty": 1,
+              "category_id": 11
+          }
+          ]
+        },
+          
+        {
+          "text": "The following graph shows the number of jewellery products sold by a store in April and October of 2018. In 2019, 450 earrings were sold in April.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/3.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What was the percentage increase in earrings sold in April from 2018 to 2019?",
+              "type": "Multiple Choice",
+              "options": [
+                "100%",
+                "200%",
+                "300%",
+                "400%"
+               ],
+              "answer": "B",
+              "explanation": "(450 – 150)/150 * 100 = 200%. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If necklaces were sold for an average of $100/necklace how much revenue did the store raise from selling necklaces in April and October?",
+              "type": "Multiple Choice",
+              "options": [
+                "$225",
+                "$2,250",
+                "$22,500",
+                "$225,000"
+               ],
+              "answer": "C",
+              "explanation": "Necklaces in April + October = 100 + 125 = 225 necklaces. Thus, total revenue = 225*100 = $22,500. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "By how much did the quantity of sales of earrings change from April to October, to the nearest percent?",
+              "type": "Multiple Choice",
+              "options": [
+                "-16%",
+                "-17%",
+                "+16%",
+                "+17%"
+               ],
+              "answer": "B",
+              "explanation": "(125 – 150)/150 * 100 = -16.666…% = -17%. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If in 2017 a total of 1500 units of jewellery were sold in April and October from the store, how much did the number of units sold in 2018 change from 2017 as a percentage of the total units sold in 2017 (approximately)?",
+              "type": "Multiple Choice",
+              "options": [
+                "40% increase",
+                "40% decrease",
+                "60% increase",
+                "60% decrease "
+               ],
+              "answer": "B",
+              "explanation": "Total units sold in 2018 = 150+125+100+125+90+110+125+75 = 900 units. Thus, (1500 – 900)/1500 * 100 = 40% decrease. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]
+        },
+  
+        {
+          "text": "The following table highlights the average salary of a person with different educational qualifications. A Masters degree is higher than a Graduate degree. (note: Overall is not an educational qualification)",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/4.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What is the average salary of a female with Bachelors degree as a percentage of the average salary of a male with a Graduate degree (to the nearest percent)?",
+              "type": "Multiple Choice",
+              "options": [
+                "60%",
+                "90%",
+                "50%",
+                "70%"
+               ],
+              "answer": "A",
+              "explanation": "Female with Bachelors degree = 52,838 dollars. Male with Graduate degree = 88,199 dollars. Thus, 52,838/88,199 * 100 = 59.9…% = 60%. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What is the average salary of a male with a High School graduation or higher?",
+              "type": "Multiple Choice",
+              "options": [
+                "$48,705.00",
+                "$41,341.50",
+                "$56,267.50",
+                "$59.489.00"
+               ],
+              "answer": "C",
+              "explanation": "(32,238 + 41,069 + 63,564 + 88,199)/4 = $56,267.50. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "By how what percentage does the average salary of a female with a Bachelors degree increase when she gets a Graduate degree?",
+              "type": "Multiple Choice",
+              "options": [
+                "28%",
+                "29%",
+                "30%",
+                "31%"
+               ],
+              "answer": "B",
+              "explanation": "Percentage increase = (68,414 – 52,838)/52,838 * 100 = 29.478…% = 29%. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the increase in average salary for a male per increase in the level of education follows the same trend in the table as the educational qualifications increase, what would the average salary be for a Masters degree for a male?",
+              "type": "Multiple Choice",
+              "options": [
+                "$101,243",
+                "$101,234",
+                "$104,405",
+                "$104,504"
+               ],
+              "answer": "D",
+              "explanation": "We can calculate the average increase per increase in education level as (88,199 – 22,979)/4 = $16,305/education level (only divide by 4 not 5 because there are 4 changes in salary, in between 5 salaries). Thus, 88,199 + 16,305 = $104,504 for Masters for males. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 11
+          }
+          ]  
+        },        
+        
+        {
+          "text": "The table below shows the average base salaries of different staff in a company as well as their average bonuses. Note that total salary = base salary + bonus",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/5.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "On average, how much more do supervisors earn as a base salary per annum than support staff across all functions, in pounds to the nearest pound?",
+              "type": "Multiple Choice",
+              "options": [
+                "104,630",
+                "71,130",
+                "26,158",
+                "20,926"
+               ],
+              "answer": "C",
+              "explanation": "Average of total supervisor salaries = (45,100+37,270+40,450+52,940)/4 = 43,940 pounds. Average of total support staff salaries = (18,680+14,780+21,670+16,000)/4 = 17,782.50 pounds. Thus, the difference is 43,940 – 17,782.50 = 26,157.50 pounds less. Therefore, the closest correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What percentage of an IT supervisor’s annual total salary is composed of a bonus on average?",
+              "type": "Multiple Choice",
+              "options": [
+                "7.83%",
+                "8.50%",
+                "8.94%",
+                "9.45%"
+               ],
+              "answer": "A",
+              "explanation": "4500/(52,940+4500) * 100 = 7.834…%. Therefore, the closest correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "How much greater is the average bonus per annum in the Finance function than the Manufacturing function, in pounds?",
+              "type": "Multiple Choice",
+              "options": [
+                "975",
+                "1,950",
+                "3,425",
+                "2,450"
+               ],
+              "answer": "A",
+              "explanation": "Finance average bonus = (5370 + 1480)/2 = 3,425 pounds. Manufacturing average bonus = (3600 + 1300)/2 = 2,450 pounds. Thus, 3,425 – 2,450 = 975 pounds higher. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "What is the ratio between a manufacturing support staff’s bonus to that of an IT support staff’s?",
+              "type": "Multiple Choice",
+              "options": [
+                "8:13",
+                "13:8",
+                "4:9",
+                "9:4"
+               ],
+              "answer": "B",
+              "explanation": "Manuf. Support bonus : IT Support bonus = 1300:800 = 13:8. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ] 
+        },
+  
+        {
+          "text": "The following table shows the percentage of male and female daily cigarette smokers as a percentage of the age group population. From November 2009 to February 2010, the number of people surveyed was 100,000. The percentages in the tables do not account for those under 15. The percentages in the Overall column refer to the percentages of each age group in the population surveyed.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/6.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "From November 2009 to February 2010, how many people 50 and over smoked cigarettes, to the nearest person?",
+              "type": "Multiple Choice",
+              "options": [
+                "4,000",
+                "9,100",
+                "14,300",
+                "23,400"
+               ],
+              "answer": "D",
+              "explanation": "People 50+ = 14.3% + 9.1% = 23.4%. Thus, the total number of people surveyed who were 50+ and smoked = 0.234*100,000 = 23,400 people. Therefore, the correct answer is D. ",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "How many people who were surveyed were under 30 years old?",
+              "type": "Multiple Choice",
+              "options": [
+                "53,000",
+                "47,000",
+                "12,800",
+                "14,500"
+               ],
+              "answer": "B",
+              "explanation": "People 30 and over = 15.6% + 14% + 14.3% + 9.1% = 53%. Thus, we know that 47% are under 30. Thus, 47% of 100,000 is 47,000. Therefore, the correct answer is B (we do not know the percentage of those under 15, but that is the only category missing from the table so we can infer that the remainder, which is 34.2%, is allocated to that age group). ",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the number of people surveyed is a quarter of the total population, and the statistics remain true for the whole population, how many people in the whole population are 60 or older?",
+              "type": "Multiple Choice",
+              "options": [
+                "9,100",
+                "10,869",
+                "36,400",
+                "80,390"
+               ],
+              "answer": "C",
+              "explanation": "Total population = 400,000. Those 60 and over would be 9.1% of 400,000, which equals 36,400 people. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "What is the closest ratio of females 15-19 years old who smoke and males 15-19 years old who smoke?",
+              "type": "Multiple Choice",
+              "options": [
+                "8:27",
+                "27:8",
+                "21:7",
+                "7:21"
+               ],
+              "answer": "A",
+              "explanation": "We can just use the percentages given, so females:males = 0.8:2.7, which as a decimal is 3.375. Therefore, the closest ratio given would be A (although you can just multiply 0.8 and 2.7 by 10 to get the same ratio). Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 10
+          }
+          ]  
+        }, 
+
+        {
+          "text": "John goes fishing alone on a lake. There are 500 fish in the lake when he arrives, and he catches fish at a consistent rate of 20 fish/hour. He keeps all the fish he catches.",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "If John goes fishing for 15 hours, what percentage of the fish in the lake would be left when he leaves?",
+              "type": "Multiple Choice",
+              "options": [
+                "20%",
+                "30%",
+                "40%",
+                "60% "
+               ],
+              "answer": "C",
+              "explanation": "15*20 = 300 fish in 15 hours. Thus, we can calculate that there would be 500 -300 = 200 fish left, which is 200/500 * 100 = 40%. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "If John decides to release every 10th fish he catches back into the river, how many fish would be left in the lake when he leaves after fishing for 10 hours?",
+              "type": "Multiple Choice",
+              "options": [
+                "180 fish",
+                "200 fish",
+                "300 fish",
+                "320 fish"
+               ],
+              "answer": "D",
+              "explanation": "If he decides to put back every 10th fish he catches that means he would catch 18 fish an hour instead of 20. Thus, 18*10 = 180 fish caught after 10 hours. Thus there would be 500 – 180 = 320 fish left. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 13
+          }
+          ]
+        },
+  
+        {
+          "text": "Mary has an investment property in the city. The value of the property doubles every year, regardless if there are other large-scale changes to the value of properties. ",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/7.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "If Mary bought the property for $145,000 in 2011, how much would it be worth in 2015?",
+              "type": "Multiple Choice",
+              "options": [
+                "$725,000",
+                "$900,000",
+                "$1,160,000",
+                "$2,320,000"
+               ],
+              "answer": "D",
+              "explanation": "If it doubles from 2011 to 2012 to 2013 to 2014 to 2015, that means it doubles 4 times. Therefore, 145,000*2*2*2*2 = 2,320,000 dollars. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "If the value of the property was $421,000 in 2009, and in 2012 there was a crash where all property prices fell be 50%, how much would her property be worth in 2013?",
+              "type": "Multiple Choice",
+              "options": [
+                "$1,354,000",
+                "$1,684,000",
+                "$3,368,000",
+                "$6,736,000"
+               ],
+              "answer": "C",
+              "explanation": "In 2012, her property would be worth 421,000*2*2*2 = 3,368,000 dollars. If it then falls by 50%, it would be worth 1,684,000. However, it would still double in 2012, so by 2013 it would be worth 3,368,000 dollars. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]  
+        },
+
+        {
+          "text": "The table below includes the local council’s in London with the greatest percentage rise in population from 2010 to 2017. Note: not all the inner councils and outer councils are listed in the table.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/8.PNG",
+          "layout": "normal",
+          "questions": [
+            {
+              "text": "What was the mean population change in the Inner London councils listed above?",
+              "type": "Multiple Choice",
+              "options": [
+                "21, 731",
+                "23, 515",
+                "26, 734",
+                "28, 832"
+               ],
+              "answer": "C",
+              "explanation": "Inner councils = Richmond, City of London, Brighton, Kingston, Camden. Thus, the overall populations for these inner councils combined would be 7,375+220,338+206,125+254,096+219,396 = 907,330 in 2010, and 9,400+246,200+232,900+304,900+247,600 = 1,041,000. Thus, the average change in population from 2010 to 2017 would be (1,041,000 – 907,330)/5 = 26,734. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 11
+          },
+
+          {
+              "text": "The population of Camden rose by what percentage?",
+              "type": "Multiple Choice",
+              "options": [
+                "12.9%",
+                "11.3%",
+                "11.4%",
+                "12.9%"
+               ],
+              "answer": "A",
+              "explanation": "(247,600 – 219,396)/219,396 * 100 = 12.855…% = 12.9%. Therefore, the correct answer is A.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "Richmond’s population rose by what percentage from 2000 to 2017?",
+              "type": "Multiple Choice",
+              "options": [
+                "24.83%",
+                "27.46%",
+                "29.02%",
+                "30.81%"
+               ],
+              "answer": "D",
+              "explanation": "From 2000 to 2010 = 2.63%. Thus, we can deduce that the population in Richmond in 2000 would have been 7,375/1.0263 = 7,186. Thus, from 2000 to 2017, the population increase would = (9,400 – 7,186)/7,186 * 100 = 30.809…% = 30.81%. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 9
+          },
+
+          {
+              "text": "The three Outer London councils listed account for how much of the population growth of Outer London?",
+              "type": "Multiple Choice",
+              "options": [
+                "13.17%",
+                "14.86%",
+                "18.67%",
+                "20.59%"
+               ],
+              "answer": "D",
+              "explanation": "Population growth of Outer London = 5,258,600 – 4,942,040 = 316,560. Growth of the 3 Outer London councils listed = (206,500 + 302,500 + 176,100) – (185,911 + 273,936 + 160,060) = 65,193. Thus, as a percentage, this would be 65,193/316,560 * 100 = 20.594…%. Therefore, the correct answer is D.",
+              "difficulty": 1,
+              "category_id": 9
+          }
+          ]
+        },
+  
+
+        {
+          "text": "The goldfish tank at a display event has a viewing window with a height of 5 m and a length of 2000 cm. The tank extends backwards by 3m. The tank is filled to 50cm below the brim with water and there is nothing covering its top.",
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/QR Images/Mock 7/9.PNG",
+          "layout": "side by side",
+          "questions": [
+            {
+              "text": "What is the volume of water in the tank in cubic metres?",
+              "type": "Multiple Choice",
+              "options": [
+                "20",
+                "240",
+                "270",
+                "292"
+               ],
+              "answer": "C",
+              "explanation": "The height of the water in the tank is 5 – 0.5 = 4.5m. The length is 20m, and the depth/width is 3m. Thus, the volume = 4.5*20*3 = 270 cubic metres. Therefore, the correct answer is C.",
+              "difficulty": 1,
+              "category_id": 2
+          },
+
+          {
+              "text": "On a hot summer’s day, 6 cubic metres of water evaporates from the tank. What is the percentage change in the depth of the water?",
+              "type": "Multiple Choice",
+              "options": [
+                "2%",
+                "4%",
+                "5%",
+                "6%"
+               ],
+              "answer": "A",
+              "explanation": "The height of the water in the tank is 5 – 0.5 = 4.5m. The length is 20m, and the depth/width is 3m. Thus, the volume = 4.5*20*3 = 270 cubic metres (Q33). Thus, if 6 cubic metres evaporates, the percentage loss is 6/270 * 100 = 2.222… = 2%. Therefore, the correct answer is A. ",
+              "difficulty": 1,
+              "category_id": 2
+          },
+
+          {
+              "text": "The goldfish is 200cm long. It starts with its tail touching one end of the tank and swims at a constant speed of 2 m per second until its head touches the far side of the tank. How long does it take to traverse the tank?",
+              "type": "Multiple Choice",
+              "options": [
+                "5.4s",
+                "7.2s",
+                "9.0s",
+                "10.0s"
+               ],
+              "answer": "C",
+              "explanation": "The goldfish is 2m long. Given the length of the tank is 20m, and that the goldfish would already take up 2m, that means it has 18m left to traverse. Therefore at 2m/s, it would take 9 seconds to traverse the rest of the tank before its head hits the wall. Therefore, the correct answer is C. ",
+              "difficulty": 1,
+              "category_id": 13
+          },
+
+          {
+              "text": "The display owners wish to tint the glass. They must coat the inside and outside of the tank with blue tint, which costs $17 per pot. Each pot covers 25 sq metres of glass. How much will it cost to tint the glass in its entirety?",
+              "type": "Multiple Choice",
+              "options": [
+                "$197.20",
+                "$204",
+                "$221.20",
+                "$272"
+               ],
+              "answer": "B",
+              "explanation": "The surface area of the tank (minus the top which is open), would be (5*20)*2 + (3*20) + (5*3)*2 = 290 metres squared. If each pot dovers 25 sq metres, then 290/25 = 11.6 pots will be required, which means they will need to purchase 12 pots. Thus, 12*17 = $204. Therefore, the correct answer is B.",
+              "difficulty": 1,
+              "category_id": 12
+          }
+          ]   
+        }
+        
+      ]
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+  "exam": {
+    "name": "AR Section Mock 1",
+    "description": "Section Mock",
+    "type": "Mock",
+    "time": 13
+  },
+  "sections": [
+    {
+      "name": "Abstract Reasoning",
+      "time": 13,
+      "stems": [
+        
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_01.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_01aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "B",
+              "explanation": "Set A: The line starts in the bottom left corner and ends in the top right corner <br/> Set B: The line starts in the top left corner and ends in the bottom right corners",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_01bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "B",
+              "explanation": "Set A: The line starts in the bottom left corner and ends in the top right corner <br/> Set B: The line starts in the top left corner and ends in the bottom right corners",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_02cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: The line starts in the bottom left corner and ends in the top right corner <br/> Set B: The line starts in the top left corner and ends in the bottom right corners",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_02D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: The line starts in the bottom left corner and ends in the top right corner <br/> Set B: The line starts in the top left corner and ends in the bottom right corners",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_02E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "C",
+              "explanation": "Set A: The line starts in the bottom left corner and ends in the top right corner <br/> Set B: The line starts in the top left corner and ends in the bottom right corners",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_03.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_03aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "B",
+              "explanation": "Set A: The 3 digits go in increasing order from left to right <br/> Set B: The 3 digits go in decreasing order from left to right",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_03bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: The 3 digits go in increasing order from left to right <br/> Set B: The 3 digits go in decreasing order from left to right",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_04cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: The 3 digits go in increasing order from left to right <br/> Set B: The 3 digits go in decreasing order from left to right",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_04D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: The 3 digits go in increasing order from left to right <br/> Set B: The 3 digits go in decreasing order from left to right",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_04E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "C",
+              "explanation": "Set A: The 3 digits go in increasing order from left to right <br/> Set B: The 3 digits go in decreasing order from left to right",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+        
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_05.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_05aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: For every sad face, there are 2 neutral faces<br/> Set B: There are 2 more sad faces than neutral faces",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_05bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "B",
+              "explanation": "Set A: For every sad face, there are 2 neutral faces<br/> Set B: There are 2 more sad faces than neutral faces",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_06cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: For every sad face, there are 2 neutral faces<br/> Set B: There are 2 more sad faces than neutral faces",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_06D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "C",
+              "explanation": "Set A: For every sad face, there are 2 neutral faces<br/> Set B: There are 2 more sad faces than neutral faces",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_06E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "B",
+              "explanation": "Set A: For every sad face, there are 2 neutral faces<br/> Set B: There are 2 more sad faces than neutral faces",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_07.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_07aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: The number of triangles is greater than the number of squares <br/> Set B: The number of circles is greater than the number of pentagons",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_07bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "B",
+              "explanation": "Set A: The number of triangles is greater than the number of squares <br/> Set B: The number of circles is greater than the number of pentagons",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_08cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: The number of triangles is greater than the number of squares <br/> Set B: The number of circles is greater than the number of pentagons",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_08D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: The number of triangles is greater than the number of squares <br/> Set B: The number of circles is greater than the number of pentagons",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_08E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "C",
+              "explanation": "Set A: The number of triangles is greater than the number of squares <br/> Set B: The number of circles is greater than the number of pentagons",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_09.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_09aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: Letter has a line of symmetry <br/> Set B: Letter has no line of symmetry",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_09bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: Letter has a line of symmetry <br/> Set B: Letter has no line of symmetry",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_10cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: Letter has a line of symmetry <br/> Set B: Letter has no line of symmetry",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_10D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: Letter has a line of symmetry <br/> Set B: Letter has no line of symmetry",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_10E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "A",
+              "explanation": "Set A: Letter has a line of symmetry <br/> Set B: Letter has no line of symmetry",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_11.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_11aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: If the letter has a vertical line of symmetry, the number is even; if the letter has no line of symmetry the number of odd <br/> Set B: If the letter has a horizontal line of symmetry, the number is odd; if the letter has no line of symmetry, the number is even",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_11bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: If the letter has a vertical line of symmetry, the number is even; if the letter has no line of symmetry the number of odd <br/> Set B: If the letter has a horizontal line of symmetry, the number is odd; if the letter has no line of symmetry, the number is even",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_12cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: If the letter has a vertical line of symmetry, the number is even; if the letter has no line of symmetry the number of odd <br/> Set B: If the letter has a horizontal line of symmetry, the number is odd; if the letter has no line of symmetry, the number is even",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_12D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: If the letter has a vertical line of symmetry, the number is even; if the letter has no line of symmetry the number of odd <br/> Set B: If the letter has a horizontal line of symmetry, the number is odd; if the letter has no line of symmetry, the number is even",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_12E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "B",
+              "explanation": "Set A: If the letter has a vertical line of symmetry, the number is even; if the letter has no line of symmetry the number of odd <br/> Set B: If the letter has a horizontal line of symmetry, the number is odd; if the letter has no line of symmetry, the number is even",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_13.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_13aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: Shapes add up to 4 squares <br/> Set B: Shapes add up to 3 squares",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_13bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: Shapes add up to 4 squares <br/> Set B: Shapes add up to 3 squares",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_14cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: Shapes add up to 4 squares <br/> Set B: Shapes add up to 3 squares",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_14D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: Shapes add up to 4 squares <br/> Set B: Shapes add up to 3 squares",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_14E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "C",
+              "explanation": "Set A: Shapes add up to 4 squares <br/> Set B: Shapes add up to 3 squares",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_15.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_15aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "A",
+              "explanation": "Set A: Total number sides of the black shapes all add up to an even number <br/> Set B: Total number of sides of the black shapes add up to an odd number",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_15bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "B",
+              "explanation": "Set A: Total number sides of the black shapes all add up to an even number <br/> Set B: Total number of sides of the black shapes add up to an odd number",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_16cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: Total number sides of the black shapes all add up to an even number <br/> Set B: Total number of sides of the black shapes add up to an odd number",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_16D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: Total number sides of the black shapes all add up to an even number <br/> Set B: Total number of sides of the black shapes add up to an odd number",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_16E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "A",
+              "explanation": "Set A: Total number sides of the black shapes all add up to an even number <br/> Set B: Total number of sides of the black shapes add up to an odd number",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_17.jpg",
+          "category_id": 15,
+          "questions": [
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_17aA.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: Opposite shapes are the same colour, shapes that are the same type are adjacent <br/> Set B: Opposite shapes are the same type, shapes that are the same colour are adjacent",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_17bB.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                "Set A",
+                "Set B",
+                "Neither"
+              ],
+              "answer": "C",
+              "explanation": "Set A: Opposite shapes are the same colour, shapes that are the same type are adjacent <br/> Set B: Opposite shapes are the same type, shapes that are the same colour are adjacent",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_18cC.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "A",
+              "explanation": "Set A: Opposite shapes are the same colour, shapes that are the same type are adjacent <br/> Set B: Opposite shapes are the same type, shapes that are the same colour are adjacent",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_18D.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                  "Set A",
+                  "Set B",
+                  "Neither"
+                ],
+              "answer": "B",
+              "explanation": "Set A: Opposite shapes are the same colour, shapes that are the same type are adjacent <br/> Set B: Opposite shapes are the same type, shapes that are the same colour are adjacent",
+              "difficulty": 1
+            },
+            {
+              "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_18E.jpg",
+              "type": "Multiple Choice",
+              "options": [
+                    "Set A",
+                    "Set B",
+                    "Neither"
+                  ],
+              "answer": "C",
+              "explanation": "Set A: Opposite shapes are the same colour, shapes that are the same type are adjacent <br/> Set B: Opposite shapes are the same type, shapes that are the same colour are adjacent",
+              "difficulty": 1,
+              "category_id": 15
+            }
+        ]
+        },
+
+
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_19.jpg",
+          "category_id": 17,
+          "questions": [
+            {
+              "text": "Which figure completes the statement?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_19a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_19b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_19c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_19d.jpg"
+              ],
+              "answer": "C",
+              "explanation": "The number of points on the star = the number of arrowheads",
+              "difficulty": 1
+            }
+          ]
+        },
+
+        {
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_20.jpg",
+            "category_id": 17,
+            "questions": [
+              {
+                "text": "Which figure completes the statement?",
+                "type": "Multiple Choice",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "option_images": [
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_20a.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_20b.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_20c.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_20d.jpg"
+                ],
+                "answer": "D",
+                "explanation": "The number of curved sides in the first shape + 1 = the number of straight sides in the second shape",
+                "difficulty": 1
+              }
+            ]
+        },
+        
+        {
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_21.jpg",
+            "category_id": 17,
+            "questions": [
+              {
+                "text": "Which figure completes the statement?",
+                "type": "Multiple Choice",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "option_images": [
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_21a.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_21b.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_21c.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_21d.jpg"
+                ],
+                "answer": "D",
+                "explanation": "Black goes to grey, grey goes to white, white goes to black",
+                "difficulty": 1
+              }
+            ]
+        },
+        
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_22.jpg",
+          "category_id": 16,
+          "questions": [
+            {
+              "text": "Which figure completes the series?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_22a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_22b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_22c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_22d.jpg"
+              ],
+              "answer": "C",
+              "explanation": "The number of enclosed spaces alternates between even and odd",
+              "difficulty": 1
+            }
+          ]
+        },
+        
+        {
+            "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_23.jpg",
+            "category_id": 16,
+            "questions": [
+              {
+                "text": "Which figure completes the series?",
+                "type": "Multiple Choice",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "option_images": [
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_23a.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_23b.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_23c.jpg",
+                  "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_23d.jpg"
+                ],
+                "answer": "D",
+                "explanation": "The number of enclosed spaces doubles each time",
+                "difficulty": 1
+              }
+            ]
+        },
+
+
+
+        {
+          "image": "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24.jpg",
+          "category_id": 18,
+          "questions": [
+            {
+              "text": "Which of the following test shapes belong in Set B?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24 1a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24 1b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24 1c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24 1d.jpg"
+              ],
+              "answer": "B",
+              "explanation": "Set A: There are 3 corners in the arrow’s line, arrows never point upwards <br/> Set B: There are 5 corners in the arrow’s line, arrows never point downwards",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following test shapes belong in Set B?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24 2a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24 2b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24 2c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_24 2d.jpg"
+              ],
+              "answer": "C",
+              "explanation": "Set A: There are 3 corners in the arrow’s line, arrows never point upwards <br/> Set B: There are 5 corners in the arrow’s line, arrows never point downwards",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following test shapes belong in Set A?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+                ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 3a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 3b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 3c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 3d.jpg"
+              ],
+              "answer": "B",
+              "explanation": "Set A: There are 3 corners in the arrow’s line, arrows never point upwards <br/> Set B: There are 5 corners in the arrow’s line, arrows never point downwards",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following test shapes belong in Set A?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 4a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 4b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 4c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 4d.jpg"
+              ],
+              "answer": "C",
+              "explanation": "Set A: There are 3 corners in the arrow’s line, arrows never point upwards <br/> Set B: There are 5 corners in the arrow’s line, arrows never point downwards",
+              "difficulty": 1
+            },
+            {
+              "text": "Which of the following test shapes belong in Set A?",
+              "type": "Multiple Choice",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "option_images": [
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 5a.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 5b.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 5c.jpg",
+                "https://in2med.com.au/wp-content/uploads/2021/01/Question Images (Upload)/AR Images/Mocks/Mock 3/AR Mock 3_Page_25 5d.jpg"
+              ],
+              "answer": "B",
+              "explanation": "Set A: There are 3 corners in the arrow’s line, arrows never point upwards <br/> Set B: There are 5 corners in the arrow’s line, arrows never point downwards",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

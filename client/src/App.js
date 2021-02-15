@@ -17,8 +17,8 @@ import Loading from './components/Shared/Loading'
 
 import { getUser } from './actions/auth'
 
-import { import_exam } from './api/db'
 import Import from './screens/Import';
+import { HotKeys } from "react-hotkeys";
 
 const mapDispatchToProps = { getUser }
 
@@ -42,11 +42,13 @@ const App = (props) => {
     setLoading(false)
   }, [])
 
+
   if (loading) {
     return <Loading />
   }
 
   return (
+
     <ThemeProvider theme={theme}>
       <div id="root">
         <Router>
