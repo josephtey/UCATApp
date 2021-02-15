@@ -558,6 +558,7 @@ export const startPractice = (category_id, topic, student_id, question_length) =
       dispatch(startPracticeSuccess(currentSession))
 
     } else {
+      alert("Insufficient questions to start practice.")
       dispatch(startPracticeError("Insufficient questions left."));
     }
 

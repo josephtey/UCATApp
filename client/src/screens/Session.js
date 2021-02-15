@@ -83,7 +83,7 @@ const Timer = ({
   if (!timerStop) {
     return (
       <>
-        {timeLeft[1]}:{timeLeft[2]} left
+        {timeLeft[1].toString().padStart(2, "0")}:{timeLeft[2].toString().padStart(2, "0")} left
       </>
     )
   } else {

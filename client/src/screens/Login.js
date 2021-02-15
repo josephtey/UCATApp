@@ -66,12 +66,26 @@ const Login = (props) => {
               />
             </span>
           </LoginBox>
+
+          <LoginSubtext>
+            Welcome to the UCAT Question Bank! <br /><br /> Login with the same email and password you used for your account.
+            <br /><br />
+            If you have any issues, feel free to contact us at contactus@in2med.com.au!
+          </LoginSubtext>
         </>
       }
 
     </Container>
   )
 }
+
+const LoginSubtext = styled.div`
+  color: grey;
+  width: 500px;
+  margin-top: 30px;
+  text-align: center;
+`
+
 const LoadingContainer = styled.div`
   margin: 70px 0;
 `
@@ -108,6 +122,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 `
 
 const ErrorMessage = styled.div`
