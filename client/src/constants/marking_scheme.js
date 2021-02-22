@@ -182,4 +182,5 @@ export const decision_making_scheme = {
   29: 900
 }
 
+export const situational_judgement_section_name = "Situational Judgement"
 

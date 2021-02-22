@@ -29,7 +29,8 @@ import {
   verbal_reasoning_section_name,
   verbal_reasoning_scheme,
   decision_making_section_name,
-  decision_making_scheme
+  decision_making_scheme,
+  situational_judgement_section_name
 } from '../constants/marking_scheme'
 
 export const CREATE_RESPONSE_REQUEST = 'CREATE_RESPONSE_REQUEST';
@@ -477,7 +478,9 @@ export const finishSession = (session_id, examDetail) => async dispatch => {
           break;
       }
 
-      score += scoreBreakdown[examDetail.section_order[i].toString() + '_scaled']
+      if (sectionDetail.details.name !== situational_judgement_section_name || examDetail.section_order.length === 1) {
+        score += scoreBreakdown[examDetail.section_order[i].toString() + '_scaled']
+      }
     }
 
     const finishedSession = await db_updateSession(session_id, {

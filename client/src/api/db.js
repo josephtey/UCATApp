@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const db = axios.create({
   // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000'
-  baseURL: 'http://ec2-13-239-117-211.ap-southeast-2.compute.amazonaws.com:3000'
+  baseURL: 'http://localhost:3000'
   // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000'
 });
 
@@ -161,9 +161,11 @@ export const db_userExists = async (username) => {
 export const db_createUser = async (username, display_name, roles) => {
   const response = await db.post('/users', {
     username,
-    display_name,
+    display_name: display_name ? display_name : null,
     roles
   })
+
+  console.log(response)
 
   return response.data
 }

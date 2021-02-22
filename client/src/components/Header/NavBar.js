@@ -33,7 +33,7 @@ const NavBar = (props) => {
 
       <UserInfo>
         <span style={{ 'opacity': '0.7' }}>Welcome,</span>
-        <span style={{ 'font-size': '20px', 'font-weight': 'bold', 'margin-bottom': '10px' }}>{props.auth.userData.display_name}</span>
+        <span style={{ 'font-size': '20px', 'font-weight': 'bold', 'margin-bottom': '10px' }}>{props.auth.userData.display_name ? props.auth.userData.display_name : props.auth.userData.username}</span>
         <span
           style={{ 'opacity': '0.7', 'text-align': 'right', 'width': '100%', 'cursor': 'pointer' }}
           onClick={() => {
@@ -61,14 +61,6 @@ const NavBar = (props) => {
           }}
         >
           Section Mocks
-        </NavItem>
-        <NavItem
-          active={props.location.pathname.includes("practice")}
-          onClick={() => {
-            props.history.push('/practice')
-          }}
-        >
-          Practice
         </NavItem>
 
         {props.auth.userData.roles.includes("administrator") ?
