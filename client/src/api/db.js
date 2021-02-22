@@ -3,7 +3,7 @@ import axios from 'axios'
 const db = axios.create({
   // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000'
   // baseURL: 'http://localhost:3000'
-  baseURL: 'http://ec2-13-239-117-211.ap-southeast-2.compute.amazonaws.com'
+  baseURL: 'http://ec2-13-239-117-211.ap-southeast-2.compute.amazonaws.com:3000'
   // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000'
 });
 
