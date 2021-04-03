@@ -62,6 +62,14 @@ const NavBar = (props) => {
         >
           Section Mocks
         </NavItem>
+        <NavItem
+          active={props.location.pathname.includes("practice")}
+          onClick={() => {
+            props.history.push('/practice')
+          }}
+        >
+          Practice
+        </NavItem>
 
         {props.auth.userData.roles.includes("administrator") ?
           <NavItem

@@ -70,7 +70,7 @@ const Login = (props) => {
           <LoginSubtext>
             Welcome to the UCAT Question Bank! <br /><br /> Login with the same email and password you used for your <b>in2med.com.au</b> account.
             <br /><br />
-            If you have any issues, feel free to contact us at contactus@in2med.com.au!
+            If you have any issues, feel free to contact us at contactus@in2med.com.au
           </LoginSubtext>
         </>
       }
