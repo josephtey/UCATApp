@@ -5,7 +5,9 @@ class UsersRepository {
     this.db = db;
     this.pgp = pgp;
   }
-
+  async total() {
+    return this.db.query(sql.total)
+  }
   async add(data) {
     return this.db.one(sql.add, data)
   }

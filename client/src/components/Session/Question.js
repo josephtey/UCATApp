@@ -269,7 +269,12 @@ const Question = (props) => {
               :
               <LinkRight
                 onClick={() => {
-                  document.getElementById("modalClose").click()
+                  const modal = document.getElementById("modalClose")
+
+                  if (modal) {
+                    document.getElementById("modalClose").click()
+                  }
+
 
                   props.reviewSection(props.session.currentSession.session_id)
                 }}

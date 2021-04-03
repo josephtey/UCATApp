@@ -4,6 +4,16 @@ const { db } = require('../db');
 
 const router = express.Router()
 
+router.get('/', async function (req, res, next) {
+  try {
+    let result = await db.users.total()
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
 
 router.get('/:username', async function (req, res, next) {
   try {

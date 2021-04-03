@@ -99,6 +99,7 @@ const Timer = ({
 const Session = (props) => {
   const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
   const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
+  const [explanationModalIsOpen, setExplanationModalIsOpen] = useState(false);
 
   const handlers = {
     SHOW_CALCULATOR: () => {
@@ -214,7 +215,14 @@ const Session = (props) => {
                 setCalculatorModalIsOpen={setCalculatorModalIsOpen}
               />
               : props.session.mode === "answer" ?
-                <Answer />
+                <Answer
+                  scratchpadModalIsOpen={scratchpadModalIsOpen}
+                  setScratchpadModalIsOpen={setScratchpadModalIsOpen}
+                  calculatorModalIsOpen={calculatorModalIsOpen}
+                  setCalculatorModalIsOpen={setCalculatorModalIsOpen}
+                  setExplanationModalIsOpen={setExplanationModalIsOpen}
+                  explanationModalIsOpen={explanationModalIsOpen}
+                />
                 : props.session.mode === "start" ?
                   <Start
                     returnHome={() => {

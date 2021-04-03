@@ -52,6 +52,7 @@ module.exports = {
     find_completed: sql('responses/find_completed.sql')
   },
   users: {
+    total: sql('users/total.sql'),
     add: sql('users/add.sql'),
     find: sql('users/find.sql')
   },

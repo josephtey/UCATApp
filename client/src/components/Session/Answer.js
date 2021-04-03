@@ -4,14 +4,12 @@ import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, 
 import Loading from '../Shared/Loading'
 import styled from 'styled-components'
 import BottomBar from './BottomBar'
-import { RadioBoxAnswer, DragAndDropReview } from '../Shared/Elements'
+import { RadioBoxAnswer, DragAndDropReview, DraggableWindow } from '../Shared/Elements'
 import { useDidMountEffect } from '../../utils/helpers';
 import TopBarSecondary from '../Session/TopBarSecondary'
 import { BiCalculator, BiBook } from "react-icons/bi";
 import Modal from 'react-modal';
-import { TiTimes } from "react-icons/ti";
 import Calculator from '../Calculator/calculator'
-
 
 const mapDispatchToProps = { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, changeMode }
 
@@ -19,23 +17,9 @@ const mapStateToProps = (state) => {
   return state
 }
 
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    margin: '0 20px',
-    transform: 'translate(-50%, -50%)',
-  }
-};
-
 Modal.setAppElement('#root')
 
 const Answer = (props) => {
-  const [explanationModalIsOpen, setExplanationModalIsOpen] = useState(false);
-  const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
-  const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
 
   useDidMountEffect(() => {
     props.getSessionResponses(
@@ -49,6 +33,52 @@ const Answer = (props) => {
 
   return (
     <>
+      <DraggableWindow
+        isOpen={props.calculatorModalIsOpen}
+        setClose={() => {
+          props.setCalculatorModalIsOpen(false)
+        }}
+        title="Calculator"
+      >
+        <Calculator />
+      </DraggableWindow>
+
+      <DraggableWindow
+        isOpen={props.scratchpadModalIsOpen}
+        setClose={() => {
+          props.setScratchpadModalIsOpen(false)
+        }}
+        title="Scratch Pad"
+      >
+        <textarea rows="20" cols="50"></textarea>
+      </DraggableWindow>
+
+      <DraggableWindow
+        isOpen={props.explanationModalIsOpen}
+        setClose={() => {
+          props.setExplanationModalIsOpen(false)
+        }}
+        title="Explanation"
+      >
+        {props.session.currentQuestion.explanation ?
+          <ExplanationText>
+            {props.session.currentQuestion.explanation.split("<br/>").map((para) => {
+              return (
+                <>
+                  {para} <br />
+                </>
+              )
+            })}
+            {}
+          </ExplanationText>
+          :
+          <ExplanationText>
+            There is no explanation for this question.
+            </ExplanationText>
+
+        }
+      </DraggableWindow>
+
       {!props.session.currentStem.layout || props.session.currentStem.layout.toLowerCase() === "side by side" ?
         <Border />
         : null}
@@ -58,91 +88,24 @@ const Answer = (props) => {
             <>
               <TopLink
                 onClick={() => {
-                  setCalculatorModalIsOpen(true)
+                  props.setCalculatorModalIsOpen(true)
                 }}
               >
                 <BiCalculator color="white" size={20} /> Calculator
               </TopLink>
-              <Modal
-                isOpen={calculatorModalIsOpen}
-                onRequestClose={() => {
-                  setCalculatorModalIsOpen(false)
-                }}
-                style={customStyles}
-              >
-                <Calculator />
-              </Modal>
 
               <TopLink
                 onClick={() => {
-                  setScratchpadModalIsOpen(true)
+                  props.setScratchpadModalIsOpen(true)
                 }}
               >
                 <BiBook color="white" size={20} /> Scratch Pad
               </TopLink>
-              <Modal
-                isOpen={scratchpadModalIsOpen}
-                onRequestClose={() => {
-                  setScratchpadModalIsOpen(false)
-                }}
-                style={customStyles}
-              >
-                <ModalTitle>
-                  <ModalText>Scratch Pad</ModalText>
-                  <CloseButton
-                    onClick={() => {
-                      setScratchpadModalIsOpen(false)
-                    }}
-                  >
-                    <TiTimes size={30} />
-                  </CloseButton>
-                </ModalTitle>
-                <textarea rows="20" cols="50"></textarea>
-              </Modal>
-
               <TopLink onClick={() => {
-                setExplanationModalIsOpen(true)
+                props.setExplanationModalIsOpen(true)
               }}>
                 Show Explanation
               </TopLink>
-              <Modal
-                isOpen={explanationModalIsOpen}
-                onRequestClose={() => {
-                  setExplanationModalIsOpen(false)
-                }}
-                style={customStyles}
-              >
-                <ExplanationContent>
-                  <ExplanationTitle>
-                    <ExplanationText>Explanation</ExplanationText>
-                    <CloseButton
-                      onClick={() => {
-                        setExplanationModalIsOpen(false)
-                      }}
-                    >
-                      <TiTimes size={30} />
-                    </CloseButton>
-
-                  </ExplanationTitle>
-                  {props.session.currentQuestion.explanation ?
-                    <ExplanationText>
-                      {props.session.currentQuestion.explanation.split("<br/>").map((para) => {
-                        return (
-                          <>
-                            {para} <br />
-                          </>
-                        )
-                      })}
-                      {}
-                    </ExplanationText>
-                    :
-                    <ExplanationText>
-                      There is no explanation for this question.
-                      </ExplanationText>
-
-                  }
-                </ExplanationContent>
-              </Modal>
             </>
           )
         }}
@@ -280,26 +243,14 @@ const Answer = (props) => {
   )
 }
 
-const ExplanationContent = styled.div`
-  margin: 25px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start
-`
 
 const ExplanationText = styled.div`
-
+  padding: 30px;
+  background: white;
+  width: 400px;
+  box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.5);
 `
 
-const ExplanationTitle = styled.div`
-  font-family: arial;
-  font-weight: bold;
-  font-size: 20px;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  width: 100%;
-`
 
 const Container = styled.div`
   padding: 0 30px 0 30px;
