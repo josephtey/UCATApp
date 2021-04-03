@@ -1,0 +1,1 @@
+SELECT count(*) FROM "Responses" WHERE student_id = ${student_id} AND correct = ${correct};

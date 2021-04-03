@@ -54,7 +54,9 @@ module.exports = {
   users: {
     total: sql('users/total.sql'),
     add: sql('users/add.sql'),
-    find: sql('users/find.sql')
+    find: sql('users/find.sql'),
+    category_stats: sql('users/category_stats.sql'),
+    response_stats: sql('users/response_stats.sql')
   },
   stems: {
     find: sql('stems/find.sql'),

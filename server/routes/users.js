@@ -26,6 +26,17 @@ router.get('/:username', async function (req, res, next) {
   }
 });
 
+router.get('/stats/:student_id', async function (req, res, next) {
+  try {
+    let result = await db.users.stats(req.params.student_id)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
 router.post('/', async function (req, res, next) {
   try {
     console.log(req.body)

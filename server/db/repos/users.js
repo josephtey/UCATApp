@@ -17,6 +17,32 @@ class UsersRepository {
       username
     });
   }
+
+  async stats(student_id) {
+    const category_stats_true = await this.db.query(sql.category_stats, {
+      student_id,
+      correct: true
+    })
+    const category_stats_false = await this.db.query(sql.category_stats, {
+      student_id,
+      correct: false
+    })
+    const response_stats_true = await this.db.query(sql.response_stats, {
+      student_id,
+      correct: true
+    })
+    const response_stats_false = await this.db.query(sql.response_stats, {
+      student_id,
+      correct: false
+    })
+
+    return {
+      category_stats_true,
+      category_stats_false,
+      response_stats_true,
+      response_stats_false
+    }
+  }
 }
 
 module.exports = UsersRepository;

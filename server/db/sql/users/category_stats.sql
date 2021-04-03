@@ -1,0 +1,1 @@
+SELECT category_id, COUNT(*) FROM "Responses" INNER JOIN "Questions" on "Responses".question_id = "Questions".question_id WHERE student_id = ${student_id} AND correct = ${correct} GROUP BY category_id;
