@@ -269,6 +269,8 @@ const Question = (props) => {
               :
               <LinkRight
                 onClick={() => {
+                  document.getElementById("modalClose").click()
+
                   props.reviewSection(props.session.currentSession.session_id)
                 }}
               >
