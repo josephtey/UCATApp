@@ -11,6 +11,7 @@ import Session from './screens/Session'
 import Login from './screens/Login'
 import Practice from './screens/Practice'
 import PracticeTopic from './screens/PracticeTopic'
+import Dashboard from './screens/Dashboard'
 
 import NavBar from './components/Header/NavBar'
 import Loading from './components/Shared/Loading'
@@ -19,6 +20,7 @@ import { getUser } from './actions/auth'
 
 import Import from './screens/Import';
 import { HotKeys } from "react-hotkeys";
+
 
 const mapDispatchToProps = { getUser }
 
@@ -62,6 +64,7 @@ const App = (props) => {
                 <Route path={'/practice/:category_id'} component={PracticeTopic} />
                 <Route path='/practice' component={Practice} />
                 <Route path='/import' component={Import} />
+                <Route path='/dashboard' component={Dashboard} />
                 <Route path='/mocks' render={(props) => <Home {...props} type={"Mock"} />} />
                 <Route path='/' render={(props) => <Home {...props} type={"Exam"} />} />
               </Switch>
@@ -73,7 +76,6 @@ const App = (props) => {
           }
         </Router>
       </div>
-
     </ThemeProvider>
   )
 }

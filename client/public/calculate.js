@@ -21,6 +21,7 @@ signButton = document.getElementById("sign");
 mrcButton = document.getElementById("mrc");
 msubtractButton = document.getElementById("msubtract");
 maddButton = document.getElementById("madd");
+closeButton = document.getElementById("modalClose");
 
 stack = [];
 screenClear = false;
@@ -104,9 +105,7 @@ function createStack(stack, operator, screenClear, allowOp) {
   }
 }
 
-
-// Keyboard Shortcuts
-document.addEventListener('keyup', (event) => {
+function onKeyClick(event) {
   const keyName = event.key;
 
   if (keyName === '+') {
@@ -177,6 +176,7 @@ document.addEventListener('keyup', (event) => {
       allowOp = true;
     }
   } else if (["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "."].includes(keyName)) {
+
     const number = keyName
 
     if (output.textContent.charAt(0) === "0" &&
@@ -193,7 +193,15 @@ document.addEventListener('keyup', (event) => {
     }
     allowOp = true;
   }
-}, false);
+
+}
+// Keyboard Shortcuts
+document.addEventListener('keyup', onKeyClick, false);
+
+closeButton.addEventListener('click', () => {
+  document.removeEventListener("keyup", onKeyClick);
+})
+
 
 //Add
 addButton.addEventListener("click", () => {

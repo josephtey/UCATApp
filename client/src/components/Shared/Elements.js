@@ -379,7 +379,7 @@ export const DraggableWindow = ({
         <Window>
           <WindowHeader>
             <div>{title}</div>
-            <div onClick={setClose}>
+            <div onClick={setClose} id="modalClose">
               <AiFillCloseSquare color="white" />
             </div>
           </WindowHeader>
