@@ -38,7 +38,7 @@ const NavBar = (props) => {
           onClick={() => {
             props.history.push('/profile')
           }}
-        >View Profile</span>
+        >View Profile Stats</span>
         <br />
         <span
           style={{ 'opacity': '0.7', 'text-align': 'right', 'width': '100%', 'cursor': 'pointer' }}

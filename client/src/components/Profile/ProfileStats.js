@@ -16,9 +16,6 @@ const ProfileStats = ({
         <Title>
           {student.display_name}
         </Title>
-        <Text>
-          Student Id: {student.student_id}
-        </Text>
       </Header>
 
       <CardList>
