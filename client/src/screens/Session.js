@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import { getQuestionDetail, createSession, createResponse, reviewSection, getSessionResponses, flagResponse, getSessionDetails, resetSessionDetail, finishSession, nextSection } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
-import LogoImage from '../assets/in2medlogo.png'
 
 import Question from '../components/Session/Question'
 import Answer from '../components/Session/Answer'
@@ -96,6 +95,9 @@ const Timer = ({
 
 }
 
+const demoStudentId = 12;
+const demoStructureId = 165;
+
 const Session = (props) => {
   const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
   const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
@@ -142,7 +144,7 @@ const Session = (props) => {
 
   useEffect(() => {
     if (props.demo) {
-      props.createSession(165, 39)
+      props.createSession(demoStructureId, demoStudentId)
     } else {
       props.getSessionDetails(props.match.params.session_id, props.auth.userData.student_id)
     }
@@ -155,7 +157,7 @@ const Session = (props) => {
 
   useEffect(() => {
     if (props.demo && props.session.currentSession && !sessionCreated) {
-      props.getSessionDetails(props.session.currentSession.session_id, 39)
+      props.getSessionDetails(props.session.currentSession.session_id, demoStudentId)
       setSessionCreated(true)
     }
   }, [props.session.currentSession])

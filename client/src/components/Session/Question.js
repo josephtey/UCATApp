@@ -17,6 +17,8 @@ const mapStateToProps = (state) => {
   return state
 }
 
+const demoStudentId = 12;
+
 const Question = (props) => {
 
   useDidMountEffect(() => {
@@ -91,7 +93,7 @@ const Question = (props) => {
                     props.flagResponse(
                       props.session.currentSession.session_id,
                       props.session.currentQuestion.question_id,
-                      props.demo ? 39 : props.auth.userData.student_id,
+                      props.demo ? demoStudentId : props.auth.userData.student_id,
                       props.session.currentSection.section_id,
                       flagged
                     )
@@ -149,7 +151,7 @@ const Question = (props) => {
                     props.createResponse(
                       props.session.currentSession.session_id,
                       props.session.currentQuestion.question_id,
-                      props.demo ? 39 : props.auth.userData.student_id,
+                      props.demo ? demoStudentId : props.auth.userData.student_id,
                       props.session.currentSection.section_id,
                       item,
                       props.session.currentQuestion.answer,
@@ -178,7 +180,7 @@ const Question = (props) => {
                       props.createResponse(
                         props.session.currentSession.session_id,
                         props.session.currentQuestion.question_id,
-                        props.demo ? 39 : props.auth.userData.student_id,
+                        props.demo ? demoStudentId : props.auth.userData.student_id,
                         props.session.currentSection.section_id,
                         item,
                         props.session.currentQuestion.answer,
