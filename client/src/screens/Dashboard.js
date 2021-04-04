@@ -101,13 +101,36 @@ const Dashboard = (props) => {
                 </Card>
               </CardList>
 
-              {props.content.categories.map((category) => {
-                return (
-                  <div>
-                    {category.name}
-                  </div>
-                )
-              })}
+              <br />
+              <CardList>
+                {props.content.categories.map((category) => {
+                  const numCorrect = props.content.studentStats.category_stats_true.find(cat => cat.category_id === category.category_id)
+                  const numWrong = props.content.studentStats.category_stats_false.find(cat => cat.category_id === category.category_id)
+
+                  if (numCorrect || numWrong) {
+                    return (
+                      <Card>
+                        <CardTopCategory>
+                          <div>
+                            {numCorrect ? numCorrect.count : 0} <span style={{ fontSize: '17px' }}>correct</span>
+                          </div>
+
+                          <div>
+                            {numWrong ? numWrong.count : 0} <span style={{ fontSize: '17px' }}>wrong</span>
+                          </div>
+                        </CardTopCategory>
+                        <CardBottom>
+                          {category.name}
+                        </CardBottom>
+
+                      </Card>
+                    )
+                  } else {
+                    return null
+                  }
+
+                })}
+              </CardList>
             </>
             :
             <Text style={{ color: 'rgba(0,0,0,0.3)', marginTop: '40px' }}>Select a student in the dropdown menu above.</Text>
@@ -175,6 +198,13 @@ const CardList = styled.div`
   display: flex;
   margin-top: 20px;
   flex-wrap: wrap;
+`
+
+const CardTopCategory = styled.div`
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Dashboard)
