@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Loading from '../components/Shared/Loading'
 import { getAllStudents, getStudentStats, getCategories } from '../actions/content'
 import Select from 'react-select';
+import ProfileStats from '../components/Profile/ProfileStats'
 import {
   Text
 } from 'rebass'
@@ -61,77 +62,11 @@ const Dashboard = (props) => {
         :
         <>
           {props.content.studentStats && selectedStudent ?
-            <>
-              <Header>
-                <Title>
-                  {selectedStudent.value.display_name}
-                </Title>
-                <Text>
-                  Student Id: {selectedStudent.value.student_id}
-                </Text>
-              </Header>
-
-              <CardList>
-                <Card>
-                  <CardTop>
-                    {parseInt(props.content.studentStats.response_stats_true[0].count) + parseInt(props.content.studentStats.response_stats_false[0].count)}
-                  </CardTop>
-
-                  <CardBottom>
-                    Total Responses
-              </CardBottom>
-                </Card>
-                <Card>
-                  <CardTop>
-                    {props.content.studentStats.response_stats_true[0].count}
-                  </CardTop>
-
-                  <CardBottom>
-                    Correct Responses
-                </CardBottom>
-                </Card>
-                <Card>
-                  <CardTop>
-                    {props.content.studentStats.response_stats_false[0].count}
-                  </CardTop>
-
-                  <CardBottom>
-                    Incorrect Responses
-              </CardBottom>
-                </Card>
-              </CardList>
-
-              <br />
-              <CardList>
-                {props.content.categories.map((category) => {
-                  const numCorrect = props.content.studentStats.category_stats_true.find(cat => cat.category_id === category.category_id)
-                  const numWrong = props.content.studentStats.category_stats_false.find(cat => cat.category_id === category.category_id)
-
-                  if (numCorrect || numWrong) {
-                    return (
-                      <Card>
-                        <CardTopCategory>
-                          <div>
-                            {numCorrect ? numCorrect.count : 0} <span style={{ fontSize: '17px' }}>correct</span>
-                          </div>
-
-                          <div>
-                            {numWrong ? numWrong.count : 0} <span style={{ fontSize: '17px' }}>wrong</span>
-                          </div>
-                        </CardTopCategory>
-                        <CardBottom>
-                          {category.name}
-                        </CardBottom>
-
-                      </Card>
-                    )
-                  } else {
-                    return null
-                  }
-
-                })}
-              </CardList>
-            </>
+            <ProfileStats
+              student={selectedStudent.value}
+              studentStats={props.content.studentStats}
+              categories={props.content.categories}
+            />
             :
             <Text style={{ color: 'rgba(0,0,0,0.3)', marginTop: '40px' }}>Select a student in the dropdown menu above.</Text>
           }
@@ -147,44 +82,10 @@ const Container = styled.div`
   padding: 30px;
   margin-left: 340px;
 `
-const Title = styled.div`
-  font-family: Gilroy-Bold;
-  font-size: 40px;
-`
-
 const PreHeading = styled(Text)`
   color: rgba(0,0,0,0.3);
   padding-bottom: 40px;
   font-family: Gilroy-Regular;
-`
-
-const Header = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: 40px 0;
-`
-
-const Card = styled.div`
-  background: white;
-  box-shadow: 10px 10px 20px rgba(0,0,0, 0.05);
-  padding: 20px;
-  border-radius: 15px;
-  width: 200px;
-  height: 100px;
-  margin-right: 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  margin-bottom: 20px;
-`
-
-const CardTop = styled.div`
-  font-family: "Gilroy-Bold";
-  font-size: 40px;
-`
-
-const CardBottom = styled.div`
-  color: rgba(0,0,0,0.3);
 `
 
 const DropdownMenu = styled.div`
@@ -193,18 +94,4 @@ const DropdownMenu = styled.div`
   margin-right: 15px;
   width: 400px;
 `
-
-const CardList = styled.div`
-  display: flex;
-  margin-top: 20px;
-  flex-wrap: wrap;
-`
-
-const CardTopCategory = styled.div`
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-`
-
 export default connect(mapStateToProps, mapDispatchToProps)(Dashboard)

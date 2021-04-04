@@ -12,6 +12,7 @@ import Login from './screens/Login'
 import Practice from './screens/Practice'
 import PracticeTopic from './screens/PracticeTopic'
 import Dashboard from './screens/Dashboard'
+import Profile from './screens/Profile'
 
 import NavBar from './components/Header/NavBar'
 import Loading from './components/Shared/Loading'
@@ -65,6 +66,7 @@ const App = (props) => {
                 <Route path='/practice' component={Practice} />
                 <Route path='/import' component={Import} />
                 <Route path='/dashboard' component={Dashboard} />
+                <Route path='/profile' component={Profile} />
                 <Route path='/mocks' render={(props) => <Home {...props} type={"Mock"} />} />
                 <Route path='/' render={(props) => <Home {...props} type={"Exam"} />} />
               </Switch>

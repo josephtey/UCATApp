@@ -34,6 +34,12 @@ const NavBar = (props) => {
       <UserInfo>
         <span style={{ 'opacity': '0.7' }}>Welcome,</span>
         <span style={{ 'font-size': '20px', 'font-weight': 'bold', 'margin-bottom': '10px' }}>{props.auth.userData.display_name ? props.auth.userData.display_name : props.auth.userData.username}</span>
+        <span style={{ opacity: '0.7', 'cursor': 'pointer' }}
+          onClick={() => {
+            props.history.push('/profile')
+          }}
+        >View Profile</span>
+        <br />
         <span
           style={{ 'opacity': '0.7', 'text-align': 'right', 'width': '100%', 'cursor': 'pointer' }}
           onClick={() => {
