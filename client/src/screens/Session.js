@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux'
-import { getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse, getSessionDetails, resetSessionDetail, finishSession, nextSection } from '../actions/session'
+import { getQuestionDetail, createSession, createResponse, reviewSection, getSessionResponses, flagResponse, getSessionDetails, resetSessionDetail, finishSession, nextSection } from '../actions/session'
 import Loading from '../components/Shared/Loading'
 import styled from 'styled-components'
 import LogoImage from '../assets/in2medlogo.png'
@@ -33,7 +33,7 @@ const keyMap = {
   },
 };
 
-const mapDispatchToProps = { getSessionDetails, resetSessionDetail, finishSession, nextSection, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
+const mapDispatchToProps = { createSession, getSessionDetails, resetSessionDetail, finishSession, nextSection, getQuestionDetail, createResponse, reviewSection, getSessionResponses, flagResponse }
 
 
 const mapStateToProps = (state) => {
@@ -100,7 +100,7 @@ const Session = (props) => {
   const [scratchpadModalIsOpen, setScratchpadModalIsOpen] = useState(false);
   const [calculatorModalIsOpen, setCalculatorModalIsOpen] = useState(false);
   const [explanationModalIsOpen, setExplanationModalIsOpen] = useState(false);
-
+  const [sessionCreated, setSessionCreated] = useState(false)
   const handlers = {
     SHOW_CALCULATOR: () => {
       setCalculatorModalIsOpen(true)
@@ -141,12 +141,24 @@ const Session = (props) => {
   };
 
   useEffect(() => {
-    props.getSessionDetails(props.match.params.session_id, props.auth.userData.student_id)
+    if (props.demo) {
+      props.createSession(165, 39)
+    } else {
+      props.getSessionDetails(props.match.params.session_id, props.auth.userData.student_id)
+    }
+
 
     return () => {
       props.resetSessionDetail()
     }
   }, [])
+
+  useEffect(() => {
+    if (props.demo && props.session.currentSession && !sessionCreated) {
+      props.getSessionDetails(props.session.currentSession.session_id, 39)
+      setSessionCreated(true)
+    }
+  }, [props.session.currentSession])
 
   if (props.session.isFetchingSession) return <Loading duringSession={true} />
   if (!props.session.currentSession || !props.session.currentStructure) return null
@@ -213,6 +225,7 @@ const Session = (props) => {
                 setScratchpadModalIsOpen={setScratchpadModalIsOpen}
                 calculatorModalIsOpen={calculatorModalIsOpen}
                 setCalculatorModalIsOpen={setCalculatorModalIsOpen}
+                demo={props.demo}
               />
               : props.session.mode === "answer" ?
                 <Answer
@@ -226,20 +239,9 @@ const Session = (props) => {
                 : props.session.mode === "start" ?
                   <Start
                     returnHome={() => {
-                      props.history.push(
-                        props.session.currentStructure.type === "Exam" ?
-                          '/exam/' + props.session.currentSession.structure_id
-                          : props.session.currentStructure.type === "Practice" ?
-                            '/practice/' + props.session.currentStructure.category_id
-                            : props.session.currentStructure.type === "Mock" ?
-                              '/mock/' + props.session.currentStructure.structure_id
-                              : null
-                      )
-                    }}
-                  />
-                  : props.session.mode === "results" ?
-                    <Results
-                      returnHome={() => {
+                      if (props.demo) {
+                        props.history.push('/')
+                      } else {
                         props.history.push(
                           props.session.currentStructure.type === "Exam" ?
                             '/exam/' + props.session.currentSession.structure_id
@@ -249,6 +251,25 @@ const Session = (props) => {
                                 '/mock/' + props.session.currentStructure.structure_id
                                 : null
                         )
+                      }
+                    }}
+                  />
+                  : props.session.mode === "results" ?
+                    <Results
+                      returnHome={() => {
+                        if (props.demo) {
+                          props.history.push('/')
+                        } else {
+                          props.history.push(
+                            props.session.currentStructure.type === "Exam" ?
+                              '/exam/' + props.session.currentSession.structure_id
+                              : props.session.currentStructure.type === "Practice" ?
+                                '/practice/' + props.session.currentStructure.category_id
+                                : props.session.currentStructure.type === "Mock" ?
+                                  '/mock/' + props.session.currentStructure.structure_id
+                                  : null
+                          )
+                        }
                       }}
                     />
                     : null

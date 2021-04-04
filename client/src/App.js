@@ -73,7 +73,10 @@ const App = (props) => {
             </>
             :
             <>
-              <Route render={(props) => <Login {...props} setAuthenticated={setAuthenticated} />} />
+              <Switch>
+                <Route path={'/demo'} render={(props) => <Session {...props} demo={true} />} />
+                <Route path='/' render={(props) => <Login {...props} setAuthenticated={setAuthenticated} />} />
+              </Switch>
             </>
           }
         </Router>
