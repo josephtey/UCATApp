@@ -7,7 +7,9 @@ import {
   db_getCategoryDetail,
   db_getCategorySessions,
   db_getCategoryQuestions,
-  db_getCompletedQuestions
+  db_getCompletedQuestions,
+  db_getAllStudents,
+  db_getStudentStatistics
 } from '../api/db';
 
 export const GET_ALL_EXAMS_REQUEST = 'GET_ALL_EXAMS_REQUEST';
@@ -165,9 +167,47 @@ export const resetCategoryDetail = () => {
   }
 }
 
+export const GET_ALL_STUDENTS_REQUEST = 'GET_ALL_STUDENTS_REQUEST';
+export const GET_ALL_STUDENTS_SUCCESS = 'GET_ALL_STUDENTS_SUCCESS';
+export const GET_ALL_STUDENTS_ERROR = 'GET_ALL_STUDENTS_ERROR';
 
+const getAllStudentsRequest = { type: GET_ALL_STUDENTS_REQUEST };
+const getAllStudentsSuccess = (allStudents) => ({ type: GET_ALL_STUDENTS_SUCCESS, allStudents });
+const getAllStudentsError = error => ({ type: GET_ALL_STUDENTS_ERROR, error });
 
+export const getAllStudents = () => async dispatch => {
+  dispatch(getAllStudentsRequest);
+  try {
+    const allStudents = await db_getAllStudents();
 
+    dispatch(getAllStudentsSuccess(
+      allStudents
+    ))
 
+  } catch (error) {
+    dispatch(getAllStudentsError(error));
+  }
+};
 
+export const GET_STUDENT_STATS_REQUEST = 'GET_STUDENT_STATS_REQUEST';
+export const GET_STUDENT_STATS_SUCCESS = 'GET_STUDENT_STATS_SUCCESS';
+export const GET_STUDENT_STATS_ERROR = 'GET_STUDENT_STATS_ERROR';
+
+const getStudentStatsRequest = { type: GET_STUDENT_STATS_REQUEST };
+const getStudentStatsSuccess = (studentStats) => ({ type: GET_STUDENT_STATS_SUCCESS, studentStats });
+const getStudentStatsError = error => ({ type: GET_STUDENT_STATS_ERROR, error });
+
+export const getStudentStats = (student_id) => async dispatch => {
+  dispatch(getStudentStatsRequest);
+  try {
+    const studentStats = await db_getStudentStatistics(student_id);
+
+    dispatch(getStudentStatsSuccess(
+      studentStats
+    ))
+
+  } catch (error) {
+    dispatch(getStudentStatsError(error));
+  }
+};
 

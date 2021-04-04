@@ -26,6 +26,14 @@ import {
   GET_CATEGORY_DETAIL_ERROR,
   RESET_CATEGORY_DETAIL,
 
+  GET_STUDENT_STATS_REQUEST,
+  GET_STUDENT_STATS_SUCCESS,
+  GET_STUDENT_STATS_ERROR,
+
+  GET_ALL_STUDENTS_REQUEST,
+  GET_ALL_STUDENTS_SUCCESS,
+  GET_ALL_STUDENTS_ERROR
+
 } from '../actions/content'
 
 const initialState = {
@@ -35,13 +43,17 @@ const initialState = {
   isFetchingQuestionDetail: false,
   isFetchingSessions: false,
   isFetchingCategories: false,
+  isFetchingStudents: false,
+  isFetchingStudentStats: false,
   error: null,
   allExams: [],
   examDetail: null,
   sectionDetail: null,
   structureSessions: [],
   categories: [],
-  categoryDetail: null
+  categoryDetail: null,
+  allStudents: [],
+  studentStats: null
 }
 
 export default (state = initialState, action) => {
@@ -93,6 +105,20 @@ export default (state = initialState, action) => {
       return { ...state, isFetchingCategoryDetail: false, categoryDetail: action.categoryDetail }
     case GET_CATEGORY_DETAIL_ERROR:
       return { ...state, isFetchingCategoryDetail: false, error: action.error }
+
+    case GET_STUDENT_STATS_REQUEST:
+      return { ...state, isFetchingStudentStats: true }
+    case GET_STUDENT_STATS_SUCCESS:
+      return { ...state, isFetchingStudentStats: false, studentStats: action.studentStats }
+    case GET_STUDENT_STATS_ERROR:
+      return { ...state, isFetchingStudentStats: false, error: action.error }
+
+    case GET_ALL_STUDENTS_REQUEST:
+      return { ...state, isFetchingStudents: true }
+    case GET_ALL_STUDENTS_SUCCESS:
+      return { ...state, isFetchingStudents: false, allStudents: action.allStudents }
+    case GET_ALL_STUDENTS_ERROR:
+      return { ...state, isFetchingStudents: false, error: action.error }
 
     default:
       return state

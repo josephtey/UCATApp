@@ -449,3 +449,15 @@ export const db_updateReviewSession = async (session_id, show) => {
 
   return response.data
 }
+
+export const db_getAllStudents = async () => {
+  const response = await db.get(`/users`)
+
+  return response.data
+}
+
+export const db_getStudentStatistics = async (student_id) => {
+  const response = await db.get(`/users/stats/${student_id}`)
+
+  return response.data
+}
