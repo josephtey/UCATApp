@@ -29,7 +29,7 @@ const Answer = (props) => {
     )
   }, [props.session.newResponse])
 
-  if (!props.session.currentQuestion) return null
+  if (!props.session.currentQuestion || !props.session.currentStem) return null
 
   return (
     <>

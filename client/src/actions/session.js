@@ -344,7 +344,6 @@ export const getQuestionDetail = (question_id, mode = "question") => async dispa
   dispatch(getQuestionDetailRequest);
   try {
     const questionDetail = await db_getQuestionDetail(question_id)
-
     let currentStem
     if (questionDetail.stem_id) {
       currentStem = await db_findStem(questionDetail.stem_id)
