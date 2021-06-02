@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { initUser } from '../actions/auth'
 import styled from 'styled-components'
 import Logo from '../assets/in2medlogo.png'
+import KIS_Logo from '../assets/kislogo.png'
 import { Button } from '../components/Shared/Elements'
 import Loading from '../components/Shared/Loading'
 
@@ -11,10 +12,21 @@ const mapStateToProps = (state) => {
   return state
 }
 
+
 const Login = (props) => {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
+  const [confirmPassword, setConfirmPassword] = useState("")
   const [loading, setLoading] = useState(false)
+
+  const [userbase, setUserbase] = useState("In2Med")
+
+  const clearForm = () => {
+    setUsername("")
+    setPassword("")
+    setConfirmPassword("")
+  }
+
 
   useEffect(() => {
     if (props.auth.userData) {
@@ -25,7 +37,14 @@ const Login = (props) => {
 
   return (
     <Container>
-      <LoginLogo src={Logo} />
+      {userbase === "In2Med" ?
+        <LoginLogo src={Logo} />
+        : userbase === "KIS" || userbase === "KIS_onboard" ?
+          <KISLogo
+            src={KIS_Logo}
+          />
+          : null
+      }
       {loading ?
         <LoadingContainer>
           <Loading
@@ -42,36 +61,110 @@ const Login = (props) => {
               : null
           }
 
-          <LoginBox>
-            <input type="text" placeholder='Email' onChange={e => {
-              setUsername(e.target.value)
-            }} />
-            <input type="password" placeholder='Password' onChange={e => {
-              setPassword(e.target.value)
-            }} />
-            <span
-              style={{
-                "align-self": "flex-end"
-              }}
-            >
-              <Button
-                type="primary"
-                color="orange"
-                label="Login"
-                onClick={async () => {
-                  setLoading(true)
-                  await props.initUser(username, password)
-                  setLoading(false)
-                }}
-              />
-            </span>
-          </LoginBox>
+          {
+            userbase === "KIS_onboard" ?
 
-          <LoginSubtext>
-            Welcome to the UCAT Question Bank! <br /><br /> Login with the same email and password you used for your <b>in2med.com.au</b> account.
-            <br /><br />
-            If you have any issues, feel free to contact us at contactus@in2med.com.au
-          </LoginSubtext>
+              <LoginBox>
+                <input type="text" value={username} placeholder='Email used for KIS' onChange={e => {
+                  setUsername(e.target.value)
+                }} />
+                <input type="password" value={password} placeholder='New Password' onChange={e => {
+                  setPassword(e.target.value)
+                }} />
+                <input type="password" value={confirmPassword} placeholder='Confirm Password' onChange={e => {
+                  setConfirmPassword(e.target.value)
+                }} />
+                <span
+                  style={{
+                    "align-self": "flex-end"
+                  }}
+                >
+                  <Button
+                    type="primary"
+                    color="orange"
+                    label="Generate Account"
+                    onClick={async () => {
+                      setLoading(true)
+                      await props.initUser(username, password)
+                      setLoading(false)
+                    }}
+                  />
+                </span>
+              </LoginBox>
+
+              :
+
+              <LoginBox>
+                <input type="text" value={username} placeholder='Email' onChange={e => {
+                  setUsername(e.target.value)
+                }} />
+                <input type="password" value={password} placeholder='Password' onChange={e => {
+                  setPassword(e.target.value)
+                }} />
+                <span
+                  style={{
+                    "align-self": "flex-end"
+                  }}
+                >
+                  <Button
+                    type="primary"
+                    color="orange"
+                    label="Login"
+                    onClick={async () => {
+                      setLoading(true)
+                      await props.initUser(username, password)
+                      setLoading(false)
+                    }}
+                  />
+                </span>
+              </LoginBox>
+          }
+
+
+          {userbase === "In2Med" ?
+            <LoginSubtext>
+              Welcome to the UCAT Question Bank! <br /><br /> Login with the same email and password you used for your <b>in2med.com.au</b> account.
+            <br /><br /><br />
+              <KIS
+                onClick={() => {
+                  setUserbase("KIS")
+                  clearForm()
+                }}
+              > If you are a <b>KIS</b> customer, click here to login!</KIS>
+            </LoginSubtext>
+            : userbase === "KIS" ?
+              <>
+                <LoginSubtext
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => {
+                    setUserbase("In2Med")
+                    clearForm()
+                  }}
+                >
+                  Return back to In2Med login
+              </LoginSubtext>
+
+                <LoginSubtext
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => {
+                    setUserbase("KIS_onboard")
+                    clearForm()
+                  }}
+                >
+                  If you have not set up your account, click here to onboard your KIS account on In2Med
+              </LoginSubtext>
+              </>
+              : userbase === "KIS_onboard" ?
+                <LoginSubtext
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => {
+                    setUserbase("KIS")
+                    clearForm()
+                  }}
+                >
+                  Return back to KIS login
+              </LoginSubtext>
+                : null}
         </>
       }
 
@@ -79,6 +172,13 @@ const Login = (props) => {
   )
 }
 
+const KIS = styled.span`
+  background: #200CAA;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+`
 const LoginSubtext = styled.div`
   color: grey;
   width: 500px;
@@ -128,6 +228,12 @@ const Container = styled.div`
 const ErrorMessage = styled.div`
   color: red;
   padding: 20px;
+`
+const KISLogo = styled.img`
+  background: #200CAA;
+  width: 100px;
+  padding: 15px;
+  border-radius: 15px;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Login)
