@@ -71,7 +71,7 @@ const PracticeTopic = (props) => {
         </HeaderLeft>
 
         <HeaderRight>
-          {props.content.categoryDetail.sessions.length == 0 || (props.content.categoryDetail.sessions.length > 0 && props.content.categoryDetail.sessions[0].completed) ?
+          {props.content.categoryDetail.sessions.length == 0 || (props.content.categoryDetail.sessions.length > 0 && props.content.categoryDetail.sessions[props.content.categoryDetail.sessions.length - 1].completed) ?
             <DropdownMenu>
               <Text>Number of Questions</Text>
               <Select
@@ -106,7 +106,7 @@ const PracticeTopic = (props) => {
                 />
                 :
                 <>
-                  {props.content.categoryDetail.sessions[0].completed ?
+                  {props.content.categoryDetail.sessions[props.content.categoryDetail.sessions.length - 1].completed ?
                     <Button
                       type="primary"
                       color="orange"
@@ -125,13 +125,13 @@ const PracticeTopic = (props) => {
             </>
             : null}
 
-          {props.content.categoryDetail.sessions.length > 0 && !props.content.categoryDetail.sessions[0].completed ?
+          {props.content.categoryDetail.sessions.length > 0 && !props.content.categoryDetail.sessions[props.content.categoryDetail.sessions.length - 1].completed ?
             <Button
               label={"Resume Practice Session"}
               type="primary"
               color="orange"
               onClick={() => {
-                props.history.push("/session/" + props.content.categoryDetail.sessions[0].session_id)
+                props.history.push("/session/" + props.content.categoryDetail.sessions[props.content.categoryDetail.sessions.length - 1].session_id)
               }}
             />
             : null}
