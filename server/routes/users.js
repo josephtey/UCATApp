@@ -48,6 +48,34 @@ router.post('/', async function (req, res, next) {
     res.send(err)
   }
 });
+router.post('/full', async function (req, res, next) {
+  try {
+    console.log(req.body)
+    let result = await db.users.addFull(req.body)
+    res.send(result)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+router.post('/authenticate', async function (req, res, next) {
+  try {
+    console.log(req.body)
+    let result = await db.users.authenticate(req.body)
+    if (result) {
+      res.send(result)
+    } else {
+      res.send({
+        error: 'wrong_credentials'
+      })
+    }
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
 
 
 

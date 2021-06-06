@@ -43,6 +43,14 @@ class UsersRepository {
       response_stats_false
     }
   }
+
+  async addFull(data) {
+    return this.db.one(sql.addFull, data)
+  }
+
+  async authenticate(data) {
+    return this.db.oneOrNone(sql.authenticate, data)
+  }
 }
 
 module.exports = UsersRepository;

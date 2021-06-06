@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const db = axios.create({
-  // baseURL: 'http://localhost:3000' // LOCAL
+  baseURL: 'http://localhost:3000' // LOCAL
   // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000' // DEV
-  baseURL: 'http://ec2-13-239-117-211.ap-southeast-2.compute.amazonaws.com:3000' // PROD
+  // baseURL: 'http://ec2-13-239-117-211.ap-southeast-2.compute.amazonaws.com:3000' // PROD
 });
 
 export const db_getAllExams = async (type) => {
@@ -164,9 +164,25 @@ export const db_createUser = async (username, display_name, roles) => {
     display_name: display_name ? display_name : null,
     roles
   })
+  return response.data
+}
 
-  console.log(response)
+export const db_createFullUser = async (username, display_name, password, type, company_id) => {
+  const response = await db.post('/users/full', {
+    username,
+    display_name: display_name ? display_name : null,
+    password,
+    type,
+    company_id
+  })
+  return response.data
+}
 
+export const db_authenticateFullUser = async (username, password) => {
+  const response = await db.post('/users/authenticate', {
+    username,
+    password
+  })
   return response.data
 }
 

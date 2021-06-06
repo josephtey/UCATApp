@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux'
-import { initUser } from '../actions/auth'
+import { initUser, initGeneralUser, loginGeneralUser } from '../actions/auth'
 import styled from 'styled-components'
 import Logo from '../assets/in2medlogo.png'
 import KIS_Logo from '../assets/kislogo.png'
 import { Button } from '../components/Shared/Elements'
 import Loading from '../components/Shared/Loading'
 
-const mapDispatchToProps = { initUser }
+const mapDispatchToProps = { initUser, initGeneralUser, loginGeneralUser }
 const mapStateToProps = (state) => {
   return state
 }
@@ -17,9 +17,10 @@ const Login = (props) => {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
-  const [loading, setLoading] = useState(false)
 
+  const [loading, setLoading] = useState(false)
   const [userbase, setUserbase] = useState("In2Med")
+  const [error, setError] = useState(null)
 
   const clearForm = () => {
     setUsername("")
@@ -27,7 +28,19 @@ const Login = (props) => {
     setConfirmPassword("")
   }
 
+  useEffect(() => {
+    const pathName = props.location.pathname
+    const urlParams = new URLSearchParams(props.location.search);
 
+
+    if (pathName == "/kis") {
+      setUserbase("KIS_onboard")
+
+      if (urlParams.has('email')) {
+        setUsername(urlParams.get('email'))
+      }
+    }
+  }, [])
   useEffect(() => {
     if (props.auth.userData) {
       props.setAuthenticated(true)
@@ -58,7 +71,17 @@ const Login = (props) => {
               <ErrorMessage>
                 {props.auth.error}
               </ErrorMessage>
-              : null
+              :
+
+              <>
+                {error ?
+                  <ErrorMessage>
+                    {error}
+                  </ErrorMessage>
+                  :
+                  null
+                }
+              </>
           }
 
           {
@@ -85,7 +108,12 @@ const Login = (props) => {
                     label="Generate Account"
                     onClick={async () => {
                       setLoading(true)
-                      await props.initUser(username, password)
+
+                      if (password === confirmPassword) {
+                        props.initGeneralUser(username, password)
+                      } else {
+                        setError("Passwords do not match!")
+                      }
                       setLoading(false)
                     }}
                   />
@@ -112,7 +140,12 @@ const Login = (props) => {
                     label="Login"
                     onClick={async () => {
                       setLoading(true)
-                      await props.initUser(username, password)
+
+                      if (userbase === "In2Med") {
+                        await props.initUser(username, password)
+                      } else if (userbase === "KIS") {
+                        await props.initGeneralUser(username, password)
+                      }
                       setLoading(false)
                     }}
                   />
