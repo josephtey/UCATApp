@@ -115,7 +115,7 @@ export const loginGeneralUser = (email, password) => async dispatch => {
   try {
     const db_userData = await db_authenticateFullUser(email, password)
 
-    if (!db_userData.error) {
+    if (!db_userData.error && db_userData.username) {
       const kis_userData = await kis_verifyUser("email", email)
 
       // If user exists

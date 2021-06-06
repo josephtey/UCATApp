@@ -166,6 +166,7 @@ const Login = (props) => {
                 onClick={() => {
                   setUserbase("KIS")
                   clearForm()
+                  setEmailDisabled(false)
                 }}
               > If you are a <b>KIS</b> customer, click here to login!</KIS>
             </LoginSubtext>
