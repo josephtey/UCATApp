@@ -27,6 +27,7 @@ const Login = (props) => {
     setUsername("")
     setPassword("")
     setConfirmPassword("")
+    setEmailDisabled(false)
   }
 
   useEffect(() => {
@@ -166,7 +167,6 @@ const Login = (props) => {
                 onClick={() => {
                   setUserbase("KIS")
                   clearForm()
-                  setEmailDisabled(false)
                 }}
               > If you are a <b>KIS</b> customer, click here to login!</KIS>
             </LoginSubtext>
