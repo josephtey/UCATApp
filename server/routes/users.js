@@ -1,5 +1,6 @@
 var express = require('express');
 var axios = require('axios')
+var jwt = require('express-jwt');
 
 const kis = axios.create({
   baseURL: 'https://api.kisacademics.com/api/in2med/' // PROD
@@ -69,6 +70,7 @@ router.post('/full', async function (req, res, next) {
     res.send(err)
   }
 });
+// router.post('/authenticate', jwt({ secret: 'secret', algorithms: ['HS256'] }), async function (req, res, next) {
 router.post('/authenticate', async function (req, res, next) {
   try {
     console.log(req.body)

@@ -7,5 +7,6 @@ import logger from 'redux-logger'
 
 export default createStore(
   combineReducers({ content, session, auth }),
-  applyMiddleware(thunk, logger)
+  // applyMiddleware(thunk, logger)
+  applyMiddleware(thunk)
 );
