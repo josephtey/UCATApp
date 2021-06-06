@@ -21,6 +21,7 @@ const Login = (props) => {
   const [loading, setLoading] = useState(false)
   const [userbase, setUserbase] = useState("In2Med")
   const [error, setError] = useState(null)
+  const [emailedDisabled, setEmailDisabled] = useState(false)
 
   const clearForm = () => {
     setUsername("")
@@ -38,6 +39,7 @@ const Login = (props) => {
 
       if (urlParams.has('email')) {
         setUsername(urlParams.get('email'))
+        setEmailDisabled(true)
       }
     }
   }, [])
@@ -62,6 +64,7 @@ const Login = (props) => {
         <LoadingContainer>
           <Loading
             duringSession={true}
+            customColor={userbase === "In2Med" ? '#f89800' : userbase === "KIS" || userbase === "KIS_onboard" ? "#200CAA" : "#f89800"}
           />
         </LoadingContainer>
         :
@@ -72,23 +75,14 @@ const Login = (props) => {
                 {props.auth.error}
               </ErrorMessage>
               :
-
-              <>
-                {error ?
-                  <ErrorMessage>
-                    {error}
-                  </ErrorMessage>
-                  :
-                  null
-                }
-              </>
+              null
           }
 
           {
             userbase === "KIS_onboard" ?
 
               <LoginBox>
-                <input type="text" value={username} placeholder='Email used for KIS' onChange={e => {
+                <input type="text" value={username} disabled={emailedDisabled} placeholder='Email used for KIS' onChange={e => {
                   setUsername(e.target.value)
                 }} />
                 <input type="password" value={password} placeholder='New Password' onChange={e => {
@@ -97,6 +91,15 @@ const Login = (props) => {
                 <input type="password" value={confirmPassword} placeholder='Confirm Password' onChange={e => {
                   setConfirmPassword(e.target.value)
                 }} />
+                <>
+                  {error ?
+                    <ErrorMessage>
+                      {error}
+                    </ErrorMessage>
+                    :
+                    null
+                  }
+                </>
                 <span
                   style={{
                     "align-self": "flex-end"
@@ -104,13 +107,14 @@ const Login = (props) => {
                 >
                   <Button
                     type="primary"
-                    color="orange"
+                    color="blue"
                     label="Generate Account"
                     onClick={async () => {
                       setLoading(true)
 
                       if (password === confirmPassword) {
-                        props.initGeneralUser(username, password)
+                        setError(null)
+                        await props.initGeneralUser(username, password, "KIS")
                       } else {
                         setError("Passwords do not match!")
                       }
@@ -136,7 +140,7 @@ const Login = (props) => {
                 >
                   <Button
                     type="primary"
-                    color="orange"
+                    color={userbase === "In2Med" ? "orange" : userbase === "KIS" ? "blue" : "orange"}
                     label="Login"
                     onClick={async () => {
                       setLoading(true)
@@ -144,7 +148,7 @@ const Login = (props) => {
                       if (userbase === "In2Med") {
                         await props.initUser(username, password)
                       } else if (userbase === "KIS") {
-                        await props.initGeneralUser(username, password)
+                        await props.loginGeneralUser(username, password)
                       }
                       setLoading(false)
                     }}
@@ -166,7 +170,7 @@ const Login = (props) => {
               > If you are a <b>KIS</b> customer, click here to login!</KIS>
             </LoginSubtext>
             : userbase === "KIS" ?
-              <>
+              <LoginBottom>
                 <LoginSubtext
                   style={{ cursor: 'pointer' }}
                   onClick={() => {
@@ -174,7 +178,7 @@ const Login = (props) => {
                     clearForm()
                   }}
                 >
-                  Return back to In2Med login
+                  Back to In2Med login
               </LoginSubtext>
 
                 <LoginSubtext
@@ -184,9 +188,9 @@ const Login = (props) => {
                     clearForm()
                   }}
                 >
-                  If you have not set up your account, click here to onboard your KIS account on In2Med
+                  Setup Account
               </LoginSubtext>
-              </>
+              </LoginBottom>
               : userbase === "KIS_onboard" ?
                 <LoginSubtext
                   style={{ cursor: 'pointer' }}
@@ -267,6 +271,12 @@ const KISLogo = styled.img`
   width: 100px;
   padding: 15px;
   border-radius: 15px;
+  margin-bottom: 45px;
+`
+
+const LoginBottom = styled.div`
+  display: flex;
+  flex-direction: column;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Login)

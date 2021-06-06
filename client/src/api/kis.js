@@ -1,16 +1,16 @@
 import axios from 'axios'
 
 const kis = axios.create({
-  baseURL: 'https://api.kisacademics.com/api/in2med/' // PROD
+  baseURL: 'http://localhost:3000' // LOCAL
+  // baseURL: 'http://ec2-3-26-34-195.ap-southeast-2.compute.amazonaws.com:3000' // DEV
+  // baseURL: 'http://ec2-13-239-117-211.ap-southeast-2.compute.amazonaws.com:3000' // PROD
 });
-
-kis.defaults.headers = {
-  'x-api-key': '2e6833da-a587-43bb-849e-4ab641b97ee3'
-}
 
 
 export const kis_verifyUser = async (verifier, value) => {
-  const response = await kis.get(`ucatenrolment?${verifier}=${value}`)
-
+  const response = await kis.post('/users/kis/verify', {
+    verifier,
+    value
+  })
   return response.data
 }

@@ -23,7 +23,7 @@ const NavBar = (props) => {
     }
   }, [props.location.pathname])
 
-  if (!visible || !props.auth.userData) return null
+  if (!visible || !props.auth.userData || !props.location.pathname) return null
 
   return (
     <Container>
@@ -77,7 +77,7 @@ const NavBar = (props) => {
           Practice
         </NavItem>
 
-        {props.auth.userData.roles.includes("administrator") ?
+        {props.auth.userData.roles && props.auth.userData.roles.includes("administrator") ?
           <NavItem
             active={props.location.pathname.includes("import")}
             onClick={() => {

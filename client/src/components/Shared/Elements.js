@@ -59,17 +59,17 @@ export const Button = ({ type, label, color, onClick }) => {
   return (
     <Container
       onClick={onClick}
-      color={color === "teal" ? '#2ecfb0' : '#f89800'}
+      color={color === "teal" ? '#2ecfb0' : color === "blue" ? '#200CAA' : '#f89800'}
     >
       {type === "primary" ?
         <ButtonPrimary
-          color={color === "teal" ? '#2ecfb0' : '#f89800'}
+          color={color === "teal" ? '#2ecfb0' : color === "blue" ? '#200CAA' : '#f89800'}
         >
           {label}
         </ButtonPrimary>
         : type === "secondary" ?
           <ButtonSecondary
-            color={color === "teal" ? '#2ecfb0' : '#f89800'}
+            color={color === "teal" ? '#2ecfb0' : color === "blue" ? '#200CAA' : '#f89800'}
           >
             {label}
           </ButtonSecondary>

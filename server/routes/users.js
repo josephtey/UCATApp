@@ -1,4 +1,14 @@
 var express = require('express');
+var axios = require('axios')
+
+const kis = axios.create({
+  baseURL: 'https://api.kisacademics.com/api/in2med/' // PROD
+});
+
+kis.defaults.headers = {
+  'x-api-key': '2e6833da-a587-43bb-849e-4ab641b97ee3'
+}
+
 
 const { db } = require('../db');
 
@@ -77,6 +87,18 @@ router.post('/authenticate', async function (req, res, next) {
   }
 });
 
+
+router.post('/kis/verify', async function (req, res, next) {
+  try {
+    const response = await kis.get(`ucatenrolment?${req.body.verifier}=${req.body.value}`)
+
+    res.send(response.data)
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
 
 
 module.exports = router;

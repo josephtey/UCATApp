@@ -79,9 +79,10 @@ export const initGeneralUser = (email, password, type) => async dispatch => {
 
         // If user doesn't already exist in MY db
         if (userExists == "") {
-          db_userData = await db_createFullUser(userData.user.email, userData.user.full_name, password, userData.user.id, type)
+          db_userData = await db_createFullUser(userData.user.email, userData.user.full_name, password, type, userData.user.id)
 
           // Set cookie
+          delete db_userData.password
           const token = jwt.sign(db_userData, 'secret')
           setCookie("jwt", token, 1)
 
@@ -114,7 +115,7 @@ export const loginGeneralUser = (email, password) => async dispatch => {
   try {
     const db_userData = await db_authenticateFullUser(email, password)
 
-    if (db_userData) {
+    if (!db_userData.error) {
       const kis_userData = await kis_verifyUser("email", email)
 
       // If user exists
@@ -124,10 +125,11 @@ export const loginGeneralUser = (email, password) => async dispatch => {
         if (!kis_userData.enrolment.expired) {
 
           // Set cookie
+          delete db_userData.password
           const token = jwt.sign(db_userData, 'secret')
           setCookie("jwt", token, 1)
 
-          dispatch(initGeneralUserSuccess(db_userData))
+          dispatch(loginGeneralUserSuccess(db_userData))
 
         } else {
           dispatch(loginGeneralUserError("Your access to the UCAT platform has expired."));
@@ -135,9 +137,9 @@ export const loginGeneralUser = (email, password) => async dispatch => {
       } else {
         dispatch(loginGeneralUserError("This account does not exist on the KIS platform."));
       }
+    } else {
+      dispatch(loginGeneralUserError("Wrong credentials."));
     }
-
-    dispatch(loginGeneralUserSuccess(db_userData))
 
   } catch (error) {
     dispatch(loginGeneralUserError("Failed. Unexpected error."));
