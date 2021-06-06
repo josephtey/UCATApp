@@ -56,9 +56,12 @@ const Login = (props) => {
       {userbase === "In2Med" ?
         <LoginLogo src={Logo} />
         : userbase === "KIS" || userbase === "KIS_onboard" ?
-          <KISLogo
-            src={KIS_Logo}
-          />
+          <Logos>
+            <LoginLogo src={Logo} />
+            <KISLogo
+              src={KIS_Logo}
+            />
+          </Logos>
           : null
       }
       {loading ?
@@ -83,6 +86,10 @@ const Login = (props) => {
             userbase === "KIS_onboard" ?
 
               <LoginBox>
+                <LoginBoxTitle>
+                  Setup your In2Med account
+                </LoginBoxTitle>
+
                 <input type="text" value={username} disabled={emailedDisabled} placeholder='Email used for KIS' onChange={e => {
                   setUsername(e.target.value)
                 }} />
@@ -128,6 +135,9 @@ const Login = (props) => {
               :
 
               <LoginBox>
+                <LoginBoxTitle>
+                  {userbase} Login
+                </LoginBoxTitle>
                 <input type="text" value={username} placeholder='Email' onChange={e => {
                   setUsername(e.target.value)
                 }} />
@@ -175,6 +185,16 @@ const Login = (props) => {
                 <LoginSubtext
                   style={{ cursor: 'pointer' }}
                   onClick={() => {
+                    setUserbase("KIS_onboard")
+                    clearForm()
+                  }}
+                >
+                  Setup Account
+              </LoginSubtext>
+
+                <LoginSubtext
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => {
                     setUserbase("In2Med")
                     clearForm()
                   }}
@@ -182,15 +202,6 @@ const Login = (props) => {
                   Back to In2Med login
               </LoginSubtext>
 
-                <LoginSubtext
-                  style={{ cursor: 'pointer' }}
-                  onClick={() => {
-                    setUserbase("KIS_onboard")
-                    clearForm()
-                  }}
-                >
-                  Setup Account
-              </LoginSubtext>
               </LoginBottom>
               : userbase === "KIS_onboard" ?
                 <LoginSubtext
@@ -200,7 +211,7 @@ const Login = (props) => {
                     clearForm()
                   }}
                 >
-                  Return back to KIS login
+                  Back to KIS login
               </LoginSubtext>
                 : null}
         </>
@@ -210,6 +221,10 @@ const Login = (props) => {
   )
 }
 
+const LoginBoxTitle = styled.div`
+  margin-bottom: 20px;
+  opacity: 0.5;
+`
 const KIS = styled.span`
   background: #200CAA;
   color: white;
@@ -273,11 +288,19 @@ const KISLogo = styled.img`
   padding: 15px;
   border-radius: 15px;
   margin-bottom: 45px;
+  margin-left: 20px;
 `
 
 const LoginBottom = styled.div`
   display: flex;
   flex-direction: column;
+`
+
+const Logos = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Login)
