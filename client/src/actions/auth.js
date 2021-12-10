@@ -8,6 +8,10 @@ import {
 import {
   kis_verifyUser
 } from '../api/kis';
+import {
+  uk_authenticateUser,
+  uk_verifyEnrollment
+} from '../api/uk';
 import { getCookie, setCookie, eraseCookie } from '../utils/helpers'
 var jwt = require('jsonwebtoken')
 
@@ -31,6 +35,8 @@ export const initUser = (username, password) => async dispatch => {
     if (response.success) {
       const userInfo = jwt.decode(response.data.jwt)
 
+      console.log(userInfo)
+
       if (userInfo.roles.includes("ucat_content_subscriber")) {
 
         const userExists = await db_userExists(userInfo.username)
@@ -50,7 +56,51 @@ export const initUser = (username, password) => async dispatch => {
       }
     }
   } catch (error) {
+    console.log(error)
     dispatch(initUserError("Wrong credentials. Try again."));
+  }
+};
+
+export const LOGIN_UK_REQUEST = 'LOGIN_UK_REQUEST';
+export const LOGIN_UK_SUCCESS = 'LOGIN_UK_SUCCESS';
+export const LOGIN_UK_ERROR = 'LOGIN_UK_ERROR';
+
+const loginUKRequest = { type: LOGIN_UK_REQUEST };
+const loginUKSuccess = (userData) => ({ type: LOGIN_UK_SUCCESS, userData });
+const loginUKError = error => ({ type: LOGIN_UK_ERROR, error });
+
+export const loginUK = (username, password) => async dispatch => {
+  dispatch(loginUKRequest);
+  try {
+
+    const response = await uk_authenticateUser(username, password)
+    let userData
+
+    if (response.success) {
+      const userInfo = jwt.decode(response.data.jwt);
+      const isEnrolled = await uk_verifyEnrollment(userInfo.id);
+
+      if (isEnrolled) {
+
+        const userExists = await db_userExists(userInfo.username)
+
+        if (userExists == "") {
+          userData = await db_createUser(userInfo.username, userInfo.display_name, ["ucat_content_subscriber", "in2med_uk_user"]);
+        } else {
+          userData = userExists
+        }
+
+        const token = jwt.sign(userData, 'secret')
+        setCookie("jwt", token, 1)
+
+        dispatch(loginUKSuccess(userData))
+      } else {
+        dispatch(loginUKError("You have not purchased the UCAT plan."));
+      }
+    }
+  } catch (error) {
+    console.log(error)
+    dispatch(loginUKError("Wrong credentials. Try again."));
   }
 };
 
@@ -115,10 +165,11 @@ export const loginGeneralUser = (email, password) => async dispatch => {
   try {
     const db_userData = await db_authenticateFullUser(email, password)
 
+    // if the user doens't exist in the local database system
     if (!db_userData.error && db_userData.username) {
       const kis_userData = await kis_verifyUser("email", email)
 
-      // If user exists
+      // If user exists in the KIS system
       if (kis_userData.user && kis_userData.enrolment) {
 
         // If user is not expired

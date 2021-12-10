@@ -12,7 +12,6 @@ const mapStateToProps = (state) => {
   return state
 }
 
-
 const Login = (props) => {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
@@ -57,7 +56,6 @@ const Login = (props) => {
         <LoginLogo src={Logo} />
         : userbase === "KIS" || userbase === "KIS_onboard" ?
           <Logos>
-            <LoginLogo src={Logo} />
             <KISLogo
               src={KIS_Logo}
             />
@@ -116,7 +114,7 @@ const Login = (props) => {
                   <Button
                     type="primary"
                     color="blue"
-                    label="Generate Account"
+                    label="Create Account"
                     onClick={async () => {
                       setLoading(true)
 
@@ -135,9 +133,6 @@ const Login = (props) => {
               :
 
               <LoginBox>
-                <LoginBoxTitle>
-                  {userbase} Login
-                </LoginBoxTitle>
                 <input type="text" value={username} placeholder='Email' onChange={e => {
                   setUsername(e.target.value)
                 }} />
@@ -170,16 +165,24 @@ const Login = (props) => {
 
 
           {userbase === "In2Med" ?
-            <LoginSubtext>
-              Welcome to the UCAT Question Bank! <br /><br /> Login with the same email and password you used for your <b>in2med.com.au</b> account.
-            <br /><br /><br />
-              <KIS
-                onClick={() => {
-                  setUserbase("KIS")
-                  clearForm()
-                }}
-              > If you are a <b>KIS</b> customer, click here to login!</KIS>
+            // <LoginSubtext>
+            //   Welcome to the UCAT Question Bank! <br /><br /> Login with the same email and password you used for your <b>in2med.com.au</b> account.
+
+            // <br /><br /><br />
+            // </LoginSubtext>
+
+            <LoginSubtext
+              style={{
+                cursor: 'pointer'
+              }}
+              onClick={() => {
+                setUserbase("KIS")
+                clearForm()
+              }}
+            >
+              KIS Login
             </LoginSubtext>
+
             : userbase === "KIS" ?
               <LoginBottom>
                 <LoginSubtext
@@ -192,15 +195,13 @@ const Login = (props) => {
                   Setup Account
               </LoginSubtext>
 
-                <LoginSubtext
-                  style={{ cursor: 'pointer' }}
+                <LoginLogoSmaller
                   onClick={() => {
                     setUserbase("In2Med")
                     clearForm()
                   }}
-                >
-                  Back to In2Med login
-              </LoginSubtext>
+                  src={Logo}
+                />
 
               </LoginBottom>
               : userbase === "KIS_onboard" ?
@@ -233,10 +234,16 @@ const KIS = styled.span`
   cursor: pointer;
 `
 const LoginSubtext = styled.div`
-  color: grey;
+  color: rgba(0,0,0,0.2);
   width: 500px;
   margin-top: 30px;
   text-align: center;
+  transition: color 1s ease;
+
+  &:hover{
+    color: rgba(0,0,0,0.5);
+    transition: color 1s ease;
+  }
 `
 
 const LoadingContainer = styled.div`
@@ -246,6 +253,22 @@ const LoginLogo = styled.img`
   width: 150px;
   margin-bottom: 20px;
 `
+
+const LoginLogoSmaller = styled.img`
+  width: 70px;
+  opacity: 0.5;
+  display: flex;
+  margin: 25px 0;
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: all ease 1s;
+
+  &:hover {
+    filter: grayscale(0.5);
+    transition: all ease 1s;
+  }
+`
+
 const LoginBox = styled.div`
   display: flex;
   flex-direction: column;
@@ -294,6 +317,9 @@ const KISLogo = styled.img`
 const LoginBottom = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
 `
 
 const Logos = styled.div`
