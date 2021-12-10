@@ -170,18 +170,31 @@ const Login = (props) => {
 
             // <br /><br /><br />
             // </LoginSubtext>
+            <BottomSubText>
+              <LoginSubtext
+                style={{
+                  cursor: 'pointer'
+                }}
+                onClick={() => {
+                  setUserbase("KIS")
+                  clearForm()
+                }}
+              >
+                KIS Login
+              </LoginSubtext>
 
-            <LoginSubtext
-              style={{
-                cursor: 'pointer'
-              }}
-              onClick={() => {
-                setUserbase("KIS")
-                clearForm()
-              }}
-            >
-              KIS Login
-            </LoginSubtext>
+              <LoginSubtext
+                style={{
+                  cursor: 'pointer'
+                }}
+                onClick={() => {
+                  props.history.push('/in2meduk')
+                }}
+              >
+                UK Login
+              </LoginSubtext>
+
+            </BottomSubText>
 
             : userbase === "KIS" ?
               <LoginBottom>
@@ -235,7 +248,7 @@ const KIS = styled.span`
 `
 const LoginSubtext = styled.div`
   color: rgba(0,0,0,0.2);
-  width: 500px;
+  width: 200px;
   margin-top: 30px;
   text-align: center;
   transition: color 1s ease;
@@ -327,6 +340,11 @@ const Logos = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+`
+
+const BottomSubText = styled.div`
+  display: flex;
+  flex-direction: row;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(Login)

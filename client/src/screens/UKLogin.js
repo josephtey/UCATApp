@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { loginUK } from '../actions/auth'
 import styled from 'styled-components'
 import Logo from '../assets/in2medlogo.png'
+import UKLoginLogo from '../assets/in2meduk.svg'
 import { Button } from '../components/Shared/Elements'
 import Loading from '../components/Shared/Loading'
 
@@ -26,12 +27,13 @@ const UKLogin = (props) => {
 
   return (
     <Container>
-      <LoginLogo src={Logo} />
+
+      <LoginLogo src={UKLoginLogo} />
       {loading ?
         <LoadingContainer>
           <Loading
             duringSession={true}
-            customColor={"#f89800"}
+            customColor={"#1B5B63"}
           />
         </LoadingContainer>
         :
@@ -57,18 +59,28 @@ const UKLogin = (props) => {
                 "align-self": "flex-end"
               }}
             >
-              <Button
+              <ButtonPrimary
                 type="primary"
-                color={"orange"}
-                label="Login"
+                color={"#1A515F"}
                 onClick={async () => {
                   setLoading(true)
 
-                  props.loginUK(username, password);
+                  await props.loginUK(username, password);
+
+                  setLoading(false);
                 }}
-              />
+              >
+                Login
+              </ButtonPrimary>
             </span>
           </LoginBox>
+
+          <LoginLogoSmaller
+            onClick={() => {
+              props.history.push('/')
+            }}
+            src={Logo}
+          />
         </>
       }
 
@@ -76,13 +88,27 @@ const UKLogin = (props) => {
   )
 }
 
+const LoginLogoSmaller = styled.img`
+  width: 70px;
+  opacity: 0.5;
+  display: flex;
+  margin: 25px 0;
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: all ease 1s;
+
+  &:hover {
+    filter: grayscale(0.5);
+    transition: all ease 1s;
+  }
+`
 
 const LoadingContainer = styled.div`
   margin: 70px 0;
 `
 const LoginLogo = styled.img`
-  width: 150px;
-  margin-bottom: 20px;
+  width: 125px;
+  margin-bottom: 40px;
 `
 
 const LoginBox = styled.div`
@@ -120,6 +146,15 @@ const Container = styled.div`
 const ErrorMessage = styled.div`
   color: red;
   padding: 20px;
+`
+
+const ButtonPrimary = styled.div`
+  background: ${props => props.color};
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-family: Gilroy-SemiBold;
+  cursor: pointer;
 `
 
 export default connect(mapStateToProps, mapDispatchToProps)(UKLogin)

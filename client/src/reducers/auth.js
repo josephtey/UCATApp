@@ -14,6 +14,10 @@ import {
   LOGIN_GENERAL_USER_REQUEST,
   LOGIN_GENERAL_USER_SUCCESS,
   LOGIN_GENERAL_USER_ERROR,
+
+  LOGIN_UK_REQUEST,
+  LOGIN_UK_SUCCESS,
+  LOGIN_UK_ERROR,
 } from '../actions/auth'
 
 const initialState = {
@@ -44,6 +48,13 @@ export default (state = initialState, action) => {
     case LOGIN_GENERAL_USER_SUCCESS:
       return { ...state, isLoggingIn: false, userData: action.userData }
     case LOGIN_GENERAL_USER_ERROR:
+      return { ...state, isLoggingIn: false, error: action.error }
+
+    case LOGIN_UK_REQUEST:
+      return { ...state, isLoggingIn: true }
+    case LOGIN_UK_SUCCESS:
+      return { ...state, isLoggingIn: false, userData: action.userData }
+    case LOGIN_UK_ERROR:
       return { ...state, isLoggingIn: false, error: action.error }
 
     case GET_USER:

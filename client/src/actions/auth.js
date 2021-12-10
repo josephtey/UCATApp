@@ -97,6 +97,8 @@ export const loginUK = (username, password) => async dispatch => {
       } else {
         dispatch(loginUKError("You have not purchased the UCAT plan."));
       }
+    } {
+      dispatch(loginUKError("Your account does not exist on the In2Med UK system."));
     }
   } catch (error) {
     console.log(error)
