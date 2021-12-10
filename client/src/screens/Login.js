@@ -191,7 +191,7 @@ const Login = (props) => {
                   props.history.push('/in2meduk')
                 }}
               >
-                UK Login
+                In2Med UK Login
               </LoginSubtext>
 
             </BottomSubText>
