@@ -2,8 +2,17 @@ var express = require('express');
 var axios = require('axios')
 var jwt = require('express-jwt');
 
+const uk = axios.create({
+  baseURL: 'https://in2med.co.uk'
+});
+
+uk.defaults.headers = {
+  'X-LLMS-CONSUMER-KEY': 'ck_68cb7ccc6a325899ef001cf91d280eb0a2ea95d0',
+  'X-LLMS-CONSUMER-SECRET': 'cs_d6d11faf3c935547ccc1f81a2799ed6cbddea12e',
+}
+
 const kis = axios.create({
-  baseURL: 'https://api.kisacademics.com/api/in2med/' // PROD
+  baseURL: 'https://api.kisacademics.com/api/in2med/'
 });
 
 kis.defaults.headers = {
@@ -101,6 +110,40 @@ router.post('/kis/verify', async function (req, res, next) {
     res.send(err)
   }
 });
+
+router.post('/uk/auth', async function (req, res, next) {
+  try {
+    const response = await uk.post('/?rest_route=/simple-jwt-login/v1/auth', {
+      email: req.body.email,
+      password: req.body.password
+    })
+
+    res.send(response.data)
+
+  } catch (err) {
+    res.send(
+      {
+        "success": false
+      }
+    )
+  }
+});
+
+router.post('/uk/verify', async function (req, res, next) {
+  try {
+    const response = await uk.get(`/wp-json/llms/v1/students/${req.body.student_id}/enrollments`)
+    const enrolled = response.data.find(course => course.post_id === 19298).status === "enrolled";
+
+    res.send({
+      enrolled
+    })
+
+  } catch (err) {
+    console.log(err)
+    res.send(err)
+  }
+});
+
 
 
 module.exports = router;

@@ -9,6 +9,7 @@ import Home from './screens/Home'
 import Exam from './screens/Exam'
 import Session from './screens/Session'
 import Login from './screens/Login'
+import UKLogin from './screens/UKLogin'
 import Practice from './screens/Practice'
 import PracticeTopic from './screens/PracticeTopic'
 import Dashboard from './screens/Dashboard'
@@ -76,6 +77,7 @@ const App = (props) => {
             <>
               <Switch>
                 <Route path={'/demo'} render={(props) => <Session {...props} demo={true} />} />
+                <Route path='/in2meduk' render={(props) => <UKLogin {...props} setAuthenticated={setAuthenticated} />} />
                 <Route path='/' render={(props) => <Login {...props} setAuthenticated={setAuthenticated} />} />
               </Switch>
             </>
