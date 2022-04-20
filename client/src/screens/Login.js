@@ -196,6 +196,8 @@ const Login = (props) => {
 
             </BottomSubText>
 
+
+
             : userbase === "KIS" ?
               <LoginBottom>
                 <LoginSubtext
@@ -230,11 +232,28 @@ const Login = (props) => {
                 : null}
         </>
       }
-
+      <ContactEmail>
+        If you have issues logging in, email <Email href="mailto:contactus@in2med.com.au">contactus@in2med.com.au</Email>
+      </ContactEmail>
     </Container>
   )
 }
 
+const Email = styled.a`
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  opacity: 0.2;
+`
+const ContactEmail = styled.div`
+  color: rgba(0,0,0,0.2);
+  width: 400px;
+  margin-top: 30px;
+  text-align: center;
+  transition: color 1s ease;
+  position: absolute;
+  bottom: 50px;
+`
 const LoginBoxTitle = styled.div`
   margin-bottom: 20px;
   opacity: 0.5;

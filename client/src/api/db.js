@@ -12,7 +12,7 @@ export const db_getAllExams = async (type) => {
   return response.data
 }
 
-
+  
 export const db_getExamDetail = async (structure_id) => {
   const response = await db.get('/structures/' + structure_id.toString())
   return response.data

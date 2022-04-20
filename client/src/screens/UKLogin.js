@@ -4,7 +4,6 @@ import { loginUK } from '../actions/auth'
 import styled from 'styled-components'
 import Logo from '../assets/in2medlogo.png'
 import UKLoginLogo from '../assets/in2meduk.svg'
-import { Button } from '../components/Shared/Elements'
 import Loading from '../components/Shared/Loading'
 
 const mapDispatchToProps = { loginUK }
@@ -83,11 +82,28 @@ const UKLogin = (props) => {
           />
         </>
       }
-
+      <ContactEmail>
+        If you have issues logging in, email <Email href="mailto:contactus@in2med.com.au">contactus@in2med.com.au</Email>
+      </ContactEmail>
     </Container>
   )
 }
 
+const Email = styled.a`
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  opacity: 0.2;
+`
+const ContactEmail = styled.div`
+  color: rgba(0,0,0,0.2);
+  width: 400px;
+  margin-top: 30px;
+  text-align: center;
+  transition: color 1s ease;
+  position: absolute;
+  bottom: 50px;
+`
 const LoginLogoSmaller = styled.img`
   width: 70px;
   opacity: 0.5;
