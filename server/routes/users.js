@@ -132,7 +132,7 @@ router.post('/uk/auth', async function (req, res, next) {
 router.post('/uk/verify', async function (req, res, next) {
   try {
     const response = await uk.get(`/wp-json/llms/v1/students/${req.body.student_id}/enrollments`)
-    const enrolled = response.data.find(course => course.post_id === 19298).status === "enrolled";
+    const enrolled = response.data.find(course => course.post_id === 19298 || course.post_id === 28756).status === "enrolled";
 
     res.send({
       enrolled
